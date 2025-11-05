@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "name": "handmade (Minecraft 1.20.1)",
     "description": "handmade Running Minecraft 1.20.1 (Fabric v0.17.3)",
-    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+    "icon": "https://github.com/mchdistro/handmade/raw/main/icon.png",
     "address": "localhost:25565",
     "discord": {
       "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
