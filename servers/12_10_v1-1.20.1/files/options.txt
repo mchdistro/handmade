@@ -1,0 +1,9 @@
+version:3465
+lang:ko_kr
+narrator:0
+tutorialStep:none
+skipMultiplayerWarning:true
+allowServerListing:true
+onboardAccessibility:false
+key_key.chat:key.keyboard.enter
+soundCategory_music:0.0

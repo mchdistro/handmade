@@ -8,122 +8,999 @@
   },
   "servers": [
     {
-      "id": "handmade-1.20.1",
-      "name": "handmade (Minecraft 1.20.1)",
-      "description": "handmade Running Minecraft 1.20.1 (Fabric v0.17.3)",
-      "icon": "https://github.com/mchdistro/handmade/raw/main/icon.png",
-      "version": "1.0.0",
-      "address": "localhost:25565",
+      "id": "12_10_v1-1.20.1",
+      "name": "힐링서버",
+      "description": "Minecraft 1.20.1 (Forge v47.4.12)",
+      "icon": "https://github.com/mchdistro/mondayPushes/raw/main/server-icon.png",
+      "version": "0.0.1",
+      "address": "mc.gotiger.dev:20007",
       "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": false,
-      "autoconnect": false,
+      "mainServer": true,
+      "autoconnect": true,
+      "javaOptions": {
+        "supported": "21",
+        "suggestedMajor": 21,
+        "platformOptions": [
+          {
+            "platform": "win32",
+            "architecture": "x64",
+            "distribution": "TEMURIN"
+          }
+        ],
+        "ram": {
+          "minimum": 8192,
+          "recommended": 10000
+        }
+      },
       "modules": [
         {
-          "id": "net.fabricmc:fabric-loader:0.17.3",
-          "name": "Fabric (fabric-loader)",
-          "type": "Fabric",
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.12",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
           "artifact": {
-            "size": 1917330,
-            "MD5": "54e368d0ccdcb9109a63f048e26526b0",
-            "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/net/fabricmc/fabric-loader/0.17.3/fabric-loader-0.17.3.jar"
+            "size": 7400,
+            "MD5": "db8d4796a14145be81761cb89ae5db3c",
+            "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.4.12/lowcodelanguage-1.20.1-47.4.12.jar"
           },
           "subModules": [
             {
-              "id": "1.20.1-fabric-0.17.3",
-              "name": "Fabric (version.json)",
+              "id": "1.20.1-47.4.12",
+              "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 2847,
-                "MD5": "59e0dd3fd785f5ffb6551302b40160e4",
-                "url": "https://github.com/mchdistro/handmade/raw/main/repo/versions/1.20.1-fabric-0.17.3/1.20.1-fabric-0.17.3.json"
+                "size": 16554,
+                "MD5": "7908175696ddc579d88a61e99c7d1d71",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/versions/1.20.1-forge-47.4.12/1.20.1-forge-47.4.12.json"
               }
             },
             {
-              "id": "org.ow2.asm:asm:9.9",
-              "name": "Fabric (asm)",
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.4.12",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 118913,
+                "MD5": "664e0ddaf90c5032ef090b3822b698f8",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.4.12/fmlcore-1.20.1-47.4.12.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.12",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16856,
+                "MD5": "f4d57072c2ef04fb62a97632195ab3de",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.4.12/javafmllanguage-1.20.1-47.4.12.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.4.12",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4999,
+                "MD5": "7ad9613cab9250ebecd8e55111a40081",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.4.12/mclanguage-1.20.1-47.4.12.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.12:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2777985,
+                "MD5": "7e28e63b7c4419246659bfb7ca28dd1c",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/net/minecraftforge/forge/1.20.1-47.4.12/forge-1.20.1-47.4.12-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.12:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4848366,
+                "MD5": "5c4d8867f3152f9c397859436a06321c",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/net/minecraftforge/forge/1.20.1-47.4.12/forge-1.20.1-47.4.12-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10",
+              "name": "Minecraft Forge (securejarhandler)",
               "type": "Library",
               "artifact": {
-                "size": 126122,
-                "MD5": "6d1dd0482c03a6dc1807d9d004456021",
-                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/org/ow2/asm/asm/9.9/asm-9.9.jar"
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-analysis:9.9",
-              "name": "Fabric (asm-analysis)",
+              "id": "org.ow2.asm:asm:9.8",
+              "name": "Minecraft Forge (asm)",
               "type": "Library",
               "artifact": {
-                "size": 35149,
-                "MD5": "f07383cfbd50f097558341a03b8871e1",
-                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
+                "size": 126113,
+                "MD5": "f5adf3bfc54fb3d2cd8e3a1f275084bc",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-commons:9.9",
-              "name": "Fabric (asm-commons)",
+              "id": "org.ow2.asm:asm-commons:9.8",
+              "name": "Minecraft Forge (asm-commons)",
               "type": "Library",
               "artifact": {
-                "size": 74348,
-                "MD5": "8103b3de8f48fb4c7f97efdaa46ce809",
-                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
+                "size": 73498,
+                "MD5": "c8c3d9ccf240144e74d94ff658b024c9",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-tree:9.9",
-              "name": "Fabric (asm-tree)",
+              "id": "org.ow2.asm:asm-tree:9.8",
+              "name": "Minecraft Forge (asm-tree)",
               "type": "Library",
               "artifact": {
-                "size": 51947,
-                "MD5": "912eeaba1a63d574ffc66c651c7c6725",
-                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
+                "size": 51934,
+                "MD5": "4ab1aaec43c77a2d9b56e6d6d496f705",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-util:9.9",
-              "name": "Fabric (asm-util)",
+              "id": "org.ow2.asm:asm-util:9.8",
+              "name": "Minecraft Forge (asm-util)",
               "type": "Library",
               "artifact": {
-                "size": 94565,
-                "MD5": "ef5e90e736cd09bc407c1d46a3faba0f",
-                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
+                "size": 94559,
+                "MD5": "62498ef324bdab15f407d703f7d78d19",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
               }
             },
             {
-              "id": "net.fabricmc:sponge-mixin:0.16.5+mixin.0.8.7",
-              "name": "Fabric (sponge-mixin)",
+              "id": "org.ow2.asm:asm-analysis:9.8",
+              "name": "Minecraft Forge (asm-analysis)",
               "type": "Library",
               "artifact": {
-                "size": 1504519,
-                "MD5": "798c8c25fb84d91b384bdee442c249d7",
-                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar"
+                "size": 35151,
+                "MD5": "3d63508405f5610fc2ea673ff5471553",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
               }
             },
             {
-              "id": "net.fabricmc:intermediary:1.20.1",
-              "name": "Fabric (intermediary)",
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
               "type": "Library",
               "artifact": {
-                "size": 573365,
-                "MD5": "3f4768ac751cac3418266d1d7aa15f55",
-                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.5",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 53985,
+                "MD5": "2a6245210b446b2144071e71ca13432b",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.2.4",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 31872,
+                "MD5": "5295505357ba9b98450c5e3121f82191",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.4",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167292,
+                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.12",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 269268,
+                "MD5": "d894683c3e686814314c38f3bcf67d19",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.4.12/fmlloader-1.20.1-47.4.12.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.12",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170518,
+                "MD5": "f55a8fa2772fa5482e9dcb1fe1439702",
+                "url": "https://github.com/mchdistro/handmade/raw/main/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.12/fmlearlydisplay-1.20.1-47.4.12.jar"
               }
             }
           ]
         },
         {
-          "id": ".test",
-          "name": ".test",
+          "id": "net.mcreator:aetherdelight:1.0.0@jar",
+          "name": "Aether Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 206476,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/optionalon/aether_delight_1.0.0_forge_1.20.1.jar",
+            "MD5": "ebc9ddc47b1968c8fa99a4d252df9635"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.aetherteam:aether:1.20.1-1.5.2-neoforge@jar",
+          "name": "The Aether",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 39682819,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/optionalon/aether-1.20.1-1.5.2-neoforge.jar",
+            "MD5": "f3a29d89c5e34dbc5abc1018d43039c6"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:amendments:1.20-2.2.3@jar",
+          "name": "Amendments",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1308473,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/amendments-1.20-2.2.3.jar",
+            "MD5": "f8730c89240ee8278fd10f7e50845498"
+          }
+        },
+        {
+          "id": "appeng.core:ae2:15.4.10@jar",
+          "name": "Applied Energistics 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8591305,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/appliedenergistics2-forge-15.4.10.jar",
+            "MD5": "e851b589c4ab1dc2821425e10b256398"
+          }
+        },
+        {
+          "id": "com.teammetallurgy:aquaculture:2.5.5@jar",
+          "name": "Aquaculture 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 616413,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/optionalon/Aquaculture-1.20.1-2.5.5.jar",
+            "MD5": "7cc9af62c1e3d0826e6fb580cce3a240"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.mcreator:aquaculturedelight:1.1.1@jar",
+          "name": "Aquaculture Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 231762,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/aquaculturedelight-1.1.1-forge-1.20.1.jar",
+            "MD5": "260ab9cfab0f63f0a4f6550515b8d968"
+          }
+        },
+        {
+          "id": "net.blay09.mods:balm:7.3.37@jar",
+          "name": "Balm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 599366,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/balm-forge-1.20.1-7.3.37-all.jar",
+            "MD5": "86d43d07b62cacd72c70bc8150492701"
+          }
+        },
+        {
+          "id": "net.nycto_team:blockdonalds:0.1.1-1.20.1@jar",
+          "name": "Blockdonalds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 117441,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/optionalon/blockdonalds-0.1.1-1.20.1.jar",
+            "MD5": "3089251552414fc2126acc41e677fa06"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.redstonegames:chefsdelight:1.0.3-forge-1.20.1@jar",
+          "name": "Chefs Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 85149,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/chefs-delight-1.0.3-forge-1.20.1.jar",
+            "MD5": "d9817cb498ac285cf9864401716de92b"
+          }
+        },
+        {
+          "id": "de.maxhenkel:corpse:1.20.1-1.0.23@jar",
+          "name": "Corpse",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 248664,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/corpse-forge-1.20.1-1.0.23.jar",
+            "MD5": "a1bee7727ed693f1b9cf8a637ce8834c"
+          }
+        },
+        {
+          "id": "com.simibubi:create:6.0.8@jar",
+          "name": "Create",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 19403746,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/create-1.20.1-6.0.8.jar",
+            "MD5": "9d8585f925f0c2d5c7b593ad740a30e7"
+          }
+        },
+        {
+          "id": "com.tom.createores:createoreexcavation:1.6.5@jar",
+          "name": "Create Ore Excavation",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 432699,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/createoreexcavation-1.20-1.6.5.jar",
+            "MD5": "4965ad729b2a26b484d3c95da3996ea1"
+          }
+        },
+        {
+          "id": "top.theillusivec4:curios:5.14.1+1.20.1@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 401966,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/curios-forge-5.14.1+1.20.1.jar",
+            "MD5": "956d6e81fae6d170363336ba8d155e96"
+          }
+        },
+        {
+          "id": "com.kyanite:deeperdarker:1.3.3@jar",
+          "name": "Deeper and Darker",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 17805135,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/deeperdarker-forge-1.20.1-1.3.3.jar",
+            "MD5": "6b0681ed4ee620645c9d3325ada4dc6c"
+          }
+        },
+        {
+          "id": "com.jkvin114:displaydelight:1.4.0@jar",
+          "name": "Display Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 997721,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/displaydelight-1.4.0.jar",
+            "MD5": "d03fd37e0f87e0b644a64f9b86d6286e"
+          }
+        },
+        {
+          "id": "net.mcreator:eggdelight:1.2@jar",
+          "name": "Egg Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 631508,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/EggDelight-v1.2-1.20.1.jar",
+            "MD5": "8cb9d9275802329bf7ffbdc371d9c7ec"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.31+mc1.20.1@jar",
+          "name": "Embeddium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1320675,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/embeddium-0.3.31+mc1.20.1.jar",
+            "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
+          }
+        },
+        {
+          "id": "vectorwing.farmersdelight:farmersdelight:1.20.1-1.2.9@jar",
+          "name": "Farmer's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3022740,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/FarmersDelight-1.20.1-1.2.9.jar",
+            "MD5": "8114fc117883ab1b5d4329fb63215817"
+          }
+        },
+        {
+          "id": "umpaz.farmersrespite:farmersrespite:1.20.1-2.1@jar",
+          "name": "Farmer's Respite",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 528180,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/farmersrespite-1.20.1-2.1.2.jar",
+            "MD5": "7372ed378fb9866574a47c3148589de5"
+          }
+        },
+        {
+          "id": "com.uraneptus:frycooks_delight:1.20.1-1.0.1@jar",
+          "name": "Frycook's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 241668,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/frycooks_delight-1.20.1-1.0.1.jar",
+            "MD5": "5566a5b6807fe770bedca1987d6fa4f9"
+          }
+        },
+        {
+          "id": "com.gitter.gtdonationapi.forge.v1_20_1.client:gtdonationapi:2.0.4@jar",
+          "name": "GT-DonationAPI",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7308409,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/GT-DonationAPI-forge-1.20.1-2.0.4.jar",
+            "MD5": "f23fb77c74e7b31ce090f93c2fb82f05"
+          }
+        },
+        {
+          "id": "com.gitter:gtnick:1.0.0@jar",
+          "name": "GTNick Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 91050,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/gtnick-forge-1.20.1-2.0.2.jar",
+            "MD5": "22e5a43f1e6ec2d255b28a0df515350e"
+          }
+        },
+        {
+          "id": "dlr.delarosaplay:guardstone:1.0.0@jar",
+          "name": "GuardStone",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 280001,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/GuardStone.jar",
+            "MD5": "264745857ab2d4673217056ec9f0b2bb"
+          }
+        },
+        {
+          "id": "guideme:guideme:20.1.14@jar",
+          "name": "GuideME",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9517338,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/guideme-20.1.14.jar",
+            "MD5": "2fc3617a35ff8356b22af83cb785fc00"
+          }
+        },
+        {
+          "id": "earth.terrarium:handcrafted:3.0.6@jar",
+          "name": "Handcrafted",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7413792,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/handcrafted-forge-1.20.1-3.0.6.jar",
+            "MD5": "3bfa93ef31308e27a36dd9d70f11ca99"
+          }
+        },
+        {
+          "id": "org.anti_ad.mc.ipnext:inventoryprofilesnext:1.10.19@jar",
+          "name": "Inventory Profiles Next",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1456863,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/InventoryProfilesNext-forge-1.20-1.10.19.jar",
+            "MD5": "eafdba0041b0811e9e7afda28a5927fe"
+          }
+        },
+        {
+          "id": "snownee.jade:jade:11.13.2+forge@jar",
+          "name": "Jade",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 552486,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/Jade-1.20.1-Forge-11.13.2.jar",
+            "MD5": "7c349670f77fd64b9e9854c4a8d82fcc"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.20.0.118@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1427596,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/jei-1.20.1-forge-15.20.0.118.jar",
+            "MD5": "39ea64bae03c1260346c621ae5010488"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.10.3@jar",
+          "name": "Journeymap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7225111,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/journeymap-1.20.1-5.10.3-forge.jar",
+            "MD5": "d2c97961d92dabd48dc1379f1c49d286"
+          }
+        },
+        {
+          "id": "com.hyfata.najoan.koreanpatch.client:koreanpatch:1.9.0+mc1.20.1@jar",
+          "name": "Korean Patch",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 315488,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/koreanpatch-forge-1.9.0+mc1.20.1.jar",
+            "MD5": "dc6a73dcbec683185bd2e3c87ad8fb17"
+          }
+        },
+        {
+          "id": "generated.forgemod:kotlinforforge:4.11.0-all@jar",
+          "name": "Kotlinforforge",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7193768,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/kotlinforforge-4.11.0-all.jar",
+            "MD5": "417caa90d17dc86cf7d24b802c2a5c56"
+          }
+        },
+        {
+          "id": "com.github.l_ender:cataclysm:3.16@jar",
+          "name": "Cataclysm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 128073677,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/optionalon/L_Enders_Cataclysm-3.16.jar",
+            "MD5": "26e83e11e51bb97b472da0a092f3ad9b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "org.anti_ad.mc:libipn:4.0.2@jar",
+          "name": "LibIPN",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 693301,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/libIPN-forge-1.20-4.0.2.jar",
+            "MD5": "ef3a86f4867dba031dd6adef7e45d396"
+          }
+        },
+        {
+          "id": "com.github.l_ender:lionfishapi:2.4-Fix@jar",
+          "name": "LionfishAPI",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 167159,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/lionfishapi-2.4-Fix.jar",
+            "MD5": "ac224a251fe3934bec22fff1197cf770"
+          }
+        },
+        {
+          "id": "com.sammy.minersdelight:miners_delight:1.20.1-1.2.3@jar",
+          "name": "Miner's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 492604,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/miners_delight-1.20.1-1.2.3.jar",
+            "MD5": "db93098cb12511c416822d45ed7a198a"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:moonlight:1.20-2.16.16@jar",
+          "name": "Moonlight Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1346461,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/moonlight-1.20-2.16.16-forge.jar",
+            "MD5": "31172e845379a72cb573070196517989"
+          }
+        },
+        {
+          "id": "umpaz.nethersdelight:nethersdelight:1.20.1-4.0@jar",
+          "name": "Nether's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 359457,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/nethersdelight-1.20.1-4.0.jar",
+            "MD5": "8e6363d12e3822f42e2675160a961f52"
+          }
+        },
+        {
+          "id": "net.irisshaders.iris:oculus:1.8.0@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2851119,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/oculus-mc1.20.1-1.8.0.jar",
+            "MD5": "1dd891634ac21591b5a692471f112572"
+          }
+        },
+        {
+          "id": "su.plo.voice:plasmovoice:2.1.6@jar",
+          "name": "Plasmo Voice",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 12274855,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/plasmovoice-forge-1.20.1-2.1.6.jar",
+            "MD5": "f469b38621f183f63e008b3552bfeb96"
+          }
+        },
+        {
+          "id": "com.teamresourceful:resourcefullib:2.1.29@jar",
+          "name": "Resourceful Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 432244,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/resourcefullib-forge-1.20.1-2.1.29.jar",
+            "MD5": "44dd246d74d2626e1a66d57affe8a02b"
+          }
+        },
+        {
+          "id": "com.phantomwing:rusticdelight:1.4.1@jar",
+          "name": "Rustic Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 478203,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/rusticdelight-forge-1.20.1-1.4.1.jar",
+            "MD5": "33157b54b22156042ccc7883250c7c5a"
+          }
+        },
+        {
+          "id": "net.mcreator.sniffersdelight:sniffers_delight:1.0.3@jar",
+          "name": "Sniffer's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 69643,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/sniffers_delight-1.0.3-forge-1.20.1.jar",
+            "MD5": "e940156ed5201041b654929ecd7419cc"
+          }
+        },
+        {
+          "id": "com.cazsius:solcarrot:1.15.1@jar",
+          "name": "Spice of Life: Carrot Edition",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 105585,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/solcarrot-1.20.1-1.15.1.jar",
+            "MD5": "91dbb9d6eab1f0dc1b7069b60fbd7146"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedbackpacks:3.24.12.1411@jar",
+          "name": "Sophisticated Backpacks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 987466,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/sophisticatedbackpacks-1.20.1-3.24.12.1411.jar",
+            "MD5": "e5b9310d57227bee64f3cff0f01b7f7b"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedcore:1.2.107.1240@jar",
+          "name": "Sophisticated Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1452905,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/sophisticatedcore-1.20.1-1.2.107.1240.jar",
+            "MD5": "e87524e721fe746784f82a3f5d99cc52"
+          }
+        },
+        {
+          "id": "dev.xkmc.twilightdelight.init:twilightdelight:2.0.17@jar",
+          "name": "Twilight's Flavor & Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1455899,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/optionalon/twilightdelight-2.0.17.jar",
+            "MD5": "1dfdddbf495dda897115d0be40973436"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "twilightforest:twilightforest:4.3.2508@jar",
+          "name": "The Twilight Forest",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 23488210,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/optionalon/twilightforest-1.20.1-4.3.2508-universal.jar",
+            "MD5": "2849c101c3bcb65db2537ed8f9cc90de"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.blay09.mods:waystones:14.1.17@jar",
+          "name": "Waystones",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 527329,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/waystones-forge-1.20.1-14.1.17.jar",
+            "MD5": "8f9836ccd3ee3c291b5315e04234115a"
+          }
+        },
+        {
+          "id": "dev.xkmc.youkaishomecoming.init:youkaisfeasts:0.4.1@jar",
+          "name": "Youkais' Feasts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3916833,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/optionalon/youkaisfeasts-0.4.1.jar",
+            "MD5": "0d7fb97ff250f06a81d7838ff6886359"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "iris.properties",
+          "name": "iris.properties",
           "type": "File",
           "artifact": {
-            "size": 0,
-            "url": "https://github.com/mchdistro/handmade/raw/main/servers/handmade-1.20.1/files/.test",
-            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
-            "path": ".test"
+            "size": 152,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/files/config/iris.properties",
+            "path": "config/iris.properties"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 195,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "AstraLex-V93.0.zip",
+          "name": "AstraLex-V93.0.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3184524,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/files/shaderpacks/AstraLex-V93.0.zip",
+            "MD5": "021c95bd3d217b4a7e45997d5127285b",
+            "path": "shaderpacks/AstraLex-V93.0.zip"
+          }
+        },
+        {
+          "id": "Solas_Shader-V3.1b.zip",
+          "name": "Solas_Shader-V3.1b.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1301763,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/files/shaderpacks/Solas_Shader-V3.1b.zip",
+            "MD5": "12c4864d06d6dd389768ef1a6032934b",
+            "path": "shaderpacks/Solas_Shader-V3.1b.zip"
           }
         }
       ]
