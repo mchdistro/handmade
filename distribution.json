@@ -833,6 +833,66 @@
           }
         },
         {
+          "id": "de.cristelknight:doapi:1.2.15@jar",
+          "name": "[Let's Do] API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1440591,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/letsdo-API-forge-1.2.15-forge.jar",
+            "MD5": "82d392dd5ef6064d8988592a35b3b403"
+          }
+        },
+        {
+          "id": "net.satisfy:beachparty:2.0.3@jar",
+          "name": "[Let's Do] Beachparty",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7463557,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/letsdo-beachparty-forge-2.0.3.jar",
+            "MD5": "ee8759529664e9400e3e5c9e423cc0cd"
+          }
+        },
+        {
+          "id": "net.satisfy:brewery:1.1.9@jar",
+          "name": "[Let's Do] Brewery",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2228646,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/letsdo-brewery-forge-1.1.9.jar",
+            "MD5": "74574ee4a0d8303f37ced2a8bc846584"
+          }
+        },
+        {
+          "id": "net.satisfy:farm_and_charm:1.0.14@jar",
+          "name": "[Let's Do] Farm & Charm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2328624,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/letsdo-farm_and_charm-forge-1.0.14.jar",
+            "MD5": "6278fb984da2ca60498fd4c78675524a"
+          }
+        },
+        {
+          "id": "net.satisfy:herbalbrews:1.0.12@jar",
+          "name": "[Let's Do] HerbalBrews",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 735868,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/letsdo-herbalbrews-forge-1.0.12.jar",
+            "MD5": "8260ace33a59f8c85b86945510b07471"
+          }
+        },
+        {
+          "id": "net.satisfy:vinery:1.4.41@jar",
+          "name": "[Let's Do] Vinery",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2041283,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/letsdo-vinery-forge-1.4.41.jar",
+            "MD5": "bf692e0100772cfa90b9878a38c1f28a"
+          }
+        },
+        {
           "id": "org.anti_ad.mc:libipn:4.0.2@jar",
           "name": "LibIPN",
           "type": "ForgeMod",
