@@ -540,6 +540,16 @@
           }
         },
         {
+          "id": "tschipp.carryon:carryon:2.1.2.7@jar",
+          "name": "Carry On",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 439457,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/carryon-forge-1.20.1-2.1.2.7.jar",
+            "MD5": "8956b37c2ae11cc5522c8404a262c6b7"
+          }
+        },
+        {
           "id": "net.redstonegames:chefsdelight:1.0.3-forge-1.20.1@jar",
           "name": "Chefs Delight",
           "type": "ForgeMod",
@@ -550,6 +560,16 @@
           }
         },
         {
+          "id": "net.blay09.mods:cookingforblockheads:16.0.14@jar",
+          "name": "CookingForBlockheads",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 837805,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/cookingforblockheads-forge-1.20.1-16.0.14.jar",
+            "MD5": "04c636ea8b13b821233d60104bf7dee4"
+          }
+        },
+        {
           "id": "de.maxhenkel:corpse:1.20.1-1.0.23@jar",
           "name": "Corpse",
           "type": "ForgeMod",
@@ -557,6 +577,16 @@
             "size": 248664,
             "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/corpse-forge-1.20.1-1.0.23.jar",
             "MD5": "a1bee7727ed693f1b9cf8a637ce8834c"
+          }
+        },
+        {
+          "id": "com.ofek2608:crafting_on_a_stick:1.1.5@jar",
+          "name": "Crafting On A Stick",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 55252,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/crafting-on-a-stick-1.20.1-1.1.5.jar",
+            "MD5": "8158077880aea9cacd4eabb6f47b67b9"
           }
         },
         {
@@ -647,6 +677,26 @@
             "size": 528180,
             "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/farmersrespite-1.20.1-2.1.2.jar",
             "MD5": "7372ed378fb9866574a47c3148589de5"
+          }
+        },
+        {
+          "id": "net.blay09.mods:farmingforblockheads:14.0.4@jar",
+          "name": "Farming for Blockheads",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 569427,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/farmingforblockheads-forge-1.20.1-14.0.4.jar",
+            "MD5": "dcf1b800fd89bd94d8dd091a8037edd2"
+          }
+        },
+        {
+          "id": "net.olafski:fastleafdecay:32@jar",
+          "name": "Fast Leaf Decay",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9835,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/FastLeafDecay-32.jar",
+            "MD5": "20df3e3525622d6ea38a243be828ef38"
           }
         },
         {
@@ -910,6 +960,26 @@
             "size": 1452905,
             "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/sophisticatedcore-1.20.1-1.2.107.1240.jar",
             "MD5": "e87524e721fe746784f82a3f5d99cc52"
+          }
+        },
+        {
+          "id": "net.blay09.mods:trashslot:15.1.2@jar",
+          "name": "TrashSlot",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 117791,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/trashslot-forge-1.20-15.1.2.jar",
+            "MD5": "e1df6b412a4c22894967ba42beb347be"
+          }
+        },
+        {
+          "id": "ht.treechop:treechop:0.19.0@jar",
+          "name": "HT's TreeChop",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 517225,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/12_10_v1-1.20.1/forgemods/required/TreeChop-1.20.1-forge-0.19.0-fixed.jar",
+            "MD5": "e178293a133747657f802688b8c63d27"
           }
         },
         {
