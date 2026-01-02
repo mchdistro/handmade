@@ -3406,16 +3406,6 @@
           }
         },
         {
-          "id": "com.gitter:gtnick:1.0.0@jar",
-          "name": "GTNick Mod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 134368,
-            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/gtnick-forge-both-1.20.1-2.0.4.jar",
-            "MD5": "69a44ca4be0d6fd904e1cc63eaf3d7f0"
-          }
-        },
-        {
           "id": "earth.terrarium:handcrafted:3.0.6@jar",
           "name": "Handcrafted",
           "type": "ForgeMod",
