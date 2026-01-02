@@ -3706,6 +3706,16 @@
           }
         },
         {
+          "id": "com.hyfata.najoan.koreanpatch.client:koreanpatch:1.9.5+mc1.20.1@jar",
+          "name": "Korean Patch",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 316542,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/koreanpatch-forge-1.9.5+mc1.20.1.jar",
+            "MD5": "b7c99a33c48f6ae31de7f7f6038800c2"
+          }
+        },
+        {
           "id": "generated.forgemod:kotlinforforge:4.11.0-all@jar",
           "name": "Kotlinforforge",
           "type": "ForgeMod",
@@ -78876,6 +78886,16 @@
           }
         },
         {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 17690,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
           "id": "book.json",
           "name": "book.json",
           "type": "File",
@@ -79670,6 +79690,17 @@
             "size": 1241,
             "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/files/scripts/sandconversion.zs",
             "path": "scripts/sandconversion.zs"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 7009,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/files/servers.dat",
+            "MD5": "4ccf2066724bca574c0ed91aa783374c",
+            "path": "servers.dat"
           }
         },
         {
