@@ -4606,6 +4606,16 @@
           }
         },
         {
+          "id": "net.mcreator:chillout:1.0.0@jar",
+          "name": "ChillOut",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 45952,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/SitChill%201.0.3.jar",
+            "MD5": "6ab1e6b829d15280170c239b6dde395e"
+          }
+        },
+        {
           "id": "com.rinko1231:skybreaker:1.20.1-1.0.8@jar",
           "name": "Sky Breaker",
           "type": "ForgeMod",
