@@ -4,14 +4,14 @@
     "version": "0.0.1",
     "name": "힐링서버",
     "description": "Minecraft 1.20.1 (Forge v47.4.12)",
-    "icon": "https://github.com/mchdistro/mondayPushes/raw/main/server-icon.png",
+    "icon": "https://github.com/mchdistro/handmade/raw/main/icon.png",
     "address": "mc.gotiger.dev:20007",
     "discord": {
       "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
     },
-    "mainServer": true,
+    "mainServer": false,
     "autoconnect": true,
     "javaOptions": {
       "supported": "21",
