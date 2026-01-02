@@ -1591,16 +1591,6 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 6772753,
-            "url": "https://github.com/mchdistro/handmade/raw/main/servers/handmade-1.20.1/forgemods/required/[forge]ctov-3.4.14.jar",
-            "MD5": "382d0881db0828470c219dd5d0789132"
-          }
-        },
-        {
-          "id": "net.ctov:ctov:3.4.14@jar",
-          "name": "ChoiceTheorem's Overhauled Village",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 6772753,
             "url": "https://github.com/mchdistro/handmade/raw/main/servers/handmade-1.20.1/forgemods/optionalon/[forge]ctov-3.4.14.jar",
             "MD5": "382d0881db0828470c219dd5d0789132"
           },
