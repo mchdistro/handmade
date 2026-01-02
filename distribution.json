@@ -1606,6 +1606,16 @@
           }
         },
         {
+          "id": "com.clefal:teams:1.4.6@jar",
+          "name": "Advanced Team",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 354654,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/Advanced%20Team-forge-1.20.1-1.4.6.jar",
+            "MD5": "aae8607a67a7b13864f4cd8ddc7fa63a"
+          }
+        },
+        {
           "id": "com.anthonyhilyard:advancementplaques:1.6.9@jar",
           "name": "Advancement Plaques",
           "type": "ForgeMod",
@@ -1793,6 +1803,16 @@
             "size": 580602,
             "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/architectury-9.2.14-forge.jar",
             "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
+          }
+        },
+        {
+          "id": "net.poe:acu:1.0@jar",
+          "name": "Arrow Clean Up",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8680,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/Arrow%20Clean%20Up-1.0.jar",
+            "MD5": "a41ce626eb2841d25defd1e5d1f9ffaa"
           }
         },
         {
@@ -2046,6 +2066,16 @@
           }
         },
         {
+          "id": "com.kreezcraft.badwithernocookiereloaded:bwncr:3.17.2@jar",
+          "name": "Bad Wither No Cookie Reloaded",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 28225,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/bwncr-forge-1.20.1-3.17.2.jar",
+            "MD5": "fd8302218c36c9a5cbaec4087de8b399"
+          }
+        },
+        {
           "id": "top.theillusivec4:caelus:3.2.0+1.20.1@jar",
           "name": "Caelus API",
           "type": "ForgeMod",
@@ -2113,6 +2143,16 @@
             "size": 134593,
             "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/CerbonsApi-Forge-1.20.1-1.0.0.jar",
             "MD5": "d13c2aa14e9c1faea383969af3b81a3a"
+          }
+        },
+        {
+          "id": "com.ebicep:chatplus:2.7.0@jar",
+          "name": "ChatPlus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 27054150,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/chatplus-forge-2.7.0.jar",
+            "MD5": "f511c2c28304f921b10fe874424d826f"
           }
         },
         {
@@ -2526,6 +2566,16 @@
           }
         },
         {
+          "id": "ru.octol1ttle:damagevignette:2.0.2@jar",
+          "name": "DamageVignette",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 139715,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/DamageVignette-2.0.2-forge+mc1.20.jar",
+            "MD5": "bec5a72fcdac2817f2ea9ee16a1be5d3"
+          }
+        },
+        {
           "id": "dev.corgitaco:dataanchor:1.0.0.19@jar",
           "name": "Data Anchor",
           "type": "ForgeMod",
@@ -2613,6 +2663,16 @@
             "size": 239365,
             "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/drippyloadingscreen_forge_3.0.12_MC_1.20.1.jar",
             "MD5": "a8cbcca4541cb6eb794ded4a10c57ac9"
+          }
+        },
+        {
+          "id": "ch.capez:dsbg:1.0-1.20.1@jar",
+          "name": "Detected setBlock Be Gone",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 273328,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/dsbg-1.0-1.20.1.jar",
+            "MD5": "143f9fe8813d87e3e2f3d93b4e159643"
           }
         },
         {
@@ -2776,6 +2836,16 @@
           }
         },
         {
+          "id": "com.nakuring:enhanced_boss_bars:1.20.1-1.0.0@jar",
+          "name": "Enhanced Boss Bars",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 254629,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/enhanced_boss_bars-1.20.1-1.0.0.jar",
+            "MD5": "26cdbb61d5d8b0d91584f5f4ca233237"
+          }
+        },
+        {
           "id": "dev.corgitaco:enhancedcelestials:1.20.1-5.0.3.1@jar",
           "name": "Enhanced Celestials",
           "type": "ForgeMod",
@@ -2796,6 +2866,26 @@
           }
         },
         {
+          "id": "dev.tr7zw:entityculling:1.9.3@jar",
+          "name": "EntityCulling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 477884,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/entityculling-forge-1.9.3-mc1.20.1.jar",
+            "MD5": "ae4f74f187b64f3b107e97b949e4a9e8"
+          }
+        },
+        {
+          "id": "net.poe:entityfishingdrops:1.1@jar",
+          "name": "EntityFishingDrops",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 40258,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/EntityFishingDrops-1.1.jar",
+            "MD5": "5ed429cd1ffe59dbe2b5b8f9e4b7795c"
+          }
+        },
+        {
           "id": "net.liopyu:entityjs:0.6.5-1.20.1@jar",
           "name": "EntityJS",
           "type": "ForgeMod",
@@ -2803,6 +2893,26 @@
             "size": 2363784,
             "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/entityjs-0.6.5-1.20.1.jar",
             "MD5": "b4e5e749799e69ea8a054d6253802d15"
+          }
+        },
+        {
+          "id": "net.poe:entitylootdrops:2.8@jar",
+          "name": "Entity Loot Drops",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 158781,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/EntityLootDrops-2.9.1.jar",
+            "MD5": "3dd1dcab4c34314444d28aff76ab771a"
+          }
+        },
+        {
+          "id": "net.poe:entityprotector:1.2@jar",
+          "name": "EntityProtector",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 117181,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/EntityProtector-1.2.jar",
+            "MD5": "e0fd7887cf843db23332cf067241580d"
           }
         },
         {
@@ -3056,6 +3166,16 @@
           }
         },
         {
+          "id": "forge.com.rimo:footprintparticle:0.5.4b-mc1.20(.1)@jar",
+          "name": "Footprint Particle",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 89531,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/footprintparticle-0.5.4b-mc1.20(.1).jar",
+            "MD5": "5229a0399976d533af730d8b6824dc0d"
+          }
+        },
+        {
           "id": "fuzs.forgeconfigscreens:forgeconfigscreens:8.0.2@jar",
           "name": "Forge Config Screens",
           "type": "ForgeMod",
@@ -3303,6 +3423,16 @@
             "size": 7111059,
             "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/handcrafted-forge-1.20.1-3.0.6.jar",
             "MD5": "a5291f94fc830a80d2caf7d2ab7cd4fd"
+          }
+        },
+        {
+          "id": "net.poe:hidenameplates:1.0@jar",
+          "name": "Hide Nameplates",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3401,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/Hide_Nameplates-1.0.jar",
+            "MD5": "a20c57fdd29c3e0a09bcbd5471b9d5c8"
           }
         },
         {
@@ -3696,6 +3826,16 @@
           }
         },
         {
+          "id": "me.clefal.lootbeams.loaders:lootbeams:3.2.7@jar",
+          "name": "Loot Beams Refork",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 534261,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/Loot%20Beams%20Refork-forge-1.20.1-3.2.7.jar",
+            "MD5": "e886c69ce0071318dad19c2af170e775"
+          }
+        },
+        {
           "id": "noobanidus.mods:lootr:0.7.35.92@jar",
           "name": "Lootr",
           "type": "ForgeMod",
@@ -3916,6 +4056,16 @@
           }
         },
         {
+          "id": "at.ridgo8:moreoverlays:1.24.1@jar",
+          "name": "More Overlays Updated",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 114550,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/moreoverlays-1.24.1-mc1.20.1-forge.jar",
+            "MD5": "677b6a4501dadea3dae5390a5b345ed9"
+          }
+        },
+        {
           "id": "net.abraxator:moresnifferflowers:6.4.1@jar",
           "name": "More Sniffer Flowers",
           "type": "ForgeMod",
@@ -4113,6 +4263,16 @@
             "size": 21667,
             "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/Not%20Enough%20Recipe%20Book-FORGE-0.4.1+1.20.1.jar",
             "MD5": "fa8240906f36683f66de537b34587643"
+          }
+        },
+        {
+          "id": "dev.tr7zw:notenoughanimations:1.10.6@jar",
+          "name": "NotEnoughAnimations",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 843250,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/notenoughanimations-forge-1.10.6-mc1.20.1.jar",
+            "MD5": "228f7b821bb9e475e1ec38868da56f65"
           }
         },
         {
@@ -4616,6 +4776,16 @@
           }
         },
         {
+          "id": "dev.tr7zw.skinlayers:skinlayers3d:1.9.2@jar",
+          "name": "3d-Skin-Layers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1060427,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/skinlayers3d-forge-1.9.2-mc1.20.1.jar",
+            "MD5": "7071a4fe65178de6f2467b6620cbe54e"
+          }
+        },
+        {
           "id": "com.rinko1231:skybreaker:1.20.1-1.0.8@jar",
           "name": "Sky Breaker",
           "type": "ForgeMod",
@@ -4763,6 +4933,26 @@
             "size": 185182,
             "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/starterkit-1.20.1-7.4.jar",
             "MD5": "6a47c8098e81f6b1a051e77a8dd50de9"
+          }
+        },
+        {
+          "id": "generated.forgemod:structory:1.3.5@jar",
+          "name": "Structory",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1286460,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/Structory_1.20.x_v1.3.5.jar",
+            "MD5": "2cd1485d84e6ba105677ce8423ff83ed"
+          }
+        },
+        {
+          "id": "generated.forgemod:structory_towers:1.0.7@jar",
+          "name": "Structory: Towers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 526234,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/Structory_Towers_1.20.x_v1.0.7.jar",
+            "MD5": "f9270d33ddf45c025bb048c9bda9f0a8"
           }
         },
         {
@@ -5153,6 +5343,16 @@
             "size": 283977,
             "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/weaponmaster_ydm-forge-1.20.1-4.2.3.jar",
             "MD5": "d8cbfa36266a62b13e087e6ed4fc94d5"
+          }
+        },
+        {
+          "id": "me.clefal.whats_your_build.loaders:whats_your_build:0.4.3@jar",
+          "name": "What's your build",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 410205,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/What's%20your%20build-forge-1.20.1-0.4.3.jar",
+            "MD5": "fe25b18df046401a1cee6555fa5e396c"
           }
         },
         {
@@ -78673,17 +78873,6 @@
             "size": 2649,
             "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/files/minemenu/menu.json",
             "path": "minemenu/menu.json"
-          }
-        },
-        {
-          "id": "DamageVignette-2.0.2-forge+mc1.20.jar",
-          "name": "DamageVignette-2.0.2-forge+mc1.20.jar",
-          "type": "File",
-          "artifact": {
-            "size": 139715,
-            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/files/mods/DamageVignette-2.0.2-forge+mc1.20.jar",
-            "MD5": "bec5a72fcdac2817f2ea9ee16a1be5d3",
-            "path": "mods/DamageVignette-2.0.2-forge+mc1.20.jar"
           }
         },
         {
