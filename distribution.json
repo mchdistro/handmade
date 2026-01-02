@@ -1971,7 +1971,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 11816101,
-            "url": "https://github.com/mchdistro/handmade/raw/main/servers/handmade-1.20.1/forgemods/required/born_in_chaos_[Forge]1.20.1_1.7.2.jar",
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/handmade-1.20.1/forgemods/required/born_in_chaos_%5BForge%5D1.20.1_1.7.2.jar",
             "MD5": "53c0274da230c0b83864a8f1043d0a60"
           }
         },
