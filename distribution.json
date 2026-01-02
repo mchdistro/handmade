@@ -1766,6 +1766,16 @@
           }
         },
         {
+          "id": "net.mcreator:aquaculturedelight:1.1.1@jar",
+          "name": "Aquaculture Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 225149,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/aquaculturedelight-1.1.1-forge-1.20.1.jar",
+            "MD5": "e1aa5ae3c8f5ceafbda9298804d9daaf"
+          }
+        },
+        {
           "id": "com.obscuria:aquamirae:6.1.2@jar",
           "name": "Aquamirae",
           "type": "ForgeMod",
@@ -3106,6 +3116,16 @@
           }
         },
         {
+          "id": "poe.ftbplaceholders:ftb_ph:1.0.6a@jar",
+          "name": "FTB Placeholders",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1868226,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/FTB_PlaceHolders-1.0.6a.jar",
+            "MD5": "93bf2ddbfddf019d033eb02445b05f26"
+          }
+        },
+        {
           "id": "dev.ftb.mods:ftblibrary:2001.2.10@jar",
           "name": "FTB Library",
           "type": "ForgeMod",
@@ -3253,6 +3273,26 @@
             "size": 7997,
             "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/gpumemleakfix-1.20.1-1.8.jar",
             "MD5": "e5028e9da74761f26c00c546c8ebdc4d"
+          }
+        },
+        {
+          "id": "com.gitter.gtdonationapi.forge.v1_20_1.client:gtdonationapi:2.0.7@jar",
+          "name": "GT-DonationAPI",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7311148,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/GT-DonationAPI-forge-1.20.1-2.0.7.jar",
+            "MD5": "7c56644c67db256cf8846272090d2c13"
+          }
+        },
+        {
+          "id": "com.gitter:gtnick:1.0.0@jar",
+          "name": "GTNick Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 134368,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/gtnick-forge-both-1.20.1-2.0.4.jar",
+            "MD5": "69a44ca4be0d6fd904e1cc63eaf3d7f0"
           }
         },
         {
@@ -4296,6 +4336,26 @@
           }
         },
         {
+          "id": "net.mcreator.realmrpgwyrms:realmrpg_wyrms:1.0.1@jar",
+          "name": "Realm RPG: Dragon Wyrms",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 189213,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/realmrpg_dragon_wyrms_1.0.1_forge_1.20.1.jar",
+            "MD5": "ecc796540cb688bd1623303aa1868c5e"
+          }
+        },
+        {
+          "id": "net.mcreator.potsandmimics:pots_and_mimics:1.0.2@jar",
+          "name": "Realm RPG: Pots & Mimics",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 168323,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/realmrpg_pots_and_mimics_1.0.2_forge_1.20.1.jar",
+            "MD5": "d55c98b2df40e2d39a7a06a804c246c5"
+          }
+        },
+        {
           "id": "net.mcreator:seadwellers:2.9.9@jar",
           "name": "Realm RPG: Sea Dwellers",
           "type": "ForgeMod",
@@ -4423,6 +4483,26 @@
             "size": 1453341,
             "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/riskofrain_mobs-1.20.1-1.1.2.jar",
             "MD5": "d073fd54c9ad987b841412400b480f4d"
+          }
+        },
+        {
+          "id": "roe.sfx:roe_sfx:0.0.3@jar",
+          "name": "Recreation of Exile - SFX",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2881389,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/RoE_SFX%200.0.3.jar",
+            "MD5": "6513b358d8015b9e5c478dbd2258fdcd"
+          }
+        },
+        {
+          "id": "roe.weapons:roe_weapons:0.1.7@jar",
+          "name": "Recreation of Exile - Weapons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2232932,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/RoE_Weapons-0.1.7.jar",
+            "MD5": "6f65bc225e485c9ecdc396d59cbf7545"
           }
         },
         {
@@ -4973,6 +5053,16 @@
             "size": 587742,
             "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/u_team_core-forge-1.20.1-5.1.4.382.jar",
             "MD5": "cd46e7fbd2e4527015dd69dffe3e40a3"
+          }
+        },
+        {
+          "id": "net.mcreator:undergardendelight:1.1.2@jar",
+          "name": "Undergarden Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 291133,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/undergardendelight-1.1.2-forge-1.20.1.jar",
+            "MD5": "be72a7a16d7fe2ce86d7d9f9fce9d5c4"
           }
         },
         {
