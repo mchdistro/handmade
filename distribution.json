@@ -3406,6 +3406,16 @@
           }
         },
         {
+          "id": "com.gitter:gtrandombox:Forge-1.20.1-1.0.0@jar",
+          "name": "GtRandomBox",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 253001,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/GtRandomBox-Forge-1.20.1-1.0.0.jar",
+            "MD5": "e568b50302e3a11d8c9ba123267a1ec0"
+          }
+        },
+        {
           "id": "earth.terrarium:handcrafted:3.0.6@jar",
           "name": "Handcrafted",
           "type": "ForgeMod",
