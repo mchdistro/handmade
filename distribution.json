@@ -78900,7 +78900,7 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 17780,
+            "size": 17884,
             "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/files/options.txt",
             "path": "options.txt"
           }
@@ -79577,6 +79577,17 @@
             "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/files/resourcepacks/ComplementaryUnbound_r5.6.1.zip",
             "MD5": "3f83f81df2ad4608d830017425b45bac",
             "path": "resourcepacks/ComplementaryUnbound_r5.6.1.zip"
+          }
+        },
+        {
+          "id": "Craft_to_Exile_2_VR_Support_v1.1.1_ResourcePack.zip",
+          "name": "Craft_to_Exile_2_VR_Support_v1.1.1_ResourcePack.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1548746,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/files/resourcepacks/Craft_to_Exile_2_VR_Support_v1.1.1_ResourcePack.zip",
+            "MD5": "2ce6bb3e67a4251301fa8b0593b46776",
+            "path": "resourcepacks/Craft_to_Exile_2_VR_Support_v1.1.1_ResourcePack.zip"
           }
         },
         {
