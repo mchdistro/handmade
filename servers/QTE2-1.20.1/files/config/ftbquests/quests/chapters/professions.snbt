@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: 0
 	default_quest_shape: ""
 	filename: "professions"
 	group: "5F2CCE8075FCC994"
@@ -17,13 +17,13 @@
 		{
 			dependencies: ["5B97985430859986"]
 			description: [
-				"Salvaging is the act of deconstructing your gear into materials that can be used to craft Profession items, gear, or repair."
+				"{autotranslate.ftbquests.professions.quests_0.description_0}"
 				""
-				"In order to use a Salvaging Station, you &lmust&r place a hopper above the station, and place your gear to be salvaged into the hopper. Salvaging in the Station can yield more results and experience than auto-salvaging."
+				"{autotranslate.ftbquests.professions.quests_0.description_2}"
 				""
-				"Your gear will be salvaged and you will receive materials as the output. &eWhen salvaging, you will receive &eStones&r of varying rarity. These are used to repair or craft gear. They can also be used to craft other items. The rarity of the stone depends on the rarity of the gear salvaged."
+				"{autotranslate.ftbquests.professions.quests_0.description_4}"
 				""
-				"&bYou can also salvage your gear via the Hub auto-salvaging feature, but you will earn less experience doing so.&r"
+				"{autotranslate.ftbquests.professions.quests_0.description_6}"
 			]
 			id: "16525899DA8C3A74"
 			rewards: [
@@ -36,55 +36,55 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "0352A11976D1DDF7"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.professions.quests_0.rewards_1.title}"
 					type: "command"
 				}
 			]
-			subtitle: "M\\&S Professions"
+			subtitle: "{autotranslate.ftbquests.professions.quests_0.subtitle}"
 			tasks: [{
 				id: "0367855050B7E8AC"
 				item: "mmorpg:salvaging_station"
 				type: "item"
 			}]
-			title: "Salvaging"
+			title: "{autotranslate.ftbquests.professions.quests_0.title}"
 			x: -3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["06E3D7523619E263"]
 			description: [
-				"You can craft &eCrafted Gear Souls&r for the following: armor, offhands, jewelry, and weapons. When crafting gear, there are a few ingredients:"
+				"{autotranslate.ftbquests.professions.quests_1.description_0}"
 				""
-				"1. &eTiered Ore&r - earned from Mining, they are based on the item level you want to craft. The level ranges are the same as what you'd find in the Mining Profession."
+				"{autotranslate.ftbquests.professions.quests_1.description_2}"
 				""
-				"2. &eStones (Rarity)&r - the Stones determine the rarity of the gear you will craft. You can get these Stones while salvaging. The amount of Stones required depends on the rarity of the gear."
+				"{autotranslate.ftbquests.professions.quests_1.description_4}"
 				""
-				"3. &eIngots + Identifier Items&r - the items that determine whether you are crafting armor, offhands, jewelry, or weapons. Refer to &cJEI&r for recipes!"
+				"{autotranslate.ftbquests.professions.quests_1.description_6}"
 				""
-				"4. &eMoney&r"
+				"{autotranslate.ftbquests.professions.quests_1.description_8}"
 				""
-				"&lYou can always check the &cJEI&r &lto see what items are needed for &eCrafted Gear Soul&r&l.&r"
+				"{autotranslate.ftbquests.professions.quests_1.description_10}"
 			]
 			id: "66D05E37DC634CC8"
 			rewards: [
 				{
 					id: "3230DF5B7E7AFDEF"
 					item: "lightmanscurrency:coin_emerald"
-					title: "Money"
+					title: "{autotranslate.ftbquests.professions.quests_1.rewards_0.title}"
 					type: "item"
 				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "3F252D9D1E228D51"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.professions.quests_1.rewards_1.title}"
 					type: "command"
 				}
 				{
@@ -93,19 +93,19 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: 1
 					id: "2B407159F4F31F62"
 					table_id: 8834087311923919794L
 					type: "all_table"
 				}
 			]
-			subtitle: "M\\&S Professions"
+			subtitle: "{autotranslate.ftbquests.professions.quests_1.subtitle}"
 			tasks: [{
 				id: "0BC1B554EEEDFF0E"
 				item: "mmorpg:gear_crafting_station"
 				type: "item"
 			}]
-			title: "Gear Crafting"
+			title: "{autotranslate.ftbquests.professions.quests_1.title}"
 			x: -3.0d
 			y: -3.0d
 		}
@@ -116,40 +116,40 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"You can cook foods which will provide hunger and saturation, but also provide stat boosts. When cooking, there are a few ingredients:"
+				"{autotranslate.ftbquests.professions.quests_2.description_0}"
 				""
-				"1. &eTiered Meat/Produce/Fish&r - earned from Bounty Hunting, Farming, and Fishing they are based on the item level you want to craft. The level ranges are the same as what you'd find in the gathering Professions. The type of food you use depends on what food you cook:"
+				"{autotranslate.ftbquests.professions.quests_2.description_2}"
 				""
-				"&cMeat&r: Health/Magic Shield Regen"
-				"&2Produce&r: Mana/Energy Regen"
-				"&bFish&r: EXP/Loot"
+				"{autotranslate.ftbquests.professions.quests_2.description_4}"
+				"{autotranslate.ftbquests.professions.quests_2.description_5}"
+				"{autotranslate.ftbquests.professions.quests_2.description_6}"
 				""
-				"2. &c1&r &eStone (Rarity)&r - the Stones determine the rarity of the gear you will craft. You can get these Stones while salvaging."
+				"{autotranslate.ftbquests.professions.quests_2.description_8}"
 				""
-				"3. &eOther Food Item&r - generally used as an additional ingredient that can also determine what food you're cooking. Refer to &cJEI&r for recipes!"
+				"{autotranslate.ftbquests.professions.quests_2.description_10}"
 				""
-				"4. &eMoney&r"
+				"{autotranslate.ftbquests.professions.quests_2.description_12}"
 				""
-				"&lYou can always check the &cJEI&r &lto see what items are needed for &eCooking&r&l.&r"
+				"{autotranslate.ftbquests.professions.quests_2.description_14}"
 				""
-				"&eRequires 1 dependency to be completed.&r"
+				"{autotranslate.ftbquests.professions.quests_2.description_16}"
 			]
 			id: "0402FA5F0E1D4835"
 			rewards: [
 				{
 					id: "733A740BBD7E157B"
 					item: "lightmanscurrency:coin_emerald"
-					title: "Money"
+					title: "{autotranslate.ftbquests.professions.quests_2.rewards_0.title}"
 					type: "item"
 				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "2A86C11774E7E94C"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.professions.quests_2.rewards_1.title}"
 					type: "command"
 				}
 				{
@@ -158,47 +158,47 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: 1
 					id: "6D912622A78183E5"
 					table_id: 4000157731876446784L
 					type: "all_table"
 				}
 			]
-			subtitle: "M\\&S Professions"
+			subtitle: "{autotranslate.ftbquests.professions.quests_2.subtitle}"
 			tasks: [{
 				id: "286493E91C2A3DE3"
 				item: "mmorpg:cooking_station"
 				type: "item"
 			}]
-			title: "Cooking"
+			title: "{autotranslate.ftbquests.professions.quests_2.title}"
 			x: 0.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["4E27A84CE1F030A1"]
 			description: [
-				"You can brew potions which can recover health and resources, or provide stat boosts. When brewing, there are a few ingredients:"
+				"{autotranslate.ftbquests.professions.quests_3.description_0}"
 				""
-				"1. &eTiered Meat/Produce/Fish&r - earned from Bounty Hunting, Farming, and Fishing they are based on the item level you want to craft. The level ranges are the same as what you'd find in the gathering Professions. The type of food you use depends on what potion you brew:"
+				"{autotranslate.ftbquests.professions.quests_3.description_2}"
 				""
-				"&cMeat&r: Health/Resource Potion"
-				"&2Produce&r: Core Stat Potion"
-				"&bFish&r: Damage Buff Potion"
+				"{autotranslate.ftbquests.professions.quests_3.description_4}"
+				"{autotranslate.ftbquests.professions.quests_3.description_5}"
+				"{autotranslate.ftbquests.professions.quests_3.description_6}"
 				""
-				"2. &c1&r &eStone (Rarity)&r - the Stones determine the rarity of the gear you will craft. You can get these Stones while salvaging."
+				"{autotranslate.ftbquests.professions.quests_3.description_8}"
 				""
-				"3. 1-2 &eOther Food Items&r - used as an additional ingredient. Refer to &cJEI&r for recipes!"
+				"{autotranslate.ftbquests.professions.quests_3.description_10}"
 				""
-				"4. &eMoney&r"
+				"{autotranslate.ftbquests.professions.quests_3.description_12}"
 				""
-				"&lYou can always check the &cJEI&r &lto see what items are needed for &eAlchemy&r&l.&r"
+				"{autotranslate.ftbquests.professions.quests_3.description_14}"
 			]
 			id: "69CEB39AA409EB41"
 			rewards: [
 				{
 					id: "45E800C630906FA0"
 					item: "lightmanscurrency:coin_emerald"
-					title: "Money"
+					title: "{autotranslate.ftbquests.professions.quests_3.rewards_0.title}"
 					type: "item"
 				}
 				{
@@ -210,24 +210,24 @@
 				{
 					id: "72560260773744C2"
 					item: "minecraft:golden_carrot"
-					title: "Golden Carrot"
+					title: "{autotranslate.ftbquests.professions.quests_3.rewards_2.title}"
 					type: "item"
 				}
 				{
 					count: 4
 					id: "06A71F74FBBAB6B4"
 					item: "minecraft:nether_wart"
-					title: "Nether Warts"
+					title: "{autotranslate.ftbquests.professions.quests_3.rewards_3.title}"
 					type: "item"
 				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "0AC5084AFE23C772"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.professions.quests_3.rewards_4.title}"
 					type: "command"
 				}
 				{
@@ -236,39 +236,39 @@
 					type: "item"
 				}
 			]
-			subtitle: "M\\&S Professions"
+			subtitle: "{autotranslate.ftbquests.professions.quests_3.subtitle}"
 			tasks: [{
 				id: "1E06AAEDAF51CAC4"
 				item: "mmorpg:alchemy_station"
 				type: "item"
 			}]
-			title: "Alchemy"
+			title: "{autotranslate.ftbquests.professions.quests_3.title}"
 			x: 3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["06E3D7523619E263"]
 			description: [
-				"You can craft &eInfusions&r for the following: armor, offhands, jewelry, and weapons. When crafting the scrolls, there are a few ingredients:"
+				"{autotranslate.ftbquests.professions.quests_4.description_0}"
 				""
-				"1. &eTiered Ore&r - earned from Mining, they are based on the item level you want to craft. The level ranges are the same as what you'd find in the Mining Profession."
+				"{autotranslate.ftbquests.professions.quests_4.description_2}"
 				""
-				"2. &eStones (Rarity)&r - the Stones determine the rarity of the gear you will craft. You can get these Stones while salvaging."
+				"{autotranslate.ftbquests.professions.quests_4.description_4}"
 				""
-				"3. &eIngots + Identifier Items&r - the items that determine whether you are crafting armor, offhands, jewelry, or weapons. Refer to &cJEI&r for recipes"
+				"{autotranslate.ftbquests.professions.quests_4.description_6}"
 				""
-				"4. &ePaper&r"
+				"{autotranslate.ftbquests.professions.quests_4.description_8}"
 				""
-				"5. &eMoney&r"
+				"{autotranslate.ftbquests.professions.quests_4.description_10}"
 				""
-				"&lYou can always check the &cJEI&r &lto see what items are needed for &eInfusions&r&l.&r"
+				"{autotranslate.ftbquests.professions.quests_4.description_12}"
 			]
 			id: "5DA0A1825512C2E3"
 			rewards: [
 				{
 					id: "1911D5BB40B08AE4"
 					item: "lightmanscurrency:coin_emerald"
-					title: "Money"
+					title: "{autotranslate.ftbquests.professions.quests_4.rewards_0.title}"
 					type: "item"
 				}
 				{
@@ -282,51 +282,51 @@
 							tier: 0
 						}
 					}
-					title: "Common Armor Enchantments"
+					title: "{autotranslate.ftbquests.professions.quests_4.rewards_1.title}"
 					type: "item"
 				}
 				{
 					id: "54A59A4D3825A0FB"
 					item: "mmorpg:material/mining/1"
-					title: "Celestial Ore"
+					title: "{autotranslate.ftbquests.professions.quests_4.rewards_2.title}"
 					type: "item"
 				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "7C33BF31E52E9AB8"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.professions.quests_4.rewards_3.title}"
 					type: "command"
 				}
 			]
-			subtitle: "M\\&S Professions"
+			subtitle: "{autotranslate.ftbquests.professions.quests_4.subtitle}"
 			tasks: [{
 				id: "4A22DE4DF9A47E2D"
 				item: "mmorpg:enchanting_station"
 				type: "item"
 			}]
-			title: "Infusing"
+			title: "{autotranslate.ftbquests.professions.quests_4.title}"
 			x: -1.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["5B97985430859986"]
 			description: [
-				"Mining any types of ores will grant you Mining experience. However, you will only earn the full amount of experience from ores relative to your Mining level:"
+				"{autotranslate.ftbquests.professions.quests_5.description_0}"
 				""
-				"&eLv. 1-20&r (&7Tier 0&r): Coal, Iron, Copper"
-				"&eLv. 21-40&r (&aTier 1&r): Redstone, Lapis Lazuli, Gold, Quartz, Emerald"
-				"&eLv. 41-60&r (&9Tier 2&r): Cloggrum, Diamond, Froststeel, Utherium"
-				"&eLv. 61-80&r (&dTier 3&r): Regalium, Moonstone, Pyrope, Aquite"
-				"&eLv. 81-100&r (&6Tier 4&r): Falsite, Ventium, Horizonite"
-				"&eLv. 100&r (&5Tier 5&r): Charoite, Diopside"
+				"{autotranslate.ftbquests.professions.quests_5.description_2}"
+				"{autotranslate.ftbquests.professions.quests_5.description_3}"
+				"{autotranslate.ftbquests.professions.quests_5.description_4}"
+				"{autotranslate.ftbquests.professions.quests_5.description_5}"
+				"{autotranslate.ftbquests.professions.quests_5.description_6}"
+				"{autotranslate.ftbquests.professions.quests_5.description_7}"
 				""
-				"&cThat doesn't mean you won't receive any experience from items outside your level range, just less.&r"
+				"{autotranslate.ftbquests.professions.quests_5.description_9}"
 				""
-				"While mining, you will find Tiered Ore&r (&7Spritual&r, &aCelestial&r. &9Emyprean&r, &dAngelic&r, &6Divine&r, and &5Godly&r, which drop by chance depending on your level and the level range of the ore you are mining. This ore can be used in other Professions."
+				"{autotranslate.ftbquests.professions.quests_5.description_11}"
 			]
 			id: "06E3D7523619E263"
 			rewards: [{
@@ -335,7 +335,7 @@
 				item: "mmorpg:material/mining/0"
 				type: "item"
 			}]
-			subtitle: "M\\&S Professions"
+			subtitle: "{autotranslate.ftbquests.professions.quests_5.subtitle}"
 			tasks: [{
 				id: "19BB6A94ECC3A565"
 				item: {
@@ -347,25 +347,25 @@
 				}
 				type: "item"
 			}]
-			title: "Mining"
+			title: "{autotranslate.ftbquests.professions.quests_5.title}"
 			x: -1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["5B97985430859986"]
 			description: [
-				"Farming and harvesting produce will grant you Farming experience. However, you will only earn the full amount of experience from plants relative to your Farming level:"
+				"{autotranslate.ftbquests.professions.quests_6.description_0}"
 				""
-				"&eLv. 1-20&r (&7Tier 0&r): Wheat, Beetroot, Carrot, Potatoes"
-				"&eLv. 21-40&r (&aTier 1&r): Melon, Pumpkin, Flax, Cabbage, Tomato, Onion, Cocoa Beans"
-				"&eLv. 41-60&r (&9Tier 2&r): Corn, Gysahl Green, Nether Wart, Rice, Gloomgourd"
-				"&eLv. 61-80&r (&dTier 3&r): Pine Fruit, Winter Leaves"
-				"&eLv. 81-100&r (&6Tier 4&r): Scalefruit, Fiery Beans"
-				"&eLv. 100&r (&5Tier 5&r): Cryoroot, Solnut"
+				"{autotranslate.ftbquests.professions.quests_6.description_2}"
+				"{autotranslate.ftbquests.professions.quests_6.description_3}"
+				"{autotranslate.ftbquests.professions.quests_6.description_4}"
+				"{autotranslate.ftbquests.professions.quests_6.description_5}"
+				"{autotranslate.ftbquests.professions.quests_6.description_6}"
+				"{autotranslate.ftbquests.professions.quests_6.description_7}"
 				""
-				"&cThat doesn't mean you won't receive any experience from items outside your level range, just less.&r"
+				"{autotranslate.ftbquests.professions.quests_6.description_9}"
 				""
-				"While harvesting, you will find &eTiered Produce&r (&7Spritual&r, &aCelestial&r. &9Emyprean&r, &dAngelic&r, &6Divine&r, and &5Godly&r), which drop by chance depending on your level and the level range of the plant you are harvesting. These can then be used in other Professions."
+				"{autotranslate.ftbquests.professions.quests_6.description_11}"
 			]
 			id: "350315F71B69062F"
 			rewards: [{
@@ -374,7 +374,7 @@
 				item: "mmorpg:material/farming/0"
 				type: "item"
 			}]
-			subtitle: "M\\&S Professions"
+			subtitle: "{autotranslate.ftbquests.professions.quests_6.subtitle}"
 			tasks: [{
 				id: "48940014C4EC1677"
 				item: {
@@ -386,16 +386,16 @@
 				}
 				type: "item"
 			}]
-			title: "Farming"
+			title: "{autotranslate.ftbquests.professions.quests_6.title}"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["5B97985430859986"]
 			description: [
-				"Fishing any fish will grant you Fishing experience. "
+				"{autotranslate.ftbquests.professions.quests_7.description_0}"
 				""
-				"While fishing, you will find &eTiered Fish&r (&7Spritual&r, &aCelestial&r. &9Emyprean&r, &dAngelic&r, &6Divine&r, and &5Godly&r), which drop by chance depending on your level. For example, &7Spiritual&r Fish drop while your Fishing level is between 1-20, &aCelestial&r while your level is between 21-40, etc. The fish can then be used in other Professions."
+				"{autotranslate.ftbquests.professions.quests_7.description_2}"
 			]
 			id: "5BAFAA732A026ADD"
 			rewards: [{
@@ -404,7 +404,7 @@
 				item: "mmorpg:material/fishing/0"
 				type: "item"
 			}]
-			subtitle: "M\\&S Professions"
+			subtitle: "{autotranslate.ftbquests.professions.quests_7.subtitle}"
 			tasks: [{
 				id: "5433C4BA3B7B3B42"
 				item: {
@@ -416,22 +416,22 @@
 				}
 				type: "item"
 			}]
-			title: "Fishing"
+			title: "{autotranslate.ftbquests.professions.quests_7.title}"
 			x: 1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["5B97985430859986"]
 			description: [
-				"&eBounty Hunting&r is a Mine and Slash Profession which levels up as you complete Bountiful bounties. Complete bounties to earn Bounty Hunting experience and &eBounty Slips&r!"
+				"{autotranslate.ftbquests.professions.quests_8.description_0}"
 				""
-				"&eBounty Boards&r will generate &erandom bounties&r for you to complete. Take out a &erequest&r from the board's interface and complete it within the &etime limit&r to earn the listed rewards. As you complete bounties, your &ereputation&r (tied to that Bounty Board block) will increase, increasing the level of rewards. Empowered Bounty Slips will start appearing at 45 reputation!"
+				"{autotranslate.ftbquests.professions.quests_8.description_2}"
 				""
-				"As you level your Bounty Hunting, you will gain access to more purchasable rewards in the &eProfession Shop&r. Items in this shop are purchasable with &eBounty Slips&r! The shop can be accessed with &eDefault Key: P, or the menu wheel&r."
+				"{autotranslate.ftbquests.professions.quests_8.description_4}"
 				""
-				"Craft &eDecrees&r to give new quest types to the board per decree type, which is randomly determined."
+				"{autotranslate.ftbquests.professions.quests_8.description_6}"
 				""
-				"Through Bounty Hunting you will be able to gain &eTiered Meats&r (&7Spritual&r, &aCelestial&r. &9Emyprean&r, &dAngelic&r, &6Divine&r, and &5Godly&r) to be used in Cooking."
+				"{autotranslate.ftbquests.professions.quests_8.description_8}"
 			]
 			icon: {
 				Count: 1
@@ -447,7 +447,7 @@
 				item: "mns_extras:bounty_slip"
 				type: "item"
 			}]
-			subtitle: "M\\&S Professions"
+			subtitle: "{autotranslate.ftbquests.professions.quests_8.subtitle}"
 			tasks: [{
 				id: "3363152CC7556CBC"
 				item: {
@@ -458,33 +458,33 @@
 						"bountiful:bounty_info": "{}"
 					}
 				}
-				title: "Common Bounty"
+				title: "{autotranslate.ftbquests.professions.quests_8.tasks_0.title}"
 				type: "item"
 			}]
-			title: "Bounty Hunting"
+			title: "{autotranslate.ftbquests.professions.quests_8.title}"
 			x: 3.0d
 			y: -1.5d
 		}
 		{
 			description: [
-				"Mine and Slash adds its very own Profession system. Professions are split into 3 categories:"
+				"{autotranslate.ftbquests.professions.quests_9.description_0}"
 				""
-				"&e&lGathering:&r&r"
-				"- &7Mining&r: gather materials while mining."
-				"- &2Farming&r: gather materials when harvesting produce."
-				"- &9Fishing&r: gather special fish by chance while fishing."
-				"- &6Bounty Hunting&r: complete bounties for rewards."
+				"{autotranslate.ftbquests.professions.quests_9.description_2}"
+				"{autotranslate.ftbquests.professions.quests_9.description_3}"
+				"{autotranslate.ftbquests.professions.quests_9.description_4}"
+				"{autotranslate.ftbquests.professions.quests_9.description_5}"
+				"{autotranslate.ftbquests.professions.quests_9.description_6}"
 				""
-				"&e&lCrafting:&r&r"
-				"- &eGear Crafting&r: craft gear to be used in combat."
-				"- &Infusing&r: craft scrolls to enhance your gear."
-				"- &cCooking&r: cook up foods that provide stat, drop, and experience bonuses for a period of time upon consumption."
-				"- &5Alchemy&r: create powerful brews to enhance your stats for a period of time."
+				"{autotranslate.ftbquests.professions.quests_9.description_8}"
+				"{autotranslate.ftbquests.professions.quests_9.description_9}"
+				"{autotranslate.ftbquests.professions.quests_9.description_10}"
+				"{autotranslate.ftbquests.professions.quests_9.description_11}"
+				"{autotranslate.ftbquests.professions.quests_9.description_12}"
 				""
-				"&e&lOther:&r&r"
-				"- &4Salvaging&r: extract resources from gear when salvaged in a Salvaging Station &e(you can also enable auto-salvaging through the Hub)&r."
+				"{autotranslate.ftbquests.professions.quests_9.description_14}"
+				"{autotranslate.ftbquests.professions.quests_9.description_15}"
 				""
-				"&c&lNote: Professions cannot be leveled beyond your Mine and Slash level!&r&r"
+				"{autotranslate.ftbquests.professions.quests_9.description_17}"
 			]
 			icon: {
 				Count: 1
@@ -497,29 +497,29 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 250"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "5F6792B593BCCE90"
-				silent: true
-				title: "250 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.professions.quests_9.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "M\\&S Professions"
+			subtitle: "{autotranslate.ftbquests.professions.quests_9.subtitle}"
 			tasks: [{
 				id: "3921C843B8906ADB"
-				title: "Click Once Read"
+				title: "{autotranslate.ftbquests.professions.quests_9.tasks_0.title}"
 				type: "checkmark"
 			}]
-			title: "Professions Overview"
+			title: "{autotranslate.ftbquests.professions.quests_9.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5B97985430859986"]
 			description: [
-				"Tools in Craft to Exile 2 can gain levels with use. As they increase in level, they can gain affixes which will grant various improvements!"
+				"{autotranslate.ftbquests.professions.quests_10.description_0}"
 				""
-				"&eTools will gain an affix every 20 levels!&r"
+				"{autotranslate.ftbquests.professions.quests_10.description_2}"
 			]
 			icon: "minecraft:paper"
 			id: "4FC11A47AE877347"
@@ -528,24 +528,24 @@
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
-			subtitle: "M\\&S Professions Lost Page"
+			subtitle: "{autotranslate.ftbquests.professions.quests_10.subtitle}"
 			tasks: [{
 				id: "425830C92EB05E74"
-				title: "Click Once Read"
+				title: "{autotranslate.ftbquests.professions.quests_10.tasks_0.title}"
 				type: "checkmark"
 			}]
-			title: "Leveling Tools"
+			title: "{autotranslate.ftbquests.professions.quests_10.title}"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["66D05E37DC634CC8"]
 			description: [
-				"&eSharpening Stones&r can be used on your gear to increase their potency. The quality increase is reflected in the gear's base stat (Weapon Damage, Armor, Dodge Rating, etc.)."
+				"{autotranslate.ftbquests.professions.quests_11.description_0}"
 				""
-				"You can craft &eSharpening Stones&r in the &eGear Crafting Station&r using Stones. As you find higher rarity Stones, you will be able to craft better &eSharpening Stones&r."
+				"{autotranslate.ftbquests.professions.quests_11.description_2}"
 				""
-				"These &eSharpening Stones&r can push quality above the normal cap of &b20&r, so they should always be used after &eOrbs of Quality&r as &eSharpening Stones&r can only be used once on an item!"
+				"{autotranslate.ftbquests.professions.quests_11.description_4}"
 			]
 			id: "141FEAAFF05B9AD0"
 			rewards: [
@@ -553,7 +553,7 @@
 					count: 2
 					id: "547E65938CA0A29C"
 					item: "mmorpg:stone/2"
-					title: "Rare Stones"
+					title: "{autotranslate.ftbquests.professions.quests_11.rewards_0.title}"
 					type: "item"
 				}
 				{
@@ -562,26 +562,26 @@
 					type: "item"
 				}
 			]
-			subtitle: "M\\&S Professions"
+			subtitle: "{autotranslate.ftbquests.professions.quests_11.subtitle}"
 			tasks: [{
 				id: "0A06314AF113F9B0"
 				item: "mmorpg:currency/sharpening_stone_0"
 				type: "item"
 			}]
-			title: "Increasing Gear Quality"
+			title: "{autotranslate.ftbquests.professions.quests_11.title}"
 			x: -4.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["69CEB39AA409EB41"]
 			description: [
-				"Brew the potions with the following:"
+				"{autotranslate.ftbquests.professions.quests_12.description_0}"
 				""
-				"3x &7Spiritual Meat&r"
-				"1x &7Common Stone&r"
-				"1x Cooked Chicken/3x Apple"
-				"1x Tomato/Onion"
-				"1x Copper Coin"
+				"{autotranslate.ftbquests.professions.quests_12.description_2}"
+				"{autotranslate.ftbquests.professions.quests_12.description_3}"
+				"{autotranslate.ftbquests.professions.quests_12.description_4}"
+				"{autotranslate.ftbquests.professions.quests_12.description_5}"
+				"{autotranslate.ftbquests.professions.quests_12.description_6}"
 			]
 			id: "50FD77E095AAC45F"
 			rewards: [
@@ -594,18 +594,18 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 250"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "237FE61CA6C59BC2"
-					silent: true
-					title: "250 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.professions.quests_12.rewards_1.title}"
 					type: "command"
 				}
 			]
-			subtitle: "M\\&S Professions"
+			subtitle: "{autotranslate.ftbquests.professions.quests_12.subtitle}"
 			tasks: [
 				{
-					count: 16L
+					count: 16
 					id: "7E723FA212E31E4B"
 					item: {
 						Count: 1
@@ -618,7 +618,7 @@
 					type: "item"
 				}
 				{
-					count: 16L
+					count: 16
 					id: "0120CDCEBB47B1F9"
 					item: {
 						Count: 1
@@ -631,19 +631,19 @@
 					type: "item"
 				}
 			]
-			title: "Recovery Potions"
+			title: "{autotranslate.ftbquests.professions.quests_12.title}"
 			x: 3.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["69CEB39AA409EB41"]
 			description: [
-				"Brew the potions with the following:"
+				"{autotranslate.ftbquests.professions.quests_13.description_0}"
 				""
-				"3x &7Spiritual Produce&r"
-				"1x &7Common Stone&r"
-				"3x Potato/Cabbage/Carrot"
-				"1x Copper Coin"
+				"{autotranslate.ftbquests.professions.quests_13.description_2}"
+				"{autotranslate.ftbquests.professions.quests_13.description_3}"
+				"{autotranslate.ftbquests.professions.quests_13.description_4}"
+				"{autotranslate.ftbquests.professions.quests_13.description_5}"
 			]
 			id: "53205D57DBDEE858"
 			rewards: [
@@ -657,21 +657,21 @@
 					count: 8
 					id: "15D78B8F7609066A"
 					item: "minecraft:nether_wart"
-					title: "Nether Warts"
+					title: "{autotranslate.ftbquests.professions.quests_13.rewards_1.title}"
 					type: "item"
 				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 250"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "15C4752FC4CE35F1"
-					silent: true
-					title: "250 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.professions.quests_13.rewards_2.title}"
 					type: "command"
 				}
 			]
-			subtitle: "M\\&S Professions"
+			subtitle: "{autotranslate.ftbquests.professions.quests_13.subtitle}"
 			tasks: [
 				{
 					id: "1673E0EA465EEEFC"
@@ -707,25 +707,25 @@
 					type: "item"
 				}
 			]
-			title: "Core Buffs"
+			title: "{autotranslate.ftbquests.professions.quests_13.title}"
 			x: 4.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["5DA0A1825512C2E3"]
 			description: [
-				"Craft an &eUncommon Armor Infusion&r with the following:"
+				"{autotranslate.ftbquests.professions.quests_14.description_0}"
 				""
-				"3x &7Spiritual Ore&r"
-				"1x &aUncommon Stone&r"
-				"2x Iron Ingot"
-				"1x Leather"
-				"1x Paper"
-				"5x Copper Coin"
+				"{autotranslate.ftbquests.professions.quests_14.description_2}"
+				"{autotranslate.ftbquests.professions.quests_14.description_3}"
+				"{autotranslate.ftbquests.professions.quests_14.description_4}"
+				"{autotranslate.ftbquests.professions.quests_14.description_5}"
+				"{autotranslate.ftbquests.professions.quests_14.description_6}"
+				"{autotranslate.ftbquests.professions.quests_14.description_7}"
 				""
-				"When used on your Gear, you have a chance of applying a random stat as a bonus. You can then upgrade that stat by applying higher rarity Infusions."
+				"{autotranslate.ftbquests.professions.quests_14.description_9}"
 				""
-				"&cThe Infusion has a chance of failure when used&r, but you will see the item's tooltip update with \"Infusion\" once successful. &cInfusions must be applied in rarity order.&r Meaning you must start with a successful common Infusion before applying an uncommon one. You cannot apply a rare Infusion onto an item with a common Infusion. The colour of the \"Infusion\" tooltip denotes the rarity of the infusion."
+				"{autotranslate.ftbquests.professions.quests_14.description_11}"
 			]
 			id: "13CE922E843B9A50"
 			rewards: [
@@ -733,28 +733,28 @@
 					count: 4
 					id: "3E9038789F3ED19A"
 					item: "minecraft:paper"
-					title: "Paper"
+					title: "{autotranslate.ftbquests.professions.quests_14.rewards_0.title}"
 					type: "item"
 				}
 				{
 					count: 4
 					id: "35DB00B2EE31CADD"
 					item: "mmorpg:stone/2"
-					title: "Rare Stones"
+					title: "{autotranslate.ftbquests.professions.quests_14.rewards_1.title}"
 					type: "item"
 				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 250"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "7A1D466C1C4DC0B0"
-					silent: true
-					title: "250 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.professions.quests_14.rewards_2.title}"
 					type: "command"
 				}
 			]
-			subtitle: "M\\&S Professions"
+			subtitle: "{autotranslate.ftbquests.professions.quests_14.subtitle}"
 			tasks: [{
 				id: "46602E72F4D06D1C"
 				item: {
@@ -767,19 +767,19 @@
 				}
 				type: "item"
 			}]
-			title: "Not Vanilla Enchantments"
+			title: "{autotranslate.ftbquests.professions.quests_14.title}"
 			x: -1.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["0402FA5F0E1D4835"]
 			description: [
-				"Craft the food with the following:"
+				"{autotranslate.ftbquests.professions.quests_15.description_0}"
 				""
-				"3x &7Spiritual Fish&r"
-				"3x Tropical Fish"
-				"1x &7Common Stone&r"
-				"1x Copper Coin"
+				"{autotranslate.ftbquests.professions.quests_15.description_2}"
+				"{autotranslate.ftbquests.professions.quests_15.description_3}"
+				"{autotranslate.ftbquests.professions.quests_15.description_4}"
+				"{autotranslate.ftbquests.professions.quests_15.description_5}"
 			]
 			id: "29BD14415C264D41"
 			rewards: [
@@ -792,15 +792,15 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 250"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "1874108D1CC5EEE9"
-					silent: true
-					title: "250 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.professions.quests_15.rewards_1.title}"
 					type: "command"
 				}
 			]
-			subtitle: "M\\&S Professions"
+			subtitle: "{autotranslate.ftbquests.professions.quests_15.subtitle}"
 			tasks: [{
 				id: "14728EE82752D08A"
 				item: {
@@ -812,21 +812,21 @@
 				}
 				type: "item"
 			}]
-			title: "Luxurious Seafoods"
+			title: "{autotranslate.ftbquests.professions.quests_15.title}"
 			x: 1.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["0402FA5F0E1D4835"]
 			description: [
-				"Craft the foods with the following:"
+				"{autotranslate.ftbquests.professions.quests_16.description_0}"
 				""
-				"3x &7Spiritual Meat/Produce&r"
-				"2x Cooked Fish Fillet/3x Beetroot"
-				"1x &7Common Stone&r"
-				"1x Copper Coin"
+				"{autotranslate.ftbquests.professions.quests_16.description_2}"
+				"{autotranslate.ftbquests.professions.quests_16.description_3}"
+				"{autotranslate.ftbquests.professions.quests_16.description_4}"
+				"{autotranslate.ftbquests.professions.quests_16.description_5}"
 				""
-				"&cThe order of materials doesn't matter, but the output of the station must be empty!&r"
+				"{autotranslate.ftbquests.professions.quests_16.description_7}"
 			]
 			id: "74D3767A981DAE84"
 			rewards: [
@@ -839,15 +839,15 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 250"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "303BACA6F3D5CE95"
-					silent: true
-					title: "250 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.professions.quests_16.rewards_1.title}"
 					type: "command"
 				}
 			]
-			subtitle: "M\\&S Professions"
+			subtitle: "{autotranslate.ftbquests.professions.quests_16.subtitle}"
 			tasks: [
 				{
 					id: "0007D7D85660469C"
@@ -872,22 +872,22 @@
 					type: "item"
 				}
 			]
-			title: "Healthy Foods"
+			title: "{autotranslate.ftbquests.professions.quests_16.title}"
 			x: 0.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["66D05E37DC634CC8"]
 			description: [
-				"Craft a &eCrafted Common Jewelry Soul&r with the following:"
+				"{autotranslate.ftbquests.professions.quests_17.description_0}"
 				""
-				"3x &7Spiritual Ore&r"
-				"2x &7Common Stone&r"
-				"1x Iron Ingot"
-				"1x Copper Ingot"
-				"1x Copper Coin"
+				"{autotranslate.ftbquests.professions.quests_17.description_2}"
+				"{autotranslate.ftbquests.professions.quests_17.description_3}"
+				"{autotranslate.ftbquests.professions.quests_17.description_4}"
+				"{autotranslate.ftbquests.professions.quests_17.description_5}"
+				"{autotranslate.ftbquests.professions.quests_17.description_6}"
 				""
-				"The Crafted Gear Soul will work on any base item that matches the type (Ring Souls on Rings)."
+				"{autotranslate.ftbquests.professions.quests_17.description_8}"
 			]
 			id: "7C542CE6F026787C"
 			rewards: [
@@ -911,15 +911,15 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 250"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "5C53ABEEFE4798DC"
-					silent: true
-					title: "250 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.professions.quests_17.rewards_2.title}"
 					type: "command"
 				}
 			]
-			subtitle: "M\\&S Professions"
+			subtitle: "{autotranslate.ftbquests.professions.quests_17.subtitle}"
 			tasks: [{
 				id: "394F2627DA3AB85C"
 				item: {
@@ -932,19 +932,19 @@
 				}
 				type: "item"
 			}]
-			title: "Humble Beginnings"
+			title: "{autotranslate.ftbquests.professions.quests_17.title}"
 			x: -3.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["69CEB39AA409EB41"]
 			description: [
-				"Brew the potions with the following:"
+				"{autotranslate.ftbquests.professions.quests_18.description_0}"
 				""
-				"1x &7Spiritual Fish&r"
-				"5x Lapis Lazuli/3x Gold Ingot/3x Redstone"
-				"1x &7Common Stone&r"
-				"1x Copper Coin"
+				"{autotranslate.ftbquests.professions.quests_18.description_2}"
+				"{autotranslate.ftbquests.professions.quests_18.description_3}"
+				"{autotranslate.ftbquests.professions.quests_18.description_4}"
+				"{autotranslate.ftbquests.professions.quests_18.description_5}"
 			]
 			id: "609557127CC400F5"
 			rewards: [
@@ -958,21 +958,21 @@
 					count: 2
 					id: "0E3EF56AF97F2452"
 					item: "minecraft:golden_carrot"
-					title: "Golden Carrots"
+					title: "{autotranslate.ftbquests.professions.quests_18.rewards_1.title}"
 					type: "item"
 				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 250"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "31EDE1FD872C0BB5"
-					silent: true
-					title: "250 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.professions.quests_18.rewards_2.title}"
 					type: "command"
 				}
 			]
-			subtitle: "M\\&S Professions"
+			subtitle: "{autotranslate.ftbquests.professions.quests_18.subtitle}"
 			tasks: [
 				{
 					id: "7A9908F77070FDB2"
@@ -1008,16 +1008,16 @@
 					type: "item"
 				}
 			]
-			title: "Raw Damage"
+			title: "{autotranslate.ftbquests.professions.quests_18.title}"
 			x: 4.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["69CEB39AA409EB41"]
 			description: [
-				"Brew the potions with the following:"
+				"{autotranslate.ftbquests.professions.quests_19.description_0}"
 				""
-				"The recipes for these potions are a bit different, please check &cJEI&r for more information."
+				"{autotranslate.ftbquests.professions.quests_19.description_2}"
 			]
 			id: "70D6378FAA39BED0"
 			rewards: [
@@ -1030,15 +1030,15 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 500"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "3FA933A7A6E67FE4"
-					silent: true
-					title: "500 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.professions.quests_19.rewards_1.title}"
 					type: "command"
 				}
 			]
-			subtitle: "M\\&S Professions"
+			subtitle: "{autotranslate.ftbquests.professions.quests_19.subtitle}"
 			tasks: [
 				{
 					id: "106CA4AA64E1CCEA"
@@ -1062,9 +1062,9 @@
 		{
 			dependencies: ["5B97985430859986"]
 			description: [
-				"&eCrafting Stations&r for each of the Professions are &etied to the player that placed them&r."
+				"{autotranslate.ftbquests.professions.quests_20.description_0}"
 				""
-				"Each player will need their own set of Crafting Stations!"
+				"{autotranslate.ftbquests.professions.quests_20.description_2}"
 			]
 			icon: "minecraft:paper"
 			id: "3C7E703FC750E2B3"
@@ -1073,28 +1073,28 @@
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
-			subtitle: "M\\&S Professions Lost Page"
+			subtitle: "{autotranslate.ftbquests.professions.quests_20.subtitle}"
 			tasks: [{
 				id: "6A644AC376F30A75"
-				title: "Click Once Read"
+				title: "{autotranslate.ftbquests.professions.quests_20.tasks_0.title}"
 				type: "checkmark"
 			}]
-			title: "To Your Stations!"
+			title: "{autotranslate.ftbquests.professions.quests_20.title}"
 			x: -1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7C542CE6F026787C"]
 			description: [
-				"When using a &eCrafted Gear Soul&r, there is a &cchance&r it will roll as any one of the armor types. To circumvent this randomness, you can use &eSoul Modifiers&r."
+				"{autotranslate.ftbquests.professions.quests_21.description_0}"
 				""
-				"You can apply &eSoul Modifiers&r directly onto &eCrafted Gear Souls&r to &eguarantee the material (plate, cloth, leather) outcome&r of your item."
+				"{autotranslate.ftbquests.professions.quests_21.description_2}"
 				""
-				"There are also &eSoul Modifiers&r for the various hybrid armor sets!"
+				"{autotranslate.ftbquests.professions.quests_21.description_4}"
 				""
-				"Use the &eSoul Modifier&r on the &eCrafted Gear Soul&r by dragging and dropping it. You may not notice any changes, but once the &eCrafted Gear Soul&r is used, you will see that it belongs to that type."
+				"{autotranslate.ftbquests.professions.quests_21.description_6}"
 				""
-				"For example, apply a &eCloth Soul Modifier&r onto a &eCrafted Armor Soul&r to guarantee Cloth Armor!"
+				"{autotranslate.ftbquests.professions.quests_21.description_8}"
 			]
 			id: "1F781E29B5ACDD96"
 			rewards: [{
@@ -1103,7 +1103,7 @@
 				item: "mmorpg:stone/2"
 				type: "item"
 			}]
-			subtitle: "M\\&S Professions"
+			subtitle: "{autotranslate.ftbquests.professions.quests_21.subtitle}"
 			tasks: [
 				{
 					id: "742045832B4AD932"
@@ -1121,20 +1121,20 @@
 					type: "item"
 				}
 			]
-			title: "Soul Modification"
+			title: "{autotranslate.ftbquests.professions.quests_21.title}"
 			x: -1.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["7C542CE6F026787C"]
 			description: [
-				"Craft a &eCrafted Rare Weapon Soul&r with the following:"
+				"{autotranslate.ftbquests.professions.quests_22.description_0}"
 				""
-				"3x &aCelestial Ore&r"
-				"4x &9Rare Stone&r"
-				"2x Emerald"
-				"1x Stick"
-				"1x Iron Coin"
+				"{autotranslate.ftbquests.professions.quests_22.description_2}"
+				"{autotranslate.ftbquests.professions.quests_22.description_3}"
+				"{autotranslate.ftbquests.professions.quests_22.description_4}"
+				"{autotranslate.ftbquests.professions.quests_22.description_5}"
+				"{autotranslate.ftbquests.professions.quests_22.description_6}"
 			]
 			id: "59FA681B103BE2AB"
 			rewards: [
@@ -1147,15 +1147,15 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 250"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "2FE4467A1FF871D2"
-					silent: true
-					title: "250 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.professions.quests_22.rewards_1.title}"
 					type: "command"
 				}
 			]
-			subtitle: "M\\&S Professions"
+			subtitle: "{autotranslate.ftbquests.professions.quests_22.subtitle}"
 			tasks: [{
 				id: "1A660838036424BB"
 				item: {
@@ -1168,29 +1168,29 @@
 				}
 				type: "item"
 			}]
-			title: "A Blacksmith's Lesson"
+			title: "{autotranslate.ftbquests.professions.quests_22.title}"
 			x: -3.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["5B97985430859986"]
-			description: ["Insert the &eDisassembler's Learning Method&r into the &ecrafting station&r of your choice to &eimmediately void&r the item you've crafted but gain &edouble Profession experience&r."]
+			description: ["{autotranslate.ftbquests.professions.quests_23.description_0}"]
 			id: "4C14F8BB015A5892"
 			rewards: [{
 				id: "566A53AA87A4E85F"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
-			subtitle: "Disassembler's Learning Method"
+			subtitle: "{autotranslate.ftbquests.professions.quests_23.subtitle}"
 			tasks: [{
 				id: "40C533C34F3858DF"
 				item: "mmorpg:destroy_output_exp"
 				type: "item"
 			}]
-			title: "Fast Levelling"
+			title: "{autotranslate.ftbquests.professions.quests_23.title}"
 			x: 0.0d
 			y: 1.5d
 		}
 	]
-	title: "&aM\\&S Professions&r"
+	title: "{autotranslate.ftbquests.professions.title}"
 }

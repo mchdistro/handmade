@@ -1,0 +1,24 @@
+{
+    "name": "LED 큐브",
+    "icon": "mimi:ledcube_a",
+    "category": "mimi:4redstone",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "LED 큐브",
+            "item": "mimi:ledcube_a",
+            "text": "LED 큐브는 16가지 색상 중 하나로 설정할 수 있으며 레드스톤으로 [Powered]되면 빛나는 블록입니다.$(br2)LED 큐브는 레드스톤에 빠르게 반응하기 때문에 [Listener] 및 [Receiver]와 함께 사용하면 좋습니다. 그러나 LED 큐브는 주변의 밝기 [Level]을 변경하지 않으며 몹의 [Spawning]을 막지 않습니다."
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "레시피",
+            "recipe": "mimi:ledcube_a",
+            "text": "LED 큐브 디자인은 제작 그리드에서 동일한 디자인의 큐브 4개를 정사각형으로 배치하여 변경할 수 있습니다.$(br2) 또한 제작 그리드에서 LED 큐브 두 스택을 서로 바로 옆에 배치하여 왼쪽 스택의 디자인, 색상 및 반전 설정을 오른쪽 스택으로 복사할 수도 있습니다."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "월드에서 LED 정육면체의 색상을 변경하려면 빈 손으로 우클릭하십시오.$(br2) 레드스톤 횃불 또는 레드스톤 블록을 들고 오른쪽 클릭하여 월드에서 LED 정육면체를 반전시킬 수 있습니다(레드스톤 신호 없이 켜지게 할 수 있음)."
+        }
+    ],
+    "sortnum": 4
+}

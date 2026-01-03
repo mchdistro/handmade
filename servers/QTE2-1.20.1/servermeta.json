@@ -35,15 +35,7 @@
   "untrackedFiles": [
     {
       "appliesTo": ["files"],
-      "patterns": [
-        "options.txt",
-        "config/**/**.**",
-        "defaultconfigs/**/**.**",
-        "kubejs/**/**.**",
-        "patchouli_books/**/**.**",
-        "minemenu/menu.json",
-        "scripts/**.**"
-      ]
+      "patterns": ["options.txt", "config/**.**", "config/jei/**.**", "defaultconfigs/**/**.**"]
     }
   ]
 }

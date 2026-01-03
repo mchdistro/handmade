@@ -3,8 +3,12 @@
 	loot_size: 1
 	order_index: 43
 	rewards: [
-		{ item: "mmorpg:runes/cen" }
-		{ item: "mmorpg:runes/dos" }
+		{
+			item: "mmorpg:runes/cen"
+		}
+		{
+			item: "mmorpg:runes/dos"
+		}
 	]
-	title: "Runes 2"
+	title: "룬 2"
 }

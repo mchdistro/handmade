@@ -1,0 +1,6 @@
+{
+    "tooltip.paraglider.heart_container.1": "최대 체력을 (%s, 체력 2)만큼 증가시키며, 최대 %s회까지 가능합니다.",
+    "tooltip.paraglider.heart_container.1.hearts": "하트 1개",
+    "tooltip.paraglider.stamina_vessel.1": "최대 스테미나를 300 증가시키며, 최대 %s회까지 가능합니다.",
+    "tooltip.paraglider.anti_vessel.0": "소모한 모든 하트 컨테이너와 스테미나 그릇을 회수합니다."
+}

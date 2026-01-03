@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: 0
 	default_quest_shape: ""
 	filename: "completionist"
 	group: "37C10F4BE9E00A26"
@@ -22,7 +22,7 @@
 			"481C3C4D8D5AF5B8"
 			"0F4713A9935F369F"
 		]
-		description: ["&l&eWow. You've completed all side quests! Congratulations!&r&r"]
+		description: ["{autotranslate.ftbquests.completionist.quests_0.description_0}"]
 		icon: {
 			Count: 1
 			id: "stalwart_dungeons:teleporter_pearl"
@@ -32,26 +32,26 @@
 		rewards: [
 			{
 				command: "/tellraw @a {\"text\":\"\",\"color\":\"red\",\"extra\":[{\"selector\":\"@p\"},{\"text\":\" has completed every achievement!\"}]}"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "minecraft:cookie"
 				id: "3157148AF2774908"
-				title: "Click here to brag"
+				title: "{autotranslate.ftbquests.completionist.quests_0.rewards_0.title}"
 				type: "command"
 			}
 			{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 5000"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "3AB0B75CE05EB755"
-				silent: true
-				title: "5000 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.completionist.quests_0.rewards_1.title}"
 				type: "command"
 			}
 			{
 				id: "082683F82C35A0B5"
 				item: "lightmanscurrency:coin_netherite"
-				title: "Money"
+				title: "{autotranslate.ftbquests.completionist.quests_0.rewards_2.title}"
 				type: "item"
 			}
 			{
@@ -62,15 +62,15 @@
 		]
 		shape: "hexagon"
 		size: 3.0d
-		subtitle: "Final Achievment"
+		subtitle: "{autotranslate.ftbquests.completionist.quests_0.subtitle}"
 		tasks: [{
 			id: "74A99B588AB7DC63"
-			title: "Click Once Read"
+			title: "{autotranslate.ftbquests.completionist.quests_0.tasks_0.title}"
 			type: "checkmark"
 		}]
-		title: "The Completionist"
+		title: "{autotranslate.ftbquests.completionist.quests_0.title}"
 		x: 0.0d
 		y: 0.0d
 	}]
-	title: "Completionist"
+	title: "{autotranslate.ftbquests.completionist.title}"
 }

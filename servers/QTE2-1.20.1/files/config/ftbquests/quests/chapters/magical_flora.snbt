@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: 0
 	default_quest_shape: ""
 	filename: "magical_flora"
 	group: "5F2CCE8075FCC994"
@@ -10,18 +10,18 @@
 	quests: [
 		{
 			description: [
-				"The &eLexica Botania&r is a very useful item and guide that will help you navigate through &2&lBotania&r&r. By keeping the Lexica in your hotbar, you can hover over any item and hold &eCtrl&r to open an article regarding the item in the Lexica Botania."
+				"{autotranslate.ftbquests.magical_flora.quests_0.description_0}"
 				""
-				"By going through and familiarizing yourself with Botania, you can craft powerful trinkets and items that can assist you in combat and automation!"
+				"{autotranslate.ftbquests.magical_flora.quests_0.description_2}"
 				""
-				"&c&oNote that some parts of Botania are disabled for balance reasons. The list below is not exhaustive and only covers notable removals:&r&r"
-				"- Loonium"
-				"- Damage, Weight, and Entropic Lenses"
-				"- Gaia Relics (from Dice)"
-				"- Elementium armor and sword"
-				"- Gravity and Missile Rods"
+				"{autotranslate.ftbquests.magical_flora.quests_0.description_4}"
+				"{autotranslate.ftbquests.magical_flora.quests_0.description_5}"
+				"{autotranslate.ftbquests.magical_flora.quests_0.description_6}"
+				"{autotranslate.ftbquests.magical_flora.quests_0.description_7}"
+				"{autotranslate.ftbquests.magical_flora.quests_0.description_8}"
+				"{autotranslate.ftbquests.magical_flora.quests_0.description_9}"
 				""
-				"There are many useful things not mentioned here, reading through the &eLexica Botania&r periodically as you progress is a must!"
+				"{autotranslate.ftbquests.magical_flora.quests_0.description_11}"
 			]
 			id: "375C5F3D6F6CE434"
 			rewards: [
@@ -34,30 +34,30 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "70B7B4E51C690B9C"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.magical_flora.quests_0.rewards_1.title}"
 					type: "command"
 				}
 			]
-			subtitle: "A Realistical Logical Ideologist"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_0.subtitle}"
 			tasks: [{
 				id: "333E6715999C5638"
 				item: "botania:lexicon"
 				type: "item"
 			}]
-			title: "The Botania Scriptures"
+			title: "{autotranslate.ftbquests.magical_flora.quests_0.title}"
 			x: -1.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["375C5F3D6F6CE434"]
 			description: [
-				"&eMystical Flowers&r are the very start of progression through Botania. The &eFlower Pouch&r can help you keep them organized in one place!"
+				"{autotranslate.ftbquests.magical_flora.quests_1.description_0}"
 				""
-				"&eFloral Fertilizer&r can be used like bonemeal in order to more easily obtain &eMystical Flowers&r!"
+				"{autotranslate.ftbquests.magical_flora.quests_1.description_2}"
 			]
 			id: "386F0541CCE9CA16"
 			rewards: [
@@ -69,18 +69,18 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "4316A2F887A0A2FD"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.magical_flora.quests_1.rewards_1.title}"
 					type: "command"
 				}
 			]
-			subtitle: "Sky of Beginning"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_1.subtitle}"
 			tasks: [
 				{
-					count: 16L
+					count: 16
 					id: "21B15803AAC1AE3D"
 					item: {
 						Count: 1
@@ -89,7 +89,7 @@
 							value: "botania:mystical_flowers"
 						}
 					}
-					title: "Any #botania:mystical_flowers"
+					title: "{autotranslate.ftbquests.magical_flora.quests_1.tasks_0.title}"
 					type: "item"
 				}
 				{
@@ -98,13 +98,13 @@
 					type: "item"
 				}
 			]
-			title: "Magic-Infused Plants"
+			title: "{autotranslate.ftbquests.magical_flora.quests_1.title}"
 			x: -1.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["386F0541CCE9CA16"]
-			description: ["You can cultivate your &eMystical Flowers&r into more flowers by placing &ePetals&r in the world and using Bone meal on them."]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_2.description_0}"]
 			id: "7F9BDB18FBE5EDCF"
 			rewards: [
 				{
@@ -116,16 +116,16 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "4A67BA0D6CB28907"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.magical_flora.quests_2.rewards_1.title}"
 					type: "command"
 				}
 			]
 			tasks: [{
-				count: 16L
+				count: 16
 				id: "58491A36F25EE617"
 				item: {
 					Count: 1
@@ -134,25 +134,25 @@
 						value: "botania:double_mystical_flowers"
 					}
 				}
-				title: "Any #botania:double_mystical_flowers"
+				title: "{autotranslate.ftbquests.magical_flora.quests_2.tasks_0.title}"
 				type: "item"
 			}]
-			title: "More Magic-Infused Plants"
+			title: "{autotranslate.ftbquests.magical_flora.quests_2.title}"
 			x: 0.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["386F0541CCE9CA16"]
-			description: ["The &ePetal Apothecary&r is the primary 'station' of Botania. It acts as the crafting station for all &eFunctional and Generating Flowers&r."]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_3.description_0}"]
 			id: "7F4A3981CAAEF73B"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "6FB5B5E1ED6DE217"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.magical_flora.quests_3.rewards_0.title}"
 				type: "command"
 			}]
 			tasks: [
@@ -172,20 +172,20 @@
 		}
 		{
 			dependencies: ["7F4A3981CAAEF73B"]
-			description: ["&ePure Daisy&r is your bread and butter of the flowers - it turns &eStone and Logs into Livingrock and Livingwood&r accordingly."]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_4.description_0}"]
 			icon: "botania:pure_daisy"
 			id: "5886370AB6110B26"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "55F9B02BA217DC97"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.magical_flora.quests_4.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "An Ecstatic Vivace"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_4.subtitle}"
 			tasks: [
 				{
 					id: "15080337FAF41819"
@@ -193,15 +193,18 @@
 					type: "item"
 				}
 				{
-					count: 5L
+					count: 5
 					id: "0178EB0610FAAC3B"
 					item: "botania:livingrock"
 					type: "item"
 				}
 				{
-					count: 5L
+					count: 5
 					id: "4A10DC91A578B8F4"
-					item: { Count: 5, id: "botania:livingwood_log" }
+					item: {
+						Count: 5
+						id: "botania:livingwood_log"
+					}
 					type: "item"
 				}
 			]
@@ -214,28 +217,28 @@
 				"425932D1D16BF387"
 			]
 			description: [
-				"The &eMana Pool&r is your \"battery\" that contains all the mana you accumulate. As the primary storage, it is vital that you get your Mana Pool up and running!"
+				"{autotranslate.ftbquests.magical_flora.quests_5.description_0}"
 				""
-				"&eRequires ALL dependencies to be completed.&r"
+				"{autotranslate.ftbquests.magical_flora.quests_5.description_2}"
 			]
 			id: "626B63941D36E8C2"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "180F4535CFA511ED"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.magical_flora.quests_5.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Vivid Wave"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_5.subtitle}"
 			tasks: [{
 				id: "735046BC3125BB03"
 				item: "botania:mana_pool"
 				type: "item"
 			}]
-			title: "Gimme Your Mana!"
+			title: "{autotranslate.ftbquests.magical_flora.quests_5.title}"
 			x: -2.5d
 			y: -5.5d
 		}
@@ -245,23 +248,23 @@
 				"425932D1D16BF387"
 			]
 			description: [
-				"The &eMana Spreader&r is primarily used to direct mana pulses to and from &eMana Pools&r. It is also required to generate mana, as the source generating flower must send its mana to a linked spreader before it is sent to a pool."
+				"{autotranslate.ftbquests.magical_flora.quests_6.description_0}"
 				""
-				"Important to note that distance drastically impacts mana transfer rates, a spreader cannot fire another burst until the previous one has landed!"
+				"{autotranslate.ftbquests.magical_flora.quests_6.description_2}"
 				""
-				"&oTransfers 160 mana per burst.&r"
+				"{autotranslate.ftbquests.magical_flora.quests_6.description_4}"
 				""
-				"&eRequires ALL dependencies to be completed.&r"
+				"{autotranslate.ftbquests.magical_flora.quests_6.description_6}"
 			]
 			id: "144467B32903983B"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "12E22C5A783337C6"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.magical_flora.quests_6.rewards_0.title}"
 				type: "command"
 			}]
 			tasks: [{
@@ -269,13 +272,13 @@
 				item: "botania:mana_spreader"
 				type: "item"
 			}]
-			title: "Mana Delegation"
+			title: "{autotranslate.ftbquests.magical_flora.quests_6.title}"
 			x: 0.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["5886370AB6110B26"]
-			description: ["The &eWand of the Forest&r is your linking tool and 'wrench' that will help you &ebind&r flowers to &eMana Pool/Mana Spreaders&r. Think of the wand as a tool that lets you link certain Botania objects together, such as the direction of mana flow from the Mana Spreader."]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_7.description_0}"]
 			id: "425932D1D16BF387"
 			rewards: [
 				{
@@ -286,11 +289,11 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "140F35FD322F6C29"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.magical_flora.quests_7.rewards_1.title}"
 					type: "command"
 				}
 			]
@@ -306,13 +309,13 @@
 				}
 				type: "item"
 			}]
-			title: "The Wrench of the Forest"
+			title: "{autotranslate.ftbquests.magical_flora.quests_7.title}"
 			x: -1.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["626B63941D36E8C2"]
-			description: ["By throwing various items in a filled &eMana Pool&r, you can turn them into mana variants that are used in most crafts."]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_8.description_0}"]
 			id: "7765E99AC13D3032"
 			rewards: [
 				{
@@ -330,55 +333,55 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "1FA7C3BF8B7EAFD5"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.magical_flora.quests_8.rewards_2.title}"
 					type: "command"
 				}
 			]
 			tasks: [
 				{
-					count: 5L
+					count: 5
 					id: "2E963E280A3E2CB1"
 					item: "botania:manasteel_ingot"
 					type: "item"
 				}
 				{
-					count: 5L
+					count: 5
 					id: "1D5F7C90CA307282"
 					item: "botania:mana_pearl"
 					type: "item"
 				}
 				{
-					count: 5L
+					count: 5
 					id: "0094350D39F50F54"
 					item: "botania:mana_diamond"
 					type: "item"
 				}
 			]
-			title: "Infused Ingots"
+			title: "{autotranslate.ftbquests.magical_flora.quests_8.title}"
 			x: -4.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["144467B32903983B"]
 			description: [
-				"To actually generate mana you will need &eGenerating Flowers&r such as the &eEndoflame or Hydroangeas&r."
+				"{autotranslate.ftbquests.magical_flora.quests_9.description_0}"
 				""
-				"The Endoflame will consume furnace fuels such as coal or charcoal to generate mana, whereas Hydroangeas will drink surrounding water sources in a 3x3 area to passively provide you small amounts of mana. However, Hydroangeas will eventually decay."
+				"{autotranslate.ftbquests.magical_flora.quests_9.description_2}"
 			]
 			id: "757C990D0DCFE95B"
 			rewards: [
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "27BD5A116AD9354A"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.magical_flora.quests_9.rewards_0.title}"
 					type: "command"
 				}
 				{
@@ -394,7 +397,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Flower Magic"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_9.subtitle}"
 			tasks: [
 				{
 					id: "0D4CA0EF2C1317EE"
@@ -407,13 +410,13 @@
 					type: "item"
 				}
 			]
-			title: "First Generating Flora"
+			title: "{autotranslate.ftbquests.magical_flora.quests_9.title}"
 			x: 1.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["626B63941D36E8C2"]
-			description: ["By dipping strings in a &eMana Pool&r you can create &eMana Strings&r. You can use these strings for various cosmetic items and trinkets."]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_10.description_0}"]
 			id: "35AF07FCCB27D2E0"
 			rewards: [
 				{
@@ -424,27 +427,27 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "206DCA8214A88470"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.magical_flora.quests_10.rewards_1.title}"
 					type: "command"
 				}
 			]
 			tasks: [{
-				count: 5L
+				count: 5
 				id: "571E3F5AC93747AF"
 				item: "botania:mana_string"
 				type: "item"
 			}]
-			title: "It's Time To Get Fancy"
+			title: "{autotranslate.ftbquests.magical_flora.quests_10.title}"
 			x: -4.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["35AF07FCCB27D2E0"]
-			description: ["If you combine &eMana Strings&r into &eManaweave Cloth&r you can create a good basic Botania armor that will signifigantly reduce the mana consumption of all rods, armor and tools."]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_11.description_0}"]
 			id: "4E4F05F210F326B4"
 			rewards: [
 				{
@@ -460,15 +463,15 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "05F410CDAE0F5C2D"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.magical_flora.quests_11.rewards_2.title}"
 					type: "command"
 				}
 			]
-			subtitle: "Imagination Forest"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_11.subtitle}"
 			tasks: [
 				{
 					id: "2C9CEA1A0FD8BEAB"
@@ -515,24 +518,24 @@
 					type: "item"
 				}
 			]
-			title: "Posh Outerwear"
+			title: "{autotranslate.ftbquests.magical_flora.quests_11.title}"
 			x: -5.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["7765E99AC13D3032"]
-			description: ["By using a &3&lMana Tablet&r&r you can carry and transfer around mana. Use the Wand of the Forest to toggle a mana pool into charge or drain modes, simply drop the tablet onto the pool to transfer mana."]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_12.description_0}"]
 			icon: "botania:mana_tablet"
 			id: "21E565614968622B"
 			rewards: [
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "1F23CBF2C75BD36A"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.magical_flora.quests_12.rewards_0.title}"
 					type: "command"
 				}
 				{
@@ -547,7 +550,7 @@
 				item: "botania:mana_tablet"
 				type: "item"
 			}]
-			title: "Portable Mana"
+			title: "{autotranslate.ftbquests.magical_flora.quests_12.title}"
 			x: -6.0d
 			y: -7.0d
 		}
@@ -558,9 +561,9 @@
 				"425932D1D16BF387"
 			]
 			description: [
-				"By directing mana into the &n&3&lRunic Altar&r&r&r and adding some crafting materials, you can intiate the crafting of &eBotania Runes&r (&cnot to be mistaken with Mine and Slash Runes!&r). To finish the crafting process you have to drop a &eLivingrock&r on top and then click it with the &eWand of the Forest&r. Runes are used in various crafts."
+				"{autotranslate.ftbquests.magical_flora.quests_13.description_0}"
 				""
-				"&eRequires ALL dependencies to be completed.&r"
+				"{autotranslate.ftbquests.magical_flora.quests_13.description_2}"
 			]
 			icon: "botania:runic_altar"
 			id: "2CCB1CB299A81969"
@@ -568,11 +571,11 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "5E7EBF27BF99F475"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.magical_flora.quests_13.rewards_0.title}"
 					type: "command"
 				}
 				{
@@ -587,7 +590,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Drop Pop Candy"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_13.subtitle}"
 			tasks: [
 				{
 					id: "524F696A444E116F"
@@ -595,7 +598,7 @@
 					type: "item"
 				}
 				{
-					count: 6L
+					count: 6
 					id: "42953863EFF14F5C"
 					item: {
 						Count: 1
@@ -604,7 +607,7 @@
 							value: "botania:runes"
 						}
 					}
-					title: "Any #botania:runes"
+					title: "{autotranslate.ftbquests.magical_flora.quests_13.tasks_1.title}"
 					type: "item"
 				}
 			]
@@ -613,17 +616,17 @@
 		}
 		{
 			dependencies: ["2CCB1CB299A81969"]
-			description: ["&eElemental Runes&r are core Runes that can be used for creating more complex Runes and various items."]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_14.description_0}"]
 			id: "5AF488FC9A36BFA1"
 			rewards: [
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 250"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "3C14054033CDCB8D"
-					silent: true
-					title: "250 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.magical_flora.quests_14.rewards_0.title}"
 					type: "command"
 				}
 				{
@@ -638,7 +641,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Elemental Power"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_14.subtitle}"
 			tasks: [
 				{
 					id: "4598AB9722168777"
@@ -666,23 +669,23 @@
 					type: "item"
 				}
 			]
-			title: "Elemental Runes"
+			title: "{autotranslate.ftbquests.magical_flora.quests_14.title}"
 			x: -2.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["5AF488FC9A36BFA1"]
-			description: ["The &eAgglomeration Plate&r is used as crafting station for the creation of &eTerrasteel&r."]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_15.description_0}"]
 			id: "4C947F0DD56C009C"
 			rewards: [
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "543340695C1E918F"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.magical_flora.quests_15.rewards_0.title}"
 					type: "command"
 				}
 				{
@@ -708,19 +711,19 @@
 					type: "item"
 				}
 				{
-					count: 4L
+					count: 4
 					id: "369F738FC5EBEE08"
 					item: "minecraft:lapis_block"
 					type: "item"
 				}
 				{
-					count: 5L
+					count: 5
 					id: "7E6A4FC09C14F5FF"
 					item: "botania:livingrock"
 					type: "item"
 				}
 				{
-					count: 2L
+					count: 2
 					id: "59EB5E4FFE62E171"
 					item: "botania:spark"
 					type: "item"
@@ -732,71 +735,71 @@
 		{
 			dependencies: ["4C947F0DD56C009C"]
 			description: [
-				"By pouring large amounts of mana on core mana resources you can combine them into ingots more capable than the simple &eManasteel Ingot&r. Requires half of a pool of mana to successfully craft, make sure the craft is not interupted or the mana will be lost!"
+				"{autotranslate.ftbquests.magical_flora.quests_16.description_0}"
 				""
-				"It is highly advised to place a Spark on both the Plane and source Mana Pool in order to vastly speed up this process, spreaders are far too slow for this complex of a process."
+				"{autotranslate.ftbquests.magical_flora.quests_16.description_2}"
 				""
-				"&eRequires ALL dependencies to be completed.&r"
+				"{autotranslate.ftbquests.magical_flora.quests_16.description_4}"
 			]
 			id: "29FF9EF35E5B5FC7"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 200"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "19CC8E55BADA7FA6"
-				silent: true
-				title: "200 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.magical_flora.quests_16.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Dancer in the Dark"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_16.subtitle}"
 			tasks: [{
-				count: 4L
+				count: 4
 				id: "73F5589E0579E511"
 				item: "botania:terrasteel_ingot"
 				type: "item"
 			}]
-			title: "An Introduction to Terrasteel"
+			title: "{autotranslate.ftbquests.magical_flora.quests_16.title}"
 			x: -4.0d
 			y: -11.5d
 		}
 		{
 			dependencies: ["626B63941D36E8C2"]
-			description: ["During your adventures you can occasionally find &eBlack Lotus&r in chests. If you drop the lotus into a non-empty &eMana Pool&r, you can gain some free mana!"]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_17.description_0}"]
 			id: "7CFDB0573735E69E"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "70510941304702CA"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.magical_flora.quests_17.rewards_0.title}"
 				type: "command"
 			}]
 			tasks: [{
-				count: 3L
+				count: 3
 				id: "0F277CC6C3F60B56"
 				item: "botania:black_lotus"
 				type: "item"
 			}]
-			title: "Free Mana?!"
+			title: "{autotranslate.ftbquests.magical_flora.quests_17.title}"
 			x: -2.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["7CFDB0573735E69E"]
-			description: ["Sometimes your luck exceeds your expectations and you get a better version of the &eBlack Lotus&r..."]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_18.description_0}"]
 			id: "19C436D10269B068"
 			rewards: [
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 250"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "6B31AAE148A74E0B"
-					silent: true
-					title: "250 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.magical_flora.quests_18.rewards_0.title}"
 					type: "command"
 				}
 				{
@@ -806,30 +809,30 @@
 				}
 			]
 			tasks: [{
-				count: 3L
+				count: 3
 				id: "2DD15EB4DA3AF53D"
 				item: "botania:blacker_lotus"
 				type: "item"
 			}]
-			title: "Power Nine Squared"
+			title: "{autotranslate.ftbquests.magical_flora.quests_18.title}"
 			x: -3.5d
 			y: -8.0d
 		}
 		{
 			dependencies: ["29FF9EF35E5B5FC7"]
-			description: ["Chop a whole tree in one hit! Does have an upper limit to prevent server lag."]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_19.description_0}"]
 			id: "644D7EB2D3F68FB1"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "601ABD659AF2BC18"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.magical_flora.quests_19.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Lumberjack's Dream"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_19.subtitle}"
 			tasks: [{
 				id: "10862186EDEB87AF"
 				item: {
@@ -841,26 +844,26 @@
 				}
 				type: "item"
 			}]
-			title: "Tree-Feller"
+			title: "{autotranslate.ftbquests.magical_flora.quests_19.title}"
 			x: -2.5d
 			y: -10.5d
 		}
 		{
 			dependencies: ["29FF9EF35E5B5FC7"]
 			description: [
-				"THE upgradable pickaxe, that consumes only... a speck of your mana to upgrade, right?"
-				"To upgrade it just soak it in manapool with mana. Consumes a large amount of mana to upgrade through various stages and sizes, starting with D (no bonus) all the way up to the staggeringly expensive &c&lSS&r&r, a 9x9! Consumes over 1,000 full pools to fully upgrade."
+				"{autotranslate.ftbquests.magical_flora.quests_20.description_0}"
+				"{autotranslate.ftbquests.magical_flora.quests_20.description_1}"
 			]
 			id: "3529E83325555E7A"
 			rewards: [
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "31373E602F46AAE7"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.magical_flora.quests_20.rewards_0.title}"
 					type: "command"
 				}
 				{
@@ -869,7 +872,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Harvest the Earth"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_20.subtitle}"
 			tasks: [{
 				id: "54D79ECAD22B6004"
 				item: {
@@ -881,28 +884,28 @@
 				}
 				type: "item"
 			}]
-			title: "The Terrashatterer"
+			title: "{autotranslate.ftbquests.magical_flora.quests_20.title}"
 			x: -2.5d
 			y: -12.0d
 		}
 		{
 			dependencies: ["29FF9EF35E5B5FC7"]
 			description: [
-				"By combining various blocks as it is shown in your Lexica and adding large amounts of mana you can create a portal connection with &eElven Traders&r. Maybe once you establish a connection they would be interested in your &eLexica Botania&r..."
+				"{autotranslate.ftbquests.magical_flora.quests_21.description_0}"
 				"{image:botania:block/alfheim_portal_swirl width:100 height:100 align:center}"
 			]
 			id: "5E33BF5591E1C097"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "69F464A7F336481B"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.magical_flora.quests_21.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "World Calling"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_21.subtitle}"
 			tasks: [
 				{
 					id: "20FECEC54F5EDD1C"
@@ -910,7 +913,7 @@
 					type: "item"
 				}
 				{
-					count: 3L
+					count: 3
 					id: "5A4CD1AA62FA8F09"
 					item: {
 						Count: 1
@@ -919,11 +922,11 @@
 							value: "botania:glimmering_livingwood_logs"
 						}
 					}
-					title: "Any #botania:glimmering_livingwood_logs"
+					title: "{autotranslate.ftbquests.magical_flora.quests_21.tasks_1.title}"
 					type: "item"
 				}
 				{
-					count: 8L
+					count: 8
 					id: "23F93DCB22EF28BC"
 					item: {
 						Count: 1
@@ -932,11 +935,11 @@
 							value: "botania:livingwood_logs"
 						}
 					}
-					title: "Any #botania:livingwood_logs"
+					title: "{autotranslate.ftbquests.magical_flora.quests_21.tasks_2.title}"
 					type: "item"
 				}
 				{
-					count: 2L
+					count: 2
 					id: "55980D74B6B040EF"
 					item: "botania:natura_pylon"
 					type: "item"
@@ -947,21 +950,21 @@
 					type: "item"
 				}
 			]
-			title: "Elven Traders"
+			title: "{autotranslate.ftbquests.magical_flora.quests_21.title}"
 			x: -4.0d
 			y: -13.0d
 		}
 		{
 			dependencies: ["5E33BF5591E1C097"]
 			description: [
-				"You can summon the &eGuardian of Gaia&r by building a special arena as shown in the &eLexica Botania&r, and throwing &eTerrasteel Ingots&r into the centre."
+				"{autotranslate.ftbquests.magical_flora.quests_22.description_0}"
 				""
-				"&cThe Guardian of Gaia always spawns at minimum level 45.&r"
+				"{autotranslate.ftbquests.magical_flora.quests_22.description_2}"
 				""
-				"The Guardian of Gaia Has:"
-				"&b+30% Dodge Rating&r"
-				"&b+30% Spell Dodge Rating&r"
-				"&b+100% Elemental Resistance&r"
+				"{autotranslate.ftbquests.magical_flora.quests_22.description_4}"
+				"{autotranslate.ftbquests.magical_flora.quests_22.description_5}"
+				"{autotranslate.ftbquests.magical_flora.quests_22.description_6}"
+				"{autotranslate.ftbquests.magical_flora.quests_22.description_7}"
 			]
 			icon: "botania:life_essence"
 			id: "0F4713A9935F369F"
@@ -974,20 +977,20 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 500"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "502C82E8854716EB"
-					silent: true
-					title: "500 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.magical_flora.quests_22.rewards_1.title}"
 					type: "command"
 				}
 			]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "Dead and Seek"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_22.subtitle}"
 			tasks: [
 				{
-					count: 4L
+					count: 4
 					id: "38B6FD25DDFE6D7F"
 					item: "botania:gaia_pylon"
 					type: "item"
@@ -998,7 +1001,7 @@
 					type: "item"
 				}
 				{
-					count: 9L
+					count: 9
 					id: "23799D66DB46E6B5"
 					item: "minecraft:iron_block"
 					type: "item"
@@ -1013,26 +1016,26 @@
 					icon: "botania:life_essence"
 					id: "4EB8C545D6989285"
 					type: "kill"
-					value: 1L
+					value: 1
 				}
 			]
-			title: "The Guardian of Gaia"
+			title: "{autotranslate.ftbquests.magical_flora.quests_22.title}"
 			x: -1.0d
 			y: -14.0d
 		}
 		{
 			dependencies: ["0F4713A9935F369F"]
-			description: ["If you combine &eTerrasteel Ingots&r with &eGaia Spirits&r you can create a stronger metal. This new metal, &eGaia Spirit Ingot&r, can be used for summoning a stronger version of the Guardian!"]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_23.description_0}"]
 			id: "2AA870C10523482D"
 			rewards: [
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "4F999D5876FBD2F7"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.magical_flora.quests_23.rewards_0.title}"
 					type: "command"
 				}
 				{
@@ -1047,17 +1050,17 @@
 				item: "botania:gaia_ingot"
 				type: "item"
 			}]
-			title: "Overcharged Gaia"
+			title: "{autotranslate.ftbquests.magical_flora.quests_23.title}"
 			x: -1.0d
 			y: -12.0d
 		}
 		{
 			dependencies: ["7E4CDBDAE7BAD2C3"]
 			description: [
-				"If you ignite a TNT block near the &c&lEntropinnyum&r&r it will consume the explosion and convert it into a large amount of mana."
-				"Important note: if it has any mana in its buffer it will ignore any other explosions letting them explode as normal! Timing is vital to prevent catastrophic damage! Emptying this flower as fast as possible is vital, maybe there is a way to upgrade that old mana spreader... The flower seems to be able to detect whether or not the TNT was ethically sourced, incurring an extreme generation penalty if said TNT was sourced via a duplication machine."
+				"{autotranslate.ftbquests.magical_flora.quests_24.description_0}"
+				"{autotranslate.ftbquests.magical_flora.quests_24.description_1}"
 				""
-				"The &c&lThermalilly&r&r is a nether alternative of Hydroangeas that produces mana by consuming lava sources. It has a cooldown for processing lava and if you place another source of lava during this cooldown it will consume it and reset the cooldown without producing any mana. This flower is tricky to automate due to its variable cooldown but can be a powerful mana source!"
+				"{autotranslate.ftbquests.magical_flora.quests_24.description_3}"
 			]
 			id: "622EF4EBE96C0429"
 			rewards: [
@@ -1075,11 +1078,11 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "60F4410FF8DE1DD7"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.magical_flora.quests_24.rewards_2.title}"
 					type: "command"
 				}
 			]
@@ -1095,17 +1098,17 @@
 					type: "item"
 				}
 			]
-			title: "Mature Explosion"
+			title: "{autotranslate.ftbquests.magical_flora.quests_24.title}"
 			x: 4.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["757C990D0DCFE95B"]
 			description: [
-				"The &2&lGourmaryllis&r&r is a hungry flower that will consume any food its given and turn it"
-				" into mana after digesting it, any food thrown in the time of"
-				" digestion will not yield any mana but still will be consumed. Digestion time and amount of mana directly depends on nutritional value of the given food. This flower prefers a variety and will incur a generation penalty if it eats the same food item too many times in a row."
-				"The &2&lKekimurus&r&r has quite the sweet tooth, it will gradually eat any cakes placed nearby and turn them into mana."
+				"{autotranslate.ftbquests.magical_flora.quests_25.description_0}"
+				"{autotranslate.ftbquests.magical_flora.quests_25.description_1}"
+				"{autotranslate.ftbquests.magical_flora.quests_25.description_2}"
+				"{autotranslate.ftbquests.magical_flora.quests_25.description_3}"
 			]
 			id: "7E4CDBDAE7BAD2C3"
 			rewards: [
@@ -1122,11 +1125,11 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "3BB4113929999F8A"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.magical_flora.quests_25.rewards_2.title}"
 					type: "command"
 				}
 			]
@@ -1142,23 +1145,23 @@
 					type: "item"
 				}
 			]
-			title: "Tasty treat"
+			title: "{autotranslate.ftbquests.magical_flora.quests_25.title}"
 			x: 3.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["4E4F05F210F326B4"]
-			description: ["Armor and tools made from Manasteel have their own built-in mending system that will slowly repair them by using mana from your portable mana source."]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_26.description_0}"]
 			id: "63FAC5EE546117E9"
 			rewards: [
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "79CFBA772E1368A8"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.magical_flora.quests_26.rewards_0.title}"
 					type: "command"
 				}
 				{
@@ -1168,7 +1171,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Magical Protection"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_26.subtitle}"
 			tasks: [
 				{
 					id: "41E4BB72C3044925"
@@ -1215,25 +1218,25 @@
 					type: "item"
 				}
 			]
-			title: "Mana\"steal\""
+			title: "{autotranslate.ftbquests.magical_flora.quests_26.title}"
 			x: -7.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["21E565614968622B"]
-			description: ["Instead of carrying mana tablets around you can craft them into rings to wear it in your curio slot! Such trinkets can even have MNS Souls applied!"]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_27.description_0}"]
 			id: "29792179C0F9C558"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "6594D243FDD2E394"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.magical_flora.quests_27.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Inner Arts"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_27.subtitle}"
 			tasks: [{
 				id: "3AC049EC332B237A"
 				item: "botania:mana_ring"
@@ -1244,17 +1247,17 @@
 		}
 		{
 			dependencies: ["2CCB1CB299A81969"]
-			description: ["The &eBotanical Brewery&r allows you to brew multi-use potions with various vanilla and even botania-unique potion effects."]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_28.description_0}"]
 			id: "5501085B22C643F9"
 			rewards: [
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "4CEE80924C54A38B"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.magical_flora.quests_28.rewards_0.title}"
 					type: "command"
 				}
 				{
@@ -1263,7 +1266,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "My Strongest Potions"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_28.subtitle}"
 			tasks: [
 				{
 					id: "6161F6D45BD55F73"
@@ -1271,35 +1274,35 @@
 					type: "item"
 				}
 				{
-					count: 3L
+					count: 3
 					id: "577580DFA0C10900"
 					item: "botania:vial"
 					type: "item"
 				}
 			]
-			title: "Brew me some more!"
+			title: "{autotranslate.ftbquests.magical_flora.quests_28.title}"
 			x: 0.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["5501085B22C643F9"]
 			description: [
-				"Do you ever wish for some rest from mobs around you? &l&3Brew of Vanity's Emptiness&r&r will stop any natural mob spawning in a &n128 block radius&r around you, making you a portable Megatorch for duration of this brew."
+				"{autotranslate.ftbquests.magical_flora.quests_29.description_0}"
 				""
-				"And if you crave blood and struggle with mob spawn rates - &c&lBrew of Crinson Shade&r&r will help you with that in a &n64 block radius&r for its duration, turning you into a pocket Blood Moon."
+				"{autotranslate.ftbquests.magical_flora.quests_29.description_2}"
 			]
 			id: "6C492D34CE6F404C"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "5663C62720C9A346"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.magical_flora.quests_29.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Peace or Chaos"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_29.subtitle}"
 			tasks: [
 				{
 					id: "0EFEF6DB4CB9FAA6"
@@ -1324,28 +1327,28 @@
 					type: "item"
 				}
 			]
-			title: "Complex Brewing"
+			title: "{autotranslate.ftbquests.magical_flora.quests_29.title}"
 			x: 2.0d
 			y: -10.0d
 		}
 		{
 			dependencies: ["144467B32903983B"]
 			description: [
-				"Aside from Generational flora there are also many &nFunctional Flora&r. If you supply those flowers with mana they will use it to perform various actions."
-				"Most common ones are:"
-				"&2&lHopperhock&r&r - it will pick up all the items in its radius and deposit into an adjacent inventory, by supplying it with a small amount of mana it's radius is greatly increased, you can even filter items using item frames placed on inventories."
-				"&2&lAgricarnation&r&r is a fertilizer flower that will greatly speed up your crops growth if provided with mana."
-				"&2&lExoflame&r&r is a reverse version of the Endoflame flower from Generational flora - if provided with mana, it will power and give a speed boost to nearby furnaces without the need for fuel."
+				"{autotranslate.ftbquests.magical_flora.quests_30.description_0}"
+				"{autotranslate.ftbquests.magical_flora.quests_30.description_1}"
+				"{autotranslate.ftbquests.magical_flora.quests_30.description_2}"
+				"{autotranslate.ftbquests.magical_flora.quests_30.description_3}"
+				"{autotranslate.ftbquests.magical_flora.quests_30.description_4}"
 			]
 			id: "2A9C8DC76F5402B5"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "4B46D1460C6AFD85"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.magical_flora.quests_30.rewards_0.title}"
 				type: "command"
 			}]
 			tasks: [
@@ -1365,26 +1368,26 @@
 					type: "item"
 				}
 			]
-			title: "Introduction to Functional Flora"
+			title: "{autotranslate.ftbquests.magical_flora.quests_30.title}"
 			x: 1.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["6C84C6DC5D77E05D"]
 			description: [
-				"A great example of Generational Flora are the &2&lOrechid&r&r and &2&lOrechid Ignem&r&r."
-				"Both of these flowers are used for transforming Stone/Netherrack into a respectable amount of dimension specific ores if provided with a large amount of mana."
-				"&eImportant note: Orechid Ignem needs to be in the Nether to function.&r"
+				"{autotranslate.ftbquests.magical_flora.quests_31.description_0}"
+				"{autotranslate.ftbquests.magical_flora.quests_31.description_1}"
+				"{autotranslate.ftbquests.magical_flora.quests_31.description_2}"
 			]
 			id: "14960E1ACAB65A8A"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 200"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "4B65D23594342E6C"
-				silent: true
-				title: "200 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.magical_flora.quests_31.rewards_0.title}"
 				type: "command"
 			}]
 			tasks: [
@@ -1399,25 +1402,25 @@
 					type: "item"
 				}
 			]
-			title: "Ore Generation"
+			title: "{autotranslate.ftbquests.magical_flora.quests_31.title}"
 			x: 4.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["2A9C8DC76F5402B5"]
 			description: [
-				"The &2&lSpectranthemum&r&r is a flower that will teleport items to a linked location for the cost of mana. You can link a specific location using Wand of the Forest in binding mode. "
-				"The &2&lClayconia&r&r quickly converts nearby sand blocks into clay balls."
+				"{autotranslate.ftbquests.magical_flora.quests_32.description_0}"
+				"{autotranslate.ftbquests.magical_flora.quests_32.description_1}"
 			]
 			id: "6C84C6DC5D77E05D"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "5AECFFDAD351684B"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.magical_flora.quests_32.rewards_0.title}"
 				type: "command"
 			}]
 			tasks: [
@@ -1432,29 +1435,29 @@
 					type: "item"
 				}
 			]
-			title: "Natural Utilities"
+			title: "{autotranslate.ftbquests.magical_flora.quests_32.title}"
 			x: 3.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["2A9C8DC76F5402B5"]
-			description: ["There are a wide variety of &eGenerational Flora&r not listed in this book, it would be wise to view the related chapter in the &eLexica Botania&r and discover what other interesting and powerful options await you."]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_33.description_0}"]
 			icon: "botania:narslimmus"
 			id: "0E605A9E8F7445AE"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "72A51782A5F20458"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.magical_flora.quests_33.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Complex Curiosities"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_33.subtitle}"
 			tasks: [{
 				id: "716172C55EF47C42"
-				title: "Advanced Generational Flora"
+				title: "{autotranslate.ftbquests.magical_flora.quests_33.tasks_0.title}"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -1462,19 +1465,19 @@
 		}
 		{
 			dependencies: ["6C492D34CE6F404C"]
-			description: ["If you use an &eIncense Stick&r instead of a Vial in a brewing process you can imbue it with the same effect as one would with a potion. By sacrificing the mobility of a potion effect and puting an &eIncense Stick&r into an &eIncense Plate&r and lighting it with a Flint and Steel - the potion effect will last 64 times longer!"]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_34.description_0}"]
 			id: "53845C1C87A44C3C"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "1A7B949E858E7836"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.magical_flora.quests_34.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Custom Temporary Beacon"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_34.subtitle}"
 			tasks: [
 				{
 					id: "26C5AE6669DF73EE"
@@ -1487,81 +1490,81 @@
 					type: "item"
 				}
 			]
-			title: "Smoking Effects"
+			title: "{autotranslate.ftbquests.magical_flora.quests_34.title}"
 			x: 2.0d
 			y: -11.5d
 		}
 		{
 			dependencies: ["5B980171D8F54AAC"]
-			description: ["When equipped and provided a small amount of mana the &l&2Sojourner's Sash&r&r will give an increase to jump height and movement speed while also letting you step up 1 block heights!"]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_35.description_0}"]
 			id: "2AC92077C2E11DEE"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "56E5DC6F0C992AA6"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.magical_flora.quests_35.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Inner Arts"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_35.subtitle}"
 			tasks: [{
 				id: "6B70CD8CB9D75CE1"
 				item: "botania:travel_belt"
 				type: "item"
 			}]
-			title: "Gotta go fast!"
+			title: "{autotranslate.ftbquests.magical_flora.quests_35.title}"
 			x: -8.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["0F4713A9935F369F"]
-			description: ["Improved version of Sojourner's sash that makes you even faster."]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_36.description_0}"]
 			id: "3328931FE8E2792E"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 200"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "783D8B1057916D55"
-				silent: true
-				title: "200 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.magical_flora.quests_36.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Gotta go &lreally&r fast!"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_36.subtitle}"
 			tasks: [{
 				id: "58023219C8F85AF1"
 				item: "botania:super_travel_belt"
 				type: "item"
 			}]
-			title: "Zoom Zoom"
+			title: "{autotranslate.ftbquests.magical_flora.quests_36.title}"
 			x: -2.5d
 			y: -16.0d
 		}
 		{
 			dependencies: ["21E565614968622B"]
 			description: [
-				"You can craft and wear various&e &nTrinkets and Accessories&r&r that can provide you with various useful effects."
+				"{autotranslate.ftbquests.magical_flora.quests_37.description_0}"
 				""
-				"Your first ever trinket should be &2&lManaseer Monocle&r&r that will let you see manabursts even through walls, but the most useful ability it provides is that it visualises range of effect of Generating and Functional flora."
+				"{autotranslate.ftbquests.magical_flora.quests_37.description_2}"
 				""
-				"Another very useful trinket is &l&2The Spectator&r&r. Simply hold a desired item in your hand and any nearby containers with that item will glow."
+				"{autotranslate.ftbquests.magical_flora.quests_37.description_4}"
 				""
-				"&2&lThird Eye&r&r will make mobs around you have a glowing outline that you can see even through walls."
+				"{autotranslate.ftbquests.magical_flora.quests_37.description_6}"
 			]
 			id: "5B980171D8F54AAC"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 200"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "6C4757A8FFB7C5A9"
-				silent: true
-				title: "200 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.magical_flora.quests_37.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Inner Arts"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_37.subtitle}"
 			tasks: [
 				{
 					id: "12BEDDA4F2B264F3"
@@ -1579,29 +1582,29 @@
 					type: "item"
 				}
 			]
-			title: "Introduction to Trinkets"
+			title: "{autotranslate.ftbquests.magical_flora.quests_37.title}"
 			x: -7.0d
 			y: -8.5d
 		}
 		{
 			dependencies: ["5B980171D8F54AAC"]
 			description: [
-				"&2&lCirrus Amulet&r&r provides you with the ability to &e&ndouble jump&r&r. The second jump completely negates vertical momentum and subsequently all fall damage."
+				"{autotranslate.ftbquests.magical_flora.quests_38.description_0}"
 				""
-				"&2&lBenevolent Godess's Charm&r &rwill stop all explosions around you from breaking blocks like they never happend."
+				"{autotranslate.ftbquests.magical_flora.quests_38.description_2}"
 			]
 			id: "15A416B2B899440A"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 200"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "006AA537479C9A70"
-				silent: true
-				title: "200 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.magical_flora.quests_38.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Inner Arts"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_38.subtitle}"
 			tasks: [
 				{
 					id: "1D11C480C4911605"
@@ -1620,22 +1623,22 @@
 		{
 			dependencies: ["15A416B2B899440A"]
 			description: [
-				"&2&lRing of the Mantle&r&r will provide wearer with the Haste Effect for more efficient mining."
+				"{autotranslate.ftbquests.magical_flora.quests_39.description_0}"
 				""
-				"&2&lRong of Chordata&r&r will allow wearer to breathe as well as see and mine better underwater."
+				"{autotranslate.ftbquests.magical_flora.quests_39.description_2}"
 			]
 			id: "00367AAF028966BC"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "3D6378D70ACCBE7A"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.magical_flora.quests_39.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Inner Arts"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_39.subtitle}"
 			tasks: [
 				{
 					id: "68EFA8D0F7CC6FC4"
@@ -1654,24 +1657,24 @@
 		{
 			dependencies: ["5AF488FC9A36BFA1"]
 			description: [
-				"By imbuing rods with elemental runes you can achieve interesting results. Botania provides you with many useful rods, a few of the brightest examples are: "
-				"&2&lRod of the Skies&r&r launches you high in the sky and can be used instead of rockets in conjuction with Elytra or Paraglider for easier flight;"
-				"&2&lRod of the Lands&r&r will provide you with unlimited dirt as long as you can provide mana for it making terraforming an easy task;"
-				"&2&lRod of the Depths&r&r performs the same action as the Rod of the Lands but with cobblestone instead for a slightly higher mana cost."
-				"&2&lRod of the Seas&r&r is an infinite water bucket that will provide you water as long as you have mana, found especially useful while working with a &ePetal Apothecary&r."
+				"{autotranslate.ftbquests.magical_flora.quests_40.description_0}"
+				"{autotranslate.ftbquests.magical_flora.quests_40.description_1}"
+				"{autotranslate.ftbquests.magical_flora.quests_40.description_2}"
+				"{autotranslate.ftbquests.magical_flora.quests_40.description_3}"
+				"{autotranslate.ftbquests.magical_flora.quests_40.description_4}"
 			]
 			id: "52BB2147C93EAEDD"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "4DD2369F7B276F9C"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.magical_flora.quests_40.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Elemental Tools"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_40.subtitle}"
 			tasks: [
 				{
 					id: "675177DCE483E2DF"
@@ -1698,32 +1701,32 @@
 					type: "item"
 				}
 			]
-			title: "Elemental Rods"
+			title: "{autotranslate.ftbquests.magical_flora.quests_40.title}"
 			x: -1.0d
 			y: -9.5d
 		}
 		{
 			dependencies: ["5E33BF5591E1C097"]
 			description: [
-				"By establishing &eElven Trading&r routes you manage to find a way to &eimprove your existing Sparks with Augments&r. "
-				"Augments can be applied to sparks that are stationed on top of a mana pool."
-				"By draining mana from the pool &2&lDispersive Augment&r&r will slowly recharge items in adventurers inventory."
-				"&2&lDominant Augment&r&r will pull mana from all mana pools with sparks to fill up its own mana pool."
-				"&2&lRecessive Augment&r&r will disperse mana from its own pool to all the other sparks in the same system."
-				"&2&lIsolation Augment&r&r will completely isolate spark from effects of other Augments."
+				"{autotranslate.ftbquests.magical_flora.quests_41.description_0}"
+				"{autotranslate.ftbquests.magical_flora.quests_41.description_1}"
+				"{autotranslate.ftbquests.magical_flora.quests_41.description_2}"
+				"{autotranslate.ftbquests.magical_flora.quests_41.description_3}"
+				"{autotranslate.ftbquests.magical_flora.quests_41.description_4}"
+				"{autotranslate.ftbquests.magical_flora.quests_41.description_5}"
 				""
-				"Use any number of combinations of these &2&lAugments&r&r to enable mass mana storage and transfer!"
+				"{autotranslate.ftbquests.magical_flora.quests_41.description_7}"
 			]
 			id: "0F137A63D6205437"
 			rewards: [
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "3D83621C90FDE899"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.magical_flora.quests_41.rewards_0.title}"
 					type: "command"
 				}
 				{
@@ -1733,7 +1736,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Live Drive"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_41.subtitle}"
 			tasks: [
 				{
 					id: "4981A7B70DB3CE7E"
@@ -1756,19 +1759,19 @@
 					type: "item"
 				}
 			]
-			title: "Spark Augments"
+			title: "{autotranslate.ftbquests.magical_flora.quests_41.title}"
 			x: -5.0d
 			y: -14.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: 1
 			dependencies: ["0F4713A9935F369F"]
 			description: [
-				"&cThis is a SHOP quest!&r This \"quest\" consumes the items required and grants you the &eFlugel Tiara&r."
+				"{autotranslate.ftbquests.magical_flora.quests_42.description_0}"
 				""
-				"After harnessing &eGaia Spirits&r you find a way to gain temporary Creative flight with high mana consumption by wearing the &2&lFlugel Tiara&r&r."
+				"{autotranslate.ftbquests.magical_flora.quests_42.description_2}"
 				""
-				"The &2&lFlugel Tiara&r&r has a 1 minute duration with a 2 minute cooldown. There are also many different versions of the Tiara with different cosmetic wings!"
+				"{autotranslate.ftbquests.magical_flora.quests_42.description_4}"
 			]
 			icon: {
 				Count: 1
@@ -1794,50 +1797,50 @@
 				type: "item"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_42.subtitle}"
 			tasks: [
 				{
-					consume_items: true
+					consume_items: 1
 					id: "2A3AE87182E9E38E"
 					item: "botania:ender_air_bottle"
 					type: "item"
 				}
 				{
-					consume_items: true
+					consume_items: 1
 					id: "78377B946803D7DE"
 					item: "minecraft:feather"
 					type: "item"
 				}
 				{
-					consume_items: true
+					consume_items: 1
 					id: "23954BA10582C786"
 					item: "botania:gaia_ingot"
 					type: "item"
 				}
 				{
-					consume_items: true
+					consume_items: 1
 					id: "6C40C3362BB086E9"
 					item: "botania:life_essence"
 					type: "item"
 				}
 			]
-			title: "I Believe I Can Fly"
+			title: "{autotranslate.ftbquests.magical_flora.quests_42.title}"
 			x: -1.5d
 			y: -17.0d
 		}
 		{
 			dependencies: ["7765E99AC13D3032"]
-			description: ["After tinkering with &eMana Ingots&r and a &eCrating Table&r you manage to create a portable version - The &2&lAssembly Halo&r&r"]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_43.description_0}"]
 			id: "39B5D2C538B15A8F"
 			rewards: [
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "210D8324EEAC377D"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.magical_flora.quests_43.rewards_0.title}"
 					type: "command"
 				}
 				{
@@ -1852,23 +1855,23 @@
 				item: "botania:crafting_halo"
 				type: "item"
 			}]
-			title: "Portable Crafting"
+			title: "{autotranslate.ftbquests.magical_flora.quests_43.title}"
 			x: -5.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["386F0541CCE9CA16"]
-			description: ["If you put a &l&2Fel Pumpkin&r&r &eon top of 2 &nIron Bars&r as if one would build a Snowman&r you manage to summon a Blaze but because of its weaker form it drops &eBlaze Powder&r instead of Rods."]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_44.description_0}"]
 			id: "44C71BBCFFAB3A33"
 			rewards: [
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "0FC8CC5B5FED43E6"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.magical_flora.quests_44.rewards_0.title}"
 					type: "command"
 				}
 				{
@@ -1885,7 +1888,7 @@
 					type: "item"
 				}
 				{
-					count: 2L
+					count: 2
 					id: "3C6BF51592A3D0AE"
 					item: "minecraft:iron_bars"
 					type: "item"
@@ -1897,19 +1900,19 @@
 		{
 			dependencies: ["39B5D2C538B15A8F"]
 			description: [
-				"With slight addition to &eAssembly Halo&r you manage to produce a portable crafting factory - &l&2Manufactory Halo&r&r."
-				"If set up correctly it can autmatically craft specified items while drawing items from your inventory."
+				"{autotranslate.ftbquests.magical_flora.quests_45.description_0}"
+				"{autotranslate.ftbquests.magical_flora.quests_45.description_1}"
 			]
 			id: "4303B37227E3BB77"
 			rewards: [
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "0DFA77AF7A346BDA"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.magical_flora.quests_45.rewards_0.title}"
 					type: "command"
 				}
 				{
@@ -1924,25 +1927,25 @@
 				item: "botania:auto_crafting_halo"
 				type: "item"
 			}]
-			title: "Portable Factory"
+			title: "{autotranslate.ftbquests.magical_flora.quests_45.title}"
 			x: -6.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["0F4713A9935F369F"]
-			description: ["After tinkering with energy of End, Elven Knowledge and Gaia spirits you manage to create seemingly infinite pocket space that can hold 1 type of item - &l&2Black Hole Talisman&r&r, and you can access it as long as you have mana."]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_46.description_0}"]
 			id: "33EF4CC9FE5B1ED4"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "735D74249264D06E"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.magical_flora.quests_46.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Somewhere for all that cobble."
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_46.subtitle}"
 			tasks: [{
 				id: "44A4E008202DFC62"
 				item: "botania:black_hole_talisman"
@@ -1953,19 +1956,19 @@
 		}
 		{
 			dependencies: ["29FF9EF35E5B5FC7"]
-			description: ["The &l&2Mana Mirror&r&r reflects the pool it is linked to allowing it to replace your &ePortable Mana Storage&r by drawing mana directly from a linked pool. It even works while the chunk is unloaded although the pool will not refill itself until you return!"]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_47.description_0}"]
 			id: "3ACE081643D7F60B"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 200"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "6A6FCC4CAB46BBE6"
-				silent: true
-				title: "200 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.magical_flora.quests_47.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Reflections In The Water"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_47.subtitle}"
 			tasks: [{
 				id: "608A781631CE984B"
 				item: "botania:mana_mirror"
@@ -1976,19 +1979,19 @@
 		}
 		{
 			dependencies: ["29FF9EF35E5B5FC7"]
-			description: ["By combining your &eMana Band&r with newfound alloy &eTerrasteel&r - you manage to create a &l&2Greater Mana Band&r&r that improves the amount of mana you can carry with you in one ring, equivallent to two entire pools!"]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_48.description_0}"]
 			id: "4EA7CD6212661856"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 200"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "4F685B151AE21EA7"
-				silent: true
-				title: "200 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.magical_flora.quests_48.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Mass Mana On The Go"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_48.subtitle}"
 			tasks: [{
 				id: "3A58E8C9A21ACB1C"
 				item: "botania:mana_ring_greater"
@@ -1999,7 +2002,7 @@
 		}
 		{
 			dependencies: ["35AF07FCCB27D2E0"]
-			description: ["&l&2Teru Teru Bozu&r&r is a little guy with the power to alter weather conditions. If you feel like you have soaked in the rain long enough just give him a &esunflower&r to bring a sunny day back"]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_49.description_0}"]
 			id: "27127198811C49D0"
 			rewards: [
 				{
@@ -2010,11 +2013,11 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "7F439C04D1C7ECC0"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.magical_flora.quests_49.rewards_1.title}"
 					type: "command"
 				}
 				{
@@ -2023,34 +2026,34 @@
 					type: "item"
 				}
 			]
-			subtitle: "Praise The Sun!"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_49.subtitle}"
 			tasks: [{
 				id: "01F7CD3A3E7BEE30"
 				item: "botania:teru_teru_bozu"
 				type: "item"
 			}]
-			title: "When The Sky is Gray"
+			title: "{autotranslate.ftbquests.magical_flora.quests_49.title}"
 			x: -5.5d
 			y: -6.0d
 		}
 		{
-			description: ["The &eCorporea System&r consists of various components which when combined allow fairly complex item transfer. This system is far too complicated for the scope of this quest book so we advise you study the entries in the &eLexica Botania&r."]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_50.description_0}"]
 			icon: "botania:corporea_spark_creative"
 			id: "1576B342D9197BD6"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "4E034DF7119888A1"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.magical_flora.quests_50.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Item Transfer"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_50.subtitle}"
 			tasks: [{
 				id: "701E468F93F2F03B"
-				title: "Corporea System"
+				title: "{autotranslate.ftbquests.magical_flora.quests_50.tasks_0.title}"
 				type: "checkmark"
 			}]
 			x: 0.5d
@@ -2059,20 +2062,20 @@
 		{
 			dependencies: ["5E33BF5591E1C097"]
 			description: [
-				"&eLuminizers&r allow for some fast and fun player transport, simply place and link two of them within their range and right click! You can even transfer items and animals with them using the &eLuminizer Launcher&r! Also works through blocks, you might want to watch your head, though."
+				"{autotranslate.ftbquests.magical_flora.quests_51.description_0}"
 				""
-				"&eDetector, Fork and Toggle Luminizers&r enable more advanced and interesting transportation systems."
+				"{autotranslate.ftbquests.magical_flora.quests_51.description_2}"
 			]
 			id: "2B77DB16F266880E"
 			rewards: [
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "0995DAA000BAD7C1"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.magical_flora.quests_51.rewards_0.title}"
 					type: "command"
 				}
 				{
@@ -2082,32 +2085,32 @@
 					type: "item"
 				}
 			]
-			subtitle: "World's End Dancehall"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_51.subtitle}"
 			tasks: [{
-				count: 2L
+				count: 2
 				id: "5C092F8FFAE39310"
 				item: "botania:light_relay"
 				type: "item"
 			}]
-			title: "Luminizer"
+			title: "{autotranslate.ftbquests.magical_flora.quests_51.title}"
 			x: -4.0d
 			y: -14.5d
 		}
 		{
 			dependencies: ["144467B32903983B"]
-			description: ["The &eMana Blaster&r is a portable &eMana Spreader&r that can also accept &eMana Lenses&r to augment its behavior when fired. The &eFlash Lens&r is particularly useful as a source of near infinite lights, it can even be dyed to change the color of the resulting light!"]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_52.description_0}"]
 			id: "621ABA886F06170A"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "3FC674038D61F647"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.magical_flora.quests_52.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "M'aider Stranded Girl"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_52.subtitle}"
 			tasks: [
 				{
 					id: "72E05E0B0C9AC1E2"
@@ -2129,23 +2132,23 @@
 		}
 		{
 			dependencies: ["2CCB1CB299A81969"]
-			description: ["The &eMana Enchanter&r is a large multiblock structure that allows you to apply Enchantments to gear by simply tossing the desired enchanted books down next to it and right clicking it with a &eWand of the Forest&r. This process notably does NOT consume the books. Doing so consumes a large amount of mana from nearby pools via a spark on the enchanter. The more enchants and the higher the levels the more it consumes! Check the &eLexica Botania&r for a visualization of the structure."]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_53.description_0}"]
 			icon: "botania:enchanter"
 			id: "72B3D8E498D1E1F1"
 			rewards: [{
 				auto: "enabled"
 				command: "100 Experience x Lv."
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "2793AD7DEEFB84CC"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.magical_flora.quests_53.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Enchanting With Mana"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_53.subtitle}"
 			tasks: [{
 				id: "732608E288086EA6"
-				title: "Mana Enchanter"
+				title: "{autotranslate.ftbquests.magical_flora.quests_53.tasks_0.title}"
 				type: "checkmark"
 			}]
 			x: -1.0d
@@ -2153,16 +2156,16 @@
 		}
 		{
 			dependencies: ["626B63941D36E8C2"]
-			description: ["The &eAlchemy Catalyst&r when placed under a &eMana Pool&r changes the result when items are tossed into it letting you convert various materials! Flint into gunpowder, transmuting various wood types and saplings, redstone into glowstone!"]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_54.description_0}"]
 			id: "496BD9236D7C1D89"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "79CB48A21A0DA987"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.magical_flora.quests_54.rewards_0.title}"
 				type: "command"
 			}]
 			tasks: [{
@@ -2175,17 +2178,17 @@
 		}
 		{
 			dependencies: ["496BD9236D7C1D89"]
-			description: ["The &eConjuration Catalyst&r is a more advanced version of the &eAlchemy Catalyst&r that lets you consume a large amount of mana to duplicate certain items! Quartz, redstone, glowstone and coal being the main examples. Note that duplicating coal does not let you make an infinite mana loop with endoflames!"]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_55.description_0}"]
 			id: "058D4013FD42AC1F"
 			rewards: [
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 200"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "46FB8436FC2C127A"
-					silent: true
-					title: "200 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.magical_flora.quests_55.rewards_0.title}"
 					type: "command"
 				}
 				{
@@ -2220,20 +2223,20 @@
 		{
 			dependencies: ["5E33BF5591E1C097"]
 			description: [
-				"The &eElven Mana Spreader&r increases the mana transfered per burst by 50% compared to the normal mana spreader! Also signifigantly increases the distance a burst can travel before it starts losing mana."
+				"{autotranslate.ftbquests.magical_flora.quests_56.description_0}"
 				""
-				"&oTransfers 240 mana per burst.&r"
+				"{autotranslate.ftbquests.magical_flora.quests_56.description_2}"
 			]
 			id: "40A9BBD5C665B831"
 			rewards: [
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "74D4D2CC9BB5A535"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.magical_flora.quests_56.rewards_0.title}"
 					type: "command"
 				}
 				{
@@ -2248,7 +2251,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Upgraded Spreaders"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_56.subtitle}"
 			tasks: [{
 				id: "37856729D86ABFBB"
 				item: "botania:elven_spreader"
@@ -2260,20 +2263,20 @@
 		{
 			dependencies: ["0F4713A9935F369F"]
 			description: [
-				"The &eGaia Mana Spreader&r is the ultimate spreader at more than double the transfer rate of its predecessor!"
+				"{autotranslate.ftbquests.magical_flora.quests_57.description_0}"
 				""
-				"&oTransfers a staggering 640 mana per burst.&r"
+				"{autotranslate.ftbquests.magical_flora.quests_57.description_2}"
 			]
 			id: "6A58CF9DF79B8269"
 			rewards: [
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "692A7A30A070098D"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.magical_flora.quests_57.rewards_0.title}"
 					type: "command"
 				}
 				{
@@ -2282,7 +2285,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The Ultimate Spreader"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_57.subtitle}"
 			tasks: [{
 				id: "752DAA1E1B192724"
 				item: "botania:gaia_spreader"
@@ -2293,17 +2296,17 @@
 		}
 		{
 			dependencies: ["144467B32903983B"]
-			description: ["The &eMana Lenses&r impact how mana spreaders behave in various ways, most useful of the bunch being the &ePotency Lens&r, doubling the transfer rate of the spreader it is attached to! There is also &eVelocity&r, increasing the travel speed of the burst, &eBounce&r for making it ricochet off walls or even &eGravity&r to make it affected by gravity!"]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_58.description_0}"]
 			id: "30243F276BE11AC3"
 			rewards: [
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "5462B9F9DD3A668C"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.magical_flora.quests_58.rewards_0.title}"
 					type: "command"
 				}
 				{
@@ -2312,30 +2315,30 @@
 					type: "item"
 				}
 			]
-			subtitle: "Transfer Rate"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_58.subtitle}"
 			tasks: [{
 				id: "0A40C97CF59B559A"
 				item: "botania:lens_power"
 				type: "item"
 			}]
-			title: "Spreader Lenses"
+			title: "{autotranslate.ftbquests.magical_flora.quests_58.title}"
 			x: 2.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["30243F276BE11AC3"]
-			description: ["Two different &eMana Lenses&r can be glued together with a bit of slime to combine their effects into 1 lens! The combination of &ePotency&r and &eVelocity&r is notable for both doubling the mana per burst AND making it fly faster!"]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_59.description_0}"]
 			icon: "botania:lens_firework"
 			id: "49644F197F1FDF73"
 			rewards: [
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "14E614C4B7DAF869"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.magical_flora.quests_59.rewards_0.title}"
 					type: "command"
 				}
 				{
@@ -2344,10 +2347,10 @@
 					type: "item"
 				}
 			]
-			subtitle: "Ultimate Customization"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_59.subtitle}"
 			tasks: [{
 				id: "0766EB2208BDC6D8"
-				title: "Compound Lenses"
+				title: "{autotranslate.ftbquests.magical_flora.quests_59.tasks_0.title}"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -2355,28 +2358,28 @@
 		}
 		{
 			description: [
-				"&eChunk Loaders&r allow you to keep areas loaded at all times. This is useful certain activities such as automation, and crops will continue to process/grow even while you're away from the area."
+				"{autotranslate.ftbquests.magical_flora.quests_60.description_0}"
 				""
-				"There are 4 different types of Chunk Loaders:"
-				"&8Single Chunk Loader&r - 1 Chunk"
-				"Basic Chunk Loader - 3x3 Chunks"
-				"&eAdvanced Chunk Loader&r - 5x5 Chunks"
-				"&bUltimate Chunk Loader&r - 7x7 Chunks"
+				"{autotranslate.ftbquests.magical_flora.quests_60.description_2}"
+				"{autotranslate.ftbquests.magical_flora.quests_60.description_3}"
+				"{autotranslate.ftbquests.magical_flora.quests_60.description_4}"
+				"{autotranslate.ftbquests.magical_flora.quests_60.description_5}"
+				"{autotranslate.ftbquests.magical_flora.quests_60.description_6}"
 				""
-				"&eYou can view the Chunk Loader map with Default Key: \"&cF8&r&e\".&r"
+				"{autotranslate.ftbquests.magical_flora.quests_60.description_8}"
 			]
 			id: "63BF085EEE4B3689"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "073BACAAB8027196"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.magical_flora.quests_60.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Chunk Loading"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_60.subtitle}"
 			tasks: [{
 				id: "3C7BB9EFD738D636"
 				item: "chunkloaders:basic_chunk_loader"
@@ -2386,22 +2389,22 @@
 			y: 1.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: 1
 			dependencies: ["0F4713A9935F369F"]
-			description: ["&cThis is a SHOP quest!&r This \"quest\" consumes the items required will convert your &eFlugel Tiara&r into a &enew variant&r&r."]
+			description: ["{autotranslate.ftbquests.magical_flora.quests_61.description_0}"]
 			icon: "botania:quartz_lavender"
 			id: "0CFA65618989A9AC"
 			rewards: [{
-				exclude_from_claim_all: true
+				exclude_from_claim_all: 1
 				id: "0BE9AA5C3EEE953C"
 				table_id: 379776790083884379L
 				type: "choice"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "{autotranslate.ftbquests.magical_flora.quests_61.subtitle}"
 			tasks: [
 				{
-					consume_items: true
+					consume_items: 1
 					id: "6DB5F07683F275B7"
 					item: {
 						Count: 1
@@ -2410,20 +2413,20 @@
 							variant: 0
 						}
 					}
-					match_nbt: false
+					match_nbt: 0
 					type: "item"
 				}
 				{
-					consume_items: true
+					consume_items: 1
 					id: "62FEAA6E92021049"
 					item: "lightmanscurrency:coin_gold"
 					type: "item"
 				}
 			]
-			title: "Flying With Style"
+			title: "{autotranslate.ftbquests.magical_flora.quests_61.title}"
 			x: -0.5d
 			y: -17.0d
 		}
 	]
-	title: "Magical Flora"
+	title: "{autotranslate.ftbquests.magical_flora.title}"
 }

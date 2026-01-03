@@ -11,7 +11,7 @@
 					mmorpg_skill_gem: "{\"id\":\"chilling_touch\",\"type\":\"SKILL\",\"perc\":33,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Chilling Touch"
+			title: "냉기 손길"
 		}
 		{
 			item: {
@@ -21,7 +21,7 @@
 					mmorpg_skill_gem: "{\"id\":\"lightning_spear\",\"type\":\"SKILL\",\"perc\":29,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Lightning Spear"
+			title: "번개 창"
 		}
 		{
 			item: {
@@ -31,8 +31,8 @@
 					mmorpg_skill_gem: "{\"id\":\"nature_balm\",\"type\":\"SKILL\",\"perc\":38,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Nature's Balm"
+			title: "자연의 연고"
 		}
 	]
-	title: "Skill Gems 4"
+	title: "스킬 젬 4"
 }

@@ -3,7 +3,9 @@
 	loot_size: 1
 	order_index: 0
 	rewards: [
-		{ item: "minecraft:oak_log" }
+		{
+			item: "minecraft:oak_log"
+		}
 		{
 			item: {
 				Count: 1
@@ -14,5 +16,5 @@
 			}
 		}
 	]
-	title: "Test"
+	title: "테스트"
 }

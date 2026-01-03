@@ -20,7 +20,7 @@
 					mmorpg_potential: "{\"potential\":25}"
 				}
 			}
-			title: "Sword"
+			title: "검"
 		}
 		{
 			item: {
@@ -32,7 +32,7 @@
 					mmorpg_potential: "{\"potential\":25}"
 				}
 			}
-			title: "Staff"
+			title: "지팡이"
 		}
 		{
 			item: {
@@ -44,7 +44,7 @@
 					mmorpg_potential: "{\"potential\":25}"
 				}
 			}
-			title: "Bow"
+			title: "활"
 		}
 		{
 			item: {
@@ -56,7 +56,7 @@
 					mmorpg_potential: "{\"potential\":25}"
 				}
 			}
-			title: "Hammer"
+			title: "망치"
 		}
 		{
 			item: {
@@ -68,7 +68,7 @@
 					mmorpg_potential: "{\"potential\":25}"
 				}
 			}
-			title: "Axe"
+			title: "도끼"
 		}
 		{
 			item: {
@@ -80,7 +80,7 @@
 					mmorpg_potential: "{\"potential\":25}"
 				}
 			}
-			title: "Spear (2-Handed)"
+			title: "양손 창"
 		}
 		{
 			item: {
@@ -92,7 +92,7 @@
 					mmorpg_potential: "{\"potential\":25}"
 				}
 			}
-			title: "Crossbow"
+			title: "쇠뇌"
 		}
 		{
 			item: {
@@ -104,7 +104,7 @@
 					mmorpg_potential: "{\"potential\":25}"
 				}
 			}
-			title: "Dagger"
+			title: "단검"
 		}
 		{
 			item: {
@@ -116,7 +116,7 @@
 					mmorpg_potential: "{\"potential\":25}"
 				}
 			}
-			title: "Greatsword (2-Handed)"
+			title: "양손 대검"
 		}
 		{
 			item: {
@@ -128,7 +128,7 @@
 					mmorpg_potential: "{\"potential\":25}"
 				}
 			}
-			title: "Scythe (2-Handed)"
+			title: "양손 낫"
 		}
 		{
 			item: {
@@ -140,8 +140,8 @@
 					mmorpg_potential: "{\"potential\":25}"
 				}
 			}
-			title: "Gauntlet"
+			title: "건틀릿"
 		}
 	]
-	title: "First Weapon"
+	title: "초심자용 무기"
 }

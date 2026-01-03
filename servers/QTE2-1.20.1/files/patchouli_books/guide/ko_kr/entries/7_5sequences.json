@@ -1,0 +1,27 @@
+{
+    "name": "시퀀스",
+    "icon": "minecraft:music_disc_mellohi",
+    "category": "mimi:7midi",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "MIDI 시퀀서는 템포에 맞춰 정렬된 MIDI 메시지 시퀀스를 생성, 편집, 저장 및 재생하여 곡을 만들 수 있습니다.$(br2)일반적으로 MIDI 시퀀스는 .mid 확장자를 가진 파일에 저장됩니다. 많은 곡이 MIDI 형식으로 변환되었으며 Google에서 \"<Song Name> MIDI\"를 검색하여 온라인에서 찾을 수 있습니다."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "사용처",
+            "text": "MIDI 파일은 예전만큼 인기가 많지는 않지만 오늘날에도 여러 용도로 사용됩니다.$(br2)MIDI 파일은 일반적으로 노래방, 일부 비디오 게임 음악, 음악 튜토리얼 및 디지털 악기의 사전 녹음된 곡 등에 사용됩니다."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "형식",
+            "text": "MIDI 시퀀스는 타임라인에 $(l:7_4messages)MIDI 메시지$(/l)를 저장하고 일반적으로 16개의 $(l:7_3channels)MIDI 채널$(/l)에 대한 데이터를 저장할 수 있습니다. 이를 통해 단일 MIDI 파일에 전체 곡의 모든 구성 요소를 담을 수 있습니다.$(br2)사용되는 각 채널에는 단일 악기에 매핑되는 $(l:7_2programs)MIDI 프로그램$(/l)이 할당됩니다. 여러 채널을 동일한 프로그램에 할당할 수 있습니다."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "형식",
+            "text": "$(l:7_3channels)MIDI 채널$(/l) 섹션에서 언급했듯이 채널 10은 타악기용으로 예약되어 있습니다. 따라서 MIDI 입력을 사용하여 MIMI에서 악기를 연주할 때는, 드럼 키트를 연주하지 않는 경우 채널 10을 비활성화하는 것이 좋습니다.$(br2)악기에서 MIDI 데이터를 재생할 때는 한 번에 악기당 몇 개의 채널만 재생하는 것이 좋습니다."
+        }
+    ],
+    "sortnum": 5
+}

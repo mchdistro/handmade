@@ -10,7 +10,11 @@
 	loot_size: 2
 	order_index: 35
 	rewards: [
-		{ count: 64, item: "minecraft:arrow", only_one: true }
+		{
+			count: 64
+			item: "minecraft:arrow"
+			only_one: 1
+		}
 		{
 			item: {
 				Count: 1
@@ -19,9 +23,9 @@
 					Damage: 0
 				}
 			}
-			only_one: true
+			only_one: 1
 		}
 	]
-	title: "Bow and Arrows"
-	use_title: true
+	title: "활과 화살"
+	use_title: 1
 }

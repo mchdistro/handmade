@@ -11,7 +11,7 @@
 					mmorpg_skill_gem: "{\"id\":\"healing_aura\",\"type\":\"SKILL\",\"perc\":11,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Healing Wave"
+			title: "치유 파동"
 		}
 		{
 			item: {
@@ -21,7 +21,7 @@
 					mmorpg_skill_gem: "{\"id\":\"nature_balm\",\"type\":\"SKILL\",\"perc\":20,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Nature's Balm"
+			title: "자연의 연고"
 		}
 		{
 			item: {
@@ -31,7 +31,7 @@
 					mmorpg_skill_gem: "{\"id\":\"power_chord\",\"type\":\"SKILL\",\"perc\":23,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Power Chord"
+			title: "파워 코드"
 		}
 		{
 			item: {
@@ -41,7 +41,7 @@
 					mmorpg_skill_gem: "{\"id\":\"song_of_vigor\",\"type\":\"SKILL\",\"perc\":16,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Hymn of Vigor"
+			title: "활력의 찬가"
 		}
 		{
 			item: {
@@ -51,7 +51,7 @@
 					mmorpg_skill_gem: "{\"id\":\"gong_strike\",\"type\":\"SKILL\",\"perc\":14,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Gong Strike"
+			title: "징 스트라이크"
 		}
 		{
 			item: {
@@ -61,7 +61,7 @@
 					mmorpg_skill_gem: "{\"id\":\"boomerang\",\"type\":\"SKILL\",\"perc\":11,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Boomerang"
+			title: "부메랑"
 		}
 		{
 			item: {
@@ -71,7 +71,7 @@
 					mmorpg_skill_gem: "{\"id\":\"shred\",\"type\":\"SKILL\",\"perc\":23,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Shred"
+			title: "분쇄"
 		}
 		{
 			item: {
@@ -81,7 +81,7 @@
 					mmorpg_skill_gem: "{\"id\":\"rejuv_totem\",\"type\":\"SKILL\",\"perc\":22,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Rejuvenating Totem"
+			title: "활력 토템"
 		}
 		{
 			item: {
@@ -91,7 +91,7 @@
 					mmorpg_skill_gem: "{\"id\":\"craft_arrows\",\"type\":\"SKILL\",\"perc\":17,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Craft Arrows"
+			title: "화살 제작"
 		}
 		{
 			item: {
@@ -101,7 +101,7 @@
 					mmorpg_skill_gem: "{\"id\":\"arrow_barrage\",\"type\":\"SKILL\",\"perc\":10,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Arrow Barrage"
+			title: "화살 세례"
 		}
 		{
 			item: {
@@ -111,7 +111,7 @@
 					mmorpg_skill_gem: "{\"id\":\"charged_bolt\",\"type\":\"SKILL\",\"perc\":25,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Charged Bolt"
+			title: "충전된 볼트"
 		}
 		{
 			item: {
@@ -121,7 +121,7 @@
 					mmorpg_skill_gem: "{\"id\":\"fire_trap\",\"type\":\"SKILL\",\"perc\":18,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Fire Trap"
+			title: "화염 덫"
 		}
 		{
 			item: {
@@ -131,7 +131,7 @@
 					mmorpg_skill_gem: "{\"id\":\"fireball\",\"type\":\"SKILL\",\"perc\":16,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Fireball"
+			title: "화염구"
 		}
 		{
 			item: {
@@ -141,7 +141,7 @@
 					mmorpg_skill_gem: "{\"id\":\"frostball\",\"type\":\"SKILL\",\"perc\":18,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Ice Shard"
+			title: "얼음 파편"
 		}
 		{
 			item: {
@@ -151,7 +151,7 @@
 					mmorpg_skill_gem: "{\"id\":\"lightning_spear\",\"type\":\"SKILL\",\"perc\":22,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Lightning Spear"
+			title: "번개 창"
 		}
 		{
 			item: {
@@ -161,7 +161,7 @@
 					mmorpg_skill_gem: "{\"id\":\"fire_nova\",\"type\":\"SKILL\",\"perc\":23,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Fire Nova"
+			title: "화염 노바"
 		}
 		{
 			item: {
@@ -171,7 +171,7 @@
 					mmorpg_skill_gem: "{\"id\":\"frost_nova\",\"type\":\"SKILL\",\"perc\":17,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Frost Nova"
+			title: "서리 노바"
 		}
 		{
 			item: {
@@ -181,7 +181,7 @@
 					mmorpg_skill_gem: "{\"id\":\"chilling_touch\",\"type\":\"SKILL\",\"perc\":16,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Chilling Touch"
+			title: "냉기 손길"
 		}
 		{
 			item: {
@@ -191,7 +191,7 @@
 					mmorpg_skill_gem: "{\"id\":\"curse_of_agony\",\"type\":\"SKILL\",\"perc\":21,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Curse of Agony"
+			title: "고통의 저주"
 		}
 		{
 			item: {
@@ -201,7 +201,7 @@
 					mmorpg_skill_gem: "{\"id\":\"summon_spirit_wolf\",\"type\":\"SKILL\",\"perc\":24,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Summon Spirit Wolf"
+			title: "정령 늑대 소환"
 		}
 		{
 			item: {
@@ -211,8 +211,8 @@
 					mmorpg_skill_gem: "{\"id\":\"summon_zombie\",\"type\":\"SKILL\",\"perc\":20,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Summon Zombie"
+			title: "좀비 소환"
 		}
 	]
-	title: "Skill Gem Shop I"
+	title: "스킬 젬 상점 I"
 }

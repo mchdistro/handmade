@@ -3,9 +3,15 @@
 	loot_size: 1
 	order_index: 42
 	rewards: [
-		{ item: "mmorpg:runes/ita" }
-		{ item: "mmorpg:runes/mos" }
-		{ item: "mmorpg:runes/nos" }
+		{
+			item: "mmorpg:runes/ita"
+		}
+		{
+			item: "mmorpg:runes/mos"
+		}
+		{
+			item: "mmorpg:runes/nos"
+		}
 	]
-	title: "Runes 1"
+	title: "룬 1"
 }

@@ -1,14 +1,17 @@
 {
 	default_autoclaim_rewards: "disabled"
-	default_consume_items: false
-	default_quest_disable_jei: false
+	default_consume_items: 0
+	default_quest_disable_jei: 0
 	default_quest_shape: "circle"
-	default_reward_team: false
+	default_reward_team: 0
 	detection_delay: 20
-	disable_gui: false
-	drop_book_on_death: false
-	drop_loot_crates: false
-	emergency_items: [{ Count: 1, id: "waystones:return_scroll" }]
+	disable_gui: 0
+	drop_book_on_death: 0
+	drop_loot_crates: 0
+	emergency_items: [{
+		Count: 1
+		id: "waystones:return_scroll"
+	}]
 	emergency_items_cooldown: 30
 	grid_scale: 0.5d
 	icon: "mmorpg:skill_gems/support/dex"
@@ -18,9 +21,9 @@
 		monster: 600
 		passive: 4000
 	}
-	pause_game: false
+	pause_game: 0
 	progression_mode: "flexible"
-	show_lock_icons: true
-	title: "&dCraft to Exile 2&r"
+	show_lock_icons: 1
+	title: "&d크래프트 투 엑자일 2&r"
 	version: 13
 }

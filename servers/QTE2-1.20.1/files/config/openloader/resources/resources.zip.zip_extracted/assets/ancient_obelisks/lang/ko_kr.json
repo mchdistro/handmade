@@ -1,0 +1,9 @@
+{
+    "library_of_exile.item_modification.add_spawn_rate": "Increase Mob Spawn Rate by %1$s%%",
+    "library_of_exile.item_modification.add_tier": "Add %1$s Tier",
+    "library_of_exile.item_modification.add_wave": "Add %1$s Wave",
+    "library_of_exile.item_requirement.has_less_than_x_waves": "Must have less than %1$s additional Waves",
+    "library_of_exile.item_requirement.is_less_than_max_tier": "Obelisk Tier must be lower than %1$s",
+    "library_of_exile.item_requirement.is_obelisk_map": "오벨리스크 지도 아이템이어야 합니다.",
+    "library_of_exile.item_requirement.obelisk_spawnrate_cap": "%1$s%% 추가 스폰율 미만이어야 합니다."
+}

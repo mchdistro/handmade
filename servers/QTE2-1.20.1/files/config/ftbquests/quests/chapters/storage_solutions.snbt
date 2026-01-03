@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: 0
 	default_quest_shape: ""
 	filename: "storage_solutions"
 	group: "5F2CCE8075FCC994"
@@ -10,98 +10,98 @@
 	quests: [
 		{
 			description: [
-				"&eRefined Storage&r is the best method of item storage, filtering, and mass crafting. Devices within the storage network manipulate your items which are on Disks. "
+				"{autotranslate.ftbquests.storage_solutions.quests_0.description_0}"
 				""
-				"The &eController&r is the core of the storage network. All other Refined Storage must connect to it by being near it or through cables. It requires &eForge Energy&r to operate which is only obtainable through &eBotania's Mana Fluxfield&r."
+				"{autotranslate.ftbquests.storage_solutions.quests_0.description_2}"
 				""
-				"This quest line is non-exhaustive. Check &eJEI&r for the full list of items and possibilities within Refined. "
+				"{autotranslate.ftbquests.storage_solutions.quests_0.description_4}"
 			]
 			id: "6390924916E0EF54"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "5703DB65FB3ABDD3"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.storage_solutions.quests_0.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Refined Storage"
+			subtitle: "{autotranslate.ftbquests.storage_solutions.quests_0.subtitle}"
 			tasks: [{
 				id: "4B2ED6A485F2593C"
 				item: "refinedstorage:controller"
 				type: "item"
 			}]
-			title: "Interconnecting Chests"
+			title: "{autotranslate.ftbquests.storage_solutions.quests_0.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			description: [
-				"&eSophisticated Backpacks&r allows you to do everything with a backpack you'd want. There are tons of upgrades from auto feeding, crafting and smelting in your bag, and carrying fluids and experience in fluid form. Check JEI for the full list of upgrades."
+				"{autotranslate.ftbquests.storage_solutions.quests_1.description_0}"
 				""
-				"Each tier of backpack allows for more upgrade slots and  more inventory space."
+				"{autotranslate.ftbquests.storage_solutions.quests_1.description_2}"
 				""
-				"&eBackpack: &r27 slots, 1 upgrade slot"
+				"{autotranslate.ftbquests.storage_solutions.quests_1.description_4}"
 				""
-				"&eIron Backpack:&r 54 slots, 2 upgrade slots"
+				"{autotranslate.ftbquests.storage_solutions.quests_1.description_6}"
 				""
-				"&eGold Backpack:&r 81 slots, 3 upgrade slots"
+				"{autotranslate.ftbquests.storage_solutions.quests_1.description_8}"
 				""
-				"&eDiamond Backpack:&r 108 slots, 5 upgrade slots"
+				"{autotranslate.ftbquests.storage_solutions.quests_1.description_10}"
 				""
-				"&eNetherite Backpack:&r 120 slots, 7 upgrade slots"
+				"{autotranslate.ftbquests.storage_solutions.quests_1.description_12}"
 			]
 			id: "309037CD749F2133"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "0A7512AB8CD1DC80"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.storage_solutions.quests_1.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Sophisticated Backpacks"
+			subtitle: "{autotranslate.ftbquests.storage_solutions.quests_1.subtitle}"
 			tasks: [{
 				id: "5C2725F78F0E4006"
 				item: "sophisticatedbackpacks:diamond_backpack"
 				type: "item"
 			}]
-			title: "On The Move"
+			title: "{autotranslate.ftbquests.storage_solutions.quests_1.title}"
 			x: -2.5d
 			y: 0.0d
 		}
 		{
 			description: [
-				"&eSophisticated Storage&r is the companion to Sophisticated Backpacks. Chests and Barrels can be upgraded from Iron, Gold, Diamond, to Netherite with increasing amount of item slots and upgrade slots."
+				"{autotranslate.ftbquests.storage_solutions.quests_2.description_0}"
 				""
-				"Vanilla Chests and Barrels can be upgraded to their Sophisticated Storage counterparts using the Basic Tier Upgrade."
+				"{autotranslate.ftbquests.storage_solutions.quests_2.description_2}"
 				""
-				"&eNormal Chest:&r 27 slots, 1 upgrade slot"
+				"{autotranslate.ftbquests.storage_solutions.quests_2.description_4}"
 				""
-				"&eIron Chest:&r 54 slots, 2 upgrade slots"
+				"{autotranslate.ftbquests.storage_solutions.quests_2.description_6}"
 				""
-				"&eGold Chest:&r 81 slots, 3 upgrade slots"
+				"{autotranslate.ftbquests.storage_solutions.quests_2.description_8}"
 				""
-				"&eDiamond Chest:&r 108 slots, 4 upgrade slots"
+				"{autotranslate.ftbquests.storage_solutions.quests_2.description_10}"
 				""
-				"&eNetherite Chest: &r120 slots, 5 upgrade slots"
+				"{autotranslate.ftbquests.storage_solutions.quests_2.description_12}"
 			]
 			id: "2DC978CB3CC53730"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "643E5E2551F6B2B5"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.storage_solutions.quests_2.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Sophisticated Storage"
+			subtitle: "{autotranslate.ftbquests.storage_solutions.quests_2.subtitle}"
 			tasks: [
 				{
 					id: "0948893647A2EBC8"
@@ -126,7 +126,7 @@
 					type: "item"
 				}
 			]
-			title: "Strong Organizational Skills"
+			title: "{autotranslate.ftbquests.storage_solutions.quests_2.title}"
 			x: 2.5d
 			y: 0.0d
 		}
@@ -134,38 +134,38 @@
 			dependencies: ["309037CD749F2133"]
 			dependency_requirement: "one_started"
 			description: [
-				"&eStack Upgrades&r are immensely important. Stack upgrades can stack upon each other if more than one is inside a bag."
+				"{autotranslate.ftbquests.storage_solutions.quests_3.description_0}"
 				""
-				"For example:"
+				"{autotranslate.ftbquests.storage_solutions.quests_3.description_2}"
 				""
-				"&e1 Tier 4 Stack Upgrade&r: 1024"
+				"{autotranslate.ftbquests.storage_solutions.quests_3.description_4}"
 				""
-				"&e2 Tier 4 Stack Upgrades:&r 16,384"
+				"{autotranslate.ftbquests.storage_solutions.quests_3.description_6}"
 				""
-				"&eTier 4 Stack Upgrades:&r 262,144"
+				"{autotranslate.ftbquests.storage_solutions.quests_3.description_8}"
 				""
-				"&e4 Tier 4 Stack Upgrades: &r4,194,304"
+				"{autotranslate.ftbquests.storage_solutions.quests_3.description_10}"
 				""
-				"Multiply previous max by 16 to get the next maximum up to 7 slots total"
+				"{autotranslate.ftbquests.storage_solutions.quests_3.description_12}"
 			]
 			id: "0E17ABDC0AD61E23"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "02AE780F088113BE"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.storage_solutions.quests_3.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Sophisticated Backpacks"
+			subtitle: "{autotranslate.ftbquests.storage_solutions.quests_3.subtitle}"
 			tasks: [{
 				id: "2A98D58B86F8196D"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
 				type: "item"
 			}]
-			title: "Stack Upgrades"
+			title: "{autotranslate.ftbquests.storage_solutions.quests_3.title}"
 			x: -2.5d
 			y: -1.5d
 		}
@@ -176,18 +176,18 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 500"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "7798F68FE81EC7D9"
-					silent: true
-					title: "500 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.storage_solutions.quests_4.rewards_0.title}"
 					type: "command"
 				}
 				{
 					count: 5
 					id: "38130FD7A439B180"
 					item: "lightmanscurrency:coin_emerald"
-					title: "Money"
+					title: "{autotranslate.ftbquests.storage_solutions.quests_4.rewards_1.title}"
 					type: "item"
 				}
 				{
@@ -198,7 +198,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "{autotranslate.ftbquests.storage_solutions.quests_4.subtitle}"
 			tasks: [
 				{
 					id: "71DA616E7AF70799"
@@ -206,7 +206,7 @@
 						Count: 1
 						id: "sophisticatedbackpacks:netherite_backpack"
 						tag: {
-							contentsUuid: [I;
+							contentsUuid: [
 								-248892482
 								-1947645115
 								-1238068440
@@ -216,31 +216,31 @@
 							renderInfo: {
 								upgradeItems: [
 									{
-										Count: 1b
+										Count: 1
 										id: "minecraft:air"
 									}
 									{
-										Count: 1b
+										Count: 1
 										id: "minecraft:air"
 									}
 									{
-										Count: 1b
+										Count: 1
 										id: "minecraft:air"
 									}
 									{
-										Count: 1b
+										Count: 1
 										id: "minecraft:air"
 									}
 									{
-										Count: 1b
+										Count: 1
 										id: "minecraft:air"
 									}
 									{
-										Count: 1b
+										Count: 1
 										id: "minecraft:air"
 									}
 									{
-										Count: 1b
+										Count: 1
 										id: "minecraft:air"
 									}
 								]
@@ -251,31 +251,31 @@
 					type: "item"
 				}
 				{
-					count: 3L
+					count: 3
 					id: "38BFA09795642909"
 					item: "sophisticatedbackpacks:stack_upgrade_tier_4"
 					type: "item"
 				}
 			]
-			title: "Nomad"
+			title: "{autotranslate.ftbquests.storage_solutions.quests_4.title}"
 			x: -2.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["059B848E5374A860"]
-			description: ["&eAdvanced Upgrades&r allow for &efiner filtering&r and control over the behavior of the upgrade in the bag, such as the advanced pickup upgrade allows for picking up items on a whitelist, disallowing items on a blacklist, or picking up matching items that are already in the bag."]
+			description: ["{autotranslate.ftbquests.storage_solutions.quests_5.description_0}"]
 			id: "31D3B2B532AADE5B"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "35288E68A43A8D5E"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.storage_solutions.quests_5.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Sophisticated Backpacks"
+			subtitle: "{autotranslate.ftbquests.storage_solutions.quests_5.subtitle}"
 			tasks: [
 				{
 					id: "754607476FB2AE70"
@@ -288,35 +288,35 @@
 					type: "item"
 				}
 			]
-			title: "Advanced Upgrades"
+			title: "{autotranslate.ftbquests.storage_solutions.quests_5.title}"
 			x: -2.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["6390924916E0EF54"]
 			description: [
-				"The &eDisk Drive&r contains &eDisks,&r where each disk adds to the network's inventory limit. Higher tiers are more expensive and take longer to craft but can hold more items."
+				"{autotranslate.ftbquests.storage_solutions.quests_6.description_0}"
 				""
-				"The &eGrid&r is the basic method of interacting with the items within the network. It lets you &etake or insert items&r from the network. The Crafting Grid is an upgrade to it and allows for crafting from all items within the grid. JEI can grab items from the grid."
+				"{autotranslate.ftbquests.storage_solutions.quests_6.description_2}"
 				""
-				"&eFluid storage&r requires specialized versions of both to store fluids within the network."
+				"{autotranslate.ftbquests.storage_solutions.quests_6.description_4}"
 				""
-				"Each Refined Storage block has a priority you can set where the network will first take or receive items from."
+				"{autotranslate.ftbquests.storage_solutions.quests_6.description_6}"
 				""
-				"A basic storage system (&eController, Disk Drive and any Grid&r) uses 0 energy to run!"
+				"{autotranslate.ftbquests.storage_solutions.quests_6.description_8}"
 			]
 			id: "0BBF59F29BA6851E"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "7999735B9C4588BA"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.storage_solutions.quests_6.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Refined Storage"
+			subtitle: "{autotranslate.ftbquests.storage_solutions.quests_6.subtitle}"
 			tasks: [
 				{
 					id: "6B0223CDA914FC54"
@@ -349,31 +349,31 @@
 					type: "item"
 				}
 			]
-			title: "Basic Storage"
+			title: "{autotranslate.ftbquests.storage_solutions.quests_6.title}"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["6EF2C5B82615DD1B"]
 			description: [
-				"The &eStorage Monitor&r lets you select an item from the network to display how many is left."
+				"{autotranslate.ftbquests.storage_solutions.quests_7.description_0}"
 				""
-				"The &ePattern Grid&r allows autocrafting within the network. Each sub-item within a recipe must have its own pattern. "
+				"{autotranslate.ftbquests.storage_solutions.quests_7.description_2}"
 				""
-				"The &eCrafter&r is where the patterns will be stored and where the crafting will take place."
+				"{autotranslate.ftbquests.storage_solutions.quests_7.description_4}"
 			]
 			id: "5F5B3C75910F8870"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "29386B5711B850B7"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.storage_solutions.quests_7.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Refined Storage"
+			subtitle: "{autotranslate.ftbquests.storage_solutions.quests_7.subtitle}"
 			tasks: [
 				{
 					id: "06B652F2C9EA0322"
@@ -391,45 +391,45 @@
 					type: "item"
 				}
 			]
-			title: "Advanced Storage"
+			title: "{autotranslate.ftbquests.storage_solutions.quests_7.title}"
 			x: 0.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["5F5B3C75910F8870"]
 			description: [
-				"These allow you to &eaccess&r a network's inventory from &efar away&r."
+				"{autotranslate.ftbquests.storage_solutions.quests_8.description_0}"
 				""
-				"Simply craft a &eNetwork Transmitter&r and connect it to your Refined Storage system in your main base."
+				"{autotranslate.ftbquests.storage_solutions.quests_8.description_2}"
 				""
-				"Next up, craft a &eNetwork Card&r."
+				"{autotranslate.ftbquests.storage_solutions.quests_8.description_4}"
 				""
-				"After crafting a Network Card, craft a &eNetwork Receiver&r and place it in the area far away from your base."
+				"{autotranslate.ftbquests.storage_solutions.quests_8.description_6}"
 				""
-				"Take the Network Card and &eright click it&r on the Network Receiver."
+				"{autotranslate.ftbquests.storage_solutions.quests_8.description_8}"
 				""
-				"Put the Network Card in the Network Transmitter so the Network Transmitter knows where to &esend a signal&r to."
+				"{autotranslate.ftbquests.storage_solutions.quests_8.description_10}"
 				""
-				"And now you are done. Simply &econnect machines&r to your Network Receiver according to the normal machine connecting rules."
+				"{autotranslate.ftbquests.storage_solutions.quests_8.description_12}"
 				""
-				"The transmitter must be &echunkloaded&r before linking to the network."
+				"{autotranslate.ftbquests.storage_solutions.quests_8.description_14}"
 			]
 			id: "0EF218EB24BCC487"
 			rewards: [
 				{
 					command: "/mine_and_slash give xp_times_lvl @p 500"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "4CE32B206F01E1BD"
-					silent: true
-					title: "500 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.storage_solutions.quests_8.rewards_0.title}"
 					type: "command"
 				}
 				{
 					count: 5
 					id: "10621BD641DAB9D6"
 					item: "lightmanscurrency:coin_emerald"
-					title: "Money"
+					title: "{autotranslate.ftbquests.storage_solutions.quests_8.rewards_1.title}"
 					type: "item"
 				}
 				{
@@ -440,7 +440,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "{autotranslate.ftbquests.storage_solutions.quests_8.subtitle}"
 			tasks: [
 				{
 					id: "61BC6B3C28C327BF"
@@ -458,37 +458,37 @@
 					type: "item"
 				}
 			]
-			title: "Technophile"
+			title: "{autotranslate.ftbquests.storage_solutions.quests_8.title}"
 			x: 0.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["0BBF59F29BA6851E"]
 			description: [
-				"If you want to get items &eout&r of your storage network, use an &eExporter&r and connect it to an inventory where you want to export to."
+				"{autotranslate.ftbquests.storage_solutions.quests_9.description_0}"
 				""
-				"If you want to get items &ein&r your storage network, use an &eImporter&r and connect it to an inventory where you want to import from."
+				"{autotranslate.ftbquests.storage_solutions.quests_9.description_2}"
 				""
-				"Want the best of both worlds? Use an &eInterface&r to get &eimporting and exporting&r functionality in one block."
+				"{autotranslate.ftbquests.storage_solutions.quests_9.description_4}"
 				""
-				"To &eplace&r blocks from your storage network in the world, use an &eConstructor.&r"
+				"{autotranslate.ftbquests.storage_solutions.quests_9.description_6}"
 				""
-				"To &edestroy and insert blocks&r from the world into your storage, use an &eDestructor.&r"
+				"{autotranslate.ftbquests.storage_solutions.quests_9.description_8}"
 				""
-				"The &eMana Fluxfield&r converts Botania Mana into FE for Refined Storage item manipulation!"
+				"{autotranslate.ftbquests.storage_solutions.quests_9.description_10}"
 				""
-				"Each block can have filters applied to it."
+				"{autotranslate.ftbquests.storage_solutions.quests_9.description_12}"
 			]
 			id: "6EF2C5B82615DD1B"
 			rewards: [
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "5DE6A4583A76E4E5"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.storage_solutions.quests_9.rewards_0.title}"
 					type: "command"
 				}
 				{
@@ -498,7 +498,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Refined Storage"
+			subtitle: "{autotranslate.ftbquests.storage_solutions.quests_9.subtitle}"
 			tasks: [
 				{
 					id: "16E23820542D9533"
@@ -521,25 +521,25 @@
 					type: "item"
 				}
 			]
-			title: "Basic Item Manipulation"
+			title: "{autotranslate.ftbquests.storage_solutions.quests_9.title}"
 			x: 0.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["0E17ABDC0AD61E23"]
-			description: ["Check &eJEI&r for the full list of upgrades."]
+			description: ["{autotranslate.ftbquests.storage_solutions.quests_10.description_0}"]
 			id: "059B848E5374A860"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "7C40E770D3092D25"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.storage_solutions.quests_10.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Sophisticated Backpacks"
+			subtitle: "{autotranslate.ftbquests.storage_solutions.quests_10.subtitle}"
 			tasks: [
 				{
 					id: "27BA72C5B24C8F27"
@@ -558,34 +558,34 @@
 		{
 			dependencies: ["2DC978CB3CC53730"]
 			description: [
-				"&eStack Upgrades&r are immensely important. Stack upgrades can stack upon each other if more than one is inside a storage block."
+				"{autotranslate.ftbquests.storage_solutions.quests_11.description_0}"
 				""
-				"For example:"
+				"{autotranslate.ftbquests.storage_solutions.quests_11.description_2}"
 				""
-				"&e1 Tier 4 Stack Upgrade:&r 1024"
+				"{autotranslate.ftbquests.storage_solutions.quests_11.description_4}"
 				""
-				"&e2 Tier 4 Stack Upgrades:&r 16,384"
+				"{autotranslate.ftbquests.storage_solutions.quests_11.description_6}"
 				""
-				"&e3 Tier 4 Stack Upgrades:&r 262,144"
+				"{autotranslate.ftbquests.storage_solutions.quests_11.description_8}"
 				""
-				"&e4 Tier 4 Stack Upgrades:&r 4,194,304"
+				"{autotranslate.ftbquests.storage_solutions.quests_11.description_10}"
 				""
-				"Multiply previous max by 16 to get the next maximum up to 7 slots total"
+				"{autotranslate.ftbquests.storage_solutions.quests_11.description_12}"
 				""
-				"Check JEI for the full list of upgrades."
+				"{autotranslate.ftbquests.storage_solutions.quests_11.description_14}"
 			]
 			id: "4F7406B2025F6706"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "5B55E6903CC702C9"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.storage_solutions.quests_11.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Sophisticated Storage"
+			subtitle: "{autotranslate.ftbquests.storage_solutions.quests_11.subtitle}"
 			tasks: [
 				{
 					id: "228AB62E3C290839"
@@ -608,33 +608,33 @@
 					type: "item"
 				}
 			]
-			title: "Upgrades"
+			title: "{autotranslate.ftbquests.storage_solutions.quests_11.title}"
 			x: 2.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["4F7406B2025F6706"]
 			description: [
-				"&eLimited Barrels&r act as drawers, where up to &efour items&r can be stored within and have &eimmensely high stack limits&r inherently. Barrels are marked by two things: &eTier&r and &eItem Limit&r."
+				"{autotranslate.ftbquests.storage_solutions.quests_12.description_0}"
 				""
-				"&eNormal, Iron, Gold, Diamond, and Netherite&r are the tier, which decides the stack limit."
+				"{autotranslate.ftbquests.storage_solutions.quests_12.description_2}"
 				""
-				"&eI, II, III, IIII&r are the Item Limit which is how many different items can be inside it from 1 to 4. Barrels with a higher Item Limit have less maximum stack."
+				"{autotranslate.ftbquests.storage_solutions.quests_12.description_4}"
 				""
-				"These barrels can also be upgraded just like regular storage."
+				"{autotranslate.ftbquests.storage_solutions.quests_12.description_6}"
 			]
 			id: "4A3CBD5BF1BC9968"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "2C33C7226B9351E6"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.storage_solutions.quests_12.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Sophisticated Storage"
+			subtitle: "{autotranslate.ftbquests.storage_solutions.quests_12.subtitle}"
 			tasks: [
 				{
 					id: "2F214FD2DB7CB5F2"
@@ -681,33 +681,33 @@
 					type: "item"
 				}
 			]
-			title: "Barrel Drawers"
+			title: "{autotranslate.ftbquests.storage_solutions.quests_12.title}"
 			x: 2.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["4A3CBD5BF1BC9968"]
 			description: [
-				"&eStorage Controllers&r allow you to &epipe in/out items&r with connected storage blocks. Priority is determined by which storage blocks were placed last. There is no GUI currently."
+				"{autotranslate.ftbquests.storage_solutions.quests_13.description_0}"
 				""
-				"&eStorage Link &rallows to &econnect multiple storages&r that are not attached to controller or any blocks that are connected to it."
+				"{autotranslate.ftbquests.storage_solutions.quests_13.description_2}"
 				""
-				"The &eStorage Tool&r allows you to &elink, lock and toggle visibility of locks and item counts&r. Shift scroll to change mode. Linking works by right clicking the controller to start linking to it and then right click storages or storage link to get these linked."
+				"{autotranslate.ftbquests.storage_solutions.quests_13.description_4}"
 				""
-				"&ePacking Tape&r allows you to&e pack up&r a storage block and mine it to pick it up like a regular block without the items dropping."
+				"{autotranslate.ftbquests.storage_solutions.quests_13.description_6}"
 			]
 			id: "4F8DAFD8E626D7A1"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "236882E6AC66900C"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.storage_solutions.quests_13.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Sophisticated Storage"
+			subtitle: "{autotranslate.ftbquests.storage_solutions.quests_13.subtitle}"
 			tasks: [
 				{
 					id: "2D33DC885082CA5F"
@@ -741,24 +741,24 @@
 		}
 		{
 			dependencies: ["4F8DAFD8E626D7A1"]
-			description: ["Stay organized!"]
+			description: ["{autotranslate.ftbquests.storage_solutions.quests_14.description_0}"]
 			id: "629A6257109536AB"
 			rewards: [
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 500"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "2AFF0D9FFE57369A"
-					silent: true
-					title: "500 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.storage_solutions.quests_14.rewards_0.title}"
 					type: "command"
 				}
 				{
 					count: 5
 					id: "4B3FB70060B569CE"
 					item: "lightmanscurrency:coin_emerald"
-					title: "Money"
+					title: "{autotranslate.ftbquests.storage_solutions.quests_14.rewards_1.title}"
 					type: "item"
 				}
 				{
@@ -769,7 +769,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "{autotranslate.ftbquests.storage_solutions.quests_14.subtitle}"
 			tasks: [
 				{
 					id: "0765FE1E964931AB"
@@ -818,7 +818,7 @@
 					type: "item"
 				}
 			]
-			title: "Too Many Chests"
+			title: "{autotranslate.ftbquests.storage_solutions.quests_14.title}"
 			x: 2.5d
 			y: -6.0d
 		}
@@ -833,26 +833,26 @@
 			rewards: [
 				{
 					command: "/tellraw @a {\"text\":\"\",\"color\":\"blue\",\"extra\":[{\"selector\":\"@p\"},{\"text\":\" has achived Professional Hoarder\"}]}"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "minecraft:cookie"
 					id: "4B4093F03AC14A41"
-					title: "Click here to brag"
+					title: "{autotranslate.ftbquests.storage_solutions.quests_15.rewards_0.title}"
 					type: "command"
 				}
 				{
 					command: "/mine_and_slash give xp_times_lvl @p 750"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "6937B10EF0E96632"
-					silent: true
-					title: "750 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.storage_solutions.quests_15.rewards_1.title}"
 					type: "command"
 				}
 				{
 					count: 6
 					id: "4BC2120BF612C79C"
 					item: "lightmanscurrency:coin_diamond"
-					title: "Money"
+					title: "{autotranslate.ftbquests.storage_solutions.quests_15.rewards_2.title}"
 					type: "item"
 				}
 				{
@@ -863,13 +863,13 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "Achievement"
+			subtitle: "{autotranslate.ftbquests.storage_solutions.quests_15.subtitle}"
 			tasks: [{
 				id: "7FAAD1441DAB60C3"
-				title: "Click Once Read"
+				title: "{autotranslate.ftbquests.storage_solutions.quests_15.tasks_0.title}"
 				type: "checkmark"
 			}]
-			title: "Professional Hoarder"
+			title: "{autotranslate.ftbquests.storage_solutions.quests_15.title}"
 			x: 0.0d
 			y: -8.5d
 		}
@@ -878,28 +878,28 @@
 				"4A3CBD5BF1BC9968"
 				"6EF2C5B82615DD1B"
 			]
-			description: ["The &eExternal Storage&r allows you to link &eRefined Storage&r with external storage blocks, such as blocks from &eSophisticated Storage&r!"]
+			description: ["{autotranslate.ftbquests.storage_solutions.quests_16.description_0}"]
 			id: "4E4A3F37E8B476D5"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "632F0EE8C983348E"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.storage_solutions.quests_16.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Refined Storage"
+			subtitle: "{autotranslate.ftbquests.storage_solutions.quests_16.subtitle}"
 			tasks: [{
 				id: "3A278D31677ADF0F"
 				item: "refinedstorage:external_storage"
 				type: "item"
 			}]
-			title: "Compatibility"
+			title: "{autotranslate.ftbquests.storage_solutions.quests_16.title}"
 			x: 1.25d
 			y: -3.75d
 		}
 	]
-	title: "Storage Solutions"
+	title: "{autotranslate.ftbquests.storage_solutions.title}"
 }

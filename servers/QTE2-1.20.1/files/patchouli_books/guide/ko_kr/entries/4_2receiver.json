@@ -1,0 +1,29 @@
+{
+    "name": "수신기",
+    "icon": "mimi:receiver",
+    "category": "mimi:4redstone",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "수신기",
+            "item": "mimi:receiver",
+            "text": "수신기는 주변에서 전송되는 음표를 수신하고 음표가 수신기의 설정된 필터 기준과 일치하면 레드스톤 신호를 출력하는 블록입니다."
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "제작법",
+            "link_recipe": true,
+            "recipe": "mimi:receiver"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "설정",
+            "text": "$(li)$(l)필터 음표$(): 수신기가 반응해야 하는 음표입니다. 값은 전체, 특정 음표(예: C5), 옥타브의 모든 음표(예: *5) 또는 음표의 모든 옥타브(예: C*)일 수 있습니다.$(br)$(li)$(l)전송 소스$(): 이 수신기가 연결된 송신기 또는 릴레이입니다. 수신기 화면에서 자신으로 설정하거나 수신기로 플레이어/블록을 우클릭하여 연결합니다."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)$(l)활성화된 MIDI 채널$(): 이 수신기가 음표에 응답해야 하는 MIDI 채널입니다.$(br)$(li)$(l)트리거 모드$(): 청취기가 음표가 눌러진 전체 시간 동안 레드스톤 신호를 방출해야 하는지 아니면 음표가 시작될 때만 방출해야 하는지 여부입니다."
+        }
+    ],
+    "sortnum": 2
+}

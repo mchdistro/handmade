@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: 0
 	default_quest_shape: ""
 	filename: "repeatables"
 	group: "1E3C4B5FFAE48A39"
@@ -15,40 +15,40 @@
 	quest_links: [ ]
 	quests: [
 		{
-			can_repeat: true
+			can_repeat: 1
 			dependencies: ["55F9F418C4CA3B3A"]
 			description: [
-				"Complete the quest mentioned below to unlock this repeatable quest!"
+				"{autotranslate.ftbquests.repeatables.quests_0.description_0}"
 				""
 				"{ \"text\": \"Captain Cornelia's Locker\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"55F9F418C4CA3B3A\" } }"
 			]
-			hide_until_deps_complete: true
+			hide_until_deps_complete: 1
 			id: "5DC9C433EE6B8CAE"
 			rewards: [{
 				command: "/loot give @p loot aquamirae:chests/frozen_chest"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "aquamirae:frozen_chest"
 				id: "1BFE8550AA0BE62C"
-				silent: true
-				title: "Frozen Chest Loot"
+				silent: 1
+				title: "{autotranslate.ftbquests.repeatables.quests_0.rewards_0.title}"
 				type: "command"
 			}]
 			shape: "octagon"
 			tasks: [{
-				consume_items: true
+				consume_items: 1
 				id: "324B1B69EC4A064F"
 				item: "aquamirae:frozen_key"
 				type: "item"
 			}]
-			title: "Frozen Key Exchange"
+			title: "{autotranslate.ftbquests.repeatables.quests_0.title}"
 			x: 0.0d
 			y: 3.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: 1
 			dependencies: ["0D9B68F2990B8E94"]
 			description: [
-				"Complete the quest mentioned below to unlock this repeatable quest!"
+				"{autotranslate.ftbquests.repeatables.quests_1.description_0}"
 				""
 				"{ \"text\": \"Glow in the Dark Issues\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0D9B68F2990B8E94\" } }"
 			]
@@ -66,11 +66,11 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 150"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "22385397363DF4AE"
-				silent: true
-				title: "150 Experience"
+				silent: 1
+				title: "{autotranslate.ftbquests.repeatables.quests_1.rewards_0.title}"
 				type: "command"
 			}]
 			shape: "gear"
@@ -79,16 +79,16 @@
 				icon: "ftb_ph:glow_skeleton"
 				id: "7167EEEB84804B82"
 				type: "kill"
-				value: 20L
+				value: 20
 			}]
 			x: 0.0d
 			y: -1.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: 1
 			dependencies: ["1D01AD334C7C70F1"]
 			description: [
-				"Complete the quest mentioned below to unlock this repeatable quest!"
+				"{autotranslate.ftbquests.repeatables.quests_2.description_0}"
 				""
 				"{ \"text\": \"Fiery Foes\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1D01AD334C7C70F1\" } }"
 			]
@@ -97,11 +97,11 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 1500"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "6B943AAF55E07A27"
-				silent: true
-				title: "1500 Experience"
+				silent: 1
+				title: "{autotranslate.ftbquests.repeatables.quests_2.rewards_0.title}"
 				type: "command"
 			}]
 			shape: "gear"
@@ -111,24 +111,24 @@
 					icon: "ftb_ph:blaze"
 					id: "19A3097222CE8608"
 					type: "kill"
-					value: 24L
+					value: 24
 				}
 				{
 					entity: "realmrpg_wyrms:red_wyrm"
 					icon: "minecraft:blaze_powder"
 					id: "7B115CCAFCE6BF38"
 					type: "kill"
-					value: 12L
+					value: 12
 				}
 			]
 			x: 1.5d
 			y: 0.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: 1
 			dependencies: ["60A18C940B623CDA"]
 			description: [
-				"Complete the quest mentioned below to unlock this repeatable quest!"
+				"{autotranslate.ftbquests.repeatables.quests_3.description_0}"
 				""
 				"{ \"text\": \"The Restless Dead\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60A18C940B623CDA\" } }"
 			]
@@ -136,11 +136,11 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 7500"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "123914C951A94532"
-				silent: true
-				title: "7500 Experience"
+				silent: 1
+				title: "{autotranslate.ftbquests.repeatables.quests_3.rewards_0.title}"
 				type: "command"
 			}]
 			shape: "gear"
@@ -155,16 +155,16 @@
 				}
 				id: "22D7A87BF0EBDA8C"
 				type: "kill"
-				value: 30L
+				value: 30
 			}]
 			x: 3.0d
 			y: 1.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: 1
 			dependencies: ["61FABF4C4DB118C8"]
 			description: [
-				"Complete the quest mentioned below to unlock this repeatable quest!"
+				"{autotranslate.ftbquests.repeatables.quests_4.description_0}"
 				""
 				"{ \"text\": \"Frozen in Time\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"61FABF4C4DB118C8\" } }"
 			]
@@ -172,11 +172,11 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 12500"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "7649A7E781D80ED1"
-				silent: true
-				title: "12500 Experience"
+				silent: 1
+				title: "{autotranslate.ftbquests.repeatables.quests_4.rewards_0.title}"
 				type: "command"
 			}]
 			shape: "gear"
@@ -191,16 +191,16 @@
 				}
 				id: "544B1E0331B8E417"
 				type: "kill"
-				value: 30L
+				value: 30
 			}]
 			x: 4.5d
 			y: -1.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: 1
 			dependencies: ["61FABF4C4DB118C8"]
 			description: [
-				"Complete the quest mentioned below to unlock this repeatable quest!"
+				"{autotranslate.ftbquests.repeatables.quests_5.description_0}"
 				""
 				"{ \"text\": \"Creepy Crawlies\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1B6034E8571F3AFA\" } }"
 			]
@@ -208,11 +208,11 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 12500"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "20605B6EF6CD2F14"
-				silent: true
-				title: "12500 Experience"
+				silent: 1
+				title: "{autotranslate.ftbquests.repeatables.quests_5.rewards_0.title}"
 				type: "command"
 			}]
 			shape: "gear"
@@ -221,16 +221,16 @@
 				icon: "undergarden:gloomgourd_seeds"
 				id: "758BF3FC1A3D5AFD"
 				type: "kill"
-				value: 30L
+				value: 30
 			}]
 			x: 4.5d
 			y: 1.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: 1
 			dependencies: ["61FF2CADDF0013F6"]
 			description: [
-				"Complete the quest mentioned below to unlock this repeatable quest!"
+				"{autotranslate.ftbquests.repeatables.quests_6.description_0}"
 				""
 				"{ \"text\": \"Dragonspawn\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"61FF2CADDF0013F6\" } }"
 			]
@@ -238,11 +238,11 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 15500"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "296696F69ECA5142"
-				silent: true
-				title: "15500 Experience"
+				silent: 1
+				title: "{autotranslate.ftbquests.repeatables.quests_6.rewards_0.title}"
 				type: "command"
 			}]
 			shape: "gear"
@@ -251,16 +251,16 @@
 				icon: "simplehats:dragonskullender"
 				id: "6E118349E188C606"
 				type: "kill"
-				value: 30L
+				value: 30
 			}]
 			x: 6.0d
 			y: -1.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: 1
 			dependencies: ["69FD852AE0306BD2"]
 			description: [
-				"Complete the quest mentioned below to unlock this repeatable quest!"
+				"{autotranslate.ftbquests.repeatables.quests_7.description_0}"
 				""
 				"{ \"text\": \"They Knew You Were Coming\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"69FD852AE0306BD2\" } }"
 			]
@@ -268,11 +268,11 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 17000"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "6D23E2486AAAC0FD"
-				silent: true
-				title: "17000 Experience"
+				silent: 1
+				title: "{autotranslate.ftbquests.repeatables.quests_7.rewards_0.title}"
 				type: "command"
 			}]
 			shape: "gear"
@@ -281,16 +281,16 @@
 				icon: "alexsmobs:farseer_arm"
 				id: "69EF6E41CE175CC5"
 				type: "kill"
-				value: 20L
+				value: 20
 			}]
 			x: 6.0d
 			y: 1.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: 1
 			dependencies: ["783CA457464E8E3D"]
 			description: [
-				"Complete the quest mentioned below to unlock this repeatable quest!"
+				"{autotranslate.ftbquests.repeatables.quests_8.description_0}"
 				""
 				"{ \"text\": \"Investigation\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"783CA457464E8E3D\" } }"
 			]
@@ -305,11 +305,11 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 250"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "57C29501D0B0F1B3"
-				silent: true
-				title: "250 Experience"
+				silent: 1
+				title: "{autotranslate.ftbquests.repeatables.quests_8.rewards_0.title}"
 				type: "command"
 			}]
 			shape: "gear"
@@ -319,24 +319,24 @@
 					icon: "ftb_ph:pillager"
 					id: "26EAFD4CED378BEA"
 					type: "kill"
-					value: 32L
+					value: 32
 				}
 				{
 					entity: "minecraft:vindicator"
 					icon: "ftb_ph:vindicator"
 					id: "70CEA0BE44C3CE94"
 					type: "kill"
-					value: 16L
+					value: 16
 				}
 			]
 			x: 0.0d
 			y: 1.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: 1
 			dependencies: ["775A13E1924D6C9A"]
 			description: [
-				"Complete the quest mentioned below to unlock this repeatable quest!"
+				"{autotranslate.ftbquests.repeatables.quests_9.description_0}"
 				""
 				"{ \"text\": \"Civilization from the Past\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"775A13E1924D6C9A\" } }"
 			]
@@ -351,11 +351,11 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 6000"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "6D4E0BA3D852CCB7"
-				silent: true
-				title: "6000 Experience"
+				silent: 1
+				title: "{autotranslate.ftbquests.repeatables.quests_9.rewards_0.title}"
 				type: "command"
 			}]
 			shape: "gear"
@@ -370,11 +370,11 @@
 				}
 				id: "696978C4FE4BC1E0"
 				type: "kill"
-				value: 20L
+				value: 20
 			}]
 			x: 3.0d
 			y: -1.0d
 		}
 	]
-	title: "Repeatables"
+	title: "{autotranslate.ftbquests.repeatables.title}"
 }

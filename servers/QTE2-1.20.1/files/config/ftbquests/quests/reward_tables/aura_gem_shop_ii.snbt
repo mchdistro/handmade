@@ -11,7 +11,7 @@
 					mmorpg_skill_gem: "{\"id\":\"armor\",\"type\":\"AURA\",\"perc\":12,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Armor Augment"
+			title: "갑옷 오그먼트"
 		}
 		{
 			item: {
@@ -21,7 +21,7 @@
 					mmorpg_skill_gem: "{\"id\":\"dodge\",\"type\":\"AURA\",\"perc\":15,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Dodge Augment"
+			title: "회피 오그먼트"
 		}
 		{
 			item: {
@@ -31,7 +31,7 @@
 					mmorpg_skill_gem: "{\"id\":\"magic_shield\",\"type\":\"AURA\",\"perc\":11,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Magic Shield Augment"
+			title: "마법 방패 오그먼트"
 		}
 		{
 			item: {
@@ -41,7 +41,7 @@
 					mmorpg_skill_gem: "{\"id\":\"physical_ailment\",\"type\":\"AURA\",\"perc\":24,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Decree of Pain Augment"
+			title: "고통의 법령 오그먼트"
 		}
 		{
 			item: {
@@ -51,7 +51,7 @@
 					mmorpg_skill_gem: "{\"id\":\"fire_ailment\",\"type\":\"AURA\",\"perc\":13,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Decree of Fire Augment"
+			title: "불의 법령"
 		}
 		{
 			item: {
@@ -61,7 +61,7 @@
 					mmorpg_skill_gem: "{\"id\":\"cold_ailment\",\"type\":\"AURA\",\"perc\":13,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Decree of Frost Augment"
+			title: "서리의 법령"
 		}
 		{
 			item: {
@@ -71,7 +71,7 @@
 					mmorpg_skill_gem: "{\"id\":\"lightning_ailment\",\"type\":\"AURA\",\"perc\":10,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Decree of Lightning Augment"
+			title: "번개의 법령"
 		}
 		{
 			item: {
@@ -81,7 +81,7 @@
 					mmorpg_skill_gem: "{\"id\":\"chaos_ailment\",\"type\":\"AURA\",\"perc\":10,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Decree of Chaos Augment"
+			title: "혼돈의 법령"
 		}
 		{
 			item: {
@@ -91,8 +91,8 @@
 					mmorpg_skill_gem: "{\"id\":\"critical_hit\",\"type\":\"AURA\",\"perc\":12,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Critical Strikes Augment"
+			title: "치명타 오그먼트"
 		}
 	]
-	title: "Augment Gem Shop II"
+	title: "오그먼트 젬 상점 II"
 }

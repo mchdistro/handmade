@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: 0
 	default_quest_shape: ""
 	filename: "other_hobbies"
 	group: "37C10F4BE9E00A26"
@@ -10,24 +10,24 @@
 	quests: [
 		{
 			description: [
-				"&eSniffers&r spawn by hatching from &esniffer eggs&r found in &esuspicious sand &rfrom &ewarm ocean ruins&r. Breeding sniffers with &etorchflower seeds&r would also result in a sniffer egg being laid as an item. It &esniffs out and digs out seeds&r for various unique decorative plants out of dirt, grass, and moss blocks. They will dig through &edirt and grass&r like blocks. "
+				"{autotranslate.ftbquests.other_hobbies.quests_0.description_0}"
 				""
-				"The sniffer &estores the last 20 locations&r it has dug up so it can't dig there anymore. After sniffing out seeds, an &eeight minute cooldown&r is activated before it can dig in again."
+				"{autotranslate.ftbquests.other_hobbies.quests_0.description_2}"
 				""
-				"&eBonmeelia Seeds&r are used to create a &eJar of Bonmeel&r which creates a giant crop when used on a 3x3 grid of grown crops!"
+				"{autotranslate.ftbquests.other_hobbies.quests_0.description_4}"
 			]
 			id: "1D611B5828213E51"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "5508F53BDD3E83AE"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.other_hobbies.quests_0.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Obtain a Sniffer Egg"
+			subtitle: "{autotranslate.ftbquests.other_hobbies.quests_0.subtitle}"
 			tasks: [
 				{
 					id: "090B2E583665D316"
@@ -40,35 +40,35 @@
 					type: "item"
 				}
 			]
-			title: "Sniffers"
+			title: "{autotranslate.ftbquests.other_hobbies.quests_0.title}"
 			x: -1.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["1D611B5828213E51"]
 			description: [
-				"&eTorchflower seeds&r can be placed on farmland, where they grow through three stages. Breaking the torchflower crop before it matures drops the seed, while breaking the final stage produces one torchflower and does not yield the seed. Torchflowers don't do anything special except &elook cool&r."
+				"{autotranslate.ftbquests.other_hobbies.quests_1.description_0}"
 				""
-				"&ePitcher Pods&r grow through three stages as a pitcher crop. It also does nothing except look cool."
+				"{autotranslate.ftbquests.other_hobbies.quests_1.description_2}"
 				""
-				"&eMore Sniffer Flowers&r also adds more seeds and plants the Sniffer can dig up that actually do something."
+				"{autotranslate.ftbquests.other_hobbies.quests_1.description_4}"
 				""
-				"&eDawnberries&r drop edible berries when picked."
+				"{autotranslate.ftbquests.other_hobbies.quests_1.description_6}"
 				""
-				"&eAmbushes&r produce &eAmber&r which drops a new armor trim, banner pattern, and more. "
+				"{autotranslate.ftbquests.other_hobbies.quests_1.description_8}"
 				""
-				"&eCaulorflowers and Bondripia&r are decorational plants that are animated."
+				"{autotranslate.ftbquests.other_hobbies.quests_1.description_10}"
 			]
 			id: "141FAE11D6180780"
 			rewards: [
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "1F1AAEF0168D5E6F"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.other_hobbies.quests_1.rewards_0.title}"
 					type: "command"
 				}
 				{
@@ -78,7 +78,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Obtain one of each"
+			subtitle: "{autotranslate.ftbquests.other_hobbies.quests_1.subtitle}"
 			tasks: [
 				{
 					id: "4A1EC9F27C69F7C4"
@@ -111,31 +111,31 @@
 					type: "item"
 				}
 			]
-			title: "More Sniffer Flowers"
+			title: "{autotranslate.ftbquests.other_hobbies.quests_1.title}"
 			x: -1.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["141FAE11D6180780"]
 			description: [
-				"&eGloomberries&r drop edible berries when picked, but at the same time it's kinda disgusting."
+				"{autotranslate.ftbquests.other_hobbies.quests_2.description_0}"
 				""
-				"&eGarbush&r is a corrupted version of &eAmbush&r which drops rarer ores. You can get the saplings for these from Amber."
+				"{autotranslate.ftbquests.other_hobbies.quests_2.description_2}"
 				""
-				"&eAciddripia&r are decorational plants that are animated as well. You can get the saplings for these from Amber."
+				"{autotranslate.ftbquests.other_hobbies.quests_2.description_4}"
 			]
 			id: "0D8B0AB8564ABCB9"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "6F86EA0055996E20"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.other_hobbies.quests_2.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Obtain one of each"
+			subtitle: "{autotranslate.ftbquests.other_hobbies.quests_2.subtitle}"
 			tasks: [
 				{
 					id: "4B23799C7BCBA42A"
@@ -153,35 +153,35 @@
 					type: "item"
 				}
 			]
-			title: "Corruption Seeds"
+			title: "{autotranslate.ftbquests.other_hobbies.quests_2.title}"
 			x: -1.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["3DB047DAC7A392C3"]
 			description: [
-				"The &esheep fossil&r can be found at some small stony peaks. It can be tuned and activated like a Noteblock to play some Goat Horn sounds!"
+				"{autotranslate.ftbquests.other_hobbies.quests_3.description_0}"
 				""
-				"The &eocelot fossil&r can be found hidden away in its (maybe collapsed) cave inside the jungle. It scares creepers away for double the distance cats do (without making annoying sounds)."
+				"{autotranslate.ftbquests.other_hobbies.quests_3.description_2}"
 				""
-				"The &ecreeper fossil &rcan be found at an old exploded dirt-hut. It emits fire and smoke particles when placed."
+				"{autotranslate.ftbquests.other_hobbies.quests_3.description_4}"
 				""
-				"The &evillager fossil&r can be found at a grave of a rotten outcast-house. It can hold items like a display and will emit the light of the item it is holding."
+				"{autotranslate.ftbquests.other_hobbies.quests_3.description_6}"
 				""
-				"The &echicken fossil&r can be found below trees surrounded by small rocks. It gives players in a 10 Block radius the slow-falling effect."
+				"{autotranslate.ftbquests.other_hobbies.quests_3.description_8}"
 			]
 			id: "4687F41A2DC1F1F6"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "498FD4941D060885"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.other_hobbies.quests_3.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Obtain one of each"
+			subtitle: "{autotranslate.ftbquests.other_hobbies.quests_3.subtitle}"
 			tasks: [
 				{
 					id: "6E1BBB79990C18E3"
@@ -209,25 +209,25 @@
 					type: "item"
 				}
 			]
-			title: "Fossils"
+			title: "{autotranslate.ftbquests.other_hobbies.quests_3.title}"
 			x: 1.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["4687F41A2DC1F1F6"]
-			description: ["&eTotems&r can be found in &eunderwater structures&r as well as &eMesa Ruins&r."]
+			description: ["{autotranslate.ftbquests.other_hobbies.quests_4.description_0}"]
 			id: "6D81B1B54FCBAFA0"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "1AFBDF90391AE1C3"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.other_hobbies.quests_4.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Obtain one of each"
+			subtitle: "{autotranslate.ftbquests.other_hobbies.quests_4.subtitle}"
 			tasks: [
 				{
 					id: "5FE97D3DDBF7A7E1"
@@ -252,32 +252,32 @@
 					type: "item"
 				}
 			]
-			title: "Totems"
+			title: "{autotranslate.ftbquests.other_hobbies.quests_4.title}"
 			x: 1.0d
 			y: -0.5d
 		}
 		{
 			description: [
-				"&eBetter Archeology &rintroduces content to archeology. &eFossils&r of various mobs can be found by &ebrushing Fossiliferous Dirt&r which generates at specific areas. Each area contains a &especific type of fossil&r, such as stone pillars' nearby Fossiliferous Dirt containing sheep fossils. "
+				"{autotranslate.ftbquests.other_hobbies.quests_5.description_0}"
 				""
-				"The &eArcheology Table&r is used to &eanalyse Unidentified Artifacts&r using any type of brush. &eIdentified Artifacts&r act as a catalyst for &eancient Enchantments like Enchanted Books&r do. Apply them to your Equipment using an Anvil."
+				"{autotranslate.ftbquests.other_hobbies.quests_5.description_2}"
 				""
-				"&eArtifact Shards&r can be found by &ebreaking pots or brushing suspicious sand&r. They are Fragments of knowledge that can be put together to craft Unidentified Artifacts. "
+				"{autotranslate.ftbquests.other_hobbies.quests_5.description_4}"
 				""
-				"&eIdentify&r the Unidentified Artifacts with the &eArcheology Table&r."
+				"{autotranslate.ftbquests.other_hobbies.quests_5.description_6}"
 			]
 			id: "3DB047DAC7A392C3"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "60C206051579389D"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.other_hobbies.quests_5.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Craft one of each"
+			subtitle: "{autotranslate.ftbquests.other_hobbies.quests_5.subtitle}"
 			tasks: [
 				{
 					id: "1EE5F2F4EF889807"
@@ -306,7 +306,7 @@
 					type: "item"
 				}
 			]
-			title: "Better Archeology "
+			title: "{autotranslate.ftbquests.other_hobbies.quests_5.title}"
 			x: 1.0d
 			y: 2.5d
 		}
@@ -316,11 +316,11 @@
 			rewards: [
 				{
 					command: "/mine_and_slash give xp_times_lvl @p 500"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "27CC9951B28EB7D5"
-					silent: true
-					title: "500 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.other_hobbies.quests_6.rewards_0.title}"
 					type: "command"
 				}
 				{
@@ -331,9 +331,9 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "{autotranslate.ftbquests.other_hobbies.quests_6.subtitle}"
 			tasks: [{
-				consume_items: true
+				consume_items: 1
 				id: "192947A1A4847203"
 				item: {
 					Count: 1
@@ -344,7 +344,7 @@
 				}
 				type: "item"
 			}]
-			title: "Ancient Anthropologist"
+			title: "{autotranslate.ftbquests.other_hobbies.quests_6.title}"
 			x: 1.0d
 			y: -2.0d
 		}
@@ -363,26 +363,26 @@
 			rewards: [
 				{
 					command: "/tellraw @a {\"text\":\"\",\"color\":\"blue\",\"extra\":[{\"selector\":\"@p\"},{\"text\":\" has achieved The Multipotentialite !\"}]}"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "minecraft:cookie"
 					id: "5E89A5FC157054B3"
-					title: "Click here to brag"
+					title: "{autotranslate.ftbquests.other_hobbies.quests_7.rewards_0.title}"
 					type: "command"
 				}
 				{
 					command: "/mine_and_slash give xp_times_lvl @p 750"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "312CF3C2B8F795EF"
-					silent: true
-					title: "750 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.other_hobbies.quests_7.rewards_1.title}"
 					type: "command"
 				}
 				{
 					count: 6
 					id: "314DD321EC8CEA73"
 					item: "lightmanscurrency:coin_diamond"
-					title: "Money"
+					title: "{autotranslate.ftbquests.other_hobbies.quests_7.rewards_2.title}"
 					type: "item"
 				}
 				{
@@ -393,13 +393,13 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "Achievement"
+			subtitle: "{autotranslate.ftbquests.other_hobbies.quests_7.subtitle}"
 			tasks: [{
 				id: "0BD9F8B671E38D86"
-				title: "Click Once Read"
+				title: "{autotranslate.ftbquests.other_hobbies.quests_7.tasks_0.title}"
 				type: "checkmark"
 			}]
-			title: "The Multipotentialite"
+			title: "{autotranslate.ftbquests.other_hobbies.quests_7.title}"
 			x: 3.0d
 			y: -4.0d
 		}
@@ -409,11 +409,11 @@
 			rewards: [
 				{
 					command: "/mine_and_slash give xp_times_lvl @p 500"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "635FEB1219074A0C"
-					silent: true
-					title: "500 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.other_hobbies.quests_8.rewards_0.title}"
 					type: "command"
 				}
 				{
@@ -424,53 +424,65 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "{autotranslate.ftbquests.other_hobbies.quests_8.subtitle}"
 			tasks: [
 				{
-					consume_items: true
-					count: 256L
+					consume_items: 1
+					count: 256
 					id: "6056263F619A0D1B"
 					item: "moresnifferflowers:amber_shard"
 					type: "item"
 				}
 				{
-					consume_items: true
-					count: 256L
+					consume_items: 1
+					count: 256
 					id: "0EF8A81697E4986F"
 					item: "moresnifferflowers:garnet_shard"
 					type: "item"
 				}
 				{
-					consume_items: true
-					count: 64L
+					consume_items: 1
+					count: 64
 					id: "19A2C4810CA6A74F"
-					item: { Count: 64, id: "moresnifferflowers:dawnberry" }
+					item: {
+						Count: 64
+						id: "moresnifferflowers:dawnberry"
+					}
 					type: "item"
 				}
 				{
-					consume_items: true
-					count: 64L
+					consume_items: 1
+					count: 64
 					id: "22CD6DE525D339FE"
-					item: { Count: 64, id: "moresnifferflowers:gloomberry" }
+					item: {
+						Count: 64
+						id: "moresnifferflowers:gloomberry"
+					}
 					type: "item"
 				}
 				{
-					consume_items: true
-					count: 16L
+					consume_items: 1
+					count: 16
 					id: "7C8E44F753D34C0B"
-					item: { Count: 16, id: "moresnifferflowers:jar_of_bonmeel" }
+					item: {
+						Count: 16
+						id: "moresnifferflowers:jar_of_bonmeel"
+					}
 					type: "item"
 				}
 				{
-					consume_items: true
-					count: 16L
+					consume_items: 1
+					count: 16
 					id: "2E738140C12C3BE8"
-					item: { Count: 16, id: "moresnifferflowers:jar_of_acid" }
+					item: {
+						Count: 16
+						id: "moresnifferflowers:jar_of_acid"
+					}
 					type: "item"
 				}
 				{
-					consume_items: true
-					count: 8L
+					consume_items: 1
+					count: 8
 					id: "13D934AF4379241F"
 					item: {
 						Count: 8
@@ -480,8 +492,8 @@
 					type: "item"
 				}
 				{
-					consume_items: true
-					count: 8L
+					consume_items: 1
+					count: 8
 					id: "5DCD42692B9B5E7C"
 					item: {
 						Count: 8
@@ -491,30 +503,30 @@
 					type: "item"
 				}
 				{
-					consume_items: true
+					consume_items: 1
 					id: "2EC986CA7455FEF1"
 					item: "moresnifferflowers:cropressor"
 					type: "item"
 				}
 			]
-			title: "Ancient Farmer"
+			title: "{autotranslate.ftbquests.other_hobbies.quests_8.title}"
 			x: -1.0d
 			y: -2.0d
 		}
 		{
-			description: ["&eGateways&r allow you to spawn in waves of a certain type of mob to fight. Each wave must be eliminated within a &etime limit&r, or else the gateway disappears. If you finish all waves, a &ebunch of mob drops&r will spawn at the base of the gateway."]
+			description: ["{autotranslate.ftbquests.other_hobbies.quests_9.description_0}"]
 			id: "3E5A643A19ECF957"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "074EE398AB5748F8"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.other_hobbies.quests_9.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Obtain one Zombie Gateway"
+			subtitle: "{autotranslate.ftbquests.other_hobbies.quests_9.subtitle}"
 			tasks: [{
 				id: "007A339DDC0E287A"
 				item: {
@@ -526,13 +538,13 @@
 				}
 				type: "item"
 			}]
-			title: "Gateways to Eternity"
+			title: "{autotranslate.ftbquests.other_hobbies.quests_9.title}"
 			x: 3.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["3E5A643A19ECF957"]
-			description: ["&eBigger gateways&r increase the amount of mobs per wave, but also the amount of drops."]
+			description: ["{autotranslate.ftbquests.other_hobbies.quests_10.description_0}"]
 			icon: {
 				Count: 1
 				id: "minecraft:tipped_arrow"
@@ -544,27 +556,27 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "284AE3D5303FF1E2"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.other_hobbies.quests_10.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Deafeat 5 Gateways"
+			subtitle: "{autotranslate.ftbquests.other_hobbies.quests_10.subtitle}"
 			tasks: [{
 				id: "32012537114311E4"
 				stat: "gateways:gates_defeated"
 				type: "stat"
 				value: 5
 			}]
-			title: "Cross Dimensional Hunter"
+			title: "{autotranslate.ftbquests.other_hobbies.quests_10.title}"
 			x: 3.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["5C89FB95B4B3B3C4"]
-			description: ["&eLarge gateways&r are the ultimate challenge and have stringent time limits."]
+			description: ["{autotranslate.ftbquests.other_hobbies.quests_11.description_0}"]
 			icon: {
 				Count: 1
 				id: "minecraft:tipped_arrow"
@@ -576,21 +588,21 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "2DB868FFA4D236E4"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.other_hobbies.quests_11.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Defeat 10 gateways"
+			subtitle: "{autotranslate.ftbquests.other_hobbies.quests_11.subtitle}"
 			tasks: [{
 				id: "50B3081435E93654"
 				stat: "gateways:gates_defeated"
 				type: "stat"
 				value: 10
 			}]
-			title: "Dimensional Gatekeeper"
+			title: "{autotranslate.ftbquests.other_hobbies.quests_11.title}"
 			x: 3.0d
 			y: -0.5d
 		}
@@ -601,11 +613,11 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 500"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "51050FA3A1AAB53D"
-					silent: true
-					title: "500 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.other_hobbies.quests_12.rewards_0.title}"
 					type: "command"
 				}
 				{
@@ -616,7 +628,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "{autotranslate.ftbquests.other_hobbies.quests_12.subtitle}"
 			tasks: [{
 				icon: "dungeon_realm:home_pearl"
 				id: "37DCF8DC33EEBCEF"
@@ -624,7 +636,7 @@
 				type: "stat"
 				value: 25
 			}]
-			title: "Homeland Security"
+			title: "{autotranslate.ftbquests.other_hobbies.quests_12.title}"
 			x: 3.0d
 			y: -2.0d
 		}
@@ -633,14 +645,14 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "45FFD1EC176A50AA"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.other_hobbies.quests_13.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Die Once"
+			subtitle: "{autotranslate.ftbquests.other_hobbies.quests_13.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -651,11 +663,11 @@
 				}
 				id: "713B2CECB8A88321"
 				stat: "minecraft:deaths"
-				title: "Die One Time"
+				title: "{autotranslate.ftbquests.other_hobbies.quests_13.tasks_0.title}"
 				type: "stat"
 				value: 1
 			}]
-			title: "Welcome to Craft to Exile 2"
+			title: "{autotranslate.ftbquests.other_hobbies.quests_13.title}"
 			x: 5.0d
 			y: 2.5d
 		}
@@ -665,14 +677,14 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "7D5F07EE76519098"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.other_hobbies.quests_14.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Die 25 times"
+			subtitle: "{autotranslate.ftbquests.other_hobbies.quests_14.subtitle}"
 			tasks: [{
 				icon: "minecraft:skeleton_skull"
 				id: "0F35571D76091705"
@@ -680,7 +692,7 @@
 				type: "stat"
 				value: 25
 			}]
-			title: "This is Craft to Exile 2"
+			title: "{autotranslate.ftbquests.other_hobbies.quests_14.title}"
 			x: 5.0d
 			y: 1.0d
 		}
@@ -690,14 +702,14 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "66EE632F173355DE"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.other_hobbies.quests_15.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Die 50 times"
+			subtitle: "{autotranslate.ftbquests.other_hobbies.quests_15.subtitle}"
 			tasks: [{
 				icon: "minecraft:wither_skeleton_skull"
 				id: "284110B216A15CE0"
@@ -705,7 +717,7 @@
 				type: "stat"
 				value: 50
 			}]
-			title: "Welcome to Craft to Exile 2: Prepare to Mine Edition"
+			title: "{autotranslate.ftbquests.other_hobbies.quests_15.title}"
 			x: 5.0d
 			y: -0.5d
 		}
@@ -715,11 +727,11 @@
 			rewards: [
 				{
 					command: "/mine_and_slash give xp_times_lvl @p 500"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "14F7CE2018D48BB2"
-					silent: true
-					title: "500 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.other_hobbies.quests_16.rewards_0.title}"
 					type: "command"
 				}
 				{
@@ -730,7 +742,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "{autotranslate.ftbquests.other_hobbies.quests_16.subtitle}"
 			tasks: [{
 				icon: "minecraft:dragon_head"
 				id: "0D403D8B23E6D98D"
@@ -738,7 +750,7 @@
 				type: "stat"
 				value: 100
 			}]
-			title: "Hollowed"
+			title: "{autotranslate.ftbquests.other_hobbies.quests_16.title}"
 			x: 5.0d
 			y: -2.0d
 		}
@@ -747,14 +759,14 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "0812D567A416ACE0"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.other_hobbies.quests_17.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Kill 100 mobs"
+			subtitle: "{autotranslate.ftbquests.other_hobbies.quests_17.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -768,7 +780,7 @@
 				type: "stat"
 				value: 100
 			}]
-			title: "Warming Up"
+			title: "{autotranslate.ftbquests.other_hobbies.quests_17.title}"
 			x: -3.0d
 			y: 2.5d
 		}
@@ -778,21 +790,21 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "49E4DE4BF1590E2A"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.other_hobbies.quests_18.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Kill 500 mobs"
+			subtitle: "{autotranslate.ftbquests.other_hobbies.quests_18.subtitle}"
 			tasks: [{
 				id: "35DFB874EE92E276"
 				stat: "minecraft:mob_kills"
 				type: "stat"
 				value: 500
 			}]
-			title: "Monster Hunter"
+			title: "{autotranslate.ftbquests.other_hobbies.quests_18.title}"
 			x: -3.0d
 			y: 1.0d
 		}
@@ -802,14 +814,14 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "486BE1CCDFE7813F"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.other_hobbies.quests_19.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Kill 1000 mobs"
+			subtitle: "{autotranslate.ftbquests.other_hobbies.quests_19.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -823,7 +835,7 @@
 				type: "stat"
 				value: 1000
 			}]
-			title: "Bloodthirsty"
+			title: "{autotranslate.ftbquests.other_hobbies.quests_19.title}"
 			x: -3.0d
 			y: -0.5d
 		}
@@ -833,11 +845,11 @@
 			rewards: [
 				{
 					command: "/mine_and_slash give xp_times_lvl @p 500"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "27B87D0FCB706481"
-					silent: true
-					title: "500 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.other_hobbies.quests_20.rewards_0.title}"
 					type: "command"
 				}
 				{
@@ -848,7 +860,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "{autotranslate.ftbquests.other_hobbies.quests_20.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -862,7 +874,7 @@
 				type: "stat"
 				value: 5000
 			}]
-			title: "Liquidator"
+			title: "{autotranslate.ftbquests.other_hobbies.quests_20.title}"
 			x: -3.0d
 			y: -2.0d
 		}
@@ -872,18 +884,18 @@
 			rewards: [
 				{
 					command: "/mine_and_slash give xp_times_lvl @p 500"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "64800E1CE8CBF4E8"
-					silent: true
-					title: "500 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.other_hobbies.quests_21.rewards_0.title}"
 					type: "command"
 				}
 				{
 					count: 2
 					id: "3C57DEEC8E181EEF"
 					item: "lightmanscurrency:coin_emerald"
-					title: "Money"
+					title: "{autotranslate.ftbquests.other_hobbies.quests_21.rewards_1.title}"
 					type: "item"
 				}
 				{
@@ -894,7 +906,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "{autotranslate.ftbquests.other_hobbies.quests_21.subtitle}"
 			tasks: [
 				{
 					id: "05F0F5F68C77971D"
@@ -905,7 +917,7 @@
 							instrument: "minecraft:admire_goat_horn"
 						}
 					}
-					match_nbt: true
+					match_nbt: 1
 					type: "item"
 				}
 				{
@@ -917,7 +929,7 @@
 							instrument: "minecraft:call_goat_horn"
 						}
 					}
-					match_nbt: true
+					match_nbt: 1
 					type: "item"
 				}
 				{
@@ -929,7 +941,7 @@
 							instrument: "minecraft:feel_goat_horn"
 						}
 					}
-					match_nbt: true
+					match_nbt: 1
 					type: "item"
 				}
 				{
@@ -941,7 +953,7 @@
 							instrument: "minecraft:ponder_goat_horn"
 						}
 					}
-					match_nbt: true
+					match_nbt: 1
 					type: "item"
 				}
 				{
@@ -953,7 +965,7 @@
 							instrument: "minecraft:seek_goat_horn"
 						}
 					}
-					match_nbt: true
+					match_nbt: 1
 					type: "item"
 				}
 				{
@@ -965,7 +977,7 @@
 							instrument: "minecraft:sing_goat_horn"
 						}
 					}
-					match_nbt: true
+					match_nbt: 1
 					type: "item"
 				}
 				{
@@ -977,7 +989,7 @@
 							instrument: "minecraft:dream_goat_horn"
 						}
 					}
-					match_nbt: true
+					match_nbt: 1
 					type: "item"
 				}
 				{
@@ -989,163 +1001,163 @@
 							instrument: "minecraft:yearn_goat_horn"
 						}
 					}
-					match_nbt: true
+					match_nbt: 1
 					type: "item"
 				}
 			]
-			title: "Call of War"
+			title: "{autotranslate.ftbquests.other_hobbies.quests_21.title}"
 			x: 7.0d
 			y: -2.0d
 		}
 		{
 			description: [
-				"To &efind &rmonsters for quest completions or mob farming, push Y to open the &eminimap settings&r. &eClick entity radar&r, then click &eentity category&r. Click &eLiving,&r then &e\"Add Subcategory\"&r and name it whatever. Click on this &enew subcategory&r, click &esettings,&r then do the following: "
+				"{autotranslate.ftbquests.other_hobbies.quests_22.description_0}"
 				""
-				"&eDisplay: &rON"
-				"&eIcons:&r ALWAYS"
-				"&eNames: &rALWAYS"
-				"&eEntity Dot Size: &r3"
-				"&eEntity Icon Scale:&r 2.00"
-				"&eRender Over Minimap Frame:&r Always"
+				"{autotranslate.ftbquests.other_hobbies.quests_22.description_2}"
+				"{autotranslate.ftbquests.other_hobbies.quests_22.description_3}"
+				"{autotranslate.ftbquests.other_hobbies.quests_22.description_4}"
+				"{autotranslate.ftbquests.other_hobbies.quests_22.description_5}"
+				"{autotranslate.ftbquests.other_hobbies.quests_22.description_6}"
+				"{autotranslate.ftbquests.other_hobbies.quests_22.description_7}"
 				""
-				"Then, go to &eInclude List&r. In the &e\"Add to List\"&r box, type the &ename of the mob&r you want and click the correct one such as typing \"spider\" then clicking &e\"minecraft:cave_spider\"&r. Now, all of the mob that you've selected will appear as a &ebig icon on your minimap and map&r."
+				"{autotranslate.ftbquests.other_hobbies.quests_22.description_9}"
 				""
-				"Also in Entity Radar, go to the 2nd page (hit next page) and change &eEntity Height Limit to 2050&r which will allow the minimap to display mobs on &eall Y levels&r. "
+				"{autotranslate.ftbquests.other_hobbies.quests_22.description_11}"
 				""
-				"Remember to remove the mob from the radar when you're done."
+				"{autotranslate.ftbquests.other_hobbies.quests_22.description_13}"
 			]
 			id: "24A1F71924383794"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 50"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "1AF7E547098AFD59"
-				silent: true
-				title: "50 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.other_hobbies.quests_22.rewards_0.title}"
 				type: "command"
 			}]
 			size: 1.0d
-			subtitle: "Read and then click checkmark"
+			subtitle: "{autotranslate.ftbquests.other_hobbies.quests_22.subtitle}"
 			tasks: [{
 				id: "0EE61E427FF22F79"
-				title: "Click Once Read"
+				title: "{autotranslate.ftbquests.other_hobbies.quests_22.tasks_0.title}"
 				type: "checkmark"
 			}]
-			title: "Hunting Tools: Entity Radar"
+			title: "{autotranslate.ftbquests.other_hobbies.quests_22.title}"
 			x: 7.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["24A1F71924383794"]
-			description: ["&eAlex's Mobs &radds in numerous mobs to be &etamed and hunted&r."]
+			description: ["{autotranslate.ftbquests.other_hobbies.quests_23.description_0}"]
 			id: "3C8E45CB8CEA634D"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "7E7040314627CB0C"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.other_hobbies.quests_23.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Craft the Animal Dictionary"
+			subtitle: "{autotranslate.ftbquests.other_hobbies.quests_23.subtitle}"
 			tasks: [{
 				id: "50E1D666495F1533"
 				item: "alexsmobs:animal_dictionary"
 				type: "item"
 			}]
-			title: "Hunting Tools: Knowledge"
+			title: "{autotranslate.ftbquests.other_hobbies.quests_23.title}"
 			x: 7.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["3C8E45CB8CEA634D"]
-			description: ["Time to see what you've &elearned.&r "]
+			description: ["{autotranslate.ftbquests.other_hobbies.quests_24.description_0}"]
 			icon: "kobolds:kobold_skull"
 			id: "0C91F7CC3D7675AF"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "696E851FBF1B8E5D"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.other_hobbies.quests_24.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Kill 16 of each mob"
+			subtitle: "{autotranslate.ftbquests.other_hobbies.quests_24.subtitle}"
 			tasks: [
 				{
 					entity: "minecraft:sheep"
 					id: "447CF12D24A59994"
 					type: "kill"
-					value: 16L
+					value: 16
 				}
 				{
 					entity: "minecraft:pig"
 					id: "651923E28FE2A76C"
 					type: "kill"
-					value: 16L
+					value: 16
 				}
 				{
 					entity: "minecraft:cow"
 					id: "0E383B6CFE120F7D"
 					type: "kill"
-					value: 16L
+					value: 16
 				}
 				{
 					entity: "alexsmobs:raccoon"
 					id: "1414A17494EB126D"
 					type: "kill"
-					value: 16L
+					value: 16
 				}
 				{
 					entity: "alexsmobs:fly"
 					id: "13A66BE4F4F86D6F"
 					type: "kill"
-					value: 16L
+					value: 16
 				}
 				{
 					entity: "minecraft:goat"
 					id: "09DE7A4AB5930ECF"
 					type: "kill"
-					value: 16L
+					value: 16
 				}
 			]
-			title: "Hunter's Tools: The Test"
+			title: "{autotranslate.ftbquests.other_hobbies.quests_24.title}"
 			x: 7.0d
 			y: -0.5d
 		}
 		{
 			description: [
-				"&eDoggy Talents Next&r allows you to interact with, level up, and care for your dogs. You can &eplay tag, fetch, locate your dog, revive them, and teach them useful talents&r."
+				"{autotranslate.ftbquests.other_hobbies.quests_25.description_0}"
 				""
-				"&eTame a wolf&r and then use a Training Treat on them. Right click the dog with a stick to open it's menu. &eMore options&r can be found at the &ebottom of your screen in the GUI&r. "
+				"{autotranslate.ftbquests.other_hobbies.quests_25.description_2}"
 				""
-				"Attach a &eRadio Collar&r to your dog and craft a &eCanine Locator&r so you'll never lose them. A &eBone&r can also be used to place your dog on your head. The &eConducting Bone&r can teleport your dog from anywhere in the world to you."
+				"{autotranslate.ftbquests.other_hobbies.quests_25.description_4}"
 				""
-				"&nBehavior Modes&r"
+				"{autotranslate.ftbquests.other_hobbies.quests_25.description_6}"
 				""
-				"&eDocile&r: will follow but not attack."
-				"&eWandering&r: will stay near its food bowl."
-				"&eAggressive&r: will attack any mobs that attack you or you attack."
-				"&eBerserker&r: will attack any nearby mobs. Minor version won't attack Piglins or Endermen."
-				"&ePatrol&r: will patrol area for mobs."
-				"&eGuard&r: will follow closely and attack mobs that draw near. Flat version won't attack Piglins or Endermen. Minor version won't attack but instead growl to warn."
-				"&eTactical&r: won't attack unless you use Tactical whistle on a mob."
+				"{autotranslate.ftbquests.other_hobbies.quests_25.description_8}"
+				"{autotranslate.ftbquests.other_hobbies.quests_25.description_9}"
+				"{autotranslate.ftbquests.other_hobbies.quests_25.description_10}"
+				"{autotranslate.ftbquests.other_hobbies.quests_25.description_11}"
+				"{autotranslate.ftbquests.other_hobbies.quests_25.description_12}"
+				"{autotranslate.ftbquests.other_hobbies.quests_25.description_13}"
+				"{autotranslate.ftbquests.other_hobbies.quests_25.description_14}"
 			]
 			id: "77DED163AD398568"
 			rewards: [
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "01AE52CA844F06A8"
-					silent: true
-					title: "100 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.other_hobbies.quests_25.rewards_0.title}"
 					type: "command"
 				}
 				{
@@ -1154,7 +1166,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft one of each"
+			subtitle: "{autotranslate.ftbquests.other_hobbies.quests_25.subtitle}"
 			tasks: [
 				{
 					id: "66AF3B35CCDEFBFD"
@@ -1177,42 +1189,42 @@
 					type: "item"
 				}
 			]
-			title: "Doggy Talents Next"
+			title: "{autotranslate.ftbquests.other_hobbies.quests_25.title}"
 			x: 9.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["77DED163AD398568"]
 			description: [
-				"You'll need a &eDog Bed, Dog Bath, and Food Bowl&r to take care of your dog. &eLink the Dog Bed&r to your dog by &eright-clicking&r the bed and then your dog, and the &eFood Bowl&r by &ebringing the dog within 1 block&r of it. The dog will eat out of the food bowl when &ehungry&r if you put food inside."
+				"{autotranslate.ftbquests.other_hobbies.quests_26.description_0}"
 				""
-				"The &eWhistle&r is your main method of commanding your dog. &eRight-click&r it to use the currently selected command and &ecrouch + right-click&r to select the command. "
+				"{autotranslate.ftbquests.other_hobbies.quests_26.description_2}"
 				""
-				"Your dog has &ehunger&r (the middle number above it's head) which drains from &ehealing and talents&r. Once it reaches &e0&r, the dog will start to &edie.&r"
+				"{autotranslate.ftbquests.other_hobbies.quests_26.description_4}"
 				""
-				"&nWhistle Commands&r"
+				"{autotranslate.ftbquests.other_hobbies.quests_26.description_6}"
 				""
-				"&eStand/Ok?&r: dogs stand/teleport to you."
-				"&eHeel&r: all standing dogs come to you."
-				"&eStay&r: all standing dogs sit."
-				"&eTo Bed&r: all dogs return to their bed if they have one."
-				"&eGo Behind&r: all standing dogs teleport behind you."
-				"&eTactical&r: command all dogs in Tactical Mode to attack the target you aim at with the whistle."
-				"&eHowl&r: aim at a dog and use to make them howl."
-				"&eRide With Me&r: aim at a vehicle, such as a boat, and the dog will get in."
+				"{autotranslate.ftbquests.other_hobbies.quests_26.description_8}"
+				"{autotranslate.ftbquests.other_hobbies.quests_26.description_9}"
+				"{autotranslate.ftbquests.other_hobbies.quests_26.description_10}"
+				"{autotranslate.ftbquests.other_hobbies.quests_26.description_11}"
+				"{autotranslate.ftbquests.other_hobbies.quests_26.description_12}"
+				"{autotranslate.ftbquests.other_hobbies.quests_26.description_13}"
+				"{autotranslate.ftbquests.other_hobbies.quests_26.description_14}"
+				"{autotranslate.ftbquests.other_hobbies.quests_26.description_15}"
 			]
 			id: "1BAD2923BF4081F3"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "58F716F857F5DB38"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.other_hobbies.quests_26.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Craft one of each"
+			subtitle: "{autotranslate.ftbquests.other_hobbies.quests_26.subtitle}"
 			tasks: [
 				{
 					id: "4343B7F7B6C39F6A"
@@ -1244,70 +1256,70 @@
 					type: "item"
 				}
 			]
-			title: "Home Preparation"
+			title: "{autotranslate.ftbquests.other_hobbies.quests_26.title}"
 			x: 9.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["1BAD2923BF4081F3"]
 			description: [
-				"While &eincapacitated&r, your dog will need to be &etransported to it's bed&r and given some &eBand-Aids&r to speed up the healing process. Their hunger will be set to 0, and will gradually &eregenerate to 64&r. When it hits 64, the dog will &erevive&r. Use a &eBone&r on the dog to pick them up."
+				"{autotranslate.ftbquests.other_hobbies.quests_27.description_0}"
 				""
-				"Any dogs that &ehaven’t been linked&r to the bed can still be revived on an unclaimed bed by using a &eTotem of Undying&r."
+				"{autotranslate.ftbquests.other_hobbies.quests_27.description_2}"
 				""
-				"If enough &eBand-Aids&r are applied, the dog can begin to &ewalk.&r Note that any &edamage&r the dog takes will still cause the hunger to reset and remove the &eBand-Aids&r. Dogs &ecannot teleport when incapacitated&r. &eTotems of Undying&r will instantly revive all nearby dogs."
+				"{autotranslate.ftbquests.other_hobbies.quests_27.description_4}"
 				""
-				"Your dog will &eplay tag&r if you throw a &eSnowball&r at them. Use a &eThrowing Stick or Throwing Bone&r to play fetch."
+				"{autotranslate.ftbquests.other_hobbies.quests_27.description_6}"
 				""
-				"The &eEnergizer Bone&r gives your dog some minor &ebuffs,&r such as &espeed,&r which is great when using them as a &emount.&r The &eBreeding Bone&r can breed two dogs of opposite gender."
+				"{autotranslate.ftbquests.other_hobbies.quests_27.description_8}"
 				""
-				"The &eMagnifying Bone&r will &eincrease&r your dogs size while the &eShrinking Mallet&r will &eshrink&r your dog until they're a &epuppy.&r"
+				"{autotranslate.ftbquests.other_hobbies.quests_27.description_10}"
 			]
 			id: "2DED343BD83179E3"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "2B6D36197CB197FB"
-				silent: true
-				title: "100 Experience x Lv."
+				silent: 1
+				title: "{autotranslate.ftbquests.other_hobbies.quests_27.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Craft one of each"
+			subtitle: "{autotranslate.ftbquests.other_hobbies.quests_27.subtitle}"
 			tasks: [{
 				id: "2D51AC345728136C"
 				item: "doggytalents:bandaid"
 				type: "item"
 			}]
-			title: "Taking Care of Your Dog"
+			title: "{autotranslate.ftbquests.other_hobbies.quests_27.title}"
 			x: 9.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["2DED343BD83179E3"]
 			description: [
-				"Your dog will require &ehigher tiered treats&r to &elevel up&r. Their max level is &e60.&r This is &4NOT&r Mine and Slash leveling up. "
+				"{autotranslate.ftbquests.other_hobbies.quests_28.description_0}"
 				""
-				"Your dog can be &ecustomized&r with &ecostumes, dyable capes, collars, etc&r. Some will allow the dog to drop &especial music discs&r if they kill a mob while wearing it."
+				"{autotranslate.ftbquests.other_hobbies.quests_28.description_2}"
 			]
 			id: "46CE10AA0F5E648A"
 			rewards: [
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 500"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "227CFC5C7EB9CBCA"
-					silent: true
-					title: "500 Experience x Lv."
+					silent: 1
+					title: "{autotranslate.ftbquests.other_hobbies.quests_28.rewards_0.title}"
 					type: "command"
 				}
 				{
 					count: 2
 					id: "7FC92D4FF998B4CA"
 					item: "lightmanscurrency:coin_emerald"
-					title: "Money"
+					title: "{autotranslate.ftbquests.other_hobbies.quests_28.rewards_1.title}"
 					type: "item"
 				}
 				{
@@ -1318,7 +1330,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "{autotranslate.ftbquests.other_hobbies.quests_28.subtitle}"
 			tasks: [
 				{
 					id: "1739E3CF4C2FEC23"
@@ -1336,10 +1348,10 @@
 					type: "item"
 				}
 			]
-			title: "Cynologist"
+			title: "{autotranslate.ftbquests.other_hobbies.quests_28.title}"
 			x: 9.0d
 			y: -2.0d
 		}
 	]
-	title: "Other Hobbies"
+	title: "{autotranslate.ftbquests.other_hobbies.title}"
 }

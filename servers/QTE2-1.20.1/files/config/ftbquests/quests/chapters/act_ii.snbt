@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: 0
 	default_quest_shape: ""
 	filename: "act_ii"
 	group: "1E3C4B5FFAE48A39"
@@ -13,7 +13,7 @@
 				"18E09A4B9FC1B43F"
 				"29CADE48F14D6436"
 			]
-			description: ["Well these &eLemurians&r certainly don't belong here..."]
+			description: ["{autotranslate.ftbquests.act_ii.quests_0.description_0}"]
 			id: "52DAC9E8213D2624"
 			rewards: [
 				{
@@ -25,38 +25,38 @@
 							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":15,\"id\":\"gear\",\"key\":\"\"}"
 						}
 					}
-					title: "Rare Gear Loot Chest (Lv. 15)"
+					title: "{autotranslate.ftbquests.act_ii.quests_0.rewards_0.title}"
 					type: "item"
 				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 1250"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "0D1D6AA7D64C4EE8"
-					silent: true
-					title: "1250 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_ii.quests_0.rewards_1.title}"
 					type: "command"
 				}
 			]
-			subtitle: "Risk of Rain"
+			subtitle: "{autotranslate.ftbquests.act_ii.quests_0.subtitle}"
 			tasks: [{
 				entity: "riskofrain_mobs:lemurian_entity"
 				icon: "nightlights:octopus_purple"
 				id: "13BF61F2B380DC9E"
 				type: "kill"
-				value: 24L
+				value: 24
 			}]
-			title: "Otherworldly Beings II"
+			title: "{autotranslate.ftbquests.act_ii.quests_0.title}"
 			x: 0.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["29CADE48F14D6436"]
 			description: [
-				"Mosquitoes are annoying enough in the Overworld... These things are huge, they stick to your face, and are generally difficult to kill!"
+				"{autotranslate.ftbquests.act_ii.quests_1.description_0}"
 				""
-				"These hideous, mutant flying insects are found in the &eforests of The Nether&r."
+				"{autotranslate.ftbquests.act_ii.quests_1.description_2}"
 			]
 			icon: "alexsmobs:mosquito_proboscis"
 			id: "322725A82ADAA810"
@@ -72,35 +72,35 @@
 							tier: 0
 						}
 					}
-					title: "Rare Restoration Potions"
+					title: "{autotranslate.ftbquests.act_ii.quests_1.rewards_0.title}"
 					type: "item"
 				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 1250"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "124DB96872E3BE33"
-					silent: true
-					title: "1250 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_ii.quests_1.rewards_1.title}"
 					type: "command"
 				}
 			]
-			subtitle: "Crimson Forests"
+			subtitle: "{autotranslate.ftbquests.act_ii.quests_1.subtitle}"
 			tasks: [{
 				entity: "alexsmobs:crimson_mosquito"
 				icon: "ftb_ph:crimson_mosquito"
 				id: "3EADF779EE3B6C1A"
 				type: "kill"
-				value: 4L
+				value: 4
 			}]
-			title: "Bloody Pests"
+			title: "{autotranslate.ftbquests.act_ii.quests_1.title}"
 			x: 1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["45535AECCE43183A"]
-			description: ["Looks like your intuition was correct. The Nether Fortresses are crawling with weird enemies. The &eWither Skeleton&r seems to drop fragments of its skull, which seem to emanate some energy."]
+			description: ["{autotranslate.ftbquests.act_ii.quests_2.description_0}"]
 			icon: "minecraft:wither_skeleton_skull"
 			id: "63F4CAF1CA065949"
 			rewards: [
@@ -113,39 +113,39 @@
 							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":25,\"id\":\"gear\",\"key\":\"\"}"
 						}
 					}
-					title: "Rare Gear Loot Chest (Lv. 25)"
+					title: "{autotranslate.ftbquests.act_ii.quests_2.rewards_0.title}"
 					type: "item"
 				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 2000"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "6F4E216D74BB3692"
-					silent: true
-					title: "2000 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_ii.quests_2.rewards_1.title}"
 					type: "command"
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "{autotranslate.ftbquests.act_ii.quests_2.subtitle}"
 			tasks: [{
 				entity: "minecraft:wither_skeleton"
 				icon: "ftb_ph:wither_skeleton"
 				id: "672F0F6E02A6D254"
 				type: "kill"
-				value: 12L
+				value: 12
 			}]
-			title: "Skull Collectors"
+			title: "{autotranslate.ftbquests.act_ii.quests_2.title}"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["18E09A4B9FC1B43F"]
 			description: [
-				"It seems not all creatures here are innately hostile. But we need to show them we mean business."
+				"{autotranslate.ftbquests.act_ii.quests_3.description_0}"
 				""
-				"It's time to take care of some &ePiglins&r and some &eHoglins&r. You'll find them most commonly in &eNether Wastes&r and &eCrimson Forests&r."
+				"{autotranslate.ftbquests.act_ii.quests_3.description_2}"
 			]
 			icon: "minecraft:piglin_head"
 			id: "29CADE48F14D6436"
@@ -153,56 +153,56 @@
 				{
 					id: "27D034D602B200EA"
 					item: "lightmanscurrency:coin_gold"
-					title: "Money"
+					title: "{autotranslate.ftbquests.act_ii.quests_3.rewards_0.title}"
 					type: "item"
 				}
 				{
 					id: "69DCE5D67CC781CF"
 					item: "mmorpg:stone/2"
-					title: "Rare Stone"
+					title: "{autotranslate.ftbquests.act_ii.quests_3.rewards_1.title}"
 					type: "item"
 				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 1250"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "01CC496042A47CC6"
-					silent: true
-					title: "1250 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_ii.quests_3.rewards_2.title}"
 					type: "command"
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "{autotranslate.ftbquests.act_ii.quests_3.subtitle}"
 			tasks: [
 				{
 					entity: "minecraft:piglin"
 					icon: "ftb_ph:piglin"
 					id: "0709550781191C90"
 					type: "kill"
-					value: 12L
+					value: 12
 				}
 				{
 					entity: "minecraft:hoglin"
 					icon: "ftb_ph:hoglin"
 					id: "6ACD5F7F9447DCCB"
 					type: "kill"
-					value: 4L
+					value: 4
 				}
 			]
-			title: "Otherworldly Beings"
+			title: "{autotranslate.ftbquests.act_ii.quests_3.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["45535AECCE43183A"]
 			description: [
-				"In The Nether, you may come across aggressive, fiery creatures. While the &eWyrm&r and &eBlaze&r seem powerful, it is almost certain that there are more powerful magma creatures given the size and depth of The Nether."
+				"{autotranslate.ftbquests.act_ii.quests_4.description_0}"
 				""
-				"It might be best to be prepared against fire. Try finding and vanquishing these mobs to test yourself."
+				"{autotranslate.ftbquests.act_ii.quests_4.description_2}"
 				""
-				"&o&7Completion unlocks a Repeatable Quest in the Repeatables Chapter!&r&r"
+				"{autotranslate.ftbquests.act_ii.quests_4.description_4}"
 			]
 			icon: "minecraft:blaze_powder"
 			id: "1D01AD334C7C70F1"
@@ -211,47 +211,47 @@
 					count: 5
 					id: "1E1B2C1F4FA4CF20"
 					item: "lightmanscurrency:coin_iron"
-					title: "Money"
+					title: "{autotranslate.ftbquests.act_ii.quests_4.rewards_0.title}"
 					type: "item"
 				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 1750"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "3544639BC2E3A192"
-					silent: true
-					title: "1750 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_ii.quests_4.rewards_1.title}"
 					type: "command"
 				}
 			]
-			subtitle: "Fiery Adventure"
+			subtitle: "{autotranslate.ftbquests.act_ii.quests_4.subtitle}"
 			tasks: [
 				{
 					entity: "minecraft:blaze"
 					icon: "ftb_ph:blaze"
 					id: "0B92DB0E2C3ACA8E"
 					type: "kill"
-					value: 12L
+					value: 12
 				}
 				{
 					entity: "realmrpg_wyrms:red_wyrm"
 					icon: "minecraft:blaze_powder"
 					id: "123E1ECFC39D0945"
 					type: "kill"
-					value: 4L
+					value: 4
 				}
 			]
-			title: "Fiery Foes"
+			title: "{autotranslate.ftbquests.act_ii.quests_4.title}"
 			x: 3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["277A8C4C5D50ED00"]
 			description: [
-				"Surely you've already run into these flying critters... Something tells you that there are hundreds of these lurking around every corner."
+				"{autotranslate.ftbquests.act_ii.quests_5.description_0}"
 				""
-				"They must come from something..."
+				"{autotranslate.ftbquests.act_ii.quests_5.description_2}"
 			]
 			icon: {
 				Count: 1
@@ -266,46 +266,46 @@
 					count: 3
 					id: "5486B8641330278A"
 					item: "mmorpg:soul_extractor/rare"
-					title: "Rare Gear Soul Extractors"
+					title: "{autotranslate.ftbquests.act_ii.quests_5.rewards_0.title}"
 					type: "item"
 				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 2250"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "2604E2CD0966E3DD"
-					silent: true
-					title: "2250 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_ii.quests_5.rewards_1.title}"
 					type: "command"
 				}
 			]
-			subtitle: "Fiery Adventure"
+			subtitle: "{autotranslate.ftbquests.act_ii.quests_5.subtitle}"
 			tasks: [{
 				entity: "monsterplus:lava_squid"
 				icon: "ftb_ph:lava_squid"
 				id: "6EC7ADFF37CD9E71"
 				type: "kill"
-				value: 18L
+				value: 18
 			}]
-			title: "Flame Spitters"
+			title: "{autotranslate.ftbquests.act_ii.quests_5.title}"
 			x: 4.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["1EA8FC97142B16A7"]
 			description: [
-				"This is that &ething.&r"
+				"{autotranslate.ftbquests.act_ii.quests_6.description_0}"
 				""
-				"The Mother Lava Squid Has:"
-				"&b+50% Physical to Fire Damage&r"
-				"&a5% Chance of Dropping Net Rune&r"
+				"{autotranslate.ftbquests.act_ii.quests_6.description_2}"
+				"{autotranslate.ftbquests.act_ii.quests_6.description_3}"
+				"{autotranslate.ftbquests.act_ii.quests_6.description_4}"
 			]
 			icon: "simplehats:burning_m_bison"
 			id: "05AD0B9A77F0325F"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: 1
 					id: "535DAF2AABB78097"
 					table_id: 1687722018226746788L
 					type: "choice"
@@ -313,57 +313,57 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 2500"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "79DBFB1E7228F818"
-					silent: true
-					title: "2500 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_ii.quests_6.rewards_1.title}"
 					type: "command"
 				}
 				{
 					auto: "enabled"
 					icon: "ftb_ph:talent"
 					id: "3669A04AB95A4666"
-					title: "1 Talent Point"
+					title: "{autotranslate.ftbquests.act_ii.quests_6.rewards_2.title}"
 					type: "custom"
 				}
 			]
 			shape: "diamond"
-			subtitle: "Fiery Adventure"
+			subtitle: "{autotranslate.ftbquests.act_ii.quests_6.subtitle}"
 			tasks: [{
 				entity: "monsterplus:mother_lava_squid"
 				icon: "ftb_ph:lava_squid"
 				id: "01A75F2295A67935"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
-			title: "The Mother"
+			title: "{autotranslate.ftbquests.act_ii.quests_6.title}"
 			x: 4.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["75447684ADAD02D8"]
 			description: [
-				"Place &eSoul Sand&r in a T shape, topped with &e3 Wither Skeleton Skulls&r to summon the &eWither.&r"
+				"{autotranslate.ftbquests.act_ii.quests_7.description_0}"
 				""
-				"This boss is very difficult, as it requires you to have a projectile weapon or spell to take care of its first phase. In the second phase, be prepared for the Wither to be up close and personal..."
+				"{autotranslate.ftbquests.act_ii.quests_7.description_2}"
 				""
-				"&o&eTip:&r &oHaving trouble defeating the Wither? Did you know that the higher level a mob is to you it takes less damage and deals more? This bonus starts at a 3 level differential.&r"
+				"{autotranslate.ftbquests.act_ii.quests_7.description_4}"
 				""
-				"&cThe Wither spawns at minimum level 30.&r"
+				"{autotranslate.ftbquests.act_ii.quests_7.description_6}"
 				""
-				"The Wither Has:"
-				"&b+50% Physical to Fire Damage&r"
-				"&b+20% Elemental Resistance&r"
-				"&a10% Chance of Dropping Net Rune&r"
+				"{autotranslate.ftbquests.act_ii.quests_7.description_8}"
+				"{autotranslate.ftbquests.act_ii.quests_7.description_9}"
+				"{autotranslate.ftbquests.act_ii.quests_7.description_10}"
+				"{autotranslate.ftbquests.act_ii.quests_7.description_11}"
 				""
-				"&6This Quest Unlocks New Shops In the Campaign Shop."
+				"{autotranslate.ftbquests.act_ii.quests_7.description_13}"
 			]
 			icon: "minecraft:wither_rose"
 			id: "114D74DF8284ACC3"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: 1
 					id: "77CCFAF579DA3451"
 					table_id: 2150601229175429082L
 					type: "choice"
@@ -371,48 +371,48 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 7500"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "2D5BE1067A169265"
-					silent: true
-					title: "7500 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_ii.quests_7.rewards_1.title}"
 					type: "command"
 				}
 				{
 					auto: "enabled"
 					icon: "ftb_ph:talent"
 					id: "351D370BEAFABF0E"
-					title: "1 Talent Point"
+					title: "{autotranslate.ftbquests.act_ii.quests_7.rewards_2.title}"
 					type: "custom"
 				}
 			]
 			shape: "rsquare"
 			size: 1.25d
-			subtitle: "Main Quest"
+			subtitle: "{autotranslate.ftbquests.act_ii.quests_7.subtitle}"
 			tasks: [{
 				entity: "minecraft:wither"
 				icon: "ftb_ph:wither"
 				id: "17530C3BC3EA0BB2"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
-			title: "Dark Ritual"
+			title: "{autotranslate.ftbquests.act_ii.quests_7.title}"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["277A8C4C5D50ED00"]
 			description: [
-				"Well, here is one of those big bads you've been tasked with removing. The &eWildfire&r is a powerful foe - you will need to be prepared."
+				"{autotranslate.ftbquests.act_ii.quests_8.description_0}"
 				""
-				"The plates spinning around the &eWildfire&r need to be popped off before it can receive any damage."
+				"{autotranslate.ftbquests.act_ii.quests_8.description_2}"
 				""
-				"You can find &eWildfire&r in &eCitadels.&r Alternatively, you can use a &eGateway of the Hellish Fortress&r."
+				"{autotranslate.ftbquests.act_ii.quests_8.description_4}"
 				""
-				"The Wildfire Has:"
-				"&b+50% Physical to Fire Damage&r"
-				"&b+25% Burn Chance&r"
-				"&a5% Chance of Dropping Net Rune&r"
+				"{autotranslate.ftbquests.act_ii.quests_8.description_6}"
+				"{autotranslate.ftbquests.act_ii.quests_8.description_7}"
+				"{autotranslate.ftbquests.act_ii.quests_8.description_8}"
+				"{autotranslate.ftbquests.act_ii.quests_8.description_9}"
 			]
 			icon: {
 				Count: 1
@@ -424,7 +424,7 @@
 			id: "42A954877474A58F"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: 1
 					id: "74422C75EF7AACE2"
 					table_id: 4329773747337249676L
 					type: "choice"
@@ -432,40 +432,40 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 2500"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "777824462105E261"
-					silent: true
-					title: "2500 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_ii.quests_8.rewards_1.title}"
 					type: "command"
 				}
 				{
 					auto: "enabled"
 					icon: "ftb_ph:talent"
 					id: "6E3B5E2EB562F8D7"
-					title: "1 Talent Point"
+					title: "{autotranslate.ftbquests.act_ii.quests_8.rewards_2.title}"
 					type: "custom"
 				}
 			]
 			shape: "diamond"
-			subtitle: "Fiery Adventure"
+			subtitle: "{autotranslate.ftbquests.act_ii.quests_8.subtitle}"
 			tasks: [{
 				entity: "friendsandfoes:wildfire"
 				icon: "ftb_ph:wildfire"
 				id: "6541A85B5313AC4F"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
-			title: "Ruler of Flames"
+			title: "{autotranslate.ftbquests.act_ii.quests_8.title}"
 			x: 6.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["114D74DF8284ACC3"]
 			description: [
-				"You've reported your achievements to the village guard and received your rewards. It's time to move onto the next dimension - the &eUndergarden&r. A moist, sticky, and mostly habitable dimension with some curious creatures... They might not be mutated, but it's worth taking a look anyway."
+				"{autotranslate.ftbquests.act_ii.quests_9.description_0}"
 				""
-				"Craft a &eCatalyst&r using your &eNether Star&r, and access the Undergarden by making a portal with &eStone Bricks in the same shape as the Nether Portal&r. Activate it using the Catalyst."
+				"{autotranslate.ftbquests.act_ii.quests_9.description_2}"
 				""
 				"{image:cte2:textures/undergarden.png width:160 height:140 align:center}"
 			]
@@ -481,16 +481,16 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 4500"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "4E1BE362EAFA93B2"
-					silent: true
-					title: "4500 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_ii.quests_9.rewards_1.title}"
 					type: "command"
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "{autotranslate.ftbquests.act_ii.quests_9.subtitle}"
 			tasks: [
 				{
 					id: "4F61CA02549D0BF8"
@@ -501,11 +501,11 @@
 					dimension: "undergarden:undergarden"
 					icon: "undergarden:depthrock"
 					id: "21C702BD4DC49479"
-					title: "Visit The Undergarden"
+					title: "{autotranslate.ftbquests.act_ii.quests_9.tasks_1.title}"
 					type: "dimension"
 				}
 			]
-			title: "Travel Catalyst"
+			title: "{autotranslate.ftbquests.act_ii.quests_9.title}"
 			x: 7.5d
 			y: 0.0d
 		}
@@ -516,9 +516,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"You've seen in Nether Fortresses clues to another structure. \"The Citadel\" is etched into the walls of the Fortress in various locations. Maybe you can find the &eCitadel&r and investigate."
+				"{autotranslate.ftbquests.act_ii.quests_10.description_0}"
 				""
-				"&eRequires 1 dependency to be completed.&r"
+				"{autotranslate.ftbquests.act_ii.quests_10.description_2}"
 			]
 			id: "277A8C4C5D50ED00"
 			min_required_dependencies: 1
@@ -537,107 +537,107 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 2000"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "6FEAA0D1FF245EA5"
-					silent: true
-					title: "2000 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_ii.quests_10.rewards_1.title}"
 					type: "command"
 				}
 			]
-			subtitle: "Fiery Adventure"
+			subtitle: "{autotranslate.ftbquests.act_ii.quests_10.subtitle}"
 			tasks: [{
 				advancement: "friendsandfoes:nether/find_citadel"
 				criterion: ""
 				id: "6E38DD14F2F2B52D"
 				type: "advancement"
 			}]
-			title: "A Castle in the Dark"
+			title: "{autotranslate.ftbquests.act_ii.quests_10.title}"
 			x: 4.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["322725A82ADAA810"]
-			description: ["If you find yourself dying frequently, you can craft a &eRespawn Anchor&r. To craft one, you will need to first find some &eCrying Obsidian&r!"]
+			description: ["{autotranslate.ftbquests.act_ii.quests_11.description_0}"]
 			id: "0A37821899EAE5B4"
 			rewards: [
 				{
 					count: 5
 					id: "297CFA167CCC5830"
 					item: "lightmanscurrency:coin_iron"
-					title: "Money"
+					title: "{autotranslate.ftbquests.act_ii.quests_11.rewards_0.title}"
 					type: "item"
 				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 1750"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "46A8D34E894763CE"
-					silent: true
-					title: "1750 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_ii.quests_11.rewards_1.title}"
 					type: "command"
 				}
 			]
-			subtitle: "Crimson Forests"
+			subtitle: "{autotranslate.ftbquests.act_ii.quests_11.subtitle}"
 			tasks: [{
 				advancement: "minecraft:nether/obtain_crying_obsidian"
 				criterion: ""
 				id: "79B01E4A345318F7"
 				type: "advancement"
 			}]
-			title: "Dried Up Tears"
+			title: "{autotranslate.ftbquests.act_ii.quests_11.title}"
 			x: 1.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["29CADE48F14D6436"]
 			description: [
-				"Occasionally, you'll see large, looming structures in The Nether. How is that possible? Is there civilization here?"
+				"{autotranslate.ftbquests.act_ii.quests_12.description_0}"
 				""
-				"Maybe finding one of these structures and exploring it will provide you clues on where to find powerful creatures."
+				"{autotranslate.ftbquests.act_ii.quests_12.description_2}"
 			]
 			id: "45535AECCE43183A"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 1500"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "3F6B3CF23487B7AE"
-				silent: true
-				title: "1500 Experience"
+				silent: 1
+				title: "{autotranslate.ftbquests.act_ii.quests_12.rewards_0.title}"
 				type: "command"
 			}]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "{autotranslate.ftbquests.act_ii.quests_12.subtitle}"
 			tasks: [{
 				advancement: "minecraft:nether/find_fortress"
 				criterion: ""
 				id: "110553725D320A0F"
 				type: "advancement"
 			}]
-			title: "Nether Fortress"
+			title: "{autotranslate.ftbquests.act_ii.quests_12.title}"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["29CD881773D976E5"]
 			description: [
-				"If the &eCrimson Mosquito&r drinks the blood of a &eMungus&r which is coated in &eWarped Fungus&r, then the mosquito will turn blue and start to grow in size - eventually turning into a &eWarped Mosco&r."
+				"{autotranslate.ftbquests.act_ii.quests_13.description_0}"
 				""
-				"Alternatively, you can feed a &eCrimson Mosquito with Warped Mixture&r. Unsure where to get that? You can &epurchase it from the Trading Terminal/Barter Board&r!"
+				"{autotranslate.ftbquests.act_ii.quests_13.description_2}"
 				""
-				"That sounds like a very mutagenic process..."
+				"{autotranslate.ftbquests.act_ii.quests_13.description_4}"
 				""
-				"The Warped Mosco Has:"
-				"&b+40% Armor&r"
-				"&a10% Chance of Dropping Net Rune&r"
+				"{autotranslate.ftbquests.act_ii.quests_13.description_6}"
+				"{autotranslate.ftbquests.act_ii.quests_13.description_7}"
+				"{autotranslate.ftbquests.act_ii.quests_13.description_8}"
 			]
 			icon: "alexsmobs:warped_muscle"
 			id: "37167129D6D6A280"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: 1
 					id: "2B1573668D8133F2"
 					table_id: 2180584499743187208L
 					type: "choice"
@@ -645,42 +645,42 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 2000"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "55F31513DD96482E"
-					silent: true
-					title: "2000 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_ii.quests_13.rewards_1.title}"
 					type: "command"
 				}
 				{
 					auto: "enabled"
 					icon: "ftb_ph:talent"
 					id: "6AF21C1384426C0B"
-					title: "1 Talent Point"
+					title: "{autotranslate.ftbquests.act_ii.quests_13.rewards_2.title}"
 					type: "custom"
 				}
 			]
 			shape: "diamond"
-			subtitle: "Crimson Forests"
+			subtitle: "{autotranslate.ftbquests.act_ii.quests_13.subtitle}"
 			tasks: [{
 				entity: "alexsmobs:warped_mosco"
 				icon: "ftb_ph:warped_mosco"
 				id: "3A77AF5EDDC8EE67"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
-			title: "Forest Chad"
+			title: "{autotranslate.ftbquests.act_ii.quests_13.title}"
 			x: 4.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["1EA8FC97142B16A7"]
 			description: [
-				"&eGear Soul Extractors&r can be used on gear. You will get the \"stats\" of the gear back as a soul, destroying the base item in the process. You can then use the soul on another piece of gear!"
+				"{autotranslate.ftbquests.act_ii.quests_14.description_0}"
 				""
-				"Conversely, &eGear Soul Cleaners&r are used to get rid of the stats of the gear while keeping the base item."
+				"{autotranslate.ftbquests.act_ii.quests_14.description_2}"
 				""
-				"&eGem Extractors&r are used to remove &eGems&r from your socketed gear. There is no penalty for doing so, but the extractor will be consumed. There is also a &eRune Extractor&r, but using that will cost &e1 Gear Potential&r."
+				"{autotranslate.ftbquests.act_ii.quests_14.description_4}"
 			]
 			icon: "minecraft:paper"
 			id: "60D44B70BB06539B"
@@ -689,7 +689,7 @@
 					count: 5
 					id: "06397D5030906CA7"
 					item: "mmorpg:soul_extractor/uncommon"
-					title: "Uncommon Gear Soul Extractors"
+					title: "{autotranslate.ftbquests.act_ii.quests_14.rewards_0.title}"
 					type: "item"
 				}
 				{
@@ -700,33 +700,33 @@
 				{
 					id: "14ADF13CF85D2BDC"
 					item: "mmorpg:soul_cleaner"
-					title: "Gear Soul Cleaner"
+					title: "{autotranslate.ftbquests.act_ii.quests_14.rewards_2.title}"
 					type: "item"
 				}
 			]
-			subtitle: "Lost Page"
+			subtitle: "{autotranslate.ftbquests.act_ii.quests_14.subtitle}"
 			tasks: [{
 				id: "5222FCC05296547A"
-				title: "Click Once Read"
+				title: "{autotranslate.ftbquests.act_ii.quests_14.tasks_0.title}"
 				type: "checkmark"
 			}]
-			title: "Gear Soul Extractors"
+			title: "{autotranslate.ftbquests.act_ii.quests_14.title}"
 			x: 6.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["4343A66299F26319"]
 			description: [
-				"The &eNether Keeper&r is a powerful foe found in the &eKeeping Castle&r of The Nether. Keeping Castles can be found in &eNether Wastes and Crimson Forests underground&r. You can summon it by placing a &eNether Star in the altar&r."
+				"{autotranslate.ftbquests.act_ii.quests_15.description_0}"
 				""
-				"&cNote that these structures cannot be found conventionally with the Explorer's Compass. You may need to find them manually.&r"
+				"{autotranslate.ftbquests.act_ii.quests_15.description_2}"
 				""
 				"{image:cte2:textures/nether_keeper.png width:192 height:108 align:center}"
 				""
-				"The Nether Keeper Has:"
-				"&b+50% Physical to Fire Damage&r"
-				"&b+40% Armor&r"
-				"&a15% Chance of Dropping Net Rune&r"
+				"{autotranslate.ftbquests.act_ii.quests_15.description_6}"
+				"{autotranslate.ftbquests.act_ii.quests_15.description_7}"
+				"{autotranslate.ftbquests.act_ii.quests_15.description_8}"
+				"{autotranslate.ftbquests.act_ii.quests_15.description_9}"
 			]
 			id: "4B57F45BE30AA5F2"
 			rewards: [
@@ -739,17 +739,17 @@
 							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":30,\"id\":\"gear\",\"key\":\"\"}"
 						}
 					}
-					title: "Rare Gear Loot Chest (Lv. 30)"
+					title: "{autotranslate.ftbquests.act_ii.quests_15.rewards_0.title}"
 					type: "item"
 				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 5000"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "603037141A03BB23"
-					silent: true
-					title: "5000 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_ii.quests_15.rewards_1.title}"
 					type: "command"
 				}
 				{
@@ -767,19 +767,19 @@
 					auto: "enabled"
 					icon: "ftb_ph:talent"
 					id: "40EEEAB2C09C5FCA"
-					title: "3 Talent Points"
+					title: "{autotranslate.ftbquests.act_ii.quests_15.rewards_3.title}"
 					type: "custom"
 				}
 				{
 					auto: "enabled"
 					icon: "ftb_ph:ascend"
 					id: "0B062AF006F72FED"
-					title: "Novice Ascendancy"
+					title: "{autotranslate.ftbquests.act_ii.quests_15.rewards_4.title}"
 					type: "custom"
 				}
 			]
 			shape: "diamond"
-			subtitle: "Big Baddies"
+			subtitle: "{autotranslate.ftbquests.act_ii.quests_15.subtitle}"
 			tasks: [{
 				id: "3D45F31ADFFF1165"
 				item: {
@@ -791,7 +791,7 @@
 				}
 				type: "item"
 			}]
-			title: "Defenders of the Nether II"
+			title: "{autotranslate.ftbquests.act_ii.quests_15.title}"
 			x: 7.5d
 			y: -3.0d
 		}
@@ -803,8 +803,8 @@
 				"37167129D6D6A280"
 				"3F61325EA08B6DAA"
 			]
-			description: ["Defeat all of the mini-bosses of Act II to complete this achievement. Then show it off with your hot new hat!"]
-			hide_dependency_lines: true
+			description: ["{autotranslate.ftbquests.act_ii.quests_16.description_0}"]
+			hide_dependency_lines: 1
 			icon: "simplehats:fakefire"
 			id: "389CFAF34A692969"
 			rewards: [
@@ -821,31 +821,31 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Achievement"
+			subtitle: "{autotranslate.ftbquests.act_ii.quests_16.subtitle}"
 			tasks: [{
 				id: "5285A75C058C5073"
-				title: "Click Once Read"
+				title: "{autotranslate.ftbquests.act_ii.quests_16.tasks_0.title}"
 				type: "checkmark"
 			}]
-			title: "Defeat All Act II Mini-Bosses!"
+			title: "{autotranslate.ftbquests.act_ii.quests_16.title}"
 			x: 7.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["52DAC9E8213D2624"]
-			description: ["Magnets are incredibly useful for dungeons and exploring as they will siphon any dropped items towards you. Hold one in hand and crouch + right-click to configure its range and filters. Can even be upgraded to have a far larger range!"]
+			description: ["{autotranslate.ftbquests.act_ii.quests_17.description_0}"]
 			id: "25F1A1475A6E6F1D"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 1000"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "35B0C955A02DD55F"
-				silent: true
-				title: "1000 Experience"
+				silent: 1
+				title: "{autotranslate.ftbquests.act_ii.quests_17.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Magnets"
+			subtitle: "{autotranslate.ftbquests.act_ii.quests_17.subtitle}"
 			tasks: [{
 				id: "2A9C784EEF5930E4"
 				item: {
@@ -855,26 +855,26 @@
 				}
 				type: "item"
 			}]
-			title: "How Do They Work?"
+			title: "{autotranslate.ftbquests.act_ii.quests_17.title}"
 			x: 1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["322725A82ADAA810"]
 			description: [
-				"&eLightman's Currency&r is a mod that adds those coins you get for killing things. You can use these coins to sometimes trade with villagers, purchase Support and Augment gems at the end of each Act, or set up shops and trade with other players."
+				"{autotranslate.ftbquests.act_ii.quests_18.description_0}"
 				""
-				"Even in singleplayer, you can purchase items from the trader. Craft to Exile 2 has some default items that can be bought regardless of world. Set up a &eTrading Terminal/Barter Board&r to check it out!"
+				"{autotranslate.ftbquests.act_ii.quests_18.description_2}"
 				""
-				"Examples of things you can buy:"
-				"- Mine and Slash Profession Materials"
-				"- Painting Palette and Music Sheet"
-				"- Rare Resources"
-				"- Common Blocks (Dirt, Stone, etc.)"
+				"{autotranslate.ftbquests.act_ii.quests_18.description_4}"
+				"{autotranslate.ftbquests.act_ii.quests_18.description_5}"
+				"{autotranslate.ftbquests.act_ii.quests_18.description_6}"
+				"{autotranslate.ftbquests.act_ii.quests_18.description_7}"
+				"{autotranslate.ftbquests.act_ii.quests_18.description_8}"
 				""
-				"If you're playing in multiplayer, you can even purchase &eFLAN claim blocks&r using the FLAN buy option."
+				"{autotranslate.ftbquests.act_ii.quests_18.description_10}"
 				""
-				"&oFor more information, refer to \"&eLightman's Currency&r\" quest in the &eJolly Cooperation&r chapter!&r"
+				"{autotranslate.ftbquests.act_ii.quests_18.description_12}"
 			]
 			id: "29CD881773D976E5"
 			rewards: [{
@@ -882,31 +882,31 @@
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			subtitle: "Currency"
+			subtitle: "{autotranslate.ftbquests.act_ii.quests_18.subtitle}"
 			tasks: [{
 				id: "165EE02B3146E124"
 				item: "lightmanscurrency:terminal"
 				type: "item"
 			}]
-			title: "Buying Happiness"
+			title: "{autotranslate.ftbquests.act_ii.quests_18.title}"
 			x: 3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["114D74DF8284ACC3"]
-			description: ["Craft a &eTarget Dummy&r and place it down. You can hit it to view your damage per second! You can also enable the &5Damage Chat-Log&r option in the &eFeatures&r tab of the &eMNS Hub&r to view &eexact damage value breakdowns&r."]
+			description: ["{autotranslate.ftbquests.act_ii.quests_19.description_0}"]
 			id: "12B20146ED616389"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 1000"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "1E68A513E06D4438"
-				silent: true
-				title: "1000 Experience"
+				silent: 1
+				title: "{autotranslate.ftbquests.act_ii.quests_19.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "DPS Meter"
+			subtitle: "{autotranslate.ftbquests.act_ii.quests_19.subtitle}"
 			tasks: [{
 				id: "201D6D22A54727D4"
 				item: "dummmmmmy:target_dummy"
@@ -918,12 +918,12 @@
 		{
 			dependencies: ["1D01AD334C7C70F1"]
 			description: [
-				"&eCurrencies&r are various items that can be used directly on your Gear. They will modify your Gear and empower them."
+				"{autotranslate.ftbquests.act_ii.quests_20.description_0}"
 				""
-				"Each Gear comes with a set amount of &ePotential&r. Using a Currency on the Gear will reduce the Gear's &ePotential&r. Once the Potential has reached 0, Currency with Potential Cost may no longer be applied to it. Not all Currencies use Potential, however, and may be used at any time."
+				"{autotranslate.ftbquests.act_ii.quests_20.description_2}"
 				""
 				""
-				"Certain Currencies, such as the &eOrb of Chaos,&r can add very powerful effects, but may cause negative effects to your Gear. &cWith the Orb of Chaos, there is a 25% chance that your item will turn into Coal&r."
+				"{autotranslate.ftbquests.act_ii.quests_20.description_5}"
 			]
 			icon: "minecraft:paper"
 			id: "68EB4F5B367C3C47"
@@ -934,40 +934,40 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: 1
 					id: "67548D99572EA451"
 					table_id: 2792550926235851709L
 					type: "choice"
 				}
 			]
-			subtitle: "Lost Page"
+			subtitle: "{autotranslate.ftbquests.act_ii.quests_20.subtitle}"
 			tasks: [{
 				id: "5B5346C72F51EAD5"
-				title: "Click Once Read"
+				title: "{autotranslate.ftbquests.act_ii.quests_20.tasks_0.title}"
 				type: "checkmark"
 			}]
-			title: "More On Currencies"
+			title: "{autotranslate.ftbquests.act_ii.quests_20.title}"
 			x: 3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["45535AECCE43183A"]
 			description: [
-				"You may have noticed some &eNether&r mobs dealing more &cFire Damage.&r Mobs native to a specific dimension tend to have an affinity towards a specific element. For example, in the Nether, some mobs will deal a combination of Fire and Physical Damage."
+				"{autotranslate.ftbquests.act_ii.quests_21.description_0}"
 				""
-				"&oAlso note, this doesn't mean they will take less damage from the element they have an affinity for.&r"
+				"{autotranslate.ftbquests.act_ii.quests_21.description_2}"
 				""
-				"&nElemental Affinities&r"
+				"{autotranslate.ftbquests.act_ii.quests_21.description_4}"
 				""
-				"&lOverworld:&r &7None&r"
-				"&lNether:&r &cFire&r"
-				"&lUndergarden:&r &5Chaos&r"
-				"&lAquamirae&r Mobs: &bCold&r"
-				"&lEverbright:&r &bCold&r + &eLightning&r"
-				"&lEverdawn:&r &cFire&r + &5Chaos&r"
-				"&lThe End:&r &cFire&r + &eLightning&r + &5Chaos&r"
-				"&lThe Otherside:&r &5Chaos&r"
-				"&lThe Twilight Forest:&r &7None&r"
+				"{autotranslate.ftbquests.act_ii.quests_21.description_6}"
+				"{autotranslate.ftbquests.act_ii.quests_21.description_7}"
+				"{autotranslate.ftbquests.act_ii.quests_21.description_8}"
+				"{autotranslate.ftbquests.act_ii.quests_21.description_9}"
+				"{autotranslate.ftbquests.act_ii.quests_21.description_10}"
+				"{autotranslate.ftbquests.act_ii.quests_21.description_11}"
+				"{autotranslate.ftbquests.act_ii.quests_21.description_12}"
+				"{autotranslate.ftbquests.act_ii.quests_21.description_13}"
+				"{autotranslate.ftbquests.act_ii.quests_21.description_14}"
 			]
 			icon: "minecraft:paper"
 			id: "3F61325EA08B6DAA"
@@ -990,24 +990,24 @@
 					type: "item"
 				}
 			]
-			subtitle: "Lost Page"
+			subtitle: "{autotranslate.ftbquests.act_ii.quests_21.subtitle}"
 			tasks: [{
 				id: "5CE8B1EB861233D7"
-				title: "Click Once Read"
+				title: "{autotranslate.ftbquests.act_ii.quests_21.tasks_0.title}"
 				type: "checkmark"
 			}]
-			title: "Mob Affinities"
+			title: "{autotranslate.ftbquests.act_ii.quests_21.title}"
 			x: 3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["29CADE48F14D6436"]
 			description: [
-				"Mine and Slash Professions can sometimes be tedious to level... Did you know that gaining experience through combat gives you &eRested Profession Experience&r? This experience pools and will be consumed when performing Profession activities to enhance your experience gained."
+				"{autotranslate.ftbquests.act_ii.quests_22.description_0}"
 				""
-				"Similarly, performing Profession activities will give you &eRested Combat Experience&r!"
+				"{autotranslate.ftbquests.act_ii.quests_22.description_2}"
 				""
-				"You can view how much Rested Experience you have in the Mine and Slash Hub by mousing over the Profession icon."
+				"{autotranslate.ftbquests.act_ii.quests_22.description_4}"
 			]
 			icon: "minecraft:paper"
 			id: "256EB6DAF1808F35"
@@ -1016,26 +1016,26 @@
 				item: "mmorpg:currency/enchant_reroll"
 				type: "item"
 			}]
-			subtitle: "Lost Page"
+			subtitle: "{autotranslate.ftbquests.act_ii.quests_22.subtitle}"
 			tasks: [{
 				id: "41373A88D8FE08D7"
-				title: "Click Once Read"
+				title: "{autotranslate.ftbquests.act_ii.quests_22.tasks_0.title}"
 				type: "checkmark"
 			}]
-			title: "A Moment's Respite"
+			title: "{autotranslate.ftbquests.act_ii.quests_22.title}"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["114D74DF8284ACC3"]
 			description: [
-				"&eAscendancy&r is a way to further grow your character by completing challenging tasks. To start, you must &ecomplete the \"Defenders of the Nether\" quest&r, which will unlock the &eAscendancy Chapter&r."
+				"{autotranslate.ftbquests.act_ii.quests_23.description_0}"
 				""
-				"The first quest you complete will earn you 1 Ascendancy point, just enough to choose your specialization. With each subsequent challenge you complete, you will earn more Ascendancy points!"
+				"{autotranslate.ftbquests.act_ii.quests_23.description_2}"
 				""
-				"These points are capped at 7, and you can use these points similar to Talent points in the Ascendancy tab of the &eMine and Slash Hub&r."
+				"{autotranslate.ftbquests.act_ii.quests_23.description_4}"
 				""
-				"You can only select one Ascendancy tree at a time. To select another tree, you must first respec and retrieve all of your points in your current tree."
+				"{autotranslate.ftbquests.act_ii.quests_23.description_6}"
 			]
 			icon: "minecraft:paper"
 			id: "3C2D7F2998CC495F"
@@ -1048,39 +1048,39 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 2500"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "3EC017DEA512E603"
-					silent: true
-					title: "2500 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_ii.quests_23.rewards_1.title}"
 					type: "command"
 				}
 			]
-			subtitle: "Lost Page"
+			subtitle: "{autotranslate.ftbquests.act_ii.quests_23.subtitle}"
 			tasks: [{
 				id: "24A37C91BE150CC6"
-				title: "Click Once Read"
+				title: "{autotranslate.ftbquests.act_ii.quests_23.tasks_0.title}"
 				type: "checkmark"
 			}]
-			title: "Ascendancy"
+			title: "{autotranslate.ftbquests.act_ii.quests_23.title}"
 			x: 6.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["45535AECCE43183A"]
-			description: ["Craft a hearty meal to keep yourself alive! Eating foods will give you bonus stats for a set duration."]
+			description: ["{autotranslate.ftbquests.act_ii.quests_24.description_0}"]
 			id: "75349B31576A3930"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 1250"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "031D6995F7F53586"
-				silent: true
-				title: "1250 Experience"
+				silent: 1
+				title: "{autotranslate.ftbquests.act_ii.quests_24.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "M\\&S Professions"
+			subtitle: "{autotranslate.ftbquests.act_ii.quests_24.subtitle}"
 			tasks: [{
 				id: "08BE1394EA5B782D"
 				item: {
@@ -1090,28 +1090,28 @@
 						tier: 1
 					}
 				}
-				match_nbt: true
+				match_nbt: 1
 				type: "item"
 			}]
-			title: "Food For Thought"
+			title: "{autotranslate.ftbquests.act_ii.quests_24.title}"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["1EA8FC97142B16A7"]
-			description: ["Try your hand at crafting a custom weapon to help with your adventure!"]
+			description: ["{autotranslate.ftbquests.act_ii.quests_25.description_0}"]
 			id: "575DEFDB9962966C"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 2000"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "49B99CB75F267628"
-				silent: true
-				title: "2000 Experience"
+				silent: 1
+				title: "{autotranslate.ftbquests.act_ii.quests_25.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "M\\&S Professions"
+			subtitle: "{autotranslate.ftbquests.act_ii.quests_25.subtitle}"
 			tasks: [{
 				id: "21E5841575537E9D"
 				item: {
@@ -1121,42 +1121,42 @@
 						tier: 0
 					}
 				}
-				match_nbt: true
+				match_nbt: 1
 				type: "item"
 			}]
-			title: "The Sharpest"
+			title: "{autotranslate.ftbquests.act_ii.quests_25.title}"
 			x: 6.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["52DAC9E8213D2624"]
 			description: [
-				"&ePhantom Creepers&r spawn in &eWarped Forests&r and &eThe End&r. They split upon contact, so you'll need to handle them with care!"
+				"{autotranslate.ftbquests.act_ii.quests_26.description_0}"
 				""
-				"The Phantom Creeper Has:"
-				"&b+25% Dodge Rating&r"
+				"{autotranslate.ftbquests.act_ii.quests_26.description_2}"
+				"{autotranslate.ftbquests.act_ii.quests_26.description_3}"
 			]
 			icon: "born_in_chaos_v1:phantom_bomb"
 			id: "3B1B7EC7FF90C8E4"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 1500"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "266DF2422C836890"
-				silent: true
-				title: "1500 Experience"
+				silent: 1
+				title: "{autotranslate.ftbquests.act_ii.quests_26.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Explosive, Invisible Bombs"
+			subtitle: "{autotranslate.ftbquests.act_ii.quests_26.subtitle}"
 			tasks: [{
 				entity: "born_in_chaos_v1:phantom_creeper_copy"
 				icon: "ftb_ph:phantom_creeper"
 				id: "549C3B917A1ABE21"
 				type: "kill"
-				value: 10L
+				value: 10
 			}]
-			title: "Otherworldly Beings III"
+			title: "{autotranslate.ftbquests.act_ii.quests_26.title}"
 			x: 0.0d
 			y: 3.0d
 		}
@@ -1166,32 +1166,32 @@
 				"75447684ADAD02D8"
 			]
 			description: [
-				"&cThis quest requires the completion of:&r"
+				"{autotranslate.ftbquests.act_ii.quests_27.description_0}"
 				""
 				"{ \"text\": \"Chococrafts and Mounts\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"730BE78211A1573B\" } }"
 				""
-				"The Chocopedia mentions a breed that exists in the Nether that can fly..."
+				"{autotranslate.ftbquests.act_ii.quests_27.description_4}"
 			]
 			id: "6A023A63B5FEE4A0"
 			rewards: [
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 1500"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "4746DD37A746BEE2"
-					silent: true
-					title: "1500 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_ii.quests_27.rewards_0.title}"
 					type: "command"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: 1
 					id: "3ACE0F8EB8A95A72"
 					table_id: 2792550926235851709L
 					type: "choice"
 				}
 			]
-			subtitle: "Wild Chocobos"
+			subtitle: "{autotranslate.ftbquests.act_ii.quests_27.subtitle}"
 			tasks: [
 				{
 					id: "14037C63F43DB96D"
@@ -1199,9 +1199,12 @@
 					type: "item"
 				}
 				{
-					count: 32L
+					count: 32
 					id: "52D1CE65EA3CECD6"
-					item: { Count: 32, id: "chococraft:gysahl_green" }
+					item: {
+						Count: 32
+						id: "chococraft:gysahl_green"
+					}
 					type: "item"
 				}
 				{
@@ -1210,52 +1213,52 @@
 					type: "item"
 				}
 			]
-			title: "Aerial Exploration"
+			title: "{autotranslate.ftbquests.act_ii.quests_27.title}"
 			x: 4.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3C2D7F2998CC495F"]
 			description: [
-				"The &eAwful Ghast&r can be found in the &eAwful Dungeons&r of The Nether. Awful Dungeons can be found in &eSoul Sand Valleys and Warped Forests&r where they appear as floating circular structures. You can summon it by placing a &eNether Star in the altar&r."
+				"{autotranslate.ftbquests.act_ii.quests_28.description_0}"
 				""
-				"&cNote that these structures cannot be found conventionally with the Explorer's Compass. You may need to find them manually.&r"
+				"{autotranslate.ftbquests.act_ii.quests_28.description_2}"
 				""
 				"{image:cte2:textures/awful_ghast.png width:192 height:108 align:center}"
 				""
-				"The Awful Ghast Has:"
-				"&b+50% Physical to Fire Damage&r"
-				"&b+30% Elemental Resistance&r"
-				"&a15% Chance of Dropping Net Rune&r"
+				"{autotranslate.ftbquests.act_ii.quests_28.description_6}"
+				"{autotranslate.ftbquests.act_ii.quests_28.description_7}"
+				"{autotranslate.ftbquests.act_ii.quests_28.description_8}"
+				"{autotranslate.ftbquests.act_ii.quests_28.description_9}"
 			]
 			id: "4343A66299F26319"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 5000"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "7E7FC3B9C75BC6F8"
-				silent: true
-				title: "5000 Experience"
+				silent: 1
+				title: "{autotranslate.ftbquests.act_ii.quests_28.rewards_0.title}"
 				type: "command"
 			}]
 			shape: "diamond"
-			subtitle: "Big Baddies"
+			subtitle: "{autotranslate.ftbquests.act_ii.quests_28.subtitle}"
 			tasks: [{
 				id: "02751A7FE39DD1D0"
 				item: "stalwart_dungeons:awful_crystal"
 				type: "item"
 			}]
-			title: "Defenders of the Nether"
+			title: "{autotranslate.ftbquests.act_ii.quests_28.title}"
 			x: 7.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["63F4CAF1CA065949"]
 			description: [
-				"Smithing templates are items used in &eSmithing Tables&r to alter tools and armor. They are consumed when used, but can be duplicated using an existing template, its material and diamonds."
+				"{autotranslate.ftbquests.act_ii.quests_29.description_0}"
 				""
-				"Netherite upgrade smithing templates are required to upgrade diamond equipment with a &eNetherite Ingot&r. They are only found in &eBastion Remnants&r, and are guaranteed only in treasure rooms."
+				"{autotranslate.ftbquests.act_ii.quests_29.description_2}"
 			]
 			id: "75447684ADAD02D8"
 			rewards: [
@@ -1279,26 +1282,26 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 2500"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "7CB1E8320DED257E"
-					silent: true
-					title: "2500 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_ii.quests_29.rewards_2.title}"
 					type: "command"
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "{autotranslate.ftbquests.act_ii.quests_29.subtitle}"
 			tasks: [{
 				id: "02B914E0382A57F7"
 				item: "minecraft:netherite_upgrade_smithing_template"
 				type: "item"
 			}]
-			title: "Preparation"
+			title: "{autotranslate.ftbquests.act_ii.quests_29.title}"
 			x: 4.5d
 			y: 0.0d
 		}
 	]
-	subtitle: ["Lv. 10-30"]
-	title: "Act II"
+	subtitle: ["{autotranslate.ftbquests.act_ii.subtitle_0}"]
+	title: "{autotranslate.ftbquests.act_ii.title}"
 }

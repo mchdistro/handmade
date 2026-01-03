@@ -1,0 +1,21 @@
+{
+    "name": "entry.meloncube.promo.name",
+    "icon": "minecraft:melon_slice",
+    "category": "sebastrnlib:meloncube",
+    "pages": [
+        {
+            "type": "patchouli:image",
+            "images": [
+                "sebastrnlib:textures/gui/entries/meloncube.png"
+            ],
+            "text": "entry.meloncube.promo.page0"
+        },
+        {
+            "type": "patchouli:link",
+            "text": "entry.meloncube.promo.page1",
+            "url": "https://www.meloncube.net/sebastrn",
+            "link_text": "MelonCube link"
+        }
+    ],
+    "sortnum": 99
+}

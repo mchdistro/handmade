@@ -1,0 +1,22 @@
+{
+    "name": "일반 설정 파일",
+    "icon": "minecraft:player_head",
+    "category": "mimi:6settings",
+    "pages": [
+        {
+            "type": "text",
+            "text": "MIMI에는 싱글플레이어의 클라이언트와 멀티플레이어의 서버에 적용되는 몇 가지 추가 $(br2)설정이 포함된 일반 구성 파일도 포함되어 있습니다. 다른 $(#0046ff)모드와 마찬가지로 MIMI의 구성 파일은 마인크래프트 인스턴스 $()폴더에서 찾을 수 있으며 텍스트 편집기 또는 IDE로 수정할 수 있습니다."
+        },
+        {
+            "type": "text",
+            "title": "악기 상점",
+            "text": "$(l)매개변수:$() enableInstrumentalistShop$(br)$(l)종류:$() Boolean$(br)$(l)기본값:$() 사용$(br2)이 매개변수는 악사 상점이 [마을]에 [생성]되는지 여부를 저장합니다."
+        },
+        {
+            "type": "text",
+            "title": "악기 몹",
+            "text": "$(l)$():$(br)$(l)유형:$() 쉼표로 구분된 목록$(br)$(l)기본값:$() minecraft:zombie,minecraft:husk,minecraft:skeleton,minecraft:stray,minecraft:wither_skeleton$(br2)이 파라미터는 악기를 들 수 있는 몹의 쉼표로 구분된 목록을 저장합니다."
+        }
+    ],
+    "sortnum": 4
+}

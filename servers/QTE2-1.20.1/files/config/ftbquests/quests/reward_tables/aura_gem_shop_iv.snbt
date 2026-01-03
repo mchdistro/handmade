@@ -11,7 +11,7 @@
 					mmorpg_skill_gem: "{\"id\":\"physical_damage\",\"type\":\"AURA\",\"perc\":14,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Physical Damage Augment"
+			title: "물리 피해 오그먼트"
 		}
 		{
 			item: {
@@ -21,7 +21,7 @@
 					mmorpg_skill_gem: "{\"id\":\"fire_damage\",\"type\":\"AURA\",\"perc\":25,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Fire Damage Augment"
+			title: "불 피해 오그먼트"
 		}
 		{
 			item: {
@@ -31,7 +31,7 @@
 					mmorpg_skill_gem: "{\"id\":\"cold_damage\",\"type\":\"AURA\",\"perc\":21,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Cold Damage Augment"
+			title: "냉기 피해 오그먼트"
 		}
 		{
 			item: {
@@ -41,7 +41,7 @@
 					mmorpg_skill_gem: "{\"id\":\"lightning_damage\",\"type\":\"AURA\",\"perc\":18,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Lightning Damage Augment"
+			title: "번개 피해 오그먼트"
 		}
 		{
 			item: {
@@ -51,8 +51,8 @@
 					mmorpg_skill_gem: "{\"id\":\"chaos_damage\",\"type\":\"AURA\",\"perc\":13,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Chaos Damage Augment"
+			title: "혼돈 피해 오그먼트"
 		}
 	]
-	title: "Augment Gem Shop IV"
+	title: "오그먼트 젬 상점 IV"
 }

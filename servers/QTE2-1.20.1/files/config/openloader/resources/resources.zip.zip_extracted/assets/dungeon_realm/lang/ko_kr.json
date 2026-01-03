@@ -1,0 +1,10 @@
+{
+    "dungeon_realm.uber_boss.uber1": "불가능의 영역",
+    "dungeon_realm.uber_boss.uber2": "공포의 영역",
+    "dungeon_realm.uber_boss.uber3": "욕망의 영역",
+    "dungeon_realm.uber_boss.uber_nature_dungeon": "부패의 영역",
+    "block.dungeon_realm.boss_teleport": "보스 차원문",
+    "block.dungeon_realm.uber_teleport": "우버 차원문",
+    "block.dungeon_realm.reward_teleport": "보물 방 차원문",
+    "block.dungeon_realm.uber_boss_altar": "우버 보스 제단"
+}

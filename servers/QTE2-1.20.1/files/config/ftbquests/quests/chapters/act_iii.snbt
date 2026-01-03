@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: 0
 	default_quest_shape: ""
 	filename: "act_iii"
 	group: "1E3C4B5FFAE48A39"
@@ -10,12 +10,12 @@
 	quests: [
 		{
 			dependencies: ["2AFB98683E249B7D"]
-			description: ["It seems like &eRotlings&r are not the only rotten creatures. There are many different breeds of them."]
+			description: ["{autotranslate.ftbquests.act_iii.quests_0.description_0}"]
 			icon: "minecraft:rotten_flesh"
 			id: "5E98541EEB25174A"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: 1
 					id: "58382CF9AB2A0A3E"
 					table_id: 1433159522818962256L
 					type: "choice"
@@ -23,39 +23,39 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 6000"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "1206AB15279F8FA5"
-					silent: true
-					title: "6000 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_iii.quests_0.rewards_1.title}"
 					type: "command"
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "{autotranslate.ftbquests.act_iii.quests_0.subtitle}"
 			tasks: [
 				{
 					entity: "undergarden:rotbeast"
 					icon: "ftb_ph:rotbeast"
 					id: "2C4A8A938CB95DE1"
 					type: "kill"
-					value: 12L
+					value: 12
 				}
 				{
 					entity: "undergarden:rotwalker"
 					icon: "ftb_ph:rotwalker"
 					id: "03FF1260F86F8A4E"
 					type: "kill"
-					value: 12L
+					value: 12
 				}
 			]
-			title: "Rotting Creatures"
+			title: "{autotranslate.ftbquests.act_iii.quests_0.title}"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["18D44E8B9226FB02"]
-			description: ["You were told this dimension was dank and moist, but you did not expect it to be rotting. Kill the pesky &eRotlings&r that keep attacking you, they seem to be the cause of the rot."]
+			description: ["{autotranslate.ftbquests.act_iii.quests_1.description_0}"]
 			icon: "alexsmobs:cockroach_wing_fragment"
 			id: "2AFB98683E249B7D"
 			rewards: [
@@ -63,51 +63,51 @@
 					count: 2
 					id: "5DCBFD4165D4B05B"
 					item: "lightmanscurrency:coin_gold"
-					title: "Money"
+					title: "{autotranslate.ftbquests.act_iii.quests_1.rewards_0.title}"
 					type: "item"
 				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 5000"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "495F3EA9B5202D6E"
-					silent: true
-					title: "5000 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_iii.quests_1.rewards_1.title}"
 					type: "command"
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "{autotranslate.ftbquests.act_iii.quests_1.subtitle}"
 			tasks: [{
 				entity: "undergarden:rotling"
 				icon: "ftb_ph:rotling"
 				id: "5C9A9DA8C7B9EEFC"
 				type: "kill"
-				value: 6L
+				value: 6
 			}]
-			title: "Foreign Enemies"
+			title: "{autotranslate.ftbquests.act_iii.quests_1.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5C25A5681CC704B8"]
 			description: [
-				"Now that you're geared up, it's time to see what's causing these abnormalities in the ocean. You've noticed some activity in the &eOverworld Ice Mazes&r... It might be worth checking out. You can find these Ice Mazes on the &esurface near Deep Frozen Oceans&r. "
+				"{autotranslate.ftbquests.act_iii.quests_2.description_0}"
 				""
-				"They say a rare plant called &eOxygelium&r can be found at the &ebottom of these Ice Mazes&r in the ocean. Alternatively, you can find them from &eTortured Souls&r. If you're having trouble finding &eTortured Souls&r, you can try challenging the &eGateway of the Ice Maze&r!"
+				"{autotranslate.ftbquests.act_iii.quests_2.description_2}"
 				""
-				"You'll need &eBolt Armor&r to survive the cold. It can be crafted."
+				"{autotranslate.ftbquests.act_iii.quests_2.description_4}"
 				""
-				"&cMobs from Aquamirae spawn at a minimum of level 35!&r"
+				"{autotranslate.ftbquests.act_iii.quests_2.description_6}"
 				""
-				"&eRequires ALL dependencies to be completed.&r"
+				"{autotranslate.ftbquests.act_iii.quests_2.description_8}"
 			]
 			icon: "minecraft:ice"
 			id: "217637D12CF3011E"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: 1
 					id: "6A6264B5A2D68399"
 					table_id: 5102974831465220002L
 					type: "choice"
@@ -115,42 +115,35 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 7250"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "513C3E0F390949B6"
-					silent: true
-					title: "7250 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_iii.quests_2.rewards_1.title}"
 					type: "command"
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
-			tasks: [
-				{
-					icon: "minecraft:ice"
-					id: "7D9182428353834C"
-					structure: "aquamirae:ice_maze/common"
-					title: "Find an Ice Maze"
-					type: "structure"
-				}
-				{
-					id: "66A2C43CB2DC02D9"
-					title: "Click Once Read"
-					type: "checkmark"
-				}
-			]
-			title: "The Hidden Depths"
+			subtitle: "{autotranslate.ftbquests.act_iii.quests_2.subtitle}"
+			tasks: [{
+				icon: "minecraft:ice"
+				id: "7D9182428353834C"
+				structure: "aquamirae:ice_maze/common"
+				title: "{autotranslate.ftbquests.act_iii.quests_2.tasks_0.title}"
+				type: "structure"
+			}]
+			title: "{autotranslate.ftbquests.act_iii.quests_2.title}"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5E98541EEB25174A"]
 			description: [
-				"You spoke with a village local who claimed to once live in the Undergarden. According to that local, there were once powerful entities in temples throughout the land that protected civilization from creeping Rot. You'll need to find an Undergarden &eCatacombs&r to complete this quest."
+				"{autotranslate.ftbquests.act_iii.quests_3.description_0}"
 				""
-				"However, it seems that was all in the past. New investigations hint at some new creatures haunting the Overworld depths."
+				"{autotranslate.ftbquests.act_iii.quests_3.description_2}"
 				""
-				"&o&7Completion unlocks a Repeatable Quest in the Repeatables Chapter!&r&r"
+				"{autotranslate.ftbquests.act_iii.quests_3.description_4}"
 			]
 			id: "775A13E1924D6C9A"
 			rewards: [
@@ -163,29 +156,29 @@
 							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":35,\"id\":\"gear\",\"key\":\"\"}"
 						}
 					}
-					title: "Rare Gear Loot Chest (Lv. 35)"
+					title: "{autotranslate.ftbquests.act_iii.quests_3.rewards_0.title}"
 					type: "item"
 				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 6250"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "235DECB54BBFBDE3"
-					silent: true
-					title: "6250 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_iii.quests_3.rewards_1.title}"
 					type: "command"
 				}
 				{
 					auto: "enabled"
 					icon: "ftb_ph:talent"
 					id: "1E135904CF7ED95A"
-					title: "1 Talent Point"
+					title: "{autotranslate.ftbquests.act_iii.quests_3.rewards_2.title}"
 					type: "custom"
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "{autotranslate.ftbquests.act_iii.quests_3.subtitle}"
 			tasks: [{
 				entity: "undergarden:forgotten"
 				icon: {
@@ -197,15 +190,15 @@
 				}
 				id: "074321BF73A109FA"
 				type: "kill"
-				value: 12L
+				value: 12
 			}]
-			title: "Civilization from the Past"
+			title: "{autotranslate.ftbquests.act_iii.quests_3.title}"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2AFB98683E249B7D"]
-			description: ["You've heard from an elderly local from the village that they were originally from the Undergarden! According to the local, there are no longer any villages in the Undergarden due to the creeping Rot. However, there may still be resident &eStoneborn&r creatures willing to do trade."]
+			description: ["{autotranslate.ftbquests.act_iii.quests_4.description_0}"]
 			id: "34AE4F64C6DCC76B"
 			rewards: [
 				{
@@ -217,7 +210,7 @@
 							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"common\",\"lvl\":30,\"id\":\"currency\",\"key\":\"\"}"
 						}
 					}
-					title: "Common Currency Loot Chest (Lv. 30)"
+					title: "{autotranslate.ftbquests.act_iii.quests_4.rewards_0.title}"
 					type: "item"
 				}
 				{
@@ -229,83 +222,83 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 5500"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "4AB967C7D0BC5EA0"
-					silent: true
-					title: "5500 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_iii.quests_4.rewards_2.title}"
 					type: "command"
 				}
 			]
-			subtitle: "Delegation"
+			subtitle: "{autotranslate.ftbquests.act_iii.quests_4.subtitle}"
 			tasks: [{
 				advancement: "undergarden:undergarden/stoneborn_trade"
 				criterion: ""
 				id: "41919A014FCB8BFF"
 				type: "advancement"
 			}]
-			title: "Foreign Friends"
+			title: "{autotranslate.ftbquests.act_iii.quests_4.title}"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["2AFB98683E249B7D"]
-			description: ["Explore the depths of the Undergarden and you'll find some useful resources that can be turned into gear!"]
+			description: ["{autotranslate.ftbquests.act_iii.quests_5.description_0}"]
 			id: "73CB23341BA13CD0"
 			rewards: [
 				{
 					count: 3
 					id: "61183E226D5E94A5"
 					item: "mmorpg:stone/3"
-					title: "Epic Stones"
+					title: "{autotranslate.ftbquests.act_iii.quests_5.rewards_0.title}"
 					type: "item"
 				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 5000"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "6B975E6A9D52282E"
-					silent: true
-					title: "5000 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_iii.quests_5.rewards_1.title}"
 					type: "command"
 				}
 			]
-			subtitle: "MINE and Slash"
+			subtitle: "{autotranslate.ftbquests.act_iii.quests_5.subtitle}"
 			tasks: [{
 				advancement: "undergarden:undergarden/mine_ore"
 				criterion: ""
 				id: "5E1546F833807E4F"
 				type: "advancement"
 			}]
-			title: "New Resources"
+			title: "{autotranslate.ftbquests.act_iii.quests_5.title}"
 			x: 1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["217637D12CF3011E"]
-			description: ["If you're having trouble finding an &eEnd Portal Frame&r and running out of &eEye of Enders&r, perhaps it's time for you to craft an &eEndolocator&r, which is functionally the same as an Eye of Ender, but has unlimited uses!"]
+			description: ["{autotranslate.ftbquests.act_iii.quests_6.description_0}"]
 			id: "2E0F302F9BBF7E36"
 			rewards: [
 				{
 					count: 3
 					id: "04EA5114ACF663AF"
 					item: "lightmanscurrency:coin_gold"
-					title: "Money"
+					title: "{autotranslate.ftbquests.act_iii.quests_6.rewards_0.title}"
 					type: "item"
 				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 7500"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "1FC44A6913452913"
-					silent: true
-					title: "7500 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_iii.quests_6.rewards_1.title}"
 					type: "command"
 				}
 			]
-			subtitle: "Echo Location"
+			subtitle: "{autotranslate.ftbquests.act_iii.quests_6.subtitle}"
 			tasks: [{
 				id: "40F07F24ADE9D1A4"
 				item: {
@@ -317,7 +310,7 @@
 				}
 				type: "item"
 			}]
-			title: "Structure-Finding Help"
+			title: "{autotranslate.ftbquests.act_iii.quests_6.title}"
 			x: 6.0d
 			y: -1.5d
 		}
@@ -353,55 +346,55 @@
 				"45501F3F04639DB1"
 				"5FEC85CF65C29ED6"
 			]
-			description: ["Complete all of the quests in Act III to complete this achievement. Then show it off with your new hat!"]
-			hide_dependency_lines: true
+			description: ["{autotranslate.ftbquests.act_iii.quests_7.description_0}"]
+			hide_dependency_lines: 1
 			icon: "simplehats:babydolphin"
 			id: "6852C249CA093735"
 			rewards: [
 				{
 					id: "07B40C2CAFFA4A41"
 					item: "lightmanscurrency:coin_emerald"
-					title: "Money"
+					title: "{autotranslate.ftbquests.act_iii.quests_7.rewards_0.title}"
 					type: "item"
 				}
 				{
 					id: "69E1F9E5F47DE548"
 					item: "simplehats:babydolphin"
-					title: "Baby Dolphin"
+					title: "{autotranslate.ftbquests.act_iii.quests_7.rewards_1.title}"
 					type: "item"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Achievement"
+			subtitle: "{autotranslate.ftbquests.act_iii.quests_7.subtitle}"
 			tasks: [{
 				id: "7F4620276B50AC30"
-				title: "Click Once Read"
+				title: "{autotranslate.ftbquests.act_iii.quests_7.tasks_0.title}"
 				type: "checkmark"
 			}]
-			title: "Complete All Act III Quests!"
+			title: "{autotranslate.ftbquests.act_iii.quests_7.title}"
 			x: 10.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["2E0F302F9BBF7E36"]
-			description: ["The &eStrange Fish Finder&r will locate nearby Devil's Hole chunks which contain &eunique fish and loot&r."]
+			description: ["{autotranslate.ftbquests.act_iii.quests_8.description_0}"]
 			id: "58F782F592F2ADEB"
 			rewards: [
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 8000"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "479F2BD1BBE7BC9A"
-					silent: true
-					title: "8000 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_iii.quests_8.rewards_0.title}"
 					type: "command"
 				}
 				{
 					auto: "enabled"
 					icon: "ftb_ph:talent"
 					id: "2B95DBCDDE09AA83"
-					title: "1 Talent Point"
+					title: "{autotranslate.ftbquests.act_iii.quests_8.rewards_1.title}"
 					type: "custom"
 				}
 				{
@@ -410,7 +403,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Echo Location"
+			subtitle: "{autotranslate.ftbquests.act_iii.quests_8.subtitle}"
 			tasks: [{
 				id: "0B89633D93313B67"
 				item: {
@@ -428,20 +421,20 @@
 		{
 			dependencies: ["217637D12CF3011E"]
 			dependency_requirement: "one_completed"
-			description: ["This set of &earmor&r allows you to easily &emine and fight&r underwater. You can craft &eOxygen Tanks with Oxygelium&r found underwater in an &eIce Maze&r or from the &eTortured Souls&r also in that area. You can also consider using &eNeptunium&r gear from fishing to fight underwater!"]
+			description: ["{autotranslate.ftbquests.act_iii.quests_9.description_0}"]
 			id: "43D444B5C1395F3E"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 6750"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "482D24E3915BCF42"
-				silent: true
-				title: "6750 Experience"
+				silent: 1
+				title: "{autotranslate.ftbquests.act_iii.quests_9.rewards_0.title}"
 				type: "command"
 			}]
 			shape: "circle"
-			subtitle: "Diving Kit"
+			subtitle: "{autotranslate.ftbquests.act_iii.quests_9.subtitle}"
 			tasks: [
 				{
 					id: "7B1370680492A67F"
@@ -472,9 +465,9 @@
 		{
 			dependencies: ["217637D12CF3011E"]
 			description: [
-				"These undead creatures have been spotted roaming the &eIce Mazes in the Shelter underground, near the Deep Frozen Ocean&r."
+				"{autotranslate.ftbquests.act_iii.quests_10.description_0}"
 				""
-				"&o&7Completion unlocks a Repeatable Quest in the Repeatables Chapter!&r&r"
+				"{autotranslate.ftbquests.act_iii.quests_10.description_2}"
 			]
 			id: "60A18C940B623CDA"
 			rewards: [
@@ -487,22 +480,22 @@
 				{
 					id: "023076E4060597AE"
 					item: "mmorpg:material/fishing/2"
-					title: "Empyrean Raw Fish"
+					title: "{autotranslate.ftbquests.act_iii.quests_10.rewards_1.title}"
 					type: "item"
 				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 8500"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "132D51D143AFAECD"
-					silent: true
-					title: "8500 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_iii.quests_10.rewards_2.title}"
 					type: "command"
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Undersea Adventure"
+			subtitle: "{autotranslate.ftbquests.act_iii.quests_10.subtitle}"
 			tasks: [{
 				entity: "aquamirae:tortured_soul"
 				icon: {
@@ -514,15 +507,15 @@
 				}
 				id: "6DC389E918151695"
 				type: "kill"
-				value: 16L
+				value: 16
 			}]
-			title: "The Restless Dead"
+			title: "{autotranslate.ftbquests.act_iii.quests_10.title}"
 			x: 7.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["217637D12CF3011E"]
-			description: ["These fish definitely look fishy... and they're on land! These creatures can be found in &eIce Mazes near the Deep Frozen Ocean&r."]
+			description: ["{autotranslate.ftbquests.act_iii.quests_11.description_0}"]
 			id: "3054F5AA249874B1"
 			rewards: [
 				{
@@ -534,46 +527,46 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 8750"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "2D6BC5CAD878B4F4"
-					silent: true
-					title: "8750 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_iii.quests_11.rewards_1.title}"
 					type: "command"
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Undersea Adventure"
+			subtitle: "{autotranslate.ftbquests.act_iii.quests_11.subtitle}"
 			tasks: [{
 				entity: "aquamirae:maw"
 				icon: "alexsmobs:flying_fish"
 				id: "64029E0952041AA3"
 				type: "kill"
-				value: 12L
+				value: 12
 			}]
-			title: "Terrestrial Terrors"
+			title: "{autotranslate.ftbquests.act_iii.quests_11.title}"
 			x: 7.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["217637D12CF3011E"]
-			description: ["The &eAnglerfish&r in the water of the &eIce Maze&r seem normal enough..."]
+			description: ["{autotranslate.ftbquests.act_iii.quests_12.description_0}"]
 			id: "59A29FC72CB20EB7"
 			rewards: [
 				{
 					id: "5623647895FDB31F"
 					item: "mmorpg:material/fishing/3"
-					title: "Angelic Raw Fish"
+					title: "{autotranslate.ftbquests.act_iii.quests_12.rewards_0.title}"
 					type: "item"
 				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 8750"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "325506065E24D465"
-					silent: true
-					title: "8750 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_iii.quests_12.rewards_1.title}"
 					type: "command"
 				}
 				{
@@ -588,28 +581,28 @@
 					type: "item"
 				}
 			]
-			subtitle: "Undersea Adventure"
+			subtitle: "{autotranslate.ftbquests.act_iii.quests_12.subtitle}"
 			tasks: [{
 				entity: "aquamirae:anglerfish"
 				icon: "aquamirae:anglers_fang"
 				id: "793FAAC99A394C65"
 				type: "kill"
-				value: 8L
+				value: 8
 			}]
-			title: "Deep-Sea Creatures"
+			title: "{autotranslate.ftbquests.act_iii.quests_12.title}"
 			x: 7.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["59A29FC72CB20EB7"]
 			description: [
-				"This slippery, slithery creature can be found in &eShelters&r by the &eIce Maze&r. Alternatively, you can find one in a &eGateway of the Ice Maze&r."
+				"{autotranslate.ftbquests.act_iii.quests_13.description_0}"
 				""
-				"&cThe Eel spawns at minimum level of 35.&r"
+				"{autotranslate.ftbquests.act_iii.quests_13.description_2}"
 				""
-				"The Eel Has:"
-				"&b+50% Physical to Cold Damage&r"
-				"&a15% Chance of Dropping Und Rune&r"
+				"{autotranslate.ftbquests.act_iii.quests_13.description_4}"
+				"{autotranslate.ftbquests.act_iii.quests_13.description_5}"
+				"{autotranslate.ftbquests.act_iii.quests_13.description_6}"
 			]
 			id: "46DB9530C236A4AD"
 			rewards: [
@@ -622,51 +615,51 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 9250"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "5E42161C284D2B09"
-					silent: true
-					title: "9250 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_iii.quests_13.rewards_1.title}"
 					type: "command"
 				}
 				{
 					auto: "enabled"
 					icon: "ftb_ph:talent"
 					id: "0F7E84FB337FE624"
-					title: "1 Talent Point"
+					title: "{autotranslate.ftbquests.act_iii.quests_13.rewards_2.title}"
 					type: "custom"
 				}
 				{
 					auto: "enabled"
 					icon: "ftb_ph:ascend"
 					id: "61E1F9C240855D16"
-					title: "Cruel Ascendancy"
+					title: "{autotranslate.ftbquests.act_iii.quests_13.rewards_3.title}"
 					type: "custom"
 				}
 			]
 			shape: "diamond"
-			subtitle: "Undersea Adventure"
+			subtitle: "{autotranslate.ftbquests.act_iii.quests_13.subtitle}"
 			tasks: [{
 				entity: "aquamirae:eel"
 				icon: "alexsmobs:shed_snake_skin"
 				id: "05F31113091D1241"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
-			title: "Slippery Swimmer"
+			title: "{autotranslate.ftbquests.act_iii.quests_13.title}"
 			x: 9.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["3054F5AA249874B1"]
 			description: [
-				"Never actually seen by any living being, the myth of the &eMother of the Ice Maze&r is that it's a powerful creature that roams the seas, attacking sailors and pirates alike. If you want to find it, it's said that it has a chance of &espawning with Anglerfish&r (&75.0% chance to spawn when an Anglerfish dies&r). It's also rumored that inside the gut of the creature, you'll find rare ancient pirate treasure..."
+				"{autotranslate.ftbquests.act_iii.quests_14.description_0}"
 				""
-				"&cThe Mother of the Ice Maze spawns at minimum level of 35.&r"
+				"{autotranslate.ftbquests.act_iii.quests_14.description_2}"
 				""
-				"The Mother of the Ice Maze Has:"
-				"&b+50% Physical to Cold Damage&r"
-				"&a50% Chance of Dropping Und Rune&r"
+				"{autotranslate.ftbquests.act_iii.quests_14.description_4}"
+				"{autotranslate.ftbquests.act_iii.quests_14.description_5}"
+				"{autotranslate.ftbquests.act_iii.quests_14.description_6}"
 			]
 			id: "18B4B295493669DD"
 			rewards: [
@@ -674,7 +667,7 @@
 					count: 8
 					id: "3E4E7CF7278690E7"
 					item: "lightmanscurrency:coin_gold"
-					title: "Money"
+					title: "{autotranslate.ftbquests.act_iii.quests_14.rewards_0.title}"
 					type: "item"
 				}
 				{
@@ -686,29 +679,29 @@
 							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":35,\"id\":\"gear\",\"key\":\"\"}"
 						}
 					}
-					title: "Rare Gear Loot Chest (Lv. 35)"
+					title: "{autotranslate.ftbquests.act_iii.quests_14.rewards_1.title}"
 					type: "item"
 				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 14000"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "7153FEA8AA828FFB"
-					silent: true
-					title: "14000 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_iii.quests_14.rewards_2.title}"
 					type: "command"
 				}
 				{
 					auto: "enabled"
 					icon: "ftb_ph:talent"
 					id: "060035A5B1D52952"
-					title: "1 Talent Point"
+					title: "{autotranslate.ftbquests.act_iii.quests_14.rewards_3.title}"
 					type: "custom"
 				}
 			]
 			shape: "diamond"
-			subtitle: "Undersea Adventure"
+			subtitle: "{autotranslate.ftbquests.act_iii.quests_14.subtitle}"
 			tasks: [{
 				entity: "aquamirae:maze_mother"
 				icon: {
@@ -719,20 +712,20 @@
 						Enchantments: [
 							{
 								id: "obscure_api:distance"
-								lvl: 3s
+								lvl: 3
 							}
 							{
 								id: "obscure_api:fast_spin"
-								lvl: 5s
+								lvl: 5
 							}
 						]
 					}
 				}
 				id: "0962A21E9E55A320"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
-			title: "Mother of the Deep Sea"
+			title: "{autotranslate.ftbquests.act_iii.quests_14.title}"
 			x: 9.0d
 			y: 1.5d
 		}
@@ -743,67 +736,67 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"The &eGhost of Captain Cornelia&r appears when a certain sound is played from a &ehorn&r..."
+				"{autotranslate.ftbquests.act_iii.quests_15.description_0}"
 				""
-				"Some say the &ehorn&r can be found in a &elarge mother-like creature&r that lurks in the &eDeep Frozen Ocean&r, or can be earned through the completion of a &eGateway of the Ice Maze&r."
+				"{autotranslate.ftbquests.act_iii.quests_15.description_2}"
 				""
-				"The &eGhost of Captain Cornelia&r is resilient to death... She'll start &cregenerating her Health rapidly at once she's low&r. You can use a &eSplash Potion of Weakness&r to combat this."
+				"{autotranslate.ftbquests.act_iii.quests_15.description_4}"
 				""
-				"&cThe Ghost of Captain Cornelia spawns at minimum level of 40.&r"
+				"{autotranslate.ftbquests.act_iii.quests_15.description_6}"
 				""
-				"The Ghost of Captain Cornelia Has:"
-				"&b+50% Physical to Cold Damage&r"
-				"&b+25% Critical Hit&r"
-				"&a10% Chance of Dropping Und Rune&r"
+				"{autotranslate.ftbquests.act_iii.quests_15.description_8}"
+				"{autotranslate.ftbquests.act_iii.quests_15.description_9}"
+				"{autotranslate.ftbquests.act_iii.quests_15.description_10}"
+				"{autotranslate.ftbquests.act_iii.quests_15.description_11}"
 				""
-				"&eRequires 1 dependency to be completed.&r"
+				"{autotranslate.ftbquests.act_iii.quests_15.description_13}"
 				""
-				"&6This Quest Unlocks New Shops In the Campaign Shop."
-				"&o&7Completion unlocks a Repeatable Quest in the Repeatables Chapter!&r&r"
+				"{autotranslate.ftbquests.act_iii.quests_15.description_15}"
+				"{autotranslate.ftbquests.act_iii.quests_15.description_16}"
 			]
 			id: "55F9F418C4CA3B3A"
 			rewards: [
 				{
 					id: "3460CB6300D902AD"
 					item: "lightmanscurrency:coin_emerald"
-					title: "Money"
+					title: "{autotranslate.ftbquests.act_iii.quests_15.rewards_0.title}"
 					type: "item"
 				}
 				{
 					count: 2
 					id: "2A9A07576D36CFDF"
 					item: "mmorpg:material/fishing/3"
-					title: "Angelic Raw Fish"
+					title: "{autotranslate.ftbquests.act_iii.quests_15.rewards_1.title}"
 					type: "item"
 				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 15000"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "59ABA7C0A346C178"
-					silent: true
-					title: "15000 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_iii.quests_15.rewards_2.title}"
 					type: "command"
 				}
 			]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "Main Quest"
+			subtitle: "{autotranslate.ftbquests.act_iii.quests_15.subtitle}"
 			tasks: [{
 				entity: "aquamirae:captain_cornelia"
 				icon: "aquamirae:pirate_pouch"
 				id: "36993DF8C06FCE11"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
-			title: "Captain Cornelia's Locker"
+			title: "{autotranslate.ftbquests.act_iii.quests_15.title}"
 			x: 9.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["73CB23341BA13CD0"]
-			description: ["These &ecold ingots&r can be used to craft some powerful &eFroststeel&r gear. They can be found in &eCold Underground Biomes&r such as the &eFrostfields, Frosty Smogstem Forest&r and &eIcy Sea&r biomes&r."]
+			description: ["{autotranslate.ftbquests.act_iii.quests_16.description_0}"]
 			id: "0AFF7911E9C10C1B"
 			rewards: [
 				{
@@ -815,62 +808,62 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 5000"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "052C4DC20201AB66"
-					silent: true
-					title: "5000 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_iii.quests_16.rewards_1.title}"
 					type: "command"
 				}
 				{
 					auto: "enabled"
 					icon: "ftb_ph:talent"
 					id: "0CBDF4F483A66437"
-					title: "1 Talent Point"
+					title: "{autotranslate.ftbquests.act_iii.quests_16.rewards_2.title}"
 					type: "custom"
 				}
 			]
-			subtitle: "MINE and Slash"
+			subtitle: "{autotranslate.ftbquests.act_iii.quests_16.subtitle}"
 			tasks: [{
-				count: 8L
+				count: 8
 				id: "154C7E9E60887877"
 				item: "undergarden:froststeel_ingot"
 				type: "item"
 			}]
-			title: "Cold Ingots"
+			title: "{autotranslate.ftbquests.act_iii.quests_16.title}"
 			x: 1.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["55F9F418C4CA3B3A"]
 			description: [
-				"It's time for you to visit the Villager scholar. They might know something about alternate dimensions containing powerful creatures."
+				"{autotranslate.ftbquests.act_iii.quests_17.description_0}"
 				""
-				"You can find the &eGatekeeper&r in &eGatekeeper Houses&r which can spawn in the &emountains, and plains or snowy villages&r."
+				"{autotranslate.ftbquests.act_iii.quests_17.description_2}"
 				""
-				"You might need some way to coerce them to giving the information however... Perhaps some &aEmeralds&r?"
+				"{autotranslate.ftbquests.act_iii.quests_17.description_4}"
 			]
 			id: "0998037F5701A2D7"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 9250"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "4BE8EDFC75B0DD85"
-				silent: true
-				title: "9250 Experience"
+				silent: 1
+				title: "{autotranslate.ftbquests.act_iii.quests_17.rewards_0.title}"
 				type: "command"
 			}]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "{autotranslate.ftbquests.act_iii.quests_17.subtitle}"
 			tasks: [{
 				icon: "blue_skies:blinding_key"
 				id: "0C15001804C8AF74"
 				structure: "#blue_skies:gatekeeper_houses"
-				title: "Find a Gatekeeper"
+				title: "{autotranslate.ftbquests.act_iii.quests_17.tasks_0.title}"
 				type: "structure"
 			}]
-			title: "The Gatekeepers"
+			title: "{autotranslate.ftbquests.act_iii.quests_17.title}"
 			x: 10.5d
 			y: 0.0d
 		}
@@ -878,15 +871,15 @@
 			dependencies: ["775A13E1924D6C9A"]
 			dependency_requirement: "one_completed"
 			description: [
-				"Deep in the &eCatacombs&r, you may rarely find deactivated guardians. They say these guardians once protected the people from Rot creatures, but have long since lost their magic. Of course, that's just what they say..."
+				"{autotranslate.ftbquests.act_iii.quests_18.description_0}"
 				""
-				"If you cannot find these guardians, you may have better luck forcing a portal to the past with a &eGateway of the Labyrinth&r."
+				"{autotranslate.ftbquests.act_iii.quests_18.description_2}"
 				""
-				"&cThe Forgotten Guardian spawns at minimum level of 35.&r"
+				"{autotranslate.ftbquests.act_iii.quests_18.description_4}"
 				""
-				"The Forgotten Guardian Has:"
-				"&b+50% Elemental Resistance&r"
-				"&a10% Chance of Dropping Und Rune&r"
+				"{autotranslate.ftbquests.act_iii.quests_18.description_6}"
+				"{autotranslate.ftbquests.act_iii.quests_18.description_7}"
+				"{autotranslate.ftbquests.act_iii.quests_18.description_8}"
 			]
 			icon: {
 				Count: 1
@@ -900,11 +893,11 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 12500"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "45269ACB23D984A3"
-					silent: true
-					title: "12500 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_iii.quests_18.rewards_0.title}"
 					type: "command"
 				}
 				{
@@ -919,31 +912,31 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: 1
 					id: "413C00B019997763"
 					table_id: 7143075762642060613L
 					type: "choice"
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "{autotranslate.ftbquests.act_iii.quests_18.subtitle}"
 			tasks: [{
 				entity: "undergarden:forgotten_guardian"
 				icon: "ftb_ph:forgotten_guardian"
 				id: "68ABFF4A22C968A4"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
-			title: "Hidden Secrets"
+			title: "{autotranslate.ftbquests.act_iii.quests_18.title}"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5C25A5681CC704B8"]
 			description: [
-				"Having difficulty with some mobs? You can power yourself up using the Mine and Slash &eInfusing Profession&r. &eScrolls&r can be used on your Gear to &erandomly apply a beneficial stat&r. This stat can be upgraded by using subsequent Infusion Scrolls."
+				"{autotranslate.ftbquests.act_iii.quests_19.description_0}"
 				""
-				"See the &eM\\&S Professions&r chapter for more information on how to use this system!"
+				"{autotranslate.ftbquests.act_iii.quests_19.description_2}"
 			]
 			icon: "minecraft:paper"
 			id: "360C736C3975B377"
@@ -975,31 +968,31 @@
 					type: "item"
 				}
 			]
-			subtitle: "Lost Page"
+			subtitle: "{autotranslate.ftbquests.act_iii.quests_19.subtitle}"
 			tasks: [{
 				id: "1CF415B71E5C7734"
-				title: "Click Once Read"
+				title: "{autotranslate.ftbquests.act_iii.quests_19.tasks_0.title}"
 				type: "checkmark"
 			}]
-			title: "Not Vanilla Enchantments"
+			title: "{autotranslate.ftbquests.act_iii.quests_19.title}"
 			x: 4.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["4F6C1721D3A47BFC"]
 			description: [
-				"In CTE2, some Vanilla stats have compatibility with Mine and Slash!"
+				"{autotranslate.ftbquests.act_iii.quests_20.description_0}"
 				""
-				"Vanilla : &aMine and Slash&r"
-				"Health : &b+0.5% Magic Shield&r"
-				"Armor : &b+0.1% Gear Defense&r"
-				"Armor Toughness : &b+0.1% Gear Defense&r"
-				"Attack Damage : &b+0.5% Total Damage&r"
-				"Luck : &b+3% Magic Find&r"
+				"{autotranslate.ftbquests.act_iii.quests_20.description_2}"
+				"{autotranslate.ftbquests.act_iii.quests_20.description_3}"
+				"{autotranslate.ftbquests.act_iii.quests_20.description_4}"
+				"{autotranslate.ftbquests.act_iii.quests_20.description_5}"
+				"{autotranslate.ftbquests.act_iii.quests_20.description_6}"
+				"{autotranslate.ftbquests.act_iii.quests_20.description_7}"
 				""
-				"Additionally, Enchantment compatibility is included. You can see how the Enchantment affects Mine and Slash stats in the &bEnchantment description in blue&r."
+				"{autotranslate.ftbquests.act_iii.quests_20.description_9}"
 				""
-				"Enchantment stat bonuses cap out per item equal to the Max Enchantment level + 1. For example, Protection gives +2% Armor, but each item with this enchantment can only give +12%, even if you somehow get a Protection VIII item. However, there is also a global cap of the item cap x3. If you equipped 4 Protection VI items, you would receive only +36% Armor."
+				"{autotranslate.ftbquests.act_iii.quests_20.description_11}"
 			]
 			icon: "minecraft:paper"
 			id: "11DB53435CA1D59E"
@@ -1011,41 +1004,41 @@
 					tag: {
 						StoredEnchantments: [{
 							id: "minecraft:protection"
-							lvl: 2s
+							lvl: 2
 						}]
 					}
 				}
 				type: "item"
 			}]
-			subtitle: "Lost Page"
+			subtitle: "{autotranslate.ftbquests.act_iii.quests_20.subtitle}"
 			tasks: [{
 				id: "28690175BDCF5B11"
-				title: "Click Once Read"
+				title: "{autotranslate.ftbquests.act_iii.quests_20.tasks_0.title}"
 				type: "checkmark"
 			}]
-			title: "Stat and Enchantment Compatibility"
+			title: "{autotranslate.ftbquests.act_iii.quests_20.title}"
 			x: 3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["34AE4F64C6DCC76B"]
 			description: [
-				"The &eImbuing Table&r allows you to &ecombine max level&r enchantments. You can use the table to raise a max level enchantment on an item by &e1&r. For example, using a &eFortune III&r book to upgrade a pickaxe that already has &eFortune III&r will result in a pickaxe with &eFortune IV&r."
+				"{autotranslate.ftbquests.act_iii.quests_21.description_0}"
 				""
-				"&oNote that not all enchantments support this system."
+				"{autotranslate.ftbquests.act_iii.quests_21.description_2}"
 			]
 			id: "6BA03D598BD6C2AD"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 5500"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "7B45C6A08AC082FC"
-				silent: true
-				title: "5500 Experience"
+				silent: 1
+				title: "{autotranslate.ftbquests.act_iii.quests_21.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "Craft an Imbuing Table"
+			subtitle: "{autotranslate.ftbquests.act_iii.quests_21.subtitle}"
 			tasks: [{
 				id: "50C250274B0E7598"
 				item: "illagerinvasion:imbuing_table"
@@ -1056,7 +1049,7 @@
 		}
 		{
 			dependencies: ["60A18C940B623CDA"]
-			description: ["&eAquamarine&r drop from &eDrowned, Squids, and Guardians&r and can be used to trade with &eSea Dwellers&r! Sea Dwellers are merfolk found in the &edepths of the ocean&r. You can usually find them congregated in &eunderwater villages&r."]
+			description: ["{autotranslate.ftbquests.act_iii.quests_22.description_0}"]
 			id: "2A8673F98F14484D"
 			rewards: [
 				{
@@ -1073,37 +1066,37 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 8000"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "0E5CD2D42DE0C09E"
-					silent: true
-					title: "8000 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_iii.quests_22.rewards_1.title}"
 					type: "command"
 				}
 			]
-			subtitle: "Undersea Adventure"
+			subtitle: "{autotranslate.ftbquests.act_iii.quests_22.subtitle}"
 			tasks: [{
 				id: "59C725105DC08072"
 				item: "seadwellers:aquamarine"
 				type: "item"
 			}]
-			title: "Sea Dwellers"
+			title: "{autotranslate.ftbquests.act_iii.quests_22.title}"
 			x: 9.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2AFB98683E249B7D"]
 			description: [
-				"Resistances play an important role in keeping yourself alive. There are 3 Elements: &cFire&r, &bCold&r, and &eLightning&r. There are also &7Physical&r and &5Chaos&r damage types."
+				"{autotranslate.ftbquests.act_iii.quests_23.description_0}"
 				""
-				"&6Elemental Damage&r becomes prominent from this point on, with most mobs having some form of Elemental Damage (whether innately, or from affixes). It is &evital&r that you maintain your &6Elemental Resistances&r! &5Chaos Resistance&r is also pivotal, albeit more elusive to obtain."
+				"{autotranslate.ftbquests.act_iii.quests_23.description_2}"
 				""
-				"As you become stronger, the mobs also become stronger. &l&cEvery 25 levels, your resists permanently drop by 25%!&r&r"
+				"{autotranslate.ftbquests.act_iii.quests_23.description_4}"
 				""
-				"&eLv. 1-24:&r &b+25% Ele/Chaos Resistance&r"
-				"&eLv. 25-49:&r +0% Ele/Chaos Resistance"
-				"&eLv. 50-74:&r &c-25% Ele/Chaos Resistance&r"
-				"&eLv. 75+:&r &c-50% Ele/Chaos Resistance&r"
+				"{autotranslate.ftbquests.act_iii.quests_23.description_6}"
+				"{autotranslate.ftbquests.act_iii.quests_23.description_7}"
+				"{autotranslate.ftbquests.act_iii.quests_23.description_8}"
+				"{autotranslate.ftbquests.act_iii.quests_23.description_9}"
 			]
 			icon: "minecraft:paper"
 			id: "45EA60D4FE6CFFAC"
@@ -1121,39 +1114,39 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 6000"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "1698C3C7A8EAD812"
-					silent: true
-					title: "6000 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_iii.quests_23.rewards_2.title}"
 					type: "command"
 				}
 			]
-			subtitle: "Lost Page"
+			subtitle: "{autotranslate.ftbquests.act_iii.quests_23.subtitle}"
 			tasks: [{
 				id: "3C2F08373F7EA7F7"
-				title: "Click Once Read"
+				title: "{autotranslate.ftbquests.act_iii.quests_23.tasks_0.title}"
 				type: "checkmark"
 			}]
-			title: "Resistances"
+			title: "{autotranslate.ftbquests.act_iii.quests_23.title}"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["360C736C3975B377"]
-			description: ["Try crafting your own Infusion Scroll at a higher rarity! Boot Infusions are particularly powerful as you can get special stats only found on Boot Infusions!"]
+			description: ["{autotranslate.ftbquests.act_iii.quests_24.description_0}"]
 			id: "713FE37BCF17FA27"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 7500"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "794C0235E593BB75"
-				silent: true
-				title: "7500 Experience"
+				silent: 1
+				title: "{autotranslate.ftbquests.act_iii.quests_24.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "M\\&S Professions"
+			subtitle: "{autotranslate.ftbquests.act_iii.quests_24.subtitle}"
 			tasks: [{
 				id: "3909083DF06CD4CE"
 				item: {
@@ -1163,64 +1156,64 @@
 						tier: 1
 					}
 				}
-				match_nbt: true
+				match_nbt: 1
 				type: "item"
 			}]
-			title: "Protecting the Feets"
+			title: "{autotranslate.ftbquests.act_iii.quests_24.title}"
 			x: 4.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["775A13E1924D6C9A"]
 			description: [
-				"The &eNaga&r are flying creatures found all around the &eUndergarden&r."
+				"{autotranslate.ftbquests.act_iii.quests_25.description_0}"
 				""
-				"The Naga Has:"
-				"&b+75% Physical to Chaos Damage&r"
-				"&b+50% Poison Chance&r"
-				"&b+50% Poison Damage&r"
+				"{autotranslate.ftbquests.act_iii.quests_25.description_2}"
+				"{autotranslate.ftbquests.act_iii.quests_25.description_3}"
+				"{autotranslate.ftbquests.act_iii.quests_25.description_4}"
+				"{autotranslate.ftbquests.act_iii.quests_25.description_5}"
 			]
 			icon: "mowziesmobs:naga_fang"
 			id: "4F6C1721D3A47BFC"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 7500"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "1F0BB657CC303C1D"
-				silent: true
-				title: "7500 Experience"
+				silent: 1
+				title: "{autotranslate.ftbquests.act_iii.quests_25.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "The Undergarden"
+			subtitle: "{autotranslate.ftbquests.act_iii.quests_25.subtitle}"
 			tasks: [{
 				entity: "mowziesmobs:naga"
 				icon: "ftb_ph:naga_mowzie"
 				id: "6D0F50A483937869"
 				type: "kill"
-				value: 4L
+				value: 4
 			}]
-			title: "Under the.. Undergarden?"
+			title: "{autotranslate.ftbquests.act_iii.quests_25.title}"
 			x: 3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["775A13E1924D6C9A"]
 			description: [
-				"&eUmvuthi, the Sunbird&r is a large neutral boss mob - a heliomacer who serves as the creator of the Abavuthana."
+				"{autotranslate.ftbquests.act_iii.quests_26.description_0}"
 				""
-				"Umvuthi can be found in a &eGateway of the Depths&r."
+				"{autotranslate.ftbquests.act_iii.quests_26.description_2}"
 				""
-				"If approached by a player wearing a Umvuthana Mask, that player will be able to trade with Umvuthi."
+				"{autotranslate.ftbquests.act_iii.quests_26.description_4}"
 				""
-				"&cThe Umvuthi spawns at minimum level of 35.&r"
+				"{autotranslate.ftbquests.act_iii.quests_26.description_6}"
 				""
-				"The Umvuthi Has:"
-				"&b+100% Physical to Fire Damage&r"
-				"&b+50% Burn Chance&r"
-				"&b+50% Fire Resistance&r"
-				"&b+50% Lightning Resistance&r"
-				"&a10% Chance of Dropping Und Rune&r"
+				"{autotranslate.ftbquests.act_iii.quests_26.description_8}"
+				"{autotranslate.ftbquests.act_iii.quests_26.description_9}"
+				"{autotranslate.ftbquests.act_iii.quests_26.description_10}"
+				"{autotranslate.ftbquests.act_iii.quests_26.description_11}"
+				"{autotranslate.ftbquests.act_iii.quests_26.description_12}"
+				"{autotranslate.ftbquests.act_iii.quests_26.description_13}"
 			]
 			icon: "mowziesmobs:grant_suns_blessing"
 			id: "3242634F49140F5F"
@@ -1228,11 +1221,11 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 10000"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "57410F6F9D28BDAF"
-					silent: true
-					title: "10000 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_iii.quests_26.rewards_0.title}"
 					type: "command"
 				}
 				{
@@ -1242,35 +1235,35 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "The Undergarden"
+			subtitle: "{autotranslate.ftbquests.act_iii.quests_26.subtitle}"
 			tasks: [{
 				advancement: "mowziesmobs:kill_umvuthi"
 				criterion: ""
 				icon: "ftb_ph:umvuthithesunbird"
 				id: "12AECD7958F2AB3C"
-				title: "Kill: 1x Umvuthi, the Sunbird"
+				title: "{autotranslate.ftbquests.act_iii.quests_26.tasks_0.title}"
 				type: "advancement"
 			}]
-			title: "The Sun Chief"
+			title: "{autotranslate.ftbquests.act_iii.quests_26.title}"
 			x: 3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["4F6C1721D3A47BFC"]
 			description: [
-				"&eFerrous Wroughtnauts&r start standing still, with their arms resting on their axe. When a player comes nearby or they are attacked, they ready themselves and start attacking. When not in combat Wroughtnauts will quickly regenerate their health."
+				"{autotranslate.ftbquests.act_iii.quests_27.description_0}"
 				""
-				"&c&lWarning! Ferrous Wroughtnauts can break your shield. Proceed with caution!&r&r"
+				"{autotranslate.ftbquests.act_iii.quests_27.description_2}"
 				""
-				"You can find them in their Arenas throughout the Undergarden."
+				"{autotranslate.ftbquests.act_iii.quests_27.description_4}"
 				""
-				"&cThe Ferrous Wroughtnaut spawns at minimum level of 35.&r"
+				"{autotranslate.ftbquests.act_iii.quests_27.description_6}"
 				""
-				"The Ferrous Wroughtnaut Has:"
-				"&b+50% Bleed Chance&r"
-				"&b+50% Armor&r"
-				"&b+40% Elemental Resistance&r"
-				"&a10% Chance of Dropping Und Rune&r"
+				"{autotranslate.ftbquests.act_iii.quests_27.description_8}"
+				"{autotranslate.ftbquests.act_iii.quests_27.description_9}"
+				"{autotranslate.ftbquests.act_iii.quests_27.description_10}"
+				"{autotranslate.ftbquests.act_iii.quests_27.description_11}"
+				"{autotranslate.ftbquests.act_iii.quests_27.description_12}"
 			]
 			icon: {
 				Count: 1
@@ -1284,11 +1277,11 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 11000"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "62F5C57610CB66C2"
-					silent: true
-					title: "11000 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_iii.quests_27.rewards_0.title}"
 					type: "command"
 				}
 				{
@@ -1299,7 +1292,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "The Undergarden"
+			subtitle: "{autotranslate.ftbquests.act_iii.quests_27.subtitle}"
 			tasks: [{
 				id: "74A2D2C74D0310B4"
 				item: {
@@ -1311,13 +1304,13 @@
 				}
 				type: "item"
 			}]
-			title: "Steely Resolve"
+			title: "{autotranslate.ftbquests.act_iii.quests_27.title}"
 			x: 4.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["59A29FC72CB20EB7"]
-			description: ["Need a bit of an EXP boost? Consider eating &eExperience Gain Seafood&r crafted through Professions!"]
+			description: ["{autotranslate.ftbquests.act_iii.quests_28.description_0}"]
 			id: "0E47D45B630AF684"
 			rewards: [
 				{
@@ -1328,15 +1321,15 @@
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 8500"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: "ftb_ph:exp"
 					id: "4A1C2918189AC326"
-					silent: true
-					title: "8500 Experience"
+					silent: 1
+					title: "{autotranslate.ftbquests.act_iii.quests_28.rewards_1.title}"
 					type: "command"
 				}
 			]
-			subtitle: "M\\&S Professions"
+			subtitle: "{autotranslate.ftbquests.act_iii.quests_28.subtitle}"
 			tasks: [{
 				id: "16B63C712B862DD3"
 				item: {
@@ -1346,26 +1339,26 @@
 						tier: 1
 					}
 				}
-				match_nbt: true
+				match_nbt: 1
 				type: "item"
 			}]
-			title: "Feeling A Bit Starved"
+			title: "{autotranslate.ftbquests.act_iii.quests_28.title}"
 			x: 7.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["55F9F418C4CA3B3A"]
 			description: [
-				"Ever wanted to go back to the Overworld to explore, but find the levels too low to make it an enjoyable experience? At certain breakpoint levels, past Dimensions will \"enrage\", increasing their level ranges for players to potentially go back and enjoy past Dimensions!"
+				"{autotranslate.ftbquests.act_iii.quests_29.description_0}"
 				""
-				"&c------------------------------&r"
+				"{autotranslate.ftbquests.act_iii.quests_29.description_2}"
 				""
-				"&eOverworld&r - Lv. &b50-70&r"
-				"&eNether&r - Lv. &b55-75&r"
-				"&eUndergarden&r - Lv. &b60-80&r"
-				"&eEverbright/Everdawn&r - Lv. &b65-85&r"
-				"&eThe End&r - Lv. &b70-90&r"
-				"&eThe Otherside&r - Lv. &b75-95&r"
+				"{autotranslate.ftbquests.act_iii.quests_29.description_4}"
+				"{autotranslate.ftbquests.act_iii.quests_29.description_5}"
+				"{autotranslate.ftbquests.act_iii.quests_29.description_6}"
+				"{autotranslate.ftbquests.act_iii.quests_29.description_7}"
+				"{autotranslate.ftbquests.act_iii.quests_29.description_8}"
+				"{autotranslate.ftbquests.act_iii.quests_29.description_9}"
 			]
 			icon: "minecraft:paper"
 			id: "45501F3F04639DB1"
@@ -1374,44 +1367,44 @@
 				item: "mmorpg:currency/enchant_reroll"
 				type: "item"
 			}]
-			subtitle: "Lost Page"
+			subtitle: "{autotranslate.ftbquests.act_iii.quests_29.subtitle}"
 			tasks: [{
 				id: "69D1987CC32E4D4C"
-				title: "Click Once Read"
+				title: "{autotranslate.ftbquests.act_iii.quests_29.tasks_0.title}"
 				type: "checkmark"
 			}]
-			title: "Travelling Backwards"
+			title: "{autotranslate.ftbquests.act_iii.quests_29.title}"
 			x: 10.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["775A13E1924D6C9A"]
 			description: [
-				"&eTongbi, the Sculptor&r is a powerful geomancer mob that can be found in the &eMonastery&r."
+				"{autotranslate.ftbquests.act_iii.quests_30.description_0}"
 				""
-				"Tongbi, the Sculptor can be found in a &eGateway of the Depths&r."
+				"{autotranslate.ftbquests.act_iii.quests_30.description_2}"
 				""
-				"&cTongbi, the Sculptor spawns at minimum level of 35.&r"
+				"{autotranslate.ftbquests.act_iii.quests_30.description_4}"
 				""
-				"Tongbi, the Sculptor Has:"
-				"&b+25% Physical to Cold Damage&r"
-				"&b+25% Physical to Chaos Damage&r"
-				"&b+40% Cold Resistance&r"
-				"&b+40% Chaos Resistance&r"
-				"&a10% Chance of Dropping Und Rune&r"
+				"{autotranslate.ftbquests.act_iii.quests_30.description_6}"
+				"{autotranslate.ftbquests.act_iii.quests_30.description_7}"
+				"{autotranslate.ftbquests.act_iii.quests_30.description_8}"
+				"{autotranslate.ftbquests.act_iii.quests_30.description_9}"
+				"{autotranslate.ftbquests.act_iii.quests_30.description_10}"
+				"{autotranslate.ftbquests.act_iii.quests_30.description_11}"
 			]
 			id: "5FEC85CF65C29ED6"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 10000"
-				elevate_perms: true
+				elevate_perms: 1
 				icon: "ftb_ph:exp"
 				id: "3E1B0097332F1A41"
-				silent: true
-				title: "10000 Experience"
+				silent: 1
+				title: "{autotranslate.ftbquests.act_iii.quests_30.rewards_0.title}"
 				type: "command"
 			}]
-			subtitle: "The Undergarden"
+			subtitle: "{autotranslate.ftbquests.act_iii.quests_30.subtitle}"
 			tasks: [{
 				entity: "mowziesmobs:sculptor"
 				icon: {
@@ -1423,13 +1416,13 @@
 				}
 				id: "04AB6B426D446BA9"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
-			title: "The Sculptor"
+			title: "{autotranslate.ftbquests.act_iii.quests_30.title}"
 			x: 4.5d
 			y: 1.5d
 		}
 	]
-	subtitle: ["Lv. 25-40"]
-	title: "Act III"
+	subtitle: ["{autotranslate.ftbquests.act_iii.subtitle_0}"]
+	title: "{autotranslate.ftbquests.act_iii.title}"
 }

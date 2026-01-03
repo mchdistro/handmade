@@ -1,0 +1,16 @@
+{
+    "name": "친구와 함께 플레이",
+    "icon": "minecraft:player_head",
+    "category": "mimi:1overview",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "한 번에 3개 이상의 악기로 곡을 연주하고 싶다면 친구와 함께 플레이하는 것이 한 가지 방법입니다! $(br2)악기를 송신기에 연결하면 다른 플레이어가 사용하더라도 가까이 있는 한 송신기에서 음표를 계속 재생합니다."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "다른 플레이어는 연결하려는 악기를 들고 Shift 키 + 우클릭하여 악기를 송신기에 연결할 수도 있습니다."
+        }
+    ],
+    "sortnum": 4
+}

@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: 0
 	default_quest_shape: ""
 	filename: "gem_shop"
 	group: "1E3C4B5FFAE48A39"
@@ -9,297 +9,297 @@
 	quest_links: [ ]
 	quests: [
 		{
-			can_repeat: true
+			can_repeat: 1
 			dependencies: ["727ADA9C4F420BDC"]
 			description: [
-				"This \"quest\" consumes the coin and lets you select a reward from the list."
+				"{autotranslate.ftbquests.gem_shop.quests_0.description_0}"
 				""
 				""
-				"&eThis shop unlocks once you complete \"Acts\" in Act I.&r"
+				"{autotranslate.ftbquests.gem_shop.quests_0.description_3}"
 			]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
+			hide_dependency_lines: 1
+			hide_until_deps_complete: 1
 			icon: "mmorpg:skill_gems/aura/str"
 			id: "55192DBA1B148B8F"
 			rewards: [{
-				exclude_from_claim_all: true
+				exclude_from_claim_all: 1
 				id: "2DA0E0BE6186F27C"
 				table_id: 501834786334198433L
 				type: "choice"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "{autotranslate.ftbquests.gem_shop.quests_0.subtitle}"
 			tasks: [{
-				consume_items: true
+				consume_items: 1
 				id: "0E910380456F764A"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			title: "Augment Gem Shop I"
+			title: "{autotranslate.ftbquests.gem_shop.quests_0.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: 1
 			dependencies: ["727ADA9C4F420BDC"]
 			description: [
-				"This \"quest\" consumes the coin and lets you select a reward from the list."
+				"{autotranslate.ftbquests.gem_shop.quests_1.description_0}"
 				""
 				""
-				"&eThis shop unlocks once you complete \"Acts\" in Act I.&r"
+				"{autotranslate.ftbquests.gem_shop.quests_1.description_3}"
 			]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
+			hide_dependency_lines: 1
+			hide_until_deps_complete: 1
 			icon: "mmorpg:skill_gems/support/str"
 			id: "285E66EF1B070F44"
 			rewards: [{
-				exclude_from_claim_all: true
+				exclude_from_claim_all: 1
 				id: "5FF9697EF1D7FE64"
 				table_id: 6773419606258025386L
 				type: "choice"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "{autotranslate.ftbquests.gem_shop.quests_1.subtitle}"
 			tasks: [{
-				consume_items: true
+				consume_items: 1
 				id: "7FAC4A08A9F84E6E"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
-			title: "Support Gem Shop I"
+			title: "{autotranslate.ftbquests.gem_shop.quests_1.title}"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: 1
 			dependencies: ["114D74DF8284ACC3"]
 			description: [
-				"This \"quest\" consumes the coin and lets you select a reward from the list."
+				"{autotranslate.ftbquests.gem_shop.quests_2.description_0}"
 				""
 				""
-				"&eThis shop unlocks once you complete \"Dark Ritual\" in Act II.&r"
+				"{autotranslate.ftbquests.gem_shop.quests_2.description_3}"
 			]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
+			hide_dependency_lines: 1
+			hide_until_deps_complete: 1
 			icon: "mmorpg:skill_gems/aura/dex"
 			id: "5B5401DA5BD89BCC"
 			rewards: [{
-				exclude_from_claim_all: true
+				exclude_from_claim_all: 1
 				id: "6CD10129BE9897B0"
 				table_id: 7974232006375387374L
 				type: "choice"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "{autotranslate.ftbquests.gem_shop.quests_2.subtitle}"
 			tasks: [{
-				consume_items: true
+				consume_items: 1
 				id: "108033F458256676"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			title: "Augment Gem Shop II"
+			title: "{autotranslate.ftbquests.gem_shop.quests_2.title}"
 			x: 0.0d
 			y: 1.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: 1
 			dependencies: ["114D74DF8284ACC3"]
 			description: [
-				"This \"quest\" consumes the coin and lets you select a reward from the list."
+				"{autotranslate.ftbquests.gem_shop.quests_3.description_0}"
 				""
 				""
-				"&eThis shop unlocks once you complete \"Dark Ritual\" in Act II.&r"
+				"{autotranslate.ftbquests.gem_shop.quests_3.description_3}"
 			]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
+			hide_dependency_lines: 1
+			hide_until_deps_complete: 1
 			icon: "mmorpg:skill_gems/support/dex"
 			id: "76048C827DB71DFA"
 			rewards: [{
-				exclude_from_claim_all: true
+				exclude_from_claim_all: 1
 				id: "42682327F369DF7A"
 				table_id: 6426093941301649037L
 				type: "choice"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "{autotranslate.ftbquests.gem_shop.quests_3.subtitle}"
 			tasks: [{
-				consume_items: true
+				consume_items: 1
 				id: "28E4CDDAD8CAF772"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
-			title: "Support Gem Shop II"
+			title: "{autotranslate.ftbquests.gem_shop.quests_3.title}"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: 1
 			dependencies: ["55F9F418C4CA3B3A"]
 			description: [
-				"This \"quest\" consumes the coin and lets you select a reward from the list."
+				"{autotranslate.ftbquests.gem_shop.quests_4.description_0}"
 				""
 				""
-				"&eThis shop unlocks once you complete \"Captain Cornelia's Locker\" in Act III.&r"
+				"{autotranslate.ftbquests.gem_shop.quests_4.description_3}"
 			]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
+			hide_dependency_lines: 1
+			hide_until_deps_complete: 1
 			icon: "mmorpg:skill_gems/aura/int"
 			id: "7A05F5EA8254C615"
 			rewards: [{
-				exclude_from_claim_all: true
+				exclude_from_claim_all: 1
 				id: "5A40FF86D1CDB293"
 				table_id: 1584215562736554857L
 				type: "choice"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "{autotranslate.ftbquests.gem_shop.quests_4.subtitle}"
 			tasks: [{
-				consume_items: true
+				consume_items: 1
 				id: "49B1944942C92B6A"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
-			title: "Augment Gem Shop III"
+			title: "{autotranslate.ftbquests.gem_shop.quests_4.title}"
 			x: 0.0d
 			y: 3.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: 1
 			dependencies: ["55F9F418C4CA3B3A"]
 			description: [
-				"This \"quest\" consumes the coin and lets you select a reward from the list."
+				"{autotranslate.ftbquests.gem_shop.quests_5.description_0}"
 				""
 				""
-				"&eThis shop unlocks once you complete \"Captain Cornelia's Locker\" in Act III.&r"
+				"{autotranslate.ftbquests.gem_shop.quests_5.description_3}"
 			]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
+			hide_dependency_lines: 1
+			hide_until_deps_complete: 1
 			icon: "mmorpg:skill_gems/support/int"
 			id: "6F018A195B337C80"
 			rewards: [{
-				exclude_from_claim_all: true
+				exclude_from_claim_all: 1
 				id: "5D1DA70AF6728231"
 				table_id: 5185107981486810968L
 				type: "choice"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "{autotranslate.ftbquests.gem_shop.quests_5.subtitle}"
 			tasks: [{
-				consume_items: true
+				consume_items: 1
 				id: "6590FCCB60F53CE9"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
-			title: "Support Gem Shop III"
+			title: "{autotranslate.ftbquests.gem_shop.quests_5.title}"
 			x: 1.5d
 			y: 3.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: 1
 			dependencies: [
 				"30B56119C4EA7398"
 				"09CFBF8766DA4706"
 			]
 			description: [
-				"This \"quest\" consumes the coin and lets you select a reward from the list."
+				"{autotranslate.ftbquests.gem_shop.quests_6.description_0}"
 				""
 				""
-				"&eThis shop unlocks once you complete \"An Uprooting\" &cand&r &e\"Caught in a Web\" in Act IV.&r"
+				"{autotranslate.ftbquests.gem_shop.quests_6.description_3}"
 			]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
+			hide_dependency_lines: 1
+			hide_until_deps_complete: 1
 			icon: "mmorpg:skill_gems/aura/str"
 			id: "4368E5558B062807"
 			rewards: [{
-				exclude_from_claim_all: true
+				exclude_from_claim_all: 1
 				id: "47DE73088AD4C1F4"
 				table_id: 3941102663062641829L
 				type: "choice"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "{autotranslate.ftbquests.gem_shop.quests_6.subtitle}"
 			tasks: [{
-				consume_items: true
+				consume_items: 1
 				id: "4CFE1BFC234987E5"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
-			title: "Augment Gem Shop IV"
+			title: "{autotranslate.ftbquests.gem_shop.quests_6.title}"
 			x: 0.0d
 			y: 4.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: 1
 			dependencies: [
 				"30B56119C4EA7398"
 				"09CFBF8766DA4706"
 			]
 			description: [
-				"This \"quest\" consumes the coin and lets you select a reward from the list."
+				"{autotranslate.ftbquests.gem_shop.quests_7.description_0}"
 				""
 				""
-				"&eThis shop unlocks once you complete \"An Uprooting\" &cand&r &e\"Caught in a Web\" in Act IV.&r"
+				"{autotranslate.ftbquests.gem_shop.quests_7.description_3}"
 			]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
+			hide_dependency_lines: 1
+			hide_until_deps_complete: 1
 			icon: "mmorpg:skill_gems/support/str"
 			id: "56C51AF211DEF478"
 			rewards: [{
-				exclude_from_claim_all: true
+				exclude_from_claim_all: 1
 				id: "07D8239A93D60C13"
 				table_id: 4343783444613774232L
 				type: "choice"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "{autotranslate.ftbquests.gem_shop.quests_7.subtitle}"
 			tasks: [{
-				consume_items: true
+				consume_items: 1
 				id: "2D8C26F083B682EA"
 				item: "lightmanscurrency:coin_netherite"
 				type: "item"
 			}]
-			title: "Support Gem Shop IV"
+			title: "{autotranslate.ftbquests.gem_shop.quests_7.title}"
 			x: 1.5d
 			y: 4.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: 1
 			dependencies: ["1F3C2718AE550D5C"]
 			description: [
-				"This \"quest\" consumes the coin and gives you a &eSINGLE&r random level 60, 80, or 100 &cUnique&r!"
+				"{autotranslate.ftbquests.gem_shop.quests_8.description_0}"
 				""
 				""
-				"&eThis shop unlocks once you complete \"The Master Mastermind\" in the Epilogue.&r"
+				"{autotranslate.ftbquests.gem_shop.quests_8.description_3}"
 			]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
+			hide_dependency_lines: 1
+			hide_until_deps_complete: 1
 			icon: "mmorpg:chest/legendary_gear"
 			id: "2F90341CB7C42085"
 			rewards: [{
-				exclude_from_claim_all: true
+				exclude_from_claim_all: 1
 				id: "7AE40FF82ED7A6D2"
 				table_id: 6102958044406014672L
 				type: "choice"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "{autotranslate.ftbquests.gem_shop.quests_8.subtitle}"
 			tasks: [{
-				consume_items: true
+				consume_items: 1
 				id: "0525293A48F7C0FB"
 				item: "lightmanscurrency:coin_netherite"
 				type: "item"
 			}]
-			title: "Random Unique Shop"
+			title: "{autotranslate.ftbquests.gem_shop.quests_8.title}"
 			x: 0.0d
 			y: 6.0d
 		}
 		{
 			description: [
-				"The Campaign Shop"
+				"{autotranslate.ftbquests.gem_shop.quests_9.description_0}"
 				""
-				"Campaign Shop: exchanges coins for Mine and Slash items"
+				"{autotranslate.ftbquests.gem_shop.quests_9.description_2}"
 				""
-				"They can be unlocked after completing certain Quests or Acts"
+				"{autotranslate.ftbquests.gem_shop.quests_9.description_4}"
 			]
 			id: "5E8D1289340A4B82"
 			rewards: [{
@@ -310,23 +310,23 @@
 			}]
 			tasks: [{
 				id: "12A53CF645688B3E"
-				title: "Click Once Read"
+				title: "{autotranslate.ftbquests.gem_shop.quests_9.tasks_0.title}"
 				type: "checkmark"
 			}]
-			title: "The Campaign Shop"
+			title: "{autotranslate.ftbquests.gem_shop.quests_9.title}"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: 1
 			dependencies: ["7343515F10544FDE"]
 			description: [
-				"A book which compiles the information found in the quests."
+				"{autotranslate.ftbquests.gem_shop.quests_10.description_0}"
 				""
 				""
-				"&eThis shop unlocks once you complete \"Information Compiled\" in the Prologue.&r"
+				"{autotranslate.ftbquests.gem_shop.quests_10.description_3}"
 			]
-			hide_until_deps_complete: true
+			hide_until_deps_complete: 1
 			icon: {
 				Count: 1
 				id: "patchouli:guide_book"
@@ -347,7 +347,7 @@
 				type: "item"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "{autotranslate.ftbquests.gem_shop.quests_10.subtitle}"
 			tasks: [
 				{
 					id: "1CE14A971D0BB892"
@@ -366,10 +366,10 @@
 					type: "item"
 				}
 			]
-			title: "Adventurer Handbook"
+			title: "{autotranslate.ftbquests.gem_shop.quests_10.title}"
 			x: 1.5d
 			y: -1.5d
 		}
 	]
-	title: "Campaign Shop"
+	title: "{autotranslate.ftbquests.gem_shop.title}"
 }

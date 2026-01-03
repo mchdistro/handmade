@@ -1,0 +1,16 @@
+{
+    "name": "과거로의 여행",
+    "icon": "mmorpg:mob_effects/slow",
+    "category": "patchouli:A1lost_pages",
+    "sortnum": 15,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(c:/ftbquests open_book 45501F3F04639DB1)&c$(l)---> 퀘스트 페이지 열기 <--- $(/c)$(br)&r탐험을 위해 오버월드로 돌아가고 싶어도 레벨이 너무 낮아 재미가 없으셨나요? 특정 분기점 레벨에서 과거 차원은 '격노'하여 플레이어가 잠재적으로 돌아가서 과거 차원을 즐길 수 있도록 레벨 범위를 늘립니다!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "&e오버월드&r - 레벨 &b50-70&r$(br)$(br)&e네더&r - 레벨 &b55-75&r$(br)&e언더가든&r - 레벨 &b60-80&r$(br)&e에버브라이트/에버던&r - 레벨 &b65-85&r$(br)&e엔드&r - 레벨 &b70-90&r$(br)&e저편&r - 레벨 &b75-95&r"
+        }
+    ]
+}

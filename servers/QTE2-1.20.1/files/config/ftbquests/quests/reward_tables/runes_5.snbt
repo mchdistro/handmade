@@ -3,8 +3,12 @@
 	loot_size: 1
 	order_index: 46
 	rewards: [
-		{ item: "mmorpg:runes/eno" }
-		{ item: "mmorpg:runes/xer" }
+		{
+			item: "mmorpg:runes/eno"
+		}
+		{
+			item: "mmorpg:runes/xer"
+		}
 	]
-	title: "Runes 5"
+	title: "룬 5"
 }

@@ -1,0 +1,53 @@
+{
+    "name": "MIDI 파일 재생",
+    "icon": "mimi:transmitter",
+    "category": "mimi:1overview",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "MIMI의 가장 좋은 기능 중 하나는 PC에서 MIDI 파일을 쉽게 재생할 수 있다는 것입니다. $(br2)MIDI 파일은 컴퓨터가 읽을 수 있는 디지털 악보 형태와 같으며(종종 노래방 기계에서 사용됨), MIMI에서는 이를 사용하여 악기로 전체 곡을 연주할 수 있습니다.$(br2)MIMI에서 MIDI 파일을 재생하려면 먼저 송신기를 제작해야 합니다."
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "제작법",
+            "recipe": "mimi:transmitter"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "MIDI 파일 찾기",
+            "text": "송신기를 사용하려면 먼저 재생할 MIDI 파일을 구해야 합니다. $(br2)MIDI 파일은 컴퓨터에서 듣는 일반 음악(예: MP3 파일)과 같지 않으며, MIMI는 다른 종류의 음악 파일 재생을 지원하지 않습니다. 일반 음악 파일은 악기가 음표를 연주하는 녹음이지만 MIDI 파일은 음표 자체, 즉 연주 방법에 대한 지시사항입니다."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "MIDI는 오랫동안 사용되어 왔기 때문에 온라인에서 많은 곡을 구할 수 있지만, MIDI 파일이 생성된 최신 곡을 찾기는 어려울 수 있습니다. 다음은 많은 무료 MIDI 파일을 제공하는 사이트 링크입니다. $(br2)1. $(l:https://bitmidi.com/)BitMidi.com$()$(br)2. $(l:https://freemidi.org/)FreeMidi.org$()$(br)3. $(l:https://www.midiworld.com/files/)MidiWorld.com$()$(br)4. $(l:https://freemidis.net)FreeMidis.net$()$(br)5. $(l:https://midifind.com/)MidiFind.com$()$(br2)Google에서 더 쉽게 찾을 수 있습니다!"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "송신기 사용",
+            "text": "송신기를 손에 들고 우클릭하여 여세요. $(br2)송신기 화면에서는 MIMI의 \"midi_files\" 폴더에 있는 MIDI 파일을 모두 보고 재생할 수 있습니다. 멀티플레이어에서는 접속한 서버에서 제공하는 파일도 볼 수 있습니다.$(br2)PC에서 곡을 추가하려면 왼쪽 상단 모서리에 있는 폴더 버튼을 클릭하여 MIMI의 \"midi_files\" 폴더를 열고 MIDI 파일을 넣으세요."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "폴더에 파일을 넣은 후, 오른쪽 상단의 새로 고침 버튼을 클릭하면 MIMI가 송신기의 재생 목록에 곡을 불러옵니다. $(br2)왼쪽 하단의 재생 목록 컨트롤을 사용하여 곡을 선택하고 재생하고 (반복 및 셔플 모드를 전환하세요).$(br2)오른쪽 상단의 버튼을 사용하여 소스(PC 또는 서버) 및 즐겨찾기(선택한 곡 이름 옆에 있는 하트 버튼으로 설정)별로 목록을 필터링할 수 있습니다."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "악기 연결",
+            "text": "마지막 단계는 악기를 송신기에 연결하는 것입니다. 악기 화면을 열고 편집(연필) 버튼을 클릭하여 악기의 MIDI 설정을 불러오세요. $(br2)왼쪽 하단 모서리에서 \"ME\" 버튼을 클릭하여 악기를 송신기에 연결하세요.$(br2)이제 곡이 들릴 것입니다!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "악기 재생이 시작되면 악기 화면을 닫을 수 있으며, (휴대용 악기의 경우) 한 손에 계속 들고 있거나 (블록 악기의 경우) 계속 앉아 있는 한 계속 재생됩니다. 즉, 최대 3개의 악기를 동시에 연주할 수 있습니다! $(br2)송신기는 계속 재생하려면 손 중 하나에 있거나 단축 바에 있어야 합니다. 키 바인드를 사용하면 언제든지 송신기 화면을 열 수 있습니다($(bold)$(k:key.mimi.midi.gui.transmitter)$())."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "채널 변경",
+            "text": "MIDI 채널은 곡의 개별 파트(예: 가수, 리드 기타, 드럼)를 나타냅니다. 일부 MIDI 파일은 16개 채널을 모두 사용하는 반면 다른 파일은 1개만 사용할 수 있습니다. 채널 10은 항상 드럼용으로 예약되어 있습니다. $(br2)곡의 송신기 화면에서 채널 할당을 살펴보면 어떤 MIMI 악기가 어떤 채널에 가장 잘 어울릴지 결정하는 데 도움이 됩니다."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "각 악기에서 특정 채널을 활성화 및 비활성화하여 곡의 사운드를 리믹스해 보세요. $(br2)채널 10은 항상 드럼에 사용되므로 다른 악기에서 활성화하면 소리가 좋지 않을 수 있습니다."
+        }
+    ],
+    "sortnum": 3
+}

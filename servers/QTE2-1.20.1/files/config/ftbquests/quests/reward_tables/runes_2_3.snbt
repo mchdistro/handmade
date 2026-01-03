@@ -3,8 +3,12 @@
 	loot_size: 1
 	order_index: 44
 	rewards: [
-		{ item: "mmorpg:runes/ano" }
-		{ item: "mmorpg:runes/fey" }
+		{
+			item: "mmorpg:runes/ano"
+		}
+		{
+			item: "mmorpg:runes/fey"
+		}
 	]
-	title: "Runes 3"
+	title: "룬 3"
 }

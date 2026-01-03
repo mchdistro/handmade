@@ -11,7 +11,7 @@
 					mmorpg_skill_gem: "{\"id\":\"taunt\",\"type\":\"SKILL\",\"perc\":30,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Taunt"
+			title: "도발"
 		}
 		{
 			item: {
@@ -21,7 +21,7 @@
 					mmorpg_skill_gem: "{\"id\":\"quickdraw\",\"type\":\"SKILL\",\"perc\":34,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Quickdraw"
+			title: "속사"
 		}
 		{
 			item: {
@@ -31,8 +31,8 @@
 					mmorpg_skill_gem: "{\"id\":\"poison_ball\",\"type\":\"SKILL\",\"perc\":32,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "Poison Ball"
+			title: "독 구슬"
 		}
 	]
-	title: "Skill Gems 5"
+	title: "스킬 젬 5"
 }

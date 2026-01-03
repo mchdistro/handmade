@@ -6,30 +6,30 @@
 		{
 			auto: "enabled"
 			command: "/mine_and_slash give unique_gear @p random 60 1"
-			elevate_perms: true
+			elevate_perms: 1
 			icon: "mmorpg:chest/legendary_gear"
-			silent: true
-			title: "Randomized Unique (Lv. 60)"
+			silent: 1
+			title: "무작위 유니크 (레벨 60)"
 			type: "command"
 		}
 		{
 			auto: "enabled"
 			command: "/mine_and_slash give unique_gear @p random 80 1"
-			elevate_perms: true
+			elevate_perms: 1
 			icon: "mmorpg:chest/legendary_gear"
-			silent: true
-			title: "Randomized Unique (Lv. 80)"
+			silent: 1
+			title: "무작위 유니크 (레벨 80)"
 			type: "command"
 		}
 		{
 			auto: "enabled"
 			command: "/mine_and_slash give unique_gear @p random 100 1"
-			elevate_perms: true
+			elevate_perms: 1
 			icon: "mmorpg:chest/legendary_gear"
-			silent: true
-			title: "Randomized Unique (Lv. 100)"
+			silent: 1
+			title: "무작위 유니크 (레벨 100)"
 			type: "command"
 		}
 	]
-	title: "Randomized Unique Shop"
+	title: "무작위 유니크 상점"
 }
