@@ -1147,11 +1147,11 @@
     },
     {
       "id": "QTE2-1.20.1",
-      "name": "QTE2 모드팩",
+      "name": "CTE2 모드팩",
       "description": "Minecraft 1.20.1 (Forge v47.4.10)",
       "icon": "https://github.com/mchdistro/handmade/raw/main/icon.png",
       "version": "1.1.3",
-      "address": "mc.gotiger.dev:20012",
+      "address": "mc.gotiger.dev:20149",
       "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -1591,7 +1591,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 6772753,
-            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/%5Bforge%5Dctov-3.4.14.jar",
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/[forge]ctov-3.4.14.jar",
             "MD5": "382d0881db0828470c219dd5d0789132"
           }
         },
@@ -2001,7 +2001,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 11816101,
-            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/born_in_chaos_%5BForge%5D1.20.1_1.7.2.jar",
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/born_in_chaos_[Forge]1.20.1_1.7.2.jar",
             "MD5": "53c0274da230c0b83864a8f1043d0a60"
           }
         },
@@ -94621,7 +94621,7 @@
           "type": "File",
           "artifact": {
             "size": 33118,
-            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/files/resourcepacks/Adventurer'sChest_v2%5BLootr%5D.zip",
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/files/resourcepacks/Adventurer'sChest_v2[Lootr].zip",
             "MD5": "74142ddbab2fa7bca3a7e3015f5a2422",
             "path": "resourcepacks/Adventurer'sChest_v2[Lootr].zip"
           }
@@ -94818,9 +94818,9 @@
           "name": "servers.dat",
           "type": "File",
           "artifact": {
-            "size": 7009,
+            "size": 7027,
             "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/files/servers.dat",
-            "MD5": "4ccf2066724bca574c0ed91aa783374c",
+            "MD5": "7033a79bb6a48f77801fbcdbd07c3b61",
             "path": "servers.dat"
           }
         },
