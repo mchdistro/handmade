@@ -3176,6 +3176,16 @@
           }
         },
         {
+          "id": "gg.chaldea.client.reset.packet:clientresetpacket:0.0.6@jar",
+          "name": "Client Reset Packet",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 12869,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/ForgeClientResetPacket-0.3.1.jar",
+            "MD5": "a5957f3448beeae5a07a4924f7f30e95"
+          }
+        },
+        {
           "id": "fuzs.forgeconfigscreens:forgeconfigscreens:8.0.2@jar",
           "name": "Forge Config Screens",
           "type": "ForgeMod",
@@ -3406,6 +3416,16 @@
           }
         },
         {
+          "id": "com.gitter:gtnick:1.0.0@jar",
+          "name": "GTNick Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 95291,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/gtnick-forge-1.20.1-2.0.4.jar",
+            "MD5": "fb9a619eae996810884ed13f01c5da35"
+          }
+        },
+        {
           "id": "com.gitter:gtrandombox:Forge-1.20.1-1.0.0@jar",
           "name": "GtRandomBox",
           "type": "ForgeMod",
@@ -3413,6 +3433,16 @@
             "size": 253001,
             "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/GtRandomBox-Forge-1.20.1-1.0.0.jar",
             "MD5": "e568b50302e3a11d8c9ba123267a1ec0"
+          }
+        },
+        {
+          "id": "dlr.delarosaplay:guardstone:1.0.1@jar",
+          "name": "GuardStone",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 280938,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/Guardstone.jar",
+            "MD5": "bac301c4798ccf231fa0a161bcdc7466"
           }
         },
         {
@@ -4423,16 +4453,6 @@
             "size": 282474,
             "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/Placebo-1.20.1-8.6.3.jar",
             "MD5": "13133ab9989e8474931cd7a86bd19cc5"
-          }
-        },
-        {
-          "id": "su.plo.voice:plasmovoice:2.1.8@jar",
-          "name": "Plasmo Voice",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 12182458,
-            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/plasmovoice-forge-1.20.1-2.1.8.jar",
-            "MD5": "234d1a76ae25f5efc220ac879981c7e0"
           }
         },
         {
