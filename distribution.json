@@ -3420,9 +3420,9 @@
           "name": "GTNick Mod",
           "type": "ForgeMod",
           "artifact": {
-            "size": 95291,
+            "size": 95944,
             "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/gtnick-forge-1.20.1-2.0.4.jar",
-            "MD5": "fb9a619eae996810884ed13f01c5da35"
+            "MD5": "14c559303eeb67cfa0d12814bfea5ebf"
           }
         },
         {
