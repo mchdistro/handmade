@@ -11,7 +11,7 @@
 					mmorpg_skill_gem: "{\"id\":\"rejuv_totem\",\"type\":\"SKILL\",\"perc\":26,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "활력 토템"
+			title: "회복 토템"
 		}
 		{
 			item: {
@@ -21,7 +21,7 @@
 					mmorpg_skill_gem: "{\"id\":\"fire_trap\",\"type\":\"SKILL\",\"perc\":31,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "화염 덫"
+			title: "불 덫"
 		}
 		{
 			item: {
@@ -31,7 +31,7 @@
 					mmorpg_skill_gem: "{\"id\":\"frost_nova\",\"type\":\"SKILL\",\"perc\":29,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "서리 노바"
+			title: "서리 폭발"
 		}
 		{
 			item: {
@@ -41,8 +41,8 @@
 					mmorpg_skill_gem: "{\"id\":\"arrow_barrage\",\"type\":\"SKILL\",\"perc\":13,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "화살 세례"
+			title: "화살 집중 사격"
 		}
 	]
-	title: "스킬 젬 1"
+	title: "스킬 보석 1"
 }

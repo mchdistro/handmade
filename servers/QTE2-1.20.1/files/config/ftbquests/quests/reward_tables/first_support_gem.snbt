@@ -18,7 +18,7 @@
 					mmorpg_skill_gem: "{\"id\":\"burn_chance\",\"type\":\"SUPPORT\",\"perc\":37,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "화상 확률 보조 젬"
+			title: "연소 확률 보조 보석"
 		}
 		{
 			item: {
@@ -28,7 +28,7 @@
 					mmorpg_skill_gem: "{\"id\":\"bleed_chance\",\"type\":\"SUPPORT\",\"perc\":38,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "출혈 확률 보조 젬"
+			title: "출혈 확률 보조 보석"
 		}
 		{
 			item: {
@@ -38,8 +38,8 @@
 					mmorpg_skill_gem: "{\"id\":\"accuracy\",\"type\":\"SUPPORT\",\"perc\":34,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "명중 보조 젬"
+			title: "정확도 보조 보석"
 		}
 	]
-	title: "처음 보조 젬"
+	title: "첫 번째 보조 보석"
 }

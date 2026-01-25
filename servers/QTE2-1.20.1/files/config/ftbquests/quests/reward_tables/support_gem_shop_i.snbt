@@ -11,7 +11,7 @@
 					mmorpg_skill_gem: "{\"id\":\"bleed_chance\",\"type\":\"SUPPORT\",\"perc\":11,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "출혈 확률 보조 젬"
+			title: "출혈 확률 보조 보석"
 		}
 		{
 			item: {
@@ -21,7 +21,7 @@
 					mmorpg_skill_gem: "{\"id\":\"burn_chance\",\"type\":\"SUPPORT\",\"perc\":17,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "화상 확률 보조 젬"
+			title: "연소 확률 보조 보석"
 		}
 		{
 			item: {
@@ -31,7 +31,7 @@
 					mmorpg_skill_gem: "{\"id\":\"crit_chance\",\"type\":\"SUPPORT\",\"perc\":25,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "치명타 확률 보조 젬"
+			title: "치명타 확률 보조 보석"
 		}
 		{
 			item: {
@@ -41,7 +41,7 @@
 					mmorpg_skill_gem: "{\"id\":\"dot_damage\",\"type\":\"SUPPORT\",\"perc\":19,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "지속 피해 보조 젬"
+			title: "지속 피해 보조 보석"
 		}
 		{
 			item: {
@@ -51,7 +51,7 @@
 					mmorpg_skill_gem: "{\"id\":\"electrify_chance\",\"type\":\"SUPPORT\",\"perc\":20,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "감전 확률 보조 젬"
+			title: "감전 확률 보조 보석"
 		}
 		{
 			item: {
@@ -61,7 +61,7 @@
 					mmorpg_skill_gem: "{\"id\":\"energy_on_hit\",\"type\":\"SUPPORT\",\"perc\":14,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "에너지 흡수 보조 젬"
+			title: "에너지 흡수 보조 보석"
 		}
 		{
 			item: {
@@ -71,7 +71,7 @@
 					mmorpg_skill_gem: "{\"id\":\"freeze_chance\",\"type\":\"SUPPORT\",\"perc\":25,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "빙결 확률 보조 젬"
+			title: "동결 확률 보조 보석"
 		}
 		{
 			item: {
@@ -81,7 +81,7 @@
 					mmorpg_skill_gem: "{\"id\":\"proc_freeze\",\"type\":\"SUPPORT\",\"perc\":16,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "얼음 깨기 보조 젬"
+			title: "얼음 파괴자 보조 보석"
 		}
 		{
 			item: {
@@ -91,7 +91,7 @@
 					mmorpg_skill_gem: "{\"id\":\"health_on_hit\",\"type\":\"SUPPORT\",\"perc\":22,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "체력 흡수 보조 젬"
+			title: "체력 흡수 보조 보석"
 		}
 		{
 			item: {
@@ -101,7 +101,7 @@
 					mmorpg_skill_gem: "{\"id\":\"lmp\",\"type\":\"SUPPORT\",\"perc\":13,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "더 작은 다중 발사체 보조 젬"
+			title: "하급 다중 투사체 보조 보석"
 		}
 		{
 			item: {
@@ -111,7 +111,7 @@
 					mmorpg_skill_gem: "{\"id\":\"magic_shield_on_hit\",\"type\":\"SUPPORT\",\"perc\":16,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "타격 시 마법 보호막 보조 젬"
+			title: "피격 시 마법 방패 보조 보석"
 		}
 		{
 			item: {
@@ -121,7 +121,7 @@
 					mmorpg_skill_gem: "{\"id\":\"mana_on_hit\",\"type\":\"SUPPORT\",\"perc\":22,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "마나 흡수 보조 젬"
+			title: "마나 흡수 보조 보석"
 		}
 		{
 			item: {
@@ -131,7 +131,7 @@
 					mmorpg_skill_gem: "{\"id\":\"small_cdr\",\"type\":\"SUPPORT\",\"perc\":22,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "더 작은 재사용 대기시간 감소 보조 젬"
+			title: "소량 재사용 대기시간 보조 보석"
 		}
 		{
 			item: {
@@ -141,7 +141,7 @@
 					mmorpg_skill_gem: "{\"id\":\"poison_chance\",\"type\":\"SUPPORT\",\"perc\":12,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "독 확률 보조 젬"
+			title: "독 확률 보조 보석"
 		}
 		{
 			item: {
@@ -151,7 +151,7 @@
 					mmorpg_skill_gem: "{\"id\":\"totem_dmg_cdr\",\"type\":\"SUPPORT\",\"perc\":25,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "준비된 토템 보조 젬"
+			title: "준비된 토템 보조 보석"
 		}
 		{
 			item: {
@@ -161,7 +161,7 @@
 					mmorpg_skill_gem: "{\"id\":\"proc_shock\",\"type\":\"SUPPORT\",\"perc\":21,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "감전 보조 젬"
+			title: "감전 보조 보석"
 		}
 		{
 			item: {
@@ -171,7 +171,7 @@
 					mmorpg_skill_gem: "{\"id\":\"summon_duration\",\"type\":\"SUPPORT\",\"perc\":15,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "소환 지속시간 보조 젬"
+			title: "소환 지속 시간 보조 보석"
 		}
 		{
 			item: {
@@ -181,7 +181,7 @@
 					mmorpg_skill_gem: "{\"id\":\"summon_health\",\"type\":\"SUPPORT\",\"perc\":23,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "소환수 생명력 보조 젬"
+			title: "소환수 체력 보조 보석"
 		}
 		{
 			item: {
@@ -191,7 +191,7 @@
 					mmorpg_skill_gem: "{\"id\":\"accuracy\",\"type\":\"SUPPORT\",\"perc\":22,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "명중 보조 젬"
+			title: "정확도 보조 보석"
 		}
 		{
 			item: {
@@ -201,8 +201,8 @@
 					mmorpg_skill_gem: "{\"id\":\"faster_attacks\",\"type\":\"SUPPORT\",\"perc\":18,\"rar\":\"common\",\"links\":1}"
 				}
 			}
-			title: "더 빠른 공격 속도 보조 젬"
+			title: "빠른 공격 보조 보석"
 		}
 	]
-	title: "보조 젬 상점 I"
+	title: "보조 보석 상점 I"
 }

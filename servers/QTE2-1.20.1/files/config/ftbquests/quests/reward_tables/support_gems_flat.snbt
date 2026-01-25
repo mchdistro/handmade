@@ -11,7 +11,7 @@
 					mmorpg_skill_gem: "{\"id\":\"fire_flat_dmg\",\"type\":\"SUPPORT\",\"perc\":10,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "화염 피해 추가 보조 젬"
+			title: "추가 불 피해 보조 보석"
 		}
 		{
 			item: {
@@ -21,7 +21,7 @@
 					mmorpg_skill_gem: "{\"id\":\"water_flat_dmg\",\"type\":\"SUPPORT\",\"perc\":10,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "고정 냉기 피해 보조 젬"
+			title: "고정 냉기 피해 보조 보석"
 		}
 		{
 			item: {
@@ -31,8 +31,8 @@
 					mmorpg_skill_gem: "{\"id\":\"lightning_flat_dmg\",\"type\":\"SUPPORT\",\"perc\":23,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "고정 번개 피해 보조 젬"
+			title: "고정 벼락 피해 보조 보석"
 		}
 	]
-	title: "추가 피해 보조 젬"
+	title: "고정 보조 보석"
 }

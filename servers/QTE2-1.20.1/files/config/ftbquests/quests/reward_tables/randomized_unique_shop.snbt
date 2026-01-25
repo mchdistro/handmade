@@ -9,7 +9,7 @@
 			elevate_perms: 1
 			icon: "mmorpg:chest/legendary_gear"
 			silent: 1
-			title: "무작위 유니크 (레벨 60)"
+			title: "무작위 고유 (Lv. 60)"
 			type: "command"
 		}
 		{
@@ -18,7 +18,7 @@
 			elevate_perms: 1
 			icon: "mmorpg:chest/legendary_gear"
 			silent: 1
-			title: "무작위 유니크 (레벨 80)"
+			title: "무작위 고유 (Lv. 80)"
 			type: "command"
 		}
 		{
@@ -27,9 +27,9 @@
 			elevate_perms: 1
 			icon: "mmorpg:chest/legendary_gear"
 			silent: 1
-			title: "무작위 유니크 (레벨 100)"
+			title: "무작위 고유 (Lv. 100)"
 			type: "command"
 		}
 	]
-	title: "무작위 유니크 상점"
+	title: "무작위 고유 상점"
 }

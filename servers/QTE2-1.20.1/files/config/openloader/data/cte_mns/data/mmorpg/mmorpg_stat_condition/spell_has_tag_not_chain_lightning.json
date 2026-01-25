@@ -1,8 +1,0 @@
-{
-  "id": "spell_has_tag_not_chain_lightning",
-  "is": false,
-  "ser": "spell_has_tag",
-  "tag": {
-    "id": "chain_lightning"
-  }
-}

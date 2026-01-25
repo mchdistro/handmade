@@ -1,9 +1,0 @@
-{
-    "fluidTransform": {},
-    "itemTransform": {
-        "aquaculturedelight:small_turtle_meat": {
-            "next": "cooked_small_turtle_meat",
-            "stage": "COOKED"
-        }                 
-    }
-}

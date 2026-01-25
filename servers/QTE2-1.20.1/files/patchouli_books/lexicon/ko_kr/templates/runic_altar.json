@@ -13,7 +13,7 @@
         },
         {
             "type": "patchouli:header",
-            "text": "#heading",
+            "text": "#제목",
             "x": -1,
             "y": -1
         },
@@ -63,7 +63,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "#text",
+            "text": "#텍스트",
             "y": 134
         }
     ]

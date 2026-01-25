@@ -1,7 +1,7 @@
 {
-    "treat.dire_treat.level_up": "친밀도 증가!",
-    "treat.dire_treat.max_level": "축하합니다! 당신의 개가 이제 당신에게 완전히 충성합니다!",
-    "treat.normal_treat.level_up": "친밀도 증가!",
+    "treat.dire_treat.level_up": "친밀도 상승!",
+    "treat.dire_treat.max_level": "축하합니다! 당신의 강아지가 이제 당신에게 완전히 충성합니다!",
+    "treat.normal_treat.level_up": "친밀도 상승!",
     "doggui.level": "친밀도:",
-    "doggui.leveldire": "극심한 친밀도:"
+    "doggui.leveldire": "강렬한 친밀도:"
 }

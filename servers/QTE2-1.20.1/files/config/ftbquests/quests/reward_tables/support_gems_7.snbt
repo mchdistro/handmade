@@ -11,7 +11,7 @@
 					mmorpg_skill_gem: "{\"id\":\"crit_dmg_less_non_crit_dmg\",\"type\":\"SUPPORT\",\"perc\":36,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "확신에 찬 파멸 보조 젬"
+			title: "확신에 찬 파멸 보조 보석"
 		}
 		{
 			item: {
@@ -21,7 +21,7 @@
 					mmorpg_skill_gem: "{\"id\":\"gmp\",\"type\":\"SUPPORT\",\"perc\":35,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "상위 다중 발사체 보조 젬"
+			title: "상급 다중 투사체 보조 보석"
 		}
 		{
 			item: {
@@ -31,7 +31,7 @@
 					mmorpg_skill_gem: "{\"id\":\"spell_damage\",\"type\":\"SUPPORT\",\"perc\":28,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "스킬 피해 보조 젬"
+			title: "스킬 피해 보조 보석"
 		}
 		{
 			item: {
@@ -41,8 +41,8 @@
 					mmorpg_skill_gem: "{\"id\":\"cluster_traps\",\"type\":\"SUPPORT\",\"perc\":38,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "군집 덫 보조 젬"
+			title: "군집 덫 보조 보석"
 		}
 	]
-	title: "보조 젬 7"
+	title: "보조 보석 7"
 }

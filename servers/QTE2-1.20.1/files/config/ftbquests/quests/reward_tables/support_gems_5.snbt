@@ -11,7 +11,7 @@
 					mmorpg_skill_gem: "{\"id\":\"fire_pene\",\"type\":\"SUPPORT\",\"perc\":28,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "화염 관통 보조 젬"
+			title: "불 관통 보조 보석"
 		}
 		{
 			item: {
@@ -21,7 +21,7 @@
 					mmorpg_skill_gem: "{\"id\":\"water_pene\",\"type\":\"SUPPORT\",\"perc\":39,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "냉기 관통 보조 젬"
+			title: "냉기 관통 보조 보석"
 		}
 		{
 			item: {
@@ -31,7 +31,7 @@
 					mmorpg_skill_gem: "{\"id\":\"lightning_pene\",\"type\":\"SUPPORT\",\"perc\":27,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "번개 관통 보조 젬"
+			title: "벼락 관통 보조 보석"
 		}
 		{
 			item: {
@@ -41,8 +41,8 @@
 					mmorpg_skill_gem: "{\"id\":\"chaos_pene\",\"type\":\"SUPPORT\",\"perc\":27,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "카오스 관통 보조 젬"
+			title: "혼돈 관통 보조 보석"
 		}
 	]
-	title: "보조 젬 5"
+	title: "보조 보석 5"
 }

@@ -11,7 +11,7 @@
 					mmorpg_skill_gem: "{\"id\":\"totem_dmg_cdr\",\"type\":\"SUPPORT\",\"perc\":39,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "준비된 토템 보조 젬"
+			title: "준비된 토템 보조 보석"
 		}
 		{
 			item: {
@@ -21,7 +21,7 @@
 					mmorpg_skill_gem: "{\"id\":\"lmp\",\"type\":\"SUPPORT\",\"perc\":30,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "하위 다중 발사체 보조 젬"
+			title: "하급 다중 투사체 보조 보석"
 		}
 		{
 			item: {
@@ -31,7 +31,7 @@
 					mmorpg_skill_gem: "{\"id\":\"poison_chance\",\"type\":\"SUPPORT\",\"perc\":31,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "독 확률 보조 젬"
+			title: "독 확률 보조 보석"
 		}
 		{
 			item: {
@@ -41,8 +41,8 @@
 					mmorpg_skill_gem: "{\"id\":\"summon_duration\",\"type\":\"SUPPORT\",\"perc\":39,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "소환 지속시간 보조 젬"
+			title: "소환 지속 시간 보조 보석"
 		}
 	]
-	title: "보조 젬 2"
+	title: "보조 보석 2"
 }

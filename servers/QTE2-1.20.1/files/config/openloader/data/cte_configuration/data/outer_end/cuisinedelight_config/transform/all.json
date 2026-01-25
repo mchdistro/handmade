@@ -1,9 +1,0 @@
-{
-    "fluidTransform": {},
-    "itemTransform": {
-        "outer_end:stalker_meat": {
-            "next": "outer_end:cooked_stalker_meat",
-            "stage": "COOKED"
-        }
-    }
-}

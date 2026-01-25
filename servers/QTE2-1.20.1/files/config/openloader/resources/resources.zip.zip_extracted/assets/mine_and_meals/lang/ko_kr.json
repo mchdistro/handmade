@@ -1,6 +1,6 @@
 {
-    "effect.mine_and_meals.dairy_2.description": "에너지 재생+",
-    "effect.mine_and_meals.dairy_1.description": "에너지 재생",
+    "effect.mine_and_meals.dairy_2.description": "에너지 재생+ (퍼센트)",
+    "effect.mine_and_meals.dairy_1.description": "에너지 재생 (퍼센트)",
     "effect.mine_and_meals.tea_2.description": "치명타 (고정)",
     "effect.mine_and_meals.tea_1.description": "치명타+ (고정)",
     "effect.mine_and_meals.sugar_1.description": "아이템 발견 (고정)",
@@ -11,8 +11,8 @@
     "effect.mine_and_meals.ice_2.description": "냉기 피해+ (고정)",
     "effect.mine_and_meals.alcohol_1.description": "경험치 획득 (고정)",
     "effect.mine_and_meals.alcohol_2.description": "경험치 획득+ (고정)",
-    "effect.mine_and_meals.fruit_2.description": "마나 재생+",
-    "effect.mine_and_meals.fruit_1.description": "마나 재생",
+    "effect.mine_and_meals.fruit_2.description": "마나 재생+ (퍼센트)",
+    "effect.mine_and_meals.fruit_1.description": "마나 재생 (퍼센트)",
     "effect.mine_and_meals.meat_2.description": "체력 재생+ (퍼센트)",
     "effect.mine_and_meals.meat_1.description": "체력 재생 (퍼센트)",
     "effect.mine_and_meals.grain_2.description": "체력+ (퍼센트)",
@@ -23,8 +23,8 @@
     "effect.mine_and_meals.vegetable_2.description": "마나+ (퍼센트)",
     "effect.mine_and_meals.spice_2.description": "불 피해+ (고정)",
     "effect.mine_and_meals.spice_1.description": "불 피해 (고정)",
-    "effect.mine_and_meals.sparkling_2.description": "번개 피해+ (고정)",
-    "effect.mine_and_meals.sparkling_1.description": "번개 피해 (고정)",
+    "effect.mine_and_meals.sparkling_2.description": "벼락 피해+ (고정)",
+    "effect.mine_and_meals.sparkling_1.description": "벼락 피해 (고정)",
     "effect.mine_and_meals.fried_2.description": "물리 피해+ (고정)",
     "effect.mine_and_meals.fried_1.description": "물리 피해 (고정)"
 }

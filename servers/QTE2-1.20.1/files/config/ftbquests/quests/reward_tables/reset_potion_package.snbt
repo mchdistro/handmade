@@ -17,6 +17,6 @@
 			item: "mmorpg:potions/full_reset_stat"
 		}
 	]
-	title: "초기화 물약 패키지 (4개 아이템)"
+	title: "초기화 물약 패키지 (아이템 4개)"
 	use_title: 1
 }

@@ -11,7 +11,7 @@
 					mmorpg_skill_gem: "{\"id\":\"guardian\",\"type\":\"AURA\",\"perc\":32,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "활력 오그먼트"
+			title: "활력 증강"
 		}
 		{
 			item: {
@@ -21,7 +21,7 @@
 					mmorpg_skill_gem: "{\"id\":\"ele_res\",\"type\":\"AURA\",\"perc\":27,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "원소 방벽 오그먼트"
+			title: "원소 방벽 증강"
 		}
 		{
 			item: {
@@ -31,7 +31,7 @@
 					mmorpg_skill_gem: "{\"id\":\"summon_dmg\",\"type\":\"AURA\",\"perc\":30,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "오버로드 오그먼트"
+			title: "지배자 증강"
 		}
 		{
 			item: {
@@ -41,8 +41,8 @@
 					mmorpg_skill_gem: "{\"id\":\"block\",\"type\":\"AURA\",\"perc\":34,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "가디언 오그먼트"
+			title: "가디언 증강"
 		}
 	]
-	title: "오그먼트 젬 3"
+	title: "증강 보석 3"
 }

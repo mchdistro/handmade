@@ -1,8 +1,0 @@
-{
-  "id": "spell_has_tag_not_gong_strike",
-  "is": false,
-  "ser": "spell_has_tag",
-  "tag": {
-    "id": "gong_strike"
-  }
-}

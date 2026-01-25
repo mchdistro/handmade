@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "이 섹션에서는 MIMI에서 현재 사용 가능한 각 악기의 제작법을 알파벳순으로 나열합니다."
+            "text": "이 섹션에는 현재 MIMI에서 사용할 수 있는 각 악기의 제작법이 알파벳순으로 나열되어 있습니다."
         },
         {
             "type": "patchouli:crafting",

@@ -18,7 +18,7 @@
 					mmorpg_skill_gem: "{\"id\":\"mana_reg\",\"type\":\"AURA\",\"perc\":14,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "마나 재생 오그먼트"
+			title: "마나 재생 증강"
 		}
 		{
 			item: {
@@ -28,8 +28,8 @@
 					mmorpg_skill_gem: "{\"id\":\"energy_reg\",\"type\":\"AURA\",\"perc\":14,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "에너지 재생 오그먼트"
+			title: "에너지 재생 증강"
 		}
 	]
-	title: "처음 오그먼트 젬"
+	title: "첫 번째 증강 보석"
 }

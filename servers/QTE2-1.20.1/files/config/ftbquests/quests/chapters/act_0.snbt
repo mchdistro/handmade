@@ -749,6 +749,15 @@
 					id: "minecraft:golden_hoe"
 					tag: {
 						Damage: 0
+						display: {
+							Lore: [
+								"{\"text\":\"Right-click to set Claim Point\",\"color\":\"light_purple\",\"italic\":false}"
+								"{\"text\":\"Click separate corners of your Base/Home to setup claim\",\"color\":\"green\",\"italic\":false}"
+								"{\"text\":\"Edit claim permissions by using the command\",\"color\":\"gold\",\"italic\":false}"
+								"{\"text\":\"/flan menu\",\"color\":\"white\",\"italic\":false}"
+							]
+							Name: "{\"text\":\"Claiming Hoe\",\"color\":\"gold\",\"italic\":false}"
+						}
 					}
 				}
 				type: "item"

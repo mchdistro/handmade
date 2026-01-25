@@ -1,8 +1,0 @@
-{
-  "id": "spell_has_tag_not_pull",
-  "is": false,
-  "ser": "spell_has_tag",
-  "tag": {
-    "id": "pedipalps"
-  }
-}

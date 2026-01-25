@@ -1,7 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    {"id":"italydelight:tiramisu","required":false},
-    {"id":"delightful:smore","required":false }
-  ]
-}

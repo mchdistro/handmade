@@ -10,8 +10,8 @@
     "ownerTransferFail": "영토 소유자만이 영토를 양도할 수 있습니다",
     "ownerTransferNoBlocks": "새 영토 소유자에게 충분한 영토 블록이 없습니다",
     "ownerTransferNoBlocksAdmin": "관리자 모드로 전환하여 이 기능을 비활성화할 수 있습니다",
-    "noSuchLevel": "ID %s의 차원이 존재하지 않습니다.",
-    "noSuchPlayer": "UUID/이름 %s의 플레이어가 존재하지 않습니다.",
+    "noSuchLevel": "ID %s을(를) 가진 차원이 존재하지 않습니다.",
+    "noSuchPlayer": "UUID/이름 %s을(를) 가진 플레이어가 존재하지 않습니다.",
     "claimCreationFailCommand": "이 위치에 클레임을 생성할 수 없습니다.",
     "noPermission": "여기에서 이 작업을 수행할 권한이 없습니다!",
     "noPermissionSimple": "죄송합니다. 여기에서 이 작업을 수행할 수 없습니다!",
@@ -27,8 +27,8 @@
     "conflictOther": "이 영토는 다른 영토와 겹칩니다",
     "wrongMode": "잘못된 영토 모드입니다. 현재 %1$s 모드에 있습니다",
     "stringScreenReturn": "손에 든 종이를 클릭하여 돌아가기",
-    "conflictSpawn": "클레임이 스폰 보호 구역을 생성합니다.",
-    "claimCooldown": "다른 클레임을 생성하기 전에 %s틱을 기다려야 합니다.",
+    "conflictSpawn": "클레임이 생성 영역 보호 구역을 생성합니다.",
+    "claimCooldown": "다른 클레임을 생성하기 전에 %s 틱을 기다려야 합니다.",
     "groupAdd": "그룹 %1$s이(가) 추가되었습니다",
     "groupRemove": "그룹 %1$s이(가) 삭제되었습니다",
     "groupExist": "이 그룹은 이미 존재합니다",
@@ -47,13 +47,13 @@
     "deleteAllClaim": "모든 영토가 삭제되었습니다",
     "deleteClaimError": "여기에서 이 영토를 삭제할 수 없습니다",
     "deleteSubClaim": "하위 영토가 삭제되었습니다",
-    "deleteSubClaimError": "여기에 하위 클레임이 없습니다. 클레임 모드를 전환하여 메인 클레임을 삭제하세요.",
+    "deleteSubClaimError": "여기에 하위 클레임이 없습니다. 메인 클레임을 삭제하려면 클레임 모드를 전환하세요.",
     "deleteSubClaimAll": "모든 주 영토 아래의 하위 영토가 삭제되었습니다",
     "noSuchPerm": "충분한 권한이 없습니다: %1$s",
     "editPerm": "%1$s이(가) 이제 %2$s로 설정되었습니다",
     "editPermGroup": "%1$s의 %2$s이(가) 이제 %3$s로 설정되었습니다",
     "editPersonalGroup": "%2$s 그룹의 기본 권한 %1$s이(가) 이제 %3$s로 설정되었습니다",
-    "nonGlobalOnly": "전역 권한이므로 여기에서 %1$s을 편집할 수 없습니다.",
+    "nonGlobalOnly": "전역 권한이므로 여기서는 %1$s을(를) 편집할 수 없습니다.",
     "adminMode": "관리자 모드 (영토 제외)가: %1$s로 설정되었습니다",
     "adminDeleteAll": "다음 플레이어의 모든 영토가 삭제되었습니다: %1$s",
     "setAdminClaim": "이 영토의 관리자는 이제: %1$s",
@@ -64,7 +64,7 @@
     "errorFile": "파일 읽기 오류: %1$s",
     "readConflict": "%1$s이(가) 기존 영토와 충돌합니다. 세계에 추가할 수 없습니다! 충돌하는 영토:",
     "giveClaimBlocks": "다음 플레이어에게 %2$d 영토 블록을 부여했습니다: %1$s",
-    "giveClaimBlocksBonus": "다음 플레이어에게 %2$d 보너스 클레임 블록을 제공했습니다: %1$s",
+    "giveClaimBlocksBonus": "다음 플레이어에게 %2$d 보너스 클레임 블록을 지급했습니다: %1$s",
     "fakePlayerNotification1": "가짜 플레이어가 %2$s에서 %1$s와(과) 상호작용하려 했습니다",
     "fakePlayerNotification2": "영토에 가짜 플레이어를 추가하려면 %s를 클릭하세요",
     "clickableComponent": "여기",
@@ -160,19 +160,19 @@
     "setEnterSubMessage": "영토 입장 시 부제목 텍스트가 %1$s로 설정되었습니다",
     "setLeaveMessage": "영토 퇴장 시 제목 텍스트가 %1$s로 설정되었습니다",
     "setLeaveSubMessage": "영토 퇴장 시 부제목 텍스트가 %1$s로 설정되었습니다",
-    "addIgnoreEntry": "%1$s을 클레임 무시 목록 %2$s에 추가했습니다.",
-    "removeIgnoreEntry": "%1$s을 클레임 무시 목록 %2$s에서 제거했습니다.",
+    "addIgnoreEntry": "%1$s을(를) 클레임 무시 목록 %2$s에 추가했습니다.",
+    "removeIgnoreEntry": "%1$s을(를) 클레임 무시 목록 %2$s에서 제거했습니다.",
     "wiki": "위키를 참조하세요:",
     "flan:edit_claim": "클레임 편집",
     "flan_fixes_botania:botania": "보타니아",
-    "flan_fixes_botania:corporea_index": "코포레아 색인",
+    "flan_fixes_botania:corporea_index": "코르포레아 인덱스",
     "flan:edit_perms": "권한 편집",
     "flan:edit_potions": "물약 편집",
     "flan:break": "파괴",
     "flan:place": "설치",
     "flan:open_container": "보관함 열기",
-    "flan:interact_block": "블록 상호작용",
-    "flan:interact_sign": "표지판 상호작용",
+    "flan:interact_block": "블록 상호 작용",
+    "flan:interact_sign": "표지판 상호 작용",
     "flan:anvil": "모루",
     "flan:bed": "침대",
     "flan:beacon": "신호기",
@@ -187,12 +187,12 @@
     "flan:enderchest": "엔더 상자",
     "flan:enchantment": "마법 부여",
     "flan:itemframe_rotate": "아이템 액자 회전",
-    "flan:lectern_take": "독서대 꺼내기",
+    "flan:lectern_take": "독서대에서 가져가기",
     "flan:endcrystal_place": "엔드 수정 설치",
     "flan:target_block": "과녁 블록",
-    "flan:projectiles": "투사체",
+    "flan:projectiles": "발사체",
     "flan:trample": "짓밟기",
-    "flan:frost_walker": "차가운 걸음",
+    "flan:frost_walker": "차가운 발걸음",
     "flan:portal": "차원문",
     "flan:raid": "습격",
     "flan:boat": "보트",
@@ -200,29 +200,29 @@
     "flan:bucket": "양동이",
     "flan:ender_pearl": "엔더 진주",
     "flan:chorus_fruit": "후렴과",
-    "flan:animal_interact": "동물 상호작용",
-    "flan:hurt_animal": "동물에게 피해",
-    "flan:hurt_named": "이름붙은 개체에게 피해",
-    "flan:xp": "XP",
+    "flan:animal_interact": "동물 상호 작용",
+    "flan:hurt_animal": "동물 공격",
+    "flan:hurt_named": "이름 있는 몹 공격",
+    "flan:xp": "경험치",
     "flan:trading": "거래",
     "flan:armorstand": "갑옷 거치대",
-    "flan:break_non_living": "비생물 파괴",
-    "flan:drop": "드롭",
-    "flan:pickup": "픽업",
+    "flan:break_non_living": "비생명체 파괴",
+    "flan:drop": "아이템 떨구기",
+    "flan:pickup": "아이템 줍기",
     "flan:flight": "비행",
-    "flan:can_stay": "유지 가능",
+    "flan:can_stay": "머무를 수 있음",
     "flan:teleport": "순간이동",
-    "flan:no_hunger": "굶주림 없음",
+    "flan:no_hunger": "허기 없음",
     "flan:claim_message": "클레임 메시지",
     "flan:archeology": "고고학",
-    "flan:hurt_player": "플레이어에게 피해",
+    "flan:hurt_player": "플레이어 공격",
     "flan:explosions": "폭발",
     "flan:wither": "위더",
     "flan:enderman": "엔더맨",
     "flan:snow_golem": "눈 골렘",
     "flan:fire_spread": "불 확산",
-    "flan:water_border": "물 영역",
-    "flan:piston_border": "피스톤 영역",
+    "flan:water_border": "물 경계",
+    "flan:piston_border": "피스톤 경계",
     "flan:mob_spawn": "몹 스폰",
     "flan:animal_spawn": "동물 스폰",
     "flan:lightning": "벼락",
@@ -231,131 +231,131 @@
     "flan:player_mob_spawn": "플레이어 몹 스폰",
     "flan:sculk": "스컬크",
     "flan:edit_claim.desc": [
-        "클레임을 편집(크기 조정, 삭제...)할 수 있는 권한을 부여합니다"
+        "클레임을 편집(크기 조정, 삭제 등)할 수 있는 권한을 부여합니다."
     ],
     "flan_fixes_botania:botania.desc": [
-        "모든 보타니아 아이템이 클레임에 영향을 주도록 권한을 부여합니다"
+        "모든 보타니아 아이템이 클레임에 영향을 미치도록 허용하는 권한을 부여합니다."
     ],
     "flan_fixes_botania:corporea_index.desc": [
-        "다른 플레이어가 코포레아 색인을 사용하도록 권한을 부여합니다"
+        "다른 플레이어가 코르포레아 인덱스를 사용할 수 있는 권한을 부여합니다."
     ],
     "flan:edit_perms.desc": [
-        "클레임 권한을 변경할 수 있는 권한을 부여합니다"
+        "클레임 권한을 변경할 수 있는 권한을 부여합니다."
     ],
     "flan:edit_potions.desc": [
-        "클레임의 물약 효과를 편집할 수 있는 권한을 부여합니다"
+        "클레임 물약 효과를 편집할 수 있는 권한을 부여합니다."
     ],
     "flan:break.desc": [
-        "클레임에서 블록을 파괴할 수 있는 권한"
+        "클레임 내 블록을 파괴할 수 있는 권한"
     ],
     "flan:place.desc": [
-        "클레임에 블록을 설치할 수 있는 권한"
+        "클레임 내 블록을 설치할 수 있는 권한"
     ],
     "flan:open_container.desc": [
-        "보관함 열기 권한",
+        "보관함을 열 수 있는 권한",
         "(상자, 화로 등)"
     ],
     "flan:interact_block.desc": [
-        "블록 상호 작용에 대한 일반적인 권한입니다.",
-        "Fallback to OPENCONTAINER",
-        "Gets used for all blocks OPENCONTAINER doesn't check for"
+        "블록 상호 작용에 대한 일반 권한.",
+        "보관함 열기로 대체",
+        "OPENCONTAINER에서 확인하지 않는 모든 블록에 사용됩니다."
     ],
     "flan:interact_sign.desc": [
-        "표지판 편집 권한(e.g 염색)"
+        "표지판을 편집할 수 있는 권한 (e.g. 염색)"
     ],
     "flan:anvil.desc": [
-        "모루 사용 권한"
+        "모루를 사용할 수 있는 권한"
     ],
     "flan:bed.desc": [
-        "침대 사용 권한"
+        "침대를 사용할 수 있는 권한"
     ],
     "flan:beacon.desc": [
-        "신호기 사용 권한"
+        "신호기를 사용할 수 있는 권한"
     ],
     "flan:door.desc": [
-        "문 사용 권한"
+        "문을 사용할 수 있는 권한"
     ],
     "flan:fence_gate.desc": [
-        "울타리 문 사용 권한"
+        "울타리 문을 사용할 수 있는 권한"
     ],
     "flan:trapdoor.desc": [
-        "다락문 사용 권한"
+        "다락문을 사용할 수 있는 권한"
     ],
     "flan:button_lever.desc": [
-        "레버 및 버튼을 트리거할 수 있는 권한"
+        "레버와 버튼을 작동시킬 수 있는 권한"
     ],
     "flan:pressure_plate.desc": [
-        "압력판을 트리거할 수 있는 권한"
+        "압력판을 작동시킬 수 있는 권한"
     ],
     "flan:noteblock.desc": [
         "음표 블록을 변경할 수 있는 권한"
     ],
     "flan:redstone.desc": [
-        "레드스톤 회로를 변경할 수 있는 권한"
+        "레드스톤 구성 요소를 변경할 수 있는 권한"
     ],
     "flan:jukebox.desc": [
-        "음반을 삽입/꺼낼 수 있는 권한"
+        "음반을 넣거나 가져갈 수 있는 권한"
     ],
     "flan:enderchest.desc": [
-        "엔더 상자 사용 권한"
+        "엔더 상자를 사용할 수 있는 권한"
     ],
     "flan:enchantment.desc": [
-        "마법 부여대 사용 권한"
+        "마법 부여대를 사용할 수 있는 권한"
     ],
     "flan:itemframe_rotate.desc": [
-        "아이템 액자에서 아이템을 회전할 수 있는 권한"
+        "아이템 액자 안의 아이템을 회전시킬 수 있는 권한"
     ],
     "flan:lectern_take.desc": [
-        "독서대에서 책을 변경할 수 있는 권한"
+        "독서대 안의 책을 변경할 수 있는 권한"
     ],
     "flan:endcrystal_place.desc": [
         "엔드 수정을 설치할 수 있는 권한"
     ],
     "flan:target_block.desc": [
-        "과녁 블록을 트리거할 수 있는 권한"
+        "과녁 블록을 작동시킬 수 있는 권한"
     ],
     "flan:projectiles.desc": [
         "발사체를 발사할 수 있는 권한",
-        "블록과 상호 작용 (버튼 위의 화살표 e.g)"
+        "블록과 상호 작용 (e.g. 버튼에 화살)"
     ],
     "flan:trample.desc": [
         "블록 짓밟기를 활성화할 수 있는 권한",
-        "(농지, 거북알)"
+        "(경작지, 거북알)"
     ],
     "flan:frost_walker.desc": [
-        "서리 걸음꾼이 활성화되도록 하는 권한"
+        "차가운 걸음이 활성화될 수 있는 권한"
     ],
     "flan:portal.desc": [
         "네더 차원문을 사용할 수 있는 권한"
     ],
     "flan:raid.desc": [
-        "클레임에서 습격을 트리거할 수 있는 권한.",
-        "외부에서 바로 습격을 막지는 않습니다."
+        "클레임 내에서 습격을 유발할 수 있는 권한.",
+        "외부의 습격은 (단지) 막지 않습니다."
     ],
     "flan:boat.desc": [
-        "보트 사용 권한"
+        "보트를 사용할 수 있는 권한"
     ],
     "flan:minecart.desc": [
-        "광산 수레에 앉을 수 있는 권한"
+        "광산 수레에 탑승할 수 있는 권한"
     ],
     "flan:bucket.desc": [
-        "양동이로 액체를 가져갈 수 있는 권한"
+        "양동이로 액체를 퍼갈 수 있는 권한"
     ],
     "flan:ender_pearl.desc": [
-        "엔더 진주 사용 권한"
+        "엔더 진주를 사용할 수 있는 권한"
     ],
     "flan:chorus_fruit.desc": [
         "후렴과를 먹을 수 있는 권한"
     ],
     "flan:animal_interact.desc": [
         "동물과 상호 작용할 수 있는 권한",
-        "(양털 깎기 e.g)"
+        "(e.g. 양 털 깎기)"
     ],
     "flan:hurt_animal.desc": [
         "동물을 공격할 수 있는 권한"
     ],
     "flan:hurt_named.desc": [
-        "이름이 지정된 몹을 공격할 수 있는 권한"
+        "이름 있는 몹을 공격할 수 있는 권한"
     ],
     "flan:xp.desc": [
         "경험치 구슬을 주울 수 있는 권한"
@@ -367,85 +367,85 @@
         "갑옷 거치대와 상호 작용할 수 있는 권한"
     ],
     "flan:break_non_living.desc": [
-        "광산 수레, 갑옷 거치대 등 파괴 권한"
+        "광산 수레나 갑옷 거치대 같은 것을 파괴할 수 있는 권한"
     ],
     "flan:drop.desc": [
-        "아이템 드롭 허용"
+        "아이템 떨구기 허용"
     ],
     "flan:pickup.desc": [
         "아이템 줍기 허용"
     ],
     "flan:flight.desc": [
-        "크리에이티브 모드가 아닌 비행 허용"
+        "크리에이티브가 아닌 비행 허용"
     ],
     "flan:can_stay.desc": [
-        "플레이어가 클레임에 들어오도록 허용"
+        "플레이어가 클레임에 입장하는 것을 허용"
     ],
     "flan:teleport.desc": [
-        "플레이어가 클레임 홈 위치로 순간이동하도록 허용"
+        "플레이어가 클레임 홈 위치로 순간이동하는 것을 허용"
     ],
     "flan:no_hunger.desc": [
         "허기 비활성화"
     ],
     "flan:claim_message.desc": [
-        "입/퇴장 메시지 편집 권한"
+        "입장/퇴장 메시지를 편집할 수 있는 권한"
     ],
     "flan:archeology.desc": [
-        "클레임에서 블록 솔질 허용"
+        "플레이어가 이 클레임에서 블록을 솔질하는 것을 허용"
     ],
     "flan:hurt_player.desc": [
         "다른 플레이어를 공격할 수 있는 권한"
     ],
     "flan:explosions.desc": [
-        "클레임에서 폭발 전환"
+        "클레임 내 폭발 토글"
     ],
     "flan:wither.desc": [
-        "클레임 내 위더의 블록 파괴 전환"
+        "클레임 내 위더의 블록 파괴 토글"
     ],
     "flan:enderman.desc": [
-        "엔더맨이 블록을 줍고 설치하도록 허용"
+        "엔더맨이 블록을 줍고 설치하는 것을 허용"
     ],
     "flan:snow_golem.desc": [
-        "눈 골렘의 눈 층 생성 허용"
+        "눈 골렘의 눈 층 허용"
     ],
     "flan:fire_spread.desc": [
-        "클레임에서 화재 확산 전환"
+        "클레임 내 불 확산 토글"
     ],
     "flan:water_border.desc": [
-        "클레임 경계선 물 흐름 전환"
+        "클레임 경계를 넘는 물 토글"
     ],
     "flan:piston_border.desc": [
-        "클레임 경계선 피스톤 작동 전환"
+        "클레임 경계를 넘는 피스톤 밀기/당기기 토글"
     ],
     "flan:mob_spawn.desc": [
-        "클레임에서 적대적 몹 스폰 방지"
+        "클레임 내 적대적 몹 스폰 방지"
     ],
     "flan:animal_spawn.desc": [
-        "클레임에서 추가 스폰 방지"
+        "클레임 내 다른 스폰 방지"
     ],
     "flan:lightning.desc": [
         "벼락이 클레임에 영향을 미치도록 허용",
-        "e.g 블록에 불을 지르세요",
-        "또는 동물에 영향을 미칩니다(몹은 제외됨)"
+        "e.g. 블록에 불을 붙임",
+        "또는 동물에게 영향을 미침 (몹은 제외)"
     ],
     "flan:lock_items.desc": [
-        "사망 시 아이템을 잠가야 하는 경우"
+        "사망 시 아이템이 잠겨야 하는 경우"
     ],
     "flan:fake_player.desc": [
-        "가짜 플레이어가 이 클레임에서 상호 작용하도록 허용",
-        "일부 모드 가짜 플레이어는 사용자 UUID를 가지고 있습니다",
-        "이러한 모드에서는 이 권한이 필요하지 않습니다"
+        "가짜 플레이어가 이 클레임에서 상호 작용하는 것을 허용",
+        "일부 모드의 가짜 플레이어는 사용자 UUID를 가집니다.",
+        "해당 모드에는 이 권한이 필요하지 않습니다."
     ],
     "flan:player_mob_spawn.desc": [
-        "영향을 받는 플레이어가 상호 작용을 통해 몹을 스폰할 수 있는 권한",
-        "E.g 워든 또는 엔더 진주가 있는 엔더마이트"
+        "영향을 받는 플레이어가 상호 작용으로 몹을 스폰할 수 있는 권한",
+        "E.g. 워든, 또는 엔더 진주로 소환되는 엔더마이트"
     ],
     "flan:sculk.desc": [
-        "스컬크 감지체에 대한 권한입니다.",
-        "비명체는 플레이어 몹 스폰 설정에서 처리됩니다"
+        "스컬크 감지체에 대한 권한.",
+        "비명체는 플레이어 몹 스폰에서 처리됩니다."
     ],
     "command.help": [
-        "도움말 <page> | (cmd <command>)",
+        "도움말 <page> | (명령 <command>)",
         "지정된 명령어에 대한 모든 사용 가능한 명령어 또는 정보 표시"
     ],
     "command.menu": [
@@ -486,17 +486,17 @@
         "- 그룹 내 플레이어 추가/제거 (덮어쓰기를 선택하면 현재 그룹의 플레이어를 덮어씀, 그렇지 않으면 아무 작업도 하지 않음)"
     ],
     "command.transferClaim": [
-        "클레임 양도 <player>",
+        "클레임 이전 <player>",
         "지정된 플레이어에게 영토 소유권을 양도. 소유자만 사용할 수 있음"
     ],
     "command.addClaim": [
-        "클레임 추가 (<x y z> <x y z>) | 모두 | (사각형 x z)",
+        "클레임 추가 (<x y z> <x y z>) | 전체 | (직사각형 x z)",
         "지정된 위치에 영토 생성 (영토 도구 사용과 동일한 효과)",
         "<all> 남은 모든 블록을 사용하여 플레이어 중심의 직사각형 영토 생성",
         "<rect> 플레이어 중심의 직사각형 영토 생성"
     ],
     "command.permission": [
-        "권한 {전역 | (그룹 <name>) | (개인 <이름>)} <permission> 참 | 거짓 | 기본값",
+        "권한 {글로벌 | (그룹 <name>) | (개인 <이름>)} <permission> true | false | 기본값",
         "전역/그룹/개인 권한 설정. 영토 메뉴에서 편집 가능 (그룹 편집의 경우)"
     ],
     "command.personalGroups": [
@@ -504,43 +504,43 @@
         "개인 그룹 편집 메뉴 열기"
     ],
     "command.sellBlocks": [
-        "영토 블록 판매 <amount>",
+        "블록 판매 <amount>",
         "<amount> 만큼의 영토 블록 판매. 화약을 통화로 사용"
     ],
     "command.buyBlocks": [
-        "영토 블록 구매 <amount>",
+        "블록 구매 <amount>",
         "<amount> 만큼의 영토 블록 구매. 화약을 통화로 사용"
     ],
     "command.trapped": [
-        "갇힌",
+        "덫에 걸림",
         "플레이어가 자신의 영토가 아닌 곳에 갇힌 경우, 5초 후 탈출 시도"
     ],
     "command.unlockDrops": [
-        "unlockDrops <players>",
+        "떨굼 잠금 해제 <players>",
         "사망 시 떨어진 아이템의 잠금을 해제하여 다른 플레이어가 주울 수 있도록 함. 또는 지정된 모든 플레이어 (관리자 권한 필요)"
     ],
     "command.setHome": [
-        "홈 설정",
+        "집 설정",
         "충분한 권한이 있는 영토에서 집 위치 설정"
     ],
     "command.teleport": [
-        "teleport self | admin | (other <player>) (<claim name> | <claim uuid>)",
+        "순간이동 자신 | 관리자 | (다른 <player>) (<claim name> | <claim uuid>)",
         "지정된 영토 집 위치로 텔레포트. admin을 사용하여 관리자 영토로 이동"
     ],
     "command.name": [
-        "name self <name>",
+        "이름 자신 <name>",
         "현재 영토 이름 설정"
     ],
     "command.claimMessage": [
-        "claimMessage (enter | leave) (title | subtitle) (string | text) <value>",
+        "클레임 메시지 (진입 | 퇴장) (제목 | 부제목) (문자열 | 텍스트) <value>",
         "영토 메시지 설정. \"$empty\"를 사용하여 메시지 삭제"
     ],
     "command.ignoreList": [
-        "ignoreList (add | remove) <type> <value>",
-        "클레임 특정 무시 목록에 항목을 추가/제거합니다"
+        "무시 목록 (추가 | 제거) <type> <value>",
+        "클레임별 무시 목록에 항목을 추가/제거합니다."
     ],
     "command.reload": [
-        "재로드",
+        "다시 불러오기",
         "게임 내 플러그인 구성 재설정"
     ],
     "command.adminMode": [
@@ -548,23 +548,23 @@
         "관리자 모드로 전환, 모든 영토 무시"
     ],
     "command.readGriefPrevention": [
-        "GriefPreventionData 읽기",
+        "GriefPrevention 데이터 읽기",
         "GriefPrevention 플러그인 데이터를 flan으로 변환"
     ],
     "command.setAdminClaim": [
-        "어드민 클레임 설정",
+        "관리자 클레임 설정",
         "영토를 관리자 영토로 설정"
     ],
     "command.listAdminClaims": [
-        "어드민 클레임 목록",
+        "관리자 클레임 목록",
         "현재 세계의 모든 관리자 영토 목록"
     ],
     "command.adminDelete": [
-        "adminDelete [all <player>]",
+        "관리자 삭제 [모두 <player>]",
         "현재 영토를 강제로 삭제하거나 지정된 플레이어의 모든 영토를 삭제"
     ],
     "command.giveClaimBlocks": [
-        "giveClaimBlocks <amount>",
+        "클레임 블록 지급 <amount>",
         "플레이어에게 추가 영토 블록 부여"
     ]
 }
