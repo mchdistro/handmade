@@ -1150,7 +1150,7 @@
       "name": "CTE2 모드팩",
       "description": "Minecraft 1.20.1 (Forge v47.4.10)",
       "icon": "https://github.com/mchdistro/handmade/raw/main/icon.png",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "address": "mc.gotiger.dev:20149",
       "minecraftVersion": "1.20.1",
       "discord": {
@@ -1586,16 +1586,6 @@
           ]
         },
         {
-          "id": "net.ctov:ctov:3.4.14@jar",
-          "name": "ChoiceTheorem's Overhauled Village",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 6772753,
-            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/[forge]ctov-3.4.14.jar",
-            "MD5": "382d0881db0828470c219dd5d0789132"
-          }
-        },
-        {
           "id": "com.bigenergy:achiopt:1.0.5@jar",
           "name": "AchievementOptimizer",
           "type": "ForgeMod",
@@ -2001,7 +1991,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 11816101,
-            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/born_in_chaos_[Forge]1.20.1_1.7.2.jar",
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/born_in_chaos_1.20.1_1.7.2.jar",
             "MD5": "53c0274da230c0b83864a8f1043d0a60"
           }
         },
@@ -2503,6 +2493,16 @@
             "size": 376863,
             "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/CTE2ModpackArmors-1.0.3.jar",
             "MD5": "569708c4b01dad9edd8a3ab7e23f00ed"
+          }
+        },
+        {
+          "id": "net.ctov:ctov:3.4.14@jar",
+          "name": "ChoiceTheorem's Overhauled Village",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6772753,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/forgemods/required/ctov-3.4.14.jar",
+            "MD5": "382d0881db0828470c219dd5d0789132"
           }
         },
         {
@@ -7183,7 +7183,7 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 17931,
+            "size": 17917,
             "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/files/options.txt",
             "path": "options.txt"
           }
@@ -11204,14 +11204,14 @@
           }
         },
         {
-          "id": "Adventurer'sChest_v2[Lootr].zip",
-          "name": "Adventurer'sChest_v2[Lootr].zip",
+          "id": "Adventurer'sChest_v2.zip",
+          "name": "Adventurer'sChest_v2.zip",
           "type": "File",
           "artifact": {
             "size": 33118,
-            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/files/resourcepacks/Adventurer'sChest_v2[Lootr].zip",
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/QTE2-1.20.1/files/resourcepacks/Adventurer'sChest_v2.zip",
             "MD5": "74142ddbab2fa7bca3a7e3015f5a2422",
-            "path": "resourcepacks/Adventurer'sChest_v2[Lootr].zip"
+            "path": "resourcepacks/Adventurer'sChest_v2.zip"
           }
         },
         {
