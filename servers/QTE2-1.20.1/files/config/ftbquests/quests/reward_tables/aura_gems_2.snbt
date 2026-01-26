@@ -11,7 +11,7 @@
 					mmorpg_skill_gem: "{\"id\":\"armor\",\"type\":\"AURA\",\"perc\":28,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "갑옷 증강"
+			title: "갑옷 오그먼트"
 		}
 		{
 			item: {
@@ -21,7 +21,7 @@
 					mmorpg_skill_gem: "{\"id\":\"dodge\",\"type\":\"AURA\",\"perc\":38,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "회피 증강"
+			title: "회피 오그먼트"
 		}
 		{
 			item: {
@@ -31,8 +31,8 @@
 					mmorpg_skill_gem: "{\"id\":\"magic_shield\",\"type\":\"AURA\",\"perc\":29,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "마법 방패 증강"
+			title: "마법 방패 오그먼트"
 		}
 	]
-	title: "증강 보석 2"
+	title: "오그먼트 젬 2"
 }

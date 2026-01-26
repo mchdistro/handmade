@@ -16,7 +16,7 @@
 					variant: 1
 				}
 			}
-			title: "플루겔 변형"
+			title: "플루겔 변종"
 		}
 		{
 			icon: "botania:quartz_dark"
@@ -31,7 +31,7 @@
 					variant: 2
 				}
 			}
-			title: "한쪽 날개 천사 변형"
+			title: "외날개 천사 변종"
 		}
 		{
 			icon: "botania:quartz_mana"
@@ -46,7 +46,7 @@
 					variant: 3
 				}
 			}
-			title: "얼음 요정 변형"
+			title: "얼음 요정 변종"
 		}
 		{
 			icon: "botania:quartz_blaze"
@@ -61,7 +61,7 @@
 					variant: 4
 				}
 			}
-			title: "불사조 변형"
+			title: "불사조 변종"
 		}
 		{
 			icon: "botania:quartz_lavender"
@@ -76,7 +76,7 @@
 					variant: 5
 				}
 			}
-			title: "검은 눈 공주 변형"
+			title: "검은 눈 공주 변종"
 		}
 		{
 			icon: "botania:quartz_red"
@@ -91,7 +91,7 @@
 					variant: 6
 				}
 			}
-			title: "구덩이의 군주 변형"
+			title: "심연의 군주 변종"
 		}
 		{
 			icon: "botania:quartz_elven"
@@ -106,7 +106,7 @@
 					variant: 7
 				}
 			}
-			title: "실프 변형"
+			title: "실프 변종"
 		}
 		{
 			icon: "botania:quartz_sunny"
@@ -121,7 +121,7 @@
 					variant: 8
 				}
 			}
-			title: "메가 울트라 닭 변형"
+			title: "메가 울트라 닭 변종"
 		}
 	]
 	title: "플루겔 티아라"

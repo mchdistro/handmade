@@ -1,6 +1,6 @@
 {
     "name": "소개",
-    "description": "이 섹션에서는 MIMI에 대한 간략한 소개를 제공하고 악기를 빠르게 연주할 수 있도록 도와드립니다!",
+    "description": "이 섹션에서는 MIMI에 대한 간략한 소개와 악기를 빠르고 쉽게 연주할 수 있는 방법을 제공합니다!",
     "icon": "mimi:acguitar",
     "sortnum": 1
 }

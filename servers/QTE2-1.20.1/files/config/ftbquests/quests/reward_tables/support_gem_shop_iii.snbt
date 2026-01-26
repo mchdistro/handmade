@@ -11,7 +11,7 @@
 					mmorpg_skill_gem: "{\"id\":\"ailment_damage_less_hit_dmg\",\"type\":\"SUPPORT\",\"perc\":15,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "상태 이상 피해 보조 보석"
+			title: "상태 이상 피해 보조 젬"
 		}
 		{
 			item: {
@@ -21,7 +21,7 @@
 					mmorpg_skill_gem: "{\"id\":\"aoe_dmg\",\"type\":\"SUPPORT\",\"perc\":20,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "범위 집중 보조 보석"
+			title: "범위 집중 보조 젬"
 		}
 		{
 			item: {
@@ -31,7 +31,7 @@
 					mmorpg_skill_gem: "{\"id\":\"chaos_damage\",\"type\":\"SUPPORT\",\"perc\":13,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "혼돈 피해 보조 보석"
+			title: "카오스 피해 보조 젬"
 		}
 		{
 			item: {
@@ -41,7 +41,7 @@
 					mmorpg_skill_gem: "{\"id\":\"cold_damage\",\"type\":\"SUPPORT\",\"perc\":20,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "냉기 피해 보조 보석"
+			title: "냉기 피해 보조 젬"
 		}
 		{
 			item: {
@@ -51,7 +51,7 @@
 					mmorpg_skill_gem: "{\"id\":\"fire_damage\",\"type\":\"SUPPORT\",\"perc\":12,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "불 피해 보조 보석"
+			title: "화염 피해 보조 젬"
 		}
 		{
 			item: {
@@ -61,7 +61,7 @@
 					mmorpg_skill_gem: "{\"id\":\"inc_heal\",\"type\":\"SUPPORT\",\"perc\":20,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "증가된 치유 보조 보석"
+			title: "치유량 증가 보조 젬"
 		}
 		{
 			item: {
@@ -71,7 +71,7 @@
 					mmorpg_skill_gem: "{\"id\":\"lightning_damage\",\"type\":\"SUPPORT\",\"perc\":13,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "벼락 피해 보조 보석"
+			title: "번개 피해 보조 젬"
 		}
 		{
 			item: {
@@ -81,7 +81,7 @@
 					mmorpg_skill_gem: "{\"id\":\"physical_damage\",\"type\":\"SUPPORT\",\"perc\":23,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "물리 피해 보조 보석"
+			title: "물리 피해 보조 젬"
 		}
 		{
 			item: {
@@ -91,7 +91,7 @@
 					mmorpg_skill_gem: "{\"id\":\"ranged_damage\",\"type\":\"SUPPORT\",\"perc\":16,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "원거리 피해 보조 보석"
+			title: "원거리 피해 보조 젬"
 		}
 		{
 			item: {
@@ -101,7 +101,7 @@
 					mmorpg_skill_gem: "{\"id\":\"phys_to_fire\",\"type\":\"SUPPORT\",\"perc\":17,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "물리 -> 불 보조 보석"
+			title: "물리 화염 전환 보조 젬"
 		}
 		{
 			item: {
@@ -111,7 +111,7 @@
 					mmorpg_skill_gem: "{\"id\":\"phys_to_cold\",\"type\":\"SUPPORT\",\"perc\":17,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "물리 -> 냉기 보조 보석"
+			title: "물리 냉기 전환 보조 젬"
 		}
 		{
 			item: {
@@ -121,7 +121,7 @@
 					mmorpg_skill_gem: "{\"id\":\"phys_to_lightning\",\"type\":\"SUPPORT\",\"perc\":16,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "물리 -> 벼락 보조 보석"
+			title: "물리 번개 전환 보조 젬"
 		}
 		{
 			item: {
@@ -131,7 +131,7 @@
 					mmorpg_skill_gem: "{\"id\":\"aggressive_minions\",\"type\":\"SUPPORT\",\"perc\":14,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "공격적인 하수인 보조 보석"
+			title: "공격적인 하수인 보조 젬"
 		}
 		{
 			item: {
@@ -141,7 +141,7 @@
 					mmorpg_skill_gem: "{\"id\":\"defensive_minions\",\"type\":\"SUPPORT\",\"perc\":22,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "회피적인 하수인 보조 보석"
+			title: "회피 하수인 보조 젬"
 		}
 		{
 			item: {
@@ -151,7 +151,7 @@
 					mmorpg_skill_gem: "{\"id\":\"power_on_crit\",\"type\":\"SUPPORT\",\"perc\":24,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "치명타 시 권능 충전 보조 보석"
+			title: "치명타 시 충전 보조 젬"
 		}
 		{
 			item: {
@@ -161,7 +161,7 @@
 					mmorpg_skill_gem: "{\"id\":\"fortify\",\"type\":\"SUPPORT\",\"perc\":16,\"rar\":\"common\",\"links\":1}"
 				}
 			}
-			title: "강화 보조 보석"
+			title: "강화 보조 젬"
 		}
 		{
 			item: {
@@ -171,7 +171,7 @@
 					mmorpg_skill_gem: "{\"id\":\"endurance_on_hit\",\"type\":\"SUPPORT\",\"perc\":17,\"rar\":\"common\",\"links\":1}"
 				}
 			}
-			title: "피격 시 인내 충전 보조 보석"
+			title: "피격 시 인내 충전 보조 젬"
 		}
 		{
 			item: {
@@ -181,7 +181,7 @@
 					mmorpg_skill_gem: "{\"id\":\"focused_shot\",\"type\":\"SUPPORT\",\"perc\":17,\"rar\":\"common\",\"links\":1}"
 				}
 			}
-			title: "집중 사격 보조 보석"
+			title: "집중 사격 보조 젬"
 		}
 		{
 			item: {
@@ -191,8 +191,8 @@
 					mmorpg_skill_gem: "{\"id\":\"disarray\",\"type\":\"SUPPORT\",\"perc\":23,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "혼란 보조 보석"
+			title: "혼란 보조 젬"
 		}
 	]
-	title: "보조 보석 상점 III"
+	title: "보조 젬 상점 III"
 }

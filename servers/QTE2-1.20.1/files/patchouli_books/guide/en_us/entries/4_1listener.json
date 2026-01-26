@@ -1,0 +1,29 @@
+{
+    "name": "청취자",
+    "icon": "mimi:listener",
+    "category": "mimi:4redstone",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "청취자",
+            "item": "mimi:listener",
+            "text": "리스너는 주변에서 재생되는 소리 블록 소리를 듣고, 해당 소리가 리스너에 설정된 필터 조건과 일치하면 레드스톤 신호를 출력하는 블록입니다."
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "레시피",
+            "link_recipe": true,
+            "recipe": "mimi:listener"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "설정",
+            "text": "$(li)$(l)필터 노트$(): 리스너가 응답해야 하는 노트. 값은 전체, 특정 노트(예: C5), 옥타브의 모든 노트(예: *5) 또는 노트의 모든 옥타브(예: C*)일 수 있습니다.$(br)$(li)$(l)필터 악기$(): 리스너가 응답해야 하는 악기. 값은 특정 악기 또는 $(italic)하나의 특정 악기를 제외한$() 모든 악기가 될 수 있습니다."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)$(l)트리거 모드$(): 리스너가 음을 누르고 있는 동안 내내 레드스톤 신호를 내보내야 하는지, 아니면 음이 시작될 때만 내보내야 하는지 여부입니다."
+        }
+    ],
+    "sortnum": 1
+}

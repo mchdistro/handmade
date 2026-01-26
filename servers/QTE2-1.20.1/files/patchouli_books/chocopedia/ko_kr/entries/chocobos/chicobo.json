@@ -10,7 +10,7 @@
         {
             "type": "patchouli:entity",
             "entity": "chococraft:chocobo{Age:-1,Color:0b}",
-            "name": "치코보 (노란색)"
+            "name": "병아리 초코보 (노란색)"
         }
     ]
 }

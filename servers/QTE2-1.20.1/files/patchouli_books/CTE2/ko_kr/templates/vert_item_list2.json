@@ -2,7 +2,7 @@
     "components": [
         {
             "type": "patchouli:header",
-            "text": "#heading",
+            "text": "제목",
             "x": -1,
             "y": -6
         },
@@ -15,7 +15,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "#item1->iname",
+            "text": "아이템 1 이름",
             "x": 25,
             "y": 10
         },
@@ -28,7 +28,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "#item2->iname",
+            "text": "아이템 2 이름",
             "x": 25,
             "y": 35
         }

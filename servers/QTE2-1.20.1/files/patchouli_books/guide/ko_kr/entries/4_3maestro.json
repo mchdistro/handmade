@@ -7,7 +7,7 @@
             "type": "patchouli:spotlight",
             "title": "기계 거장",
             "item": "mimi:mechanicalmaestro",
-            "text": "기계 거장은 레드스톤 동력을 받고 악기를 주면, 악기에 링크된 근처 송신기에서 노트를 수신할 때 주어진 악기를 연주하는 블록입니다."
+            "text": "기계 거장은 레드스톤으로 동력을 공급받고 악기가 주어지면 악기에 연결된 근처 송신기에서 음표를 수신할 때 주어진 악기를 연주하는 블록입니다."
         },
         {
             "type": "patchouli:crafting",

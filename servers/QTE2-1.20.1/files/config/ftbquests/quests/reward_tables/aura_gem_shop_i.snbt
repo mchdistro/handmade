@@ -11,7 +11,7 @@
 					mmorpg_skill_gem: "{\"id\":\"energy_reg\",\"type\":\"AURA\",\"perc\":10,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "에너지 재생 증강"
+			title: "에너지 재생 오그먼트"
 		}
 		{
 			item: {
@@ -21,7 +21,7 @@
 					mmorpg_skill_gem: "{\"id\":\"health_reg\",\"type\":\"AURA\",\"perc\":11,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "체력 재생 증강"
+			title: "체력 재생 오그먼트"
 		}
 		{
 			item: {
@@ -31,7 +31,7 @@
 					mmorpg_skill_gem: "{\"id\":\"magic_shield_reg\",\"type\":\"AURA\",\"perc\":10,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "마법 방패 재생 증강"
+			title: "마법 방패 재생 오그먼트"
 		}
 		{
 			item: {
@@ -41,7 +41,7 @@
 					mmorpg_skill_gem: "{\"id\":\"mana_reg\",\"type\":\"AURA\",\"perc\":13,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "마나 재생 증강"
+			title: "마나 재생 오그먼트"
 		}
 		{
 			item: {
@@ -51,8 +51,8 @@
 					mmorpg_skill_gem: "{\"id\":\"back_to_basics\",\"type\":\"AURA\",\"perc\":12,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "기본 증강 보석"
+			title: "기본 오그먼트 젬"
 		}
 	]
-	title: "증강 보석 상점 I"
+	title: "오그먼트 젬 상점 I"
 }

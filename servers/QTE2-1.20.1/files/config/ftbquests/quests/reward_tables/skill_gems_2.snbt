@@ -11,7 +11,7 @@
 					mmorpg_skill_gem: "{\"id\":\"shred\",\"type\":\"SKILL\",\"perc\":33,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "파쇄"
+			title: "분쇄"
 		}
 		{
 			item: {
@@ -44,5 +44,5 @@
 			title: "좀비 소환"
 		}
 	]
-	title: "스킬 보석 2"
+	title: "스킬 젬 2"
 }

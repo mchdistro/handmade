@@ -21,7 +21,7 @@
 					mmorpg_skill_gem: "{\"id\":\"lightning_spear\",\"type\":\"SKILL\",\"perc\":29,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "벼락 창"
+			title: "번개 창"
 		}
 		{
 			item: {
@@ -34,5 +34,5 @@
 			title: "자연의 연고"
 		}
 	]
-	title: "스킬 보석 4"
+	title: "스킬 젬 4"
 }

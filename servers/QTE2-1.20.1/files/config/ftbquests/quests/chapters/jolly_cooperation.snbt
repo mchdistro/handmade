@@ -908,25 +908,6 @@
 			x: 2.0d
 			y: -6.0d
 		}
-		{
-			description: ["{autotranslate.ftbquests.jolly_cooperation.quests_20.description_0}"]
-			icon: "born_in_chaos_v1:evilometer"
-			id: "41B73C0882D4CAA4"
-			rewards: [{
-				id: "7F0E7DA137959919"
-				item: "lightmanscurrency:coin_iron"
-				type: "item"
-			}]
-			subtitle: "{autotranslate.ftbquests.jolly_cooperation.quests_20.subtitle}"
-			tasks: [{
-				id: "54512F768D4A938F"
-				title: "{autotranslate.ftbquests.jolly_cooperation.quests_20.tasks_0.title}"
-				type: "checkmark"
-			}]
-			title: "{autotranslate.ftbquests.jolly_cooperation.quests_20.title}"
-			x: -3.5d
-			y: 1.5d
-		}
 	]
 	title: "{autotranslate.ftbquests.jolly_cooperation.title}"
 }

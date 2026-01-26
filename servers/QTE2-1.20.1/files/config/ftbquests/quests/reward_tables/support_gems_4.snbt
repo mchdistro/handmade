@@ -11,7 +11,7 @@
 					mmorpg_skill_gem: "{\"id\":\"crit_damage\",\"type\":\"SUPPORT\",\"perc\":34,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "치명타 피해 보조 보석"
+			title: "치명타 피해 보조 젬"
 		}
 		{
 			item: {
@@ -21,7 +21,7 @@
 					mmorpg_skill_gem: "{\"id\":\"totem_damage\",\"type\":\"SUPPORT\",\"perc\":26,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "토템 피해 보조 보석"
+			title: "토템 피해 보조 젬"
 		}
 		{
 			item: {
@@ -31,8 +31,8 @@
 					mmorpg_skill_gem: "{\"id\":\"summon_damage\",\"type\":\"SUPPORT\",\"perc\":32,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "소환 피해 보조 보석"
+			title: "소환 피해 보조 젬"
 		}
 	]
-	title: "보조 보석 4"
+	title: "보조 젬 4"
 }

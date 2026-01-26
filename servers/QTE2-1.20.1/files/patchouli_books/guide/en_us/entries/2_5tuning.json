@@ -1,0 +1,166 @@
+{
+    "name": "악기 조율",
+    "icon": "mimi:tuningtable",
+    "category": "mimi:2instruments",
+    "extra_recipe_mappings": {
+        "mimi:accordion2": 3,
+        "mimi:acguitar2": 4,
+        "mimi:acguitar3": 4,
+        "mimi:bassguitar2": 5,
+        "mimi:bassguitar3": 5,
+        "mimi:drums2": 6,
+        "mimi:drums3": 6,
+        "mimi:drums4": 6,
+        "mimi:drums5": 6,
+        "mimi:edrums2": 7,
+        "mimi:elecguitar2": 8,
+        "mimi:elecguitar3": 8,
+        "mimi:elecguitar4": 8,
+        "mimi:elecguitar5": 8,
+        "mimi:keyboard2": 9,
+        "mimi:keyboard3": 9,
+        "mimi:keyboard4": 9,
+        "mimi:keyboard5": 9,
+        "mimi:microphone2": 10,
+        "mimi:microphone3": 10,
+        "mimi:microphone4": 10,
+        "mimi:microphone5": 10,
+        "mimi:microphone6": 10,
+        "mimi:organ2": 11,
+        "mimi:organ3": 11,
+        "mimi:organ4": 11,
+        "mimi:organ5": 11,
+        "mimi:piano2": 12,
+        "mimi:piano3": 12,
+        "mimi:piano4": 12,
+        "mimi:prophet2": 13,
+        "mimi:prophet3": 13,
+        "mimi:prophet4": 13,
+        "mimi:prophet5": 13,
+        "mimi:prophet6": 13,
+        "mimi:prophet7": 14,
+        "mimi:prophet8": 14,
+        "mimi:prophet9": 14,
+        "mimi:saxophone2": 15,
+        "mimi:saxophone3": 15,
+        "mimi:saxophone4": 15,
+        "mimi:synlead2": 16,
+        "mimi:synlead3": 16,
+        "mimi:synlead4": 16,
+        "mimi:trumpet2": 17,
+        "mimi:violin2": 18
+    },
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "많은 악기$(o)는 원래 소리와 약간 (또는 경우에 따라 상당히) 다른 소리를 내도록 조율$()할 수 있습니다.$(br2) 조율 가능한 악기를 조율하려면 먼저 조율 테이블을 제작해야 합니다."
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "레시피",
+            "recipe": "mimi:tuningtable"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "테이블 사용",
+            "text": "튜닝 테이블을 사용하려면 튜닝 가능한 악기를 왼쪽 슬롯에 넣고 해당 튜닝 변경자를 오른쪽 슬롯에 넣으세요. 튜닝된 악기는 출력 슬롯에서 꺼낼 수 있습니다(MIDI 설정 및 염료 색상은 유지됨).$(br2)튜닝 가능한 악기 및 지원되는 변경자 목록은 다음 페이지 또는 JEI(설치된 경우)에서 확인할 수 있습니다."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:accordion",
+            "title": "아코디언",
+            "text": "$(l)표준$() - 막대기$(br2)$(l)Bandoneon$() - 코코아 콩"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:acguitar",
+            "title": "어쿠스틱 기타",
+            "text": "$(l)나일론$() - 막대기$(br2)$(l)강철$() - 체인$(br2)$(l)베이스$() - 끈"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:bassguitar",
+            "title": "베이스 기타",
+            "text": "$(l)손가락$() - 막대기$(br2)$(l)찰싹$() - 가죽$(br2)$(l)곡괭이$() - 부싯돌"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:drums",
+            "title": "드럼 세트",
+            "text": "$(l)일반$() - 막대기$(br2)$(l)방$() - 판자$(br2)$(l)파워$() - 조약돌$(br2)$(l)재즈$() - 금 조각$(br2)$(l)솔$() - 깃털"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:edrums",
+            "title": "전자 드럼",
+            "text": "$(l)Standard$() - 막대기$(br2)$(l)TR-808$() - 석영"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:elecguitar",
+            "title": "전기 기타",
+            "text": "$(l)파워$() - 막대기$(br2)$(l)재즈$() - 금 조각$(br2)$(l)하와이$() - 켈프$(br2)$(l)청결$() - 눈덩이$(br2)$(l)드리븐$() - 블레이즈 가루"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:keyboard",
+            "title": "키보드",
+            "text": "$(l)Rhodes$() - 막대기$(br2)$(l)Chorus$() - 후렴과$(br2)$(l)Clavinet$() - 철 조각$(br2)$(l)Organ$() - 가스트 눈물$(br2)$(l)E-Piano$() - 실"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:microphone",
+            "title": "마이크",
+            "text": "$(l)두$() - 막대기$(br2)$(l)Ahh$() - 벌집 조각$(br2)$(l)Ooh$() - 팬텀 막$(br2)$(l)Synth$() - 레드스톤$(br2)$(l)Space$() - 엔더 진주$(br2)$(l)Chorus$() - 후렴과"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:organ",
+            "title": "기관",
+            "text": "$(l)교회$() - 막대기$(br2)$(l)Drawbar$() - 철창$(br2)$(l)Percussive$() - 뼈$(br2)$(l)Rock$() - 화강암$(br2)$(l)Reed$() - 사탕수수"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:piano",
+            "title": "피아노",
+            "text": "$(l)웅장함$() - 막대기$(br2)$(l)밝음$() - 발광석 가루$(br2)$(l)일렉트릭$() - 레드스톤 가루$(br2)$(l)혼키통크$() - 해삼"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:prophet",
+            "title": "Prophet-5 (1/2)",
+            "text": "$(l)Poly$() - 막대기$(br2)$(l)Brass$() - 금 조각$(br2)$(l)Brass-M$() - 구리 주괴$(br2)$(l)Chiffer$() - 유리병$(br2)$(l)Strings$() - 실$(br2)$(l)Sweep$() - 먹물 주머니"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:prophet",
+            "title": "Prophet-5 (2/2",
+            "text": "$(l)코러스$() - 후렴과$(br2)$(l)망치$() - 벽돌$(br2)$(l)닥터 솔로$() - 독이 있는 감자"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:saxophone",
+            "title": "색소폰",
+            "text": "$(l)Alto$() - 막대기$(br2)$(l)Soprano$() - 깃털$(br2)$(l)Tenor$() - 슬라임 볼$(br2)$(l)Baritone$() - 마그마 크림"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:synlead",
+            "title": "신스 웨이브",
+            "text": "$(l)정사각형$() - 막대기$(br2)톱 - 부싯돌$(br2)$(l)사인$() - 인갑 (거북 젤리)$(br2)$(l)5도$() - 프리즈머린 조각"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:trumpet",
+            "title": "트럼펫",
+            "text": "$(l)스탠다드$() - 막대기$(br2)$(l)음소거$() - 점토 덩이"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mimi:violin",
+            "title": "바이올린",
+            "text": "$(l)스탠다드$() - 막대기$(br2)$(l)Trio$() - 대나무"
+        }
+    ],
+    "sortnum": 5
+}

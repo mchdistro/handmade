@@ -11,7 +11,7 @@
 					mmorpg_skill_gem: "{\"id\":\"crit_chance\",\"type\":\"SUPPORT\",\"perc\":35,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "치명타 확률 보조 보석"
+			title: "치명타 확률 보조 젬"
 		}
 		{
 			item: {
@@ -21,7 +21,7 @@
 					mmorpg_skill_gem: "{\"id\":\"energy_on_hit\",\"type\":\"SUPPORT\",\"perc\":33,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "에너지 흡수 보조 보석"
+			title: "에너지 흡수 보조 젬"
 		}
 		{
 			item: {
@@ -31,8 +31,8 @@
 					mmorpg_skill_gem: "{\"id\":\"dot_damage\",\"type\":\"SUPPORT\",\"perc\":40,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "지속 피해 보조 보석"
+			title: "지속 피해 보조 젬"
 		}
 	]
-	title: "보조 보석 1"
+	title: "보조 젬 1"
 }

@@ -1,6 +1,6 @@
 {
     "name": "설정",
-    "description": "MIMI는 게임 내에서뿐만 아니라 mimi-client.toml 및 mimi-common.toml 설정 파일을 통해 외부적으로도 여러 구성 옵션을 제공합니다.",
+    "description": "MIMI는 게임 내에서와 mimi-client.toml 및 mimi-common.toml 설정 파일을 통해 외부적으로 다양한 구성 옵션을 제공합니다.",
     "icon": "minecraft:writable_book",
     "sortnum": 6
 }

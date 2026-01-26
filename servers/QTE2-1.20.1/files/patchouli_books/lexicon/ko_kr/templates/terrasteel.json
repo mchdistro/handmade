@@ -86,7 +86,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "#텍스트",
+            "text": "#text",
             "y": 120
         }
     ]

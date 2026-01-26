@@ -11,7 +11,7 @@
 					mmorpg_skill_gem: "{\"id\":\"healing_aura\",\"type\":\"SKILL\",\"perc\":11,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "치유의 파동"
+			title: "치유 파동"
 		}
 		{
 			item: {
@@ -51,7 +51,7 @@
 					mmorpg_skill_gem: "{\"id\":\"gong_strike\",\"type\":\"SKILL\",\"perc\":14,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "징 강타"
+			title: "징 스트라이크"
 		}
 		{
 			item: {
@@ -71,7 +71,7 @@
 					mmorpg_skill_gem: "{\"id\":\"shred\",\"type\":\"SKILL\",\"perc\":23,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "파쇄"
+			title: "분쇄"
 		}
 		{
 			item: {
@@ -81,7 +81,7 @@
 					mmorpg_skill_gem: "{\"id\":\"rejuv_totem\",\"type\":\"SKILL\",\"perc\":22,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "회복 토템"
+			title: "활력 토템"
 		}
 		{
 			item: {
@@ -101,7 +101,7 @@
 					mmorpg_skill_gem: "{\"id\":\"arrow_barrage\",\"type\":\"SKILL\",\"perc\":10,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "화살 집중 사격"
+			title: "화살 세례"
 		}
 		{
 			item: {
@@ -121,7 +121,7 @@
 					mmorpg_skill_gem: "{\"id\":\"fire_trap\",\"type\":\"SKILL\",\"perc\":18,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "불 덫"
+			title: "화염 덫"
 		}
 		{
 			item: {
@@ -151,7 +151,7 @@
 					mmorpg_skill_gem: "{\"id\":\"lightning_spear\",\"type\":\"SKILL\",\"perc\":22,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "벼락 창"
+			title: "번개 창"
 		}
 		{
 			item: {
@@ -161,7 +161,7 @@
 					mmorpg_skill_gem: "{\"id\":\"fire_nova\",\"type\":\"SKILL\",\"perc\":23,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "화염 폭발"
+			title: "화염 노바"
 		}
 		{
 			item: {
@@ -171,7 +171,7 @@
 					mmorpg_skill_gem: "{\"id\":\"frost_nova\",\"type\":\"SKILL\",\"perc\":17,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "서리 폭발"
+			title: "서리 노바"
 		}
 		{
 			item: {
@@ -214,5 +214,5 @@
 			title: "좀비 소환"
 		}
 	]
-	title: "스킬 보석 상점 I"
+	title: "스킬 젬 상점 I"
 }

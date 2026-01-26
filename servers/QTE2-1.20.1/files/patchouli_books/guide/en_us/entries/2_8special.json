@@ -1,0 +1,24 @@
+{
+    "name": "특수 악기",
+    "icon": "mimi:witchpipe",
+    "category": "mimi:2instruments",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "MIMI의 모든 악기를 제작할 수 있는 것은 아닙니다. 일부는 다른 방법으로 세계에서 얻어야 합니다..."
+        },
+        {
+            "type": "spotlight",
+            "item": "mimi:bonelute",
+            "link_recipe": true,
+            "text": "조심스럽게 조각된 뼈로 만들어진 이 류트는 잊혀지지 않는 쨍그랑거리는 소리가 덧붙여진 덜거덕거리는 소리를 냅니다. 숙련된 스켈레톤 장인만이 뼈 류트를 만들 수 있으며, 따라서 스켈레톤을 죽일 때 우연히 얻을 수 있습니다."
+        },
+        {
+            "type": "spotlight",
+            "item": "mimi:witchpipe",
+            "link_recipe": true,
+            "text": "어둠의 마법이 깃든 파이프인 마녀 파이프는 연주할 때 으스스하고 낮게 웅웅거리는 소리를 생성합니다. 이 파이프를 생성하는 데 필요한 주문은 소수의 마녀만이 알고 있으므로, 마녀를 처치할 때 우연히 얻는 방법밖에 없습니다."
+        }
+    ],
+    "sortnum": 8
+}

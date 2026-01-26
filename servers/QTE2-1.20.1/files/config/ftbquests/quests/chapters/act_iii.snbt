@@ -125,20 +125,13 @@
 			]
 			shape: "rsquare"
 			subtitle: "{autotranslate.ftbquests.act_iii.quests_2.subtitle}"
-			tasks: [
-				{
-					icon: "minecraft:ice"
-					id: "7D9182428353834C"
-					structure: "aquamirae:ice_maze/common"
-					title: "{autotranslate.ftbquests.act_iii.quests_2.tasks_0.title}"
-					type: "structure"
-				}
-				{
-					id: "66A2C43CB2DC02D9"
-					title: "{autotranslate.ftbquests.act_iii.quests_2.tasks_1.title}"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				icon: "minecraft:ice"
+				id: "7D9182428353834C"
+				structure: "aquamirae:ice_maze/common"
+				title: "{autotranslate.ftbquests.act_iii.quests_2.tasks_0.title}"
+				type: "structure"
+			}]
 			title: "{autotranslate.ftbquests.act_iii.quests_2.title}"
 			x: 6.0d
 			y: 0.0d

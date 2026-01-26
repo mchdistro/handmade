@@ -1,0 +1,19 @@
+{
+    "name": "기계 거장",
+    "icon": "mimi:mechanicalmaestro",
+    "category": "mimi:4redstone",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "기계 거장",
+            "item": "mimi:mechanicalmaestro",
+            "text": "기계 거장은 레드스톤으로 동력을 공급받고 악기가 주어지면, 악기에 연결된 근처 송신기에서 음표를 받아 해당 악기를 재생하는 블록입니다."
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "레시피",
+            "recipe": "mimi:mechanicalmaestro"
+        }
+    ],
+    "sortnum": 3
+}

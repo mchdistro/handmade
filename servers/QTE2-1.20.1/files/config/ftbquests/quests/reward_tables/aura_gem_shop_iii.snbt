@@ -11,7 +11,7 @@
 					mmorpg_skill_gem: "{\"id\":\"guardian\",\"type\":\"AURA\",\"perc\":15,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "활력 증강"
+			title: "활력 오그먼트"
 		}
 		{
 			item: {
@@ -21,7 +21,7 @@
 					mmorpg_skill_gem: "{\"id\":\"summon_dmg\",\"type\":\"AURA\",\"perc\":15,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "지배자 증강"
+			title: "오버로드 오그먼트"
 		}
 		{
 			item: {
@@ -31,7 +31,7 @@
 					mmorpg_skill_gem: "{\"id\":\"ele_res\",\"type\":\"AURA\",\"perc\":18,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "원소 방벽 증강"
+			title: "원소 방벽 오그먼트"
 		}
 		{
 			item: {
@@ -41,7 +41,7 @@
 					mmorpg_skill_gem: "{\"id\":\"fire_res\",\"type\":\"AURA\",\"perc\":13,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "화염 방벽 증강"
+			title: "화염 방벽 오그먼트"
 		}
 		{
 			item: {
@@ -51,7 +51,7 @@
 					mmorpg_skill_gem: "{\"id\":\"cold_res\",\"type\":\"AURA\",\"perc\":20,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "서리 방벽 증강"
+			title: "서리 방벽 오그먼트"
 		}
 		{
 			item: {
@@ -61,7 +61,7 @@
 					mmorpg_skill_gem: "{\"id\":\"light_res\",\"type\":\"AURA\",\"perc\":23,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "벼락 방벽 증강"
+			title: "천둥 방벽 오그먼트"
 		}
 		{
 			item: {
@@ -71,7 +71,7 @@
 					mmorpg_skill_gem: "{\"id\":\"chaos_res\",\"type\":\"AURA\",\"perc\":23,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "혼돈 방벽 증강"
+			title: "혼돈 방벽 오그먼트"
 		}
 		{
 			item: {
@@ -81,7 +81,7 @@
 					mmorpg_skill_gem: "{\"id\":\"block\",\"type\":\"AURA\",\"perc\":18,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "가디언 증강"
+			title: "가디언 오그먼트"
 		}
 		{
 			item: {
@@ -91,8 +91,8 @@
 					mmorpg_skill_gem: "{\"id\":\"critical_damage\",\"type\":\"AURA\",\"perc\":16,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "치명타 위력 증강"
+			title: "치명타 피해 오그먼트"
 		}
 	]
-	title: "증강 보석 상점 III"
+	title: "오그먼트 젬 상점 III"
 }

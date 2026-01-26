@@ -13,7 +13,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "#드롭",
+            "text": "#drop",
             "color": "77000000",
             "x": 27,
             "y": 17
@@ -32,7 +32,7 @@
         },
         {
             "type": "patchouli:header",
-            "text": "#제목",
+            "text": "#heading",
             "x": -1,
             "y": -1
         },
@@ -79,7 +79,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "#텍스트",
+            "text": "#text",
             "y": 130
         }
     ]

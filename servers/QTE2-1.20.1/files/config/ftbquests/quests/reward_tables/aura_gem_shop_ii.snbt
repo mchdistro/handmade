@@ -11,7 +11,7 @@
 					mmorpg_skill_gem: "{\"id\":\"armor\",\"type\":\"AURA\",\"perc\":12,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "갑옷 증강"
+			title: "갑옷 오그먼트"
 		}
 		{
 			item: {
@@ -21,7 +21,7 @@
 					mmorpg_skill_gem: "{\"id\":\"dodge\",\"type\":\"AURA\",\"perc\":15,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "회피 증강"
+			title: "회피 오그먼트"
 		}
 		{
 			item: {
@@ -31,7 +31,7 @@
 					mmorpg_skill_gem: "{\"id\":\"magic_shield\",\"type\":\"AURA\",\"perc\":11,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "마법 방패 증강"
+			title: "마법 방패 오그먼트"
 		}
 		{
 			item: {
@@ -41,7 +41,7 @@
 					mmorpg_skill_gem: "{\"id\":\"physical_ailment\",\"type\":\"AURA\",\"perc\":24,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "고통의 칙령 증강"
+			title: "고통의 법령 오그먼트"
 		}
 		{
 			item: {
@@ -51,7 +51,7 @@
 					mmorpg_skill_gem: "{\"id\":\"fire_ailment\",\"type\":\"AURA\",\"perc\":13,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "화염의 칙령 증강"
+			title: "불의 법령"
 		}
 		{
 			item: {
@@ -61,7 +61,7 @@
 					mmorpg_skill_gem: "{\"id\":\"cold_ailment\",\"type\":\"AURA\",\"perc\":13,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "서리의 칙령 증강"
+			title: "서리의 법령"
 		}
 		{
 			item: {
@@ -71,7 +71,7 @@
 					mmorpg_skill_gem: "{\"id\":\"lightning_ailment\",\"type\":\"AURA\",\"perc\":10,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "벼락의 칙령 증강"
+			title: "번개의 법령"
 		}
 		{
 			item: {
@@ -81,7 +81,7 @@
 					mmorpg_skill_gem: "{\"id\":\"chaos_ailment\",\"type\":\"AURA\",\"perc\":10,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "혼돈의 칙령 증강"
+			title: "혼돈의 법령"
 		}
 		{
 			item: {
@@ -91,8 +91,8 @@
 					mmorpg_skill_gem: "{\"id\":\"critical_hit\",\"type\":\"AURA\",\"perc\":12,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "치명타 증강"
+			title: "치명타 오그먼트"
 		}
 	]
-	title: "증강 보석 상점 II"
+	title: "오그먼트 젬 상점 II"
 }

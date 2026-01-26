@@ -11,7 +11,7 @@
 					mmorpg_skill_gem: "{\"id\":\"physical_damage\",\"type\":\"SUPPORT\",\"perc\":31,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "물리 피해 보조 보석"
+			title: "물리 피해 보조 젬"
 		}
 		{
 			item: {
@@ -21,7 +21,7 @@
 					mmorpg_skill_gem: "{\"id\":\"ranged_damage\",\"type\":\"SUPPORT\",\"perc\":40,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "원거리 피해 보조 보석"
+			title: "원거리 피해 보조 젬"
 		}
 		{
 			item: {
@@ -31,7 +31,7 @@
 					mmorpg_skill_gem: "{\"id\":\"fire_damage\",\"type\":\"SUPPORT\",\"perc\":35,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "불 피해 보조 보석"
+			title: "화염 피해 보조 젬"
 		}
 		{
 			item: {
@@ -41,7 +41,7 @@
 					mmorpg_skill_gem: "{\"id\":\"cold_damage\",\"type\":\"SUPPORT\",\"perc\":35,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "냉기 피해 보조 보석"
+			title: "냉기 피해 보조 젬"
 		}
 		{
 			item: {
@@ -51,7 +51,7 @@
 					mmorpg_skill_gem: "{\"id\":\"lightning_damage\",\"type\":\"SUPPORT\",\"perc\":38,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "벼락 피해 보조 보석"
+			title: "번개 피해 보조 젬"
 		}
 		{
 			item: {
@@ -61,8 +61,8 @@
 					mmorpg_skill_gem: "{\"id\":\"chaos_damage\",\"type\":\"SUPPORT\",\"perc\":31,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "혼돈 피해 보조 보석"
+			title: "혼돈 피해 보조 젬"
 		}
 	]
-	title: "보조 보석 6"
+	title: "보조 젬 6"
 }

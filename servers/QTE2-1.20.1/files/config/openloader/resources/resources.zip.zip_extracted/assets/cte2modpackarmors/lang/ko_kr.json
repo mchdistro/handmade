@@ -1,9 +1,9 @@
 {
     "item.cte2modpackarmors.sinful_lights_staff": "죽어가는 숨결",
     "item.cte2modpackarmors.desolating_light_staff": "온달의 지혜",
-    "item.cte2modpackarmors.soulcursed_skewer_dagger": "마법사 스파이크",
-    "item.cte2modpackarmors.venom_tears_dagger": "비취 탄도",
-    "item.cte2modpackarmors.tempered_samurai_armor_boots": "겐지 정강이 보호대",
+    "item.cte2modpackarmors.soulcursed_skewer_dagger": "마법사 쐐기",
+    "item.cte2modpackarmors.venom_tears_dagger": "비취 탄 도",
+    "item.cte2modpackarmors.tempered_samurai_armor_boots": "겐지 정강이 받이",
     "item.cte2modpackarmors.tempered_samurai_armor_leggings": "겐지 통바지",
     "item.cte2modpackarmors.tempered_samurai_armor_helmet": "겐지 투구",
     "item.cte2modpackarmors.tempered_samurai_armor_chestplate": "겐지 도마루",
@@ -11,10 +11,10 @@
     "item.cte2modpackarmors.last_tracker_armor_leggings": "마지막 추적자 레깅스",
     "item.cte2modpackarmors.last_tracker_armor_helmet": "마지막 추적자 후드",
     "item.cte2modpackarmors.last_tracker_armor_chestplate": "마지막 추적자 가죽",
-    "item.cte2modpackarmors.oath_of_mahj_armor_helmet": "마흐의 경계",
-    "item.cte2modpackarmors.oath_of_mahj_armor_leggings": "마흐의 기반",
-    "item.cte2modpackarmors.oath_of_mahj_armor_boots": "마흐의 관대함",
-    "item.cte2modpackarmors.oath_of_mahj_armor_chestplate": "마흐의 맹세",
+    "item.cte2modpackarmors.oath_of_mahj_armor_helmet": "마지의 경계",
+    "item.cte2modpackarmors.oath_of_mahj_armor_leggings": "마지의 토대",
+    "item.cte2modpackarmors.oath_of_mahj_armor_boots": "마지의 관대함",
+    "item.cte2modpackarmors.oath_of_mahj_armor_chestplate": "마지의 맹세",
     "item.cte2modpackarmors.mage_hunter_armor_helmet": "성운의 후드",
     "item.cte2modpackarmors.mage_hunter_armor_chestplate": "성운의 망토",
     "item.cte2modpackarmors.mage_hunter_armor_leggings": "성운의 레깅스",
@@ -23,6 +23,6 @@
     "item.cte2modpackarmors.divine_plate_armor_chestplate": "주반의 포옹",
     "item.cte2modpackarmors.divine_plate_armor_leggings": "주반의 위안",
     "item.cte2modpackarmors.divine_plate_armor_boots": "주반의 길",
-    "item.cte2modpackarmors.endless_blood_armor_helmet": "그라나트의 욕망",
-    "item.cte2modpackarmors.endless_blood_armor_chestplate": "그라나트의 끈기"
+    "item.cte2modpackarmors.endless_blood_armor_helmet": "그래닛의 욕망",
+    "item.cte2modpackarmors.endless_blood_armor_chestplate": "그래닛의 끈기"
 }

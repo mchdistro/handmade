@@ -22,7 +22,7 @@
 					mmorpg_skill_gem: "{\"id\":\"gong_strike\",\"type\":\"SKILL\",\"perc\":11,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "징 강타"
+			title: "징 스트라이크"
 		}
 		{
 			item: {
@@ -52,8 +52,8 @@
 					mmorpg_skill_gem: "{\"id\":\"healing_aura\",\"type\":\"SKILL\",\"perc\":19,\"rar\":\"common\",\"links\":1,\"sal\":true}"
 				}
 			}
-			title: "치유의 파동"
+			title: "치유 파동"
 		}
 	]
-	title: "첫 번째 스킬 보석"
+	title: "처음 스킬 젬"
 }

@@ -5,11 +5,6 @@
     "dungeon_realm.uber_boss.uber_nature_dungeon": "부패의 영역",
     "block.dungeon_realm.boss_teleport": "보스 차원문",
     "block.dungeon_realm.uber_teleport": "우버 차원문",
-    "block.dungeon_realm.reward_teleport": "보물방 차원문",
-    "block.dungeon_realm.uber_boss_altar": "우버 보스 제단",
-    "dungeon_realm.words.map_name_template": "템플릿",
-    "dungeon_realm.words.map_name_watcher": "감시자",
-    "dungeon_realm.words.map_name_moo": "음메",
-    "dungeon_realm.words.map_name_pirate_lair": "해적 소굴",
-    "dungeon_realm.words.map_name_garden": "정원"
+    "block.dungeon_realm.reward_teleport": "보물 방 차원문",
+    "block.dungeon_realm.uber_boss_altar": "우버 보스 제단"
 }

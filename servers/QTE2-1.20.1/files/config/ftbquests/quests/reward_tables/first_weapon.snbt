@@ -80,7 +80,7 @@
 					mmorpg_potential: "{\"potential\":25}"
 				}
 			}
-			title: "창 (양손)"
+			title: "양손 창"
 		}
 		{
 			item: {
@@ -116,7 +116,7 @@
 					mmorpg_potential: "{\"potential\":25}"
 				}
 			}
-			title: "대검 (양손)"
+			title: "양손 대검"
 		}
 		{
 			item: {
@@ -128,7 +128,7 @@
 					mmorpg_potential: "{\"potential\":25}"
 				}
 			}
-			title: "낫 (양손)"
+			title: "양손 낫"
 		}
 		{
 			item: {
@@ -143,5 +143,5 @@
 			title: "건틀릿"
 		}
 	]
-	title: "첫 번째 무기"
+	title: "초심자용 무기"
 }

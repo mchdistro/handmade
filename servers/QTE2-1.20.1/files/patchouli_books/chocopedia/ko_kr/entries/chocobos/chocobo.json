@@ -111,7 +111,7 @@
             "type": "patchouli:entity",
             "anchor": "red",
             "entity": "chococraft:chocobo{Color:7b}",
-            "name": "초코보 (빨강)",
+            "name": "초코보 (빨간색)",
             "text": "info.chococraft.book.chocobo.red.description"
         },
         {
