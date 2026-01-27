@@ -11882,138 +11882,6 @@
           }
         },
         {
-          "id": "villager-trading-config.json",
-          "name": "villager-trading-config.json",
-          "type": "File",
-          "artifact": {
-            "size": 1582,
-            "url": "https://github.com/mchdistro/handmade/raw/main/servers/CTE2-1.20.1/files/config/inventoryprofilesnext/crafttoexile2-wraeclast.g.akliz.net/villager-trading-config.json",
-            "MD5": "a9de145dfedbe379ada72b5beaf621f7",
-            "path": "config/inventoryprofilesnext/crafttoexile2-wraeclast.g.akliz.net/villager-trading-config.json"
-          }
-        },
-        {
-          "id": "exampleIntegrationHints.json",
-          "name": "exampleIntegrationHints.json",
-          "type": "File",
-          "artifact": {
-            "size": 1450,
-            "url": "https://github.com/mchdistro/handmade/raw/main/servers/CTE2-1.20.1/files/config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json",
-            "MD5": "1a018549a3d0f945870f75056ce7e5eb",
-            "path": "config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json"
-          }
-        },
-        {
-          "id": "player-defined.json",
-          "name": "player-defined.json",
-          "type": "File",
-          "artifact": {
-            "size": 395,
-            "url": "https://github.com/mchdistro/handmade/raw/main/servers/CTE2-1.20.1/files/config/inventoryprofilesnext/integrationHints/player-defined.json",
-            "MD5": "8d11d743b3862a66e764b8db2148809f",
-            "path": "config/inventoryprofilesnext/integrationHints/player-defined.json"
-          }
-        },
-        {
-          "id": "inventoryprofiles.json",
-          "name": "inventoryprofiles.json",
-          "type": "File",
-          "artifact": {
-            "size": 1646,
-            "url": "https://github.com/mchdistro/handmade/raw/main/servers/CTE2-1.20.1/files/config/inventoryprofilesnext/inventoryprofiles.json",
-            "MD5": "5b279ed070bdbaf70b572bb1458dc20d",
-            "path": "config/inventoryprofilesnext/inventoryprofiles.json"
-          }
-        },
-        {
-          "id": "villager-trading-config.json",
-          "name": "villager-trading-config.json",
-          "type": "File",
-          "artifact": {
-            "size": 1582,
-            "url": "https://github.com/mchdistro/handmade/raw/main/servers/CTE2-1.20.1/files/config/inventoryprofilesnext/Mahj's%20World/villager-trading-config.json",
-            "MD5": "a9de145dfedbe379ada72b5beaf621f7",
-            "path": "config/inventoryprofilesnext/Mahj's World/villager-trading-config.json"
-          }
-        },
-        {
-          "id": "profiles.txt",
-          "name": "profiles.txt",
-          "type": "File",
-          "artifact": {
-            "size": 139,
-            "url": "https://github.com/mchdistro/handmade/raw/main/servers/CTE2-1.20.1/files/config/inventoryprofilesnext/mns-server.g.akliz.net/profiles.txt",
-            "MD5": "a4abc76e81e015c73e78e7a67339a555",
-            "path": "config/inventoryprofilesnext/mns-server.g.akliz.net/profiles.txt"
-          }
-        },
-        {
-          "id": "villager-trading-config.json",
-          "name": "villager-trading-config.json",
-          "type": "File",
-          "artifact": {
-            "size": 1582,
-            "url": "https://github.com/mchdistro/handmade/raw/main/servers/CTE2-1.20.1/files/config/inventoryprofilesnext/mns-server.g.akliz.net/villager-trading-config.json",
-            "MD5": "a9de145dfedbe379ada72b5beaf621f7",
-            "path": "config/inventoryprofilesnext/mns-server.g.akliz.net/villager-trading-config.json"
-          }
-        },
-        {
-          "id": "prev-villager-trading-config.json",
-          "name": "prev-villager-trading-config.json",
-          "type": "File",
-          "artifact": {
-            "size": 1744,
-            "url": "https://github.com/mchdistro/handmade/raw/main/servers/CTE2-1.20.1/files/config/inventoryprofilesnext/New%20World/prev-villager-trading-config.json",
-            "MD5": "38d076fb01187880c4ffbe2ef0e3caac",
-            "path": "config/inventoryprofilesnext/New World/prev-villager-trading-config.json"
-          }
-        },
-        {
-          "id": "villager-trading-config.json",
-          "name": "villager-trading-config.json",
-          "type": "File",
-          "artifact": {
-            "size": 1744,
-            "url": "https://github.com/mchdistro/handmade/raw/main/servers/CTE2-1.20.1/files/config/inventoryprofilesnext/New%20World/villager-trading-config.json",
-            "MD5": "38d076fb01187880c4ffbe2ef0e3caac",
-            "path": "config/inventoryprofilesnext/New World/villager-trading-config.json"
-          }
-        },
-        {
-          "id": "villager-trading-config.json",
-          "name": "villager-trading-config.json",
-          "type": "File",
-          "artifact": {
-            "size": 1582,
-            "url": "https://github.com/mchdistro/handmade/raw/main/servers/CTE2-1.20.1/files/config/inventoryprofilesnext/Test%20World/villager-trading-config.json",
-            "MD5": "a9de145dfedbe379ada72b5beaf621f7",
-            "path": "config/inventoryprofilesnext/Test World/villager-trading-config.json"
-          }
-        },
-        {
-          "id": "villager-trading-config.json",
-          "name": "villager-trading-config.json",
-          "type": "File",
-          "artifact": {
-            "size": 1582,
-            "url": "https://github.com/mchdistro/handmade/raw/main/servers/CTE2-1.20.1/files/config/inventoryprofilesnext/villager-trading-config.json",
-            "MD5": "a9de145dfedbe379ada72b5beaf621f7",
-            "path": "config/inventoryprofilesnext/villager-trading-config.json"
-          }
-        },
-        {
-          "id": "villager-trading-config.json",
-          "name": "villager-trading-config.json",
-          "type": "File",
-          "artifact": {
-            "size": 1582,
-            "url": "https://github.com/mchdistro/handmade/raw/main/servers/CTE2-1.20.1/files/config/inventoryprofilesnext/[fe80&&adde&138b&47c3&7d5c]&25565/villager-trading-config.json",
-            "MD5": "a9de145dfedbe379ada72b5beaf621f7",
-            "path": "config/inventoryprofilesnext/[fe80&&adde&138b&47c3&7d5c]&25565/villager-trading-config.json"
-          }
-        },
-        {
           "id": "inventorysorter-client.toml",
           "name": "inventorysorter-client.toml",
           "type": "File",
@@ -13053,7 +12921,7 @@
           "name": "oculus.properties",
           "type": "File",
           "artifact": {
-            "size": 308,
+            "size": 312,
             "url": "https://github.com/mchdistro/handmade/raw/main/servers/CTE2-1.20.1/files/config/oculus.properties",
             "path": "config/oculus.properties"
           }
