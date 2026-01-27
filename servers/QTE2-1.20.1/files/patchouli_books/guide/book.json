@@ -1,9 +1,0 @@
-{
-    "name": "MIMI와 나",
-    "landing_text": "$(l)M$()usical    ---> $(l)M$()usical$(br)$(l)I$()nstrument  ---> $(l)I$()nstrument$(br)$(l)D$()igital      ---> $(l)M$()inecraft$(br)$(l)I$()nterface     ---> $(l)I$()nterface$(br2)이 가이드는 마인크래프트에서 MIMI를 사용하여 음악을 재생하는 방법에 대한 모든 것을 알려줍니다!$(br2)질문, 아이디어가 있거나 버그를 발견하셨습니까? MIMI의 $(l:https://github.com/tofodroid/mimi-mod/issues)이슈$() 섹션의 $(l:https://github.com/tofodroid/mimi-mod)GitHub$() 페이지로 이동하세요!",
-    "version": 3,
-    "show_progress": false,
-    "dont_generate_book": true,
-    "custom_book_item": "mimi:guide",
-    "use_resource_pack": "true"
-}

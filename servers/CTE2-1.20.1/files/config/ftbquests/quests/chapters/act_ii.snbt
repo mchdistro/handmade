@@ -1,0 +1,1307 @@
+{
+	default_hide_dependency_lines: 0
+	default_quest_shape: ""
+	filename: "act_ii"
+	group: "1E3C4B5FFAE48A39"
+	icon: "minecraft:nether_star"
+	id: "5381722ABA7D14DD"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"18E09A4B9FC1B43F"
+				"29CADE48F14D6436"
+			]
+			description: ["음, 이 &e레무리안&r들은 분명히 여기에 속하지 않습니다..."]
+			id: "52DAC9E8213D2624"
+			rewards: [
+				{
+					id: "545891FC6956AAC5"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":15,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "희귀 장비 전리품 상자 (레벨 15언더가든 방문"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 1250"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "0D1D6AA7D64C4EE8"
+					silent: 1
+					title: "1250 경험치"
+					type: "command"
+				}
+			]
+			subtitle: "위험한 비"
+			tasks: [{
+				entity: "riskofrain_mobs:lemurian_entity"
+				icon: "nightlights:octopus_purple"
+				id: "13BF61F2B380DC9E"
+				type: "kill"
+				value: 24
+			}]
+			title: "이계의 존재 II"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["29CADE48F14D6436"]
+			description: [
+				"오버월드에서도 모기는 충분히 짜증나는데... 이 몬스터들은 거대하고, 얼굴에 달라붙으며, 일반적으로 처치하기 어렵습니다!"
+				""
+				"이 끔찍하고 변이된 비행 곤충들은 &e네더의 숲&r에서 발견됩니다."
+			]
+			icon: "alexsmobs:mosquito_proboscis"
+			id: "322725A82ADAA810"
+			rewards: [
+				{
+					count: 8
+					id: "6846F506D4DBBC18"
+					item: {
+						Count: 1
+						id: "mmorpg:potion/health/2"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					title: "희귀 회복 물약"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 1250"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "124DB96872E3BE33"
+					silent: 1
+					title: "1250 경험치"
+					type: "command"
+				}
+			]
+			subtitle: "진홍빛 숲"
+			tasks: [{
+				entity: "alexsmobs:crimson_mosquito"
+				icon: "ftb_ph:crimson_mosquito"
+				id: "3EADF779EE3B6C1A"
+				type: "kill"
+				value: 4
+			}]
+			title: "피 묻은 해충"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["45535AECCE43183A"]
+			description: ["당신의 직감이 옳았던 것 같습니다. 네더 요새에는 이상한 적들이 우글거립니다. &e위더 스켈레톤&r은 해골 파편을 드롭하는 것 같으며, 이 파편에서 어떤 에너지가 방출되는 듯합니다."]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "63F4CAF1CA065949"
+			rewards: [
+				{
+					id: "33816632385BF1A6"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":25,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "희귀 장비 전리품 상자 (레벨 25언더가든 방문"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 2000"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "6F4E216D74BB3692"
+					silent: 1
+					title: "2000 경험치"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "주요 퀘스트"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				icon: "ftb_ph:wither_skeleton"
+				id: "672F0F6E02A6D254"
+				type: "kill"
+				value: 12
+			}]
+			title: "해골 수집가"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18E09A4B9FC1B43F"]
+			description: [
+				"여기 있는 모든 생명체가 본래 적대적인 것은 아닌 것 같습니다. 하지만 우리가 진지하다는 것을 보여줄 필요가 있습니다."
+				""
+				"이제 &e피글린&r과 &e호글린&r을 처리할 시간입니다. 이들은 주로 &e네더 황무지&r와 &e진홍빛 숲&r에서 발견됩니다."
+			]
+			icon: "minecraft:piglin_head"
+			id: "29CADE48F14D6436"
+			rewards: [
+				{
+					id: "27D034D602B200EA"
+					item: "lightmanscurrency:coin_gold"
+					title: "돈"
+					type: "item"
+				}
+				{
+					id: "69DCE5D67CC781CF"
+					item: "mmorpg:stone/2"
+					title: "희귀한 돌"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 1250"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "01CC496042A47CC6"
+					silent: 1
+					title: "1250 경험치"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "주요 퀘스트"
+			tasks: [
+				{
+					entity: "minecraft:piglin"
+					icon: "ftb_ph:piglin"
+					id: "0709550781191C90"
+					type: "kill"
+					value: 12
+				}
+				{
+					entity: "minecraft:hoglin"
+					icon: "ftb_ph:hoglin"
+					id: "6ACD5F7F9447DCCB"
+					type: "kill"
+					value: 4
+				}
+			]
+			title: "이계의 존재"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45535AECCE43183A"]
+			description: [
+				"네더에서는 공격적이고 불타는 생명체들을 만날 수 있습니다. &e웜&r과 &e블레이즈&r가 강력해 보이지만, 네더의 크기와 깊이를 고려할 때 더 강력한 마그마 생명체가 있을 것이 거의 확실합니다."
+				""
+				"불에 대비하는 것이 가장 좋을 것입니다. 이 몹들을 찾아 처치하여 자신을 시험해 보세요."
+				""
+				"&o&7완료 시 반복 퀘스트 챕터에서 반복 퀘스트가 잠금 해제됩니다!&r&r"
+			]
+			icon: "minecraft:blaze_powder"
+			id: "1D01AD334C7C70F1"
+			rewards: [
+				{
+					count: 5
+					id: "1E1B2C1F4FA4CF20"
+					item: "lightmanscurrency:coin_iron"
+					title: "돈"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 1750"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "3544639BC2E3A192"
+					silent: 1
+					title: "1750 경험치"
+					type: "command"
+				}
+			]
+			subtitle: "불타는 모험"
+			tasks: [
+				{
+					entity: "minecraft:blaze"
+					icon: "ftb_ph:blaze"
+					id: "0B92DB0E2C3ACA8E"
+					type: "kill"
+					value: 12
+				}
+				{
+					entity: "realmrpg_wyrms:red_wyrm"
+					icon: "minecraft:blaze_powder"
+					id: "123E1ECFC39D0945"
+					type: "kill"
+					value: 4
+				}
+			]
+			title: "불타는 적들"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["277A8C4C5D50ED00"]
+			description: [
+				"분명히 이 날아다니는 생명체들을 이미 만났을 겁니다... 무언가 당신에게 이들이 모든 구석에 수백 마리씩 숨어있다고 말해줍니다."
+				""
+				"그들은 무언가로부터 왔을 것입니다..."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:tipped_arrow"
+				tag: {
+					Potion: "alexsmobs:lava_vision"
+				}
+			}
+			id: "1EA8FC97142B16A7"
+			rewards: [
+				{
+					count: 3
+					id: "5486B8641330278A"
+					item: "mmorpg:soul_extractor/rare"
+					title: "희귀 장비 영혼 추출기"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 2250"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "2604E2CD0966E3DD"
+					silent: 1
+					title: "2250 경험치"
+					type: "command"
+				}
+			]
+			subtitle: "불타는 모험"
+			tasks: [{
+				entity: "monsterplus:lava_squid"
+				icon: "ftb_ph:lava_squid"
+				id: "6EC7ADFF37CD9E71"
+				type: "kill"
+				value: 18
+			}]
+			title: "화염 분출자"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1EA8FC97142B16A7"]
+			description: [
+				"이것이 바로 그 &e것&r입니다."
+				""
+				"마더 용암 오징어는 다음을 가집니다:"
+				"&b+50% 물리 피해를 불 피해로&r"
+				"&a5% 넷 룬 드롭 확률&r"
+			]
+			icon: "simplehats:burning_m_bison"
+			id: "05AD0B9A77F0325F"
+			rewards: [
+				{
+					exclude_from_claim_all: 1
+					id: "535DAF2AABB78097"
+					table_id: 1687722018226746788L
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 2500"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "79DBFB1E7228F818"
+					silent: 1
+					title: "2500 경험치"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "3669A04AB95A4666"
+					title: "1 특성 포인트"
+					type: "custom"
+				}
+			]
+			shape: "diamond"
+			subtitle: "불타는 모험"
+			tasks: [{
+				entity: "monsterplus:mother_lava_squid"
+				icon: "ftb_ph:lava_squid"
+				id: "01A75F2295A67935"
+				type: "kill"
+				value: 1
+			}]
+			title: "마더"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["75447684ADAD02D8"]
+			description: [
+				"&e영혼 모래&r를 T자 모양으로 설치하고, 그 위에 &e위더 스켈레톤 해골 3개&r를 올려 &e위더&r를 소환하세요."
+				""
+				"이 보스는 매우 어렵습니다. 1단계에서는 투사체 무기나 주문이 필요합니다. 2단계에서는 위더가 가까이 다가올 것에 대비하세요..."
+				""
+				"&o&e팁:&r &o위더를 처치하는 데 어려움을 겪고 있나요? 몹의 레벨이 당신보다 높을수록 받는 피해가 적고 더 많은 피해를 입힌다는 것을 알고 있었나요? 이 보너스는 3레벨 차이부터 시작됩니다.&r"
+				""
+				"&c위더는 최소 레벨 30에 스폰됩니다.&r"
+				""
+				"위더는 다음을 가집니다:"
+				"&b+50% 물리 피해를 불 피해로&r"
+				"&b+20% 원소 저항&r"
+				"&a10% 넷 룬 드롭 확률&r"
+				""
+				"&6이 퀘스트는 캠페인 상점에서 새로운 상점을 잠금 해제합니다."
+			]
+			icon: "minecraft:wither_rose"
+			id: "114D74DF8284ACC3"
+			rewards: [
+				{
+					exclude_from_claim_all: 1
+					id: "77CCFAF579DA3451"
+					table_id: 2150601229175429082L
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 7500"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "2D5BE1067A169265"
+					silent: 1
+					title: "7500 경험치"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "351D370BEAFABF0E"
+					title: "1 특성 포인트"
+					type: "custom"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "주요 퀘스트"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "ftb_ph:wither"
+				id: "17530C3BC3EA0BB2"
+				type: "kill"
+				value: 1
+			}]
+			title: "어둠의 의식"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["277A8C4C5D50ED00"]
+			description: [
+				"음, 당신이 제거해야 할 거대한 악당 중 하나가 여기 있습니다. &e와일드파이어&r는 강력한 적입니다. 대비해야 할 것입니다."
+				""
+				"&e와일드파이어&r 주변을 회전하는 판들을 먼저 제거해야 피해를 입힐 수 있습니다."
+				""
+				"&e와일드파이어&r는 &e성채&r에서 찾을 수 있습니다. 또는 &e지옥 요새의 관문&r을 사용할 수도 있습니다."
+				""
+				"와일드파이어는 다음을 가집니다:"
+				"&b+50% 물리 피해를 불 피해로&r"
+				"&b+25% 화상 확률&r"
+				"&a5% 넷 룬 드롭 확률&r"
+			]
+			icon: {
+				Count: 1
+				id: "friendsandfoes:wildfire_crown"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "42A954877474A58F"
+			rewards: [
+				{
+					exclude_from_claim_all: 1
+					id: "74422C75EF7AACE2"
+					table_id: 4329773747337249676L
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 2500"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "777824462105E261"
+					silent: 1
+					title: "2500 경험치"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "6E3B5E2EB562F8D7"
+					title: "1 특성 포인트"
+					type: "custom"
+				}
+			]
+			shape: "diamond"
+			subtitle: "불타는 모험"
+			tasks: [{
+				entity: "friendsandfoes:wildfire"
+				icon: "ftb_ph:wildfire"
+				id: "6541A85B5313AC4F"
+				type: "kill"
+				value: 1
+			}]
+			title: "화염의 지배자"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["114D74DF8284ACC3"]
+			description: [
+				"마을 경비병에게 업적을 보고하고 보상을 받았습니다. 이제 다음 차원인 &e언더가든&r으로 이동할 시간입니다. 축축하고 끈적이며 대부분 거주 가능한 차원으로, 호기심을 자극하는 생명체들이 있습니다... 변이된 것은 아닐 수도 있지만, 어쨌든 살펴볼 가치가 있습니다."
+				""
+				"&e네더의 별&r을 사용하여 &e촉매제&r를 제작하고, &e네더 차원문과 같은 모양으로 석재 벽돌로 차원문&r을 만들어 언더가든에 접근하세요. 촉매제를 사용하여 활성화하세요."
+				""
+				"{image:cte2:textures/undergarden.png width:160 height:140 align:center}"
+			]
+			icon: "undergarden:catalyst"
+			id: "18D44E8B9226FB02"
+			rewards: [
+				{
+					count: 3
+					id: "281851AAA2C7DC0E"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 4500"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "4E1BE362EAFA93B2"
+					silent: 1
+					title: "4500 경험치"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "주요 퀘스트"
+			tasks: [
+				{
+					id: "4F61CA02549D0BF8"
+					item: "undergarden:catalyst"
+					type: "item"
+				}
+				{
+					dimension: "undergarden:undergarden"
+					icon: "undergarden:depthrock"
+					id: "21C702BD4DC49479"
+					title: "언더가든 방문"
+					type: "dimension"
+				}
+			]
+			title: "여행 촉매제"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"63F4CAF1CA065949"
+				"1D01AD334C7C70F1"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"네더 요새에서 다른 구조물에 대한 단서를 발견했습니다. 요새 벽 여러 곳에 “시타델”이 새겨져 있습니다. &e시타델&r을 찾아 조사해 보세요."
+				""
+				"&e선행 조건 1개 완료 필요&r"
+			]
+			id: "277A8C4C5D50ED00"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "08F3F886C4A30C65"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:basic/blaze"
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 2000"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "6FEAA0D1FF245EA5"
+					silent: 1
+					title: "경험치 2000"
+					type: "command"
+				}
+			]
+			subtitle: "불타는 모험"
+			tasks: [{
+				advancement: "friendsandfoes:nether/find_citadel"
+				criterion: ""
+				id: "6E38DD14F2F2B52D"
+				type: "advancement"
+			}]
+			title: "어둠 속의 성"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["322725A82ADAA810"]
+			description: ["자주 죽는다면 &e리스폰 정박기&r를 제작할 수 있습니다. 제작하려면 먼저 &e우는 흑요석&r을 찾아야 합니다!"]
+			id: "0A37821899EAE5B4"
+			rewards: [
+				{
+					count: 5
+					id: "297CFA167CCC5830"
+					item: "lightmanscurrency:coin_iron"
+					title: "돈"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 1750"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "46A8D34E894763CE"
+					silent: 1
+					title: "경험치 1750"
+					type: "command"
+				}
+			]
+			subtitle: "진홍빛 숲"
+			tasks: [{
+				advancement: "minecraft:nether/obtain_crying_obsidian"
+				criterion: ""
+				id: "79B01E4A345318F7"
+				type: "advancement"
+			}]
+			title: "마른 눈물"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["29CADE48F14D6436"]
+			description: [
+				"가끔 네더에서 크고 거대한 구조물을 볼 수 있습니다. 어떻게 그게 가능할까요? 이곳에 문명이 있는 걸까요?"
+				""
+				"이 구조물 중 하나를 찾아 탐험하면 강력한 생명체를 찾을 수 있는 단서를 얻을 수 있을 것입니다."
+			]
+			id: "45535AECCE43183A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 1500"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "3F6B3CF23487B7AE"
+				silent: 1
+				title: "경험치 1500"
+				type: "command"
+			}]
+			shape: "rsquare"
+			subtitle: "주요 퀘스트"
+			tasks: [{
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				id: "110553725D320A0F"
+				type: "advancement"
+			}]
+			title: "네더 요새"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29CD881773D976E5"]
+			description: [
+				"&e진홍빛 모기&r가 &e뒤틀린 균&r으로 뒤덮인 &e먼거스&r의 피를 마시면, 모기는 파란색으로 변하고 크기가 커지기 시작하며, 결국 &e뒤틀린 모스코&r로 변합니다."
+				""
+				"또는 &e진홍빛 모기에게 뒤틀린 혼합물을 먹일 수 있습니다&r. 어디서 얻는지 모르겠다고요? &e거래 터미널/물물교환 게시판에서 구매할 수 있습니다&r!"
+				""
+				"매우 변이적인 과정처럼 들리네요..."
+				""
+				"뒤틀린 모스코는 다음을 가집니다."
+				"&b방어도 +40%&r"
+				"&a넷 룬 드롭 확률 10%&r"
+			]
+			icon: "alexsmobs:warped_muscle"
+			id: "37167129D6D6A280"
+			rewards: [
+				{
+					exclude_from_claim_all: 1
+					id: "2B1573668D8133F2"
+					table_id: 2180584499743187208L
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 2000"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "55F31513DD96482E"
+					silent: 1
+					title: "경험치 2000"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "6AF21C1384426C0B"
+					title: "특성 포인트 1"
+					type: "custom"
+				}
+			]
+			shape: "diamond"
+			subtitle: "진홍빛 숲"
+			tasks: [{
+				entity: "alexsmobs:warped_mosco"
+				icon: "ftb_ph:warped_mosco"
+				id: "3A77AF5EDDC8EE67"
+				type: "kill"
+				value: 1
+			}]
+			title: "숲의 거인"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1EA8FC97142B16A7"]
+			description: [
+				"&e장비 영혼 추출기&r는 장비에 사용할 수 있습니다. 장비의 \"능력치\"를 영혼으로 되돌려받으며, 이 과정에서 기본 아이템은 파괴됩니다. 그런 다음 이 영혼을 다른 장비에 사용할 수 있습니다!"
+				""
+				"반대로, &e장비 영혼 정화기&r는 기본 아이템을 유지하면서 장비의 능력치를 제거하는 데 사용됩니다."
+				""
+				"&e보석 추출기&r는 소켓 장비에서 &e젬&r을 제거하는 데 사용됩니다. 페널티는 없지만 추출기는 소모됩니다. &e룬 추출기&r도 있지만, 그것을 사용하면 &e장비 잠재력 1&r이 소모됩니다."
+			]
+			icon: "minecraft:paper"
+			id: "60D44B70BB06539B"
+			rewards: [
+				{
+					count: 5
+					id: "06397D5030906CA7"
+					item: "mmorpg:soul_extractor/uncommon"
+					title: "희귀 장비 영혼 추출기"
+					type: "item"
+				}
+				{
+					id: "019842FB37A2A722"
+					item: "mmorpg:currency/extract_gem"
+					type: "item"
+				}
+				{
+					id: "14ADF13CF85D2BDC"
+					item: "mmorpg:soul_cleaner"
+					title: "장비 영혼 정화기"
+					type: "item"
+				}
+			]
+			subtitle: "잃어버린 페이지"
+			tasks: [{
+				id: "5222FCC05296547A"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "장비 영혼 추출기"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4343A66299F26319"]
+			description: [
+				"&e네더 키퍼&r는 네더의 &e수호자의 성&r에서 발견되는 강력한 적입니다. 수호자의 성은 &e네더 황무지와 진홍빛 숲 지하&r에서 찾을 수 있습니다. &e제단에 네더의 별을 놓아&r 소환할 수 있습니다."
+				""
+				"&c이 구조물들은 탐험가의 나침반으로 일반적인 방법으로는 찾을 수 없다는 점에 유의하세요. 수동으로 찾아야 할 수도 있습니다.&r"
+				""
+				"{image:cte2:textures/nether_keeper.png width:192 height:108 align:center}"
+				""
+				"네더 키퍼는 다음을 가집니다."
+				"&b물리 피해가 화염 피해로 50% 전환&r"
+				"&b방어도 +40%&r"
+				"&a넷 룬 드롭 확률 15%&r"
+			]
+			id: "4B57F45BE30AA5F2"
+			rewards: [
+				{
+					id: "6D6B60B2B13A812C"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":30,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "희귀 장비 전리품 상자 (Lv. 30)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 5000"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "603037141A03BB23"
+					silent: 1
+					title: "경험치 5000"
+					type: "command"
+				}
+				{
+					id: "2B90EDAC5DA53732"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:hellish_fortress"
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "40EEEAB2C09C5FCA"
+					title: "특성 포인트 3"
+					type: "custom"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "0B062AF006F72FED"
+					title: "초심자 승천"
+					type: "custom"
+				}
+			]
+			shape: "diamond"
+			subtitle: "거대한 악당들"
+			tasks: [{
+				id: "3D45F31ADFFF1165"
+				item: {
+					Count: 1
+					id: "stalwart_dungeons:ancient_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "네더의 수호자들 II"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4B57F45BE30AA5F2"
+				"42A954877474A58F"
+				"05AD0B9A77F0325F"
+				"37167129D6D6A280"
+				"3F61325EA08B6DAA"
+			]
+			description: ["이 업적을 완료하려면 2막의 모든 미니 보스를 처치하세요. 그리고 새로운 모자를 자랑하세요!"]
+			hide_dependency_lines: 1
+			icon: "simplehats:fakefire"
+			id: "389CFAF34A692969"
+			rewards: [
+				{
+					id: "42E82408B8908750"
+					item: "simplehats:fakefire"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0C37E20EAA887073"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "업적"
+			tasks: [{
+				id: "5285A75C058C5073"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "2막의 모든 미니 보스 처치!"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["52DAC9E8213D2624"]
+			description: ["자석은 던전과 탐험에 매우 유용합니다. 떨어진 아이템을 자신에게 끌어당깁니다. 손에 들고 Shift+우클릭하여 범위와 필터를 설정할 수 있습니다. 훨씬 더 넓은 범위로 업그레이드할 수도 있습니다!"]
+			id: "25F1A1475A6E6F1D"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 1000"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "35B0C955A02DD55F"
+				silent: 1
+				title: "경험치 1000"
+				type: "command"
+			}]
+			subtitle: "자석"
+			tasks: [{
+				id: "2A9C784EEF5930E4"
+				item: {
+					Count: 1
+					id: "simplemagnets:basicmagnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "어떻게 작동하나요?"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["322725A82ADAA810"]
+			description: [
+				"&e라이트맨의 화폐&r는 몬스터를 처치하여 얻는 코인을 추가하는 모드입니다. 이 코인을 사용하여 주민과 거래하거나, 각 막의 끝에서 보조 및 강화 젬을 구매하거나, 상점을 열어 다른 플레이어와 거래할 수 있습니다."
+				""
+				"싱글플레이에서도 상인에게서 아이템을 구매할 수 있습니다. 크래프트 투 엑자일 2에는 월드와 상관없이 구매할 수 있는 기본 아이템이 있습니다. &e거래 터미널/물물교환 게시판&r을 설치하여 확인해 보세요!"
+				""
+				"구매할 수 있는 것들의 예시: "
+				"- 마인 앤 슬래시 전문 기술 재료"
+				"- 그림 팔레트 및 악보"
+				"- 희귀 자원"
+				"- 일반 블록 (흙, 돌 등.)"
+				""
+				"멀티플레이에서 플레이하는 경우, FLAN 구매 옵션을 사용하여 &e플랜 클레임 블록&r을 구매할 수도 있습니다."
+				""
+				"&o더 자세한 정보는 &e즐거운 협동&r 챕터의 “&e라이트맨의 화폐&r” 퀘스트를 참조하세요!&r"
+			]
+			id: "29CD881773D976E5"
+			rewards: [{
+				id: "2ECADA7B5FE7D7E1"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "화폐"
+			tasks: [{
+				id: "165EE02B3146E124"
+				item: "lightmanscurrency:terminal"
+				type: "item"
+			}]
+			title: "행복 구매"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["114D74DF8284ACC3"]
+			description: ["&e훈련용 허수아비&r를 제작하여 설치하세요. 허수아비를 공격하여 초당 피해량을 확인할 수 있습니다! 또한 &eMNS 허브&r의 &e기능&r 탭에서 &5피해량 채팅 기록&r 옵션을 활성화하여 &e정확한 피해량 상세 분석&r을 확인할 수 있습니다."]
+			id: "12B20146ED616389"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 1000"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "1E68A513E06D4438"
+				silent: 1
+				title: "경험치 1000"
+				type: "command"
+			}]
+			subtitle: "DPS 측정기"
+			tasks: [{
+				id: "201D6D22A54727D4"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1D01AD334C7C70F1"]
+			description: [
+				"&e화폐&r는 장비에 직접 사용할 수 있는 다양한 아이템입니다. 장비를 개조하고 강화합니다."
+				""
+				"각 장비에는 정해진 양의 &e잠재력&r이 있습니다. 장비에 화폐를 사용하면 장비의 &e잠재력&r이 감소합니다. 잠재력이 0에 도달하면 잠재력 소모가 있는 화폐는 더 이상 적용할 수 없습니다. 하지만 모든 화폐가 잠재력을 사용하는 것은 아니며, 언제든지 사용할 수 있습니다."
+				""
+				""
+				"&e혼돈의 구슬&r과 같은 특정 화폐는 매우 강력한 효과를 추가할 수 있지만, 장비에 부정적인 효과를 유발할 수 있습니다. &c혼돈의 구슬을 사용하면 아이템이 석탄으로 변할 확률이 25%입니다.&r"
+			]
+			icon: "minecraft:paper"
+			id: "68EB4F5B367C3C47"
+			rewards: [
+				{
+					id: "63FF5032A26E8ACD"
+					item: "mmorpg:currency/affix_tier_up_down"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: 1
+					id: "67548D99572EA451"
+					table_id: 2792550926235851709L
+					type: "choice"
+				}
+			]
+			subtitle: "잃어버린 페이지"
+			tasks: [{
+				id: "5B5346C72F51EAD5"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "화폐에 대해 더 알아보기"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["45535AECCE43183A"]
+			description: [
+				"일부 &e네더&r 몹이 더 많은 &c불 피해&r를 주는 것을 눈치챘을 수도 있습니다. 특정 차원에 서식하는 몹은 특정 원소에 친화력을 가지는 경향이 있습니다. 예를 들어, 네더에서는 일부 몹이 불과 물리 피해를 조합하여 가합니다."
+				""
+				"&o또한, 이것이 그들이 친화력을 가진 원소로부터 더 적은 피해를 받는다는 의미는 아닙니다.&r"
+				""
+				"&n원소 친화력&r"
+				""
+				"&l오버월드:&r &7없음&r"
+				"&l네더:&r &c화염&r"
+				"&l언더가든:&r &5혼돈&r"
+				"&l아쿠아미래&r 몹: &b냉기&r"
+				"&l에버브라이트:&r &b냉기&r + &e벼락&r"
+				"&l에버던:&r &c화염&r + &5혼돈&r"
+				"&l엔드:&r &c화염&r + &e벼락&r + &5혼돈&r"
+				"&l아더사이드:&r &5혼돈&r"
+				"&l황혼의 숲:&r &7없음&r"
+			]
+			icon: "minecraft:paper"
+			id: "3F61325EA08B6DAA"
+			rewards: [
+				{
+					count: 2
+					id: "486CB77D39ED6397"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					id: "56C4CFD439EAE625"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:endless/blaze"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "잃어버린 페이지"
+			tasks: [{
+				id: "5CE8B1EB861233D7"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "몹 친화력"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["29CADE48F14D6436"]
+			description: [
+				"마인 앤 슬래시 전문 기술은 레벨업하기 지루할 때가 있습니다... 전투를 통해 경험치를 획득하면 &e휴식 전문 기술 경험치&r를 얻는다는 사실을 알고 계셨나요? 이 경험치는 축적되며 전문 기술 활동을 수행할 때 소모되어 획득하는 경험치를 향상시킵니다."
+				""
+				"마찬가지로, 전문 기술 활동을 수행하면 &e휴식 경험치&r를 얻을 수 있습니다!"
+				""
+				"마인 앤 슬래시 허브에서 전문 기술 아이콘에 마우스를 올리면 보유한 휴식 경험치량을 확인할 수 있습니다."
+			]
+			icon: "minecraft:paper"
+			id: "256EB6DAF1808F35"
+			rewards: [{
+				id: "6313F964AAACAA08"
+				item: "mmorpg:currency/enchant_reroll"
+				type: "item"
+			}]
+			subtitle: "잃어버린 페이지"
+			tasks: [{
+				id: "41373A88D8FE08D7"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "잠시의 휴식"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["114D74DF8284ACC3"]
+			description: [
+				"&e어센던시&r는 도전 과제를 완료하여 캐릭터를 더욱 성장시키는 방법입니다. 시작하려면 &e\"네더의 수호자\" 퀘스트를 완료&r해야 하며, 그러면 &e어센던시 챕터&r가 잠금 해제됩니다."
+				""
+				"첫 번째 퀘스트를 완료하면 어센던시 포인트 1점을 얻게 되며, 이는 특성을 선택하기에 충분한 양입니다. 이후의 도전 과제를 완료할 때마다 더 많은 어센던시 포인트를 얻게 됩니다!"
+				""
+				"이 포인트는 7점으로 상한선이 적용되며, &e마인 앤 슬래시 허브&r의 어센던시 탭에서 특성 포인트와 유사하게 사용할 수 있습니다."
+				""
+				"한 번에 하나의 어센던시 트리만 선택할 수 있습니다. 다른 트리를 선택하려면 먼저 특성을 초기화하고 현재 트리의 모든 포인트를 회수해야 합니다."
+			]
+			icon: "minecraft:paper"
+			id: "3C2D7F2998CC495F"
+			rewards: [
+				{
+					id: "7048624200E724FF"
+					item: "mmorpg:potions/reset_points_ascendancy"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 2500"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "3EC017DEA512E603"
+					silent: 1
+					title: "2500 경험치"
+					type: "command"
+				}
+			]
+			subtitle: "잃어버린 페이지"
+			tasks: [{
+				id: "24A37C91BE150CC6"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "어센던시"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["45535AECCE43183A"]
+			description: ["든든한 식사를 제작하여 생존하세요! 음식을 먹으면 일정 시간 동안 보너스 능력치를 얻을 수 있습니다."]
+			id: "75349B31576A3930"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 1250"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "031D6995F7F53586"
+				silent: 1
+				title: "1250 경험치"
+				type: "command"
+			}]
+			subtitle: "M\\&S 전문 기술"
+			tasks: [{
+				id: "08BE1394EA5B782D"
+				item: {
+					Count: 1
+					id: "mmorpg:food/uncommon_life"
+					tag: {
+						tier: 1
+					}
+				}
+				match_nbt: 1
+				type: "item"
+			}]
+			title: "생각할 거리"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1EA8FC97142B16A7"]
+			description: ["모험에 도움이 될 사용자 지정 무기를 직접 제작해 보세요!"]
+			id: "575DEFDB9962966C"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 2000"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "49B99CB75F267628"
+				silent: 1
+				title: "2000 경험치"
+				type: "command"
+			}]
+			subtitle: "M\\&S 전문 기술"
+			tasks: [{
+				id: "21E5841575537E9D"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/weapon/rare"
+					tag: {
+						tier: 0
+					}
+				}
+				match_nbt: 1
+				type: "item"
+			}]
+			title: "가장 날카로운"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["52DAC9E8213D2624"]
+			description: [
+				"&e팬텀 크리퍼&r는 &e뒤틀린 숲&r과 &e엔드&r에서 스폰됩니다. 접촉 시 분열하므로 조심해서 다뤄야 합니다!"
+				""
+				"팬텀 크리퍼의 특징:"
+				"&b+25% 회피율&r"
+			]
+			icon: "born_in_chaos_v1:phantom_bomb"
+			id: "3B1B7EC7FF90C8E4"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 1500"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "266DF2422C836890"
+				silent: 1
+				title: "1500 경험치"
+				type: "command"
+			}]
+			subtitle: "폭발성 은신 폭탄"
+			tasks: [{
+				entity: "born_in_chaos_v1:phantom_creeper_copy"
+				icon: "ftb_ph:phantom_creeper"
+				id: "549C3B917A1ABE21"
+				type: "kill"
+				value: 10
+			}]
+			title: "이계의 존재 III"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"730BE78211A1573B"
+				"75447684ADAD02D8"
+			]
+			description: [
+				"&c이 퀘스트는 다음 퀘스트의 완료가 필요합니다:&r"
+				""
+				"{ \"text\": \"Chococrafts and Mounts\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"730BE78211A1573B\" } }"
+				""
+				"초코피디아에 따르면 네더에 비행할 수 있는 품종이 존재한다고 합니다..."
+			]
+			id: "6A023A63B5FEE4A0"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 1500"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "4746DD37A746BEE2"
+					silent: 1
+					title: "1500 경험치"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: 1
+					id: "3ACE0F8EB8A95A72"
+					table_id: 2792550926235851709L
+					type: "choice"
+				}
+			]
+			subtitle: "야생 초코보"
+			tasks: [
+				{
+					id: "14037C63F43DB96D"
+					item: "supplementaries:cage"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "52D1CE65EA3CECD6"
+					item: {
+						Count: 32
+						id: "chococraft:gysahl_green"
+					}
+					type: "item"
+				}
+				{
+					id: "4959FE52F1E77C4D"
+					item: "chococraft:chocobo_saddle"
+					type: "item"
+				}
+			]
+			title: "공중 탐험"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3C2D7F2998CC495F"]
+			description: [
+				"&e끔찍한 가스트&r는 네더의 &e끔찍한 던전&r에서 찾을 수 있습니다. 끔찍한 던전은 &e영혼 모래 골짜기와 뒤틀린 숲&r에서 떠다니는 원형 구조물 형태로 나타납니다. &e제단에 네더의 별을 놓아&r 소환할 수 있습니다."
+				""
+				"&c이 구조물은 탐험가의 나침반으로 일반적인 방법으로는 찾을 수 없습니다. 수동으로 찾아야 할 수도 있습니다.&r"
+				""
+				"{image:cte2:textures/awful_ghast.png width:192 height:108 align:center}"
+				""
+				"끔찍한 가스트의 특징:"
+				"&b물리 피해가 화염 피해로 50% 전환&r"
+				"&b+30% 원소 저항&r"
+				"&a15% 넷 룬 드롭 확률&r"
+			]
+			id: "4343A66299F26319"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 5000"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "7E7FC3B9C75BC6F8"
+				silent: 1
+				title: "5000 경험치"
+				type: "command"
+			}]
+			shape: "diamond"
+			subtitle: "거대한 악당들"
+			tasks: [{
+				id: "02751A7FE39DD1D0"
+				item: "stalwart_dungeons:awful_crystal"
+				type: "item"
+			}]
+			title: "네더의 수호자들"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63F4CAF1CA065949"]
+			description: [
+				"대장장이 형판은 &e대장장이 작업대&r에서 도구와 갑옷을 변경하는 데 사용되는 아이템입니다. 사용하면 소모되지만, 기존 형판, 재료, 다이아몬드를 사용하여 중복시킬 수 있습니다."
+				""
+				"네더라이트 강화 대장장이 형판은 다이아몬드 장비를 &e네더라이트 주괴&r로 강화하는 데 필요합니다. 이 형판은 &e보루 잔해&r에서만 발견되며, 보물 방에서만 획득이 보장됩니다."
+			]
+			id: "75447684ADAD02D8"
+			rewards: [
+				{
+					count: 4
+					id: "1388E7CF795CFEF5"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "789F010B43E38AEB"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 2500"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "7CB1E8320DED257E"
+					silent: 1
+					title: "2500 경험치"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "주요 퀘스트"
+			tasks: [{
+				id: "02B914E0382A57F7"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "준비"
+			x: 4.5d
+			y: 0.0d
+		}
+	]
+	subtitle: ["레벨 10-30"]
+	title: "2막"
+}

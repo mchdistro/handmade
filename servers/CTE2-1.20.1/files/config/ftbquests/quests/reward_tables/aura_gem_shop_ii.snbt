@@ -1,0 +1,98 @@
+{
+	id: "6EAA29C2B08E30EE"
+	loot_size: 1
+	order_index: 29
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"armor\",\"type\":\"AURA\",\"perc\":12,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "방어력 강화"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"dodge\",\"type\":\"AURA\",\"perc\":15,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "회피 강화"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"magic_shield\",\"type\":\"AURA\",\"perc\":11,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "마법 보호막 강화"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"physical_ailment\",\"type\":\"AURA\",\"perc\":24,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "고통의 칙령 강화"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"fire_ailment\",\"type\":\"AURA\",\"perc\":13,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "화염의 칙령 강화"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"cold_ailment\",\"type\":\"AURA\",\"perc\":13,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "냉기의 칙령 강화"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"lightning_ailment\",\"type\":\"AURA\",\"perc\":10,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "번개의 칙령 강화"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"chaos_ailment\",\"type\":\"AURA\",\"perc\":10,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "혼돈의 칙령 강화"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"critical_hit\",\"type\":\"AURA\",\"perc\":12,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "치명타 강화"
+		}
+	]
+	title: "강화 보석 상점 II"
+}

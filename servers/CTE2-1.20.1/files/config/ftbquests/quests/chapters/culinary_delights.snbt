@@ -1,0 +1,1220 @@
+{
+	default_hide_dependency_lines: 0
+	default_quest_shape: ""
+	filename: "culinary_delights"
+	group: "5F2CCE8075FCC994"
+	icon: "minecraft:apple"
+	id: "7FD5D59582D9B2D6"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&e농부의 기쁨&r은 요리 과정을 전면 개편합니다. 이제 &e화로&r를 만들어 그 위에 놓인 &e냄비나 프라이팬&r을 가열할 수 있습니다."
+				""
+				"&e냄비&r로는 그릇에 담는 스튜와 조합 음식을 만들 수 있습니다. 또한 케이크처럼 여러 몫을 가진 설치형 음식인 잔치를 만들 수도 있습니다."
+				""
+				"&e프라이팬&r은 모닥불이나 화로 위에서 음식을 요리할 수 있습니다."
+				""
+				"&e도마&r는 요리 안팎으로 유용합니다. &e생선과 고기를 필레로 뜨거나&r, 양털을 실로, 가죽 갑옷을 가죽으로 자르는 등 다양한 아이템을 자를 수 있습니다. 도마는 주로 &e칼&r을 필요로 하지만 일부 제작법에서는 곡괭이, 도끼, 가위 등을 사용합니다."
+			]
+			id: "1ABBB0CCEECA066F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "478E77EB5C09F738"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "각 아이템 하나씩 제작"
+			tasks: [
+				{
+					id: "233009494ADD7158"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+				{
+					id: "058BB0080775CF38"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "78F67A1BA62AACA8"
+					item: {
+						Count: 1
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33A190F4C4A3D596"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "1CBEDBFE74787B62"
+					item: {
+						Count: 1
+						id: "farmersdelight:iron_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "농부의 기쁨"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: ["&e크래버즈 딜라이트&r는 &e게 통발&r을 사용하여 게와 다른 보물을 잡을 수 있게 해줍니다. 통발은 보통 물고기인 미끼가 있어야 무엇이든 잡을 수 있습니다. 낚싯대로도 낚을 수 있습니다."]
+			id: "3ADE97CD486AE65C"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "4C038CBF56C7F4F0"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "게 통발 3개 제작"
+			tasks: [{
+				count: 3
+				id: "0E73B487ED20E490"
+				item: "crabbersdelight:crab_trap"
+				type: "item"
+			}]
+			title: "크래버즈 딜라이트"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["&e괭이&r를 들고 작물을 우클릭하면 부수지 않고 수확할 수 있습니다. 등급이 높은 &e괭이&r는 더 넓은 반경으로 수확합니다."]
+			id: "7F58716061D74AC2"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "1B09BD8AA6CC38FE"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "괭이로 작물 우클릭"
+			tasks: [{
+				id: "34C3EF34008C3C11"
+				item: {
+					Count: 1
+					id: "minecraft:iron_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "더 나은 수확"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&e블록헤드를 위한 농사&r는 경작지에 적용할 수 있는 &e세 가지&r 다른 비료를 제공하여 농사를 더 쉽게 만듭니다. 한 경작지에는 하나의 비료만 사용할 수 있습니다."
+				""
+				"&e시장&r 블록을 통해 씨앗과 묘목을 직접 구매할 수 있습니다."
+				""
+				"&e사료통&r은 음식이 공급되면 동물이 자동으로 번식하도록 합니다."
+				""
+				"&e닭 둥지&r는 근처에 낳은 모든 달걀을 자동으로 수집합니다."
+			]
+			id: "3B4E06CA3D404A7C"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "055D02FE93ECFD66"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "각각 하나씩 획득"
+			tasks: [
+				{
+					id: "154DB277F57B7837"
+					item: "farmingforblockheads:market"
+					type: "item"
+				}
+				{
+					id: "353E5E9855E9FEAF"
+					item: "farmingforblockheads:green_fertilizer"
+					type: "item"
+				}
+				{
+					id: "0AEC10944A2A2D73"
+					item: "farmingforblockheads:red_fertilizer"
+					type: "item"
+				}
+				{
+					id: "30E8A6B002D19489"
+					item: "farmingforblockheads:yellow_fertilizer"
+					type: "item"
+				}
+				{
+					id: "5DF01D9D8C10FB99"
+					item: "farmingforblockheads:chicken_nest"
+					type: "item"
+				}
+				{
+					id: "777A5AEC93007F77"
+					item: "farmingforblockheads:feeding_trough"
+					type: "item"
+				}
+			]
+			title: "블록헤드를 위한 농사"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: ["&e네더스 딜라이트&r는 네더에 &e호글린 안심&r과 &e스트라이더 고기&r 같은 음식과 유틸리티를 추가합니다."]
+			id: "462BAB455A040B51"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "698AA19166B62A0F"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "호글린 안심 3개와 스트라이더 조각 3개 획득"
+			tasks: [
+				{
+					count: 3
+					id: "5D6BCB8EBA6FCB3A"
+					item: "nethersdelight:hoglin_loin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "26E1454E1E71B10C"
+					item: "nethersdelight:strider_slice"
+					type: "item"
+				}
+			]
+			title: "네더스 딜라이트"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["&e콘 딜라이트&r는 토르티야, 나초, 팝콘 등 옥수수 제품을 추가합니다."]
+			id: "4EB5BD23AA91660A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "4E970741587442F4"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "옥수수 알갱이 8개 획득"
+			tasks: [{
+				count: 8
+				id: "384E567ED41274E2"
+				item: "corn_delight:corn_seeds"
+				type: "item"
+			}]
+			title: "콘 딜라이트"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&e퀴진 딜라이트&r는 &e모든 호환되는 음식&r을 요리하여 새롭고 독특한 음식을 만들 수 있게 해줍니다."
+				""
+				"불의 근원 근처에서 &e요리용 프라이팬&r을 &e보조 장비 칸&r에 들고 있으세요. 불의 근원에 놓을 수도 있습니다. 손에 든 &e음식을 우클릭&r하여 &e프라이팬&r에 추가하세요. 재료가 추가될 때마다 화면 오른쪽에 두 개의 게이지가 나타납니다. &e첫 번째 게이지&r는 음식이 얼마나 익었는지 나타내며, &e노란색&r으로 끝나야 합니다. &e두 번째 게이지&r는 각 면이 얼마나 &e탔는지&r 나타내며, 포인터가 &e초록색 안에 유지&r되도록 해야 합니다. 그런 다음, &e뒤집개&r를 사용하여 모든 재료를 &e뒤집어&r 양쪽이 &e타는 것&r을 방지하세요. &e그릇&r을 빠르게 사용하여 음식을 꺼내세요."
+				""
+				"보관함에 있는 음식에 &eShift 키&r를 누르면 요리 시간을 볼 수 있습니다."
+				""
+				"&e탄&r 경우, 두 번째 게이지가 한쪽 면에서 빨간색으로 들어가도록 놔둔 것입니다."
+				""
+				"&e덜 익은&r 경우, 첫 번째 게이지가 노란색으로 들어가도록 놔두지 않은 것입니다."
+			]
+			id: "75800C2A9E6F13F0"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "2B211CE9CBE0F685"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "각각 하나씩 획득"
+			tasks: [
+				{
+					id: "3F2FB4CEA9BB6DCC"
+					item: {
+						Count: 1
+						id: "cuisinedelight:cuisine_skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A1E7CB5AE68B369"
+					item: "cuisinedelight:spatula"
+					type: "item"
+				}
+				{
+					id: "698D9EED13D9E773"
+					item: "cuisinedelight:plate"
+					type: "item"
+				}
+			]
+			title: "퀴진 딜라이트"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			description: ["&e엔더의 즐거움&r은 엔드의 각 몹에게 음식과 재료 드롭을 추가합니다. 이 재료들은 엔드를 탐색하는 데 도움이 되는 음식으로 요리할 수 있습니다."]
+			id: "0B9F6275E5B8A1EC"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "32F542B489278D1D"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "각각 6개씩 획득"
+			tasks: [
+				{
+					count: 6
+					id: "00CBEAA83D97521B"
+					item: "endersdelight:mite_crust"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "6A6A92F1FFFE6CC3"
+					item: "endersdelight:ender_shard"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "26F4C5ED39E26ADD"
+					item: "endersdelight:shulker_mollusk"
+					type: "item"
+				}
+			]
+			title: "엔더의 즐거움"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: ["&e바다의 즐거움&r은 바다 내의 수많은 생명체에게 음식 드롭을 추가합니다."]
+			id: "54A6BA8EB4D9D0A0"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "7FDD9C02F14040E8"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "촉수 12개와 복어 살점 획득"
+			tasks: [
+				{
+					count: 12
+					id: "32214DE1C91437E1"
+					item: "oceansdelight:tentacles"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "6665C67952F470D5"
+					item: "oceansdelight:fugu_slice"
+					type: "item"
+				}
+			]
+			title: "바다의 즐거움"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54A6BA8EB4D9D0A0"]
+			description: ["&e엘더 가디언&r을 처치하여 고기를 얻으세요."]
+			id: "2CABF1E53F173621"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "5B0745CD95795FFE"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "엘더 가디언 반 블록 획득"
+			tasks: [{
+				id: "730C6710D5405360"
+				item: "oceansdelight:elder_guardian_slab"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4692C9713DD2AF42"]
+			id: "7AF5A5B1AA98023E"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "55966463285881E7"
+					silent: 1
+					title: "경험치 500 x 레벨"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "769C65C54D4F3F06"
+					item: "lightmanscurrency:coin_emerald"
+					title: "돈"
+					type: "item"
+				}
+				{
+					id: "53C57150E21286E8"
+					item: "simplehats:acornhat"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "도전 과제"
+			tasks: [
+				{
+					consume_items: 1
+					count: 12
+					id: "6D440C86B41B1326"
+					item: "corn_delight:nachos_block"
+					type: "item"
+				}
+				{
+					consume_items: 1
+					count: 12
+					id: "7D9652FE1337B850"
+					item: "corn_delight:creamed_corn"
+					type: "item"
+				}
+				{
+					consume_items: 1
+					count: 12
+					id: "291930B774C74EF3"
+					item: "corn_delight:cornbread_stuffing"
+					type: "item"
+				}
+			]
+			title: "옥수수 애호가"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4EB5BD23AA91660A"]
+			id: "4692C9713DD2AF42"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "3C0BD30967AAD0E2"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "옥수수 16개 수확"
+			tasks: [{
+				count: 16
+				id: "6DE4AB2790B4DD6A"
+				item: "corn_delight:corn"
+				type: "item"
+			}]
+			title: "놀라운 옥수수"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1ABBB0CCEECA066F"]
+			description: [
+				"&e농부의 기쁨&r은 매다는 표지판과 같은 장식부터 오를 수 있는 밧줄 및 안전망과 같은 유틸리티에 이르기까지 세 가지 기본 자원을 제공합니다."
+				""
+				"&e나무 껍질&r은 도마 위에 놓인 나무에 도끼를 사용하여 얻을 수 있으며 종이를 만드는 데 사용될 수 있습니다."
+				""
+				"&e캔버스&r는 짚으로 만들어지며 모든 제작법에서 가죽을 대체할 수 있을 뿐만 아니라 양탄자 및 기타 장식을 만드는 데 사용될 수 있습니다."
+				""
+				"&e짚&r은 칼로 풀을 베어 얻을 수 있으며 끈 제작과 같은 수많은 제작법에 사용될 수 있습니다."
+			]
+			id: "21923B5086A5FA57"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "72E12E723E2AABD8"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "각각 12개씩 획득"
+			tasks: [
+				{
+					count: 12
+					id: "06429DC8AFF40DD1"
+					item: "farmersdelight:straw"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "7368CBBF48669DBC"
+					item: "farmersdelight:canvas"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "37C56A6E2785546D"
+					item: "farmersdelight:tree_bark"
+					type: "item"
+				}
+			]
+			title: "농부의 도구"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3ADE97CD486AE65C"]
+			description: ["&e조개&r는 &e도마&r 위에서 잡아서 열 수 있으며, 때로는 귀중한 &e진주&r를 얻을 수 있습니다. 쓸모없더라도 여전히 빛납니다."]
+			id: "7D68159C74783F3C"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "652E1C76741A0BD5"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "진주 16개 획득"
+			tasks: [
+				{
+					count: 16
+					id: "077C6F44EBD651B5"
+					item: "crabbersdelight:pearl"
+					type: "item"
+				}
+				{
+					id: "3A671249DF1D2967"
+					item: "crabbersdelight:clam"
+					type: "item"
+				}
+				{
+					id: "000A83A22EEFCDCE"
+					item: "crabbersdelight:raw_clam_meat"
+					type: "item"
+				}
+			]
+			title: "조개"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["462BAB455A040B51"]
+			description: [
+				"&e칼&r을 &e추진 식물&r에 사용하여 수집하세요. &e네더랙, 네사체, 또는 비옥한 영혼 흙&r에 심을 수 있습니다."
+				""
+				"&e마체테&r는 칼보다 &e호글린&r을 처치/수확하는 데 더 좋은 무기입니다. 그 자체로도 가치 있는 무기가 될 수 있습니다."
+			]
+			id: "653E2D7F781C9BAA"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "5E694CC97506F793"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "각각 12개씩 수집"
+			tasks: [
+				{
+					count: 12
+					id: "6485F6990AD70A88"
+					item: "nethersdelight:propelplant_cane"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "3303D9F1991F2F22"
+					item: "nethersdelight:propelpearl"
+					type: "item"
+				}
+				{
+					id: "351886931DA09B8D"
+					item: {
+						Count: 1
+						id: "nethersdelight:iron_machete"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "식물 생명"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5949316102D9370C"]
+			id: "011AD211C3ED1131"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "4009B22DF2BBA752"
+					silent: 1
+					title: "경험치 500 x 레벨"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "637EA3BFC4D827D4"
+					item: "lightmanscurrency:coin_emerald"
+					title: "돈"
+					type: "item"
+				}
+				{
+					id: "0204449359E1D557"
+					item: "simplehats:batwinghat"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "도전 과제"
+			tasks: [
+				{
+					consume_items: 1
+					count: 12
+					id: "255759A8177FEF97"
+					item: "endersdelight:stuffed_shulker"
+					type: "item"
+				}
+				{
+					consume_items: 1
+					count: 12
+					id: "56035CB223D949DB"
+					item: "endersdelight:chorus_pie"
+					type: "item"
+				}
+				{
+					consume_items: 1
+					count: 12
+					id: "6F9E45AFF4908F13"
+					item: "endersdelight:chorus_crate"
+					type: "item"
+				}
+			]
+			title: "4차원 요리"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0B9F6275E5B8A1EC"]
+			id: "5949316102D9370C"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "546E551A7D24ED9B"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "각각 12개씩 획득"
+			tasks: [
+				{
+					consume_items: 0
+					count: 12
+					id: "32CC1798F0F08AA5"
+					item: "endersdelight:uncanny_cookies"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "4E59CC3B86AD76A8"
+					item: "endersdelight:strange_eclair"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2CABF1E53F173621"]
+			id: "385065A469920E02"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "3911D4EE37890072"
+					silent: 1
+					title: "경험치 500 x 레벨"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "71FF4740D9A5944D"
+					item: "lightmanscurrency:coin_emerald"
+					title: "돈"
+					type: "item"
+				}
+				{
+					id: "024D09757C258A18"
+					item: "simplehats:fishonhead"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "도전 과제"
+			tasks: [
+				{
+					consume_items: 1
+					count: 16
+					id: "0389CBD85CDE536A"
+					item: "oceansdelight:cabbage_wrapped_elder_guardian"
+					type: "item"
+				}
+				{
+					consume_items: 1
+					count: 16
+					id: "70B4D6071D689C45"
+					item: "oceansdelight:guardian_soup"
+					type: "item"
+				}
+			]
+			title: "페스카테리안"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["21923B5086A5FA57"]
+			id: "7C36AB84C3D94C7E"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "35A9F0A29A8D974D"
+					silent: 1
+					title: "경험치 500 x 레벨"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "2DAF275EFE2698F9"
+					item: "lightmanscurrency:coin_emerald"
+					title: "돈"
+					type: "item"
+				}
+				{
+					id: "7AAF561D7ABC3609"
+					item: "simplehats:burgerhat"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "도전 과제"
+			tasks: [{
+				advancement: "farmersdelight:main/master_chef"
+				criterion: ""
+				id: "6B36090D242B5283"
+				type: "advancement"
+			}]
+			title: "요리 달인"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7D68159C74783F3C"]
+			id: "22AB73CE08E50920"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "43979B63AF6DDD81"
+					silent: 1
+					title: "경험치 500 x 레벨"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "6F2FAAA217B76AB9"
+					item: "lightmanscurrency:coin_emerald"
+					title: "돈"
+					type: "item"
+				}
+				{
+					id: "3C117A5BF98FC8E0"
+					item: "simplehats:crabonhead"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "도전 과제"
+			tasks: [
+				{
+					consume_items: 1
+					count: 16
+					id: "363FB7942A5A2784"
+					item: "crabbersdelight:crab_barrel"
+					type: "item"
+				}
+				{
+					consume_items: 1
+					count: 16
+					id: "1B11F3D9F6B611BF"
+					item: "crabbersdelight:shrimp_barrel"
+					type: "item"
+				}
+				{
+					consume_items: 1
+					count: 16
+					id: "4BB36EE8764CC2BB"
+					item: "crabbersdelight:clam_barrel"
+					type: "item"
+				}
+				{
+					consume_items: 1
+					count: 16
+					id: "486D6631315BE1DA"
+					item: "crabbersdelight:clawster_barrel"
+					type: "item"
+				}
+			]
+			title: "가장 치명적인 어획"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["653E2D7F781C9BAA"]
+			id: "2BA7FD3E716986FC"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "0917F598AA60D531"
+					silent: 1
+					title: "경험치 500 x 레벨"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "12342D918C5EECE5"
+					item: "lightmanscurrency:coin_emerald"
+					title: "돈"
+					type: "item"
+				}
+				{
+					id: "26735FB6D6F53CA5"
+					item: "simplehats:pighead"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "도전 과제"
+			tasks: [
+				{
+					consume_items: 1
+					count: 12
+					id: "2D920A5A738CA083"
+					item: "nethersdelight:hoglin_trophy"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "06ABD382362B50C7"
+					item: "nethersdelight:stuffed_hoglin"
+					type: "item"
+				}
+				{
+					consume_items: 1
+					count: 12
+					id: "29937402D5A0DD78"
+					item: "nethersdelight:hoglin_hide"
+					type: "item"
+				}
+			]
+			title: "호그 사냥꾼"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"385065A469920E02"
+				"7AF5A5B1AA98023E"
+				"7C36AB84C3D94C7E"
+				"22AB73CE08E50920"
+				"2BA7FD3E716986FC"
+				"011AD211C3ED1131"
+				"59B2BEADD81F9F4F"
+			]
+			icon: "cuisinedelight:spatula"
+			id: "6EFCD443EA481BD4"
+			rewards: [
+				{
+					command: "/tellraw @a {\"text\":\"\",\"color\":\"blue\",\"extra\":[{\"selector\":\"@p\"},{\"text\":\" has achieved World Star Chef!\"}]}"
+					elevate_perms: 1
+					icon: "minecraft:cookie"
+					id: "4B9E8B320FE7A9C0"
+					title: "자랑하려면 여기를 클릭하세요"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 750"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "13752DEC5649CA42"
+					silent: 1
+					title: "경험치 750 x 레벨"
+					type: "command"
+				}
+				{
+					count: 6
+					id: "154C6C5B891E8D77"
+					item: "lightmanscurrency:coin_diamond"
+					title: "돈"
+					type: "item"
+				}
+				{
+					id: "10773484BD8B4BA3"
+					item: "simplehats:chefshat"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "업적"
+			tasks: [{
+				id: "1B9FD9860E832B8F"
+				title: "한 번 읽기"
+				type: "checkmark"
+			}]
+			title: "월드 스타 셰프"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"&e블록헤드를 위한 요리&r는 요리 경험을 훨씬 쉽게 만들어줍니다. 냄비를 사용해야 하는 농부의 기쁨과 달리, 블록헤드를 위한 요리로는 모든 음식을 한 곳에서 요리할 수 있습니다. 제작법을 이리저리 옮길 필요가 없습니다."
+				""
+				"각 구성 요소를 &e주방 바닥&r으로 연결하세요."
+				""
+				"&e스토브&r는 여러 음식을 한 번에 요리할 수 있으며, 강화 시 FE를 에너지로 사용할 수 있습니다."
+				""
+				"&e싱크대&r는 양동이와 제작법에 무한한 물을 제공합니다."
+				""
+				"&e요리 작업대&r는 주방 바닥으로 연결된 블록과 냉장고에서 음식과 도구를 가져올 수 있습니다."
+				""
+				"&e토스터&r나 &e양념 선반&r과 같이 주방에 추가할 수 있는 다른 구성 요소들도 있습니다."
+			]
+			id: "608DF81CF3DC9A64"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "558ED4F9FEC362A0"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "각각 하나씩 제작"
+			tasks: [
+				{
+					id: "2159129FA615A117"
+					item: "cookingforblockheads:oven"
+					type: "item"
+				}
+				{
+					id: "79F74B5C61E1A868"
+					item: "cookingforblockheads:sink"
+					type: "item"
+				}
+				{
+					id: "69580C53D420F315"
+					item: "cookingforblockheads:cooking_table"
+					type: "item"
+				}
+				{
+					id: "64EAA5048BBC7729"
+					item: "cookingforblockheads:white_kitchen_floor"
+					type: "item"
+				}
+				{
+					id: "76D917F55118DBB0"
+					item: "cookingforblockheads:fridge"
+					type: "item"
+				}
+			]
+			title: "블록헤드를 위한 요리"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"이 블록들은 &e정제된 저장소&r와 &e블록헤드를 위한 요리&r가 함께 작동하도록 합니다!"
+				""
+				"&e주방 스테이션&r은 주방 네트워크의 일부로 설치되어야 하며, &e주방 접근 지점&r은 정제된 저장소 네트워크에 설치되어야 합니다."
+				""
+				"주방 스테이션은 &e정제된 저장소 네트워크 수신기&r 역할을 하며 &e주방 네트워크 카드&r에 연결되어야 합니다. 그런 다음 이 주방 네트워크 카드는 정제된 저장소 네트워크 송신기 역할을 하는 &e내부에 설치&r된 &e주방 접근 지점&r에 연결되어야 합니다."
+				""
+				"모든 것이 연결되면, 요리 작업대에서 바로 정제된 저장소 네트워크의 &e아이템을 소모&r할 수 있습니다."
+			]
+			id: "712861ACFF721889"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 250"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "24209232842EA117"
+				silent: 1
+				title: "경험치 250 x 레벨"
+				type: "command"
+			}]
+			subtitle: "각각 하나씩 제작"
+			tasks: [
+				{
+					id: "7208A57F50772155"
+					item: "refinedcooking:kitchen_station"
+					type: "item"
+				}
+				{
+					id: "7EC44290F88F0847"
+					item: "refinedcooking:kitchen_access_point"
+					type: "item"
+				}
+				{
+					id: "33B3A88E037420CA"
+					item: "refinedcooking:kitchen_network_card"
+					type: "item"
+				}
+			]
+			title: "정제된 요리"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: ["&e언더가든의 기쁨&r은 언더가든 음식 아이템에 새로운 &e칼과 일부 음식 제작법&r을 추가합니다!"]
+			id: "4D0073E78182BB97"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "2D67042E65723B24"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "각 아이템 하나 제작"
+			tasks: [
+				{
+					id: "7CF32BD5AE02F374"
+					item: {
+						Count: 1
+						id: "undergardendelight:cloggrum_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6875091349C58DDD"
+					item: {
+						Count: 1
+						id: "undergardendelight:frosteel_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D0073E78182BB97"]
+			description: [
+				"&e그위블링&r 고기를 필레 뜨기하여 요리하면 &e익힌 그위블린 필레&r를 얻을 수 있습니다!"
+				""
+				"&e쉬머펄&r은 &e키 큰 쉬머위드&r를 &e도마&r 위에서 수확할 수 있습니다."
+				""
+				"&e글룸고드 파이&r는 다양한 &e언더가든&r 재료로 만들 수 있습니다!"
+			]
+			id: "5F82117320E8D3BF"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "15AF47C538582C2F"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "각각 4개씩 획득"
+			tasks: [
+				{
+					count: 4
+					id: "08DF0C1DFEDC9A79"
+					item: "undergardendelight:cooked_gwibling_fillet"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7789DCA36ADE14B3"
+					item: {
+						Count: 3
+						id: "undergardendelight:shimmerpearl"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "401618CF60A9128C"
+					item: "undergarden:gloomgourd_pie"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5F82117320E8D3BF"]
+			id: "59B2BEADD81F9F4F"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "249A9B7CB2139773"
+					silent: 1
+					title: "경험치 500 x 레벨"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "2464BFE85C1E18C7"
+					item: "lightmanscurrency:coin_emerald"
+					title: "돈"
+					type: "item"
+				}
+				{
+					id: "23EBE79D9F44BD08"
+					item: "simplehats:burgerhat"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "도전 과제"
+			tasks: [
+				{
+					consume_items: 1
+					count: 16
+					id: "7D498E9477AA7F9D"
+					item: {
+						Count: 16
+						id: "undergardendelight:depth_shroom_cream_soup"
+					}
+					type: "item"
+				}
+				{
+					consume_items: 1
+					count: 16
+					id: "549E7B220E7490F8"
+					item: {
+						Count: 16
+						id: "undergardendelight:gronglunch"
+					}
+					type: "item"
+				}
+				{
+					consume_items: 1
+					count: 16
+					id: "52FE108B489F8995"
+					item: {
+						Count: 16
+						id: "undergardendelight:glitterdish"
+					}
+					type: "item"
+				}
+				{
+					consume_items: 1
+					count: 16
+					id: "70C9B866C12AAB43"
+					item: {
+						Count: 16
+						id: "undergardendelight:blood_tomato_soup"
+					}
+					type: "item"
+				}
+				{
+					consume_items: 1
+					count: 16
+					id: "426ED83EB7A9B349"
+					item: "undergardendelight:mogsteak"
+					type: "item"
+				}
+			]
+			title: "언더가든 미식가"
+			x: 0.0d
+			y: -3.0d
+		}
+	]
+	title: "미식의 즐거움"
+}

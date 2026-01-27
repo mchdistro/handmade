@@ -1,6 +1,0 @@
-{
-    "name": "악기",
-    "description": "MIMI에는 손에 들고 연주하거나 휴대용 악기($(italic)$()) 또는 블록 악기($(italic)블록 악기$())가 있습니다.",
-    "icon": "mimi:piano",
-    "sortnum": 2
-}

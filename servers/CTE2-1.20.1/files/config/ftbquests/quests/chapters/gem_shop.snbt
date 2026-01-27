@@ -1,0 +1,322 @@
+{
+	default_hide_dependency_lines: 0
+	default_quest_shape: ""
+	filename: "gem_shop"
+	group: "1E3C4B5FFAE48A39"
+	icon: "lightmanscurrency:coinpile_gold"
+	id: "1C1F2FEB2B92EA6A"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: 1
+			dependencies: ["727ADA9C4F420BDC"]
+			description: [
+				"이 \"퀘스트\"는 코인을 소모하고 목록에서 보상을 선택할 수 있게 합니다."
+				""
+				""
+				"&e이 상점은 1막에서 \"액츠\"를 완료하면 잠금 해제됩니다.&r"
+			]
+			hide_dependency_lines: 1
+			hide_until_deps_complete: 1
+			icon: "mmorpg:skill_gems/aura/str"
+			id: "55192DBA1B148B8F"
+			rewards: [{
+				exclude_from_claim_all: 1
+				id: "2DA0E0BE6186F27C"
+				table_id: 501834786334198433L
+				type: "choice"
+			}]
+			shape: "octagon"
+			subtitle: "상점"
+			tasks: [{
+				consume_items: 1
+				id: "0E910380456F764A"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "강화 보석 상점 I"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: 1
+			dependencies: ["727ADA9C4F420BDC"]
+			description: [
+				"이 \"퀘스트\"는 코인을 소모하고 목록에서 보상을 선택할 수 있게 합니다."
+				""
+				""
+				"&e이 상점은 1막에서 \"액츠\"를 완료하면 잠금 해제됩니다.&r"
+			]
+			hide_dependency_lines: 1
+			hide_until_deps_complete: 1
+			icon: "mmorpg:skill_gems/support/str"
+			id: "285E66EF1B070F44"
+			rewards: [{
+				exclude_from_claim_all: 1
+				id: "5FF9697EF1D7FE64"
+				table_id: 6773419606258025386L
+				type: "choice"
+			}]
+			shape: "octagon"
+			subtitle: "상점"
+			tasks: [{
+				consume_items: 1
+				id: "7FAC4A08A9F84E6E"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			title: "지원 보석 상점 I"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: 1
+			dependencies: ["114D74DF8284ACC3"]
+			description: [
+				"이 \"퀘스트\"는 코인을 소모하고 목록에서 보상을 선택할 수 있게 합니다."
+				""
+				""
+				"&e이 상점은 2막에서 \"어둠의 의식\"을 완료하면 잠금 해제됩니다.&r"
+			]
+			hide_dependency_lines: 1
+			hide_until_deps_complete: 1
+			icon: "mmorpg:skill_gems/aura/dex"
+			id: "5B5401DA5BD89BCC"
+			rewards: [{
+				exclude_from_claim_all: 1
+				id: "6CD10129BE9897B0"
+				table_id: 7974232006375387374L
+				type: "choice"
+			}]
+			shape: "octagon"
+			subtitle: "상점"
+			tasks: [{
+				consume_items: 1
+				id: "108033F458256676"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "강화 보석 상점 II"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: 1
+			dependencies: ["114D74DF8284ACC3"]
+			description: [
+				"이 \"퀘스트\"는 코인을 소모하고 목록에서 보상을 선택할 수 있게 합니다."
+				""
+				""
+				"&e이 상점은 2막에서 \"어둠의 의식\"을 완료하면 잠금 해제됩니다.&r"
+			]
+			hide_dependency_lines: 1
+			hide_until_deps_complete: 1
+			icon: "mmorpg:skill_gems/support/dex"
+			id: "76048C827DB71DFA"
+			rewards: [{
+				exclude_from_claim_all: 1
+				id: "42682327F369DF7A"
+				table_id: 6426093941301649037L
+				type: "choice"
+			}]
+			shape: "octagon"
+			subtitle: "상점"
+			tasks: [{
+				consume_items: 1
+				id: "28E4CDDAD8CAF772"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			title: "지원 보석 상점 II"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: 1
+			dependencies: ["55F9F418C4CA3B3A"]
+			description: [
+				"이 \"퀘스트\"는 코인을 소모하고 목록에서 보상을 선택할 수 있게 합니다."
+				""
+				""
+				"&e이 상점은 3막에서 \"코넬리아 선장의 보관함\"을 완료하면 잠금 해제됩니다.&r"
+			]
+			hide_dependency_lines: 1
+			hide_until_deps_complete: 1
+			icon: "mmorpg:skill_gems/aura/int"
+			id: "7A05F5EA8254C615"
+			rewards: [{
+				exclude_from_claim_all: 1
+				id: "5A40FF86D1CDB293"
+				table_id: 1584215562736554857L
+				type: "choice"
+			}]
+			shape: "octagon"
+			subtitle: "상점"
+			tasks: [{
+				consume_items: 1
+				id: "49B1944942C92B6A"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			title: "강화 보석 상점 III"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: 1
+			dependencies: ["55F9F418C4CA3B3A"]
+			description: [
+				"이 \"퀘스트\"는 코인을 소모하고 목록에서 보상을 선택할 수 있게 합니다."
+				""
+				""
+				"&e이 상점은 3막에서 \"코넬리아 선장의 보관함\"을 완료하면 잠금 해제됩니다.&r"
+			]
+			hide_dependency_lines: 1
+			hide_until_deps_complete: 1
+			icon: "mmorpg:skill_gems/support/int"
+			id: "6F018A195B337C80"
+			rewards: [{
+				exclude_from_claim_all: 1
+				id: "5D1DA70AF6728231"
+				table_id: 5185107981486810968L
+				type: "choice"
+			}]
+			shape: "octagon"
+			subtitle: "상점"
+			tasks: [{
+				consume_items: 1
+				id: "6590FCCB60F53CE9"
+				item: "lightmanscurrency:coin_diamond"
+				type: "item"
+			}]
+			title: "지원 보석 상점 III"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: 1
+			dependencies: [
+				"30B56119C4EA7398"
+				"09CFBF8766DA4706"
+			]
+			description: [
+				"이 \"퀘스트\"는 코인을 소모하고 목록에서 보상을 선택할 수 있게 합니다."
+				""
+				""
+				"&e이 상점은 4막에서 \"뿌리 뽑기\" &c및&r &e\"거미줄에 걸린\"을 완료하면 잠금 해제됩니다.&r"
+			]
+			hide_dependency_lines: 1
+			hide_until_deps_complete: 1
+			icon: "mmorpg:skill_gems/aura/str"
+			id: "4368E5558B062807"
+			rewards: [{
+				exclude_from_claim_all: 1
+				id: "47DE73088AD4C1F4"
+				table_id: 3941102663062641829L
+				type: "choice"
+			}]
+			shape: "octagon"
+			subtitle: "상점"
+			tasks: [{
+				consume_items: 1
+				id: "4CFE1BFC234987E5"
+				item: "lightmanscurrency:coin_diamond"
+				type: "item"
+			}]
+			title: "강화 보석 상점 IV"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: 1
+			dependencies: [
+				"30B56119C4EA7398"
+				"09CFBF8766DA4706"
+			]
+			description: [
+				"이 \"퀘스트\"는 코인을 소모하고 목록에서 보상을 선택할 수 있게 합니다."
+				""
+				""
+				"&e이 상점은 4막에서 \"뿌리 뽑기\" &c및&r &e\"거미줄에 걸린\"을 완료하면 잠금 해제됩니다.&r"
+			]
+			hide_dependency_lines: 1
+			hide_until_deps_complete: 1
+			icon: "mmorpg:skill_gems/support/str"
+			id: "56C51AF211DEF478"
+			rewards: [{
+				exclude_from_claim_all: 1
+				id: "07D8239A93D60C13"
+				table_id: 4343783444613774232L
+				type: "choice"
+			}]
+			shape: "octagon"
+			subtitle: "상점"
+			tasks: [{
+				consume_items: 1
+				id: "2D8C26F083B682EA"
+				item: "lightmanscurrency:coin_netherite"
+				type: "item"
+			}]
+			title: "지원 보석 상점 IV"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: 1
+			dependencies: ["1F3C2718AE550D5C"]
+			description: [
+				"이 \"퀘스트\"는 코인을 소모하고 &e단&r 하나의 무작위 레벨 60, 80, 또는 100 &c고유&r 아이템을 제공합니다!"
+				""
+				""
+				"&e이 상점은 에필로그에서 \"마스터 마스터마인드\"를 완료하면 잠금 해제됩니다.&r"
+			]
+			hide_dependency_lines: 1
+			hide_until_deps_complete: 1
+			icon: "mmorpg:chest/legendary_gear"
+			id: "2F90341CB7C42085"
+			rewards: [{
+				exclude_from_claim_all: 1
+				id: "7AE40FF82ED7A6D2"
+				table_id: 6102958044406014672L
+				type: "choice"
+			}]
+			shape: "octagon"
+			subtitle: "상점"
+			tasks: [{
+				consume_items: 1
+				id: "0525293A48F7C0FB"
+				item: "lightmanscurrency:coin_netherite"
+				type: "item"
+			}]
+			title: "무작위 고유 상점"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"캠페인 상점"
+				""
+				"캠페인 상점: 주화를 Mine and Slash 아이템으로 교환"
+				""
+				"특정 퀘스트 또는 막을 완료하면 잠금 해제됩니다."
+			]
+			id: "5E8D1289340A4B82"
+			rewards: [{
+				count: 5
+				id: "223B13301E68BBCA"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12A53CF645688B3E"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "캠페인 상점"
+			x: 0.75d
+			y: -1.25d
+		}
+	]
+	title: "캠페인 상점"
+}

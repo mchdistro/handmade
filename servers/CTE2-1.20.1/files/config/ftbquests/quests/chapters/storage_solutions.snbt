@@ -1,0 +1,905 @@
+{
+	default_hide_dependency_lines: 0
+	default_quest_shape: ""
+	filename: "storage_solutions"
+	group: "5F2CCE8075FCC994"
+	icon: "minecraft:chest"
+	id: "732D5372C55E98C3"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&e정제된 저장소&r는 아이템 저장, 필터링, 대량 제작을 위한 최고의 방법입니다. 저장 네트워크 내의 장치들은 디스크에 있는 아이템을 관리합니다."
+				""
+				"&e컨트롤러&r는 저장 네트워크의 핵심입니다. 다른 모든 정제된 저장소는 컨트롤러 근처에 있거나 케이블을 통해 연결되어야 합니다. 작동하려면 &e포지 에너지&r가 필요하며, 이는 &e보타니아 마나 플럭스필드&r를 통해서만 획득 가능합니다."
+				""
+				"이 퀘스트 라인은 모든 내용을 다루지 않습니다. 정제된 저장소 내의 모든 아이템과 가능성에 대한 전체 목록은 &eJEI&r를 확인하세요."
+			]
+			id: "6390924916E0EF54"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "5703DB65FB3ABDD3"
+				silent: 1
+				title: "100 경험치 x 레벨"
+				type: "command"
+			}]
+			subtitle: "정제된 저장소"
+			tasks: [{
+				id: "4B2ED6A485F2593C"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			title: "상호 연결된 상자"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&e소피스티케이티드 백팩&r은 백팩으로 원하는 모든 것을 할 수 있게 해줍니다. 자동 공급, 가방 안에서의 제작 및 제련, 그리고 유체와 경험치를 액체 형태로 운반하는 기능 등 수많은 업그레이드가 있습니다. 모든 업그레이드 목록은 JEI를 확인하세요."
+				""
+				"각 백팩 티어는 더 많은 업그레이드 슬롯과 더 많은 인벤토리 공간을 제공합니다."
+				""
+				"&e백팩: &r27 슬롯, 1 업그레이드 슬롯"
+				""
+				"&e철 백팩:&r 54 슬롯, 2 업그레이드 슬롯"
+				""
+				"&e금 백팩:&r 81 슬롯, 3 업그레이드 슬롯"
+				""
+				"&e다이아몬드 백팩:&r 108 슬롯, 5 업그레이드 슬롯"
+				""
+				"&e네더라이트 백팩:&r 120 슬롯, 7 업그레이드 슬롯"
+			]
+			id: "309037CD749F2133"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "0A7512AB8CD1DC80"
+				silent: 1
+				title: "100 경험치 x 레벨"
+				type: "command"
+			}]
+			subtitle: "소피스티케이티드 백팩"
+			tasks: [{
+				id: "5C2725F78F0E4006"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			title: "이동 중"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&e소피스티케이티드 저장소&r는 소피스티케이티드 백팩의 동반자입니다. 상자와 통은 철, 금, 다이아몬드, 네더라이트로 업그레이드할 수 있으며, 아이템 슬롯과 업그레이드 슬롯의 수가 증가합니다."
+				""
+				"바닐라 상자와 통은 기본 티어 업그레이드를 사용하여 소피스티케이티드 저장소 버전으로 업그레이드할 수 있습니다."
+				""
+				"&e일반 상자:&r 27 슬롯, 1 업그레이드 슬롯"
+				""
+				"&e철 상자:&r 54 슬롯, 2 업그레이드 슬롯"
+				""
+				"&e금 상자:&r 81 슬롯, 3 업그레이드 슬롯"
+				""
+				"&e다이아몬드 상자:&r 108 슬롯, 4 업그레이드 슬롯"
+				""
+				"&e네더라이트 상자: &r120 슬롯, 5 업그레이드 슬롯"
+			]
+			id: "2DC978CB3CC53730"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "643E5E2551F6B2B5"
+				silent: 1
+				title: "100 경험치 x 레벨"
+				type: "command"
+			}]
+			subtitle: "소피스티케이티드 저장소"
+			tasks: [
+				{
+					id: "0948893647A2EBC8"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:chest"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "072BF8A427BD7398"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:iron_chest"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "강력한 정리 기술"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["309037CD749F2133"]
+			dependency_requirement: "one_started"
+			description: [
+				"&e스택 업그레이드&r는 매우 중요합니다. 스택 업그레이드는 가방 안에 여러 개 있을 경우 서로 중첩될 수 있습니다."
+				""
+				"예시:"
+				""
+				"&e1개 4단계 스택 업그레이드&r: 1024"
+				""
+				"&e2개 4단계 스택 업그레이드:&r 16,384"
+				""
+				"&e4단계 스택 업그레이드:&r 262,144"
+				""
+				"&e4개 4단계 스택 업그레이드: &r4,194,304"
+				""
+				"이전 최대값에 16을 곱하여 다음 최대값을 얻을 수 있으며, 총 7개의 슬롯까지 가능합니다."
+			]
+			id: "0E17ABDC0AD61E23"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "02AE780F088113BE"
+				silent: 1
+				title: "100 경험치 x 레벨"
+				type: "command"
+			}]
+			subtitle: "소피스티케이티드 백팩"
+			tasks: [{
+				id: "2A98D58B86F8196D"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			title: "스택 업그레이드"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["31D3B2B532AADE5B"]
+			id: "0430A5349F4B06A8"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "7798F68FE81EC7D9"
+					silent: 1
+					title: "500 경험치 x 레벨"
+					type: "command"
+				}
+				{
+					count: 5
+					id: "38130FD7A439B180"
+					item: "lightmanscurrency:coin_emerald"
+					title: "돈"
+					type: "item"
+				}
+				{
+					id: "02E5D59D4BFE5460"
+					item: "simplehats:camerabeard"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "도전 과제"
+			tasks: [
+				{
+					id: "71DA616E7AF70799"
+					item: {
+						Count: 1
+						id: "sophisticatedbackpacks:netherite_backpack"
+						tag: {
+							contentsUuid: [
+								-248892482
+								-1947645115
+								-1238068440
+								-1305121003
+							]
+							inventorySlots: 120
+							renderInfo: {
+								upgradeItems: [
+									{
+										Count: 1
+										id: "minecraft:air"
+									}
+									{
+										Count: 1
+										id: "minecraft:air"
+									}
+									{
+										Count: 1
+										id: "minecraft:air"
+									}
+									{
+										Count: 1
+										id: "minecraft:air"
+									}
+									{
+										Count: 1
+										id: "minecraft:air"
+									}
+									{
+										Count: 1
+										id: "minecraft:air"
+									}
+									{
+										Count: 1
+										id: "minecraft:air"
+									}
+								]
+							}
+							upgradeSlots: 7
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "38BFA09795642909"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+					type: "item"
+				}
+			]
+			title: "유목민"
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["059B848E5374A860"]
+			description: ["&e고급 업그레이드&r는 가방 내 업그레이드의 동작을 &e더 세밀하게 필터링&r하고 제어할 수 있게 해줍니다. 예를 들어, 고급 줍기 업그레이드는 화이트리스트에 있는 아이템을 줍거나, 블랙리스트에 있는 아이템을 허용하지 않거나, 이미 가방에 있는 일치하는 아이템을 줍는 것을 허용합니다."]
+			id: "31D3B2B532AADE5B"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "35288E68A43A8D5E"
+				silent: 1
+				title: "100 경험치 x 레벨"
+				type: "command"
+			}]
+			subtitle: "소피스티케이티드 백팩"
+			tasks: [
+				{
+					id: "754607476FB2AE70"
+					item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+					type: "item"
+				}
+				{
+					id: "75D45391DAC0B839"
+					item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+					type: "item"
+				}
+			]
+			title: "고급 업그레이드"
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6390924916E0EF54"]
+			description: [
+				"&e디스크 드라이브&r에는 &e디스크&r가 들어 있으며, 각 디스크는 네트워크의 보관함 한도를 늘려줍니다. 높은 티어는 더 비싸고 제작하는 데 시간이 더 오래 걸리지만 더 많은 아이템을 담을 수 있습니다."
+				""
+				"&e그리드&r는 네트워크 내 아이템과 상호 작용하는 기본적인 방법입니다. 이를 통해 네트워크에서 &e아이템을 꺼내거나 넣을&r 수 있습니다. 제작 그리드는 그리드의 업그레이드 버전으로, 그리드 내 모든 아이템으로 제작할 수 있게 해줍니다. JEI는 그리드에서 아이템을 가져올 수 있습니다."
+				""
+				"&e유체 저장소&r는 네트워크 내에 유체를 저장하기 위해 두 가지 모두의 특수 버전이 필요합니다."
+				""
+				"각 정제된 저장소 블록에는 네트워크가 아이템을 먼저 가져오거나 받을 위치에 대한 우선순위를 설정할 수 있습니다."
+				""
+				"기본 저장 시스템(&e컨트롤러, 디스크 드라이브 및 모든 그리드&r)은 작동하는 데 에너지가 0 소모됩니다!"
+			]
+			id: "0BBF59F29BA6851E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "7999735B9C4588BA"
+				silent: 1
+				title: "100 경험치 x 레벨"
+				type: "command"
+			}]
+			subtitle: "정제된 저장소"
+			tasks: [
+				{
+					id: "6B0223CDA914FC54"
+					item: "refinedstorage:disk_drive"
+					type: "item"
+				}
+				{
+					id: "2B7765A169A2D050"
+					item: "refinedstorage:1k_storage_disk"
+					type: "item"
+				}
+				{
+					id: "1F1B445738E62077"
+					item: "refinedstorage:grid"
+					type: "item"
+				}
+				{
+					id: "265EE9FA99B4B2AC"
+					item: "refinedstorage:64k_fluid_storage_disk"
+					type: "item"
+				}
+				{
+					id: "6EFC8A82C99ABB40"
+					item: "refinedstorage:fluid_grid"
+					type: "item"
+				}
+				{
+					id: "18DA127DD1997096"
+					item: "refinedstorage:crafting_grid"
+					type: "item"
+				}
+			]
+			title: "기본 저장소"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6EF2C5B82615DD1B"]
+			description: [
+				"&e저장 모니터&r를 사용하면 네트워크에서 아이템을 선택하여 남은 수량을 표시할 수 있습니다."
+				""
+				"&e패턴 그리드&r는 네트워크 내에서 자동 조합을 가능하게 합니다. 제작법 내의 각 하위 아이템은 자체 패턴을 가져야 합니다."
+				""
+				"&e제작기&r는 패턴이 저장되고 제작이 이루어지는 곳입니다."
+			]
+			id: "5F5B3C75910F8870"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "29386B5711B850B7"
+				silent: 1
+				title: "100 경험치 x 레벨"
+				type: "command"
+			}]
+			subtitle: "정제된 저장소"
+			tasks: [
+				{
+					id: "06B652F2C9EA0322"
+					item: "refinedstorage:storage_monitor"
+					type: "item"
+				}
+				{
+					id: "121B3364E98AC4FB"
+					item: "refinedstorage:pattern_grid"
+					type: "item"
+				}
+				{
+					id: "62C84E7861D0E991"
+					item: "refinedstorage:crafter"
+					type: "item"
+				}
+			]
+			title: "고급 저장소"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5F5B3C75910F8870"]
+			description: [
+				"이것들은 네트워크의 보관함에 &e접근&r할 수 있게 해줍니다 &e멀리서&r."
+				""
+				"&e네트워크 송신기&r를 제작하여 본거지에 있는 정제된 저장소 시스템에 연결하기만 하면 됩니다."
+				""
+				"다음으로, &e네트워크 카드&r를 제작하세요."
+				""
+				"네트워크 카드를 제작한 후, &e네트워크 수신기&r를 제작하여 본거지에서 멀리 떨어진 지역에 설치하세요."
+				""
+				"네트워크 카드를 들고 네트워크 수신기에 &e우클릭하세요&r."
+				""
+				"네트워크 카드를 네트워크 송신기에 넣어 네트워크 송신기가 어디로 &e신호를 전송할지&r 알 수 있도록 하세요."
+				""
+				"이제 완료되었습니다. 일반적인 기계 연결 규칙에 따라 &e기계를 연결&r하기만 하면 됩니다."
+				""
+				"송신기는 네트워크에 연결하기 전에 &e청크 로드되어야&r 합니다."
+			]
+			id: "0EF218EB24BCC487"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "4CE32B206F01E1BD"
+					silent: 1
+					title: "500 경험치 x 레벨"
+					type: "command"
+				}
+				{
+					count: 5
+					id: "10621BD641DAB9D6"
+					item: "lightmanscurrency:coin_emerald"
+					title: "돈"
+					type: "item"
+				}
+				{
+					id: "2FF2FEA283ED6A28"
+					item: "simplehats:tvhead"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "도전 과제"
+			tasks: [
+				{
+					id: "61BC6B3C28C327BF"
+					item: "refinedstorage:network_transmitter"
+					type: "item"
+				}
+				{
+					id: "2E8BDBC699EB34D8"
+					item: "refinedstorage:network_card"
+					type: "item"
+				}
+				{
+					id: "15F235BE4FC02695"
+					item: "refinedstorage:network_receiver"
+					type: "item"
+				}
+			]
+			title: "기술 애호가"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0BBF59F29BA6851E"]
+			description: [
+				"저장 네트워크에서 아이템을 &e내보내고&r 싶다면, &e내보내기 장치&r를 사용하여 내보낼 보관함에 연결하세요."
+				""
+				"저장 네트워크로 아이템을 &e가져오고&r 싶다면, &e가져오기 장치&r를 사용하여 가져올 보관함에 연결하세요."
+				""
+				"두 가지 모두를 원하시나요? &e인터페이스&r를 사용하여 하나의 블록에서 &e가져오기 및 내보내기&r 기능을 얻으세요."
+				""
+				"저장 네트워크의 블록을 세계에 &e설치하려면&r, &e생성기&r를 사용하세요."
+				""
+				"세계에서 블록을 &e파괴하고 저장소에 삽입하려면&r, &e파괴기&r를 사용하세요."
+				""
+				"&e마나 플럭스필드&r는 보타니아 마나를 FE로 전환하여 정제된 저장소 아이템 조작에 사용합니다!"
+				""
+				"각 블록에는 필터를 적용할 수 있습니다."
+			]
+			id: "6EF2C5B82615DD1B"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "5DE6A4583A76E4E5"
+					silent: 1
+					title: "100 경험치 x 레벨"
+					type: "command"
+				}
+				{
+					count: 8
+					id: "73E8823D7A15F046"
+					item: "refinedstorage:quartz_enriched_iron"
+					type: "item"
+				}
+			]
+			subtitle: "정제된 저장소"
+			tasks: [
+				{
+					id: "16E23820542D9533"
+					item: "refinedstorage:exporter"
+					type: "item"
+				}
+				{
+					id: "398A9D9D275E80A0"
+					item: "refinedstorage:importer"
+					type: "item"
+				}
+				{
+					id: "21E2D50800CDD38A"
+					item: "refinedstorage:interface"
+					type: "item"
+				}
+				{
+					id: "1BE8765B0D9CC098"
+					item: "botania:mana_fluxfield"
+					type: "item"
+				}
+			]
+			title: "기본 아이템 조작"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0E17ABDC0AD61E23"]
+			description: ["업그레이드의 전체 목록은 &eJEI&r를 확인하세요."]
+			id: "059B848E5374A860"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "7C40E770D3092D25"
+				silent: 1
+				title: "100 경험치 x 레벨"
+				type: "command"
+			}]
+			subtitle: "소피스티케이티드 백팩"
+			tasks: [
+				{
+					id: "27BA72C5B24C8F27"
+					item: "sophisticatedbackpacks:crafting_upgrade"
+					type: "item"
+				}
+				{
+					id: "120B791ADFA28474"
+					item: "sophisticatedbackpacks:smelting_upgrade"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2DC978CB3CC53730"]
+			description: [
+				"&e스택 업그레이드&r는 매우 중요합니다. 스택 업그레이드는 저장 블록 안에 두 개 이상 있을 경우 서로 중첩될 수 있습니다."
+				""
+				"예를 들어:"
+				""
+				"&e4단계 스택 업그레이드 1개:&r 1024"
+				""
+				"&e4단계 스택 업그레이드 2개:&r 16,384"
+				""
+				"&e4단계 스택 업그레이드 3개:&r 262,144"
+				""
+				"&e4단계 스택 업그레이드 4개:&r 4,194,304"
+				""
+				"이전 최대값에 16을 곱하여 다음 최대값을 얻으며, 총 7개의 슬롯까지 가능합니다."
+				""
+				"업그레이드의 전체 목록은 JEI를 확인하세요."
+			]
+			id: "4F7406B2025F6706"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "5B55E6903CC702C9"
+				silent: 1
+				title: "100 경험치 x 레벨"
+				type: "command"
+			}]
+			subtitle: "소피스티케이티드 저장소"
+			tasks: [
+				{
+					id: "228AB62E3C290839"
+					item: "sophisticatedstorage:stack_upgrade_tier_1"
+					type: "item"
+				}
+				{
+					id: "5FB218960F49B7F6"
+					item: "sophisticatedstorage:stack_upgrade_tier_2"
+					type: "item"
+				}
+				{
+					id: "2BF630B5597B7752"
+					item: "sophisticatedstorage:crafting_upgrade"
+					type: "item"
+				}
+				{
+					id: "0808E2106FC244AA"
+					item: "sophisticatedstorage:smelting_upgrade"
+					type: "item"
+				}
+			]
+			title: "업그레이드"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F7406B2025F6706"]
+			description: [
+				"&e제한된 통&r은 서랍처럼 작동하며, 최대 &e네 개의 아이템&r을 저장할 수 있고 본질적으로 &e매우 높은 스택 제한&r을 가집니다. 통은 두 가지로 구분됩니다: &e티어&r와 &e아이템 제한&r."
+				""
+				"&e일반, 철, 금, 다이아몬드, 네더라이트&r는 스택 제한을 결정하는 티어입니다."
+				""
+				"&eI, II, III, IIII&r는 아이템 제한으로, 1개부터 4개까지 얼마나 많은 다른 아이템이 들어갈 수 있는지를 나타냅니다. 아이템 제한이 높은 통은 최대 스택이 더 적습니다."
+				""
+				"이 통들은 일반 저장소처럼 강화될 수 있습니다."
+			]
+			id: "4A3CBD5BF1BC9968"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "2C33C7226B9351E6"
+				silent: 1
+				title: "100 경험치 x 레벨"
+				type: "command"
+			}]
+			subtitle: "소피스티케이티드 저장소"
+			tasks: [
+				{
+					id: "2F214FD2DB7CB5F2"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_barrel_1"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A1C80132C9846B9"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_iron_barrel_1"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41F08B55CAC4D8E2"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_barrel_2"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "320AAAC1CA8E4CE9"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_iron_barrel_2"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "통 서랍"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4A3CBD5BF1BC9968"]
+			description: [
+				"&e저장소 컨트롤러&r는 연결된 저장 블록과 &e아이템을 입/출력&r할 수 있게 해줍니다. 우선순위는 마지막으로 설치된 저장 블록에 따라 결정됩니다. 현재 GUI는 없습니다."
+				""
+				"&e저장소 링크&r는 컨트롤러나 컨트롤러에 연결된 블록에 직접 연결되지 않은 &e여러 저장소를 연결&r할 수 있게 해줍니다."
+				""
+				"&e저장소 도구&r를 사용하면 &e연결, 잠금, 그리고 잠금 및 아이템 수량의 가시성을 전환&r할 수 있습니다. Shift 스크롤로 모드를 변경하세요. 연결은 컨트롤러를 우클릭하여 연결을 시작한 다음 저장소 또는 저장소 링크를 우클릭하여 연결하는 방식으로 작동합니다."
+				""
+				"&e포장 테이프&r를 사용하면 저장 블록을 &e포장&r하고 채굴하여 아이템이 떨어지지 않고 일반 블록처럼 주울 수 있습니다."
+			]
+			id: "4F8DAFD8E626D7A1"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "236882E6AC66900C"
+				silent: 1
+				title: "100 경험치 x 레벨"
+				type: "command"
+			}]
+			subtitle: "소피스티케이티드 저장소"
+			tasks: [
+				{
+					id: "2D33DC885082CA5F"
+					item: "sophisticatedstorage:controller"
+					type: "item"
+				}
+				{
+					id: "4A4077F0D62EBD0E"
+					item: "sophisticatedstorage:storage_link"
+					type: "item"
+				}
+				{
+					id: "6E08CC3287BB9BD0"
+					item: "sophisticatedstorage:storage_tool"
+					type: "item"
+				}
+				{
+					id: "2AF686EDE54C3BA9"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:packing_tape"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4F8DAFD8E626D7A1"]
+			description: ["정리정돈을 유지하세요!"]
+			id: "629A6257109536AB"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "2AFF0D9FFE57369A"
+					silent: 1
+					title: "500 경험치 x 레벨"
+					type: "command"
+				}
+				{
+					count: 5
+					id: "4B3FB70060B569CE"
+					item: "lightmanscurrency:coin_emerald"
+					title: "돈"
+					type: "item"
+				}
+				{
+					id: "0115F4FB21EAD46B"
+					item: "simplehats:bucket"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "도전 과제"
+			tasks: [
+				{
+					id: "0765FE1E964931AB"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:netherite_barrel"
+						tag: {
+							accentColor: 16383998
+							mainColor: 16383998
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "414BDBE999CBB24B"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_netherite_barrel_4"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "427BAB062D0F0C24"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:netherite_chest"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E35887EB7D7646F"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:netherite_shulker_box"
+						tag: {
+							accentColor: 16383998
+							mainColor: 16383998
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "너무 많은 상자"
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"0430A5349F4B06A8"
+				"0EF218EB24BCC487"
+				"629A6257109536AB"
+			]
+			icon: "minecraft:ender_chest"
+			id: "6428AF7E62AC7FA9"
+			rewards: [
+				{
+					command: "/tellraw @a {\"text\":\"\",\"color\":\"blue\",\"extra\":[{\"selector\":\"@p\"},{\"text\":\" has achived Professional Hoarder\"}]}"
+					elevate_perms: 1
+					icon: "minecraft:cookie"
+					id: "4B4093F03AC14A41"
+					title: "자랑하려면 여기를 클릭하세요"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 750"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "6937B10EF0E96632"
+					silent: 1
+					title: "750 경험치 x 레벨"
+					type: "command"
+				}
+				{
+					count: 6
+					id: "4BC2120BF612C79C"
+					item: "lightmanscurrency:coin_diamond"
+					title: "돈"
+					type: "item"
+				}
+				{
+					id: "42A93AE6423DC86D"
+					item: "simplehats:policebucket"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "업적"
+			tasks: [{
+				id: "7FAAD1441DAB60C3"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "전문 수집가"
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"4A3CBD5BF1BC9968"
+				"6EF2C5B82615DD1B"
+			]
+			description: ["&e외부 저장소&r를 사용하면 &e정제된 저장소&r를 &e소피스티케이티드 저장소&r의 블록과 같은 외부 저장 블록과 연결할 수 있습니다!"]
+			id: "4E4A3F37E8B476D5"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "632F0EE8C983348E"
+				silent: 1
+				title: "100 경험치 x 레벨"
+				type: "command"
+			}]
+			subtitle: "정제된 저장소"
+			tasks: [{
+				id: "3A278D31677ADF0F"
+				item: "refinedstorage:external_storage"
+				type: "item"
+			}]
+			title: "호환성"
+			x: 1.25d
+			y: -3.75d
+		}
+	]
+	title: "저장소 솔루션"
+}

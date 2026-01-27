@@ -1,0 +1,22 @@
+{
+	hide_tooltip: 1
+	id: "6355A870A165DFE3"
+	loot_size: 4
+	order_index: 40
+	rewards: [
+		{
+			item: "mmorpg:potions/full_reset_talent"
+		}
+		{
+			item: "mmorpg:potions/full_reset_spell"
+		}
+		{
+			item: "mmorpg:potions/full_reset_passive"
+		}
+		{
+			item: "mmorpg:potions/full_reset_stat"
+		}
+	]
+	title: "초기화 물약 패키지 (아이템 4개보조 장비 칸"
+	use_title: 1
+}

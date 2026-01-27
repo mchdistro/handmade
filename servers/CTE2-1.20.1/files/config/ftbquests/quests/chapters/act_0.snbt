@@ -1,0 +1,936 @@
+{
+	default_hide_dependency_lines: 0
+	default_quest_shape: "rsquare"
+	filename: "act_0"
+	group: "1E3C4B5FFAE48A39"
+	icon: "minecraft:book"
+	id: "44789E48CD607F46"
+	images: [{
+		color: 8026746
+		height: 15.0d
+		image: "watut:textures/particles/book.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 3.0d
+		y: 2.5d
+	}]
+	order_index: 0
+	progression_mode: "linear"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&n크래프트 투 엑자일 2에 오신 것을 환영합니다&r - 마인크래프트를 액션 RPG로 바꾸는 고도로 맞춤화된 모드팩입니다."
+				""
+				"퀘스트의 첫 번째 챕터인 \"프롤로그\"는 대부분의 마인크래프트 모드팩에서 익숙했던 것과 다를 수 있는, 모드팩에 도입된 특정 시스템에 대한 개요를 제공하기 위한 것입니다."
+				""
+				"&e체크 표시를 클릭하여 프롤로그의 각 \"쪽\"을 완료하세요.&r"
+				""
+				"더 많은 정보는 저희 &9위키&r를 방문하세요 (메인 메뉴에서도 링크를 찾을 수 있습니다)."
+				""
+				"또한 저희 &9디스코드&r 서버에 자유롭게 참여하세요 (링크는 메인 메뉴에도 있습니다). 게임 내 문제에 대해 도움을 드릴 수 있으며, 모드팩에 대해 대화할 수도 있습니다!"
+			]
+			icon: "minecraft:writable_book"
+			id: "30403B3DE1E47F33"
+			rewards: [
+				{
+					id: "662E6BDEDAE044A6"
+					item: "sophisticatedbackpacks:iron_backpack"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "4E506FC73E0B1EAC"
+					item: "minecraft:bread"
+					title: "빵"
+					type: "item"
+				}
+			]
+			subtitle: "목차"
+			tasks: [{
+				id: "77FDE21B75D712EC"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "크래프트 투 엑자일 2에 오신 것을 환영합니다!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["624D8CD0A4A6668B"]
+			description: [
+				"CTE2는 파티 퀘스트 및 플레이를 지원합니다. &e모든 팀/파티 옵션은 보관함을 통해 접근할 수 있습니다!&r"
+				""
+				"파티 플레이에 사용할 수 있는 3가지 명령어가 있습니다:"
+				""
+				"&e마인 앤 슬래시의 팀&r은 경험치를 공유하고 서로를 치유/버프할 수 있게 해줍니다. 추가적으로, GUI에서 파티원의 체력/마법 보호막 값을 볼 수 있습니다!"
+				""
+				"FTB 팀은 퀘스트 진행 상황을 공유할 수 있게 해줍니다. FTB 팀은 또한 사용자 지정 팀 대화 메뉴를 가지고 있으며, 기본적으로 - 키를 눌러 접근할 수 있습니다."
+				""
+				"라이트맨의 팀은 돈과 상인 알림을 공유할 수 있게 해줍니다."
+			]
+			icon: "ftbquests:book"
+			id: "48075B2F138A9C2C"
+			rewards: [{
+				id: "7F6AE3A345D1324D"
+				item: "lightmanscurrency:coin_iron"
+				title: "돈"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "2b쪽"
+			tasks: [{
+				id: "37CC2CFDC34FC657"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "파티 플레이"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["04849611F904771C"]
+			description: [
+				"마인 앤 슬래시 덕분에 CTE2는 완전히 맞춤화된 레벨링 진행 시스템을 갖추고 있습니다."
+				""
+				"몹을 처치하여 경험치를 얻고, 레벨마다 스탯 포인트를 받으세요. &e\"H\"를 눌러&r 메인 허브에서 이 포인트를 할당할 수 있습니다. 사실, 대부분의 메뉴는 이 메뉴 휠에서 접근할 수 있습니다!"
+				""
+				"{image:cte2:textures/character_stats.png width:160 height:128 align:1}"
+				""
+				"플레이어 스탯은 장비(기어) 및 특성 포인트와 같은 다른 수단을 통해서도 증가시킬 수 있으며, 이는 나중에 다룰 것입니다."
+			]
+			icon: "minecraft:book"
+			id: "624D8CD0A4A6668B"
+			rewards: [
+				{
+					id: "5B3178D7FC9CF9B3"
+					item: "mmorpg:potions/reset_points_stat"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 400"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "4A429E1B6344E4A4"
+					silent: 1
+					title: "400 경험치"
+					type: "command"
+				}
+			]
+			subtitle: "2쪽"
+			tasks: [{
+				id: "352F3C2796BACD2F"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "캐릭터 스탯"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["624D8CD0A4A6668B"]
+			description: [
+				"&e특성 트리&r는 &e캐릭터 커스터마이징&r의 추가적인 커스터마이징을 가능하게 하며, 마인 앤 슬래시 허브에서 찾을 수 있습니다."
+				""
+				"{image:cte2:textures/talent_tree.png width:160 height:115 align:1}"
+				""
+				"각 레벨은 &e특성 포인트 1점&r을 부여합니다. 시작 위치를 선택한 다음, 이미 가지고 있는 다른 노드에 연결된 &e노드에 포인트를 할당&r해야 합니다. 각 &e노드&r는 능력치에 &e보너스&r를 제공하며, 경우에 따라 핵심 게임플레이 루프를 변경할 수도 있습니다!"
+			]
+			icon: "minecraft:book"
+			id: "53A5ECD28E7E16E1"
+			rewards: [
+				{
+					id: "7F66934DFD28206B"
+					item: "mmorpg:potions/reset_points_talent"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 200"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "3BC953334872A751"
+					silent: 1
+					title: "200 경험치"
+					type: "command"
+				}
+			]
+			subtitle: "3쪽"
+			tasks: [{
+				id: "07B9CDCDF05CC52E"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "특성 트리"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53A5ECD28E7E16E1"]
+			description: [
+				"{image:cte2:textures/gui.png width:160 height:105 align:1}"
+				""
+				"&e캐릭터&r 메뉴에서는 다양한 캐릭터를 저장하고 불러올 수 있습니다. 장비를 제외한 모든 캐릭터 정보가 저장됩니다! 최대 3개의 저장된 캐릭터를 가질 수 있습니다. 새로 생성된 캐릭터는 1레벨부터 시작하지만, &e특성 및 어센던시 포인트&r와 같은 퀘스트 완료 해금 사항을 공유합니다."
+				""
+				"&e분해&r 메뉴에서는 획득 시 좋지 않은 노획물을 유용한 제작 재료로 바꿀 수 있습니다."
+				""
+				"&e클래스&r 메뉴에서는 캐릭터 특화를 할 수 있습니다. 여기서 스킬을 배우고 포인트로 개선할 수 있습니다. CTE2에서는 &e두 가지 다른 클래스에 특화할 수 있습니다&r!"
+				""
+				"&e보석&r 메뉴는 특성 트리에서 보석 슬롯에 포인트를 할당한 후에 사용됩니다. 보석을 장착하면 캐릭터 능력치를 향상시킬 수 있습니다!"
+				""
+				"또한, GUI 하단(곡괭이가 있는 곳)에서 &e전문 기술&r 레벨을 확인할 수 있습니다."
+			]
+			icon: "minecraft:book"
+			id: "0C1568D71346C427"
+			rewards: [
+				{
+					count: 4
+					id: "6BA00FC78BAE6C85"
+					item: "lightmanscurrency:coin_iron"
+					title: "돈"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 200"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "3B10C874A7833200"
+					silent: 1
+					title: "경험치 200"
+					type: "command"
+				}
+			]
+			subtitle: "4쪽"
+			tasks: [{
+				id: "60453E7473A695D0"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "나머지 GUI"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C1568D71346C427"]
+			description: [
+				"CTE2에는 3가지 \"주요\" 전투 스타일이 있습니다. &4근접 전사&r, &9마법 시전자 또는 &2원거리 궁수가 될 수 있습니다. 물론 이것은 각 캐릭터가 광범위하게 커스터마이징되고 표현될 수 있으므로 기본적인 일반화입니다."
+				""
+				"화염을 뿜는 전사가 되고 싶으신가요? 강령술 마법 시전자요? 아니면 덫을 던지는 사냥꾼이요?"
+				""
+				"CTE2는 캐릭터 커스터마이징 측면에서 많은 것을 제공합니다. 바라건대, 당신에게 가장 잘 맞는 플레이스타일을 찾으시길 바랍니다!"
+			]
+			icon: "minecraft:book"
+			id: "3059FF2D6DB1AC9F"
+			rewards: [
+				{
+					exclude_from_claim_all: 1
+					id: "780B73E925FBD004"
+					table_id: 405550839613976496L
+					type: "choice"
+				}
+				{
+					count: 64
+					id: "1B21344DA58F8D97"
+					item: "minecraft:arrow"
+					title: "화살"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 200"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "3098C9D09E030015"
+					silent: 1
+					title: "경험치 200"
+					type: "command"
+				}
+			]
+			subtitle: "5쪽"
+			tasks: [{
+				id: "7EA3FFEFB226B157"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "당신의 첫 번째 무기"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3059FF2D6DB1AC9F"]
+			description: [
+				"크래프트 투 엑자일 2에서 전투가 전면 개편되었습니다. &e무기에는 애니메이션과 콤보가 있으며&r, 휘두르는 무기 유형에 따라 다른 특성을 가집니다."
+				""
+				"또한, &e\"Alt\"를 눌러 회피 구르기를 할 수 있으며&r, 이는 짧은 재사용 대기시간을 가집니다."
+				""
+				"CTE2에서 기본 공격을 잊지 마세요! 기본 공격은 전투에서 강력하며 스킬과 함께 사용할 수 있습니다."
+			]
+			icon: "minecraft:book"
+			id: "546A9D082F1A2160"
+			rewards: [
+				{
+					id: "4D3BA6D80A06AD15"
+					item: "minecraft:zombie_spawn_egg"
+					title: "좀비 생성 알"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 200"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "539974DB413EB4B5"
+					silent: 1
+					title: "경험치 200"
+					type: "command"
+				}
+			]
+			subtitle: "6쪽"
+			tasks: [{
+				id: "222D99698592B33D"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "전투"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A39A9996E8D63F4"]
+			description: [
+				"스킬은 &9마나&r 또는 &a기력을 필요로 하며 전투에서 사용됩니다. 클래스 탭을 통해 배울 수 있으며 스킬 GUI의 &9사각형&r 슬롯에 장착할 수 있습니다."
+				""
+				"{image:cte2:textures/skill_gem.png width:140 height:105 align:1}"
+				""
+				"스킬을 레벨업하거나 &5원형&r 슬롯에 들어가는 보조 젬에 연결하여 스킬을 개조하고 강화할 수 있습니다. 이는 연결된 스킬의 &e자원 소모량과 위력을 증가시킬 수 있습니다."
+				""
+				"스킬은 연결할 수 있는 보조 젬의 최대 개수가 있습니다 (\"&5보조 슬롯:&r\" 참조). 스킬이 가질 수 있는 소켓의 수는 &e스킬 레벨&r에 따라 결정되며, 16레벨에 최대 5개의 소켓을 가집니다. &e첫 번째 슬롯을 얻으려면 스킬 레벨이 최소 4여야 합니다.&r &c슬롯 수는 &l또한&r &e플레이어 레벨&r에 따라 제한됩니다 (1레벨부터 시작하여 10레벨마다 1슬롯).&r"
+				""
+				"&e하단&r 행에서는 강화 용량을 소모하여 능력치를 제공하는 강화 젬을 장착합니다. 남은 강화 용량은 오른쪽에 &d분홍색&r으로 표시됩니다."
+			]
+			icon: "minecraft:book"
+			id: "22EAD61501470768"
+			rewards: [
+				{
+					exclude_from_claim_all: 1
+					id: "5F7B46C685D188ED"
+					table_id: 981191123936022223L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: 1
+					id: "00B6E55860C350A9"
+					table_id: 5889716173591028936L
+					type: "choice"
+				}
+				{
+					id: "0FA3268AB0494B94"
+					item: "mmorpg:potions/reset_points_spell"
+					type: "item"
+				}
+				{
+					id: "104170C66DCC1E67"
+					item: "mmorpg:potions/reset_points_passive"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 200"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "555EEACB001F9F25"
+					silent: 1
+					title: "200 경험치"
+					type: "command"
+				}
+			]
+			subtitle: "8쪽"
+			tasks: [{
+				id: "703C97D9D47FEB19"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "스킬, 보조, 강화 젬"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["546A9D082F1A2160"]
+			description: [
+				"전투에서 새로운 검과 지식을 시험해 보세요!"
+				""
+				"&e철 골렘이 좀비를 죽일 수 있으니 마을에서 생명체를 소환하지 마세요! 또한 낮에 소환하는 것을 조심하세요! 동굴에서 소환하는 것을 고려해 보세요.&r"
+				""
+				"&o무기에는 최소 능력치 요구사항이 있으므로 전투 전에 능력치를 할당해야 합니다!&r"
+			]
+			icon: "minecraft:book"
+			id: "0A39A9996E8D63F4"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 700"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "1EDA06CB95371D19"
+				silent: 1
+				title: "700 경험치"
+				type: "command"
+			}]
+			subtitle: "7쪽"
+			tasks: [{
+				advancement: "minecraft:adventure/kill_a_mob"
+				criterion: ""
+				icon: "ftb_ph:zombie"
+				id: "54F60D14EA2C9CC2"
+				title: "좀비 1마리 처치"
+				type: "advancement"
+			}]
+			title: "첫 피"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["22EAD61501470768"]
+			description: [
+				"마인크래프트에서 &4생명력&r은 당신의 생명력이며, 0이 되면 캐릭터가 죽습니다. CTE2에서는 &4사망&r 시 장비를 잃지 않지만, 50레벨부터는 상당량의 경험치를 잃게 됩니다."
+				""
+				"캐릭터 방어는 3가지 범주로 분류될 수 있습니다: &4갑옷&r (판금), &2회피&r (가죽), 그리고 &9마법 보호막&r (천)이지만, 하이브리드 유형(&8브리건딘&r = &4갑옷&r/&2회피&r)으로 구성될 수도 있습니다."
+				""
+				"갑옷은 받는 물리 피해를 감소시키고, 회피는 모든 공격을 완전히 무효화할 확률을 제공하며, 마법 보호막은 천천히 재생되는 추가 체력 완충 역할을 합니다. 이러한 능력치는 주로 장비, 능력치 포인트, 특성 트리를 통해 향상시킬 수 있습니다."
+				""
+				"원소 저항, 주문 회피, 피해 감소와 같이 &e피해를 완화하는 다른 방법&r도 있습니다. 이러한 능력치는 장비, 특성 트리, 보석에서 찾을 수 있습니다."
+				""
+				"특성 트리에는 체력을 1로 설정하고 마법 보호막에 큰 보너스를 주는 등 방어력 작동 방식을 변경할 수 있는 옵션이 있습니다!"
+				""
+				"&o갑옷의 외형이 마음에 들지 않으면 치장용 갑옷을 사용하여 가릴 수 있습니다!&r"
+			]
+			icon: "minecraft:book"
+			id: "7B22B96E95E5DA09"
+			rewards: [
+				{
+					exclude_from_claim_all: 1
+					id: "5D5755216C597FF1"
+					table_id: 8672695084726290362L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: 1
+					id: "3FE70BFEB5ED2D52"
+					table_id: 7074154712315855923L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: 1
+					id: "5DC2202B09680066"
+					table_id: 8493327020853369464L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: 1
+					id: "6D6A4A9389EE9F37"
+					table_id: 5741053327200068691L
+					type: "choice"
+				}
+				{
+					id: "45990E4571B1B2EA"
+					item: "minecraft:skeleton_spawn_egg"
+					title: "스켈레톤 생성 알"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 250"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "4B863DDA4942C800"
+					silent: 1
+					title: "경험치 250"
+					type: "command"
+				}
+			]
+			subtitle: "9쪽"
+			tasks: [{
+				id: "4B40DF289BF860BF"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "장비 착용"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1C852F78D386B77E"]
+			description: [
+				"프롤로그 퀘스트 라인을 완료하신 것을 축하드립니다. 이 마지막 쪽을 완료하면 마침내 &e1막에서 여정을 시작할 수 있습니다&r!"
+				""
+				"CTE2에서는 &e선행 조건을 아직 완료하지 않았더라도 나중 퀘스트의 과제를 완료할 수 있습니다&r. 하지만 실제로 해당 퀘스트에 도달하기 전까지는 보상을 획득할 수 없습니다."
+				""
+				"&e사이드 퀘스트&r를 꼭 확인해 보세요. 매우 유용한 정보가 많이 포함되어 있으며, CTE2에서 사용되는 다른 모드들을 소개할 것입니다. 이 퀘스트 라인을 통해 다른 모드와 마인 앤 슬래시 간의 다양한 통합을 발견할 수 있습니다!"
+			]
+			icon: "minecraft:writable_book"
+			id: "0CDFB8E5BB59B981"
+			rewards: [
+				{
+					count: 15
+					id: "58E255CF9F588325"
+					item: "lightmanscurrency:coin_iron"
+					title: "돈"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 500"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "513F1792134DC311"
+					silent: 1
+					title: "경험치 500"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: 1
+					id: "5786D74604BF83D1"
+					table_id: 405550839613976496L
+					type: "choice"
+				}
+			]
+			subtitle: "부록"
+			tasks: [{
+				id: "4DE938BD22A26E0A"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "노획. 레벨업. 탐험."
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7B22B96E95E5DA09"]
+			description: [
+				"젬과 룬은 사용 가능한 소켓이 있는 장비에 장착할 수 있습니다. 일부 마인 앤 슬래시 화폐를 통해 소켓을 추가할 수 있습니다."
+				""
+				"&b젬&r은 여러 티어로 나뉩니다. &e젬 3개를 조합하여 다음 티어를 만들 수 있습니다. 아이템에 장착하면 (커서에 젬을 둔 채 아이템을 클릭). 장비에 장착되면 젬은 추가 능력치를 제공합니다."
+				""
+				"&c룬&r을 장비에 추가하여 추가 능력치를 부여할 수 있습니다. &e룬 박힌 장비&7에 특정 룬 조합을 장착하면, 아이템을 특정 보너스 세트로 강화하는 &e룬어&r를 제작할 수 있습니다! 룬 박힌 장비는 룬어에 필요한 룬의 개수보다 더 많은 슬롯을 가질 수 있습니다!"
+				""
+				"&e룬을 들고 우클릭하면 제작 가능한 룬어를 볼 수 있습니다!&r &e룬어&r는 &e룬 박힌&r 희귀도 아이템에서만 생성할 수 있습니다."
+				""
+				"&e추출기 화폐 오브&r를 사용하여 아이템에서 젬과 룬을 회수할 수 있습니다!"
+			]
+			icon: "ftbquests:book"
+			id: "4C9F8B8F01189196"
+			rewards: [
+				{
+					id: "76247AC0012E1810"
+					item: "mmorpg:gems/azurite/1"
+					title: "조각난 남동석"
+					type: "item"
+				}
+				{
+					id: "5722F71FCCB83AB8"
+					item: "mmorpg:gems/topaz/1"
+					title: "조각난 황옥"
+					type: "item"
+				}
+				{
+					id: "45878D000E81C7B4"
+					item: "mmorpg:runes/ano"
+					title: "아노 룬"
+					type: "item"
+				}
+				{
+					id: "549B167A69E67CFA"
+					item: "mmorpg:currency/extract_gem"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "9c 쪽"
+			tasks: [{
+				id: "1DADE93D8FAB373D"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "젬과 룬"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7B22B96E95E5DA09"]
+			description: [
+				"전투에서 새로운 주문과 갑옷을 테스트해 보세요!"
+				""
+				"&e철 골렘이 스켈레톤을 처치할 수 있으니 마을에서 생명체를 소환하지 마세요! 또한 낮에 소환하는 것을 조심하세요! 동굴에서 소환하는 것을 고려해 보세요.&r"
+			]
+			icon: "minecraft:book"
+			id: "1895A7A94BE0A4B6"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 250"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "23B96BB571FA8D03"
+				silent: 1
+				title: "경험치 250"
+				type: "command"
+			}]
+			subtitle: "10 쪽"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: "ftb_ph:skeleton"
+				id: "33E51DA632612F0F"
+				type: "kill"
+				value: 1
+			}]
+			title: "쉬운 처치"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["30403B3DE1E47F33"]
+			description: [
+				"&o\"돈으로 행복을 살 수 있을까요?\"&r"
+				""
+				"음, 이 경우 돈은 많은 유용한 도구와 자원을 구매하는 데 사용될 수 있습니다. 돈을 사용하여 주민 및 다른 모드의 상인과 물품을 물물교환할 수 있습니다. 물론, 다른 플레이어와 거래하는 데 돈을 사용할 수도 있으며, 서버에 있다면 영역 블록을 구매할 수도 있습니다!"
+				""
+				"&l몹을 처치하거나 상자에서 전리품을 획득하여 돈을 벌 수 있습니다.&r 때로는 상인에게 물품을 판매하여 돈을 얻을 수도 있습니다."
+				""
+				"&e거래 터미널/물물교환 게시판&r 또한 특정 자원을 획득하는 데 유용한 도구입니다.&r"
+				""
+				"이 퀘스트에서 받는 &e지갑&r에 돈을 안전하게 보관하세요. 나중에 지갑을 업그레이드하여 더 많은 돈을 보관할 수 있도록 하세요!"
+				""
+				"&e더 적은 금액으로 돈을 교환해야 할 경우, ATM을 사용할 수 있습니다.&r"
+			]
+			icon: "minecraft:book"
+			id: "04849611F904771C"
+			rewards: [{
+				id: "409F7C072512843C"
+				item: {
+					Count: 1
+					id: "lightmanscurrency:wallet_gold"
+					tag: {
+						AutoConvert: 1
+					}
+				}
+				title: "지갑"
+				type: "item"
+			}]
+			subtitle: "1 쪽"
+			tasks: [{
+				id: "33258148F7D6B004"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "돈"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3059FF2D6DB1AC9F"]
+			description: [
+				"CTE2에서는 많은 장비 조각을 제작하고 발견하게 될 것입니다. 이 &e장비 조각들은 장비 능력치 영혼을 적용하지 않으면 어떤 능력치도 제공하지 않으며&r, 이는 본질적으로 마인 앤 슬래시 능력치를 부여하는 것입니다."
+				""
+				"&c영혼이 없는 장비는 방어적으로든 공격적으로든 아무런 효과가 없습니다!&r"
+				""
+				"장비 능력치 영혼은 같은 유형을 공유하는 모든 장비 조각에 사용할 수 있습니다. 예를 들어, 아쿠아컬쳐와 농부의 기쁨 칼은 \"단검\" 유형을 가집니다. 단검 유형의 장비 능력치 영혼으로 아이템을 &e클릭하여&r 칼에 마인 앤 슬래시 능력치를 적용할 수 있습니다!"
+				""
+				"&e장비 능력치 영혼을 제작하는 방법&r에 대해 더 자세히 알고 싶으신가요? &aM\\&S 직업&r 퀘스트 챕터를 방문하세요!"
+			]
+			icon: "ftbquests:book"
+			id: "289350CF47F41D69"
+			rewards: [
+				{
+					id: "5B729B2C8440BDF5"
+					item: {
+						Count: 1
+						id: "aquaculture:wooden_fillet_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "나무 필렛 나이프"
+					type: "item"
+				}
+				{
+					id: "31743DFDD664B202"
+					item: {
+						Count: 1
+						id: "mmorpg:stat_soul"
+						tag: {
+							CustomModelData: 15
+							mmorpg_stat_soul: "{\"tier\":0,\"slot\":\"dagger\",\"rar\":\"common\",\"fam\":\"NONE\",\"uniq\":\"\",\"can_sal\":true}"
+						}
+					}
+					title: "단검 능력치 영혼"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "5b 쪽"
+			tasks: [{
+				id: "1C99B6F792983F96"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "장비 능력치 영혼"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B22B96E95E5DA09"]
+			description: [
+				"방패 (갑옷), 토템 (회피), 마법서 (마법 방패)는 방어 능력치를 증가시킬 수 있는 보조 장비입니다."
+				""
+				"전투에서 한 가지 방어 옵션은 구르기 능력(기본값: Alt)입니다. 이것은 모든 플레이어가 사용할 수 있습니다. 하지만 방패를 장착하면 피해를 막는 데 사용할 수도 있습니다."
+				""
+				"방패는 들고 있는 동안 &a에너지&r를 소모하며, 올바른 방향을 향하고 있다면 받는 피해를 무효화합니다."
+				""
+				"&e방패가 피해를 무효화할 수 있는 패시브 확률&r(회피와 유사하게)을 가질 수 있다는 것을 알고 계셨나요? 장비나 특성 트리에서 막기 확률을 얻을 수 있으며, 이를 통해 &o방패를 들고 있지 않을 때도 피해를 무효화할 확률을 가질 수 있습니다!"
+			]
+			icon: "ftbquests:book"
+			id: "119B706F79F22360"
+			rewards: [{
+				exclude_from_claim_all: 1
+				id: "206EE0F673CCC5EB"
+				table_id: 7401807202655080641L
+				type: "choice"
+			}]
+			shape: "circle"
+			subtitle: "9b 쪽"
+			tasks: [{
+				id: "0662DB198465C67A"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "막기"
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1895A7A94BE0A4B6"]
+			description: [
+				"웨이스톤은 세계 곳곳에 퍼져 있으며, 일단 발견되면 다른 웨이스톤, 워프 스크롤 또는 워프 스톤을 통해 순간이동할 수 있습니다."
+				""
+				"웨이스톤은 세계에 무작위로 스폰될 수 있지만, &e종종 마을에서 발견됩니다.&r 발견된 웨이스톤으로 쉽게 돌아갈 수 있도록 워프 스크롤을 챙기세요!"
+			]
+			icon: "ftbquests:book"
+			id: "19319F327C09E772"
+			rewards: [{
+				count: 8
+				id: "1361F172A8236025"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "10c 쪽"
+			tasks: [{
+				id: "302BF9765FDEFFE8"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "웨이스톤"
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["48075B2F138A9C2C"]
+			description: [
+				"원치 않는 (플레이어) 방문객으로부터 보호받기 위해 &e지역의 소유권을 주장&r할 수 있습니다. 어떤 &e황금 괭이&r든 사용하여 이를 수행할 수 있지만 (지면을 우클릭), 여기 당신이 사용할 특별히 이름이 지정된 괭이가 있습니다."
+				""
+				"&o&e즐거운 협동&r 챕터 아래의 \"&e플랜으로 영토 점령&r\" 퀘스트에서 훨씬 더 자세한 정보를 확인하세요!"
+			]
+			icon: "ftbquests:book"
+			id: "31B023681AC62535"
+			rewards: [{
+				id: "13CF773EDFCB3C2E"
+				item: {
+					Count: 1
+					id: "minecraft:golden_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "2c 쪽"
+			tasks: [{
+				id: "5848EBF021C0262E"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "영토 점령"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1895A7A94BE0A4B6"]
+			description: ["여행하는 동안 &e영혼 구슬&r을 발견하게 될 것입니다. 이 구슬은 &e여신상&r에서 &c하트 컨테이너&r로 교환할 수 있습니다. 각 하트 컨테이너는 기본 체력을 2씩 증가시켜 최대 200 체력(하트 컨테이너 100개)까지 늘려줍니다. 크래프트 투 엑자일 2에서는 &e보스에게서도 하트 컨테이너&r를 찾을 수 있습니다."]
+			icon: "minecraft:book"
+			id: "1C852F78D386B77E"
+			rewards: [{
+				id: "605680F58634B88E"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			subtitle: "11 쪽"
+			tasks: [{
+				id: "5C49990F810F10CF"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "하트 컨테이너"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1C852F78D386B77E"]
+			description: [
+				"곧 &e크래프트 투 엑자일 2&r에 수집할 노획물이 엄청나게 많다는 것을 깨닫게 될 것입니다. 대부분의 노획물은 RPG 모드인 &e마인 앤 슬래시&r에서 나옵니다. 가장 답답한 점 중 하나는 인벤토리를 정리하고 물건을 주울 충분한 공간을 확보하는 것입니다."
+				""
+				"이 &e마스터 가방&r은 &e마인 앤 슬래시&r의 아이템을 특히 &b줍고 보관하며&r, 노획물을 정리하는 데 도움을 줄 것입니다. 가방을 명시적으로 &o착용할&r 수는 없지만, 들고 있는 동안 사용하여 인벤토리를 볼 수 있습니다."
+				""
+				"노획물의 엄청난 양으로 여전히 어려움을 겪고 있다면, 허브에서 찾을 수 있는 &e자동 분해 기능&r을 사용하는 것을 고려해 볼 수도 있습니다. 이에 대해 더 자세히 알아보려면 &e직업 챕터&r를 방문하세요."
+			]
+			icon: "ftbquests:book"
+			id: "351118C34DCDFEB4"
+			rewards: [{
+				id: "76C1849A7E4A48AC"
+				item: "mmorpg:master_bag"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "11b 쪽"
+			tasks: [{
+				id: "6E5BF0F42C1A3C85"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "인벤토리 관리"
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["04849611F904771C"]
+			description: [
+				"&e크래프트 투 엑자일 2&r는 &e사용자 지정 키 지정&r과 함께 제공됩니다. 하지만 &c사용자 지정 키 지정이 적용되지 않는 경우&r가 있었습니다. R 키를 눌러 이를 확인할 수 있습니다. 만약 휠이 나타난다면 사용자 지정 키 지정이 적용되지 않은 것입니다 (H 키여야 합니다)."
+				""
+				"이를 해결하려면 Esc를 누르고 &b설정 > 조작 > 키 지정 > 키 재설정 클릭&r으로 이동하세요."
+			]
+			icon: "ftbquests:book"
+			id: "5CA9B71D52F01485"
+			rewards: [{
+				id: "59679DF2D778DA7F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "1b 쪽"
+			tasks: [{
+				id: "6F2223761F2F7200"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "키 지정"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1895A7A94BE0A4B6"]
+			description: [
+				"CTE2에서는 한 청크 내에서 몹들이 &c더 이상 드롭 아이템이나 경험치를 주지 않게 되기 전까지&r 처치될 수 있는 수에 제한이 있습니다! 청크는 시간이 지남에 따라 회복됩니다."
+				""
+				"이는 자동화된 경험치 획득 방법 대신 이동과 탐험을 장려하기 위함입니다."
+				""
+				"&o탐험하고 발견하세요! 많은 구조물과 위험이 발견될 수 있습니다."
+			]
+			icon: "ftbquests:book"
+			id: "151EDFFBB525349E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 50"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "2CD733C2EAA8C466"
+				silent: 1
+				title: "경험치 50"
+				type: "command"
+			}]
+			shape: "circle"
+			subtitle: "10b 쪽"
+			tasks: [{
+				id: "321AFA63AEF2B67B"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "몹 농장 방지"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["30403B3DE1E47F33"]
+			description: [
+				"크래프트 투 엑자일 2에는 &eVR 지원&r이(가) 포함되어 있습니다! 다음 사항을 &l반드시&r 갖춰야 합니다: "
+				"- SteamVR"
+				"- VR 헤드셋"
+				"- 마인크래프트 창이 PC에서 활성화되어 있어야 합니다"
+				""
+				"위 사항을 확인한 후, 헤드셋을 켜고 PC에 연결하세요. 그러면 메인 메뉴에서 VR을 활성화할 수 있습니다. 일부 키 지정은 이미 설정되어 있습니다. 하지만 필요에 맞게 바이브크래프트의 &eSteamVR 입력을 설정&r하는 것이 좋습니다."
+				""
+				"기본적으로 &lVR 원형 메뉴&r는 마인 앤 슬래시 스킬 단축키 및 기타 중요한 메뉴 아이템에 사용됩니다. 원형 메뉴를 불러올 때, &l그립 버튼을 누르고 있으면 두 번째 옵션 세트에 접근할 수 있습니다&r!"
+				""
+				"또한, 제작대, 몰입형 휘두르기, 활 사용 등 마인크래프트의 대부분의 측면에서 VR 통합을 지원합니다! 이동 방식을 수정하고 제자리 달리기를 활성화하여 움직일 수도 있습니다!"
+				""
+				"&lGUI 불러오기 실패를 방지하려면 다음을 수행하세요. 게임을 종료하기 전에 메인 메뉴에서 VR을 끄고, 로그인 시 다시 활성화해야 합니다.&r"
+			]
+			icon: "simplehats:goggles"
+			id: "3FD1760A231D429D"
+			rewards: [{
+				id: "08FDBED97918BF5A"
+				item: "simplehats:goggles"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "7A2278B60D17AB84"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "VR 지원"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["22EAD61501470768"]
+			description: [
+				"{image:cte2:textures/skill_bar.png width:120 height:120 align:center}"
+				""
+				"&e스킬&r은 허브에서 &e스킬 단축 바&r를 클릭하여 단축 바에 할당할 수 있습니다."
+				""
+				"{image:cte2:textures/skill_hotbar.png width:160 height:120 align:center}"
+				""
+				"&e스킬 단축 바를 이동하려면&r ESC > 모드 > 마인 앤 슬래시 > 설정 > mine_and_slash-client > 일반 > 오버레이 > &e스킬 단축 바 오버레이 유형을 설정하여 가로/세로 전환 및 스킬 단축 바 세로/가로 설정을 조정하세요."
+			]
+			icon: "ftbquests:book"
+			id: "33E4003EA7B05BA4"
+			rewards: [{
+				count: 5
+				id: "7909F546B1BEADEA"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "페이지 8b"
+			tasks: [{
+				id: "24E6BC2E8058814E"
+				title: "한 번 클릭해서 읽기"
+				type: "checkmark"
+			}]
+			title: "주문 바"
+			x: -1.0d
+			y: 3.0d
+		}
+	]
+	title: "프롤로그"
+}

@@ -1,6 +1,0 @@
-{
-    "name": "송신기",
-    "description": "송신기를 사용하면 MIDI 파일(PC 또는 멀티플레이어 서버)이 MIMI 악기에서 음표를 재생할 수 있습니다.$(br2)MIDI 파일은 컴퓨터가 최대 16개의 파트(채널)로 읽을 수 있는 디지털 악보입니다. MIDI 파일은 노래방 기계부터 구형 게임의 음악(Doom($(l:https://www.youtube.com/watch?v=SJ0Ob4PlCDU)$()), Sonic($(l:https://www.youtube.com/watch?v=60d4uGPNblo)) 및 Warcraft($(l:https://www.youtube.com/watch?v=QO6CMRg93dk)))에 이르기까지 다양한 방식으로 사용되었습니다.",
-    "icon": "mimi:transmitter",
-    "sortnum": 3
-}

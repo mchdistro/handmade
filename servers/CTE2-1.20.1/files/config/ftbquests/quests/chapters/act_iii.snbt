@@ -1,0 +1,1428 @@
+{
+	default_hide_dependency_lines: 0
+	default_quest_shape: ""
+	filename: "act_iii"
+	group: "1E3C4B5FFAE48A39"
+	icon: "undergarden:catalyst"
+	id: "31B544F80AB89D6E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2AFB98683E249B7D"]
+			description: ["&e로틀링&r만이 썩어가는 생명체는 아닌 것 같습니다. 다양한 품종이 존재합니다."]
+			icon: "minecraft:rotten_flesh"
+			id: "5E98541EEB25174A"
+			rewards: [
+				{
+					exclude_from_claim_all: 1
+					id: "58382CF9AB2A0A3E"
+					table_id: 1433159522818962256L
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 6000"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "1206AB15279F8FA5"
+					silent: 1
+					title: "6000 경험치"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "주요 퀘스트"
+			tasks: [
+				{
+					entity: "undergarden:rotbeast"
+					icon: "ftb_ph:rotbeast"
+					id: "2C4A8A938CB95DE1"
+					type: "kill"
+					value: 12
+				}
+				{
+					entity: "undergarden:rotwalker"
+					icon: "ftb_ph:rotwalker"
+					id: "03FF1260F86F8A4E"
+					type: "kill"
+					value: 12
+				}
+			]
+			title: "썩어가는 생명체"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18D44E8B9226FB02"]
+			description: ["이 차원이 축축하고 습하다고 들었지만, 썩어가는 곳일 줄은 몰랐습니다. 계속 공격해오는 성가신 &e로틀링&r을 처치하세요. 그들이 부패의 원인인 것 같습니다."]
+			icon: "alexsmobs:cockroach_wing_fragment"
+			id: "2AFB98683E249B7D"
+			rewards: [
+				{
+					count: 2
+					id: "5DCBFD4165D4B05B"
+					item: "lightmanscurrency:coin_gold"
+					title: "돈"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 5000"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "495F3EA9B5202D6E"
+					silent: 1
+					title: "5000 경험치"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "주요 퀘스트"
+			tasks: [{
+				entity: "undergarden:rotling"
+				icon: "ftb_ph:rotling"
+				id: "5C9A9DA8C7B9EEFC"
+				type: "kill"
+				value: 6
+			}]
+			title: "이방인 적들"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C25A5681CC704B8"]
+			description: [
+				"이제 장비를 갖췄으니, 바다에서 이러한 이상 현상이 무엇 때문에 발생하는지 알아볼 시간입니다. &e오버월드 얼음 미로&r에서 어떤 활동이 감지되었습니다... 확인해 볼 가치가 있을지도 모릅니다. 이 얼음 미로는 &e깊고 얼어붙은 바다 근처 지표면&r에서 찾을 수 있습니다."
+				""
+				"&e옥시젤리움&r이라는 희귀 식물이 바다의 &e이 얼음 미로 바닥&r에서 발견될 수 있다고 합니다. 또는 &e고통받는 영혼&r에게서 찾을 수도 있습니다. &e고통받는 영혼&r을 찾는 데 어려움이 있다면 &e얼음 미로의 관문&r에 도전해 보세요!"
+				""
+				"추위에서 생존하려면 &e볼트 갑옷&r이 필요합니다. 제작할 수 있습니다."
+				""
+				"&c아쿠아미래의 몹은 최소 레벨 35에서 스폰됩니다!&r"
+				""
+				"&e모든 선행 조건이 완료되어야 합니다.&r"
+			]
+			icon: "minecraft:ice"
+			id: "217637D12CF3011E"
+			rewards: [
+				{
+					exclude_from_claim_all: 1
+					id: "6A6264B5A2D68399"
+					table_id: 5102974831465220002L
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 7250"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "513C3E0F390949B6"
+					silent: 1
+					title: "7250 경험치"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "주요 퀘스트"
+			tasks: [{
+				icon: "minecraft:ice"
+				id: "7D9182428353834C"
+				structure: "aquamirae:ice_maze/common"
+				title: "얼음 미로 찾기"
+				type: "structure"
+			}]
+			title: "숨겨진 깊은 곳"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E98541EEB25174A"]
+			description: [
+				"언더가든에 살았다고 주장하는 마을 주민과 대화했습니다. 그 주민에 따르면, 한때 땅 곳곳의 사원에 강력한 존재들이 있어 스며드는 부패로부터 문명을 보호했다고 합니다. 이 퀘스트를 완료하려면 언더가든 &e지하 묘지&r를 찾아야 합니다."
+				""
+				"하지만, 그 모든 것은 과거의 일인 것 같습니다. 새로운 조사는 오버월드 깊은 곳에 출몰하는 새로운 생명체들을 암시합니다."
+				""
+				"&o&7완료 시 반복 퀘스트 챕터에서 반복 퀘스트가 잠금 해제됩니다!&r&r"
+			]
+			id: "775A13E1924D6C9A"
+			rewards: [
+				{
+					id: "22D6AB0E769C0B19"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":35,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "희귀 장비 전리품 상자 (레벨 35)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 6250"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "235DECB54BBFBDE3"
+					silent: 1
+					title: "6250 경험치"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "1E135904CF7ED95A"
+					title: "특성 포인트 1점"
+					type: "custom"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "주요 퀘스트"
+			tasks: [{
+				entity: "undergarden:forgotten"
+				icon: {
+					Count: 1
+					id: "undergarden:forgotten_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "074321BF73A109FA"
+				type: "kill"
+				value: 12
+			}]
+			title: "과거의 문명"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AFB98683E249B7D"]
+			description: ["마을의 나이 든 주민에게서 그들이 원래 언더가든 출신이라는 이야기를 들었습니다! 그 주민에 따르면, 스며드는 부패 때문에 언더가든에는 더 이상 마을이 없다고 합니다. 하지만 여전히 거주하는 &e스톤본&r 생명체들이 거래를 할 의향이 있을 수 있습니다."]
+			id: "34AE4F64C6DCC76B"
+			rewards: [
+				{
+					id: "3598048059AFC907"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/currency"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"common\",\"lvl\":30,\"id\":\"currency\",\"key\":\"\"}"
+						}
+					}
+					title: "일반 화폐 전리품 상자 (레벨 30)"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7B53CAD7E3888851"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 5500"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "4AB967C7D0BC5EA0"
+					silent: 1
+					title: "5500 경험치"
+					type: "command"
+				}
+			]
+			subtitle: "위임"
+			tasks: [{
+				advancement: "undergarden:undergarden/stoneborn_trade"
+				criterion: ""
+				id: "41919A014FCB8BFF"
+				type: "advancement"
+			}]
+			title: "이방인 친구들"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2AFB98683E249B7D"]
+			description: ["언더가든의 심연을 탐험하면 장비로 만들 수 있는 유용한 자원들을 찾을 수 있을 것입니다!"]
+			id: "73CB23341BA13CD0"
+			rewards: [
+				{
+					count: 3
+					id: "61183E226D5E94A5"
+					item: "mmorpg:stone/3"
+					title: "에픽 스톤"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 5000"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "6B975E6A9D52282E"
+					silent: 1
+					title: "5000 경험치"
+					type: "command"
+				}
+			]
+			subtitle: "마인 앤 슬래시"
+			tasks: [{
+				advancement: "undergarden:undergarden/mine_ore"
+				criterion: ""
+				id: "5E1546F833807E4F"
+				type: "advancement"
+			}]
+			title: "새로운 자원"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["217637D12CF3011E"]
+			description: ["&e엔드 차원문 틀&r을 찾는 데 어려움을 겪고 &e엔더의 눈&r이 부족하다면, &e엔도로케이터&r를 제작할 때일지도 모릅니다. 엔도로케이터는 엔더의 눈과 기능적으로 동일하지만, 사용 횟수가 무제한입니다!"]
+			id: "2E0F302F9BBF7E36"
+			rewards: [
+				{
+					count: 3
+					id: "04EA5114ACF663AF"
+					item: "lightmanscurrency:coin_gold"
+					title: "돈"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 7500"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "1FC44A6913452913"
+					silent: 1
+					title: "7500 경험치"
+					type: "command"
+				}
+			]
+			subtitle: "반향 위치"
+			tasks: [{
+				id: "40F07F24ADE9D1A4"
+				item: {
+					Count: 1
+					id: "alexsmobs:endolocator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "구조물 찾기 도움"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"59A29FC72CB20EB7"
+				"6BA03D598BD6C2AD"
+				"360C736C3975B377"
+				"43D444B5C1395F3E"
+				"2A8673F98F14484D"
+				"11DB53435CA1D59E"
+				"5E98541EEB25174A"
+				"2E0F302F9BBF7E36"
+				"2AFB98683E249B7D"
+				"217637D12CF3011E"
+				"18B4B295493669DD"
+				"775A13E1924D6C9A"
+				"60A18C940B623CDA"
+				"73CB23341BA13CD0"
+				"46DB9530C236A4AD"
+				"55F9F418C4CA3B3A"
+				"0998037F5701A2D7"
+				"5C25A5681CC704B8"
+				"0AFF7911E9C10C1B"
+				"3054F5AA249874B1"
+				"58F782F592F2ADEB"
+				"34AE4F64C6DCC76B"
+				"45EA60D4FE6CFFAC"
+				"713FE37BCF17FA27"
+				"4F6C1721D3A47BFC"
+				"3242634F49140F5F"
+				"3984F3F1D86ADE21"
+				"45501F3F04639DB1"
+				"5FEC85CF65C29ED6"
+			]
+			description: ["3막의 모든 퀘스트를 완료하여 이 업적을 달성하세요. 그리고 새로운 모자와 함께 자랑해 보세요!"]
+			hide_dependency_lines: 1
+			icon: "simplehats:babydolphin"
+			id: "6852C249CA093735"
+			rewards: [
+				{
+					id: "07B40C2CAFFA4A41"
+					item: "lightmanscurrency:coin_emerald"
+					title: "돈"
+					type: "item"
+				}
+				{
+					id: "69E1F9E5F47DE548"
+					item: "simplehats:babydolphin"
+					title: "아기 돌고래"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "업적"
+			tasks: [{
+				id: "7F4620276B50AC30"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "모든 3막 퀘스트를 완료하세요!"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2E0F302F9BBF7E36"]
+			description: ["&e이상한 물고기 탐지기&r는 근처의 데빌즈 홀 청크에서 &e고유 물고기와 노획물&r을(를) 찾아낼 것입니다."]
+			id: "58F782F592F2ADEB"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 8000"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "479F2BD1BBE7BC9A"
+					silent: 1
+					title: "8000 경험치"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "2B95DBCDDE09AA83"
+					title: "1 특성 포인트"
+					type: "custom"
+				}
+				{
+					id: "2CD9791B813A37F2"
+					item: "simplehats:seaweedhat"
+					type: "item"
+				}
+			]
+			subtitle: "반향 위치"
+			tasks: [{
+				id: "0B89633D93313B67"
+				item: {
+					Count: 1
+					id: "alexsmobs:pupfish_locator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["217637D12CF3011E"]
+			dependency_requirement: "one_completed"
+			description: ["이 &e갑옷&r 세트는 수중에서 쉽게 &e채굴하고 전투&r할 수 있게 해줍니다. &e얼음 미로&r 수중이나 그 지역의 &e고통받는 영혼&r에게서 발견되는 &e옥시젤리움으로 산소 탱크&r를 제작할 수 있습니다. 수중 전투를 위해 낚시로 얻은 &e넵투늄&r 장비를 사용하는 것도 고려해볼 수 있습니다!"]
+			id: "43D444B5C1395F3E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 6750"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "482D24E3915BCF42"
+				silent: 1
+				title: "6750 경험치"
+				type: "command"
+			}]
+			shape: "circle"
+			subtitle: "잠수 장비"
+			tasks: [
+				{
+					id: "7B1370680492A67F"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15969F7FC51090F2"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["217637D12CF3011E"]
+			description: [
+				"이 언데드 생명체들은 &e깊고 얼어붙은 바다 근처 지하 쉼터의 얼음 미로&r를 배회하는 것이 목격되었습니다."
+				""
+				"&o&7완료 시 반복 퀘스트 챕터에서 반복 퀘스트가 잠금 해제됩니다!&r&r"
+			]
+			id: "60A18C940B623CDA"
+			rewards: [
+				{
+					count: 8
+					id: "4C7692645F8A7345"
+					item: "mmorpg:material/fishing/1"
+					type: "item"
+				}
+				{
+					id: "023076E4060597AE"
+					item: "mmorpg:material/fishing/2"
+					title: "엠피리언 원시 물고기"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 8500"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "132D51D143AFAECD"
+					silent: 1
+					title: "8500 경험치"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "해저 모험"
+			tasks: [{
+				entity: "aquamirae:tortured_soul"
+				icon: {
+					Count: 1
+					id: "betterarcheology:soul_totem"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6DC389E918151695"
+				type: "kill"
+				value: 16
+			}]
+			title: "잠 못 드는 망자"
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["217637D12CF3011E"]
+			description: ["이 물고기들은 분명 수상해 보입니다... 그리고 육지에 있습니다! 이 생명체들은 &e깊고 얼어붙은 바다 근처의 얼음 미로&r에서 발견될 수 있습니다."]
+			id: "3054F5AA249874B1"
+			rewards: [
+				{
+					count: 4
+					id: "18127D8F7D2FE528"
+					item: "mmorpg:material/fishing/2"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 8750"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "2D6BC5CAD878B4F4"
+					silent: 1
+					title: "경험치 8750"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "해저 모험"
+			tasks: [{
+				entity: "aquamirae:maw"
+				icon: "alexsmobs:flying_fish"
+				id: "64029E0952041AA3"
+				type: "kill"
+				value: 12
+			}]
+			title: "육상 공포"
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["217637D12CF3011E"]
+			description: ["&e얼음 미로&r 물속의 &e아귀&r는 충분히 평범해 보입니다..."]
+			id: "59A29FC72CB20EB7"
+			rewards: [
+				{
+					id: "5623647895FDB31F"
+					item: "mmorpg:material/fishing/3"
+					title: "천사의 생선"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 8750"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "325506065E24D465"
+					silent: 1
+					title: "경험치 8750"
+					type: "command"
+				}
+				{
+					id: "13A003531A29BE48"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:ice_maze"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "해저 모험"
+			tasks: [{
+				entity: "aquamirae:anglerfish"
+				icon: "aquamirae:anglers_fang"
+				id: "793FAAC99A394C65"
+				type: "kill"
+				value: 8
+			}]
+			title: "심해 생물"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["59A29FC72CB20EB7"]
+			description: [
+				"이 미끄럽고 꿈틀거리는 생명체는 &e얼음 미로&r 옆의 &e은신처&r에서 발견될 수 있습니다. 또는 &e얼음 미로의 관문&r에서도 찾을 수 있습니다."
+				""
+				"&c장어는 최소 레벨 35에서 스폰됩니다.&r"
+				""
+				"장어는 다음을 가집니다."
+				"&b물리 피해를 냉기 피해로 50% 전환&r"
+				"&a운드 룬 드롭 확률 15%&r"
+			]
+			id: "46DB9530C236A4AD"
+			rewards: [
+				{
+					count: 2
+					id: "16C206CAA7691022"
+					item: "mmorpg:stone/3"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 9250"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "5E42161C284D2B09"
+					silent: 1
+					title: "경험치 9250"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "0F7E84FB337FE624"
+					title: "특성 포인트 1"
+					type: "custom"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "61E1F9C240855D16"
+					title: "잔혹한 승천"
+					type: "custom"
+				}
+			]
+			shape: "diamond"
+			subtitle: "해저 모험"
+			tasks: [{
+				entity: "aquamirae:eel"
+				icon: "alexsmobs:shed_snake_skin"
+				id: "05F31113091D1241"
+				type: "kill"
+				value: 1
+			}]
+			title: "미끄러운 수영자"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3054F5AA249874B1"]
+			description: [
+				"어떤 생명체도 실제로 본 적 없는 &e얼음 미로의 어머니&r는 바다를 배회하며 선원과 해적을 가리지 않고 공격하는 강력한 생명체라는 신화가 있습니다. 만약 찾고 싶다면, &e아귀와 함께 스폰될&r 확률이 있다고 합니다 (&7아귀가 죽을 때 스폰될 확률 5.0%&r). 또한 그 생명체의 뱃속에서 희귀한 고대 해적 보물을 찾을 수 있다는 소문도 있습니다..."
+				""
+				"&c얼음 미로의 어머니는 최소 레벨 35에서 스폰됩니다.&r"
+				""
+				"얼음 미로의 어머니는 다음을 가집니다."
+				"&b물리 피해를 냉기 피해로 50% 전환&r"
+				"&a운드 룬 드롭 확률 50%&r"
+			]
+			id: "18B4B295493669DD"
+			rewards: [
+				{
+					count: 8
+					id: "3E4E7CF7278690E7"
+					item: "lightmanscurrency:coin_gold"
+					title: "돈"
+					type: "item"
+				}
+				{
+					id: "0DDB0EF1FF5F5BA3"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":35,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "희귀 장비 전리품 상자 (레벨 35)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 14000"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "7153FEA8AA828FFB"
+					silent: 1
+					title: "경험치 14000"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "060035A5B1D52952"
+					title: "특성 포인트 1"
+					type: "custom"
+				}
+			]
+			shape: "diamond"
+			subtitle: "해저 모험"
+			tasks: [{
+				entity: "aquamirae:maze_mother"
+				icon: {
+					Count: 1
+					id: "aquamirae:maze_rose"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "obscure_api:distance"
+								lvl: 3
+							}
+							{
+								id: "obscure_api:fast_spin"
+								lvl: 5
+							}
+						]
+					}
+				}
+				id: "0962A21E9E55A320"
+				type: "kill"
+				value: 1
+			}]
+			title: "심해의 어머니"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3054F5AA249874B1"
+				"60A18C940B623CDA"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&e코넬리아 선장의 유령&r은 &e뿔피리&r에서 특정 소리가 재생될 때 나타납니다..."
+				""
+				"어떤 이들은 &e뿔피리&r가 &e깊고 얼어붙은 바다&r에 숨어있는 &e어머니 같은 거대한 생물&r에게서 발견되거나, &e얼음 미로의 관문&r을 완료하여 얻을 수 있다고 말합니다."
+				""
+				"&e코넬리아 선장의 유령&r은 죽음에 강합니다... 체력이 낮아지면 &c체력을 빠르게 재생하기 시작합니다&r. &e투척용 나약함의 물약&r을 사용하여 이에 대응할 수 있습니다."
+				""
+				"&c코넬리아 선장의 유령은 최소 레벨 40에서 스폰됩니다.&r"
+				""
+				"코넬리아 선장의 유령은 다음을 가집니다."
+				"&b물리 피해를 냉기 피해로 50% 전환&r"
+				"&b+25% 치명타&r"
+				"&a운드 룬 드롭 확률 10%&r"
+				""
+				"&e선행 조건 1개 완료 필요.&r"
+				""
+				"&6이 퀘스트는 캠페인 상점에서 새로운 상점을 잠금 해제합니다."
+				"&o&7완료 시 반복 퀘스트 챕터에서 반복 퀘스트가 잠금 해제됩니다!&r&r"
+			]
+			id: "55F9F418C4CA3B3A"
+			rewards: [
+				{
+					id: "3460CB6300D902AD"
+					item: "lightmanscurrency:coin_emerald"
+					title: "돈"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2A9A07576D36CFDF"
+					item: "mmorpg:material/fishing/3"
+					title: "천사의 원시 물고기"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 15000"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "59ABA7C0A346C178"
+					silent: 1
+					title: "경험치 15000"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "주요 퀘스트"
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: "aquamirae:pirate_pouch"
+				id: "36993DF8C06FCE11"
+				type: "kill"
+				value: 1
+			}]
+			title: "코넬리아 선장의 보관함"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73CB23341BA13CD0"]
+			description: ["이 &e냉기 주괴&r는 강력한 &e서리 강철&r 장비를 제작하는 데 사용될 수 있습니다. 이 주괴는 &e서리 평원, 서리 스모그 줄기 숲&r 및 &e얼음 바다&r 생물 군계와 같은 &e냉기 지하 생물 군계&r에서 발견될 수 있습니다."]
+			id: "0AFF7911E9C10C1B"
+			rewards: [
+				{
+					count: 4
+					id: "0D451539F1EC255E"
+					item: "mmorpg:material/mining/1"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 5000"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "052C4DC20201AB66"
+					silent: 1
+					title: "경험치 5000"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "0CBDF4F483A66437"
+					title: "특성 포인트 1"
+					type: "custom"
+				}
+			]
+			subtitle: "마인 앤 슬래시"
+			tasks: [{
+				count: 8
+				id: "154C7E9E60887877"
+				item: "undergarden:froststeel_ingot"
+				type: "item"
+			}]
+			title: "냉기 주괴"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["55F9F418C4CA3B3A"]
+			description: [
+				"이제 주민 학자를 방문할 시간입니다. 그들은 강력한 생명체가 있는 다른 차원에 대해 무언가 알고 있을지도 모릅니다."
+				""
+				"&e문지기&r는 &e산, 평원 또는 눈 덮인 마을&r에 스폰될 수 있는 &e문지기 집&r에서 찾을 수 있습니다."
+				""
+				"하지만 그들에게 정보를 얻기 위해 어떤 식으로든 강요해야 할 수도 있습니다... 혹시 &a에메랄드&r라도?"
+			]
+			id: "0998037F5701A2D7"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 9250"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "4BE8EDFC75B0DD85"
+				silent: 1
+				title: "경험치 9250"
+				type: "command"
+			}]
+			shape: "rsquare"
+			subtitle: "주요 퀘스트"
+			tasks: [{
+				icon: "blue_skies:blinding_key"
+				id: "0C15001804C8AF74"
+				structure: "#blue_skies:gatekeeper_houses"
+				title: "문지기 찾기"
+				type: "structure"
+			}]
+			title: "문지기들"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["775A13E1924D6C9A"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&e지하 묘지&r 깊은 곳에서 드물게 비활성화된 가디언을 찾을 수 있습니다. 이 가디언들은 한때 부패 생명체로부터 사람들을 보호했지만, 오래전에 마법을 잃었다고 합니다. 물론, 그저 소문일 뿐입니다..."
+				""
+				"이 가디언들을 찾을 수 없다면, &e미궁의 관문&r으로 과거로 통하는 차원문을 강제로 열어보는 것이 더 나을 수도 있습니다."
+				""
+				"&c잊혀진 가디언은 최소 레벨 35에서 스폰됩니다.&r"
+				""
+				"잊혀진 가디언은 다음을 가집니다."
+				"&b+50% 원소 저항&r"
+				"&a운드 룬 드롭 확률 10%&r"
+			]
+			icon: {
+				Count: 1
+				id: "undergarden:forgotten_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5C25A5681CC704B8"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 12500"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "45269ACB23D984A3"
+					silent: 1
+					title: "경험치 12500"
+					type: "command"
+				}
+				{
+					id: "2EFCEBBD529078B6"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:endless/labyrinth"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: 1
+					id: "413C00B019997763"
+					table_id: 7143075762642060613L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "주요 퀘스트"
+			tasks: [{
+				entity: "undergarden:forgotten_guardian"
+				icon: "ftb_ph:forgotten_guardian"
+				id: "68ABFF4A22C968A4"
+				type: "kill"
+				value: 1
+			}]
+			title: "숨겨진 비밀"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C25A5681CC704B8"]
+			description: [
+				"일부 몹 때문에 어려움을 겪고 있나요? 마인 앤 슬래시 &e주입 전문 기술&r을 사용하여 자신을 강화할 수 있습니다. &e두루마리&r를 장비에 사용하면 &e무작위로 유익한 능력치를 부여&r할 수 있습니다. 이 능력치는 다음 주입 두루마리를 사용하여 강화할 수 있습니다."
+				""
+				"이 시스템을 사용하는 방법에 대한 자세한 정보는 &eM\\&S 전문 기술&r 챕터를 참조하세요!"
+			]
+			icon: "minecraft:paper"
+			id: "360C736C3975B377"
+			rewards: [
+				{
+					count: 4
+					id: "45BD213CEE617FC1"
+					item: {
+						Count: 1
+						id: "mmorpg:enchantment/family/armor/common"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "06864F652BEF71AF"
+					item: {
+						Count: 1
+						id: "mmorpg:enchantment/family/armor/uncommon"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "잃어버린 페이지"
+			tasks: [{
+				id: "1CF415B71E5C7734"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "바닐라 마법 부여 아님"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F6C1721D3A47BFC"]
+			description: [
+				"CTE2에서는 일부 바닐라 능력치가 마인 앤 슬래시와 호환됩니다!"
+				""
+				"바닐라 : &a마인 앤 슬래시&r"
+				"체력 : &b+0.5% 마법 보호막&r"
+				"갑옷 : &b+0.1% 장비 방어&r"
+				"방어 강도 : &b+0.1% 장비 방어&r"
+				"공격 피해 : &b+0.5% 총 피해&r"
+				"행운 : &b+3% 마법 발견&r"
+				""
+				"또한, 마법 부여 호환성이 포함됩니다. 마법 부여가 마인 앤 슬래시 능력치에 어떻게 영향을 미치는지 &b파란색 마법 부여 설명&r에서 확인할 수 있습니다."
+				""
+				"마법 부여 능력치 보너스는 최대 마법 부여 레벨 + 1과 동일하게 아이템당 상한이 정해집니다. 예를 들어, 보호는 +2% 갑옷을 제공하지만, 보호 VIII 아이템을 어떻게든 얻더라도 각 아이템은 +12%만 제공할 수 있습니다. 그러나 아이템 상한의 3배에 해당하는 전역 상한도 있습니다. 보호 VI 아이템 4개를 장착하면 +36% 갑옷만 받게 됩니다."
+			]
+			icon: "minecraft:paper"
+			id: "11DB53435CA1D59E"
+			rewards: [{
+				id: "050336E8ABF73D0D"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 2
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "잃어버린 페이지"
+			tasks: [{
+				id: "28690175BDCF5B11"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "능력치와 마법 부여 호환성"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34AE4F64C6DCC76B"]
+			description: [
+				"&e주입 작업대&r를 사용하면 &e최대 레벨 마법 부여를 조합&r할 수 있습니다. 이 작업대를 사용하여 아이템의 최대 레벨 마법 부여를 &e1&r 올릴 수 있습니다. 예를 들어, 이미 &e행운 III&r 마법 부여가 있는 곡괭이에 &e행운 III&r 책을 사용하여 강화하면 &e행운 IV&r 곡괭이가 됩니다."
+				""
+				"&o모든 마법 부여가 이 시스템을 지원하는 것은 아닙니다."
+			]
+			id: "6BA03D598BD6C2AD"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 5500"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "7B45C6A08AC082FC"
+				silent: 1
+				title: "5500 경험치"
+				type: "command"
+			}]
+			subtitle: "주입 작업대 제작"
+			tasks: [{
+				id: "50C250274B0E7598"
+				item: "illagerinvasion:imbuing_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["60A18C940B623CDA"]
+			description: ["&e아쿠아마린&r은 &e드라운드, 오징어, 가디언&r에게서 드롭되며 &e바다 거주자&r와 거래하는 데 사용할 수 있습니다! 바다 거주자는 &e바다의 심연&r에서 발견되는 인어입니다. 보통 &e수중 마을&r에 모여 있는 것을 볼 수 있습니다."]
+			id: "2A8673F98F14484D"
+			rewards: [
+				{
+					id: "2623FECED1EC26D4"
+					item: {
+						Count: 1
+						id: "seadwellers:depth_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 8000"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "0E5CD2D42DE0C09E"
+					silent: 1
+					title: "8000 경험치"
+					type: "command"
+				}
+			]
+			subtitle: "해저 모험"
+			tasks: [{
+				id: "59C725105DC08072"
+				item: "seadwellers:aquamarine"
+				type: "item"
+			}]
+			title: "바다 거주자"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2AFB98683E249B7D"]
+			description: [
+				"저항력은 생존에 중요한 역할을 합니다. 세 가지 원소가 있습니다: &c불&r, &b냉기&r, 그리고 &e번개&r. 또한 &7물리&r 및 &5혼돈&r 피해 유형도 있습니다."
+				""
+				"&6원소 피해&r는 이 시점부터 중요해지며, 대부분의 몹은 어떤 형태로든 원소 피해를 가집니다 (선천적이거나 접두사/접미사로부터). &6원소 저항&r을 유지하는 것이 &e매우 중요&r합니다! &5혼돈 저항&r 또한 중요하지만, 얻기가 더 어렵습니다."
+				""
+				"당신이 강해질수록 몹들도 강해집니다. &l&c25 레벨마다 저항이 영구적으로 25% 감소합니다!&r&r"
+				""
+				"&e레벨 1-24:&r &b+25% 원소/혼돈 저항&r"
+				"&e레벨 25-49:&r +0% 원소/혼돈 저항"
+				"&e레벨 50-74:&r &c-25% 원소/혼돈 저항&r"
+				"&e레벨 75+:&r &c-50% 원소/혼돈 저항&r"
+			]
+			icon: "minecraft:paper"
+			id: "45EA60D4FE6CFFAC"
+			rewards: [
+				{
+					id: "40026BEF380DF951"
+					item: "mmorpg:runes/und"
+					type: "item"
+				}
+				{
+					id: "2CA2591F8F90D243"
+					item: "mmorpg:gems/emerald/3"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 6000"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "1698C3C7A8EAD812"
+					silent: 1
+					title: "6000 경험치"
+					type: "command"
+				}
+			]
+			subtitle: "잃어버린 페이지"
+			tasks: [{
+				id: "3C2F08373F7EA7F7"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "저항력"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["360C736C3975B377"]
+			description: ["더 높은 희귀도의 주입 두루마리를 직접 제작해 보세요! 부츠 주입은 부츠 주입에서만 찾을 수 있는 특수 능력치를 얻을 수 있어 특히 강력합니다!"]
+			id: "713FE37BCF17FA27"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 7500"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "794C0235E593BB75"
+				silent: 1
+				title: "7500 경험치"
+				type: "command"
+			}]
+			subtitle: "M\\&S 전문 기술"
+			tasks: [{
+				id: "3909083DF06CD4CE"
+				item: {
+					Count: 1
+					id: "mmorpg:enchantment/family/armor/rare"
+					tag: {
+						tier: 1
+					}
+				}
+				match_nbt: 1
+				type: "item"
+			}]
+			title: "발 보호"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["775A13E1924D6C9A"]
+			description: [
+				"&e나가&r는 &e언더가든&r 전역에서 발견되는 비행 생물입니다."
+				""
+				"나가는 다음을 가집니다:"
+				"&b+75% 물리에서 혼돈 피해&r"
+				"&b+50% 독 확률&r"
+				"&b+50% 독 피해&r"
+			]
+			icon: "mowziesmobs:naga_fang"
+			id: "4F6C1721D3A47BFC"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 7500"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "1F0BB657CC303C1D"
+				silent: 1
+				title: "7500 경험치"
+				type: "command"
+			}]
+			subtitle: "언더가든"
+			tasks: [{
+				entity: "mowziesmobs:naga"
+				icon: "ftb_ph:naga_mowzie"
+				id: "6D0F50A483937869"
+				type: "kill"
+				value: 4
+			}]
+			title: "언더가든 아래에..?"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["775A13E1924D6C9A"]
+			description: [
+				"&e움부티, 선버드&r는 움부타나 산림에서 발견되는 거대한 중립 보스 몹입니다. 그는 아바부타나의 창조자 역할을 하는 헬리오메이서입니다."
+				""
+				"움부티는 &e심연의 관문&r에서 찾을 수 있습니다."
+				""
+				"움부타나 가면을 착용한 플레이어가 접근하면, 해당 플레이어는 움부티와 거래할 수 있습니다."
+				""
+				"&c움부티는 최소 레벨 35에서 스폰됩니다.&r"
+				""
+				"움부티는 다음을 가집니다:"
+				"&b+100% 물리에서 화염 피해&r"
+				"&b+50% 화상 확률&r"
+				"&b+50% 화염 저항&r"
+				"&b+50% 번개 저항&r"
+				"&a10% 확률로 운드 룬 드롭&r"
+			]
+			icon: "mowziesmobs:grant_suns_blessing"
+			id: "3242634F49140F5F"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 10000"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "57410F6F9D28BDAF"
+					silent: 1
+					title: "10000 경험치"
+					type: "command"
+				}
+				{
+					id: "74337A0D2AD5AE80"
+					item: "handcrafted:golden_thick_pot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "언더가든"
+			tasks: [{
+				advancement: "mowziesmobs:kill_umvuthi"
+				criterion: ""
+				icon: "ftb_ph:umvuthithesunbird"
+				id: "12AECD7958F2AB3C"
+				title: "처치: 1x 움부티, 선버드"
+				type: "advancement"
+			}]
+			title: "태양 족장"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F6C1721D3A47BFC"]
+			description: [
+				"&e페러스 워트넛&r은 팔을 도끼에 기댄 채 가만히 서 있습니다. 플레이어가 근처에 오거나 공격을 받으면, 자세를 취하고 공격을 시작합니다. 전투 중이 아닐 때는 워트넛이 빠르게 체력을 재생합니다."
+				""
+				"&c&l경고! 페러스 워트넛은 방패를 부술 수 있습니다. 주의해서 진행하세요!&r&r"
+				""
+				"언더가든 전역의 투기장에서 그들을 찾을 수 있습니다."
+				""
+				"&c페러스 워트넛은 최소 레벨 35에서 스폰됩니다.&r"
+				""
+				"페러스 워트넛은 다음을 가집니다:"
+				"&b+50% 출혈 확률&r"
+				"&b+50% 갑옷&r"
+				"&b+40% 원소 저항&r"
+				"&a운드 룬 드롭 확률 10%&r"
+			]
+			icon: {
+				Count: 1
+				id: "mowziesmobs:wrought_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3984F3F1D86ADE21"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 11000"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "62F5C57610CB66C2"
+					silent: 1
+					title: "11000 경험치"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "180E05BD7E85DF3F"
+					item: "mmorpg:material/mining/1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "언더가든"
+			tasks: [{
+				id: "74A2D2C74D0310B4"
+				item: {
+					Count: 1
+					id: "mowziesmobs:wrought_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "강철 같은 결의"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["59A29FC72CB20EB7"]
+			description: ["경험치 부스트가 필요하신가요? 전문 기술로 제작된 &e경험치 획득 해산물&r을 먹어보세요!"]
+			id: "0E47D45B630AF684"
+			rewards: [
+				{
+					id: "39D6AD6223534A8D"
+					item: "mmorpg:material/fishing/1"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 8500"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "4A1C2918189AC326"
+					silent: 1
+					title: "8500 경험치"
+					type: "command"
+				}
+			]
+			subtitle: "M\\&S 전문 기술"
+			tasks: [{
+				id: "16B63C712B862DD3"
+				item: {
+					Count: 1
+					id: "mmorpg:seafood/rare_exp"
+					tag: {
+						tier: 1
+					}
+				}
+				match_nbt: 1
+				type: "item"
+			}]
+			title: "배고픔"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["55F9F418C4CA3B3A"]
+			description: [
+				"오버월드로 돌아가 탐험하고 싶었지만, 레벨이 너무 낮아 즐거운 경험이 되지 못했나요? 특정 분기점 레벨에서 지난 차원들이 \"격노\"하여 레벨 범위가 증가하므로, 플레이어는 잠재적으로 돌아가 지난 차원들을 즐길 수 있습니다!"
+				""
+				"&c------------------------------&r"
+				""
+				"&e오버월드&r - 레벨 &b50-70&r"
+				"&e네더&r - 레벨 &b55-75&r"
+				"&e언더가든&r - 레벨 &b60-80&r"
+				"&e에버브라이트/에버던&r - 레벨 &b65-85&r"
+				"&e엔드&r - 레벨 &b70-90&r"
+				"&e아더사이드&r - 레벨 &b75-95&r"
+			]
+			icon: "minecraft:paper"
+			id: "45501F3F04639DB1"
+			rewards: [{
+				id: "231B1473E7401DAA"
+				item: "mmorpg:currency/enchant_reroll"
+				type: "item"
+			}]
+			subtitle: "잃어버린 페이지"
+			tasks: [{
+				id: "69D1987CC32E4D4C"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "역행 여행"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["775A13E1924D6C9A"]
+			description: [
+				"&e조각가 통비&r는 &e수도원&r에서 찾을 수 있는 강력한 지오맨서 몹입니다."
+				""
+				"조각가 통비는 &e심연의 관문&r에서 찾을 수 있습니다."
+				""
+				"&c조각가 통비는 최소 레벨 35에서 스폰됩니다.&r"
+				""
+				"조각가 통비는 다음을 가집니다:"
+				"&b물리 피해를 냉기 피해로 25% 전환&r"
+				"&b물리 피해를 혼돈 피해로 25% 전환&r"
+				"&b+40% 냉기 저항&r"
+				"&b+40% 혼돈 저항&r"
+				"&a운드 룬 드롭 확률 10%&r"
+			]
+			id: "5FEC85CF65C29ED6"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 10000"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "3E1B0097332F1A41"
+				silent: 1
+				title: "10000 경험치"
+				type: "command"
+			}]
+			subtitle: "언더가든"
+			tasks: [{
+				entity: "mowziesmobs:sculptor"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:sculptor_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "04AB6B426D446BA9"
+				type: "kill"
+				value: 1
+			}]
+			title: "조각가"
+			x: 4.5d
+			y: 1.5d
+		}
+	]
+	subtitle: ["레벨 25-40"]
+	title: "3막"
+}

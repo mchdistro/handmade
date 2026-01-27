@@ -1,0 +1,1733 @@
+{
+	default_hide_dependency_lines: 0
+	default_quest_shape: ""
+	filename: "epilogue"
+	group: "1E3C4B5FFAE48A39"
+	icon: "bosses_of_mass_destruction:blazing_eye"
+	id: "5A7D6B87115D3B91"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6149D163ABF06A15"]
+			description: [
+				"마침내... 당신의 다양한 모험 기록들이 당신을 &e아더사이드&r로 이끌었습니다."
+				""
+				"&e오버월드&r에서의 소박한 시작부터 &e네더&r와 &e언더다크&r를 통한 위험한 여정, &e에버브라이트와 에버던&r에서의 조우, 그리고 &e엔드&r에서의 아슬아슬한 순간들을 거쳐, 이제 당신은 악의 근원이라고 믿는 곳에 도달했습니다."
+				""
+				"마을에 있던 그 연구원은 이것을 무엇이라고 불렀던가? &b원시 타이탄&r들 사이의 \"다툼\"이라고? 연구원에 따르면, &e아더사이드&r에 있는 네 원소 생명체를 제거하는 것만으로도 충분할 것이라고 합니다.&r"
+				""
+				"최종 퀘스트를 시작할 준비를 하세요! 그들을 처치한 후에는 다시 돌아오지 않겠죠..?"
+			]
+			icon: "minecraft:paper"
+			id: "749D138B0222E744"
+			rewards: [{
+				id: "6222458583FAAFB2"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "마지막 잃어버린 페이지"
+			tasks: [{
+				id: "67B1853D30A8EE31"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "원시 악"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: [
+				"&e밤의 리치&r는 &e딥랜드&r에서 발견되는 &e리치 타워&r에 서식합니다. 이 구조물을 찾으려면 &e영혼의 별&r을 제작할 수 있습니다. &e영혼의 별&r을 사용하면 소모되며 가장 가까운 &e리치 타워&r의 방향을 알려줍니다!"
+				""
+				"&c밤의 리치는 최소 레벨 90, 신화 등급으로 스폰됩니다.&r"
+				""
+				"밤의 리치 특성:"
+				"&b+50% 물리 피해를 냉기 피해로 전환&r"
+				"&b+50% 빙결 확률&r"
+				"&b+25% 파쇄 확률&r"
+				"&b+50% 원소 저항&r"
+				"&a시드 룬 드롭 확률 15%&r"
+			]
+			id: "07EBFDA1B8808DAF"
+			rewards: [
+				{
+					id: "21701E1566499449"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "591C192B05D51076"
+					title: "전직자 (1/4)"
+					type: "custom"
+				}
+			]
+			size: 1.25d
+			subtitle: "냉기"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "bosses_of_mass_destruction:ancient_anima"
+				id: "0A39027CB9F70D32"
+				type: "kill"
+				value: 1
+			}]
+			title: "얼어붙은 탑"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: [
+				"&e네더 건틀릿&r은 &e만개한 동굴&r 생물 군계에 있는 &e건틀릿 경기장&r에서 찾을 수 있습니다."
+				""
+				"&c네더 건틀릿은 최소 레벨 90, 신화 등급으로 스폰됩니다.&r"
+				""
+				"네더 건틀릿 특성:"
+				"&b+50% 물리 피해를 화염 피해로 전환&r"
+				"&b+75% 화상 확률&r"
+				"&b+40% 회피&r"
+				"&b+75% 화염 저항&r"
+				"&a시드 룬 드롭 확률 15%&r"
+			]
+			id: "005E75571665043C"
+			rewards: [
+				{
+					id: "100B3BFFAADCD105"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "656169856B5F549C"
+					title: "전직자 (1/4)"
+					type: "custom"
+				}
+			]
+			size: 1.255d
+			subtitle: "불"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: "bosses_of_mass_destruction:blazing_eye"
+				id: "67B908871A5282C2"
+				type: "kill"
+				value: 1
+			}]
+			title: "열렬한 심연"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: [
+				"&e공허 꽃&r은 &e아더사이드&r의 &e메아리 숲&r에서 찾을 수 있습니다. &e공허 백합&r을 사용하여 이 &e공허 꽃&r의 방향을 알 수 있습니다."
+				""
+				"&c공허 꽃은 최소 레벨 90, 신화 등급으로 스폰됩니다.&r"
+				""
+				"공허 꽃 능력치:"
+				"&b+100% 물리 피해를 혼돈 피해로 전환&r"
+				"&b+33% 독 확률&r"
+				"&b+초당 체력 재생 1%&r"
+				"&b+75% 혼돈 저항&r"
+				"&c-25% 화염 저항&r"
+				"&a시드 룬 드롭 확률 15%&r"
+			]
+			id: "56B2B51011037E61"
+			rewards: [
+				{
+					id: "15F97D81BF787C79"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "78E77C83F56373C6"
+					title: "전직자 (1/4)"
+					type: "custom"
+				}
+			]
+			size: 1.25d
+			subtitle: "혼돈"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: "bosses_of_mass_destruction:void_lily"
+				id: "507D5A8FDD10ECE3"
+				type: "kill"
+				value: 1
+			}]
+			title: "넓게 펼쳐진 포도밭"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: [
+				"&e옵시딜리스&r는 &e흐린 기둥&r에서 발견되는 &e옵시딜리스 경기장&r에 서식합니다."
+				""
+				"&c옵시딜리스는 최소 레벨 90, 신화 등급으로 스폰됩니다.&r"
+				""
+				"옵시딜리스 능력치:"
+				"&b+100% 물리 피해를 벼락 피해로 전환&r"
+				"&b+50% 감전 확률&r"
+				"&b+25% 충격 확률&r"
+				"&b+100% 방어력&r"
+				"&b+50% 번개 저항&r"
+				"&a시드 룬 드롭 확률 15%&r"
+			]
+			id: "6B2C722AC00A07C0"
+			rewards: [
+				{
+					id: "631C758E74857E09"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "4253CD136D9F9A5E"
+					title: "전직자 (1/4)"
+					type: "custom"
+				}
+			]
+			size: 1.25d
+			subtitle: "번개"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: "bosses_of_mass_destruction:obsidian_heart"
+				id: "32DF2007C57A60F9"
+				type: "kill"
+				value: 1
+			}]
+			title: "갈바닉 요새"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: ["도착하기도 전에 누군가 구조물을 클리어했나요? &e유황 꿀&r을 &b원시 타이탄의 구조물&r에 사용하면 초기화할 수 있습니다!"]
+			id: "71F71326D81053D9"
+			rewards: [{
+				id: "1E5C69E4282912F2"
+				item: "bosses_of_mass_destruction:brimstone_nectar"
+				type: "item"
+			}]
+			subtitle: "보스 구조물 초기화"
+			tasks: [{
+				id: "6BA69F80620210D3"
+				item: "bosses_of_mass_destruction:brimstone_nectar"
+				type: "item"
+			}]
+			title: "그들이 돌아왔습니다!"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: [
+				"지도를 계속 탐험하다 보면 또 다른 &e리치&r의 메아리가 들려옵니다... &e황혼의 숲&r에서 찾을 수 있는 리치입니다. 새로운 차원문이 나타나고, 그 안으로 발을 들여놓으면 완전히 새로운 차원을 발견하게 됩니다."
+				""
+				"황혼의 숲에 진입하려면, &e아더사이드&r의 풀이 무성한 지역에 식물이나 잎으로 둘러싸인 2x2 크기의 얕은 물 웅덩이를 만들어야 합니다. 풀을 가져가야 할 수도 있습니다. 그런 다음 다이아몬드를 던져 차원문이 형성되는 것을 지켜보세요."
+				""
+				"&l&c황혼의 숲 몹은 최소 레벨 90에서 스폰됩니다!&r&r"
+			]
+			id: "77E6AE329E337151"
+			rewards: [
+				{
+					count: 3
+					id: "0D4BA9A55B97BA9E"
+					item: "mmorpg:currency/affix_common_reroll"
+					type: "item"
+				}
+				{
+					id: "1488B29B5798BA1F"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "에필로그"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				id: "51F52DF9B052A4B9"
+				title: "황혼의 숲 방문"
+				type: "dimension"
+			}]
+			title: "미지의 저편"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77E6AE329E337151"]
+			description: [
+				"&e황혼의 숲&r 곳곳의 작은 공터에 자리 잡은 &e헤지 미로&r는 이 차원의 새로운 탐험가들에게 흥미로운 광경입니다. 황폐한 입석, 기념물, 그리고 풍경을 수놓는 다른 랜드마크들처럼, 이 미로들이 왜 건축되었는지에 대한 끝없는 추측이 있었지만, 현재까지 답은 발견되지 않았습니다."
+				""
+				"울타리 블록은 일반적인 미로의 벽을 형성하며, 빽빽하고 가시 돋친 잎사귀는 모험가들이 구불구불한 복도를 단순히 베고 지나가는 것을 막습니다. 반딧불이와 잭오랜턴이 흔히 발견되어, 다른 곳의 어두운 빛과 대조적으로 미로를 밝히는 데 도움을 줍니다. 캐노피 나무는 때때로 미로에서 발견되어 울타리 벽에 일종의 높은 기둥을 형성하기도 합니다."
+				""
+				"헤지 미로에 공통적으로 나타나는 또 다른 주요 지물은 미로 내의 작은 개방형 \"방\"입니다. 이 방들에는 항상 마법 생성기가 있으며, 1~2개의 상자와 더 많은 잭오랜턴이 포함되어 있습니다. 일반적으로 &e적대적 늑대, 무리 거미 또는 헤지 거미&r를 생성하지만, 다른 곳에서 발견되는 생성기와 달리 밝은 빛이 그들의 작동을 방해하지 않습니다."
+			]
+			id: "54B478D596CE17D6"
+			rewards: [
+				{
+					count: 2
+					id: "2D561080DD23BA36"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "3C2A412FD724071E"
+					item: "mmorpg:currency/upgrade_common_affix"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "에필로그"
+			tasks: [{
+				icon: "twilightforest:hedge"
+				id: "01A930C680639445"
+				structure: "twilightforest:hedge_maze"
+				title: "울타리 미로 찾기"
+				type: "structure"
+			}]
+			title: "자연 미로"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54B478D596CE17D6"]
+			description: ["&e적대적 늑대&r는 &e울타리 미로&r에서만 발견되는 이상한 늑대입니다. 전설에 따르면 이 늑대들은 인간이 항상 자신들의 보물을 훔쳐가기 때문에 인간을 싫어한다고 합니다. 안타깝게도 이 늑대들은 길들일 수 없습니다."]
+			icon: "doggytalents:dog_plushie_toy_item"
+			id: "2BE20402219A9B78"
+			rewards: [
+				{
+					count: 3
+					id: "5B3AB3D09BD7747A"
+					item: "mmorpg:material/meat/4"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2D1C81F8C6BAB0D7"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "황혼의 숲"
+			tasks: [{
+				entity: "twilightforest:hostile_wolf"
+				icon: "ftb_ph:hostile_wolf"
+				id: "4C5ACBBF6C6B901D"
+				type: "kill"
+				value: 10
+			}]
+			title: "억제되지 않은 공격성"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["54B478D596CE17D6"]
+			description: ["&e헤지 거미&r는 독특한 초록색을 제외하고는 일반 오버월드 거미와 거의 동일합니다. 이 종과 오버월드 개체군 간의 유일한 차이점은 밝게 빛나는 &e헤지 미로&r에서 스폰될 수 있다는 것입니다. 전설에 따르면 이 거미들은 탐험가들로부터 자신들의 보물을 보호할 만큼 용감하다고 합니다."]
+			icon: "chipped:stringy_cobweb"
+			id: "039BE2259D553B13"
+			rewards: [
+				{
+					count: 3
+					id: "22076FAC6370473E"
+					item: "mmorpg:material/farming/4"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0D037E40BE697582"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "황혼의 숲"
+			tasks: [{
+				entity: "twilightforest:hedge_spider"
+				icon: "ftb_ph:hedge_spider"
+				id: "793117DC4193D9C8"
+				type: "kill"
+				value: 10
+			}]
+			title: "갇힘"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["77E6AE329E337151"]
+			description: [
+				"&e황혼의 숲&r의 평평한 지형에서 솟아오른 &e속이 빈 언덕&r은 종유석과 석순으로 가득 찬 거대한 속이 빈 동굴을 숨기고 있는 눈에 띄는 흙 둔덕입니다. 이 중 일부는 귀중한 광석과 광물로 이루어져 있습니다. 탐험가들은 이 거대한 돔형 언덕을 세 가지 뚜렷한 크기로 발견했으며, &e마법 지도&r에 감지되어 적절한 크기 아이콘으로 표시될 만큼 충분히 큽니다. 일부 언덕에는 다른 동굴과 협곡이 파고드는 것이 발견되었으므로, 땅 아래를 땅굴 파기하는 모험가들은 탐험 중에 이 언덕 중 하나 안에 있는 자신을 발견할 수도 있습니다."
+				""
+				"작은 언덕은 약 30미터 너비이며 일반적으로 석탄, 철과 같은 기본적인 광물을 포함하고, 가끔 레드스톤과 발광석도 발견됩니다. 탐험가들은 음식, 화살, 사다리, 횃불과 같은 일반적인 도구와 아이템이 들어있는 보물 상자 몇 개를 찾을 수 있을 것으로 예상할 수 있지만, 드물게는 다이아몬드와 &e스틸리프&r와 함께 귀중한 광석 자석이 발견될 수도 있습니다. &e무리 거미, 레드캡 고블린, 코볼드&r가 이 언덕에 서식하며, 오버월드에 흔한 다른 생명체들도 있습니다."
+			]
+			id: "75103126CFA64857"
+			rewards: [
+				{
+					count: 2
+					id: "1C323A27F2B1118B"
+					item: "mmorpg:material/mining/4"
+					type: "item"
+				}
+				{
+					id: "111D5F6783D074B7"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+			]
+			subtitle: "황혼의 숲"
+			tasks: [{
+				icon: "twilightforest:hollow_twilight_oak_log"
+				id: "54592C0A736AE877"
+				structure: "twilightforest:small_hollow_hill"
+				title: "작은 속이 빈 언덕 찾기"
+				type: "structure"
+			}]
+			title: "작은 둔덕"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["54B478D596CE17D6"]
+			description: [
+				"&e나가 안뜰&r은 다양한 형태의 돌과 나가석으로 지어진 거대한 벽으로 둘러싸인 구조물입니다. 나가 안뜰 내부에는 황혼 참나무 잎 울타리, 윤나는 안산암과 에칭 나가석 기둥, 그리고 추가적인 장식 지물들이 있습니다. 구조물 중앙에는 &e나가&r를 포함하는 보스 생성기가 있습니다."
+				""
+				"나가를 처치하면 진행의 다음 구조물인 &e리치 타워&r가 잠금 해제되며, 해당 구조물의 보호가 제거됩니다."
+				""
+				"&c나가는 신화 등급으로 스폰됩니다.&r"
+				""
+				"나가는 다음을 가집니다:"
+				"&b+100% 물리 피해를 혼돈 피해로 전환&r"
+				"&b+40% 독 확률&r"
+				"&b+30% 혼돈 관통&r"
+				"&b+50% 냉기 저항&r"
+				"&b+50% 혼돈 저항&r"
+			]
+			id: "09AFF8CC33BD244B"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Entry #12\\n\\nLast afternoon, Captain Cornelia went to the seabed in search of any additional resources. There are rumors among the crew that the real subject of her expedition is something else.\"}"
+								"{\"text\":\"More than a day has passed since the captain's dive. She was wearing the only diving suit we had, so we couldn't help her in any way. Worst of all, she had the master key with her. As our hopes of rescue dwindle, the threat of rebellion grows.\"}"
+							]
+							resolved: 1
+							title: "약탈자 선박 항해일지"
+						}
+					}
+					id: "23AD45244978A5A3"
+					title: "스킬 포인트 2개"
+					type: "custom"
+				}
+				{
+					id: "37776D6144DBDA7D"
+					item: "mmorpg:potions/full_reset_talent"
+					type: "item"
+				}
+				{
+					id: "529776CB2E015F07"
+					item: "mmorpg:potions/full_reset_spell"
+					type: "item"
+				}
+				{
+					id: "1F4F10A8BE8F9410"
+					item: "mmorpg:potions/full_reset_passive"
+					type: "item"
+				}
+				{
+					id: "59E013EF3A97101E"
+					item: "mmorpg:potions/full_reset_ascendancy"
+					type: "item"
+				}
+				{
+					id: "3CEAB295D78E83AA"
+					item: "mmorpg:potions/full_reset_stat"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5D51EB762212D5EC"
+					item: "mmorpg:currency/socket_adder"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "에필로그"
+			tasks: [{
+				consume_items: 1
+				id: "5408016296E2B4E9"
+				item: "twilightforest:naga_trophy"
+				type: "item"
+			}]
+			title: "오직 뱀처럼"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09AFF8CC33BD244B"]
+			description: [
+				"&e리치 타워&r는 하나의 중앙 첨탑으로 이루어져 있으며, 여기서 많은 작은 탑과 방들이 무질서하게 옆으로 튀어나와 다음 탑으로 직접 연결되거나 다리를 통해 연결됩니다."
+				""
+				"수많은 적대적 몹이 리치 타워에서 일반적으로 또는 생성기를 통해 스폰됩니다. 일반적인 바닐라 몹들도 자연적으로 스폰됩니다. &e죽음의 서&r 또한 리치 타워에서 스폰되며, 이 몹이 스폰되는 유일한 구조물입니다."
+				""
+				"리치 타워를 잠금 해제하려면 &e나가&r를 처치해야 합니다."
+				""
+				"리치 타워는 또한 다른 세 가지 생물 군계와 구조물을 잠금 해제하는 데 핵심적인 역할을 합니다:"
+				""
+				"- &e황혼의 늪&r 주변의 모기 떼를 흩어지게 하여 &e미궁&r으로의 탐험을 허용합니다."
+				"- &e어두운 숲&r을 덮고 있는 어둠을 걷어내어 &e고블린 기사 요새&r로의 탐험을 허용합니다."
+				"- &e눈 덮인 숲&r 위의 눈보라를 걷어내어 &e예티 동굴&r로의 진입을 허용합니다."
+			]
+			id: "05E813C595DBC7AB"
+			rewards: [
+				{
+					count: 5
+					id: "550F848D0AFF9FDF"
+					item: "mmorpg:material/mining/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7AC5E8E78128C2BA"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "에필로그"
+			tasks: [{
+				icon: "twilightforest:lich_tower_miniature_structure"
+				id: "41B2B655D8ABB2AF"
+				structure: "twilightforest:lich_tower"
+				title: "리치 타워 발견"
+				type: "structure"
+			}]
+			title: "힘의 탑"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05E813C595DBC7AB"]
+			description: [
+				"&e죽음의 서&r는 리치 타워의 계단과 라이브러리에 떠다니는 위험한 책입니다. 이들은 적중한 생명체를 잠시 둔화시키는 투사체를 발사합니다. 죽음의 서는 적중될 때 가끔 쪽을 상실합니다."
+				""
+				"죽음의 서는 사망 시 &e마법 지도 초점&r을 드롭할 수도 있습니다."
+				""
+				"죽음의 서는 다음을 가집니다:"
+				"&b+50% 물리 피해를 벼락 피해로 전환&r"
+				"&b+50% 물리 피해를 혼돈 피해로 전환&r"
+			]
+			icon: "mca:book_death"
+			id: "7CEF2BA760AB0B2E"
+			rewards: [
+				{
+					count: 2
+					id: "14CD63892C5E3F41"
+					item: "mmorpg:currency/socket_adder"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3E5F010430704713"
+					item: "mmorpg:currency/affix_tier_up_down"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5CB516DD49306C90"
+					item: "mmorpg:currency/enchant_reroll"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "792CBFC517AE25A6"
+					item: "mmorpg:currency/unique_reroll"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "30AE5F37C62C7EB7"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "황혼의 숲"
+			tasks: [{
+				entity: "twilightforest:death_tome"
+				icon: "ftb_ph:death_tome"
+				id: "154CA20889C9EDB5"
+				type: "kill"
+				value: 10
+			}]
+			title: "마법 부여 도서관"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["05E813C595DBC7AB"]
+			description: [
+				"&e황혼의 리치&r는 &e리치&r라고도 불리며, &e리치 타워&r 꼭대기에 거주합니다. 보라색 망토와 커다란 황금 왕관을 쓴 키 큰 인간형 스켈레톤의 모습을 하고 있습니다. 자신을 어떤 피해로부터 보호하기 위해 방패 벽으로 둘러싸여 있지만, 어쩌면 부서질 수도 있습니다."
+				""
+				"모험가들은 적절한 타이밍의 휘두르기로 투사체를 튕겨낼 수 있다고 보고합니다. 플레이어가 리치의 투사체를 다시 반사할 때마다 방패 중 하나가 제거됩니다."
+				""
+				"&c리치는 신화 등급으로 스폰됩니다.&r"
+				""
+				"리치는 다음을 가집니다:"
+				"&b+100% 물리 피해를 벼락 피해로 전환&r"
+				"&b+50% 감전 확률&r"
+				"&b+25% 충격 확률&r"
+				"&b+25% 번개 관통&r"
+				"&b+75% 원소 저항&r"
+				"&b+50% 혼돈 저항&r"
+				""
+				"&6이 퀘스트는 캠페인 상점에서 새로운 상점을 잠금 해제합니다."
+			]
+			id: "1F3C2718AE550D5C"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Entry #12\\n\\nLast afternoon, Captain Cornelia went to the seabed in search of any additional resources. There are rumors among the crew that the real subject of her expedition is something else.\"}"
+								"{\"text\":\"More than a day has passed since the captain's dive. She was wearing the only diving suit we had, so we couldn't help her in any way. Worst of all, she had the master key with her. As our hopes of rescue dwindle, the threat of rebellion grows.\"}"
+							]
+							resolved: 1
+							title: "약탈자 선박 항해일지"
+						}
+					}
+					id: "78E598DDB8CEEE03"
+					title: "스킬 포인트 2개"
+					type: "custom"
+				}
+				{
+					id: "15E955610563E40C"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					id: "41295C50FCBC7A5D"
+					item: "mmorpg:gems/topaz/6"
+					type: "item"
+				}
+				{
+					id: "44C98A1EC1B45829"
+					item: "simplehats:toy_story_alien"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "에필로그"
+			tasks: [{
+				consume_items: 1
+				id: "5156617EB99C3B38"
+				item: "twilightforest:lich_trophy"
+				type: "item"
+			}]
+			title: "마스터 마스터마인드"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F3C2718AE550D5C"]
+			description: [
+				"&e속이 빈 언덕&r은 채굴할 광석과 노획할 보물의 훌륭한 원천이며, 더 가치 있는 노획물은 더 큰 언덕에 포함되어 있습니다. 발견되는 보물은 어둠 속에 풍부한 위험한 생명체에 의해 지켜지는 경향이 있으며, 이는 부주의한 탐험가에게 쉽게 파멸을 초래할 수 있습니다. 불행히도, 언덕이 클수록 더 많은 생명체가 살고 있는 것으로 보입니다. 탐험가들은 동굴 탐험의 기본 규칙을 기억하고, 속이 빈 언덕으로 직접 땅굴을 파고 들어가지 않아야 합니다. 대신, 측면에서 접근하고 다양한 생성기가 곳곳에 있으므로 내부를 밝힐 충분한 광원을 가져와야 합니다."
+				""
+				"중간 언덕은 지름 약 60미터, 중심부 높이 25미터 이상입니다. 내부는 더 넓어지지만, 이는 더 많고 치명적인 생명체를 끌어들였습니다. 이곳에서는 금과 청금석을 찾을 수 있으며, 드물지만 다이아몬드와 에메랄드도 볼 수 있습니다. 광석의 가치가 증가함에 따라 보물도 증가합니다. 중간 언덕에서는 일반적으로 &e철나무 주괴와 변환 가루&r를 포함하는 최대 6개의 상자를 찾을 수 있으며, 문웜 여왕과 공작 깃털 부채와 같은 고유 유물도 함께 발견됩니다. 작은 언덕에서 볼 수 있는 생명체 외에도 &e불 딱정벌레와 레드캡 사퍼&r가 중간 언덕에 서식합니다."
+			]
+			id: "2820ABD72802B6F2"
+			rewards: [
+				{
+					count: 4
+					id: "4B00DACD9470CF87"
+					item: "mmorpg:material/mining/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4A53AC07D15CF95F"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+			]
+			subtitle: "황혼의 숲"
+			tasks: [{
+				icon: "twilightforest:hollow_time_log"
+				id: "583B2BF97EA1E832"
+				structure: "twilightforest:medium_hollow_hill"
+				type: "structure"
+			}]
+			title: "중간 둔덕"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1F3C2718AE550D5C"]
+			description: ["&e미궁&r은 진행과 관련된 주요 랜드마크입니다. &e황혼의 늪&r에 평범한 작은 언덕처럼 보이지만, 펼쳐진 미로 통로의 지하 구조물 입구로 이어집니다. 미궁의 깊은 층에는 울타리로 둘러싸인 방에 &e미노슈룸&r이 있는 보스 생성기가 있습니다."]
+			id: "1C58F38B9890D6BA"
+			rewards: [
+				{
+					count: 2
+					id: "68678804DB1B0A4A"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "6B43C3B5A633A10F"
+					item: "mmorpg:gems/opal/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "에필로그"
+			tasks: [{
+				icon: "twilightforest:maze_map"
+				id: "3E00882F2A14F4C6"
+				structure: "twilightforest:labyrinth"
+				title: "미궁 발견"
+				type: "structure"
+			}]
+			title: "마법 미로"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C58F38B9890D6BA"]
+			description: [
+				"&e미노슈룸&r은 &e미궁&r 바닥의 감옥에 숨어 있는 미니 보스입니다. &e미노슈룸&r은 무시룸과 미노타우르스의 기이한 혼종입니다."
+				""
+				"미노슈룸은 다음을 가집니다:"
+				"&b+10 방어구 관통 (비례)&r"
+				"&b+50% 정확도&r"
+				"&b+30% 물리 저항&r"
+				"&b+20% 체력 재생&r"
+			]
+			icon: "twilightforest:minoshroom_trophy"
+			id: "78EB450B57F9B7E7"
+			rewards: [
+				{
+					count: 3
+					id: "19BA04335CBBAEF0"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+				{
+					id: "4D369FC4FA80DC2F"
+					item: "mmorpg:currency/upgrade_common_affix"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "02C4B1A5FC2F4BF9"
+					item: "mmorpg:currency/level_up_orb"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "에필로그"
+			tasks: [{
+				consume_items: 1
+				id: "5BBA7A672D914F6C"
+				item: "twilightforest:minoshroom_trophy"
+				type: "item"
+			}]
+			title: "음메에에에"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C58F38B9890D6BA"]
+			description: [
+				"&e미궁 슬라임&r은 오버월드 슬라임의 &e황혼의 숲&r 변형입니다. 이 슬라임은 회색을 띠며 &e미궁&r에서 스폰됩니다."
+				""
+				"미궁 슬라임은 다음을 가집니다:"
+				"&b+25% 방어도&r"
+				"&b+25% 물리 저항&r"
+				"&b+50% 번개 저항&r"
+			]
+			id: "26D545606AA14974"
+			rewards: [
+				{
+					id: "3C9B5B2C5838A9E2"
+					item: "mmorpg:stone/3"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1D7B27AF6930907B"
+					item: "mmorpg:currency/orb_of_quality"
+					type: "item"
+				}
+			]
+			subtitle: "황혼의 숲"
+			tasks: [{
+				entity: "twilightforest:maze_slime"
+				icon: "twilightforest:mazestone"
+				id: "5F809DB4B920DBD2"
+				type: "kill"
+				value: 10
+			}]
+			title: "콘크리트... 슬라임?"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["78EB450B57F9B7E7"]
+			description: ["커다란 &e속 빈 언덕&r을 닮은 &e히드라 둥지&r는 평평한 늪지대에서 솟아나 &e불의 늪&r 중심에 있는 여러 머리 히드라의 자연적인 은신처를 제공합니다. &e히드라&r는 언덕 자체를 속을 비워 자신에게 쉼터를 제공하고, 도전하려는 모든 이에게 정면으로 접근하도록 강요하는 것으로 보입니다. 히드라를 마주하는 지역은 식물이나 엄폐물이 없어 숨을 곳이 없습니다."]
+			id: "1A2A1F3575A8159B"
+			rewards: [
+				{
+					count: 2
+					id: "4E1C822C955889FC"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "1829DFB6A35F0F6B"
+					item: "mmorpg:gems/topaz/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "에필로그"
+			tasks: [{
+				icon: "twilightforest:hydra_chop"
+				id: "10F427A4198C5961"
+				structure: "twilightforest:hydra_lair"
+				title: "히드라 둥지 찾기"
+				type: "structure"
+			}]
+			title: "둥지"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A2A1F3575A8159B"]
+			description: [
+				"&e히드라&r는 &e불의 늪&r에 있는 독특하고 금 간 &e히드라 둥지&r에서 찾을 수 있습니다. 히드라는 넓고 비늘 덮인 몸을 지탱하는 두 개의 뭉툭한 다리를 가진 거대한 생명체로 나타납니다. 여러 개의 뱀 같은 목은 엔더 드래곤과 비슷하게 생긴 머리로 끝납니다. 이 생명체 전체는 청록색과 암청색 비늘로 덮여 있습니다."
+				""
+				"&c히드라는 신화 등급으로 스폰됩니다.&r"
+				""
+				"히드라 능력치:"
+				"&b+100% 물리 피해를 화염 피해로 전환&r"
+				"&b+60% 화상 확률&r"
+				"&b+40% 화염 관통&r"
+				"&b+25% 피해 감소&r"
+				"&b+35% 번개 저항&r"
+			]
+			id: "18C4B8D73A50CFAC"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Entry #12\\n\\nLast afternoon, Captain Cornelia went to the seabed in search of any additional resources. There are rumors among the crew that the real subject of her expedition is something else.\"}"
+								"{\"text\":\"More than a day has passed since the captain's dive. She was wearing the only diving suit we had, so we couldn't help her in any way. Worst of all, she had the master key with her. As our hopes of rescue dwindle, the threat of rebellion grows.\"}"
+							]
+							resolved: 1
+							title: "약탈자 선박 항해일지"
+						}
+					}
+					id: "43D1F2E8681A6250"
+					title: "스킬 포인트 2개"
+					type: "custom"
+				}
+				{
+					id: "06CDDFAA60B2313C"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					id: "442655A6C145A711"
+					item: "mmorpg:gems/emerald/6"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "에필로그"
+			tasks: [{
+				consume_items: 1
+				id: "1A83F081741ED7A4"
+				item: "twilightforest:hydra_trophy"
+				type: "item"
+			}]
+			title: "다두 야수"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78EB450B57F9B7E7"]
+			description: [
+				"&e미프 스트로가노프&r는 매우 든든하고 강력하여, 어떤 모험가든 한 그릇만 먹어도 가장 뜨거운 생물 군계까지 탐험할 수 있는 기력을 제공합니다."
+				""
+				"&e미프 스트로가노프&r를 섭취하면 플레이어는 &e불의 늪&r과 &e히드라&r 모두에 접근할 수 있습니다."
+			]
+			id: "7187E491F0DB8671"
+			rewards: [
+				{
+					count: 2
+					id: "5C46D448EFC87623"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4E328E95911DAEA1"
+					item: "mmorpg:currency/affix_tier_up_down"
+					type: "item"
+				}
+				{
+					id: "58D2C2F14A786F55"
+					item: "mmorpg:material/farming/4"
+					type: "item"
+				}
+				{
+					id: "7275AB1F3B39A5DF"
+					item: "mmorpg:material/meat/4"
+					type: "item"
+				}
+			]
+			subtitle: "황혼의 숲"
+			tasks: [{
+				id: "3D81F5F7AA614C5D"
+				item: "twilightforest:meef_stroganoff"
+				type: "item"
+			}]
+			title: "든든한 식사"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1F3C2718AE550D5C"]
+			description: [
+				"&e어두운 숲&r은 숲 바닥으로 들어오는 거의 모든 빛을 차단하는 두꺼운 숲의 천장으로 빽빽하게 식물이 우거진 생물 군계입니다. 이 생물 군계에서는 어둠나무가 가장 흔하게 자라며, 키 큰 풀과 꽃 같은 작은 식물들이 풀을 덮고 있습니다. 가끔 머쉬글룸이 이 지역에서 자라 희미한 광원을 제공합니다."
+				""
+				"어둠에도 불구하고 좀비나 스켈레톤 같은 몬스터는 지표면에 스폰되지 않습니다. 하지만 &e안개 늑대&r와 &e킹 스파이더&r 같은 다른 몬스터가 스폰되어 어두운 숲에서의 이동을 더 위험하게 만듭니다."
+			]
+			id: "7E14A7756FB4B78B"
+			rewards: [
+				{
+					id: "7B40532F3F039222"
+					item: "mmorpg:material/farming/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "666D99C820AFA04B"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "53505C138F5F5996"
+					item: "mmorpg:gems/tourmaline/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "에필로그"
+			tasks: [{
+				biome: "twilightforest:dark_forest"
+				icon: "twilightforest:canopy_sapling"
+				id: "3B00F80F4C4025E2"
+				title: "어두운 숲 방문하기"
+				type: "biome"
+			}]
+			title: "어둠에 눈이 멀다"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7E14A7756FB4B78B"]
+			description: [
+				"&e안개 늑대&r는 &e어두운 숲&r에서 스폰되는 신비로운 몬스터입니다. 이 몬스터들은 숲의 어둠 속에서 희생자를 기다립니다. 어둠 속에서는 투명해지며, 밝은 빛이 있는 지역에서만 고체 형태를 취합니다. 어둠 속에서 플레이어를 공격하면 플레이어를 실명시킬 수 있지만, 이 상태 이상은 광원 근처에서는 발생하지 않는 것 같습니다."
+				""
+				"안개 늑대 능력치:"
+				"&b+50% 물리 피해를 혼돈 피해로 전환&r"
+				"&b+30% 회피율&r"
+				"&b+30% 주문 회피율&r"
+				"&b+25% 원소 저항&r"
+			]
+			icon: "outer_end:ender_roots"
+			id: "700E3C92E9C27B04"
+			rewards: [
+				{
+					count: 2
+					id: "63E33F53FF3193C1"
+					item: "mmorpg:gems/azurite/5"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "58F31A094952CF4B"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "황혼의 숲"
+			tasks: [{
+				entity: "twilightforest:mist_wolf"
+				icon: "ftb_ph:mist_wolf"
+				id: "493B46FB942D8A16"
+				type: "kill"
+				value: 10
+			}]
+			title: "안개 속에 숨겨진"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E14A7756FB4B78B"]
+			description: [
+				"&e킹 스파이더&r는 &e어두운 숲&r에서만 발견되며, 그들의 첫 징후는 보통 어둠 속에서 빛나는 붉은 눈입니다. 그들은 일반 거미의 두 배 크기, 속도, 강인함을 가지고 있으며, 등에 &e스켈레톤 드루이드&r를 태우고 있어 상대하기에 강력한 적입니다."
+				""
+				"킹 스파이더 능력치:"
+				"&b+100% 물리 피해를 혼돈 피해로 전환&r"
+				"&b+30% 혼돈 관통&r"
+			]
+			icon: "born_in_chaos_v1:spider_mandible"
+			id: "67CCD11ABBB75DF3"
+			rewards: [
+				{
+					id: "2404378E98FDF0DD"
+					item: "mmorpg:gems/emerald/5"
+					type: "item"
+				}
+				{
+					id: "499095977A582D7B"
+					item: "mmorpg:gems/garnet/5"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "547FDEA4C9F24547"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "황혼의 숲"
+			tasks: [{
+				entity: "twilightforest:king_spider"
+				icon: "ftb_ph:king_spider"
+				id: "315594F7D6D8B953"
+				type: "kill"
+				value: 5
+			}]
+			title: "공포를 유발하는 거미"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E14A7756FB4B78B"]
+			description: ["고대하고 황량한 &e고블린 기사 요새&r는 &e어두운 숲&r의 비정상적으로 빽빽한 숲의 천장 사이에 자리 잡고 있습니다. 부서진 벽과 금 간 벽돌 외에는 지상에 거의 남아있지 않아 어둠 속에서 발견하기 어려울 수 있습니다. 하지만 지표면 아래에는 방과 복도, 무덤으로 이루어진 거대한 복합체가 있습니다."]
+			id: "11768894E8B672B5"
+			rewards: [
+				{
+					count: 2
+					id: "5F891BF39E8515BC"
+					item: "mmorpg:material/mining/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1A8290CD9BB7C782"
+					item: "mmorpg:material/farming/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4972BFCA3275C5DA"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "에필로그"
+			tasks: [{
+				icon: "twilightforest:stronghold_shield"
+				id: "54FDAF28D194B2C1"
+				structure: "twilightforest:knight_stronghold"
+				title: "고블린 기사 요새 찾기"
+				type: "structure"
+			}]
+			title: "고블린 찬탈자"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["11768894E8B672B5"]
+			description: [
+				"&e기사 팬텀&r은 &e고블린 기사 요새&r의 벽돌로 덮인 방에 거주합니다. 그들은 유령 같은 팬텀 갑옷 조각으로 나타나며, 공격할 때 으스스하고 유령 같은 모습을 보입니다."
+				""
+				"&e기사 팬텀&r 6마리를 처치하면 어두운 숲 단계가 진행되어 &e어두운 숲 중심부&r의 보호막이 제거되고, 이제 &e우르-가스트&r와 그 &e어둠의 탑&r에 접근할 수 있게 됩니다."
+				""
+				"기사 팬텀 능력치:"
+				"&b+100% 물리 피해를 벼락 피해로 전환&r"
+				"&b+25% 치명타&r"
+				"&b+50% 회피율&r"
+				"&b+50% 주문 회피율&r"
+			]
+			id: "42922690F74AC7FE"
+			rewards: [
+				{
+					count: 3
+					id: "5D5B35924A7177B3"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5E60295E386C4F31"
+					item: "mmorpg:currency/affix_tier_up_down"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "501346F0CBF0B449"
+					item: "mmorpg:gems/opal/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "에필로그"
+			tasks: [{
+				consume_items: 1
+				id: "70290AE8EF83F6A1"
+				item: "twilightforest:knight_phantom_trophy"
+				type: "item"
+			}]
+			title: "저주받은 기사"
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["42922690F74AC7FE"]
+			description: [
+				"&e어두운 숲&r 위로 불길하게 솟아오른 경외심을 불러일으키는 &e어둠의 탑&r이 있습니다. 하늘을 꿰뚫을 듯이 높이 솟은 이 거대한 건축물들은 정상까지의 장대한 여정에서 탐험하고 싸울 수 있는 온갖 독특한 방, 장애물, 보물, 몬스터를 포함하고 있습니다. 이 탑들은 일반적으로 어두운 숲의 심장부에서 발견되는데, 그곳에서는 빽빽하고 숨 막히는 나뭇잎이 탑의 불길한 영향 때문인지 이상한 가을빛 색조를 띠게 됩니다."
+				""
+				"&e카르미나이트 생명체는 주로 화염 피해를 입힙니다.&r"
+			]
+			id: "0E85C58F1DA0564C"
+			rewards: [
+				{
+					count: 2
+					id: "411163FE27556CEA"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "0DA6290C80A32C41"
+					item: "mmorpg:gems/ruby/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "에필로그"
+			tasks: [{
+				icon: "born_in_chaos_v1:spawn_structures_dark_tower"
+				id: "03F883F2D01DF89A"
+				structure: "twilightforest:dark_tower"
+				title: "어둠의 탑 찾기"
+				type: "structure"
+			}]
+			title: "어둠의 첨탑"
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0E85C58F1DA0564C"]
+			description: [
+				"&e우르-가스트&r는 거대한 &e어둠의 탑&r 꼭대기 주변을 날아다니는 것을 볼 수 있습니다. 이 생명체는 크고 초자연적인 생명체로, 많은 크고 흔들리는 촉수를 가지고 있습니다. 모험가들이 피라고 두려워하거나 카르미나이트일 수 있는 것으로 덮여 있습니다. 이 생명체는 플레이어를 추적하는 능력 때문에 카르미나이트 가스트 가드와 네더 전용 가스트를 닮았지만, 훨씬 더 크고 훨씬 더 위험합니다."
+				""
+				"&c우르-가스트는 신화 등급으로 스폰됩니다.&r"
+				""
+				"우르-가스트 능력치:"
+				"&b+100% 물리 피해를 화염 피해로 전환&r"
+				"&b+25% 화상 확률&r"
+				"&b+100% 화상 피해&r"
+				"&b+5% 최대 화염 저항&r"
+				"&b+100% 화염 저항&r"
+			]
+			id: "5BB55F41502BE69C"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Entry #12\\n\\nLast afternoon, Captain Cornelia went to the seabed in search of any additional resources. There are rumors among the crew that the real subject of her expedition is something else.\"}"
+								"{\"text\":\"More than a day has passed since the captain's dive. She was wearing the only diving suit we had, so we couldn't help her in any way. Worst of all, she had the master key with her. As our hopes of rescue dwindle, the threat of rebellion grows.\"}"
+							]
+							resolved: 1
+							title: "약탈자 선박 항해일지"
+						}
+					}
+					id: "26A037B5BB43D730"
+					title: "스킬 포인트 2개"
+					type: "custom"
+				}
+				{
+					id: "70D77D8F4DC32B5F"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					id: "4AC6E089CE9FA0A2"
+					item: "mmorpg:gems/ruby/6"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "에필로그"
+			tasks: [{
+				consume_items: 1
+				id: "1484F0626CF00EDA"
+				item: "twilightforest:ur_ghast_trophy"
+				type: "item"
+			}]
+			title: "피, 아니면 카르미나이트?"
+			x: 10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1F3C2718AE550D5C"]
+			description: [
+				"&e눈 덮인 숲&r은 황혼의 숲 차원의 나머지 대부분과 극명한 대조를 이루는 비정상적으로 추운 생물 군계입니다. 탐험가들은 오버월드 눈 덮인 타이가 생물 군계와 많은 유사점을 발견했으며, 일반적인 캐노피 나무 대신 큰 가문비나무 숲 사이에 눈이 땅을 덮고 있고 일부는 그만큼 크게 자랍니다. 주로 온화하고 습한 차원에 왜 이런 얼음 같은 기후가 존재하는지는 미스터리이지만, 일부는 전나무 사이에 자리 잡은 큰 &e빙하&r와 관련이 있을 수 있다고 의심합니다."
+				""
+				"이 지역을 여행할 때는 조심해야 합니다. 위험한 &e예티&r와 함께 &e겨울 늑대&r가 땅을 배회하기 때문입니다. 이 생명체들은 특히 &e예티 동굴&r에 들어갈 때 조심스럽게 접근해야 합니다. 이 얼음 동굴에는 수십 마리가 발견될 수 있습니다. 동족을 지배하는 &e우두머리 예티&r는 호기심 많거나 어리석은 자들의 침입을 달가워하지 않을 것입니다."
+			]
+			id: "15B1E394B4FBB981"
+			rewards: [
+				{
+					id: "0B1583B14CE6405B"
+					item: "mmorpg:material/farming/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0CAE6DB8E7EDB259"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "00866B8B5706A607"
+					item: "mmorpg:gems/azurite/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "에필로그"
+			tasks: [{
+				biome: "twilightforest:snowy_forest"
+				icon: "blue_skies:snowbloom"
+				id: "7ED21F382B9E41B3"
+				title: "눈 덮인 숲 방문"
+				type: "biome"
+			}]
+			title: "눈에 갇힘"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["15B1E394B4FBB981"]
+			description: [
+				"&e겨울 늑대&r는 &e눈 덮인 숲&r에 사는 크고 푸르스름한 흰색 개과 동물입니다. 이 몬스터들은 &e어두운 숲&r의 동족과 비슷하지만 흰색 털을 가지고 있습니다. 그들은 자신의 영역에서 플레이어를 추격하고 공격하며, 물어뜯는 공격과 둔화를 적용하는 냉기 숨결 공격을 모두 사용합니다."
+				""
+				"겨울 늑대의 능력치:"
+				"&b+100% 물리 피해를 냉기 피해로 전환&r"
+				"&b+30% 냉기 관통&r"
+				"&b+30% 냉기 저항&r"
+			]
+			icon: "born_in_chaos_v1:fangofthe_hound_leader"
+			id: "38BFA9B6AC5CBD12"
+			rewards: [
+				{
+					id: "477E6F483D6AABCD"
+					item: "mmorpg:currency/sharpening_stone_3"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6C66DC9E98CDE941"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "황혼의 숲"
+			tasks: [{
+				entity: "twilightforest:winter_wolf"
+				icon: "ftb_ph:winter_wolf"
+				id: "4BF835E79D59F65E"
+				type: "kill"
+				value: 10
+			}]
+			title: "오싹한 아우우"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["15B1E394B4FBB981"]
+			description: [
+				"&e예티&r는 &e눈 덮인 숲&r이나 &e예티 동굴&r 안에 사는 크고 흰색의 블록 형태 생명체입니다. 그들은 본질적으로 반수동적이며, 약 4블록 이내로 움직이는 플레이어에게만 관심을 보입니다. 그들은 직접적인 피해 공격이 없습니다. 대신, 대상을 들어 올려 무작위 방향으로 던집니다. 모험가들은 예티에게 직접적으로 해를 입지 않지만, 낙하 피해는 입을 것입니다. 공격을 받으면 공격적으로 변하여 대상을 추격합니다."
+				""
+				"예티의 능력치:"
+				"&b+0.5% 초당 체력 재생&r"
+				"&b+30% 냉기 저항&r"
+			]
+			icon: {
+				Count: 1
+				id: "twilightforest:yeti_helmet"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:protection"
+						lvl: 2
+					}]
+				}
+			}
+			id: "10B572A9358F338B"
+			rewards: [
+				{
+					count: 5
+					id: "021419E747103F83"
+					item: "mmorpg:stone/3"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7661B1B922262EAF"
+					item: "mmorpg:material/meat/4"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "20201B9A398A123F"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "황혼의 숲"
+			tasks: [{
+				entity: "twilightforest:yeti"
+				icon: "ftb_ph:yetitwilight"
+				id: "0C5B0388632D3E64"
+				type: "kill"
+				value: 10
+			}]
+			title: "예티"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4B93763BFB5F5E0D"]
+			description: [
+				"무시무시한 &e우두머리 예티&r는 자신의 무리에 있는 다른 예티들보다 훨씬 큽니다. 여섯 개의 커다란 파란색 뿔을 가지고 있으며 플레이어에게 끊임없이 공격적입니다."
+				""
+				"&e우두머리 예티&r를 처치하면 &e빙하&r를 덮고 있던 보호막이 제거되어 이제 &e설원 여왕&r과 &e오로라 궁전&r에 접근할 수 있습니다."
+				""
+				"우두머리 예티의 능력치:"
+				"&b+50% 물리 피해를 냉기 피해로 전환&r"
+				"&b+8 방어구 관통 (비례)&r"
+				"&b+30% 냉기 관통&r"
+				"&b+25% 물리 저항&r"
+				"&b+50% 냉기 저항&r"
+			]
+			id: "44B4EC276B4CD776"
+			rewards: [
+				{
+					count: 3
+					id: "2BA208A9FDAC9C96"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "79ACA445473BD88D"
+					item: "mmorpg:material/meat/4"
+					type: "item"
+				}
+				{
+					id: "26B9B73CD18DC085"
+					item: "mmorpg:gems/amethyst/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "에필로그"
+			tasks: [{
+				consume_items: 1
+				id: "04298BD3152A19E7"
+				item: "twilightforest:alpha_yeti_trophy"
+				type: "item"
+			}]
+			title: "우두머리 예티"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["44B4EC276B4CD776"]
+			description: [
+				"황량한 &e빙하&r 위에 서 있는 &e오로라 궁전&r은 황혼의 숲 모험가들에게 인상적이고 아름다운 광경입니다. 벽은 하늘로 뻗어 다양한 색상으로 끊임없이 변합니다. 슬프게도 아름다움은 겉모습에 불과합니다. 마법의 집을 지키는 데 주저하지 않을 위험이 그 안에 도사리고 있기 때문입니다."
+				""
+				"&e우두머리 예티&r를 처치한 모험가들은 &e그의 부드러운 털을 만지는 것만으로도&r 털에서 마법의 힘 일부가 자신에게 이전되어 바람을 흩어지게 하고 궁전을 탐험할 수 있게 된다는 것을 알게 될 것입니다."
+			]
+			icon: "twilightforest:blue_castle_door"
+			id: "2FDCA05F4CD502C8"
+			rewards: [
+				{
+					count: 2
+					id: "591FB17C2BAA0199"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "2F9DB93942234A2C"
+					item: "mmorpg:gems/sapphire/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "에필로그"
+			tasks: [
+				{
+					icon: "twilightforest:aurora_pillar"
+					id: "3E8D88BC87345DAC"
+					structure: "twilightforest:aurora_palace"
+					title: "오로라 궁전 찾기"
+					type: "structure"
+				}
+				{
+					id: "3F7D90DB38D24943"
+					item: "twilightforest:alpha_yeti_fur"
+					type: "item"
+				}
+			]
+			title: "아름다움의 궁전"
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2FDCA05F4CD502C8"]
+			description: [
+				"&e설원 여왕&r은 &e오로라 궁전&r 꼭대기 근처의 얼음으로 뒤덮인 방에서 발견됩니다. 그녀는 황혼의 숲에서 만나는 생명체 중 가장 인간과 닮았을 것입니다. 여성의 모습을 하고 있지만, 커다란 보라색 눈과 창백한 푸른 피부를 가지고 있습니다. 그녀는 주변의 침입자에게 즉시 적대적으로 변하며, 세 가지 주요 공격 패턴 중 하나로 빠르게 공격을 시작합니다."
+				""
+				"설원 여왕은 마법의 얼음 블록으로 된 접시 모양의 썰매를 타고 날아다닙니다. 이 썰매는 강력한 방어 역할을 하여 여왕을 근접 공격 범위 밖으로 이동시키면서, &e아래에서 가해지는 모든 원거리 공격을 막습니다&r. 설원 여왕을 성공적으로 공격하려면 그녀의 움직임을 예측하여, &e얼음 썰매를 우회할 수 있을 만큼 충분히 가까이 다가왔을 때만 공격해야 합니다&r."
+				""
+				"&c설원 여왕은 신화 등급으로 스폰됩니다.&r"
+				""
+				"설원 여왕의 능력치:"
+				"&b+100% 물리 피해를 냉기 피해로 전환&r"
+				"&b+80% 빙결 확률&r"
+				"&b+25% 파쇄 확률&r"
+				"&b+30% 냉기 관통&r"
+				"&b+30% 피해 감소&r"
+			]
+			id: "1E2D94E70E2A1134"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Entry #12\\n\\nLast afternoon, Captain Cornelia went to the seabed in search of any additional resources. There are rumors among the crew that the real subject of her expedition is something else.\"}"
+								"{\"text\":\"More than a day has passed since the captain's dive. She was wearing the only diving suit we had, so we couldn't help her in any way. Worst of all, she had the master key with her. As our hopes of rescue dwindle, the threat of rebellion grows.\"}"
+							]
+							resolved: 1
+							title: "약탈자 선박 항해일지"
+						}
+					}
+					id: "7EF3ECDA9B97A8F7"
+					title: "스킬 포인트 2개"
+					type: "custom"
+				}
+				{
+					id: "1DC1DDFC5481AC98"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					id: "13F0A36E7B35C9D3"
+					item: "mmorpg:gems/sapphire/6"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "에필로그"
+			tasks: [{
+				consume_items: 1
+				id: "30915EF9976C000F"
+				item: "twilightforest:snow_queen_trophy"
+				type: "item"
+			}]
+			title: "얼음 여왕"
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["09AFF8CC33BD244B"]
+			description: [
+				"&e나가&r를 처치하면 &e리스폰 기념물&r이 나타납니다. 기념물 주위에 &e철나무 블록&r을 다음과 같이 원형으로 설치하여 블록을 활성화해 보스를 리스폰할 수 있습니다:"
+				""
+				"{image:cte2:textures/Naga-Respawn.png width:160 height:140 align:center}"
+				""
+				"그런 다음, 기념물 자체에 &e북쪽&r을 향하도록 &e위더 스켈레톤 해골&r을 설치하세요. &c반드시 북쪽을 향해야 합니다!&r"
+			]
+			id: "249CFC4219E590E5"
+			rewards: [{
+				count: 5
+				id: "1F089CDD411E7807"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "리스폰"
+			tasks: [{
+				advancement: "dimasic_server:nagaresp"
+				criterion: ""
+				id: "4443B8B332438AA1"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1F3C2718AE550D5C"]
+			description: [
+				"&e리치&r를 처치하면 &e리스폰 기념물&r이 나타납니다. 기념물 주위에 &e금 블록&r을 다음과 같이 원형으로 설치하여 블록을 활성화해 보스를 리스폰할 수 있습니다:"
+				""
+				"{image:cte2:textures/Lich_respawn.png width:160 height:140 align:center}"
+				""
+				"그런 다음, 기념물 자체에 &e북쪽&r을 향하도록 &e위더 스켈레톤 해골&r을 설치하세요. &c반드시 북쪽을 향해야 합니다!&r"
+			]
+			id: "478246DF0A50447C"
+			rewards: [{
+				count: 5
+				id: "53945B5AF1249FE5"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "리스폰"
+			tasks: [{
+				advancement: "dimasic_server:lichresp"
+				criterion: ""
+				id: "46647FC4FDDBF7CE"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5BB55F41502BE69C"]
+			description: [
+				"&e우르-가스트&r를 처치하면 &e리스폰 기념물&r이 나타납니다. 기념물 주위에 &e우는 흑요석&r을 다음과 같이 원형으로 설치하여 블록을 활성화해 보스를 리스폰할 수 있습니다:"
+				""
+				"{image:cte2:textures/Ur-Ghast_Respawn.png width:160 height:140 align:center}"
+				""
+				"그런 다음, 기념물 자체에 &e북쪽&r을 향하도록 &e위더 스켈레톤 해골&r을 설치하세요. &c반드시 북쪽을 향해야 합니다!&r"
+			]
+			id: "52FABBC48E005524"
+			rewards: [{
+				count: 5
+				id: "1FED6032BF28DDCD"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "리스폰"
+			tasks: [{
+				advancement: "dimasic_server:urghastresp"
+				criterion: ""
+				id: "16328367B255603E"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1E2D94E70E2A1134"]
+			description: [
+				"&e설원 여왕&r을 처치하면 &e리스폰 기념물&r이 나타납니다. 기념물 주위에 &e청금석 블록&r을 다음과 같이 원형으로 설치하여 블록을 활성화해 보스를 리스폰할 수 있습니다:"
+				""
+				"{image:cte2:textures/Snow-Queen_Respawn.png width:160 height:140 align:center}"
+				""
+				"그런 다음, 기념물 자체에 &e북쪽&r을 향하도록 &e위더 스켈레톤 해골&r을 설치하세요. &c반드시 북쪽을 향해야 합니다!&r"
+			]
+			id: "15CD2A688D39C87D"
+			rewards: [{
+				count: 5
+				id: "3467E2DEDB8FA565"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "리스폰"
+			tasks: [{
+				advancement: "dimasic_server:snawqueenresp"
+				criterion: ""
+				id: "4F68D5C6E346A550"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["18C4B8D73A50CFAC"]
+			description: [
+				"&e히드라&r를 처치하면 &e리스폰 기념물&r이 나타납니다. 기념물 주위에 &e고대 잔해&r를 다음과 같이 원형으로 설치하여 블록을 활성화해 보스를 리스폰할 수 있습니다:"
+				""
+				"{image:cte2:textures/Hydra_Respawn.png width:160 height:140 align:center}"
+				""
+				"그런 다음, 기념물 자체에 &e북쪽&r을 향하도록 &e위더 스켈레톤 해골&r을 설치하세요. &c반드시 북쪽을 향해야 합니다!&r"
+			]
+			id: "1DD47026109BE225"
+			rewards: [{
+				count: 5
+				id: "6A599A8C876376B3"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "리스폰"
+			tasks: [{
+				advancement: "dimasic_server:hydraresp"
+				criterion: ""
+				id: "5757A2AFA61E5A7F"
+				type: "advancement"
+			}]
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5BB55F41502BE69C"
+				"1E2D94E70E2A1134"
+				"18C4B8D73A50CFAC"
+				"1F3C2718AE550D5C"
+				"09AFF8CC33BD244B"
+			]
+			description: ["에필로그에서 &e황혼의 숲&r의 모든 보스를 처치하여 이 업적을 완료하세요. 그리고 새로운 모자로 자랑해보세요!"]
+			hide_dependency_lines: 1
+			icon: "simplehats:pog"
+			id: "481C3C4D8D5AF5B8"
+			rewards: [
+				{
+					id: "6350309B873FAF80"
+					item: "simplehats:pog"
+					type: "item"
+				}
+				{
+					id: "675B5B35C383CF3D"
+					item: "lightmanscurrency:coin_netherite"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:passive"
+					id: "3C311586BF920909"
+					title: "패시브 포인트 4개"
+					type: "custom"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "업적"
+			tasks: [{
+				id: "4405B159442E256A"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "모든 황혼의 숲 보스 처치!"
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["15B1E394B4FBB981"]
+			description: ["&e눈 덮인 숲&r의 언덕과 전나무 사이에 자리 잡은 &e예티 동굴&r은 사각형 언덕처럼 보입니다. 네 개의 입구를 통해 얼음으로 뒤덮인 내부로 들어갈 수 있으며, 그곳에는 종유석에서 꽁꽁 언 얼음이 매달려 있고 바닥을 덮고 있습니다. 수많은 사나운 &e예티&r들이 이 추운 동굴에 살고 있으며, &e우두머리 예티&r가 군림하고 있습니다."]
+			id: "4B93763BFB5F5E0D"
+			rewards: [
+				{
+					count: 3
+					id: "1F78FFBE5A9A85B2"
+					item: "mmorpg:material/fishing/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "56F92CFDECE8EB68"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "에필로그"
+			tasks: [{
+				icon: "blue_skies:snowcap_mushroom_block"
+				id: "0A566E2109FCE4C5"
+				structure: "twilightforest:yeti_cave"
+				title: "예티 동굴 찾기"
+				type: "structure"
+			}]
+			title: "춥고 소박한 거처"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["77E6AE329E337151"]
+			description: [
+				"&o특정 구조물을 찾고 보스를 처치하라고요? 충분히 쉬워 보이네요... 탐험가의 나침반을 꺼내는데- 잠깐, 뭐죠? 작동하지 않아요?&r"
+				""
+				"황혼의 숲에서는 길 찾기 기술과 &e지도 초점&r에 의존해야 합니다!"
+			]
+			icon: "twilightforest:magic_map"
+			id: "5081032C6E395EA9"
+			rewards: [{
+				id: "0AE3865B01EA1ACD"
+				item: "twilightforest:raven_feather"
+				type: "item"
+			}]
+			subtitle: "에필로그"
+			tasks: [{
+				id: "2BF7F6856AC56540"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "유목민의 여정"
+			x: 3.0d
+			y: 1.5d
+		}
+	]
+	subtitle: ["레벨 90"]
+	title: "에필로그"
+}

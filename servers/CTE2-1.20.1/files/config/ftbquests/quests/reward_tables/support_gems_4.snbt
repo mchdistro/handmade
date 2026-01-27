@@ -1,0 +1,38 @@
+{
+	id: "1E42FE0C9DEA6108"
+	loot_size: 1
+	order_index: 22
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"crit_damage\",\"type\":\"SUPPORT\",\"perc\":34,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "치명타 피해 보조 젬"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"totem_damage\",\"type\":\"SUPPORT\",\"perc\":26,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "토템 피해 보조 젬"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"summon_damage\",\"type\":\"SUPPORT\",\"perc\":32,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "소환수 피해 보조 젬"
+		}
+	]
+	title: "보조 젬 4"
+}

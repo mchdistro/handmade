@@ -1,0 +1,35 @@
+{
+	id: "54B21001ABEEE2D0"
+	loot_size: 1
+	order_index: 39
+	rewards: [
+		{
+			auto: "enabled"
+			command: "/mine_and_slash give unique_gear @p random 60 1"
+			elevate_perms: 1
+			icon: "mmorpg:chest/legendary_gear"
+			silent: 1
+			title: "무작위 고유 (레벨 60보조 장비 칸"
+			type: "command"
+		}
+		{
+			auto: "enabled"
+			command: "/mine_and_slash give unique_gear @p random 80 1"
+			elevate_perms: 1
+			icon: "mmorpg:chest/legendary_gear"
+			silent: 1
+			title: "무작위 고유 (레벨 80보조 장비 칸"
+			type: "command"
+		}
+		{
+			auto: "enabled"
+			command: "/mine_and_slash give unique_gear @p random 100 1"
+			elevate_perms: 1
+			icon: "mmorpg:chest/legendary_gear"
+			silent: 1
+			title: "무작위 고유 (레벨 100보조 장비 칸"
+			type: "command"
+		}
+	]
+	title: "무작위 고유 상점"
+}

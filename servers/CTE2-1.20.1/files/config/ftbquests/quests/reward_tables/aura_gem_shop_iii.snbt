@@ -1,0 +1,98 @@
+{
+	id: "15FC43A9288ED369"
+	loot_size: 1
+	order_index: 30
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"guardian\",\"type\":\"AURA\",\"perc\":15,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "활력 강화"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"summon_dmg\",\"type\":\"AURA\",\"perc\":15,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "오버로드 강화"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"ele_res\",\"type\":\"AURA\",\"perc\":18,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "원소 방벽 강화"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"fire_res\",\"type\":\"AURA\",\"perc\":13,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "화염 방벽 강화"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"cold_res\",\"type\":\"AURA\",\"perc\":20,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "냉기 방벽 강화"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"light_res\",\"type\":\"AURA\",\"perc\":23,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "천둥 방벽 강화"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"chaos_res\",\"type\":\"AURA\",\"perc\":23,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "혼돈 방벽 강화"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"block\",\"type\":\"AURA\",\"perc\":18,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "가디언 강화"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/aura/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"critical_damage\",\"type\":\"AURA\",\"perc\":16,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "치명타 위력 강화"
+		}
+	]
+	title: "강화 보석 상점 III"
+}

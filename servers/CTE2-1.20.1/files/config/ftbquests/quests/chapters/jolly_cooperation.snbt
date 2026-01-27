@@ -1,0 +1,913 @@
+{
+	default_hide_dependency_lines: 0
+	default_quest_shape: ""
+	filename: "jolly_cooperation"
+	group: "5C56FC6157E20EBE"
+	icon: "minecraft:rose_bush"
+	id: "05E0BC63F8DC87E2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&e라이트맨의 화폐&r는 주화를 화폐로, 다양한 교역소, 경매장 등을 도입합니다."
+				""
+				"설치하는 모든 &e라이트맨의 상인&r은 당신 또는 당신의 라이트맨 &e팀.&r 팀 계정은 보관함 우측 상단의 작은 스티브 아이콘을 클릭하여 생성할 수 있습니다. 상인 및 팀 계정 이벤트에 대한 &e알림&r 버튼도 있습니다. 팀 계정은 플레이어 간에 이익과 비용을 공유하는 데 사용됩니다."
+				""
+				"&e화폐&r는 몹 &e처치&r, &e노획물&r, &e퀘스트.&r를 통해 획득할 수 있습니다."
+				""
+				"근처의 다른 플레이어와 거래하려면 &e/lctrade&r를 사용하세요."
+			]
+			id: "06B577BB603F2F0A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "374773DC08579C0F"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "자판기 1개 제작"
+			tasks: [{
+				id: "3A6E6453C16F4C89"
+				item: "lightmanscurrency:vending_machine"
+				type: "item"
+			}]
+			title: "라이트맨의 화폐"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06B577BB603F2F0A"]
+			description: [
+				"대부분의 아이템 상인 블록은 모든 아이템을 거래할 수 있지만, &e책&r이나 &e갑옷&r과 같은 일부 아이템 유형은 특정 &e상인.&r이 필요합니다."
+				""
+				"&e금전 등록기&r를 사용하여 설치된 상인을 우클릭으로 &e연결&r하여 &e등록기.&r에 &e귀속&r시키세요. 등록기가 설치되면 상인에서 이용 가능한 모든 거래가 &e금전 등록기 인터페이스&r에 &e표시됩니다&r."
+			]
+			id: "64C7494796410D04"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "4A6C9A71A022A0C1"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "금전 등록기 1개 제작"
+			tasks: [{
+				id: "2DCBF62C3EC5F4FE"
+				item: "lightmanscurrency:cash_register"
+				type: "item"
+			}]
+			title: "교역소"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["64C7494796410D04"]
+			description: [
+				"&eATM&r은 &e돈을 보관&r하고, 계정 및 팀 계정 간에 &e돈을 송금&r하며, 액면가 간에 &e코인을 교환&r할 수 있습니다."
+				""
+				"&e돼지 저금통&r은 손에 코인을 들고 우클릭하여 코인을 보관할 수 있습니다. 하지만 현금을 꺼내려면 &e부숴야&r 합니다."
+				""
+				"&e돈 상자&r는 ATM의 대안이지만 돈만 &e보관할 수 있습니다&r. 은행 ATM을 &e신뢰하지&r 않는다면 대신 돈 상자에 코인을 보관하세요."
+				""
+				"&e/lcbaltop&r을 사용하여 누가 은행 계정에 가장 많은 돈을 &e보관하고 있는지&r 확인하세요."
+			]
+			id: "6C57A4CBA635B27E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "086A687857069566"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "각각 1개씩 제작"
+			tasks: [
+				{
+					id: "0D6098AA97808306"
+					item: "lightmanscurrency:atm"
+					type: "item"
+				}
+				{
+					id: "37A73CBAF5EED880"
+					item: "lightmanscurrency:piggy_bank"
+					type: "item"
+				}
+				{
+					id: "70503A6E08BBB908"
+					item: "lightmanscurrency:coin_chest"
+					type: "item"
+				}
+			]
+			title: "돈 보관"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6C57A4CBA635B27E"]
+			description: [
+				"&e거래 터미널&r을 통해 &e글로벌 네트워크&r의 다른 상인과 거래할 수 있습니다. 또한 일반 플레이어에게는 제공되지 않는 서버의 &e경매장&r에도 접근할 수 있습니다."
+				""
+				"&e아이템 네트워크 상인&r은 &e4&r개의 티어를 가지며 거래 터미널을 통해서만 &e접근&r할 수 있습니다."
+				""
+				"업그레이드 슬롯 중 하나에 &e네트워크 업그레이드&r를 배치하여 일반 상인을 네트워크를 통해서뿐만 아니라 직접 &e접근&r할 수 있도록 &e업그레이드&r할 수 있습니다."
+				""
+				"&e경매대&r는 경매가 끝나기 전 &e할당된 시간&r 내에 플레이어가 아이템에 &e입찰&r할 수 있도록 합니다."
+			]
+			id: "2BB4B6FE41F4CC58"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "2BD9D6EA6E99502E"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "각각 1개씩 제작"
+			tasks: [
+				{
+					id: "5BE8EC6FBAEA12B4"
+					item: "lightmanscurrency:item_trader_server_sml"
+					type: "item"
+				}
+				{
+					id: "414707595643EEB0"
+					item: "lightmanscurrency:network_upgrade"
+					type: "item"
+				}
+				{
+					id: "01FE70F053D60BE3"
+					item: "lightmanscurrency:auction_stand_oak"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2BB4B6FE41F4CC58"]
+			description: [
+				"&e티켓 시스템&r은 &e유료 고객만&r 지정된 영역에 &e들어갈 수 있도록&r 하거나 &e레드스톤 장치를 활성화&r할 수 있도록 하는 좋은 방법입니다. 당신이 만든 &e마스터 티켓&r을 아무도 손에 넣지 못하게 하세요."
+				""
+				"&e슬롯 머신&r을 사용하면 유료 고객을 위한 자신만의 &e지급 가중치와 잠재적 보상&r을 만들 수 있습니다."
+			]
+			id: "322F44860B462AEF"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "112776A78DA44E79"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "각각 1개씩 제작"
+			tasks: [
+				{
+					id: "36CBBF5574C67135"
+					item: "lightmanscurrency:ticket_kiosk"
+					type: "item"
+				}
+				{
+					id: "76481E26B68A5DC5"
+					item: "lightmanscurrency:paygate"
+					type: "item"
+				}
+				{
+					id: "656E0AEF24D841CB"
+					item: "lightmanscurrency:ticket_machine"
+					type: "item"
+				}
+				{
+					id: "08328D273151AA2A"
+					item: "lightmanscurrency:slot_machine"
+					type: "item"
+				}
+			]
+			title: "티켓과 슬롯 머신"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["322F44860B462AEF"]
+			id: "652C2A6786830558"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "76F366A39BE3CBF5"
+					silent: 1
+					title: "경험치 500 x 레벨"
+					type: "command"
+				}
+				{
+					id: "7421D41C27D9A612"
+					item: "simplehats:halo"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "도전 과제"
+			tasks: [
+				{
+					count: 4
+					id: "60D301B383B7C824"
+					item: "lightmanscurrency:coinpile_copper"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2F2002492C9614D8"
+					item: "lightmanscurrency:coinpile_iron"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "409E4DE17EB4AD7F"
+					item: "lightmanscurrency:coinpile_gold"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0C83A084CC749C05"
+					item: "lightmanscurrency:coinpile_emerald"
+					type: "item"
+				}
+				{
+					id: "0FB71A19BB5F835D"
+					item: "lightmanscurrency:coinpile_diamond"
+					type: "item"
+				}
+			]
+			title: "하이 롤러"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			description: [
+				"&e그림 그리기&r를 사용하면 어떤 크기의 &e캔버스&r든 &e이젤&r에 설치하여 예술 작품을 만들 수 있습니다. &e팔레트&r에 염료를 추가하고 섞어서 고유한 색상을 만드세요. &e팔레트&r는 &e거래 터미널&r에서 구매할 수 있습니다. 그림을 완료한 후에는 반드시 &e서명&r하세요."
+				""
+				"&e팔레트&r를 제작하려면 판자 3개와 염료 1개 이상이 필요합니다. 이것은 동적 제작법이므로 JEI에 표시되지 않습니다."
+			]
+			id: "792587BFEA5FB382"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "0E94772DB7822516"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "각각 1개씩 제작"
+			tasks: [
+				{
+					id: "5D1C69FA31081C44"
+					item: "xercapaint:item_easel"
+					type: "item"
+				}
+				{
+					id: "7924B42762A8EFFC"
+					item: "xercapaint:item_palette"
+					type: "item"
+				}
+				{
+					id: "39A4B0FB7967A97B"
+					item: "xercapaint:item_canvas"
+					type: "item"
+				}
+			]
+			title: "그림의 즐거움"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&e마인크래프트 악기 인터페이스&r를 사용하면 &e연결된 MIDI 장치&r에서 컴퓨터로, &e파일&r에서, 또는 &e온라인 직접 링크&r에서 &eMIDI를 재생&r할 수 있습니다."
+				""
+				"전체 모드 &e지침&r은 &e모드 가이드북&r에서 확인할 수 있습니다. &e멀티플레이 악기 연주&r와 같은 일부 기능은 여기에서 다루지 않습니다."
+				""
+				"시작하려면 인터넷에서 MIDI 곡을 &e다운로드&r하여 &e지정된 폴더&r에 넣으세요."
+				""
+				"&e송신기&r는 MIDI 파일의 노트를 MIMI의 악기로 전송하는 데 사용됩니다."
+				""
+				"&e송신기&r를 사용하려면 하나를 제작하여 주 손 또는 보조 손에 넣고 우클릭하여 송신기 화면(아래 설명)을 여세요. 송신기는 각 플레이어가 하나만 가지고 있으며, 모든 송신기 아이템이 해당 플레이어에게 동일하다는 점에서 엔더 상자와 비슷하게 작동합니다."
+				""
+				"사운드 출력 등을 수정하려면 \"&b/mimi config&r\"를 사용할 수 있습니다."
+			]
+			id: "4EB78B5D6F8061E9"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "554EE015F2507D1C"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "각각 1개씩 제작"
+			tasks: [
+				{
+					id: "4F23B706CC2324EB"
+					item: "mimi:guide"
+					type: "item"
+				}
+				{
+					id: "43B80F923FC3A2CB"
+					item: "mimi:transmitter"
+					type: "item"
+				}
+				{
+					id: "2ED6A543049B0B62"
+					item: "mimi:piano"
+					type: "item"
+				}
+			]
+			title: "음악 제작자"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["309792D482119CAD"]
+			id: "659BC549DBEF88F7"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 525"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "3889F09AFDC21CA0"
+					silent: 1
+					title: "경험치 525 x 레벨"
+					type: "command"
+				}
+				{
+					id: "6D212FA3A888DEE3"
+					item: "simplehats:discoball"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "도전 과제"
+			tasks: [
+				{
+					id: "47AD9E90B03F4DB1"
+					item: "mimi:banjo"
+					type: "item"
+				}
+				{
+					id: "7E41E58B5E74D3B0"
+					item: "mimi:acguitar"
+					type: "item"
+				}
+				{
+					id: "56D43392BB56F7BA"
+					item: "mimi:elecguitar"
+					type: "item"
+				}
+				{
+					id: "785F904C8061C3A3"
+					item: "mimi:bassguitar"
+					type: "item"
+				}
+				{
+					id: "467709160C457369"
+					item: "mimi:violin"
+					type: "item"
+				}
+				{
+					id: "28A00BDFBE87255A"
+					item: "mimi:microphone"
+					type: "item"
+				}
+				{
+					id: "1FB2835B5D6A93BE"
+					item: "mimi:trumpet"
+					type: "item"
+				}
+				{
+					id: "38934E313D24B898"
+					item: "mimi:frenchhorn"
+					type: "item"
+				}
+				{
+					id: "7B4D310CB1E27CFB"
+					item: "mimi:saxophone"
+					type: "item"
+				}
+				{
+					id: "7F0657D7E9DFD8ED"
+					item: "mimi:clarinet"
+					type: "item"
+				}
+				{
+					id: "2BB1616BA365C884"
+					item: "mimi:flute"
+					type: "item"
+				}
+				{
+					id: "2739476A8CEBB15B"
+					item: "mimi:ocarina"
+					type: "item"
+				}
+				{
+					id: "0567DAB0D990E3B6"
+					item: "mimi:synlead"
+					type: "item"
+				}
+				{
+					id: "4D884F1E82BA36FA"
+					item: "mimi:kalimba"
+					type: "item"
+				}
+				{
+					id: "12BE5EA3BE95256F"
+					item: "mimi:bagpipe"
+					type: "item"
+				}
+				{
+					id: "1051698400C45193"
+					item: "mimi:oboe"
+					type: "item"
+				}
+				{
+					id: "2472D4AAC36C0DC2"
+					item: "mimi:accordion"
+					type: "item"
+				}
+				{
+					id: "0C1314DCB6C97BB6"
+					item: "mimi:harmonica"
+					type: "item"
+				}
+				{
+					id: "4936A5A89E23BD80"
+					item: "mimi:handbell"
+					type: "item"
+				}
+				{
+					id: "2C472301BC4C42EE"
+					item: "mimi:glockenspiel"
+					type: "item"
+				}
+				{
+					id: "5CCBD8322359627D"
+					item: "mimi:musicbox"
+					type: "item"
+				}
+				{
+					id: "2BBD7855C228EF2F"
+					item: "mimi:bassoon"
+					type: "item"
+				}
+				{
+					id: "21DA66CBB72A6853"
+					item: "mimi:woodblock"
+					type: "item"
+				}
+				{
+					id: "0D1DF75F16A2F3CF"
+					item: "mimi:bottle"
+					type: "item"
+				}
+				{
+					id: "54B0B2BB73B656CA"
+					item: "mimi:panflute"
+					type: "item"
+				}
+				{
+					id: "4683423FD1BEFEBE"
+					item: "mimi:recorder"
+					type: "item"
+				}
+				{
+					id: "42755B39EF617F8E"
+					item: "mimi:piano"
+					type: "item"
+				}
+				{
+					id: "632BE4A56AB6F421"
+					item: "mimi:drums"
+					type: "item"
+				}
+				{
+					id: "595D576DA1CEB23D"
+					item: "mimi:organ"
+					type: "item"
+				}
+				{
+					id: "30A1D51D610F9BD7"
+					item: "mimi:steeldrum"
+					type: "item"
+				}
+				{
+					id: "28E5DF11B2BAA23A"
+					item: "mimi:xylophone"
+					type: "item"
+				}
+				{
+					id: "32AAD54A012E17CE"
+					item: "mimi:vibraphone"
+					type: "item"
+				}
+				{
+					id: "1B31B9552DC755C0"
+					item: "mimi:marimba"
+					type: "item"
+				}
+				{
+					id: "046909048DB7BF5F"
+					item: "mimi:celesta"
+					type: "item"
+				}
+				{
+					id: "104DE9FDAB590DC7"
+					item: "mimi:tubularbells"
+					type: "item"
+				}
+				{
+					id: "39CF393D39899A9E"
+					item: "mimi:harpsichord"
+					type: "item"
+				}
+				{
+					id: "68DEAB1EDFC98630"
+					item: "mimi:keyboard"
+					type: "item"
+				}
+				{
+					id: "225D7169B6A6FC97"
+					item: "mimi:edrums"
+					type: "item"
+				}
+			]
+			title: "빅 밴드 플레이어"
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			description: ["&e루터&r는 월드 생성된 전리품 상자, 통, 상자가 실린 광산 수레를 &e플레이어별 노획물&r을 가진 특별한 버전으로 만드는 모드입니다."]
+			id: "6E3023586AC43198"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "59AE27F4FBAA9B83"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "첫 번째 루터 보관함 열기"
+			tasks: [{
+				advancement: "lootr:1chest"
+				criterion: ""
+				id: "106E39AB117654B4"
+				type: "advancement"
+			}]
+			title: "루터"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E3023586AC43198"]
+			id: "193B377248414AFF"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "6700E56A6207ED42"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "루터 보관함 10개 열기"
+			tasks: [{
+				advancement: "lootr:10loot"
+				criterion: ""
+				id: "1AA46A7D8EE1171F"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["193B377248414AFF"]
+			id: "39CC9458268DAF56"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "32D00F66966D0979"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "루터 보관함 25개 열기"
+			tasks: [{
+				advancement: "lootr:25loot"
+				criterion: ""
+				id: "75727D55D4BE0E34"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["082038507F4E98DF"]
+			id: "070790DD12F2C9A6"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "25E5D3BD5CFDDE5C"
+					silent: 1
+					title: "경험치 500 x 레벨"
+					type: "command"
+				}
+				{
+					id: "59D0D1FDEF0E7795"
+					item: "simplehats:doubletake"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "도전 과제"
+			tasks: [{
+				advancement: "lootr:100loot"
+				criterion: ""
+				id: "2486E63A4C408549"
+				type: "advancement"
+			}]
+			title: "밴디트"
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			description: [
+				"&e텔레패스&r를 제작하여 자신에게 연결하세요. 그러면 다른 플레이어가 그 텔레패스를 사용하여 당신에게 &e즉시 순간이동&r할 수 있습니다."
+				""
+				"&e금 텔레패스&r는 &e일회용&r이며, &e다이아몬드 텔레패스&r는 &e내구도&r를 가집니다. 둘 다 &e마법이 부여될&r 수 있습니다."
+			]
+			id: "0152DC99C57C0731"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "0C7EFE6485B640A3"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "다이아몬드 텔레패스 1개 제작"
+			tasks: [{
+				id: "13F379B253EDA98D"
+				item: {
+					Count: 1
+					id: "telepass:diamond_telepass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["39CC9458268DAF56"]
+			id: "082038507F4E98DF"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "23A0D529C076FB7E"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "루터 보관함 50개 열기"
+			tasks: [{
+				advancement: "lootr:50loot"
+				criterion: ""
+				id: "4B724240CC7B8D95"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"070790DD12F2C9A6"
+				"652C2A6786830558"
+				"659BC549DBEF88F7"
+			]
+			icon: "alexsmobs:soul_heart"
+			id: "70DA25C53FFEB49F"
+			rewards: [
+				{
+					command: "/tellraw @a {\"text\":\"\",\"color\":\"blue\",\"extra\":[{\"selector\":\"@p\"},{\"text\":\" has achieved Team Player\"}]}"
+					elevate_perms: 1
+					icon: "minecraft:cookie"
+					id: "3B58A7BF33FCBB9E"
+					title: "자랑하려면 여기를 클릭"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 750"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "07421521F3C1CB44"
+					silent: 1
+					title: "경험치 750 x 레벨"
+					type: "command"
+				}
+				{
+					count: 6
+					id: "0279EAA6BA4B9D19"
+					item: "lightmanscurrency:coin_diamond"
+					title: "돈"
+					type: "item"
+				}
+				{
+					id: "2E2C8624A41D58EF"
+					item: "simplehats:floatinghearts"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "업적"
+			tasks: [{
+				id: "1C2D9D8441D68E4C"
+				title: "한 번 읽기"
+				type: "checkmark"
+			}]
+			title: "팀 플레이어"
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			description: [
+				"&e플랜&r은 땅 점유에 사용됩니다. &e황금 괭이&r로 지면을 우클릭하여 점유를 시작하세요."
+				""
+				"&e막대기&r를 들고 아무 곳이나 우클릭하여 누가 무엇을 소유하고 경계가 어디인지 확인할 수 있습니다."
+				""
+				"&e/flan menu&r를 사용하여 점유지를 편집하세요. &e/flan delete&r를 사용하여 서 있는 점유지를 제거하세요. &e/flan switchMode&r를 사용하여 하위 점유지를 생성하세요."
+				""
+				"&e전역 권한&r은 권한 그룹에 &e속하지 않은&r 모든 사람에게 부여되는 권한입니다."
+				""
+				"&e권한 그룹을 우클릭&r하여 개별 권한을 설정하세요."
+				""
+				"&4&l멀티플레이에서 클레임 소유자가 90일 동안 활동하지 않으면 클레임이 삭제됩니다.&r&n&r"
+				""
+				"&e시작 점유 블록:&r 2000"
+				"&e+1&r 블록 &e10초&r마다"
+				"&e최대 점유 블록:&r 25600"
+				"&e최대치 도달 시간: &r66시간"
+				"&e초기 점유 깊이:&r 20 블록"
+				"&e최대 점유지: &r5"
+				""
+				"점유지 아래에 &e건축&r하면 점유 깊이가 &e자동으로&r 더 아래로 계속됩니다."
+			]
+			id: "447144432E16E12F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "75FDF97DC42DDF10"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			size: 1.5d
+			subtitle: "각각 1개씩 제작"
+			tasks: [{
+				id: "118E2836C81016A3"
+				item: {
+					Count: 1
+					id: "minecraft:golden_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "영토 점유"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4EB78B5D6F8061E9"]
+			description: ["악기는 소리와 작동 방식을 변경하도록 &e조율될&r 수 있습니다. &e조율 작업대&r를 제작하고 &e모드 가이드북&r의 챕터로 이동하여 조율할 수 있는 악기의 &e전체 목록&r과 어떤 아이템으로 조율하는지 확인하세요."]
+			id: "34D93634E3BD0A59"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "373E7EA816B5F7E0"
+				silent: 1
+				title: "100 경험치 x 레벨"
+				type: "command"
+			}]
+			subtitle: "조율 작업대 하나 제작"
+			tasks: [{
+				id: "568DA92753424F60"
+				item: "mimi:tuningtable"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34D93634E3BD0A59"]
+			description: [
+				"&e기계 거장&r은 &e악기&r와 &e스위치보드&r가 주어지면 &e스스로 음악을 재생&r합니다. 작동하려면 &e레드스톤 신호&r가 필요합니다."
+				""
+				"&e리스너&r와 &e수신기&r 블록은 &e근처에서 연주된 음표&r를 감지하고 설정된 필터와 일치하면 &e레드스톤 신호&r를 출력합니다."
+			]
+			id: "13BFD3FE012DE2AE"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "160744DEF54A6086"
+				silent: 1
+				title: "100 경험치 x 레벨"
+				type: "command"
+			}]
+			subtitle: "각각 하나씩 제작"
+			tasks: [
+				{
+					id: "0608E7A2EAE0494D"
+					item: "mimi:mechanicalmaestro"
+					type: "item"
+				}
+				{
+					id: "19DFD7EE72173C45"
+					item: "mimi:listener"
+					type: "item"
+				}
+				{
+					id: "3FDBE267EACCBA27"
+					item: "mimi:receiver"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["13BFD3FE012DE2AE"]
+			description: [
+				"&e서버 송신기&r는 플레이어가 들고 있지 않아도 MIDI 파일을 재생할 수 있는 송신기 형태의 블록입니다. 하지만 서버에서 제공하는 노래만 재생할 수 있습니다. MIDI 파일은 MIMI 설정 폴더 내의 \"server_midi_files\" 폴더에 넣고 새로고침 버튼을 클릭하여 서버 송신기에 추가할 수 있습니다 (싱글 플레이 및 LAN 호스트에서도 작동합니다)."
+				""
+				"플레이어당 한 번 설정이 저장되는 휴대용 송신기와 달리, &e서버 송신기&r 설정은 각 블록에 개별적으로 저장됩니다. 노래를 재생하는 동안 서버 송신기 블록은 레드스톤 신호를 방출합니다."
+			]
+			id: "309792D482119CAD"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "251B7685E57F4467"
+				silent: 1
+				title: "100 경험치 x 레벨"
+				type: "command"
+			}]
+			subtitle: "각각 하나씩 제작"
+			tasks: [{
+				id: "60B81DC36D3F79DE"
+				item: "mimi:transmitterblock"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+	]
+	title: "즐거운 협동"
+}

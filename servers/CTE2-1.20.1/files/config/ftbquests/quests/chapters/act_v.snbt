@@ -1,0 +1,1236 @@
+{
+	default_hide_dependency_lines: 0
+	default_quest_shape: ""
+	filename: "act_v"
+	group: "1E3C4B5FFAE48A39"
+	icon: "minecraft:ender_eye"
+	id: "13CF8F9062A19FA5"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["75454F0A3C4C3596"]
+			description: [
+				"바로 이것입니다! &e엔더 드래곤을 처치하고&r 이 광기를 \"끝\"내세요!"
+				""
+				"&o날개로 무언가를 할 수 있을 것 같습니다...&r"
+				""
+				"&c엔더 드래곤은 최소 레벨 50에 스폰됩니다.&r"
+				""
+				"엔더 드래곤 능력치:"
+				"&b+25% 물리 피해를 벼락 피해로 전환&r"
+				"&b+25% 물리 피해를 혼돈 피해로 전환&r"
+				"&b+25% 원소 저항&r"
+				"&b+35% 혼돈 저항&r"
+				"&a7.5% 엔드 룬 드롭 확률&r"
+			]
+			icon: "minecraft:dragon_head"
+			id: "6F0D75895E507FFD"
+			rewards: [
+				{
+					id: "2912DA754B1FC7E8"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":55,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "희귀 장비 전리품 상자 (레벨 55)"
+					type: "item"
+				}
+				{
+					id: "4CEB9753CEE68DF0"
+					item: {
+						Count: 1
+						id: "customizableelytra:elytra_wing"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "748848F226B0215D"
+					item: "stalwart_dungeons:chorundum"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 25000"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "720DE9C64034C331"
+					silent: 1
+					title: "25000 경험치"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "주요 퀘스트"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "ftb_ph:ender_dragon"
+				id: "2877FD26AC97C50D"
+				type: "kill"
+				value: 1
+			}]
+			title: "드래곤 퀘스트"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F0D75895E507FFD"]
+			description: [
+				"마을 경비병에게서 대나무 조각에 휘갈겨 쓴 &e지침&r을 받았습니다."
+				""
+				"&o1. 엔드에 도착하세요.&r"
+				"&o2. 섬에서 엔드 수정을 획득하세요.&r"
+				"&o3. 수정을 -에 설치하세요.&r"
+				""
+				"나머지는 당신의 모험으로 인해 &e지워졌습니다.&r"
+			]
+			id: "531BDC3DFCE88A6E"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 17050"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "6D064F971867F5AB"
+					silent: 1
+					title: "17050 경험치"
+					type: "command"
+				}
+				{
+					id: "237C14AD78034F20"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
+			]
+			subtitle: "주요 퀘스트"
+			tasks: [{
+				advancement: "minecraft:end/respawn_dragon"
+				criterion: ""
+				id: "1B0D7898F4168083"
+				type: "advancement"
+			}]
+			title: "소환 의식"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F0D75895E507FFD"]
+			description: ["드래곤을 처치했지만, 엔드에는 생각보다 더 많은 것이 있는 것 같습니다. 새로 찾은 &e겉날개&r를 사용하여 &e바깥 섬을 탐험&r하기에 좋은 시기일 수 있습니다."]
+			id: "7EA6A0131C5FF143"
+			rewards: [
+				{
+					id: "3EC5E98649245554"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/currency"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"common\",\"lvl\":50,\"id\":\"currency\",\"key\":\"\"}"
+						}
+					}
+					title: "일반 화폐 전리품 상자 (레벨 50)"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "022C5AE3B9A81349"
+					item: "mmorpg:currency/sharpening_stone_2"
+					title: "최고천의 숫돌"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 18250"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "3763B6E506B98B16"
+					silent: 1
+					title: "18250 경험치"
+					type: "command"
+				}
+			]
+			subtitle: "엔드벤처"
+			tasks: [{
+				advancement: "minecraft:end/enter_end_gateway"
+				criterion: ""
+				id: "04D2837E3F91A62E"
+				type: "advancement"
+			}]
+			title: "너머"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F0D75895E507FFD"]
+			description: [
+				"균열을 열게 한 것이 엔더 드래곤이 아니라는 것을 알게 되었습니다. 그 짐승이 아무리 사악했어도, 그저 사악한 짐승일 뿐이었습니다."
+				""
+				"엔드에는 생각보다 더 많은 것이 있는 것 같습니다... 어떤 이들은 공허에 또 다른 위험이 도사리고 있다고 말하고, 어떤 이들은 &e신비한 벌레&r를 던져 넣으면 그것을 끌어낼 수 있다고 말합니다."
+				""
+				"&e엔더 드래곤&r을 처치하여 &e신비한 벌레&r를 획득할 수 있습니다."
+			]
+			id: "56A3604D9BAD661C"
+			rewards: [
+				{
+					count: 16
+					id: "1B2A6B57387B7711"
+					item: {
+						Count: 1
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "벌레"
+					type: "item"
+				}
+				{
+					id: "561F1DE4EB9C5CE9"
+					item: "lightmanscurrency:coin_emerald"
+					title: "돈"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 15750"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "3799D574CFAF86F6"
+					silent: 1
+					title: "15750 경험치"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "주요 퀘스트"
+			tasks: [{
+				id: "1FD4027C3E5A4B93"
+				item: "alexsmobs:mysterious_worm"
+				title: "신비한 벌레 획득"
+				type: "item"
+			}]
+			title: "유전 변형"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56A3604D9BAD661C"]
+			description: [
+				"이 끔찍한 생명체는 몸에 여러 부분이 있으니 대비하세요. 또한, 근처 플레이어에게 추적 수정을 발사합니다. 너무 가까이 가면 밀쳐내질 것입니다. 섬 밖으로 밀려나지 않도록 조심하세요!"
+				""
+				"&c공허 벌레는 최소 레벨 55에 스폰됩니다.&r"
+				""
+				"공허 벌레 능력치:"
+				"&b+25% 원소 저항&r"
+				"&a5% 엔드 룬 드롭 확률&r"
+			]
+			icon: "alexsmobs:void_worm_eye"
+			id: "3944DD7AC4667137"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 27500"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "45B406CDBD1F2A26"
+					silent: 1
+					title: "27500 경험치"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "71B0768A7BF842A5"
+					title: "특성 포인트 2개"
+					type: "custom"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "주요 퀘스트"
+			tasks: [{
+				entity: "alexsmobs:void_worm"
+				icon: "ftb_ph:void_worm"
+				id: "4CDAF67DC07C1B5A"
+				type: "kill"
+				value: 1
+			}]
+			title: "공허의 벌레"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3944DD7AC4667137"]
+			description: ["지하 상인들에게 피해를 입히는 지하 생명체에 대한 보고가 있습니다. 어떤 이들은 그것을 &e\"워든\"&r이라고 부릅니다. 어떤 이들은 그것이 &e고대 도시&r 깊은 지하에서 발견될 수 있다고 말합니다."]
+			id: "0424E768816CB314"
+			rewards: [
+				{
+					id: "6FEA654635C8F438"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/epic_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"epic\",\"lvl\":60,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "에픽 장비 전리품 상자 (레벨 60)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 20500"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "69E5D302B19DFCB4"
+					silent: 1
+					title: "20500 경험치"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "주요 퀘스트"
+			tasks: [{
+				advancement: "deeperdarker:main/find_ancient_city"
+				criterion: ""
+				id: "73ECBABFC177A3AF"
+				type: "advancement"
+			}]
+			title: "집으로 돌아가기"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0424E768816CB314"]
+			description: [
+				"&e워든&r은 완전히 실명 상태이며, 진동, 냄새, 촉각에 의존하여 플레이어를 감지합니다. 웅크리거나 화살과 같은 교란을 사용하여 회피할 수 있습니다. 강력한 근접 공격을 가지고 있으며, 파괴적인 유도 소닉 붐 공격을 방출할 수 있습니다."
+				""
+				"&c워든은 최소 레벨 60에 스폰됩니다.&r"
+				""
+				"워든 능력치:"
+				"&b+50% 물리 피해를 혼돈 피해로&r"
+				"&b+50% 갑옷&r"
+				"&b+35% 원소 저항&r"
+				"&b+35% 혼돈 저항&r"
+				"&a10% 시드 룬 드롭 확률&r"
+			]
+			icon: {
+				Count: 1
+				id: "deeperdarker:warden_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6B5AFF6897A7AE6D"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 30000"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "32BBAFAF37E1995B"
+					silent: 1
+					title: "30000 경험치"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "3E70206312D555CB"
+					item: "lightmanscurrency:coin_gold"
+					title: "돈"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: 1
+					id: "31CEEC8EB6246EED"
+					table_id: 7157812384472883171L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "주요 퀘스트"
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: "ftb_ph:warden"
+				id: "7C4B9B0973E6EA67"
+				type: "kill"
+				value: 1
+			}]
+			title: "차원 가디언"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B5AFF6897A7AE6D"]
+			description: ["와, 누가 알았겠어요? &e워든&r은 새로운 &e미발견 차원&r으로 가는 관문을 보호하고 있는 것 같았습니다. &e아더사이드&r에는 무엇이 있을까요?"]
+			id: "707C5CDB48B487F8"
+			rewards: [
+				{
+					id: "5E5119647591EC7F"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/currency"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"common\",\"lvl\":50,\"id\":\"currency\",\"key\":\"\"}"
+						}
+					}
+					title: "일반 화폐 전리품 상자 (레벨 50)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 24750"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "3201ACAD0D312816"
+					silent: 1
+					title: "24750 경험치"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: 1
+					id: "00AA3A8290A71518"
+					table_id: 5361966167457701780L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "주요 퀘스트"
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				icon: "deeperdarker:warden_carapace"
+				id: "1ACA80128E406BE5"
+				title: "아더사이드 방문"
+				type: "dimension"
+			}]
+			title: "아더사이드"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["707C5CDB48B487F8"]
+			description: [
+				"계속해서 &e탐험하고,&r &e어둠 속으로&r 내려가세요... 어떤 &e좋은 것들&r을 찾을지 아무도 모릅니다."
+				""
+				"&b&o메인 캠페인 완료를 축하드립니다! 완료를 위해 에필로그로 계속 진행하거나, 세계가 제공하는 것을 탐험하러 이동하세요. 보조 퀘스트도 꼭 확인하세요! 계속해서 캐릭터를 레벨업하고 커스터마이징하며, 맵에서 가장 큰 도전 과제를 극복해 보세요!&r&r"
+			]
+			id: "6149D163ABF06A15"
+			rewards: [
+				{
+					id: "42E63F9488C11281"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/legendary_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"legendary\",\"lvl\":60,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "전설 장비 전리품 상자 (레벨 60)"
+					type: "item"
+				}
+				{
+					id: "360850EC6B27579B"
+					item: "lightmanscurrency:coin_netherite"
+					title: "돈"
+					type: "item"
+				}
+				{
+					id: "3422F45908DFFA9A"
+					item: "simplehats:paperbag"
+					title: "종이 가방"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 35000"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "1E6490E881BC5AA2"
+					silent: 1
+					title: "35000 경험치"
+					type: "command"
+				}
+				{
+					id: "2113E9C1A471A8B9"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:endless/darkness"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "주요 퀘스트"
+			tasks: [{
+				advancement: "deeperdarker:main/find_ancient_temple"
+				criterion: ""
+				icon: "deeperdarker:smooth_sculk_stone_stairs"
+				id: "779882C7510983D8"
+				type: "advancement"
+			}]
+			title: "미해결 문제 해결"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6F0D75895E507FFD"]
+			description: [
+				"&e드래곤을 처치했지만,&r 여전히 그 짐승의 잔존물을 발견할 것입니다. 더 이상의 파괴를 막기 위해 그 &e스폰&r을 처치하세요."
+				""
+				"참고로, &e엔드 수정&r을 사용하여 엔더 드래곤을 다시 &e리스폰&r할 수 있습니다! 방법은 &e바닐라&r와 동일합니다."
+				""
+				"&o&7완료 시 반복 퀘스트 챕터에서 반복 퀘스트가 잠금 해제됩니다!&r&r"
+			]
+			id: "61FF2CADDF0013F6"
+			rewards: [
+				{
+					id: "07F863054E4C3F13"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/common_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"common\",\"lvl\":50,\"id\":\"gem\",\"key\":\"\"}"
+						}
+					}
+					title: "일반 젬 전리품 상자 (레벨 50)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 19000"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "568A68D30118ED12"
+					silent: 1
+					title: "19000 경험치"
+					type: "command"
+				}
+			]
+			subtitle: "엔드벤처"
+			tasks: [{
+				entity: "realmrpg_wyrms:ender_wyrm"
+				icon: "simplehats:dragonskullender"
+				id: "18796A37D4AFC777"
+				type: "kill"
+				value: 12
+			}]
+			title: "드래곤스폰"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["30FA1CCB6BBA7125"]
+			description: [
+				"&e파시어&r는 공허에서 유래한 예언적인 생명체라는 소문이 있습니다."
+				""
+				"&o&7완료 시 반복 퀘스트 챕터에서 반복 퀘스트가 잠금 해제됩니다!&r&r"
+			]
+			icon: "alexsmobs:farseer_arm"
+			id: "69FD852AE0306BD2"
+			rewards: [
+				{
+					id: "13410512A1AB33A9"
+					item: {
+						Count: 1
+						id: "waystones:warp_stone"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "순간이동석"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 20500"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "7E4B99CDF9BF72C0"
+					silent: 1
+					title: "20500 경험치"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "4EFEDC6802D42BF3"
+					title: "특성 포인트 1개"
+					type: "custom"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "7D71C44B4C0FD103"
+					title: "무자비한 승천"
+					type: "custom"
+				}
+			]
+			subtitle: "엔드벤처"
+			tasks: [{
+				entity: "alexsmobs:farseer"
+				icon: "ftb_ph:farseer"
+				id: "4917CEEBC063FE78"
+				type: "kill"
+				value: 2
+			}]
+			title: "그들은 당신이 올 것을 알았다"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"531BDC3DFCE88A6E"
+				"61FF2CADDF0013F6"
+				"0424E768816CB314"
+				"69FD852AE0306BD2"
+				"6B5AFF6897A7AE6D"
+				"6F0D75895E507FFD"
+				"7EA6A0131C5FF143"
+				"707C5CDB48B487F8"
+				"56A3604D9BAD661C"
+				"3944DD7AC4667137"
+				"6149D163ABF06A15"
+				"6BA03D598BD6C2AD"
+				"081AD91A178C3A3F"
+				"6DEBCC2B2DAE67AD"
+				"0C894EBBB7C6F380"
+				"4FEFBA3770769DA9"
+				"4E2506271B43A29C"
+				"201E621A52FFCE65"
+				"010FF3BF22DA9AED"
+				"28759D610FF8B6BE"
+				"5596C3E03B25B9C8"
+				"30FA1CCB6BBA7125"
+				"594A647C82F46BD8"
+				"68ADEBE337D75CA7"
+				"373410F7773044D4"
+				"600F5339B6C0975C"
+				"6EBB1D7F4A2F96D4"
+			]
+			description: ["&e완료&r 5막의 모든 &e퀘스트&r를 완료하여 이 업적을 달성하세요. 그리고 새로운 모자로 자랑하세요!"]
+			hide_dependency_lines: 1
+			icon: "simplehats:rgbsunglasses"
+			id: "4ABF5C9676202847"
+			rewards: [
+				{
+					id: "32163DBB344176A5"
+					item: "simplehats:rgbsunglasses"
+					type: "item"
+				}
+				{
+					id: "132CB6623C41E78B"
+					item: "lightmanscurrency:coin_diamond"
+					title: "돈"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "업적"
+			tasks: [{
+				id: "3F2676327EA7C4ED"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "5막 퀘스트 모두 완료!"
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3944DD7AC4667137"]
+			dependency_requirement: "one_completed"
+			description: [
+				"맵은 마인 앤 슬래시의 &e인스턴스 던전&r입니다. 맵을 얻으려면 지도를 찾거나 &e지도 제작기&r를 제작해야 합니다. 지도 제작기는 &7일반&r &e지도&r를 생성합니다. 이 지도는 &e레벨 55부터&r만 사용할 수 있습니다."
+				""
+				"이 인스턴스 던전에 접근하려면 &e지도 장치&r를 제작해야 합니다. 맵은 지도 장치 블록에 (설치된 후) 사용할 수 있습니다. 또한 안전하게 귀환할 수 있도록 &e귀환의 진주&r를 제작해야 합니다."
+				""
+				"맵에는 희귀도와 티어가 연관되어 있습니다. 희귀도와 티어는 몹의 난이도와 노획물의 품질을 결정합니다."
+				""
+				"&7일반&r - 티어 0-10"
+				"&a고급&r - 티어 11-20"
+				"&9희귀&r - 티어 21-40"
+				"&d에픽&r - 티어 41-60"
+				"&6전설&r - 티어 61-80"
+				"&5신화&r - 티어 81-100"
+				""
+				"맵에는 다양한 접두사/접미사가 무작위로 부여될 수 있습니다. &e접두사/접미사&r는 플레이어에게 (대개 부정적으로) 또는 몹에게 (대개 긍정적으로) 적용되는 무작위 변경자입니다."
+			]
+			icon: "dungeon_realm:dungeon_map"
+			id: "4FEFBA3770769DA9"
+			rewards: [
+				{
+					id: "1F60294488F2F786"
+					item: "mmorpg:map_creator"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "49D8A1AB5BCE23A9"
+					item: "lightmanscurrency:coin_iron"
+					title: "돈"
+					type: "item"
+				}
+			]
+			subtitle: "레벨 방식"
+			tasks: [
+				{
+					id: "0ABCAE5B4B3DEF92"
+					item: "dungeon_realm:map_device"
+					type: "item"
+				}
+				{
+					id: "0256418371FC7439"
+					item: "dungeon_realm:home_pearl"
+					type: "item"
+				}
+			]
+			title: "맵"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FEFBA3770769DA9"]
+			description: [
+				"이제 필요한 재료가 있으니, &e지도&r에 도전해 보세요!"
+				""
+				"몹을 처치하고 맵을 탐험하면서 처치율이 증가하는 것을 알 수 있습니다. 이 처치율은 탐험 지표로 간주될 수 있습니다. 탐험률이 높을수록 &e지도 보스&r를 처치했을 때 더 좋은 보상을 얻을 수 있습니다. 더 많이 탐험할수록 탐험 희귀도가 올라가기 시작하며, &a고급&r 탐험이 첫 번째 이정표가 됩니다."
+				""
+				"당신을 &c보스 방&r으로 순간이동시킬 순간이동 블록을 찾아야 합니다. 이 블록은 맵 내 어디든 스폰될 수 있습니다. &c보스&r를 처치하여 특수 &c보상 방&r에 접근하세요. &d이곳에서는 진행도에 따라 노획물이 개선됩니다&r!"
+			]
+			id: "201E621A52FFCE65"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 17500"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "43413049B841CA66"
+				silent: 1
+				title: "17500 경험치"
+				type: "command"
+			}]
+			subtitle: "레벨 방식"
+			tasks: [{
+				dimension: "dungeon_realm:dungeon"
+				icon: "dungeon_realm:map_device"
+				id: "34B289DE6AAD0206"
+				title: "맵 진입"
+				type: "dimension"
+			}]
+			title: "차원적 난제"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7EA6A0131C5FF143"]
+			description: [
+				"&e겉날개&r는 이제 &e현수막, 염료, 망토, 갑옷 장식, 발광 오징어 먹물&r로 맞춤화할 수 있습니다."
+				""
+				"완전한 겉날개에 현수막, 염료, 갑옷 장식 및/또는 발광 오징어 먹물을 &e조합&r하여 전체 겉날개에 &e적용&r할 수 있습니다."
+				""
+				"&e완전한 겉날개&r를 제작 칸에 놓으면 &e두 개의 겉날개 날개&r로 분리되어 각각 사용자 설정한 다음 다시 &e조합&r할 수 있습니다."
+				""
+				"또한 &e종이&r 한 장과 함께 제작하여 &e망토&r가 겉날개에 나타나지 않도록 숨길 수 있습니다."
+			]
+			id: "4E2506271B43A29C"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 20500"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "1D82E166861E21EA"
+					silent: 1
+					title: "20500 경험치"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "05704C868E5A6025"
+					title: "1 특성 포인트"
+					type: "custom"
+				}
+			]
+			subtitle: "엔드벤처"
+			tasks: [{
+				id: "27EE139609297829"
+				item: {
+					Count: 1
+					id: "customizableelytra:elytra_wing"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "사용자 지정 가능한 겉날개"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F0D75895E507FFD"]
+			description: ["&e엔더파지&r는 &e후렴과가 자라는 곳&r에서 발견할 수 있습니다. 이들은 &e질병&r을 퍼뜨리므로 가능한 한 빨리 처리해야 합니다! 엔더파지는 &e엔드 막대 위에 캡시드를 놓고 그 안에 엔더의 눈을 놓아&r 만들 수 있습니다."]
+			id: "30FA1CCB6BBA7125"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 16500"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "09276F91256B5A16"
+				silent: 1
+				title: "16500 경험치"
+				type: "command"
+			}]
+			subtitle: "엔드벤처"
+			tasks: [{
+				entity: "alexsmobs:enderiophage"
+				icon: "alexsmobs:enderiophage_rocket"
+				id: "25D5719253570957"
+				type: "kill"
+				value: 8
+			}]
+			title: "바이러스 재앙"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["707C5CDB48B487F8"]
+			description: ["&e비명 벌레&r는 &e아더사이드&r에서 발견되는 무시무시한 생명체입니다. &e벌레 먹은 스컬크를 밟으면&r 놀라운 일을 겪게 될 것입니다."]
+			id: "081AD91A178C3A3F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 25500"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "4C937CC2C36181EE"
+				silent: 1
+				title: "25500 경험치"
+				type: "command"
+			}]
+			subtitle: "더 깊고 어둡게"
+			tasks: [{
+				entity: "deeperdarker:shriek_worm"
+				icon: {
+					Count: 1
+					id: "deeperdarker:warden_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0BAB29DF028FA3B2"
+				type: "kill"
+				value: 12
+			}]
+			title: "죽음의 덫"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["707C5CDB48B487F8"]
+			description: [
+				"&e스토커&r는 &e아더사이드&r에서 발견되는 소름 끼치고 강력한 엔티티입니다. 이들은 거친 소음에 이끌리므로, 스토커를 찾고 있다면 &e항아리를 부숴보는&r 건 어떨까요?"
+				""
+				"운이 없다면 &e어둠의 관문&r을 고려해 보세요."
+			]
+			icon: "alexsmobs:froststalker_horn"
+			id: "6DEBCC2B2DAE67AD"
+			rewards: [
+				{
+					id: "45F0FAFA0E031718"
+					item: "lightmanscurrency:coin_emerald"
+					title: "돈"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 26750"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "23D7F4B1237A1E14"
+					silent: 1
+					title: "26750 경험치"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "7D8679A30B65CDA7"
+					title: "1 특성 포인트"
+					type: "custom"
+				}
+			]
+			shape: "diamond"
+			subtitle: "더 깊고 어둡게"
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				icon: "alexsmobs:froststalker_horn"
+				id: "0E11112090553BD8"
+				type: "kill"
+				value: 2
+			}]
+			title: "기묘한 존재감"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["707C5CDB48B487F8"]
+			description: ["&e메아리 숲&r에서는 영혼을 잃은 생명체들을 발견할 수 있습니다. 한때 인간이라고 생각되었지만, 이제는 과거의 껍데기만 남았습니다."]
+			id: "0C894EBBB7C6F380"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 25500"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "2902961DDA1F44C2"
+				silent: 1
+				title: "25500 경험치"
+				type: "command"
+			}]
+			subtitle: "더 깊고 어둡게"
+			tasks: [{
+				entity: "deeperdarker:shattered"
+				icon: {
+					Count: 1
+					id: "deeperdarker:warden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "25B6045192B3F552"
+				type: "kill"
+				value: 32
+			}]
+			title: "절망적인 존재"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: 0
+			dependencies: ["30FA1CCB6BBA7125"]
+			description: ["엔더 독감 효과에 걸립니다. 많은 &e코러스 열매&r를 먹거나 &e우유를 마셔서&r 치료하세요. 시간이 얼마 남지 않았습니다..."]
+			id: "010FF3BF22DA9AED"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 18000"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "5AA6257209EEFA31"
+					silent: 1
+					title: "18000 경험치"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "40C03DB4E7F7BAE8"
+					item: "lightmanscurrency:coin_gold"
+					title: "돈"
+					type: "item"
+				}
+			]
+			subtitle: "엔드벤처"
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/ender_flu"
+				criterion: ""
+				id: "6EA193412C2E12A0"
+				type: "advancement"
+			}]
+			title: "시간과의 싸움"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["201E621A52FFCE65"]
+			description: [
+				"마인 앤 슬래시 지도 내에서는 추가적인 이벤트가 발생할 수 있습니다."
+				""
+				"&e고대 오벨리스크&r: 상자에서 &e오벨리스크&r에 사용할 수 있는 특별한 웨이브 기반 지도가 스폰될 확률이 있습니다!"
+				""
+				"&e예언 이벤트&r: 맵에서 자신에게 저주를 적용할 수 있는 제단을 찾으세요. 자신에게 저주가 많을수록 몹 처치로 더 많은 &e예언 주화&r를 얻을 수 있습니다. 이 주화를 사용하여 허브를 통해 맵에서 보상을 구매하세요! &6전설&r 및 &5신화&r 보상은 각각 티어 20 및 40 맵부터 나타납니다."
+				""
+				"&e수확 이벤트&r: 맵에서 새로운 수확 방으로 이동시켜 줄 차원문을 찾으세요. 이 방에서 몹을 처치하여 특별한 화폐를 제작하는 데 사용되는 &e혼돈의 보석&r을 획득하세요!"
+				""
+				"&e유물&r: 보스를 처치하여 &e지도 장치&r에 장착하여 맵을 강화할 수 있는 유물을 찾으세요! 유물 열쇠를 사용하여 지도 장치와 상호 작용하여 유물을 장착하세요!"
+				""
+				"&n&c우버 보스&r&r"
+				""
+				"또한 &6전설&r 및 &5신화&r 맵의 &c보스&r는 &e우버 조각&r을 드롭할 확률이 있습니다. 이 조각들을 조합하면 &e던전 지도 우버 강화&r로 변합니다. 이를 맵에 사용하여 &e우버 보스&r를 상대할 수 있습니다. 우버 보스는 많은 노획물을 드롭하는 매우 강력한 생명체입니다. 심지어 특별한 &e고유 보석&r도 드롭할 수 있습니다!"
+				""
+				"우버 보스 풀은 캠페인 중에 만났던 옛 보스들과 몇몇 새로운 보스들로 구성되어 있습니다!"
+			]
+			icon: "minecraft:paper"
+			id: "28759D610FF8B6BE"
+			rewards: [{
+				id: "6AF6B32CD6AC5B32"
+				item: "dungeon_realm:uber_fragment"
+				type: "item"
+			}]
+			subtitle: "잃어버린 페이지"
+			tasks: [{
+				id: "719DDCB789B36A34"
+				title: "한 번 클릭하여 읽기"
+				type: "checkmark"
+			}]
+			title: "더 많은 맵 콘텐츠"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0424E768816CB314"]
+			description: ["비싼 재료에도 불구하고, &e마법 해제기&r는 &e내구도 소모&r를 대가로 아이템의 모든 마법 부여를 제거할 수 있게 해줍니다."]
+			id: "5596C3E03B25B9C8"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 22750"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "7EC6BA5FD16D04E9"
+					silent: 1
+					title: "22750 경험치"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: 1
+					id: "2053355660EE0346"
+					table_id: 7157812384472883171L
+					type: "loot"
+				}
+			]
+			subtitle: "유틸리티"
+			tasks: [{
+				id: "613E6DBC63B51865"
+				item: "disenchanting:disenchanter"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7EA6A0131C5FF143"]
+			description: [
+				"엔드에서 두 가지 새로운 구조물인 &e엔드 타워와 지하 묘지&r를 찾을 수 있습니다. 이 구조물에서는 재미있는 새로운 노획물과 &e퍼퍼 골렘&r을 발견할 수 있습니다!"
+				""
+				"퍼퍼 골렘의 능력치:"
+				"&b+30% 방어도&r"
+				"&b+25% 혼돈 저항&r"
+			]
+			id: "68ADEBE337D75CA7"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 22000"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "03B6539402A8BCD3"
+					silent: 1
+					title: "22000 경험치"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: 1
+					id: "220EAAFECD7CE693"
+					table_id: 5361966167457701780L
+					type: "choice"
+				}
+			]
+			subtitle: "바깥 엔드"
+			tasks: [{
+				entity: "outer_end:purpur_golem"
+				icon: "stalwart_dungeons:purpur_bricks_wall"
+				id: "34A5EB2CC3DF0793"
+				type: "kill"
+				value: 3
+			}]
+			title: "닿을 수 없는 구조물"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7EA6A0131C5FF143"]
+			description: ["새로운 엔드 생물 군계에서 &e스토커, 매장된 자&r 및 공허의 다른 많은 사악한 생명체들을 발견할 수 있습니다. &e푸른 숲, 수정 봉우리, 원시 웅덩이&r를 확인해 보세요!"]
+			icon: "outer_end:cooked_stalker_meat"
+			id: "594A647C82F46BD8"
+			rewards: [
+				{
+					count: 16
+					id: "1D9BB7AD9EAF4F79"
+					item: "minecraft:purple_dye"
+					type: "item"
+				}
+				{
+					id: "4567579F8FBA9072"
+					item: "mmorpg:runes/oru"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 21500"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "7FAF80D19C2F9781"
+					silent: 1
+					title: "21500 경험치"
+					type: "command"
+				}
+			]
+			subtitle: "바깥 엔드"
+			tasks: [
+				{
+					entity: "outer_end:stalker"
+					icon: "outer_end:cooked_stalker_meat"
+					id: "6317E691F5CE9B74"
+					type: "kill"
+					value: 8
+				}
+				{
+					entity: "outer_end:entombed"
+					icon: "chipped:simple_purpur_block_pillar"
+					id: "7E34EBD5D2D398F9"
+					type: "kill"
+					value: 8
+				}
+			]
+			title: "공허의 거주자들"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["68ADEBE337D75CA7"]
+			description: [
+				"셸터러는 &e엔드 던전&r에서 찾을 수 있는 흥미로운 생명체입니다. &e네더의 별&r을 &e제단&r에 놓아 풀어주면, 에너지 셜커 상자에 스스로를 가둘 수 있습니다."
+				""
+				"셸터러 능력치:"
+				"&b+100% 체력&r"
+				"&b+25% 피해 억제 확률&r"
+				"&a15% 엔드 룬 드롭 확률&r"
+			]
+			id: "373410F7773044D4"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 25000"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "6EE60480A254A4A7"
+					silent: 1
+					title: "25000 경험치"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "579E9E1A7706290A"
+					item: "mmorpg:material/mining/2"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "엔드벤처"
+			tasks: [{
+				entity: "stalwart_dungeons:shelterer_without_armor"
+				icon: "stalwart_dungeons:shelterer_altar"
+				id: "62D0B75824CE2C88"
+				type: "kill"
+				value: 1
+			}]
+			title: "갇힌 상자"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"775A13E1924D6C9A"
+				"68ADEBE337D75CA7"
+			]
+			description: [
+				"&e네더&r에서 &e팬텀 크리퍼&r를 처치한 후, &e엔드&r에서 다시 그들과 마주하게 되었습니다!"
+				""
+				"&e팬텀 크리퍼&r는 &e뒤틀린 숲&r과 &e엔드&r에서 스폰됩니다. 접촉 시 분열하므로 조심해서 다뤄야 합니다!"
+				""
+				"팬텀 크리퍼 능력치:"
+				"&b+25% 회피율&r"
+			]
+			id: "600F5339B6C0975C"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 22500"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "375D153441230272"
+					silent: 1
+					title: "22500 경험치"
+					type: "command"
+				}
+				{
+					count: 5
+					id: "6400D613013852A6"
+					item: "mmorpg:material/meat/1"
+					type: "item"
+				}
+			]
+			subtitle: "엔드벤처"
+			tasks: [{
+				entity: "born_in_chaos_v1:phantom_creeper_copy"
+				icon: "born_in_chaos_v1:phantom_bomb"
+				id: "6F04C7381C916B26"
+				type: "kill"
+				value: 50
+			}]
+			title: "이계의 존재 IV"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6149D163ABF06A15"]
+			description: [
+				"&e공허 벌레 눈&r이 완벽하게 들어맞을 만한 홈을 본 것 같은데... 어디였더라?.. 고향 &e악지&r였나? 아니면 &e고대 유적&r? &e잔존자의 관문&r으로 불러낼 수 있을지도 모르겠네요."
+				""
+				"&c오수카게는 최소 레벨 60에서 스폰됩니다.&r"
+				""
+				"오수카게 능력치:"
+				"&b+8 방어구 관통 (비례)&r"
+				"&b+30% 정확도&r"
+				"&b+20% 치명타&r"
+				"&b+50% 치명타 피해&r"
+				"&b+30% 원소 저항&r"
+				"&b+20% 이동 속도&r"
+			]
+			id: "6EBB1D7F4A2F96D4"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 30000"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "6BB4ACC18BB30125"
+				silent: 1
+				title: "30000 경험치"
+				type: "command"
+			}]
+			subtitle: "즐거운 나의 집"
+			tasks: [{
+				entity: "remnant_bosses:ossukage"
+				icon: "remnant_bosses:ossukage_sword"
+				id: "32F61D09125C7156"
+				type: "kill"
+				value: 1
+			}]
+			title: "사무라이 전사"
+			x: 12.0d
+			y: 3.0d
+		}
+	]
+	subtitle: [
+		"레벨 50-65"
+		"레벨 60-75"
+	]
+	title: "5막"
+}

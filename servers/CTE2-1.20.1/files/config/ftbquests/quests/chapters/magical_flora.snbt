@@ -1,0 +1,2432 @@
+{
+	default_hide_dependency_lines: 0
+	default_quest_shape: ""
+	filename: "magical_flora"
+	group: "5F2CCE8075FCC994"
+	icon: "botania:mana_pylon"
+	id: "00D02083FCA226DA"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&e렉시카 보타니아&r는 &2&l보타니아&r&r를 탐색하는 데 도움이 되는 매우 유용한 아이템이자 가이드입니다. 렉시카를 단축 바에 두면 어떤 아이템이든 마우스 오버한 후 &eCtrl 키&r를 누른 채로 렉시카 보타니아에서 해당 아이템에 대한 문서를 열 수 있습니다."
+				""
+				"보타니아를 익히고 숙달하면 전투와 자동화에 도움이 되는 강력한 장신구와 아이템을 제작할 수 있습니다!"
+				""
+				"&c&o보타니아의 일부 기능은 밸런스 조정 목적으로 비활성화되어 있습니다. 아래 목록은 모든 제거된 항목을 포함하지 않으며, 주요 제거 항목만 다룹니다:&r&r"
+				"- 루니움"
+				"- 보어, 힘, 피해, 엔트로피, 가중치, 킨들, 팬츠슬링어 렌즈"
+				"- 가이아 유물 (주사위에서 획득보상"
+				"- 엘리멘티움 갑옷 및 검"
+				"- 다양한 지팡이"
+				""
+				"여기 언급되지 않은 유용한 것들이 많이 있습니다. 진행하면서 &e렉시카 보타니아&r를 주기적으로 읽는 것은 필수입니다!"
+			]
+			id: "375C5F3D6F6CE434"
+			rewards: [
+				{
+					count: 5
+					id: "3291161A23C92E22"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "70B7B4E51C690B9C"
+					silent: 1
+					title: "100 경험치 x 레벨"
+					type: "command"
+				}
+			]
+			subtitle: "현실적이고 논리적인 이상주의자"
+			tasks: [{
+				id: "333E6715999C5638"
+				item: "botania:lexicon"
+				type: "item"
+			}]
+			title: "보타니아 경전"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["375C5F3D6F6CE434"]
+			description: [
+				"&e신비한 꽃&r은 보타니아 진행의 시작점입니다. &e꽃 주머니&r는 꽃들을 한곳에 정리하는 데 도움이 될 수 있습니다!"
+				""
+				"&e꽃 비료&r는 뼛가루처럼 사용하여 &e신비한 꽃&r을 더 쉽게 얻을 수 있습니다!"
+			]
+			id: "386F0541CCE9CA16"
+			rewards: [
+				{
+					id: "6E81C7A61DE06E7D"
+					item: "botania:flower_bag"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "4316A2F887A0A2FD"
+					silent: 1
+					title: "100 경험치 x 레벨"
+					type: "command"
+				}
+			]
+			subtitle: "시작의 하늘"
+			tasks: [
+				{
+					count: 16
+					id: "21B15803AAC1AE3D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "botania:mystical_flowers"
+						}
+					}
+					title: "모든 #botania:mystical_flowers"
+					type: "item"
+				}
+				{
+					id: "19A688423B1BB907"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			title: "마법 주입 식물"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["386F0541CCE9CA16"]
+			description: ["&e신비한 꽃&r을 더 많은 꽃으로 재배하려면 &e꽃잎&r을 세계에 놓고 뼛가루를 사용하면 됩니다."]
+			id: "7F9BDB18FBE5EDCF"
+			rewards: [
+				{
+					count: 4
+					id: "4F4E9BC44D0D2D31"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "4A67BA0D6CB28907"
+					silent: 1
+					title: "100 경험치 x 레벨"
+					type: "command"
+				}
+			]
+			tasks: [{
+				count: 16
+				id: "58491A36F25EE617"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:double_mystical_flowers"
+					}
+				}
+				title: "모든 #botania:double_mystical_flowers"
+				type: "item"
+			}]
+			title: "더 많은 마법 주입 식물"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["386F0541CCE9CA16"]
+			description: ["&e꽃잎 약제상&r은 보타니아의 주요 '작업대'입니다. 모든 &e기능성 및 생성 꽃&r의 제작 작업대 역할을 합니다."]
+			id: "7F4A3981CAAEF73B"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "6FB5B5E1ED6DE217"
+				silent: 1
+				title: "100 경험치 x 레벨"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "5E1529E6B524E776"
+					item: "botania:apothecary_default"
+					type: "item"
+				}
+				{
+					id: "62167E5B16566363"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7F4A3981CAAEF73B"]
+			description: ["&e순수한 데이지&r는 꽃의 기본 중 기본입니다. &e돌과 원목을 살아있는 바위와 살아있는 나무로&r 변환합니다."]
+			icon: "botania:pure_daisy"
+			id: "5886370AB6110B26"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "55F9B02BA217DC97"
+				silent: 1
+				title: "100 경험치 x 레벨"
+				type: "command"
+			}]
+			subtitle: "황홀한 비바체"
+			tasks: [
+				{
+					id: "15080337FAF41819"
+					item: "botania:pure_daisy"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0178EB0610FAAC3B"
+					item: "botania:livingrock"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4A10DC91A578B8F4"
+					item: {
+						Count: 5
+						id: "botania:livingwood_log"
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5886370AB6110B26"
+				"425932D1D16BF387"
+			]
+			description: [
+				"&e마나 웅덩이&r는 여러분이 축적하는 모든 마나를 담는 \"배터리\"입니다. 주요 저장소로서 마나 웅덩이를 작동시키는 것이 중요합니다!"
+				""
+				"&e모든 선행 조건이 완료되어야 합니다.&r"
+			]
+			id: "626B63941D36E8C2"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "180F4535CFA511ED"
+				silent: 1
+				title: "100 경험치 x 레벨"
+				type: "command"
+			}]
+			subtitle: "생생한 웨이브"
+			tasks: [{
+				id: "735046BC3125BB03"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			title: "마나를 내놔!"
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"5886370AB6110B26"
+				"425932D1D16BF387"
+			]
+			description: [
+				"&e마나 살포기&r는 주로 마나 파동을 &e마나 웅덩이&r로 보내거나 마나 웅덩이에서 받도록 지시하는 데 사용됩니다. 또한 마나를 생성하는 데도 필요합니다. 마나를 생성하는 원천 꽃은 마나를 웅덩이로 보내기 전에 연결된 살포기로 보내야 하기 때문입니다."
+				""
+				"거리가 마나 전송률에 크게 영향을 미친다는 점을 유의해야 합니다. 살포기는 이전 파동이 도착하기 전까지 다음 파동을 발사할 수 없습니다!"
+				""
+				"&o회당 160 마나를 전송합니다.&r"
+				""
+				"&e모든 선행 조건이 완료되어야 합니다.&r"
+			]
+			id: "144467B32903983B"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "12E22C5A783337C6"
+				silent: 1
+				title: "100 경험치 x 레벨"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0D6BDB6B4BAD5E2A"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			title: "마나 위임"
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5886370AB6110B26"]
+			description: ["&e숲의 지팡이&r는 꽃을 &e마나 웅덩이/마나 살포기&r에 &e연결&r하는 데 도움이 되는 연결 도구이자 '렌치'입니다. 이 지팡이를 마나 살포기에서 마나 흐름의 방향과 같이 특정 보타니아 개체를 서로 연결할 수 있게 해주는 도구라고 생각하십시오."]
+			id: "425932D1D16BF387"
+			rewards: [
+				{
+					id: "0BD216B7D41C5F33"
+					item: "simplehats:lightning_eyes"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "140F35FD322F6C29"
+					silent: 1
+					title: "100 경험치 x 레벨"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "5130669687385326"
+				item: {
+					Count: 1
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "숲의 렌치"
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["626B63941D36E8C2"]
+			description: ["가득 찬 &e마나 웅덩이&r에 다양한 아이템을 던져 대부분의 제작에 사용되는 마나 변형 아이템으로 바꿀 수 있습니다."]
+			id: "7765E99AC13D3032"
+			rewards: [
+				{
+					count: 3
+					id: "0BC23B68BD5A183C"
+					item: "mmorpg:material/mining/1"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1E110EC96B1DACA3"
+					item: "mmorpg:stone/2"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "1FA7C3BF8B7EAFD5"
+					silent: 1
+					title: "100 경험치 x 레벨"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 5
+					id: "2E963E280A3E2CB1"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1D5F7C90CA307282"
+					item: "botania:mana_pearl"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0094350D39F50F54"
+					item: "botania:mana_diamond"
+					type: "item"
+				}
+			]
+			title: "주입된 주괴"
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["144467B32903983B"]
+			description: [
+				"실제로 마나를 생성하려면 &e엔도플레임 또는 하이드로안게아스&r와 같은 &e생성 꽃&r이 필요합니다."
+				""
+				"엔도플레임은 석탄이나 숯과 같은 화로 연료를 소모하여 마나를 생성하며, 하이드로안게아스는 주변 3x3 영역의 수원에서 물을 흡수하여 소량의 마나를 수동적으로 제공합니다. 하지만 하이드로안게아스는 결국 쇠퇴합니다."
+			]
+			id: "757C990D0DCFE95B"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "27BD5A116AD9354A"
+					silent: 1
+					title: "100 경험치 x 레벨"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "225794BF517EA186"
+					item: "botania:endoflame"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "10D95B7770A93DA2"
+					item: "botania:hydroangeas"
+					type: "item"
+				}
+			]
+			subtitle: "꽃 마법"
+			tasks: [
+				{
+					id: "0D4CA0EF2C1317EE"
+					item: "botania:endoflame"
+					type: "item"
+				}
+				{
+					id: "7D590C6772A6E03F"
+					item: "botania:hydroangeas"
+					type: "item"
+				}
+			]
+			title: "첫 번째 생성 식물"
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["626B63941D36E8C2"]
+			description: ["&e마나 웅덩이&r에 실을 담그면 &e마나 실&r을 만들 수 있습니다. 이 실은 다양한 장식용 아이템과 장신구에 사용할 수 있습니다."]
+			id: "35AF07FCCB27D2E0"
+			rewards: [
+				{
+					id: "02B27520FC0497E6"
+					item: "botania:cosmetic_eerie_mask"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "206DCA8214A88470"
+					silent: 1
+					title: "100 경험치 x 레벨"
+					type: "command"
+				}
+			]
+			tasks: [{
+				count: 5
+				id: "571E3F5AC93747AF"
+				item: "botania:mana_string"
+				type: "item"
+			}]
+			title: "화려하게 꾸밀 시간"
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["35AF07FCCB27D2E0"]
+			description: ["&e마나 실&r을 &e마나 직조 천&r으로 조합하면 모든 지팡이, 갑옷, 도구의 마나 소모량을 크게 줄여주는 좋은 기본 보타니아 갑옷을 만들 수 있습니다."]
+			id: "4E4F05F210F326B4"
+			rewards: [
+				{
+					id: "4257552173C28185"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "15C136EA1FB795A8"
+					item: "mmorpg:currency/affix_common_reroll"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "05F410CDAE0F5C2D"
+					silent: 1
+					title: "100 경험치 x 레벨"
+					type: "command"
+				}
+			]
+			subtitle: "상상의 숲"
+			tasks: [
+				{
+					id: "2C9CEA1A0FD8BEAB"
+					item: {
+						Count: 1
+						id: "botania:manaweave_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "701B90582985D13A"
+					item: {
+						Count: 1
+						id: "botania:manaweave_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D9B02482FE23A66"
+					item: {
+						Count: 1
+						id: "botania:manaweave_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28719367432D7C6B"
+					item: {
+						Count: 1
+						id: "botania:manaweave_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "고급 겉옷"
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7765E99AC13D3032"]
+			description: ["&3&l마나 태블릿&r&r을 사용하면 마나를 휴대하고 전송할 수 있습니다. 숲의 지팡이를 사용하여 마나 웅덩이를 충전 또는 소모 모드로 전환하고, 태블릿을 웅덩이에 떨어뜨리면 마나가 전송됩니다."]
+			icon: "botania:mana_tablet"
+			id: "21E565614968622B"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "1F23CBF2C75BD36A"
+					silent: 1
+					title: "100 경험치 x 레벨"
+					type: "command"
+				}
+				{
+					count: 4
+					id: "2474F9CA59F7A1CF"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4D6C1714298883CF"
+				item: "botania:mana_tablet"
+				type: "item"
+			}]
+			title: "휴대용 마나"
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"626B63941D36E8C2"
+				"144467B32903983B"
+				"425932D1D16BF387"
+			]
+			description: [
+				"&n&3&l룬 제단&r&r&r에 마나를 주입하고 제작 재료를 추가하면 &e보타니아 룬&r (&c마인 앤 슬래시 룬과 혼동하지 마세요!&r) 제작을 시작할 수 있습니다. 제작 과정을 완료하려면 &e살아있는 바위&r를 위에 떨어뜨린 다음 &e숲의 지팡이&r로 클릭해야 합니다. 룬은 다양한 제작에 사용됩니다."
+				""
+				"&e모든 선행 조건이 완료되어야 합니다.&r"
+			]
+			icon: "botania:runic_altar"
+			id: "2CCB1CB299A81969"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "5E7EBF27BF99F475"
+					silent: 1
+					title: "100 경험치 x 레벨"
+					type: "command"
+				}
+				{
+					id: "322FC2807B4D18EB"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":20,\"id\":\"rune\",\"key\":\"\"}"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "드롭 팝 캔디"
+			tasks: [
+				{
+					id: "524F696A444E116F"
+					item: "botania:runic_altar"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "42953863EFF14F5C"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "botania:runes"
+						}
+					}
+					title: "모든 #botania:runes"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2CCB1CB299A81969"]
+			description: ["&e원소 룬&r은 더 복잡한 룬과 다양한 아이템을 제작하는 데 사용될 수 있는 핵심 룬입니다."]
+			id: "5AF488FC9A36BFA1"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 250"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "3C14054033CDCB8D"
+					silent: 1
+					title: "경험치 250 x 레벨"
+					type: "command"
+				}
+				{
+					id: "05C80CF5711B03FF"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":20,\"id\":\"rune\",\"key\":\"\"}"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "원소 위력"
+			tasks: [
+				{
+					id: "4598AB9722168777"
+					item: "botania:rune_water"
+					type: "item"
+				}
+				{
+					id: "7D656D186AB14893"
+					item: "botania:rune_fire"
+					type: "item"
+				}
+				{
+					id: "5380286FB99B2511"
+					item: "botania:rune_earth"
+					type: "item"
+				}
+				{
+					id: "219396CC4AF3607F"
+					item: "botania:rune_air"
+					type: "item"
+				}
+				{
+					id: "27EB134436733A24"
+					item: "botania:rune_mana"
+					type: "item"
+				}
+			]
+			title: "원소 룬"
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5AF488FC9A36BFA1"]
+			description: ["&e응집판&r은 &e테라스틸&r 생성을 위한 제작대로 사용됩니다."]
+			id: "4C947F0DD56C009C"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "543340695C1E918F"
+					silent: 1
+					title: "경험치 100 x 레벨"
+					type: "command"
+				}
+				{
+					id: "43CD4827B0A8EBDA"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					id: "76CDBDF4133C8D19"
+					item: "botania:mana_pearl"
+					type: "item"
+				}
+				{
+					id: "64D74FF0E04B05AA"
+					item: "botania:mana_diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7C8DE2D66937F802"
+					item: "botania:terra_plate"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "369F738FC5EBEE08"
+					item: "minecraft:lapis_block"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7E6A4FC09C14F5FF"
+					item: "botania:livingrock"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "59EB5E4FFE62E171"
+					item: "botania:spark"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4C947F0DD56C009C"]
+			description: [
+				"핵심 마나 자원에 많은 양의 마나를 부으면 단순한 &e마나강 주괴&r보다 더 강력한 주괴로 조합할 수 있습니다. 성공적으로 제작하려면 마나 자원량의 절반이 필요하며, 제작이 중단되지 않도록 하십시오. 그렇지 않으면 마나를 잃게 됩니다!"
+				""
+				"이 과정을 크게 가속화하려면 평면과 원천 마나 웅덩이 모두에 스파크를 설치하는 것이 강력히 권장됩니다. 분배기는 이 복잡한 과정에 너무 느립니다."
+				""
+				"&e모든 선행 조건이 완료되어야 합니다.&r"
+			]
+			id: "29FF9EF35E5B5FC7"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 200"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "19CC8E55BADA7FA6"
+				silent: 1
+				title: "경험치 200 x 레벨"
+				type: "command"
+			}]
+			subtitle: "어둠 속의 춤꾼"
+			tasks: [{
+				count: 4
+				id: "73F5589E0579E511"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			title: "테라스틸 입문"
+			x: -4.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["626B63941D36E8C2"]
+			description: ["모험 중에 가끔 상자에서 &e검은 연꽃&r을 발견할 수 있습니다. 연꽃을 비어있지 않은 &e마나 웅덩이&r에 떨어뜨리면 공짜 마나를 얻을 수 있습니다!"]
+			id: "7CFDB0573735E69E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "70510941304702CA"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			tasks: [{
+				count: 3
+				id: "0F277CC6C3F60B56"
+				item: "botania:black_lotus"
+				type: "item"
+			}]
+			title: "공짜 마나?!"
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7CFDB0573735E69E"]
+			description: ["때로는 행운이 기대치를 뛰어넘어 &e검은 연꽃&r의 더 좋은 버전을 얻을 수도 있습니다..."]
+			id: "19C436D10269B068"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 250"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "6B31AAE148A74E0B"
+					silent: 1
+					title: "경험치 250 x 레벨"
+					type: "command"
+				}
+				{
+					id: "6CA94324ACAC5BAB"
+					item: "simplehats:antlers"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3
+				id: "2DD15EB4DA3AF53D"
+				item: "botania:blacker_lotus"
+				type: "item"
+			}]
+			title: "파워 나인 제곱"
+			x: -3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["29FF9EF35E5B5FC7"]
+			description: ["한 번의 타격으로 나무 전체를 베세요! 서버 지연을 방지하기 위한 상한이 있습니다."]
+			id: "644D7EB2D3F68FB1"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "601ABD659AF2BC18"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "나무꾼의 꿈"
+			tasks: [{
+				id: "10862186EDEB87AF"
+				item: {
+					Count: 1
+					id: "botania:terra_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "나무꾼"
+			x: -2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["29FF9EF35E5B5FC7"]
+			description: [
+				"강화 가능한 곡괭이, 강화하는 데 마나를 아주 조금만 소모하죠, 그렇죠?"
+				"강화하려면 마나 웅덩이에 마나와 함께 담그세요. D (보너스 없음)부터 시작하여 엄청나게 비싼 &c&lSS&r&r, 9x9 크기까지 다양한 단계와 크기를 통해 강화하는 데 많은 양의 마나를 소모합니다! 완전히 강화하려면 1,000개 이상의 가득 찬 웅덩이를 소모합니다."
+			]
+			id: "3529E83325555E7A"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "31373E602F46AAE7"
+					silent: 1
+					title: "경험치 100 x 레벨"
+					type: "command"
+				}
+				{
+					id: "20B1B345809D3BFB"
+					item: "simplehats:dwarfminerbeard"
+					type: "item"
+				}
+			]
+			subtitle: "대지 수확"
+			tasks: [{
+				id: "54D79ECAD22B6004"
+				item: {
+					Count: 1
+					id: "botania:terra_pick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "테라 쇄석기"
+			x: -2.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["29FF9EF35E5B5FC7"]
+			description: [
+				"렉시카에 표시된 대로 다양한 블록을 조합하고 많은 양의 마나를 추가하여 &e엘프 상인&r과 차원문 연결을 생성할 수 있습니다. 아마도 연결이 설정되면 그들이 당신의 &e렉시카 보타니아&r에 관심을 가질 것입니다..."
+				"{image:botania:block/alfheim_portal_swirl width:100 height:100 align:center}"
+			]
+			id: "5E33BF5591E1C097"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "69F464A7F336481B"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "세계의 부름"
+			tasks: [
+				{
+					id: "20FECEC54F5EDD1C"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5A4CD1AA62FA8F09"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "botania:glimmering_livingwood_logs"
+						}
+					}
+					title: "모든 #botania:glimmering_livingwood_logs"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "23F93DCB22EF28BC"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "botania:livingwood_logs"
+						}
+					}
+					title: "모든 #botania:livingwood_logs"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "55980D74B6B040EF"
+					item: "botania:natura_pylon"
+					type: "item"
+				}
+				{
+					id: "41A87859AB252B81"
+					item: "botania:lexicon"
+					type: "item"
+				}
+			]
+			title: "엘프 상인"
+			x: -4.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["5E33BF5591E1C097"]
+			description: [
+				"&e렉시카 보타니아&r에 표시된 대로 특별한 아레나를 건축하고 &e테라스틸 주괴&r를 중앙에 던져 &e가이아의 가디언&r을 소환할 수 있습니다."
+				""
+				"&c가이아의 가디언은 항상 최소 레벨 45로 스폰됩니다.&r"
+				""
+				"가이아의 가디언 능력치: "
+				"&b+30% 회피율&r"
+				"&b+30% 주문 회피율&r"
+				"&b+100% 원소 저항&r"
+			]
+			icon: "botania:life_essence"
+			id: "0F4713A9935F369F"
+			rewards: [
+				{
+					id: "46BBA0C2125307D3"
+					item: "simplehats:festiveantlers"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "502C82E8854716EB"
+					silent: 1
+					title: "경험치 500 (레벨 비례보상"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "죽은 자를 찾아서"
+			tasks: [
+				{
+					count: 4
+					id: "38B6FD25DDFE6D7F"
+					item: "botania:gaia_pylon"
+					type: "item"
+				}
+				{
+					id: "368DFD575236AE0A"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "23799D66DB46E6B5"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "594862AFB9DC64B6"
+					item: "botania:terrasteel_ingot"
+					type: "item"
+				}
+				{
+					entity: "botania:doppleganger"
+					icon: "botania:life_essence"
+					id: "4EB8C545D6989285"
+					type: "kill"
+					value: 1
+				}
+			]
+			title: "가이아의 가디언"
+			x: -1.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["0F4713A9935F369F"]
+			description: ["&e테라스틸 주괴&r를 &e가이아 정수&r와 조합하면 더 강력한 금속을 생성할 수 있습니다. 이 새로운 금속인 &e가이아 정수 주괴&r는 더 강력한 버전의 가디언을 소환하는 데 사용될 수 있습니다!"]
+			id: "2AA870C10523482D"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "4F999D5876FBD2F7"
+					silent: 1
+					title: "경험치 100 (레벨 비례보상"
+					type: "command"
+				}
+				{
+					id: "6F980E5DA27FAEDF"
+					item: "simplehats:rainboworbiters"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5EFF6FFE75FDC3BF"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			title: "과충전된 가이아"
+			x: -1.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["7E4CDBDAE7BAD2C3"]
+			description: [
+				"&c&l엔트로피늄&r&r 근처에서 TNT 블록을 점화하면 폭발을 소모하여 많은 양의 마나로 전환합니다."
+				"중요 사항: 버퍼에 마나가 있으면 다른 폭발을 무시하고 정상적으로 폭발하게 둡니다! 치명적인 피해를 방지하려면 타이밍이 중요합니다! 이 꽃을 가능한 한 빨리 비우는 것이 중요합니다. 어쩌면 오래된 마나 살포기를 강화할 방법이 있을지도 모릅니다... 이 꽃은 TNT가 윤리적으로 획득되었는지 감지할 수 있는 것 같으며, 복제기를 통해 획득된 TNT인 경우 극심한 생성 페널티를 부과합니다."
+				""
+				"&c&l써말릴리&r&r는 용암 원천을 소모하여 마나를 생산하는 하이드로안게아스의 네더 대안입니다. 용암을 처리하는 재사용 대기시간이 있으며, 이 재사용 대기시간 동안 다른 용암 원천을 설치하면 마나를 생산하지 않고 소모하며 재사용 대기시간을 초기화합니다. 이 꽃은 가변적인 재사용 대기시간 때문에 자동화하기 까다롭지만 강력한 마나 원천이 될 수 있습니다!"
+			]
+			id: "622EF4EBE96C0429"
+			rewards: [
+				{
+					count: 8
+					id: "68CCA2D4D65DB8F8"
+					item: "minecraft:tnt"
+					type: "item"
+				}
+				{
+					id: "589F49ED4647E9A7"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "60F4410FF8DE1DD7"
+					silent: 1
+					title: "경험치 100 (레벨 비례보상"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "35CCF62F68153164"
+					item: "botania:entropinnyum"
+					type: "item"
+				}
+				{
+					id: "0E76635EBE50BE78"
+					item: "botania:thermalily"
+					type: "item"
+				}
+			]
+			title: "성숙한 폭발"
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["757C990D0DCFE95B"]
+			description: [
+				"&2&l구르마릴리스&r&r는 주어지는 모든 음식을 소모하고 그것을"
+				"소화한 후 마나로 바꿉니다. 소화 시간 동안 던져진 음식은"
+				"마나를 생성하지 않지만 여전히 소모됩니다. 소화 시간과 마나의 양은 주어진 음식의 영양 가치에 직접적으로 달려 있습니다. 이 꽃은 다양성을 선호하며, 같은 음식 아이템을 연속해서 너무 많이 먹으면 생성 페널티를 부과합니다."
+				"&2&l케키무루스&r&r는 단 것을 아주 좋아합니다. 근처에 설치된 케이크를 점차적으로 먹어 마나로 바꿉니다."
+			]
+			id: "7E4CDBDAE7BAD2C3"
+			rewards: [
+				{
+					id: "1C9F4A8D4D9D3D12"
+					item: "aquaculturedelight:tuna_spaghetti"
+					type: "item"
+				}
+				{
+					id: "36BAD0A2B16E9E38"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "3BB4113929999F8A"
+					silent: 1
+					title: "경험치 100 (레벨 비례보상"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "0A2528AE92227789"
+					item: "botania:gourmaryllis"
+					type: "item"
+				}
+				{
+					id: "5C80FE77C87274F7"
+					item: "botania:kekimurus"
+					type: "item"
+				}
+			]
+			title: "맛있는 간식"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4E4F05F210F326B4"]
+			description: ["마나스틸로 만든 갑옷과 도구는 휴대용 마나 공급원에서 마나를 사용하여 천천히 수리되는 자체 내장 수선 시스템을 가지고 있습니다."]
+			id: "63FAC5EE546117E9"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "79CFBA772E1368A8"
+					silent: 1
+					title: "경험치 100 x 레벨"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "2870F8664EA8B508"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "마법의 보호"
+			tasks: [
+				{
+					id: "41E4BB72C3044925"
+					item: {
+						Count: 1
+						id: "botania:manasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "551AC11BFF35B327"
+					item: {
+						Count: 1
+						id: "botania:manasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2AD40097E975DDB4"
+					item: {
+						Count: 1
+						id: "botania:manasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E6F072C8BE033E9"
+					item: {
+						Count: 1
+						id: "botania:manasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "마나 \"강탈\""
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["21E565614968622B"]
+			description: ["마나 태블릿을 들고 다니는 대신 반지로 제작하여 큐리오 슬롯에 착용할 수 있습니다! 이러한 장신구에는 MNS 영혼도 적용될 수 있습니다!"]
+			id: "29792179C0F9C558"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "6594D243FDD2E394"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "내면의 기술"
+			tasks: [{
+				id: "3AC049EC332B237A"
+				item: "botania:mana_ring"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2CCB1CB299A81969"]
+			description: ["&e식물 양조기&r를 사용하면 다양한 바닐라 및 보타니아 고유의 물약 효과를 가진 다용도 물약을 양조할 수 있습니다."]
+			id: "5501085B22C643F9"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "4CEE80924C54A38B"
+					silent: 1
+					title: "경험치 100 x 레벨"
+					type: "command"
+				}
+				{
+					id: "6B8E3243D165C2ED"
+					item: "simplehats:zigzagwitchhat"
+					type: "item"
+				}
+			]
+			subtitle: "나의 가장 강력한 물약"
+			tasks: [
+				{
+					id: "6161F6D45BD55F73"
+					item: "botania:brewery"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "577580DFA0C10900"
+					item: "botania:vial"
+					type: "item"
+				}
+			]
+			title: "더 양조해 줘!"
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5501085B22C643F9"]
+			description: [
+				"주변 몹들로부터 휴식을 취하고 싶으신가요? &l&3허영의 공허 양조물&r&r은 당신 주변 &n128 블록 반경&r 내의 모든 자연 몹 생성을 중지시켜, 이 양조물의 지속 시간 동안 당신을 휴대용 메가 횃불로 만듭니다."
+				""
+				"그리고 피를 갈망하고 몹 생성률에 어려움을 겪는다면 - &c&l진홍 그림자 양조물&r&r이 지속 시간 동안 &n64 블록 반경&r 내에서 당신을 도와주어, 당신을 주머니 속 블러드 문으로 만듭니다."
+			]
+			id: "6C492D34CE6F404C"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "5663C62720C9A346"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "평화 또는 혼돈"
+			tasks: [
+				{
+					id: "0EFEF6DB4CB9FAA6"
+					item: {
+						Count: 1
+						id: "botania:brew_vial"
+						tag: {
+							brewKey: "botania:emptiness"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F2DE0D38EC44F9F"
+					item: {
+						Count: 1
+						id: "botania:brew_vial"
+						tag: {
+							brewKey: "botania:bloodthirst"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "복잡한 양조"
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["144467B32903983B"]
+			description: [
+				"세대별 식물 외에도 많은 &n기능성 식물&r이 있습니다. 이 꽃들에게 마나를 공급하면 다양한 행동을 수행하는 데 사용합니다."
+				"가장 일반적인 것들은 다음과 같습니다:"
+				"&2&l호퍼호크&r&r는 반경 내의 모든 아이템을 주워 인접한 보관함에 보관합니다. 소량의 마나를 공급하면 반경이 크게 증가하며, 보관함에 설치된 아이템 액자를 사용하여 아이템을 필터링할 수도 있습니다."
+				"&2&l농경 카네이션&r&r은 마나를 공급받으면 작물의 성장을 크게 가속화하는 비료 꽃입니다."
+				"&2&l엑소플레임&r&r은 세대별 식물의 엔도플레임 꽃의 역방향 버전입니다. 마나를 공급받으면 연료 없이 근처 화로에 전력을 공급하고 속도 증가 효과를 줍니다."
+			]
+			id: "2A9C8DC76F5402B5"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "4B46D1460C6AFD85"
+				silent: 1
+				title: "경험치 100 (레벨 비례보상"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "63965FBF768F2F40"
+					item: "botania:hopperhock"
+					type: "item"
+				}
+				{
+					id: "20617DFE1C64B837"
+					item: "botania:agricarnation"
+					type: "item"
+				}
+				{
+					id: "726DE0CCAB76F1FC"
+					item: "botania:exoflame"
+					type: "item"
+				}
+			]
+			title: "기능성 식물 입문"
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6C84C6DC5D77E05D"]
+			description: [
+				"세대별 식물의 좋은 예시로는 &2&l오레키드&r&r와 &2&l오레키드 이그넴&r&r이 있습니다."
+				"이 두 꽃은 많은 양의 마나를 공급받으면 돌/네더랙을 상당한 양의 차원별 광석으로 변환하는 데 사용됩니다."
+				"&e중요 사항: 오레키드 이그넴은 작동하려면 네더에 있어야 합니다.&r"
+			]
+			id: "14960E1ACAB65A8A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 200"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "4B65D23594342E6C"
+				silent: 1
+				title: "경험치 200 (레벨 비례보상"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "2DBE5470551AD1CC"
+					item: "botania:orechid"
+					type: "item"
+				}
+				{
+					id: "283AA0F503FB441F"
+					item: "botania:orechid_ignem"
+					type: "item"
+				}
+			]
+			title: "광물 생성"
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2A9C8DC76F5402B5"]
+			description: [
+				"&2&l스펙트란테뭄&r&r은 마나를 소모하여 아이템을 연결된 위치로 순간이동시키는 꽃입니다. 숲의 지팡이를 연결 모드로 사용하여 특정 위치를 연결할 수 있습니다."
+				"&2&l클레이코니아&r&r는 근처 모래 블록을 빠르게 점토 덩이로 전환합니다."
+			]
+			id: "6C84C6DC5D77E05D"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "5AECFFDAD351684B"
+				silent: 1
+				title: "경험치 100 (레벨 비례보상"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "62FD3A289F8352ED"
+					item: "botania:spectranthemum"
+					type: "item"
+				}
+				{
+					id: "2033CC67E4F13CD2"
+					item: "botania:clayconia"
+					type: "item"
+				}
+			]
+			title: "자연 유틸리티"
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2A9C8DC76F5402B5"]
+			description: ["이 책에 나열되지 않은 다양한 &e세대별 식물&r이 있습니다. &e렉시카 보타니아&r의 관련 챕터를 보고 다른 흥미롭고 강력한 옵션이 무엇인지 발견하는 것이 현명할 것입니다."]
+			icon: "botania:narslimmus"
+			id: "0E605A9E8F7445AE"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "72A51782A5F20458"
+				silent: 1
+				title: "경험치 100 (레벨 비례보상"
+				type: "command"
+			}]
+			subtitle: "복잡한 호기심"
+			tasks: [{
+				id: "716172C55EF47C42"
+				title: "고급 세대별 식물"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6C492D34CE6F404C"]
+			description: ["양조 과정에서 작은 병 대신 &e향 막대기&r를 사용하면 물약과 동일한 효과를 부여할 수 있습니다. 물약 효과의 이동성을 희생하고 &e향 막대기&r를 &e향 접시&r에 넣고 부싯돌과 부시로 불을 붙이면 물약 효과가 64배 더 오래 지속됩니다!"]
+			id: "53845C1C87A44C3C"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "1A7B949E858E7836"
+				silent: 1
+				title: "경험치 100 (레벨 비례보상"
+				type: "command"
+			}]
+			subtitle: "사용자 지정 임시 신호기"
+			tasks: [
+				{
+					id: "26C5AE6669DF73EE"
+					item: "botania:incense_plate"
+					type: "item"
+				}
+				{
+					id: "0BA67246C42BEA39"
+					item: "botania:incense_stick"
+					type: "item"
+				}
+			]
+			title: "연기 효과"
+			x: 2.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["5B980171D8F54AAC"]
+			description: ["장착하고 소량의 마나를 공급받으면 &l&2방랑자의 허리띠&r&r는 점프 높이와 이동 속도를 증가시키고 1 블록 높이를 오를 수 있게 해줍니다!"]
+			id: "2AC92077C2E11DEE"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "56E5DC6F0C992AA6"
+				silent: 1
+				title: "경험치 100 (레벨 비례보상"
+				type: "command"
+			}]
+			subtitle: "내면의 기술"
+			tasks: [{
+				id: "6B70CD8CB9D75CE1"
+				item: "botania:travel_belt"
+				type: "item"
+			}]
+			title: "빨리 가야 해!"
+			x: -8.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0F4713A9935F369F"]
+			description: ["방랑자의 허리띠의 개선된 버전으로, 당신을 더 빠르게 만들어줍니다."]
+			id: "3328931FE8E2792E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 200"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "783D8B1057916D55"
+				silent: 1
+				title: "경험치 200 x 레벨"
+				type: "command"
+			}]
+			subtitle: "&l정말&r 빨리 가야 해!"
+			tasks: [{
+				id: "58023219C8F85AF1"
+				item: "botania:super_travel_belt"
+				type: "item"
+			}]
+			title: "부릉부릉"
+			x: -2.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["21E565614968622B"]
+			description: [
+				"다양한 유용한 효과를 제공할 수 있는 다양한 &e &n장신구 및 액세서리&r&r를 제작하고 착용할 수 있습니다."
+				""
+				"당신의 첫 장신구는 &2&l마나시어 모노클&r&r이어야 합니다. 이것은 벽을 통해서도 마나 폭발을 볼 수 있게 해주지만, 가장 유용한 능력은 생성 및 기능성 식물의 효과 범위를 시각화해준다는 것입니다."
+				""
+				"또 다른 매우 유용한 장신구는 &l&2더 스펙테이터&r&r입니다. 원하는 아이템을 손에 들고 있으면 해당 아이템이 있는 근처 보관함이 발광합니다."
+				""
+				"&2&l서드 아이&r&r는 주변 몹들에게 벽을 통해서도 볼 수 있는 발광 윤곽선을 부여합니다."
+			]
+			id: "5B980171D8F54AAC"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 200"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "6C4757A8FFB7C5A9"
+				silent: 1
+				title: "경험치 200 x 레벨"
+				type: "command"
+			}]
+			subtitle: "내면의 기술"
+			tasks: [
+				{
+					id: "12BEDDA4F2B264F3"
+					item: "botania:monocle"
+					type: "item"
+				}
+				{
+					id: "35FA316E88FF49AC"
+					item: "botania:itemfinder"
+					type: "item"
+				}
+				{
+					id: "662B23A12D592BD5"
+					item: "botania:third_eye"
+					type: "item"
+				}
+			]
+			title: "장신구 입문"
+			x: -7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5B980171D8F54AAC"]
+			description: [
+				"&2&l시러스 아뮬렛&r&r은 &e&n이단 점프&r&r 능력을 제공합니다. 두 번째 점프는 수직 운동량을 완전히 상쇄하여 모든 낙하 피해를 무효화합니다."
+				""
+				"&2&l자비로운 여신의 부적&r&r은 주변의 모든 폭발이 블록을 파괴하는 것을 마치 일어나지 않은 것처럼 막아줍니다."
+			]
+			id: "15A416B2B899440A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 200"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "006AA537479C9A70"
+				silent: 1
+				title: "경험치 200 x 레벨"
+				type: "command"
+			}]
+			subtitle: "내면의 기술"
+			tasks: [
+				{
+					id: "1D11C480C4911605"
+					item: "botania:cloud_pendant"
+					type: "item"
+				}
+				{
+					id: "3DF3522DA66B29F2"
+					item: "botania:goddess_charm"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["15A416B2B899440A"]
+			description: [
+				"&2&l맨틀의 반지&r&r는 착용자에게 더 효율적인 채광을 위한 성급함 효과를 제공합니다."
+				""
+				"&2&l코르다타의 링&r&r은 착용자가 수중에서 숨쉬고, 더 잘 보고, 더 잘 채굴할 수 있게 해줍니다."
+			]
+			id: "00367AAF028966BC"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "3D6378D70ACCBE7A"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "내면의 기술"
+			tasks: [
+				{
+					id: "68EFA8D0F7CC6FC4"
+					item: "botania:mining_ring"
+					type: "item"
+				}
+				{
+					id: "1B70FF91DB7BD964"
+					item: "botania:water_ring"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["5AF488FC9A36BFA1"]
+			description: [
+				"지팡이에 원소 룬을 부여하여 흥미로운 결과를 얻을 수 있습니다. 보타니아는 많은 유용한 지팡이를 제공하며, 가장 대표적인 예시는 다음과 같습니다:"
+				"&2&l하늘의 지팡이&r&r는 당신을 하늘 높이 발사하며, 겉날개나 패러글라이더와 연계하여 로켓 대신 사용하여 더 쉬운 비행을 할 수 있습니다."
+				"&2&l대지의 지팡이&r&r는 마나를 공급할 수 있는 한 무한한 흙을 제공하여 지형 변화를 쉬운 과업으로 만들어줍니다."
+				"&2&l심연의 지팡이&r&r는 대지의 지팡이와 동일한 행동을 수행하지만, 약간 더 높은 마나 소모량으로 조약돌을 대신 사용합니다."
+				"&2&l바다의 지팡이&r&r는 마나가 있는 한 물을 제공하는 무한 물 양동이이며, &e꽃잎 약제상&r과 함께 작업할 때 특히 유용합니다."
+			]
+			id: "52BB2147C93EAEDD"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "4DD2369F7B276F9C"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "원소 도구"
+			tasks: [
+				{
+					id: "675177DCE483E2DF"
+					item: {
+						Count: 1
+						id: "botania:tornado_rod"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "53F0B227D10E37D4"
+					item: "botania:dirt_rod"
+					type: "item"
+				}
+				{
+					id: "1929608B919D44D1"
+					item: "botania:cobble_rod"
+					type: "item"
+				}
+				{
+					id: "2589618EA6A5BA3C"
+					item: "botania:water_rod"
+					type: "item"
+				}
+			]
+			title: "원소 지팡이"
+			x: -1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5E33BF5591E1C097"]
+			description: [
+				"&e엘프 무역&r 경로를 확립함으로써 증강을 통해 기존 &e스파크를 개선할 방법&r을 찾을 수 있습니다."
+				"증강은 마나 웅덩이 위에 배치된 스파크에 적용될 수 있습니다."
+				"웅덩이에서 마나를 소모하여 &2&l분산 증강&r&r은 모험가의 보관함에 있는 아이템을 천천히 재충전합니다."
+				"&2&l지배 증강&r&r은 스파크가 있는 모든 마나 웅덩이에서 마나를 끌어당겨 자신의 마나 웅덩이를 채웁니다."
+				"&2&l열성 증강&r&r은 자신의 웅덩이에서 마나를 동일한 시스템 내의 다른 모든 스파크로 분산시킵니다."
+				"&2&l고립 증강&r&r은 스파크를 다른 증강의 효과로부터 완전히 고립시킵니다."
+				""
+				"이 &2&l증강&r&r의 어떤 조합이든 사용하여 대량 마나 저장 및 전송을 가능하게 하세요!"
+			]
+			id: "0F137A63D6205437"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "3D83621C90FDE899"
+					silent: 1
+					title: "경험치 100 x 레벨"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "442BD63FAC98AD99"
+					item: "botania:spark"
+					type: "item"
+				}
+			]
+			subtitle: "라이브 드라이브"
+			tasks: [
+				{
+					id: "4981A7B70DB3CE7E"
+					item: "botania:spark_upgrade_dispersive"
+					type: "item"
+				}
+				{
+					id: "1CD7DE3D236D8D3E"
+					item: "botania:spark_upgrade_dominant"
+					type: "item"
+				}
+				{
+					id: "7AD8AFB77F9F3C52"
+					item: "botania:spark_upgrade_recessive"
+					type: "item"
+				}
+				{
+					id: "088668D371DF0CCE"
+					item: "botania:spark_upgrade_isolated"
+					type: "item"
+				}
+			]
+			title: "스파크 증강"
+			x: -5.0d
+			y: -14.0d
+		}
+		{
+			can_repeat: 1
+			dependencies: ["0F4713A9935F369F"]
+			description: [
+				"&c이것은 상점 퀘스트입니다!&r 이 \"퀘스트\"는 필요한 아이템을 소모하고 &e플루겔 티아라&r를 부여합니다."
+				""
+				"&e가이아 정수&r를 활용한 후, &2&l플루겔 티아라&r&r를 착용하여 높은 마나 소모량으로 임시 크리에이티브 비행을 얻는 방법을 찾을 수 있습니다."
+				""
+				"&2&l플루겔 티아라&r&r는 지속 시간 1분, 재사용 대기시간 2분입니다. 다양한 치장용 날개가 달린 여러 버전의 티아라도 있습니다!"
+			]
+			icon: {
+				Count: 1
+				id: "botania:flight_tiara"
+				tag: {
+					mmorpg_custom_data: "{\"data\":{\"map\":{\"uq\":\"flugel_tiara\"}}}"
+					mmorpg_gear: "{\"baseStats\":{\"p\":99},\"imp\":{\"p\":42,\"imp\":\"\"},\"affixes\":{\"suf\":[],\"pre\":[],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"uniqueStats\":{\"perc\":[92,18,23,67,77,30,93,36,90,42]},\"rar\":\"unique\",\"lvl\":1,\"gtype\":\"head\"}"
+					mmorpg_potential: "{\"potential\":50}"
+				}
+			}
+			id: "33A780B33D377C67"
+			rewards: [{
+				id: "640089E8C4F31862"
+				item: {
+					Count: 1
+					id: "botania:flight_tiara"
+					tag: {
+						mmorpg_custom_data: "{\"data\":{\"map\":{\"uq\":\"flugel_tiara\"}}}"
+						mmorpg_gear: "{\"baseStats\":{\"p\":99},\"imp\":{\"p\":42,\"imp\":\"\"},\"affixes\":{\"suf\":[],\"pre\":[],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"uniqueStats\":{\"perc\":[92,18,23,67,77,30,93,36,90,42]},\"rar\":\"unique\",\"lvl\":1,\"gtype\":\"head\"}"
+						mmorpg_potential: "{\"potential\":50}"
+					}
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "상점"
+			tasks: [
+				{
+					consume_items: 1
+					id: "2A3AE87182E9E38E"
+					item: "botania:ender_air_bottle"
+					type: "item"
+				}
+				{
+					consume_items: 1
+					id: "78377B946803D7DE"
+					item: "minecraft:feather"
+					type: "item"
+				}
+				{
+					consume_items: 1
+					id: "23954BA10582C786"
+					item: "botania:gaia_ingot"
+					type: "item"
+				}
+				{
+					consume_items: 1
+					id: "6C40C3362BB086E9"
+					item: "botania:life_essence"
+					type: "item"
+				}
+			]
+			title: "나는 날 수 있다고 믿어"
+			x: -1.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["7765E99AC13D3032"]
+			description: ["&e마나 주괴&r와 &e작업대&r를 가지고 이리저리 만져본 결과 휴대용 버전인 &2&l어셈블리 헤일로&r&r를 만들 수 있었습니다."]
+			id: "39B5D2C538B15A8F"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "210D8324EEAC377D"
+					silent: 1
+					title: "경험치 100 x 레벨"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "30B12BFE9B59B42F"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "614CC397A1D5F1EE"
+				item: "botania:crafting_halo"
+				type: "item"
+			}]
+			title: "휴대용 제작"
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["386F0541CCE9CA16"]
+			description: ["&l&2펠 호박&r&r &e을(를) 2개의 &n철창&r 위에 눈사람&r을 건축하듯이 놓으면 블레이즈를 소환할 수 있지만, 약화된 형태이기 때문에 막대 대신 &e블레이즈 가루&r를 떨굽니다."]
+			id: "44C71BBCFFAB3A33"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "0FC8CC5B5FED43E6"
+					silent: 1
+					title: "경험치 100 x 레벨"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "6B9E0A40EE22D4F9"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "63C97B9736E32938"
+					item: "botania:fel_pumpkin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3C6BF51592A3D0AE"
+					item: "minecraft:iron_bars"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["39B5D2C538B15A8F"]
+			description: [
+				"&e어셈블리 헤일로&r에 약간의 추가를 통해 휴대용 제작 공장인 &l&2매뉴팩토리 헤일로&r&r를 생산할 수 있습니다."
+				"올바르게 설정되면 인벤토리에서 아이템을 가져오면서 지정된 아이템을 자동으로 제작할 수 있습니다."
+			]
+			id: "4303B37227E3BB77"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "0DFA77AF7A346BDA"
+					silent: 1
+					title: "경험치 100 x 레벨"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "710EC11A06F82A2D"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "323D596DE69170C8"
+				item: "botania:auto_crafting_halo"
+				type: "item"
+			}]
+			title: "휴대용 공장"
+			x: -6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0F4713A9935F369F"]
+			description: ["엔드의 에너지, 엘프 지식, 가이아 정수를 가지고 이리저리 만져본 결과, 한 가지 유형의 아이템을 담을 수 있는 겉보기에 무한한 주머니 공간인 &l&2블랙홀 탈리스만&r&r을 만들 수 있었으며, 마나가 있는 한 접근할 수 있습니다."]
+			id: "33EF4CC9FE5B1ED4"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "735D74249264D06E"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "그 모든 조약돌을 위한 어딘가."
+			tasks: [{
+				id: "44A4E008202DFC62"
+				item: "botania:black_hole_talisman"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["29FF9EF35E5B5FC7"]
+			description: ["&l&2마나 거울&r&r은 연결된 마나 웅덩이를 반영하여 연결된 웅덩이에서 직접 마나를 끌어와 &e휴대용 마나 저장소&r를 대체할 수 있습니다. 청크가 로드되지 않은 상태에서도 작동하지만, 돌아올 때까지 웅덩이가 스스로 채워지지 않습니다!"]
+			id: "3ACE081643D7F60B"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 200"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "6A6FCC4CAB46BBE6"
+				silent: 1
+				title: "경험치 200 x 레벨"
+				type: "command"
+			}]
+			subtitle: "물속의 반영"
+			tasks: [{
+				id: "608A781631CE984B"
+				item: "botania:mana_mirror"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["29FF9EF35E5B5FC7"]
+			description: ["&e마나 밴드&r를 새로 발견한 합금인 &e테라스틸&r과 조합하여, 마나를 반지 하나에 두 개의 마나 웅덩이만큼 휴대할 수 있도록 개선하는 &l&2상위 마나 밴드&r&r를 만들 수 있습니다!"]
+			id: "4EA7CD6212661856"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 200"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "4F685B151AE21EA7"
+				silent: 1
+				title: "경험치 200 x 레벨"
+				type: "command"
+			}]
+			subtitle: "이동 중 대량 마나"
+			tasks: [{
+				id: "3A58E8C9A21ACB1C"
+				item: "botania:mana_ring_greater"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["35AF07FCCB27D2E0"]
+			description: ["&l&2테루테루보즈&r&r는 날씨 조건을 바꿀 수 있는 작은 친구입니다. 비에 충분히 젖었다고 느껴지면 &e해바라기&r를 주어 맑은 날을 되찾을 수 있습니다."]
+			id: "27127198811C49D0"
+			rewards: [
+				{
+					id: "27F162D2881B87D3"
+					item: "minecraft:sunflower"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "7F439C04D1C7ECC0"
+					silent: 1
+					title: "경험치 100 x 레벨"
+					type: "command"
+				}
+				{
+					id: "79E5D02E5E6EF349"
+					item: "simplehats:raincloud"
+					type: "item"
+				}
+			]
+			subtitle: "태양을 찬양하라!"
+			tasks: [{
+				id: "01F7CD3A3E7BEE30"
+				item: "botania:teru_teru_bozu"
+				type: "item"
+			}]
+			title: "하늘이 회색일 때"
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			description: ["&e코르포레아 시스템&r은 다양한 구성 요소로 이루어져 있으며, 이들을 조합하면 상당히 복잡한 아이템 전송이 가능합니다. 이 시스템은 이 퀘스트 북의 범위를 벗어날 정도로 복잡하므로, &eLexica Botania&r의 항목들을 살펴보시는 것을 권장합니다."]
+			icon: "botania:corporea_spark_creative"
+			id: "1576B342D9197BD6"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "4E034DF7119888A1"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "아이템 전송"
+			tasks: [{
+				id: "701E468F93F2F03B"
+				title: "코르포레아 시스템"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5E33BF5591E1C097"]
+			description: [
+				"&e루미나이저&r는 빠르고 재미있는 플레이어 이동을 가능하게 합니다. 단순히 두 개를 범위 내에 설치하고 연결한 다음 우클릭하세요! &e루미나이저 발사기&r를 사용하여 아이템과 동물도 전송할 수 있습니다! 블록을 통해서도 작동하지만, 머리를 조심해야 할 수도 있습니다."
+				""
+				"&e감지기, 포크, 토글 루미나이저&r는 더 발전되고 흥미로운 운송 시스템을 가능하게 합니다."
+			]
+			id: "2B77DB16F266880E"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "0995DAA000BAD7C1"
+					silent: 1
+					title: "경험치 100 x 레벨"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "4789C0E10A5DB97B"
+					item: "botania:light_relay"
+					type: "item"
+				}
+			]
+			subtitle: "월드 엔드 댄스홀"
+			tasks: [{
+				count: 2
+				id: "5C092F8FFAE39310"
+				item: "botania:light_relay"
+				type: "item"
+			}]
+			title: "루미나이저"
+			x: -4.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["144467B32903983B"]
+			description: ["&e마나 블래스터&r는 휴대용 &e마나 살포기&r로, 발사될 때 동작을 강화하기 위해 &e마나 렌즈&r를 받아들일 수도 있습니다. &e플래시 렌즈&r는 거의 무한한 빛의 원천으로 특히 유용하며, 염색하여 결과 빛의 색상을 변경할 수도 있습니다!"]
+			id: "621ABA886F06170A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "3FC674038D61F647"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "메데르 조난당한 소녀"
+			tasks: [
+				{
+					id: "72E05E0B0C9AC1E2"
+					item: {
+						Count: 1
+						id: "botania:mana_gun"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "17A49D147451C1FC"
+					item: "botania:lens_light"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2CCB1CB299A81969"]
+			description: ["&e마나 마법 부여대&r는 원하는 마법이 부여된 책을 옆에 던져놓고 &e숲의 지팡이&r로 우클릭하기만 하면 장비에 마법 부여를 적용할 수 있는 대형 다중 블록 구조물입니다. 이 과정은 책을 소모하지 않습니다. 이렇게 하면 마법 부여대에 있는 스파크를 통해 근처 마나 웅덩이에서 많은 양의 마나를 소모합니다. 마법 부여가 많고 레벨이 높을수록 더 많이 소모됩니다! 구조물의 시각화는 &e렉시카 보타니아&r를 확인하세요."]
+			icon: "botania:enchanter"
+			id: "72B3D8E498D1E1F1"
+			rewards: [{
+				auto: "enabled"
+				command: "100 Experience x Lv."
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "2793AD7DEEFB84CC"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "마나로 마법 부여하기"
+			tasks: [{
+				id: "732608E288086EA6"
+				title: "마나 마법 부여대"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["626B63941D36E8C2"]
+			description: ["&e연금술 촉매&r는 &e마나 웅덩이&r 아래에 설치되면 아이템이 던져질 때 결과를 변경하여 다양한 재료를 전환할 수 있게 합니다! 부싯돌을 화약으로, 다양한 나무 종류와 묘목 변환, 레드스톤을 발광석으로 바꿀 수 있습니다!"]
+			id: "496BD9236D7C1D89"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "79CB48A21A0DA987"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			tasks: [{
+				id: "6A68F68AA68462F3"
+				item: "botania:alchemy_catalyst"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["496BD9236D7C1D89"]
+			description: ["&e소환 촉매&r는 &e연금술 촉매&r의 고급 버전으로, 많은 양의 마나를 소모하여 특정 아이템을 중복시킬 수 있습니다! 석영, 레드스톤, 발광석, 석탄이 주요 예시입니다. 석탄을 중복시키는 것이 엔도플레임으로 무한 마나 순환을 만들 수 있게 해주지는 않는다는 점에 유의하세요!"]
+			id: "058D4013FD42AC1F"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 200"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "46FB8436FC2C127A"
+					silent: 1
+					title: "경험치 200 x 레벨"
+					type: "command"
+				}
+				{
+					id: "4AB029364AB0F305"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+				{
+					id: "78C28A22C9984874"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "21F3914F19CB7D53"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+				{
+					id: "329DFECAC62A6BF5"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "06635DFAEC461A04"
+				item: "botania:conjuration_catalyst"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5E33BF5591E1C097"]
+			description: [
+				"&e엘븐 마나 살포기&r는 일반 마나 살포기에 비해 폭발당 전송되는 마나를 50% 증가시킵니다! 또한 폭발이 마나를 잃기 시작하기 전까지 이동할 수 있는 거리를 크게 증가시킵니다."
+				""
+				"&o폭발당 마나 240을 전송합니다.&r"
+			]
+			id: "40A9BBD5C665B831"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "74D4D2CC9BB5A535"
+					silent: 1
+					title: "경험치 100 x 레벨"
+					type: "command"
+				}
+				{
+					count: 6
+					id: "68BF910C52D83E81"
+					item: "botania:dreamwood_log"
+					type: "item"
+				}
+				{
+					id: "4A59BDB97F2522B8"
+					item: "botania:elementium_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "강화된 살포기"
+			tasks: [{
+				id: "37856729D86ABFBB"
+				item: "botania:elven_spreader"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["0F4713A9935F369F"]
+			description: [
+				"&e가이아 마나 살포기&r는 이전 모델보다 두 배 이상의 전송률을 가진 궁극적인 확산기입니다!"
+				""
+				"&o엄청난 양인 폭발당 마나 640을 전송합니다.&r"
+			]
+			id: "6A58CF9DF79B8269"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "692A7A30A070098D"
+					silent: 1
+					title: "경험치 100 x 레벨"
+					type: "command"
+				}
+				{
+					id: "7A08ABBFCDA48277"
+					item: "botania:cosmetic_botanist_emblem"
+					type: "item"
+				}
+			]
+			subtitle: "궁극의 살포기"
+			tasks: [{
+				id: "752DAA1E1B192724"
+				item: "botania:gaia_spreader"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["144467B32903983B"]
+			description: ["&e마나 렌즈&r는 마나 살포기가 다양한 방식으로 동작하는 방식에 영향을 줍니다. 그중 가장 유용한 것은 &e강화 렌즈&r로, 부착된 살포기의 전송률을 두 배로 늘려줍니다! 또한 폭발의 이동 속도를 증가시키는 &e속도 렌즈&r, 벽에 튕겨나가게 하는 &e반사 렌즈&r, 심지어 중력의 영향을 받게 하는 &e중력 렌즈&r도 있습니다!"]
+			id: "30243F276BE11AC3"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "5462B9F9DD3A668C"
+					silent: 1
+					title: "경험치 100 x 레벨"
+					type: "command"
+				}
+				{
+					id: "74701E8D74F63D31"
+					item: "botania:rune_fire"
+					type: "item"
+				}
+			]
+			subtitle: "전송률"
+			tasks: [{
+				id: "0A40C97CF59B559A"
+				item: "botania:lens_power"
+				type: "item"
+			}]
+			title: "확산기 렌즈"
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["30243F276BE11AC3"]
+			description: ["두 개의 다른 &e마나 렌즈&r는 약간의 슬라임으로 함께 붙여 효과를 하나의 렌즈로 조합할 수 있습니다! &e강화&r와 &e속도&r의 조합은 폭발당 마나를 두 배로 늘려주고 더 빠르게 날게 한다는 점에서 주목할 만합니다!"]
+			icon: "botania:lens_firework"
+			id: "49644F197F1FDF73"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: 1
+					icon: "ftb_ph:exp"
+					id: "14E614C4B7DAF869"
+					silent: 1
+					title: "경험치 100 x 레벨"
+					type: "command"
+				}
+				{
+					id: "5CDFFC578A03DCBC"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+			]
+			subtitle: "궁극의 사용자 지정"
+			tasks: [{
+				id: "0766EB2208BDC6D8"
+				title: "조합 렌즈"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"&e청크 로더&r를 사용하면 항상 지역을 로드된 상태로 유지할 수 있습니다. 이는 자동화와 같은 특정 활동에 유용하며, 해당 지역에서 떨어져 있어도 작물이 계속 처리/성장합니다."
+				""
+				"청크 로더에는 4가지 유형이 있습니다:"
+				"&8단일 청크 로더&r - 청크 1개"
+				"기본 청크 로더 - 3x3 청크"
+				"&e고급 청크 로더&r - 5x5 청크"
+				"&b궁극의 청크 로더&r - 7x7 청크"
+				""
+				"&e기본 키 \"&cF8&r&e\".&r로 청크 로더 지도를 볼 수 있습니다."
+			]
+			id: "63BF085EEE4B3689"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: 1
+				icon: "ftb_ph:exp"
+				id: "073BACAAB8027196"
+				silent: 1
+				title: "경험치 100 x 레벨"
+				type: "command"
+			}]
+			subtitle: "청크 로딩"
+			tasks: [{
+				id: "3C7BB9EFD738D636"
+				item: "chunkloaders:basic_chunk_loader"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: 1
+			dependencies: ["0F4713A9935F369F"]
+			description: ["&c이것은 상점 퀘스트입니다!&r 이 \"퀘스트\"는 필요한 아이템을 소모하여 &e플루겔 티아라&r를 &e새로운 변형&r&r으로 전환합니다."]
+			icon: "botania:quartz_lavender"
+			id: "0CFA65618989A9AC"
+			rewards: [{
+				exclude_from_claim_all: 1
+				id: "0BE9AA5C3EEE953C"
+				table_id: 379776790083884379L
+				type: "choice"
+			}]
+			shape: "octagon"
+			subtitle: "상점"
+			tasks: [
+				{
+					consume_items: 1
+					id: "6DB5F07683F275B7"
+					item: {
+						Count: 1
+						id: "botania:flight_tiara"
+						tag: {
+							variant: 0
+						}
+					}
+					match_nbt: 0
+					type: "item"
+				}
+				{
+					consume_items: 1
+					id: "62FEAA6E92021049"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			title: "스타일리시한 비행"
+			x: -0.5d
+			y: -17.0d
+		}
+	]
+	title: "마법의 식물"
+}
