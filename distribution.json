@@ -12921,7 +12921,7 @@
           "name": "oculus.properties",
           "type": "File",
           "artifact": {
-            "size": 312,
+            "size": 308,
             "url": "https://github.com/mchdistro/handmade/raw/main/servers/CTE2-1.20.1/files/config/oculus.properties",
             "path": "config/oculus.properties"
           }
@@ -85865,7 +85865,7 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 16865,
+            "size": 17974,
             "url": "https://github.com/mchdistro/handmade/raw/main/servers/CTE2-1.20.1/files/options.txt",
             "path": "options.txt"
           }
