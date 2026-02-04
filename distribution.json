@@ -3406,6 +3406,16 @@
           }
         },
         {
+          "id": "com.gitter.gtdonationapi.forge.v1_20_1.client:gtdonationapi:2.0.7@jar",
+          "name": "GT-DonationAPI",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7311741,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/CTE2-1.20.1/forgemods/required/GT-DonationAPI-forge-1.20.1-2.0.7.jar",
+            "MD5": "e64a8fe5bcd83ede7a09520ce283feeb"
+          }
+        },
+        {
           "id": "com.gitter:gtnick:1.0.0@jar",
           "name": "GTNick Mod",
           "type": "ForgeMod",
@@ -3420,9 +3430,9 @@
           "name": "GtRandomBox",
           "type": "ForgeMod",
           "artifact": {
-            "size": 253001,
+            "size": 257379,
             "url": "https://github.com/mchdistro/handmade/raw/main/servers/CTE2-1.20.1/forgemods/required/GtRandomBox-Forge-1.20.1-1.0.0.jar",
-            "MD5": "e568b50302e3a11d8c9ba123267a1ec0"
+            "MD5": "f5d50d874a1313e2c1cefa33f0ea776c"
           }
         },
         {
