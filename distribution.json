@@ -3426,13 +3426,13 @@
           }
         },
         {
-          "id": "com.gitter:gtrandombox:Forge-1.20.1-1.0.0@jar",
+          "id": "com.gitter:gtrandombox:Forge-1.20.1-2.0.0@jar",
           "name": "GtRandomBox",
           "type": "ForgeMod",
           "artifact": {
-            "size": 257379,
-            "url": "https://github.com/mchdistro/handmade/raw/main/servers/CTE2-1.20.1/forgemods/required/GtRandomBox-Forge-1.20.1-1.0.0.jar",
-            "MD5": "f5d50d874a1313e2c1cefa33f0ea776c"
+            "size": 257354,
+            "url": "https://github.com/mchdistro/handmade/raw/main/servers/CTE2-1.20.1/forgemods/required/GtRandomBox-Forge-1.20.1-2.0.0.jar",
+            "MD5": "b6d1fb427e2ac345c13d02bbe64b949e"
           }
         },
         {
