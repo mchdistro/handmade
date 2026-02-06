@@ -86676,9 +86676,9 @@
           "name": "pack.zip",
           "type": "File",
           "artifact": {
-            "size": 12522811,
+            "size": 11838117,
             "url": "https://github.com/mchdistro/handmade/raw/main/servers/CTE2-1.20.1/files/resourcepacks/pack.zip",
-            "MD5": "024d66fb7bd8f4c1d4912f764e059ed8",
+            "MD5": "17e3e853c8075b0c99331285016e05ab",
             "path": "resourcepacks/pack.zip"
           }
         },
