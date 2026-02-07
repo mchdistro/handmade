@@ -3430,9 +3430,9 @@
           "name": "GtRandomBox",
           "type": "ForgeMod",
           "artifact": {
-            "size": 257354,
+            "size": 258008,
             "url": "https://github.com/mchdistro/handmade/raw/main/servers/CTE2-1.20.1/forgemods/required/GtRandomBox-Forge-1.20.1-2.0.0.jar",
-            "MD5": "b6d1fb427e2ac345c13d02bbe64b949e"
+            "MD5": "c63fc1e5f1eeca0350c61bc9c6b5a198"
           }
         },
         {
