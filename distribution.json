@@ -86686,9 +86686,9 @@
           "name": "pack.zip",
           "type": "File",
           "artifact": {
-            "size": 11838117,
+            "size": 9011558,
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/CTE2-1.20.1/files/resourcepacks/pack.zip",
-            "MD5": "17e3e853c8075b0c99331285016e05ab",
+            "MD5": "7f283c34c49e89a022a80451158ae57f",
             "path": "resourcepacks/pack.zip"
           }
         },
