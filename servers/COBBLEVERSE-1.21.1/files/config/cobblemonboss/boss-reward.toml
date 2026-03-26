@@ -1,0 +1,3 @@
+minDropRate = 0.1
+maxDropRate = 1.0
+levelScale = 100

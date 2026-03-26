@@ -1,0 +1,30 @@
+{
+  "chosenPreset": 1,
+  "apiPreset": 1,
+  "loadedPresets": [
+    {
+      "skin": {
+        "skin_name": "683244705",
+        "model": "classic",
+        "type": "skinshuffle:config"
+      },
+      "name": "GodSai"
+    },
+    {
+      "skin": {
+        "skin_name": "1695580277",
+        "model": "classic",
+        "type": "skinshuffle:config"
+      },
+      "name": "신오지방 사이"
+    },
+    {
+      "skin": {
+        "skin_name": "170390790",
+        "model": "classic",
+        "type": "skinshuffle:config"
+      },
+      "name": "호연지방 사이"
+    }
+  ]
+}

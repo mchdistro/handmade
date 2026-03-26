@@ -1,0 +1,9 @@
+bossLevelMultiplier = 1.5
+minBossLevel = 5
+maxBossLevel = 200
+includePCPokemon = true
+scaleByMaxLevel = true
+enableCustomLevelMapping = true
+enableLevelRandom = true
+randomMin = -10
+randomMax = 10

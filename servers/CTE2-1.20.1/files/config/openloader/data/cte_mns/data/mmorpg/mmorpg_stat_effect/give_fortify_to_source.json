@@ -1,7 +1,0 @@
-{
-  "effect": "fortify",
-  "give_to": "Source",
-  "id": "give_fortify_to_source",
-  "seconds": 4,
-  "ser": "give_exile_effect"
-}

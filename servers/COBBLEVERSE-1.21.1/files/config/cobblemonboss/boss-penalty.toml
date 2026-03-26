@@ -1,0 +1,4 @@
+enablePenalty = true
+minPenaltyChance = 0.1
+maxPenaltyChance = 1.0
+penaltyLevelScale = 100

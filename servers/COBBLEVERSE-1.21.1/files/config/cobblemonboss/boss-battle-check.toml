@@ -1,0 +1,8 @@
+enableBattleCheck = false
+cancelBattle = true
+enablePokemonCheck = true
+bannedPokemonList = ["cobblemon:ditto"]
+enableItemCheck = true
+bannedItemsList = ["cobblemon:master_ball"]
+enableMoveCheck = true
+bannedMovesList = ["endeavor"]

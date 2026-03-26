@@ -1,0 +1,7 @@
+enableBossSpawn = true
+checkIntervalTicks = 12000
+spawnChance = 0.1
+enableSpawnTimeRandom = true
+randomValueMin = 1000
+randomValueMax = 3000
+spawnFrequency = 1

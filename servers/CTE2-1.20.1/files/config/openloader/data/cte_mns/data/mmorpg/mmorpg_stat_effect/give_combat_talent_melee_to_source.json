@@ -1,7 +1,0 @@
-{
-  "effect": "combat_talent_melee",
-  "give_to": "Source",
-  "id": "give_combat_talent_melee_to_source",
-  "seconds": 6,
-  "ser": "give_exile_effect"
-}

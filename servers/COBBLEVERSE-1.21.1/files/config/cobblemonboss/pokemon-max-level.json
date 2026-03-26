@@ -1,0 +1,5 @@
+{
+  "configName": "Pokemon Max Level",
+  "maxPokemonLevel": 900,
+  "description": "Set the maximum level limit for Pokemon"
+}

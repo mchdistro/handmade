@@ -1,7 +1,0 @@
-{
-  "effect": "retribution",
-  "give_to": "Target",
-  "id": "give_retribution_to_target",
-  "seconds": 30,
-  "ser": "give_exile_effect"
-}

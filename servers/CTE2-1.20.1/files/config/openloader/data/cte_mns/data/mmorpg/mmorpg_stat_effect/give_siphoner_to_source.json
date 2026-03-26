@@ -1,7 +1,0 @@
-{
-  "effect": "siphoner",
-  "give_to": "Source",
-  "id": "give_siphoner_to_source",
-  "seconds": 20,
-  "ser": "give_exile_effect"
-}

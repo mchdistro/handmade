@@ -1,6 +1,0 @@
-{
-  "type": "dungeons_enhanced:dungeon_variant",
-  "biomes": "#dungeons_enhanced:has_structure/has_dungeons_enhanced_structures",
-  "spawn_overrides": {},
-  "step": "underground_structures"
-}

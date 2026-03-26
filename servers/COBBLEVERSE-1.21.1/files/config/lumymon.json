@@ -1,0 +1,12 @@
+{
+  "remotePcEnabled": true,
+  "enablePokeSnackBlacklist": true,
+  "blacklistedPokeSnackSpawns": [
+    "custom",
+    "paradox"
+  ],
+  "paleGardenResinGeneration": true,
+  "ghastToGastly": true,
+  "creakingToTrevenant": true,
+  "initialScreenVersion": 2
+}
