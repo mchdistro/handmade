@@ -5,3 +5,5 @@ servers/**/files/config/openloader/resources/resources.zip filter=lfs diff=lfs m
 servers/**/**/**/Cobblemon-fabric-1.7.3+1.21.1.jar filter=lfs diff=lfs merge=lfs -text
 servers/**/files/resourcepacks/COBBLEVERSE Soundtrack.zip filter=lfs diff=lfs merge=lfs -text
 servers/**/files/resourcepacks/JigglyRadio.zip filter=lfs diff=lfs merge=lfs -text
+servers/COBBLEVERSE[[:space:]]-1.21.1/files/resourcepacks/COBBLEVERSE[[:space:]]Soundtrack.zip filter=lfs diff=lfs merge=lfs -text
+servers/COBBLEVERSE-1.21.1/files/resourcepacks/COBBLEVERSE[[:space:]]Soundtrack.zip filter=lfs diff=lfs merge=lfs -text
