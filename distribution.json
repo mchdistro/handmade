@@ -801,6 +801,16 @@
           }
         },
         {
+          "id": "com.hyfata.najoan:koreanpatch:1.9.5+mc1.21@jar",
+          "name": "Korean Patch",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 589768,
+            "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/fabricmods/required/koreanpatch-fabric-1.9.5+mc1.21.jar",
+            "MD5": "ef4bea8c113844f6d216258b5675cc68"
+          }
+        },
+        {
           "id": "me.steinborn.krypton.mod.shared:krypton:0.2.8@jar",
           "name": "Krypton",
           "type": "FabricMod",
