@@ -5,7 +5,7 @@
     "name": "코블몬",
     "description": "Minecraft 1.21.1 (Fabric v0.18.4)",
     "icon": "https://github.com/mchdistro/handmade/raw/main/server-icon.png",
-    "address": "localhost:25565",
+    "address": "mc.gotiger.dev:20049",
     "discord": {
       "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",

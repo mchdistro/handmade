@@ -13,7 +13,7 @@
       "description": "Minecraft 1.21.1 (Fabric v0.18.4)",
       "icon": "https://github.com/mchdistro/handmade/raw/main/server-icon.png",
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "mc.gotiger.dev:20049",
       "minecraftVersion": "1.21.1",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
