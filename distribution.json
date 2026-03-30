@@ -2257,9 +2257,9 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 1866,
+            "size": 1905,
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/defaultoptions/options.txt",
-            "MD5": "b21c15eb36703a1142279d078065d0fc",
+            "MD5": "6816fb35fd18047cb0a023ae6b1923b3",
             "path": "config/defaultoptions/options.txt"
           }
         },
