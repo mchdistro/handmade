@@ -711,6 +711,36 @@
           }
         },
         {
+          "id": "com.gitter.gtdonationapi.fabric.v1_21:gtdonationapi:2.0.7@jar",
+          "name": "GT-DonationAPI",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 9406264,
+            "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/fabricmods/required/GT-DonationAPI-fabric-1.21.1-2.0.7.jar",
+            "MD5": "ab66f81a8934b95295dd06eb4c48436f"
+          }
+        },
+        {
+          "id": "com.gitter:gtnick:2.0.4@jar",
+          "name": "GTNick",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 106706,
+            "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/fabricmods/required/gtnick-fabric-1.21.1-2.0.4.jar",
+            "MD5": "755b24f90c20a3e50f64ac32268b2f5c"
+          }
+        },
+        {
+          "id": "com.gitter:gtrandombox:${version}@jar",
+          "name": "GtRandomBox",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 315255,
+            "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/fabricmods/required/GtRandomBox-Fabric-1.21.1-3.0.0.jar",
+            "MD5": "af017692ac8ee1048a0aca61456c45d1"
+          }
+        },
+        {
           "id": "earth.terrarium:handcrafted:4.0.3@jar",
           "name": "Handcrafted",
           "type": "FabricMod",
@@ -3440,182 +3470,6 @@
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/safepastures/safepastures.json",
             "MD5": "dea4cf2d377d3a03b858608b5c28a80d",
             "path": "config/safepastures/safepastures.json"
-          }
-        },
-        {
-          "id": "config.json",
-          "name": "config.json",
-          "type": "File",
-          "artifact": {
-            "size": 542,
-            "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/skinshuffle/config.json",
-            "MD5": "4973727f85310d4228b6928db7b2c1f0",
-            "path": "config/skinshuffle/config.json"
-          }
-        },
-        {
-          "id": "presets.json",
-          "name": "presets.json",
-          "type": "File",
-          "artifact": {
-            "size": 573,
-            "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/skinshuffle/presets.json",
-            "MD5": "1e97e7ad9a619f0283df4b514e930a4d",
-            "path": "config/skinshuffle/presets.json"
-          }
-        },
-        {
-          "id": "skin-caches.json",
-          "name": "skin-caches.json",
-          "type": "File",
-          "artifact": {
-            "size": 398,
-            "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/skinshuffle/skin-caches.json",
-            "MD5": "7808c6df110bf04f15c16e3e8f0c7003",
-            "path": "config/skinshuffle/skin-caches.json"
-          }
-        },
-        {
-          "id": "1695580277.png",
-          "name": "1695580277.png",
-          "type": "File",
-          "artifact": {
-            "size": 3784,
-            "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/skinshuffle/skins/1695580277.png",
-            "MD5": "7fc85eeea67e93523be8a0c6bc4c581e",
-            "path": "config/skinshuffle/skins/1695580277.png"
-          }
-        },
-        {
-          "id": "170390790.png",
-          "name": "170390790.png",
-          "type": "File",
-          "artifact": {
-            "size": 3796,
-            "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/skinshuffle/skins/170390790.png",
-            "MD5": "2dd31b4c0025456fc50fa5b34f9bb6c8",
-            "path": "config/skinshuffle/skins/170390790.png"
-          }
-        },
-        {
-          "id": "1757793095.png",
-          "name": "1757793095.png",
-          "type": "File",
-          "artifact": {
-            "size": 5137,
-            "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/skinshuffle/skins/1757793095.png",
-            "MD5": "eb42ed4588fadcd129a07bf5af9ffa63",
-            "path": "config/skinshuffle/skins/1757793095.png"
-          }
-        },
-        {
-          "id": "1908804816.png",
-          "name": "1908804816.png",
-          "type": "File",
-          "artifact": {
-            "size": 5032,
-            "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/skinshuffle/skins/1908804816.png",
-            "MD5": "d4d73f2c4e7ca2969bf04291271638d1",
-            "path": "config/skinshuffle/skins/1908804816.png"
-          }
-        },
-        {
-          "id": "220333292.png",
-          "name": "220333292.png",
-          "type": "File",
-          "artifact": {
-            "size": 4613,
-            "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/skinshuffle/skins/220333292.png",
-            "MD5": "e099c845e9a5392301c4df12688244a5",
-            "path": "config/skinshuffle/skins/220333292.png"
-          }
-        },
-        {
-          "id": "511730019.png",
-          "name": "511730019.png",
-          "type": "File",
-          "artifact": {
-            "size": 5289,
-            "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/skinshuffle/skins/511730019.png",
-            "MD5": "71d678639c2338931b563746e6c0d31b",
-            "path": "config/skinshuffle/skins/511730019.png"
-          }
-        },
-        {
-          "id": "683244705.png",
-          "name": "683244705.png",
-          "type": "File",
-          "artifact": {
-            "size": 3208,
-            "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/skinshuffle/skins/683244705.png",
-            "MD5": "6145c94364d38bc722b970e1b8663c7b",
-            "path": "config/skinshuffle/skins/683244705.png"
-          }
-        },
-        {
-          "id": "-1695580277.png",
-          "name": "-1695580277.png",
-          "type": "File",
-          "artifact": {
-            "size": 3784,
-            "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/skinshuffle/skins/downloaded/-1695580277.png",
-            "MD5": "7fc85eeea67e93523be8a0c6bc4c581e",
-            "path": "config/skinshuffle/skins/downloaded/-1695580277.png"
-          }
-        },
-        {
-          "id": "-170390790.png",
-          "name": "-170390790.png",
-          "type": "File",
-          "artifact": {
-            "size": 3796,
-            "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/skinshuffle/skins/downloaded/-170390790.png",
-            "MD5": "2dd31b4c0025456fc50fa5b34f9bb6c8",
-            "path": "config/skinshuffle/skins/downloaded/-170390790.png"
-          }
-        },
-        {
-          "id": "1757793095.png",
-          "name": "1757793095.png",
-          "type": "File",
-          "artifact": {
-            "size": 5137,
-            "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/skinshuffle/skins/downloaded/1757793095.png",
-            "MD5": "eb42ed4588fadcd129a07bf5af9ffa63",
-            "path": "config/skinshuffle/skins/downloaded/1757793095.png"
-          }
-        },
-        {
-          "id": "1908804816.png",
-          "name": "1908804816.png",
-          "type": "File",
-          "artifact": {
-            "size": 5032,
-            "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/skinshuffle/skins/downloaded/1908804816.png",
-            "MD5": "d4d73f2c4e7ca2969bf04291271638d1",
-            "path": "config/skinshuffle/skins/downloaded/1908804816.png"
-          }
-        },
-        {
-          "id": "220333292.png",
-          "name": "220333292.png",
-          "type": "File",
-          "artifact": {
-            "size": 4613,
-            "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/skinshuffle/skins/downloaded/220333292.png",
-            "MD5": "e099c845e9a5392301c4df12688244a5",
-            "path": "config/skinshuffle/skins/downloaded/220333292.png"
-          }
-        },
-        {
-          "id": "511730019.png",
-          "name": "511730019.png",
-          "type": "File",
-          "artifact": {
-            "size": 5289,
-            "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/skinshuffle/skins/downloaded/511730019.png",
-            "MD5": "71d678639c2338931b563746e6c0d31b",
-            "path": "config/skinshuffle/skins/downloaded/511730019.png"
           }
         },
         {
