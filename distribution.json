@@ -821,6 +821,16 @@
           }
         },
         {
+          "id": "journeymap:journeymap:1.21.1-6.0.0-beta.59@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3674345,
+            "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/fabricmods/required/journeymap-fabric-1.21.1-6.0.0-beta.59.jar",
+            "MD5": "d29d92c71d4ac45f4e8520c346b4ac2b"
+          }
+        },
+        {
           "id": "de.keksuccino:konkrete:1.9.9@jar",
           "name": "Konkrete",
           "type": "FabricMod",
@@ -1528,26 +1538,6 @@
             "size": 6222854,
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/fabricmods/required/worldedit-mod-7.3.8.jar",
             "MD5": "f5d6f09ca5c4b1958780d01a099b779d"
-          }
-        },
-        {
-          "id": "xaero.minimap:xaerominimap:25.3.10@jar",
-          "name": "Xaero's Minimap",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 2177333,
-            "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/fabricmods/required/xaerominimap-fabric-1.21.1-25.3.10.jar",
-            "MD5": "0ae4f63c97b972ef3fdcd918c924feb5"
-          }
-        },
-        {
-          "id": "xaero.map:xaeroworldmap:1.40.11@jar",
-          "name": "Xaero's World Map",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1413973,
-            "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/fabricmods/required/xaeroworldmap-fabric-1.21.1-1.40.11.jar",
-            "MD5": "bb6a594507dc9db0a981b2a2d6cf910c"
           }
         },
         {
@@ -4119,6 +4109,17 @@
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/resourcepacks/Low%20Fire.zip",
             "MD5": "b849973d5ba12d99d7a29b447fbca9f7",
             "path": "resourcepacks/Low Fire.zip"
+          }
+        },
+        {
+          "id": "Maxi's-JM+CM_Pixel-U11.zip",
+          "name": "Maxi's-JM+CM_Pixel-U11.zip",
+          "type": "File",
+          "artifact": {
+            "size": 2784083,
+            "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/resourcepacks/Maxi's-JM+CM_Pixel-U11.zip",
+            "MD5": "4e7e2f8e35882ebdcfed3cd2aec205c7",
+            "path": "resourcepacks/Maxi's-JM+CM_Pixel-U11.zip"
           }
         },
         {
