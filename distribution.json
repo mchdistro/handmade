@@ -735,9 +735,9 @@
           "name": "GtRandomBox",
           "type": "FabricMod",
           "artifact": {
-            "size": 315255,
+            "size": 316985,
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/fabricmods/required/GtRandomBox-Fabric-1.21.1-3.0.0.jar",
-            "MD5": "af017692ac8ee1048a0aca61456c45d1"
+            "MD5": "b0a99cbebec12838a46d680c42823d31"
           }
         },
         {
@@ -1158,6 +1158,16 @@
             "size": 152389,
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/fabricmods/required/Ping-Wheel-1.12.1-fabric-1.21.1.jar",
             "MD5": "61833a9dcd49ee3e146150deb64c7536"
+          }
+        },
+        {
+          "id": "su.plo.voice:plasmovoice:2.1.8@jar",
+          "name": "Plasmo Voice",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 12209334,
+            "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/fabricmods/required/plasmovoice-fabric-1.21-2.1.8.jar",
+            "MD5": "3241ea2cc1f25de2cafdbfee54e1260a"
           }
         },
         {
