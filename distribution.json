@@ -1341,16 +1341,6 @@
           }
         },
         {
-          "id": "dev.imb11:skinshuffle:2.9.1+1.21@jar",
-          "name": "SkinShuffle",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 5054375,
-            "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/fabricmods/required/SkinShuffle-2.9.1+1.21.jar",
-            "MD5": "50bfd9ca6c3acb1bdb9c903a939fa4c2"
-          }
-        },
-        {
           "id": "generated.fabricmod:sodium-extra:0.6.0+mc1.21.1@jar",
           "name": "Sodium Extra",
           "type": "FabricMod",
