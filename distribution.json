@@ -2257,9 +2257,9 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 1905,
+            "size": 1920,
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/defaultoptions/options.txt",
-            "MD5": "6816fb35fd18047cb0a023ae6b1923b3",
+            "MD5": "32bbe81119ee7dafa50e3544b977e26a",
             "path": "config/defaultoptions/options.txt"
           }
         },
@@ -3544,9 +3544,9 @@
           "name": "client.cfg",
           "type": "File",
           "artifact": {
-            "size": 30,
+            "size": 31,
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/xaero/lib/client.cfg",
-            "MD5": "64b6bc2e669f3cc07fba7afb09b3d54e",
+            "MD5": "932f454ea7cbf2a3d54770496e4bc282",
             "path": "config/xaero/lib/client.cfg"
           }
         },
@@ -3555,9 +3555,9 @@
           "name": "common.cfg",
           "type": "File",
           "artifact": {
-            "size": 240,
+            "size": 245,
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/xaero/lib/common.cfg",
-            "MD5": "2c7021e838c2bcca43e46a2f7d0c2576",
+            "MD5": "b03ace4ab3111f2f8e51bea22fcbc967",
             "path": "config/xaero/lib/common.cfg"
           }
         },
@@ -3566,9 +3566,9 @@
           "name": "cobbleverse.cfg",
           "type": "File",
           "artifact": {
-            "size": 129,
+            "size": 135,
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/xaero/lib/profiles/cobbleverse.cfg",
-            "MD5": "5e714c076114e861d06a60f9ff7df9ff",
+            "MD5": "148f14d7efb2b6d7dd2ed01524607331",
             "path": "config/xaero/lib/profiles/cobbleverse.cfg"
           }
         },
@@ -3577,9 +3577,9 @@
           "name": "cobbleverse.cfg",
           "type": "File",
           "artifact": {
-            "size": 83,
+            "size": 88,
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/xaero/lib/server_profiles/cobbleverse.cfg",
-            "MD5": "5fb5af184d9a154cab8df9b142176d15",
+            "MD5": "db8fdac9126cd8fd376820961ec3042e",
             "path": "config/xaero/lib/server_profiles/cobbleverse.cfg"
           }
         },
@@ -3588,9 +3588,9 @@
           "name": "client.cfg",
           "type": "File",
           "artifact": {
-            "size": 240,
+            "size": 248,
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/xaero/minimap/client.cfg",
-            "MD5": "f824b7309ca1ac7d5d715b9ad75643d0",
+            "MD5": "ff5a020eb5d4d544b17920934ae8297e",
             "path": "config/xaero/minimap/client.cfg"
           }
         },
@@ -3599,9 +3599,9 @@
           "name": "common.cfg",
           "type": "File",
           "artifact": {
-            "size": 151,
+            "size": 154,
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/xaero/minimap/common.cfg",
-            "MD5": "386d645ac6b581bd12181a48909ba2c1",
+            "MD5": "2a8f26f9a4d2f5ece45a0d0cc0459c94",
             "path": "config/xaero/minimap/common.cfg"
           }
         },
@@ -3610,9 +3610,9 @@
           "name": "default_radar_categories_client.json",
           "type": "File",
           "artifact": {
-            "size": 5642,
+            "size": 5836,
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/xaero/minimap/default_radar_categories_client.json",
-            "MD5": "fb521086e5df9edb689595c1c2927243",
+            "MD5": "83a1d99ce1345adac4be2d6da4fb8c33",
             "path": "config/xaero/minimap/default_radar_categories_client.json"
           }
         },
@@ -3621,9 +3621,9 @@
           "name": "default_radar_categories_server.json",
           "type": "File",
           "artifact": {
-            "size": 4749,
+            "size": 4904,
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/xaero/minimap/default_radar_categories_server.json",
-            "MD5": "99cc7737cb3283540f8ca5e8578b606c",
+            "MD5": "c4a9d5341e65b8d28e497610ef7bc925",
             "path": "config/xaero/minimap/default_radar_categories_server.json"
           }
         },
@@ -3632,9 +3632,9 @@
           "name": "cobbleverse.cfg",
           "type": "File",
           "artifact": {
-            "size": 3755,
+            "size": 3871,
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/xaero/minimap/profiles/cobbleverse.cfg",
-            "MD5": "de69f221c3d6559bc23904ef2c309e65",
+            "MD5": "7d0d739ae12802fa6a170ec65d895660",
             "path": "config/xaero/minimap/profiles/cobbleverse.cfg"
           }
         },
@@ -3643,9 +3643,9 @@
           "name": "cobbleverse.cfg.json",
           "type": "File",
           "artifact": {
-            "size": 5641,
+            "size": 5835,
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/xaero/minimap/profiles/entity_radar_categories/cobbleverse.cfg.json",
-            "MD5": "826497a079a3eafbd4d5c9f0318eea33",
+            "MD5": "5c1af61631ed9050abba49ee14c4127b",
             "path": "config/xaero/minimap/profiles/entity_radar_categories/cobbleverse.cfg.json"
           }
         },
@@ -3654,9 +3654,9 @@
           "name": "cobbleverse.cfg.txt",
           "type": "File",
           "artifact": {
-            "size": 684,
+            "size": 699,
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/xaero/minimap/profiles/info_display_config/cobbleverse.cfg.txt",
-            "MD5": "64d98932063f0be723920fbdb1de1268",
+            "MD5": "7527b4e1dfb44a889e52bc6c51257566",
             "path": "config/xaero/minimap/profiles/info_display_config/cobbleverse.cfg.txt"
           }
         },
@@ -3665,9 +3665,9 @@
           "name": "cobbleverse.cfg",
           "type": "File",
           "artifact": {
-            "size": 83,
+            "size": 88,
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/xaero/minimap/server_profiles/cobbleverse.cfg",
-            "MD5": "5fb5af184d9a154cab8df9b142176d15",
+            "MD5": "db8fdac9126cd8fd376820961ec3042e",
             "path": "config/xaero/minimap/server_profiles/cobbleverse.cfg"
           }
         },
@@ -3676,9 +3676,9 @@
           "name": "client.cfg",
           "type": "File",
           "artifact": {
-            "size": 471,
+            "size": 487,
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/xaero/world-map/client.cfg",
-            "MD5": "79a620c720ee5950016683d227a6539d",
+            "MD5": "3df12aca3e1fada5090e3b8c6b27ec02",
             "path": "config/xaero/world-map/client.cfg"
           }
         },
@@ -3687,9 +3687,9 @@
           "name": "common.cfg",
           "type": "File",
           "artifact": {
-            "size": 145,
+            "size": 148,
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/xaero/world-map/common.cfg",
-            "MD5": "f446e855c01d0ab0767dcfa1d9aa1a5c",
+            "MD5": "603631177b642b44798ba28c475133bd",
             "path": "config/xaero/world-map/common.cfg"
           }
         },
@@ -3698,9 +3698,9 @@
           "name": "cobbleverse.cfg",
           "type": "File",
           "artifact": {
-            "size": 1387,
+            "size": 1438,
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/xaero/world-map/profiles/cobbleverse.cfg",
-            "MD5": "b4b6c56aae538fbacf63d08a65205916",
+            "MD5": "7720353980399b5a2b8bd9fa2a0ab8e2",
             "path": "config/xaero/world-map/profiles/cobbleverse.cfg"
           }
         },
@@ -3709,9 +3709,9 @@
           "name": "cobbleverse.cfg",
           "type": "File",
           "artifact": {
-            "size": 83,
+            "size": 88,
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/xaero/world-map/server_profiles/cobbleverse.cfg",
-            "MD5": "5fb5af184d9a154cab8df9b142176d15",
+            "MD5": "db8fdac9126cd8fd376820961ec3042e",
             "path": "config/xaero/world-map/server_profiles/cobbleverse.cfg"
           }
         },
@@ -3834,6 +3834,17 @@
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/datapacks/PokeCenterPCs-DP.zip",
             "MD5": "17e147a30a1f0cb543f8f496c6e58af8",
             "path": "datapacks/PokeCenterPCs-DP.zip"
+          }
+        },
+        {
+          "id": "420.zip",
+          "name": "420.zip",
+          "type": "File",
+          "artifact": {
+            "size": 275088,
+            "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/resourcepacks/420.zip",
+            "MD5": "f0fc84f3304a782ca82992c7787f35f0",
+            "path": "resourcepacks/420.zip"
           }
         },
         {
