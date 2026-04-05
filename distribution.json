@@ -2257,9 +2257,9 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 1920,
+            "size": 1943,
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/config/defaultoptions/options.txt",
-            "MD5": "32bbe81119ee7dafa50e3544b977e26a",
+            "MD5": "35815b1674b1e120dfabef5dedaa7a49",
             "path": "config/defaultoptions/options.txt"
           }
         },
@@ -3837,17 +3837,6 @@
           }
         },
         {
-          "id": "420.zip",
-          "name": "420.zip",
-          "type": "File",
-          "artifact": {
-            "size": 275088,
-            "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/resourcepacks/420.zip",
-            "MD5": "f0fc84f3304a782ca82992c7787f35f0",
-            "path": "resourcepacks/420.zip"
-          }
-        },
-        {
           "id": "ATMxMSD RP.zip",
           "name": "ATMxMSD RP.zip",
           "type": "File",
@@ -4428,6 +4417,17 @@
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/resourcepacks/z%20DO%20NOT%20ENABLE%20z%20[Terralith%20-%20Credits%20Only].zip",
             "MD5": "d030d9971db10c957cc119c751a71def",
             "path": "resourcepacks/z DO NOT ENABLE z [Terralith - Credits Only].zip"
+          }
+        },
+        {
+          "id": "코블몬 번역 최종본.zip",
+          "name": "코블몬 번역 최종본.zip",
+          "type": "File",
+          "artifact": {
+            "size": 278608,
+            "url": "https://cdn.mc.gotiger.dev/handmade/servers/COBBLEVERSE-1.21.1/files/resourcepacks/%EC%BD%94%EB%B8%94%EB%AA%AC%20%EB%B2%88%EC%97%AD%20%EC%B5%9C%EC%A2%85%EB%B3%B8.zip",
+            "MD5": "fb54aa9fab3226918280d8cc010dc0ea",
+            "path": "resourcepacks/코블몬 번역 최종본.zip"
           }
         },
         {
