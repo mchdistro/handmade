@@ -4482,7 +4482,7 @@
           "name": "join_multiplayer_screen_layout.txt",
           "type": "File",
           "artifact": {
-            "size": 15829,
+            "size": 20456,
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld-1.20.1/files/config/fancymenu/customization/join_multiplayer_screen_layout.txt",
             "path": "config/fancymenu/customization/join_multiplayer_screen_layout.txt"
           }
@@ -4502,7 +4502,7 @@
           "name": "main_menu.txt",
           "type": "File",
           "artifact": {
-            "size": 82171,
+            "size": 73374,
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld-1.20.1/files/config/fancymenu/customization/main_menu.txt",
             "path": "config/fancymenu/customization/main_menu.txt"
           }
@@ -4522,7 +4522,7 @@
           "name": "custom_gui_screens.txt",
           "type": "File",
           "artifact": {
-            "size": 442,
+            "size": 557,
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld-1.20.1/files/config/fancymenu/custom_gui_screens.txt",
             "path": "config/fancymenu/custom_gui_screens.txt"
           }
