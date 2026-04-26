@@ -1,0 +1,67 @@
+{
+	"variant": "lunar",
+	"weight": 10,
+	"quality": 0,
+	"dimensions": [],
+	"bonuses": [
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "light_weapon",
+				"types": [
+					"sword",
+					"trident"
+				]
+			},
+			"attribute": "attributeslib:cold_damage",
+			"operation": "ADDITION",
+			"values": {
+				"common": 1,
+				"uncommon": 0.5,
+				"rare": 1.0,
+				"epic": 2,
+				"mythic": 3,
+				"ancient": 4
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "core_armor",
+				"types": [
+					"chestplate",
+					"leggings"
+				]
+			},
+			"attribute": "forge:entity_gravity",
+			"operation": "MULTIPLY_TOTAL",
+			"values": {
+				"common": -0.03,
+				"uncommon": -0.075,
+				"rare": -0.135,
+				"epic": -0.195,
+				"mythic": -0.255,
+				"ancient": -0.31
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "boots",
+				"types": [
+					"boots"
+				]
+			},
+			"attribute": "forge:swim_speed",
+			"operation": "MULTIPLY_BASE",
+			"values": {
+				"common": 0.03,
+				"uncommon": 0.06,
+				"rare": 0.09,
+				"epic": 0.135,
+				"mythic": 0.18,
+				"ancient": 0.24
+			}
+		}
+	]
+}

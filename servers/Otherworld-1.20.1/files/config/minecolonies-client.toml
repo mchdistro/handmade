@@ -1,20 +1,20 @@
 
-#All configuration items related to the core gameplay
+#핵심 게임플레이에 관련된 설정들
 [gameplay]
-	#minecolonies.config.enablecitizenvoices.comment [Default: true]
+	#minecolonies.config.enablecitizenvoices.comment [기본값: true]
 	enablecitizenvoices = true
-	#By default, when placing a schematic near other buildings, the already-placed buildings will show as if they were at level 5 and have a blue outline around them. You can disable that by setting this to false. [Default: true]
+	#다른 건물 근처에 도면을 설치하면 다른 건물이 5레벨 건물로 표시되고 주위에 파란색 외곽선이 표시됩니다. false로 설정하여 비활성화 할 수 있습니다. [기본값: true]
 	neighborbuildingrendering = true
-	#How close a building needs to be to another to be considered a neighbor, in blocks. -1 = intersecting, 0 = touching [Default: 4, min: -2, max: 16]
+	#이웃으로 간주되는 건물 간격을 설정합니다. -1 = 겹침, 0 = 닿음 (블록 단위) [기본값: 4, 최소값: -2, 최대값: 16]
 	#Range: -2 ~ 16
 	neighborbuildingrange = 4
-	#How close (in blocks) you need to be to see work orders while wearing the Build Goggles. [Default: 50, min: 1, max: 250]
+	#건축가의 고글을 착용한 상태에서 작업 주문을 보려면 얼마나 가까이 있어야 하는지(블록 단위). [기본값: 50, 최소값: 1, 최대값: 250]
 	#Range: 1 ~ 250
 	buildgogglerange = 50
-	#When true, the colony borders shown when holding the build tool will be in the colony's team color. When false, the colony you're inside will be white and any other colony will be red. [Default: true]
+	#true일 경우 건축 도구로 건물을 지을 때 나타나는 경계가 팀 색상으로 보입니다. false일 경우 콜로니 안에서는 하얀색으로, 바깥에서는 빨간색으로 표시됩니다. [기본값: true]
 	colonyteamborders = true
-	#Should special holiday content be displayed? [Default: true]
+	#특별 기념일 내용 표시 여부 [기본값: true]
 	holidayfeatures = true
-	#When true, dyed leather items will show a tooltip so that you know what color to use. [Default: true]
+	#When true, dyed leather items will show a tooltip so that you know what color to use. [기본값: true]
 	showdyetooltips = true
 

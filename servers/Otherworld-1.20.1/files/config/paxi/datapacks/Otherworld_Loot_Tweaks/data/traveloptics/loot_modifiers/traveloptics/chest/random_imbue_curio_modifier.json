@@ -1,0 +1,10 @@
+{
+  "type": "traveloptics:universal_loot",
+  "conditions": [
+    {
+      "condition": "minecraft:random_chance", 
+      "chance": 0.2
+    }
+  ],
+  "loot_table": "traveloptics:chests/random_imbue_curio_loot"
+}

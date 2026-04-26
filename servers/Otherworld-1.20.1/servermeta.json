@@ -24,7 +24,7 @@
         }
       ],
       "ram": {
-        "minimum": 4096,
+        "minimum": 8192,
         "recommended": 8192
       }
     }

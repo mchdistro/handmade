@@ -1,0 +1,77 @@
+{
+  "weight": 5,
+  "quality": 2,
+  "dimensions": [],
+  "unique": false,
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "magic_weapons",
+        "types": [
+          "staff"
+        ]
+      },
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "operation": "MULTIPLY_BASE",
+      "values": {
+        "common": 0.025,
+        "uncommon": 0.05,
+        "rare": 0.07,
+        "epic": 0.10,
+        "mythic": 0.12,
+        "ancient": 0.15
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "melee_weapon",
+        "types": [
+          "sword",
+          "heavy_weapon"
+        ]
+      },
+      "attribute": "irons_spellbooks:ice_magic_resist",
+      "operation": "MULTIPLY_BASE",
+      "values": {
+        "common": 0.015,
+        "uncommon": 0.03,
+        "rare": 0.06,
+        "epic": 0.075,
+        "mythic": 0.09,
+        "ancient": 0.12
+      }
+    },
+    {
+      "type": "apotheosis:enchantment",
+      "gem_class": {
+        "key": "boots",
+        "types": [
+          "boots"
+        ]
+      },
+      "must_exist": true,
+      "enchantment": "minecraft:frost_walker",
+      "values": {
+        "mythic": 1,
+        "ancient": 2
+      }
+    },
+    {
+      "type": "apotheosis:enchantment",
+      "gem_class": {
+        "key": "core_armor",
+        "types": [
+          "chestplate",
+          "leggings"
+        ]
+      },
+      "enchantment": "apotheosis:icy_thorns",
+      "values": {
+        "mythic": 1,
+        "ancient": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "type": "otherworldapoth:spell_effect",
+  "mob_effect": "attributeslib:knowledge",
+  "target": "SPELL_DAMAGE_SELF",
+  "values": {
+    "epic": {
+      "duration": {
+        "min": 80,
+        "steps": 4,
+        "step": 20
+      },
+      "amplifier": 0,
+      "cooldown": 400
+    },
+    "mythic": {
+      "duration": {
+        "min": 100,
+        "steps": 4,
+        "step": 20
+      },
+      "amplifier": 0,
+      "cooldown": 400
+    },
+    "ancient": {
+      "duration": {
+        "min": 100,
+        "steps": 6,
+        "step": 20
+      },
+      "amplifier": 0,
+      "cooldown": 400
+    }
+  },
+  "types": [
+    "staff"
+  ]
+}

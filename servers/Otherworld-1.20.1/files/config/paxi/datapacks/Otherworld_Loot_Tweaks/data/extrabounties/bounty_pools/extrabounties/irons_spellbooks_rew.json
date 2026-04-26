@@ -1,0 +1,978 @@
+{
+  "requires": [
+    "irons_spellbooks"
+  ],
+  "content": {
+    "irons_spellbooks_ender_rune": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "irons_spellbooks:ender_rune",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 3000,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "irons_spellbooks:blank_rune"
+        }
+      ]
+    },
+    "irons_spellbooks_holy_rune": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "irons_spellbooks:holy_rune",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 3000,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "irons_spellbooks:blank_rune"
+        }
+      ]
+    },
+    "irons_spellbooks_blood_rune": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "irons_spellbooks:blood_rune",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 3000,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "irons_spellbooks:blank_rune"
+        }
+      ]
+    },
+    "irons_spellbooks_arcane_rune": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "irons_spellbooks:arcane_rune",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 3000,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "irons_spellbooks:blank_rune"
+        }
+      ]
+    },
+    "irons_spellbooks_cooldown_rune": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "irons_spellbooks:cooldown_rune",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 3000,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "irons_spellbooks:blank_rune"
+        }
+      ]
+    },
+    "irons_spellbooks_protection_rune": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "irons_spellbooks:protection_rune",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 3000,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "irons_spellbooks:blank_rune"
+        }
+      ]
+    },
+    "irons_spellbooks_nature_rune": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "irons_spellbooks:nature_rune",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 3000,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "irons_spellbooks:blank_rune"
+        }
+      ]
+    },
+    "irons_spellbooks_eldritch_manuscript": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "irons_spellbooks:eldritch_manuscript",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 20000
+    },
+    "irons_spellbooks_ancient_knowledge_fragment": {
+      "type": "item",
+      "rarity": "EPIC",
+      "content": "irons_spellbooks:ancient_knowledge_fragment",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 8000
+    },
+    "irons_spellbooks_emerald_stoneplate_ring": {
+      "type": "item",
+      "content": "irons_spellbooks:emerald_stoneplate_ring",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000
+    },
+    "irons_spellbooks_fireward_ring": {
+      "type": "item",
+      "content": "irons_spellbooks:fireward_ring",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000
+    },
+    "irons_spellbooks_frostward_ring": {
+      "type": "item",
+      "content": "irons_spellbooks:frostward_ring",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000
+    },
+    "irons_spellbooks_poisonward_ring": {
+      "type": "item",
+      "content": "irons_spellbooks:poisonward_ring",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000
+    },
+    "irons_spellbooks_conjurers_talisman": {
+      "type": "item",
+      "content": "irons_spellbooks:conjurers_talisman",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000
+    },
+    "irons_spellbooks_affinity_ring": {
+      "type": "item",
+      "content": "irons_spellbooks:affinity_ring",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 2000
+    },
+    "irons_spellbooks_concentration_amulet": {
+      "type": "item",
+      "content": "irons_spellbooks:concentration_amulet",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000
+    },
+    "irons_spellbooks_amethyst_resonance_charm": {
+      "type": "item",
+      "content": "irons_spellbooks:amethyst_resonance_charm",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000
+    },
+    "irons_spellbooks_invisibility_ring": {
+      "type": "item",
+      "content": "irons_spellbooks:invisibility_ring",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000
+    },
+    "irons_spellbooks_lesser_spell_slot_upgrade": {
+      "type": "item",
+      "rarity": "RARE",
+      "content": "irons_spellbooks:lesser_spell_slot_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 5000
+    },
+    "irons_spellbooks_fire_upgrade_orb": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "irons_spellbooks:fire_upgrade_orb",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 20000
+    },
+    "irons_spellbooks_upgrade_orb": {
+      "type": "item",
+      "rarity": "EPIC",
+      "content": "irons_spellbooks:upgrade_orb",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 10000
+    },
+    "irons_spellbooks_ice_upgrade_orb": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "irons_spellbooks:ice_upgrade_orb",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 20000
+    },
+    "irons_spellbooks_lightning_upgrade_orb": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "irons_spellbooks:lightning_upgrade_orb",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 20000
+    },
+    "irons_spellbooks_holy_upgrade_orb": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "irons_spellbooks:holy_upgrade_orb",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 20000
+    },
+    "irons_spellbooks_ender_upgrade_orb": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "irons_spellbooks:ender_upgrade_orb",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 20000
+    },
+    "irons_spellbooks_blood_upgrade_orb": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "irons_spellbooks:blood_upgrade_orb",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 20000
+    },
+    "irons_spellbooks_evocation_upgrade_orb": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "irons_spellbooks:evocation_upgrade_orb",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 20000
+    },
+    "irons_spellbooks_nature_upgrade_orb": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "irons_spellbooks:nature_upgrade_orb",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 20000
+    },
+    "irons_spellbooks_mana_upgrade_orb": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "irons_spellbooks:mana_upgrade_orb",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 20000
+    },
+    "irons_spellbooks_cooldown_upgrade_orb": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "irons_spellbooks:cooldown_upgrade_orb",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 20000
+    },
+    "irons_spellbooks_protection_upgrade_orb": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "irons_spellbooks:protection_upgrade_orb",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 20000
+    },
+    "irons_spellbooks_permafrost_shard": {
+      "type": "item",
+      "rarity": "RARE",
+      "content": "irons_spellbooks:permafrost_shard",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000
+    },
+    "irons_spellbooks_evocation_rune": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "irons_spellbooks:evocation_rune",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 3000,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "irons_spellbooks:blank_rune"
+        }
+      ]
+    },
+    "irons_spellbooks_ice_rune": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "irons_spellbooks:ice_rune",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 3000,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "irons_spellbooks:blank_rune"
+        }
+      ]
+    },
+    "irons_spellbooks_lightning_rune": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "irons_spellbooks:lightning_rune",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 3000,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "irons_spellbooks:blank_rune"
+        }
+      ]
+    },
+    "irons_spellbooks_fire_rune": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "irons_spellbooks:fire_rune",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 3000,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "irons_spellbooks:blank_rune"
+        }
+      ]
+    },
+    "irons_spellbooks_mana_ring": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "irons_spellbooks:mana_ring",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 3500
+    },
+    "irons_spellbooks_silver_ring": {
+      "type": "item",
+      "content": "irons_spellbooks:silver_ring",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000
+    },
+    "irons_spellbooks_cooldown_ring": {
+      "type": "item",
+      "content": "irons_spellbooks:cooldown_ring",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2500
+    },
+    "irons_spellbooks_cast_time_ring": {
+      "type": "item",
+      "content": "irons_spellbooks:cast_time_ring",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2500
+    },
+    "irons_spellbooks_heavy_chain_necklace": {
+      "type": "item",
+      "content": "irons_spellbooks:heavy_chain_necklace",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000
+    },
+
+    "traveloptics_aqua_rune": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "traveloptics:aqua_rune",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 3000,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "irons_spellbooks:blank_rune"
+        }
+      ]
+    },
+    "alshanex_familiars_sound_rune": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "alshanex_familiars:sound_rune",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 3000,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "irons_spellbooks:blank_rune"
+        }
+      ]
+    },
+    "gtbcs_geo_rune": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "gtbcs_geomancy_plus:geo_rune",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 3000,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "irons_spellbooks:blank_rune"
+        }
+      ]
+    },
+    "traveloptics_aqua_upgrade_orb": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "traveloptics:aqua_upgrade_orb",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 20000
+    },
+    "alshanex_familiars_sound_upgrade_orb": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "alshanex_familiars:sound_upgrade_orb",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 20000
+    },
+    "gtbcs_geo_upgrade_orb": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "gtbcs_geomancy_plus:geo_upgrade_orb",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 20000
+    },
+    "traveloptics_eldritch_upgrade_orb": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "traveloptics:eldritch_upgrade_orb",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 30000,
+      "weightMult": 0.2
+    },
+    "traveloptics_spectral_spell_slot_upgrade": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "traveloptics:spectral_spell_slot_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 12500
+    },
+    "traveloptics_sanctified_spell_slot_upgrade": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "traveloptics:sanctified_spell_slot_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 12500
+    },
+
+
+
+
+    "irons_spellbooks_oakskin_elixir": {
+      "type": "item",
+      "content": "irons_spellbooks:oakskin_elixir",                                                                                                                   
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 3000,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "irons_spellbooks:oakskin_elixir"
+        },
+        {
+          "type": "item",
+          "content": "irons_spellbooks:greater_oakskin_elixir"
+        }
+      ]
+    },
+    "irons_spellbooks_greater_oakskin_elixir": {
+      "type": "item",
+      "content": "irons_spellbooks:greater_oakskin_elixir",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 3750,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "irons_spellbooks:oakskin_elixir"
+        },
+        {
+          "type": "item",
+          "content": "irons_spellbooks:greater_oakskin_elixir"
+        }
+      ]
+    },
+    "irons_spellbooks_greater_healing_potion": {
+      "type": "item",
+      "content": "irons_spellbooks:greater_healing_potion",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 3000
+    },
+    "irons_spellbooks_invisibility_elixir": {
+      "type": "item",
+      "content": "irons_spellbooks:invisibility_elixir",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 3000,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "irons_spellbooks:invisibility_elixir"
+        },
+        {
+          "type": "item",
+          "content": "irons_spellbooks:greater_invisibility_elixir"
+        }
+      ]
+    },
+    "irons_spellbooks_greater_invisibility_elixir": {
+      "type": "item",
+      "content": "irons_spellbooks:greater_invisibility_elixir",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 3750,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "irons_spellbooks:invisibility_elixir"
+        },
+        {
+          "type": "item",
+          "content": "irons_spellbooks:greater_invisibility_elixir"
+        }
+      ]
+    },
+    "irons_spellbooks_evasion_elixir": {
+      "type": "item",
+      "content": "irons_spellbooks:evasion_elixir",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 3000,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "irons_spellbooks:evasion_elixir"
+        },
+        {
+          "type": "item",
+          "content": "irons_spellbooks:greater_evasion_elixir"
+        }
+      ]
+    },
+    "irons_spellbooks_greater_evasion_elixir": {
+      "type": "item",
+      "content": "irons_spellbooks:greater_evasion_elixir",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 3750,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "irons_spellbooks:evasion_elixir"
+        },
+        {
+          "type": "item",
+          "content": "irons_spellbooks:greater_evasion_elixir"
+        }
+      ]
+    },
+    "irons_spellbooks_fire_ale": {
+      "type": "item",
+      "content": "irons_spellbooks:fire_ale",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 3000
+    },
+    "irons_spellbooks_netherward_tincture": {
+      "type": "item",
+      "content": "irons_spellbooks:netherward_tincture",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 3000
+    },
+    "irons_spellbooks_magic_cloth": {
+      "type": "item",
+      "content": "irons_spellbooks:magic_cloth",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1800
+    },
+    "irons_spellbooks_arcane_essence": {
+      "type": "item",
+      "content": "irons_spellbooks:arcane_essence",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 300
+    },
+    "irons_spellbooks_arcane_ingot": {
+      "type": "item",
+      "content": "irons_spellbooks:arcane_ingot",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1800
+    },
+    "irons_spellbooks_dragonskin": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "irons_spellbooks:dragonskin",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 7500
+    },
+    "irons_spellbooks_hogskin": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "irons_spellbooks:hogskin",
+      "amount": {
+        "min": 8,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_divine_pearl": {
+      "type": "item",
+      "content": "irons_spellbooks:divine_pearl",
+      "amount": {
+        "min": 8,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_lightning_bottle": {
+      "type": "item",
+      "rarity": "RARE",
+      "content": "irons_spellbooks:lightning_bottle",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 2000
+    },
+    "irons_spellbooks_blood_vial": {
+      "type": "item",
+      "content": "irons_spellbooks:blood_vial",
+      "amount": {
+        "min": 8,
+        "max": 16
+      },
+      "unitWorth": 600
+    },
+    "irons_spellbooks_frozen_bone": {
+      "type": "item",
+      "content": "irons_spellbooks:frozen_bone",
+      "amount": {
+        "min": 8,
+        "max": 16
+      },
+      "unitWorth": 600
+    },
+    "irons_spellbooks_legendary_ink": {
+      "type": "item",
+      "rarity": "EPIC",
+      "content": "irons_spellbooks:legendary_ink",
+      "amount": {
+        "min": 2,
+        "max": 16
+      },
+      "unitWorth": 3000
+    },
+    "irons_spellbooks_epic_ink": {
+      "type": "item",
+      "rarity": "RARE",
+      "content": "irons_spellbooks:epic_ink",
+      "amount": {
+        "min": 2,
+        "max": 16
+      },
+      "unitWorth": 2500,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "irons_spellbooks:legendary_ink"
+        }
+      ]
+    },
+    "irons_spellbooks_rare_ink": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "irons_spellbooks:rare_ink",
+      "amount": {
+        "min": 2,
+        "max": 16
+      },
+      "unitWorth": 1750,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "irons_spellbooks:legendary_ink"
+        },
+        {
+          "type": "item",
+          "content": "irons_spellbooks:epic_ink"
+        }
+      ]
+    },
+    "irons_spellbooks_uncommon_ink": {
+      "type": "item",
+      "content": "irons_spellbooks:uncommon_ink",
+      "amount": {
+        "min": 2,
+        "max": 16
+      },
+      "unitWorth": 1200,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "irons_spellbooks:legendary_ink"
+        },
+        {
+          "type": "item",
+          "content": "irons_spellbooks:epic_ink"
+        },
+        {
+          "type": "item",
+          "content": "irons_spellbooks:rare_ink"
+        }
+      ]
+    },
+    "irons_spellbooks_common_ink": {
+      "type": "item",
+      "content": "irons_spellbooks:common_ink",
+      "amount": {
+        "min": 2,
+        "max": 16
+      },
+      "unitWorth": 700,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "irons_spellbooks:legendary_ink"
+        },
+        {
+          "type": "item",
+          "content": "irons_spellbooks:epic_ink"
+        },
+        {
+          "type": "item",
+          "content": "irons_spellbooks:rare_ink"
+        },
+        {
+          "type": "item",
+          "content": "irons_spellbooks:uncommon_ink"
+        }
+      ]
+    },
+    "irons_spellbooks_mithril_scrap": {
+      "type": "item",
+      "rarity": "RARE",
+      "content": "irons_spellbooks:mithril_scrap",
+      "amount": {
+        "min": 4,
+        "max": 8
+      },
+      "unitWorth": 3000
+    },
+    "irons_spellbooks_ruined_book": {
+      "type": "item",
+      "rarity": "EPIC",
+      "content": "irons_spellbooks:ruined_book",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 6000
+    },
+    "irons_spellbooks_cinder_essence": {
+      "type": "item",
+      "rarity": "RARE",
+      "content": "irons_spellbooks:cinder_essence",
+      "amount": {
+        "min": 2,
+        "max": 5
+      },
+      "unitWorth": 3500
+    },
+    "irons_spellbooks_shriving_stone": {
+      "type": "item",
+      "content": "irons_spellbooks:shriving_stone",
+      "amount": {
+        "min": 8,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_energized_core": {
+      "type": "item",
+      "rarity": "EPIC",
+      "content": "irons_spellbooks:energized_core",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 6000
+    },
+    "irons_spellbooks_blank_rune": {
+      "type": "item",
+      "content": "irons_spellbooks:blank_rune",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "irons_spellbooks_icy_fang": {
+      "type": "item",
+      "content": "irons_spellbooks:ice_venom_vial",
+      "amount": {
+        "min": 8,
+        "max": 16
+      },
+      "unitWorth": 700,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "irons_spellbooks:icy_fang"
+        }
+      ]
+    }
+  }
+}

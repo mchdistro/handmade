@@ -1,0 +1,46 @@
+{
+  "type": "otherworldapoth:spell_trigger",
+  "spell": "irons_spellbooks:ball_lightning",
+  "trigger": "HURT",
+  "target": "TARGET",
+  "values": {
+    "rare": {
+      "level": {
+        "min": 1,
+        "steps": 1,
+        "step": 1
+      },
+      "cooldown": 1800
+    },
+    "epic": {
+      "level": {
+        "min": 2,
+        "steps": 2,
+        "step": 1
+      },
+      "cooldown": 1200
+    },
+    "mythic": {
+      "level": {
+        "min": 3,
+        "steps": 2,
+        "step": 1
+      },
+      "cooldown": 900
+    },
+    "ancient": {
+      "level": {
+        "min": 4,
+        "steps": 3,
+        "step": 1
+      },
+      "cooldown": 900
+    }
+  },
+  "types": [
+    "helmet",
+    "chestplate",
+    "leggings",
+    "boots"
+  ]
+}

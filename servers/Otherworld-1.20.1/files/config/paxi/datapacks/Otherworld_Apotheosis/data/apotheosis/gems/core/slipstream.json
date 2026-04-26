@@ -1,0 +1,68 @@
+{
+	"variant": "slipstream",
+	"weight": 10,
+	"quality": 0,
+	"unique": true,
+	"dimensions": [],
+	"bonuses": [
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "ranged_weapon",
+				"types": [
+					"bow",
+					"crossbow"
+				]
+			},
+			"attribute": "attributeslib:draw_speed",
+			"operation": "MULTIPLY_BASE",
+			"values": {
+				"common": 0.03,
+				"uncommon": 0.075,
+				"rare": 0.105,
+				"epic": 0.135,
+				"mythic": 0.15,
+				"ancient": 0.18
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "breaker",
+				"types": [
+					"shovel",
+					"pickaxe"
+				]
+			},
+			"attribute": "attributeslib:mining_speed",
+			"operation": "MULTIPLY_BASE",
+			"values": {
+				"common": 0.015,
+				"uncommon": 0.045,
+				"rare": 0.07,
+				"epic": 0.09,
+				"mythic": 0.11,
+				"ancient": 0.14
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "boots",
+				"types": [
+					"boots"
+				]
+			},
+			"attribute": "attributeslib:dodge_chance",
+			"operation": "ADDITION",
+			"values": {
+				"common": 0.01,
+				"uncommon": 0.02,
+				"rare": 0.02,
+				"epic": 0.03,
+				"mythic": 0.04,
+				"ancient": 0.05
+			}
+		}
+	]
+}

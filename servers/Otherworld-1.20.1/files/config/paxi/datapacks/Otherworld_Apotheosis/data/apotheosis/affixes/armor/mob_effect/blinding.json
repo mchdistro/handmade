@@ -1,0 +1,46 @@
+{
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "minecraft:blindness",
+	"target": "HURT_ATTACKER",
+	"values": {
+		"rare": {
+			"duration": {
+				"min": 10.0,
+				"steps": 2,
+				"step": 5.0
+			},
+			"amplifier": 0,
+			"cooldown": 200
+		},
+		"epic": {
+			"duration": {
+				"min": 10.0,
+				"steps": 2,
+				"step": 5.0
+			},
+			"amplifier": 0,
+			"cooldown": 200
+		},
+		"mythic": {
+			"duration": {
+				"min": 15.0,
+				"steps": 2,
+				"step": 5.0
+			},
+			"amplifier": 0,
+			"cooldown": 160
+		},
+		"ancient": {
+			"duration": {
+				"min": 15.0,
+				"steps": 2,
+				"step": 5.0
+			},
+			"amplifier": 0,
+			"cooldown": 160
+		}
+	},
+	"types": [
+		"helmet"
+	]
+}
