@@ -1,6 +1,6 @@
 {
-	always_invisible: true
-	default_hide_dependency_lines: false
+	always_invisible: 1
+	default_hide_dependency_lines: 0
 	default_quest_shape: ""
 	filename: "sidequest_terra_anima"
 	group: "61159D317C3B9976"
@@ -15,9 +15,9 @@
 				entity: "legendary_monsters:cloud_golem"
 				icon: "legendary_monsters:eye_of_air"
 				id: "00D9ABA99D1D300A"
-				title: "[LVL 3+] Cloud Golem"
+				title: "[LVL 3+] 구름 골렘"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
 			x: -1.5d
 			y: 0.0d
@@ -28,9 +28,9 @@
 				entity: "legendary_monsters:dune_sentinel"
 				icon: "legendary_monsters:eye_of_sandstorm"
 				id: "3A984D988D1BD187"
-				title: "[LVL 4+] Dune Sentinel"
+				title: "[LVL 4+] 모래 언덕 파수병"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
 			x: 0.0d
 			y: 0.0d
@@ -41,9 +41,9 @@
 				entity: "legendary_monsters:overgrown_colossus"
 				icon: "legendary_monsters:eye_of_moss"
 				id: "2CE78624A29A8929"
-				title: "[LVL 4+] Overgrown Colossus"
+				title: "[LVL 4+] 덩굴 골렘"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
 			x: -1.0d
 			y: -1.5d
@@ -54,12 +54,31 @@
 				entity: "legendary_monsters:ancient_guardian"
 				icon: "legendary_monsters:eye_of_many_ribs"
 				id: "341B18D83FB527C5"
-				title: "[LVL 4+] Ancient Guardian"
+				title: "[LVL 4+] 고대 수호자"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
 			x: 0.5d
 			y: -1.5d
+		}
+		{
+			id: "299BE27D342CB3D7"
+			tasks: [{
+				entity: "faded_conquest_2:aero_guardian"
+				icon: {
+					Count: 1
+					id: "faded_conquest_2:eye_of_the_storm"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "53EF7EF3C63DAD43"
+				title: "[LVL 7+] Aero Guardian"
+				type: "kill"
+				value: 1
+			}]
+			x: -1.5d
+			y: -3.0d
 		}
 		{
 			id: "3D39AFC64C91317D"
@@ -67,9 +86,9 @@
 				entity: "legendary_monsters:withered_abomination"
 				icon: "legendary_monsters:eye_of_soul"
 				id: "49678565E4F1D8B6"
-				title: "[LVL 8+] Withered Abomination"
+				title: "[LVL 8+] 시든 흉물"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
 			x: 0.0d
 			y: -3.0d
@@ -80,9 +99,9 @@
 				entity: "aether:slider"
 				icon: "aether:bronze_dungeon_key"
 				id: "57F2B38737B7F2E9"
-				title: "[LVL 11] Slider"
+				title: "[LVL 11] 슬라이더"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
 			x: -0.5d
 			y: -4.5d
@@ -94,7 +113,7 @@
 				icon: "legendary_monsters:eye_of_frost"
 				id: "679CBC5D3A499D38"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
 			x: -3.0d
 			y: -1.5d

@@ -11,21 +11,21 @@
 					Damage: 0
 					affix_data: {
 						affixes: {
-							"apotheosis:durable": 0.72f
-							"apotheosis:heavy_weapon/attribute/annihilating": 0.3582961f
-							"apotheosis:heavy_weapon/attribute/berserking": 0.8986422f
-							"apotheosis:heavy_weapon/attribute/decimating": 0.27190274f
-							"apotheosis:heavy_weapon/attribute/giant_slaying": 0.5943358f
-							"apotheosis:heavy_weapon/attribute/murderous": 0.23185647f
-							"apotheosis:heavy_weapon/special/cleaving": 0.8950529f
-							"apotheosis:sword/mob_effect/elusive": 0.43612766f
-							"otherworldapoth:melee/spell/flaming_strike": 0.6866149f
-							"otherworldapoth:socket_bonus": 0.44056696f
+							"apotheosis:durable": 0.72d
+							"apotheosis:heavy_weapon/attribute/annihilating": 0.3582961d
+							"apotheosis:heavy_weapon/attribute/berserking": 0.8986422d
+							"apotheosis:heavy_weapon/attribute/decimating": 0.27190274d
+							"apotheosis:heavy_weapon/attribute/giant_slaying": 0.5943358d
+							"apotheosis:heavy_weapon/attribute/murderous": 0.23185647d
+							"apotheosis:heavy_weapon/special/cleaving": 0.8950529d
+							"apotheosis:sword/mob_effect/elusive": 0.43612766d
+							"otherworldapoth:melee/spell/flaming_strike": 0.6866149d
+							"otherworldapoth:socket_bonus": 0.44056696d
 						}
 						name: "{\"color\":\"rainbow\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:heavy_weapon/attribute/murderous\"},\"\",{\"translate\":\"affix.apotheosis:heavy_weapon/special/cleaving.suffix\"}]}"
 						rarity: "apotheosis:ancient"
 						sockets: 5
-						uuids: [[I;
+						uuids: [[
 							-278499594
 							1280790435
 							-1443822119
@@ -42,19 +42,19 @@
 				tag: {
 					affix_data: {
 						affixes: {
-							"otherworldapoth:elemental/school_fire/attribute": 0.4495052f
-							"otherworldapoth:elemental/school_fire/mana_cost": 0.66899073f
-							"otherworldapoth:elemental/school_fire/pyromancers": 0.29234326f
-							"otherworldapoth:magic_weapons/attribute/intricate": 0.7102643f
-							"otherworldapoth:magic_weapons/attribute/vampiric": 0.6711347f
-							"otherworldapoth:magic_weapons/attribute/vigorous": 0.849822f
-							"otherworldapoth:magic_weapons/attribute/volatile": 0.1468904f
-							"otherworldapoth:socket_bonus": 0.39811808f
+							"otherworldapoth:elemental/school_fire/attribute": 0.4495052d
+							"otherworldapoth:elemental/school_fire/mana_cost": 0.66899073d
+							"otherworldapoth:elemental/school_fire/pyromancers": 0.29234326d
+							"otherworldapoth:magic_weapons/attribute/intricate": 0.7102643d
+							"otherworldapoth:magic_weapons/attribute/vampiric": 0.6711347d
+							"otherworldapoth:magic_weapons/attribute/vigorous": 0.849822d
+							"otherworldapoth:magic_weapons/attribute/volatile": 0.1468904d
+							"otherworldapoth:socket_bonus": 0.39811808d
 						}
 						name: "{\"color\":\"rainbow\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.otherworldapoth:socket_bonus\"},\"\",{\"translate\":\"affix.otherworldapoth:elemental/school_fire/mana_cost.suffix\"}]}"
 						rarity: "apotheosis:ancient"
 						sockets: 5
-						uuids: [[I;
+						uuids: [[
 							1104501353
 							1325879026
 							-1521464597
@@ -72,20 +72,20 @@
 					Damage: 0
 					affix_data: {
 						affixes: {
-							"apotheosis:armor/attribute/blessed": 0.81634146f
-							"apotheosis:armor/attribute/fortunate": 0.17797399f
-							"apotheosis:armor/attribute/ironforged": 0.674122f
-							"apotheosis:armor/attribute/steel_touched": 0.4984256f
-							"apotheosis:armor/dmg_reduction/blockading": 0.85066223f
-							"apotheosis:durable": 0.81f
-							"irons_spellbooks:armor/attribute/spell_resist": 0.6871115f
-							"otherworldapoth:armor/spell/oakskinned": 0.7807519f
-							"otherworldapoth:socket_bonus": 0.22239715f
+							"apotheosis:armor/attribute/blessed": 0.81634146d
+							"apotheosis:armor/attribute/fortunate": 0.17797399d
+							"apotheosis:armor/attribute/ironforged": 0.674122d
+							"apotheosis:armor/attribute/steel_touched": 0.4984256d
+							"apotheosis:armor/dmg_reduction/blockading": 0.85066223d
+							"apotheosis:durable": 0.81d
+							"irons_spellbooks:armor/attribute/spell_resist": 0.6871115d
+							"otherworldapoth:armor/spell/oakskinned": 0.7807519d
+							"otherworldapoth:socket_bonus": 0.22239715d
 						}
 						name: "{\"color\":\"rainbow\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:armor/attribute/gravitational\"},\"\",{\"translate\":\"affix.apotheosis:armor/attribute/spiritual.suffix\"}]}"
 						rarity: "apotheosis:ancient"
 						sockets: 2
-						uuids: [[I;
+						uuids: [[
 							-1743312229
 							1182089931
 							-1714575834
@@ -103,19 +103,19 @@
 					Damage: 0
 					affix_data: {
 						affixes: {
-							"apotheosis:durable": 0.75f
-							"apotheosis:ranged/attribute/agile": 0.6498667f
-							"apotheosis:ranged/attribute/elven": 1.0f
-							"apotheosis:ranged/attribute/streamlined": 0.9251385f
-							"apotheosis:ranged/attribute/windswept": 0.5415225f
-							"apotheosis:telepathic": 0.21575141f
-							"otherworldapoth:ranged/spell/sunbeam": 0.35404456f
-							"otherworldapoth:socket_bonus": 0.44828522f
+							"apotheosis:durable": 0.75d
+							"apotheosis:ranged/attribute/agile": 0.6498667d
+							"apotheosis:ranged/attribute/elven": 1.0d
+							"apotheosis:ranged/attribute/streamlined": 0.9251385d
+							"apotheosis:ranged/attribute/windswept": 0.5415225d
+							"apotheosis:telepathic": 0.21575141d
+							"otherworldapoth:ranged/spell/sunbeam": 0.35404456d
+							"otherworldapoth:socket_bonus": 0.44828522d
 						}
 						name: "{\"color\":\"rainbow\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:ranged/attribute/elven\"},\"\",{\"translate\":\"affix.apotheosis:ranged/attribute/streamlined.suffix\"}]}"
 						rarity: "apotheosis:ancient"
 						sockets: 5
-						uuids: [[I;
+						uuids: [[
 							-1879370995
 							1830243585
 							-1807048943
@@ -126,5 +126,5 @@
 			}
 		}
 	]
-	title: "Chapter 5"
+	title: "챕터 5"
 }

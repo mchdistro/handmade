@@ -1,7 +1,7 @@
 {
-	always_invisible: true
+	always_invisible: 1
 	autofocus_id: "08AD6ADB252DD936"
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: 0
 	default_quest_shape: ""
 	filename: "sidequest_miscellaneous_bosses"
 	group: "61159D317C3B9976"
@@ -30,9 +30,9 @@
 					}
 				}
 				id: "668FCFDA765E79FA"
-				title: "[LVL 5+] Forsaken"
+				title: "[LVL 5+] 버림받은 자"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
 			x: -3.5d
 			y: 1.5d
@@ -49,9 +49,9 @@
 					}
 				}
 				id: "2FBBF5A6188CC908"
-				title: "[LVL 9+] Hullbreaker"
+				title: "[LVL 9+] 선체 파괴자"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
 			x: 1.0d
 			y: 1.5d
@@ -62,9 +62,9 @@
 				entity: "aether:slider"
 				icon: "aether:bronze_dungeon_key"
 				id: "75DA46DEF5E36409"
-				title: "[LVL 11] Slider"
+				title: "[LVL 11] 슬라이더"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
 			x: 2.5d
 			y: 0.0d
@@ -81,9 +81,9 @@
 					}
 				}
 				id: "3AEFA12DEEA81043"
-				title: "[LVL 16] luxtructosaurus"
+				title: "[LVL 16] 럭스트럭토사우르스"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
 			x: 1.0d
 			y: -1.5d
@@ -100,9 +100,9 @@
 					}
 				}
 				id: "09387E7787F0645B"
-				title: "[LVL 4+] Orc Boss"
+				title: "[LVL 4+] 오크 보스"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
 			x: -0.5d
 			y: 0.0d
@@ -110,14 +110,14 @@
 		{
 			description: ["{image:otherworld:textures/conjunctivius.png width:200 height:150 align:center}"]
 			id: "3B78A538F710956B"
-			subtitle: "Progress through the Mine Cells Dimensions to reach it"
+			subtitle: "그곳에 도달하려면 광산 세포 차원을 진행하세요"
 			tasks: [{
 				entity: "minecells:conjunctivius"
 				icon: "minecells:boss_stem_cell"
 				id: "4A3B145A6D7AB414"
-				title: "[LVL 12] Conjunctivius"
+				title: "[LVL 12] 결막염"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
 			x: 1.0d
 			y: 0.0d
@@ -125,14 +125,14 @@
 		{
 			description: ["{image:otherworld:textures/wither.png width:150 height:150 align:center}"]
 			id: "710D8F845FE9F16D"
-			subtitle: "Summoned with 4 Soul Sand and 3 Wither Heads"
+			subtitle: "영혼 모래 4개와 위더 머리 3개로 소환됨"
 			tasks: [{
 				entity: "minecraft:wither"
 				icon: "minecraft:wither_skeleton_skull"
 				id: "5B0724884EEDE7CD"
-				title: "[LVL 10] Wither"
+				title: "[LVL 10] 위더"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
 			x: 2.5d
 			y: 1.5d
@@ -145,14 +145,14 @@
 				type: "item"
 			}]
 			size: 1.0d
-			subtitle: "Throw a Mysterious Worm into the Void"
+			subtitle: "기이한 벌레를 공허에 던지세요"
 			tasks: [{
 				entity: "alexsmobs:void_worm"
 				icon: "alexsmobs:void_worm_eye"
 				id: "24F1E8FAE2E678BA"
-				title: "[LVL 20] Void Worm"
+				title: "[LVL 20] 공허 벌레"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
 			x: 2.5d
 			y: -1.5d
@@ -163,9 +163,9 @@
 				entity: "faded_conquest_2:faded_king"
 				icon: "faded_conquest_2:mysterious_crown"
 				id: "6CA78B709D175D92"
-				title: "[LVL 6+] Dyrolian the Faded King"
+				title: "[LVL 6+] 희미해진 왕 다이롤리안"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
 			x: -3.5d
 			y: 0.0d
@@ -173,14 +173,14 @@
 		{
 			description: ["{image:otherworld:textures/terrible_ten.png width:150 height:150 align:center}"]
 			id: "154AB5259683F12B"
-			subtitle: "The Knight Battle Ground located anywhere on the surface of the World"
+			subtitle: "기사 전투 구역은 월드의 표면 어디에든 있습니다"
 			tasks: [{
 				entity: "faded_conquest_2:terrible_ten"
 				icon: "faded_conquest_2:terrible_tensummon"
 				id: "231B6916C0DF9C5E"
-				title: "[LVL 5+] Terrible Ten"
+				title: "[LVL 5+] 끔찍한 열 명"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
 			x: -2.0d
 			y: 1.5d
@@ -193,20 +193,20 @@
 				"{image:otherworld:textures/maledictus.png width:250 height:140 align:center}"
 				""
 				""
-				"The Guardian, bathed in the Phantom Flame"
+				"망령 불꽃에 휩싸인 수호자"
 				""
 				""
-				"&7&o\"This threshold does not bar passage; it merely demands transformation. Prove you can endure the becoming or be unmade by it. Not all who begin metamorphosis can survive it.\"&r&r"
+				"&7&o이 문턱은 통과를 막는 것이 아니라 변형을 요구할 뿐입니다. 변화를 견딜 수 있음을 증명하거나 변화에 의해 파괴되십시오. 변태를 시작하는 모든 사람이 살아남을 수 있는 것은 아닙니다.&r&r"
 			]
 			id: "04F0190F0113CFFD"
-			subtitle: "A powerful, phantom entity guards the central chamber, radiating an aura that disrupts dimensional travel.\n\nFound at the heart of the Stronghold."
+			subtitle: "강력한 망령 개체가 차원 여행을 방해하는 오라를 방출하며 중앙 방을 지키고 있습니다. \\n\\n요새의 심장부에서 발견됩니다."
 			tasks: [{
 				entity: "cataclysm:maledictus"
 				icon: "cataclysm:cursed_eye"
 				id: "227487201FE54BE5"
-				title: "[LVL 21] Maledictus"
+				title: "[LVL 21] 말레딕투스"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
 			x: 0.0d
 			y: 2.5d
@@ -214,14 +214,14 @@
 		{
 			dependencies: ["24C14685B7275B93"]
 			id: "022A2B5DCE0FDAB0"
-			subtitle: "Throw a Mysterious Worm into the Void"
+			subtitle: "기이한 벌레를 공허에 던지세요"
 			tasks: [{
 				entity: "alexsmobs:void_worm"
 				icon: "alexsmobs:void_worm_eye"
 				id: "78C8933CDF72CF41"
-				title: "[LVL 20] Void Worm"
+				title: "[LVL 20] 공허 벌레"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
 			x: 1.5d
 			y: 3.5d
@@ -230,14 +230,14 @@
 			dependencies: ["24C14685B7275B93"]
 			description: ["{image:otherworld:textures/obsidilith.png width:100 height:150 align:center}"]
 			id: "7DC29251B16BCED5"
-			subtitle: "A lumbering construct of obsidian animated by End energies.\n\nFound in rare structures in The End's outer islands."
+			subtitle: "엔더 에너지에 의해 애니메이션된 흑요석의 육중한 구조물입니다. \\n\\n엔드의 황무지에 있는 희귀한 구조물에서 발견됩니다."
 			tasks: [{
 				entity: "bosses_of_mass_destruction:obsidilith"
 				icon: "bosses_of_mass_destruction:obsidian_heart"
 				id: "07D43EFA9E4085AB"
-				title: "[LVL 23] Obsidilith"
+				title: "[LVL 23] 흑요석 거석"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
 			x: -1.5d
 			y: 4.5d
@@ -247,18 +247,18 @@
 			description: ["{image:otherworld:textures/ender_guardian.png width:150 height:150 align:center}"]
 			id: "6A3087F6BAFF91B5"
 			size: 1.0d
-			subtitle: "A powerful sentinel watching over ruined citadels in the void.\n\nLocated in Ruined Citadels in The End's outer islands."
+			subtitle: "공허에 있는 파괴된 성채를 감시하는 강력한 보초병입니다. \\n\\n엔드의 황무지에 있는 파괴된 성채에 위치해 있습니다."
 			tasks: [{
 				entity: "cataclysm:ender_guardian"
 				icon: "cataclysm:void_eye"
 				id: "5427C387338BFC6A"
-				title: "[LVL 20] Ender Guardian"
+				title: "[LVL 20] 엔더 가디언"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
 			x: -1.5d
 			y: 3.0d
 		}
 	]
-	title: "&6Extra Bosses"
+	title: "&6추가 보스"
 }

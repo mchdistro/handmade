@@ -22,7 +22,9 @@
 				}
 			}
 		}
-		{ item: "irons_spellbooks:conjurers_talisman" }
+		{
+			item: "irons_spellbooks:conjurers_talisman"
+		}
 		{
 			item: {
 				Count: 1
@@ -33,5 +35,5 @@
 			}
 		}
 	]
-	title: "Chapter 1"
+	title: "챕터 1"
 }

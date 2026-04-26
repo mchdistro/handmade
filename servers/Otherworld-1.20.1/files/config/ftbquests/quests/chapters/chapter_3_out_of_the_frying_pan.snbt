@@ -1,10 +1,10 @@
 {
 	autofocus_id: "3D9A8CEEDEDFC68C"
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: 0
 	default_quest_shape: ""
 	filename: "chapter_3_out_of_the_frying_pan"
 	group: "47B0A784051454EE"
-	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_complete: 1
 	icon: "otherworld:earth_stone"
 	id: "48398A0A1B19AE6D"
 	images: [
@@ -42,14 +42,14 @@
 				type: "xp"
 				xp: 1000
 			}]
-			subtitle: "A test of strength. Strike its eye to deal damage - it hits hard, be careful!"
+			subtitle: "힘을 시험하는 퀘스트입니다. 눈을 공격하여 피해를 입히세요. 공격이 강력하니 조심하세요!"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:gauntlet"
 				icon: "bosses_of_mass_destruction:blazing_eye"
 				id: "44AFE18BF26AFB3A"
-				title: "[LVL 12] Nether Gauntlet"
+				title: "[레벨 12] 네더 건틀렛"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
 			x: -5.5d
 			y: -0.5d
@@ -63,14 +63,14 @@
 				type: "xp"
 				xp: 350
 			}]
-			subtitle: "A power-obsessed necromancer waiting at the floor of the Nether."
+			subtitle: "네더 바닥에서 힘에 사로잡힌 강령술사가 기다리고 있습니다."
 			tasks: [{
 				entity: "eeeabsmobs:corpse_warlock"
 				icon: "eeeabsmobs:soul_summoning_necklace"
 				id: "3A71509D7AEEC690"
-				title: "[LVL 11] Corpse Warlock"
+				title: "[레벨 11] 시체 마법사"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
 			x: -9.5d
 			y: -2.0d
@@ -84,14 +84,14 @@
 				type: "xp"
 				xp: 1000
 			}]
-			subtitle: "An ancient netherite-magma golem, keeping watch over the &4Soul Blacksmith&r"
+			subtitle: "고대의 네더라이트-마그마 골렘이 &4영혼 대장장이&r를 지키고 있습니다."
 			tasks: [{
 				entity: "cataclysm:netherite_monstrosity"
 				icon: "cataclysm:monstrous_horn"
 				id: "7ABB27946686E1CF"
-				title: "[LVL 13] Netherite Monstrosity"
+				title: "[레벨 13] 네더라이트 괴물"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
 			x: -5.5d
 			y: -3.5d
@@ -106,7 +106,7 @@
 				xp: 1000
 			}]
 			size: 1.0d
-			subtitle: "Located in the in the Remnants of the Decaying Kingdom in the Nether. \\n\\nThe &bMoonstone Compass&r, when used in the Nether, points toward his kingdom"
+			subtitle: "네더에 있는 썩어가는 왕국의 잔재에 위치해 있습니다. \\n\\n&b달빛 석 나침반&r은 네더에서 사용하면 그의 왕국을 가리킵니다."
 			tasks: [{
 				entity: "soulsweapons:accursed_lord_boss"
 				icon: {
@@ -116,11 +116,11 @@
 						Damage: 0
 						affix_data: {
 							affixes: {
-								"apotheosis:heavy_weapon/attribute/shredding": 0.5468232f
+								"apotheosis:heavy_weapon/attribute/shredding": 0.5468232d
 							}
 							name: "{\"color\":\"#808080\",\"translate\":\"misc.apotheosis.affix_name.two\",\"with\":[{\"translate\":\"affix.apotheosis:heavy_weapon/attribute/shredding\"},\"\",\"\"]}"
 							rarity: "apotheosis:common"
-							uuids: [[I;
+							uuids: [[
 								-983064439
 								354700991
 								-1523368419
@@ -130,9 +130,9 @@
 					}
 				}
 				id: "4AFD09D57E9012F5"
-				title: "[LVL 12] Decaying King"
+				title: "[레벨 12] 썩어가는 왕"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
 			x: -5.0d
 			y: -2.0d
@@ -140,7 +140,7 @@
 		{
 			dependencies: ["611ED6B3414C1900"]
 			description: ["{image:otherworld:textures/ignis.png width:200 height:150 align:center}"]
-			hide_until_deps_complete: true
+			hide_until_deps_complete: 1
 			id: "7585F2250066DF23"
 			rewards: [{
 				id: "2E525457E4A0B138"
@@ -149,14 +149,14 @@
 			}]
 			shape: "pentagon"
 			size: 1.25d
-			subtitle: "A fiery demi-god, a truly terrifying force.\\n\\nHe guards a &dstone from the core of the world&r. "
+			subtitle: "불타는 반신은 진정으로 끔찍한 존재입니다. \\n\\n그는 월드 코어의 &d돌&r을 지키고 있습니다."
 			tasks: [{
 				entity: "cataclysm:ignis"
 				icon: "cataclysm:altar_of_fire"
 				id: "3CEE090D00648606"
-				title: "[LVL 15] Ignis "
+				title: "[레벨 15] 이그니스"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
 			x: -0.125d
 			y: -1.875d
@@ -170,20 +170,20 @@
 				{
 					auto: "invisible"
 					command: "/gamestage add @s chapter_3 true"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: {
 						Count: 1
 						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
 								id: "minecraft:soul_speed"
-								lvl: 7s
+								lvl: 7
 							}]
 						}
 					}
 					id: "106CD10CA184EF47"
-					silent: true
-					title: "Unlock Character Level 12+"
+					silent: 1
+					title: "캐릭터 레벨 12+ 해금"
 					type: "command"
 				}
 				{
@@ -192,7 +192,7 @@
 					xp: 2500
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: 1
 					id: "16733C4F4E7EBF80"
 					table_id: 7869895703808023586L
 					type: "choice"
@@ -205,35 +205,35 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "Infuse the &6Scorched Core&r at the &dAltar&r hidden underneath the center of the Burning Arena."
+			subtitle: "불타는 투기장 중앙 아래에 숨겨진 &d제단&r에서 &6그을린 코어&r를 주입하세요."
 			tasks: [{
 				id: "03EC77BE0A047624"
 				item: "otherworld:earth_stone"
 				type: "item"
 			}]
-			title: "Core of the World"
+			title: "월드 코어"
 			x: 1.75d
 			y: -1.875d
 		}
 		{
 			id: "4A1FCD80912415A1"
-			subtitle: "Upon receiving the &aLife Stone&r, strange corpses attacked carrying a message, and a &4Bloody Eye&r.\\n\\nFollowing this eye through &cThe Nether&r should lead to more information about the Life and Death stones. "
+			subtitle: "&a생명의 돌&r을 받은 후, 이상한 시체들이 메시지와 &4피의 눈&r을 가지고 공격해 왔습니다. \\n\\n이 눈을 따라 &c네더&r를 통과하면 생명의 돌과 죽음의 돌에 대한 더 많은 정보를 얻을 수 있을 것입니다."
 			tasks: [
 				{
 					icon: "eeeabsmobs:bloody_altar_eye"
 					id: "31D89C66A020F93C"
 					structure: "eeeabsmobs:bloody_altar"
-					title: "Find the &4Bloody Altar&r in the Nether"
+					title: "네더에서 &4피의 제단&r을 찾으세요"
 					type: "structure"
 				}
 				{
 					id: "7216D969F97DE782"
 					item: "otherworld:life_stone"
-					title: "Finish &aChapter 2&r"
+					title: "&a2장&r 완료"
 					type: "item"
 				}
 			]
-			title: "&4Chapter 3&0| &fCore of the World&r"
+			title: "&43장&0 | &f월드 코어&r"
 			x: -11.0d
 			y: -2.0d
 		}
@@ -245,11 +245,11 @@
 			]
 			description: ["{image:otherworld:textures/eye_of_flame.png width:150 height:75 align:center}"]
 			id: "760BDAA5E3AFDE16"
-			subtitle: "Infuse an ender eye with the &bDecrepit Signet&r, &bMonstrosity Core&r, and &bGauntlet's Brand&r\\n\\nThrow and follow it to find the &4Burning Arena&r."
+			subtitle: "&b낡은 인장&r, &b괴물 코어&r, 그리고 &b건틀렛의 낙인&r으로 엔더 눈을 주입하세요. \\n\\n던져서 따라가면 &4불타는 투기장&r을 찾을 수 있습니다."
 			tasks: [{
 				id: "4635B118BCE0BAB7"
 				item: "cataclysm:flame_eye"
-				title: "Create the &bEye of Flame&r"
+				title: "&b불꽃의 눈&r을 만드세요"
 				type: "item"
 			}]
 			x: -3.5d
@@ -262,7 +262,7 @@
 				icon: "cataclysm:monstrous_eye"
 				id: "5D6FF9D784F3491B"
 				structure: "cataclysm:soul_black_smith"
-				title: "Find the &4Soul Blacksmith&r"
+				title: "&4영혼 대장장이&r를 찾으세요"
 				type: "structure"
 			}]
 			x: -7.0d
@@ -275,7 +275,7 @@
 				icon: "minecraft:black_glazed_terracotta"
 				id: "336E0BC588FFEAB0"
 				structure: "soulsweapons:decaying_kingdom"
-				title: "Find the &7Decaying Kingdom&r"
+				title: "&7썩어가는 왕국&r을 찾으세요"
 				type: "structure"
 			}]
 			x: -6.5d
@@ -284,12 +284,12 @@
 		{
 			dependencies: ["3F1A16D11D2D6522"]
 			id: "6CFBF084832DC26D"
-			subtitle: "A massive arena made out of blackstone, sitting at the base of the Nether."
+			subtitle: "네더 기저부에 위치한 검은 현무암으로 만들어진 거대한 투기장입니다."
 			tasks: [{
 				icon: "bosses_of_mass_destruction:gauntlet_blackstone"
 				id: "78FFEBBB8ADA2EF5"
 				structure: "bosses_of_mass_destruction:gauntlet_arena"
-				title: "Find the &8Gauntlet Arena&r"
+				title: "&8건틀렛 투기장&r을 찾으세요"
 				type: "structure"
 			}]
 			x: -7.0d
@@ -301,8 +301,8 @@
 			tasks: [{
 				id: "4985CF1D2524F589"
 				item: "otherworld:apex_project_book"
-				match_nbt: false
-				title: "Read &eThe Apex Project&r"
+				match_nbt: 0
+				title: "&e에이펙스 프로젝트&r를 읽으세요"
 				type: "item"
 			}]
 			x: -8.0d
@@ -311,16 +311,16 @@
 		{
 			dependencies: ["760BDAA5E3AFDE16"]
 			id: "611ED6B3414C1900"
-			subtitle: "Dropped by the guardians of the arena: the &cIgnited Revenants&r\\n\\nPlace them in the Burning Altar at the top of the arena to challenge &4Ignis&r."
+			subtitle: "투기장의 경비병인 &c불붙은 망령들&r이 떨어뜨립니다. \\n\\n투기장 상단의 불타는 제단에 놓아 &4이그니스&r에게 도전하세요."
 			tasks: [{
 				id: "4D906282428671CD"
 				item: "cataclysm:burning_ashes"
-				title: "Obtain the &cBurning Ashes&r"
+				title: "&c불타는 재&r를 획득하세요"
 				type: "item"
 			}]
 			x: -2.0d
 			y: -2.0d
 		}
 	]
-	title: " &4Core of the World&r &f|&r (Lv. 9+)"
+	title: "&4월드 코어&r &f|&r (레벨 9+)"
 }

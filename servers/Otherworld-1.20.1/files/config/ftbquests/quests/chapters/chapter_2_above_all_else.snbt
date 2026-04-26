@@ -1,10 +1,10 @@
 {
 	autofocus_id: "57D96A32A0B39E02"
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: 0
 	default_quest_shape: ""
 	filename: "chapter_2_above_all_else"
 	group: "47B0A784051454EE"
-	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_complete: 1
 	icon: "otherworld:life_stone"
 	id: "12C1D8980134491D"
 	images: [
@@ -36,25 +36,25 @@
 			]
 			icon: "aether:skyroot_log"
 			id: "34114C30533B804F"
-			subtitle: "The radiant avian &6Umvuthi&r has sensed the presence of the &bDeath Stone&r and awaits your arrival. \\n\\nWaiting in Savanna biomes, Umvuthi can be found with the &6Eye of the Sunbird&r"
+			subtitle: "빛나는 조류 인간 &6Umvuthi&r가 &b죽음의 돌&r의 존재를 감지하고 당신의 도착을 기다리고 있습니다. \\n\\n사바나 생물 군계에서 기다리고 있는 Umvuthi는 &6태양새의 눈&r으로 찾을 수 있습니다."
 			tasks: [
 				{
 					icon: "mowzies_cataclysm:sun_eye"
 					id: "2712FC4DFDE80863"
 					observe_type: 5
-					timer: 0L
-					title: "Find &6Umvuthi the Sunbird"
+					timer: 0
+					title: "&6태양새 Umvuthi&6 찾기"
 					to_observe: "mowziesmobs:umvuthi"
 					type: "observation"
 				}
 				{
 					id: "076D0835C3719512"
 					item: "otherworld:death_stone"
-					title: "Finish &5Chapter 1&r"
+					title: "&51장&r 완료"
 					type: "item"
 				}
 			]
-			title: "&4Chapter 2&r&0| &fWhispers on the Wind"
+			title: "&42장&r&0| &f바람 속삭임"
 			x: -9.0d
 			y: -3.5d
 		}
@@ -63,7 +63,7 @@
 			description: [
 				"{image:otherworld:textures/umvuthi.png width:150 height:150 align:center}"
 				""
-				"&7&o\"I have seen signs sent from the heavens. A great adventurer comes, wielding a dangerous power. The sun tells me I must fight to the bitter end.\"&r&r"
+				"&7&o\"나는 하늘에서 보낸 징조를 보았습니다. 위대한 모험가가 위험한 힘을 휘두르며 다가오고 있습니다. 태양은 나에게 쓴맛이 날 때까지 싸워야 한다고 말합니다.\"&r&r"
 			]
 			id: "6B1A8AD318538660"
 			rewards: [
@@ -79,14 +79,14 @@
 					xp: 200
 				}
 			]
-			subtitle: "This radiant avian sees your arrival as a divine trial. Defeat it to prove your worthiness for the Aether."
+			subtitle: "이 빛나는 조류 인간은 당신의 도착을 신성한 시련으로 봅니다. 천상계에 합당함을 증명하기 위해 처치하세요."
 			tasks: [{
 				entity: "mowziesmobs:umvuthi"
 				icon: "mowzies_cataclysm:sun_eye"
-				id: "083F1CDB60EC521A"
-				title: "[LVL 8+] Umvuthi the Sunbird"
+				id: "62062A5026910B90"
+				title: "[레벨 8+] 태양새 Umvuthi"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
 			x: -9.5d
 			y: -1.5d
@@ -100,14 +100,14 @@
 				type: "xp"
 				xp: 350
 			}]
-			subtitle: "A neutral guardian, ready to test the strength of the willing."
+			subtitle: "기꺼이 하는 자의 힘을 시험할 준비가 된 중립적인 수호자입니다."
 			tasks: [{
 				entity: "aether:valkyrie_queen"
 				icon: "otherworld:valkyrie_essence"
 				id: "7662BDF4DAAC543E"
-				title: "[LVL 11] Valkyrie Queen"
+				title: "[레벨 11] 발키리 여왕"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
 			x: -3.5d
 			y: -2.0d
@@ -121,14 +121,14 @@
 				type: "xp"
 				xp: 350
 			}]
-			subtitle: "A being of pure solar energy. Its fiery heart contains a vital essence."
+			subtitle: "순수한 태양 에너지의 존재. 그 불 같은 심장은 중요한 정수를 담고 있습니다."
 			tasks: [{
 				entity: "aether:sun_spirit"
 				icon: "otherworld:solar_essence"
 				id: "303FC14886685892"
-				title: "[LVL 10] Sun Spirit"
+				title: "[레벨 10] 태양 영혼"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
 			x: -3.5d
 			y: 0.0d
@@ -142,14 +142,14 @@
 				type: "xp"
 				xp: 350
 			}]
-			subtitle: "The majestic ruler of the sky-whales. A formidable guardian."
+			subtitle: "하늘고래의 위엄 있는 통치자. 강력한 수호자입니다."
 			tasks: [{
 				entity: "lost_aether_content:aerwhale_king"
 				icon: "otherworld:celestial_essence"
 				id: "7029D37C4694751F"
-				title: "[LVL 11] Aerwhale King"
+				title: "[레벨 11] 에어웨일 왕"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
 			x: -3.0d
 			y: 1.5d
@@ -163,14 +163,14 @@
 				type: "xp"
 				xp: 350
 			}]
-			subtitle: "A grotesque mutation of an aechor plant, found in an Ancient Laboratory. Perhaps a failed experiment?"
+			subtitle: "고대 연구소에서 발견된 에코르 식물의 기괴한 돌연변이. 아마도 실패한 실험일까요?"
 			tasks: [{
 				entity: "ancient_aether:mutated_aechor_plant"
 				icon: "otherworld:blighted_essence"
 				id: "38A107C347C16715"
-				title: "[LVL 10] Mutated Aechor Plant"
+				title: "[레벨 10] 돌연변이 에코르 식물"
 				type: "kill"
-				value: 1L
+				value: 1
 			}]
 			x: -3.0d
 			y: -3.5d
@@ -185,10 +185,10 @@
 				icon: "quark:calcite_pillar"
 				id: "646BD4D134A489DC"
 				structure: "aether_villages:olympic_citadel"
-				title: "Find the &bAncient floating city&r which holds the &dAltar of Life&r"
+				title: "&d생명의 제단&r이 있는 &b고대 떠다니는 도시&r 찾기"
 				type: "structure"
 			}]
-			title: "Heart of the Heavens"
+			title: "천상의 심장"
 			x: 0.5d
 			y: -1.5d
 		}
@@ -198,7 +198,7 @@
 			id: "56E2A2F9BC707683"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: 1
 					id: "43CD6C611CB1B92A"
 					table_id: 2483304654845151573L
 					type: "choice"
@@ -206,20 +206,20 @@
 				{
 					auto: "invisible"
 					command: "/gamestage add @s chapter_2 true"
-					elevate_perms: true
+					elevate_perms: 1
 					icon: {
 						Count: 1
 						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
 								id: "minecraft:soul_speed"
-								lvl: 7s
+								lvl: 7
 							}]
 						}
 					}
 					id: "76086FAC15617F9B"
-					silent: true
-					title: "Unlock Character Level 9+"
+					silent: 1
+					title: "캐릭터 레벨 9+ 잠금 해제"
 					type: "command"
 				}
 				{
@@ -235,14 +235,14 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "Find the &6Altar&r within the city, and present your &bAltar Offering&r to it."
+			subtitle: "도시 내에서 &6제단&r을 찾고 &b제단 공물&r을 바치세요."
 			tasks: [{
 				id: "69009F4C35EC1215"
 				item: "otherworld:life_stone"
-				title: "Obtain the &aLife Stone&r"
+				title: "&a생명의 돌&r 획득"
 				type: "item"
 			}]
-			title: "Essence of Hope"
+			title: "희망의 정수"
 			x: 2.5d
 			y: -1.0d
 		}
@@ -254,11 +254,11 @@
 				"42BEF5BF97B2408E"
 			]
 			id: "2E734E0FBDA736DE"
-			subtitle: "Combine the four essences from your trials: &eValkyrie&r, &6Solar&r, &3Blighted&r, and &bCelestial&r.\\n\\nCraft them together into an &bAltar Offering&r - symbolizing master over life."
+			subtitle: "당신의 시련에서 얻은 네 가지 정수를 결합하세요: &e발키리&r, &6태양의&r, &3황폐한&r, 그리고 &b천상의&r. \\n\\n그것들을 함께 엮어 &b제단 공물&r을 만드세요 - 삶에 대한 달인을 상징합니다."
 			tasks: [{
 				id: "4F7A0C3B6A05AF9E"
 				item: "otherworld:altar_offering"
-				title: "Create an &bAltar Offering&r"
+				title: "&b제단 공물&r 생성"
 				type: "item"
 			}]
 			x: -1.5d
@@ -266,14 +266,13 @@
 		}
 		{
 			dependencies: ["4B00965B54105A28"]
-			description: ["{image:otherworld:textures/eye_of_silver.png width:200 height:100 align:center}"]
 			id: "31A6AF98E1D8D3DD"
-			subtitle: "A holy temple made of Angelic Stone, found floating in the clouds.\\n\\nFind it with the &7Eye of Silver&r."
+			subtitle: "구름 속에 떠다니는 천사의 돌로 만들어진 신성한 사원."
 			tasks: [{
 				icon: "aether:silver_dungeon_key"
 				id: "0A290438448D4239"
 				structure: "aether:silver_dungeon"
-				title: "Find the &7Silver Dungeon&r"
+				title: "&7은빛 던전&r 찾기"
 				type: "structure"
 			}]
 			x: -5.5d
@@ -281,14 +280,13 @@
 		}
 		{
 			dependencies: ["4B00965B54105A28"]
-			description: ["{image:otherworld:textures/eye_of_platinum.png width:200 height:100 align:center}"]
 			id: "269857995C4A740F"
-			subtitle: "A lone tower made of Gale Stone, keeping watch over the floating hills.\\n\\nFind it with the &9Eye of Platinum&r."
+			subtitle: "떠다니는 언덕을 감시하는 강풍의 돌로 만들어진 외로운 탑."
 			tasks: [{
 				icon: "lost_aether_content:platinum_key"
 				id: "515E93DAEF79010E"
 				structure: "lost_aether_content:platinum_dungeon"
-				title: "Find the &9Platinum Dungeon&r"
+				title: "&9백금 던전&r 찾기"
 				type: "structure"
 			}]
 			x: -5.0d
@@ -296,15 +294,14 @@
 		}
 		{
 			dependencies: ["4B00965B54105A28"]
-			description: ["{image:otherworld:textures/eye_of_gold.png width:200 height:100 align:center}"]
 			icon: "aether:gold_dungeon_key"
 			id: "6DA0B4B50AB2B552"
-			subtitle: "A scorched prison made of Hellfire Stone, buried within an island to contain its energy. \\n\\nFind it with the &6Eye of Gold&r."
+			subtitle: "섬 안에 묻혀 에너지를 담고 있는 지옥불 돌로 만들어진 불에 탄 감옥."
 			tasks: [{
 				icon: "aether:gold_dungeon_key"
 				id: "382F38F4AC7B79BB"
 				structure: "aether:gold_dungeon"
-				title: "Find the &6Golden Dungeon&r"
+				title: "&6황금 던전&r 찾기"
 				type: "structure"
 			}]
 			x: -5.5d
@@ -312,14 +309,12 @@
 		}
 		{
 			dependencies: ["4B00965B54105A28"]
-			description: ["{image:otherworld:textures/eye_of_sentry.png width:200 height:100 align:center}"]
 			id: "6C3E4B207B640E39"
-			subtitle: "An ancient laboratory full of experiments forgotten to time. \\n\\nFind it with the &3Eye of Sentry&r."
 			tasks: [{
 				icon: "ancient_aether:laboratory_dungeon_key"
 				id: "261468A3CAF6AA0A"
 				structure: "ancient_aether:sentry_laboratory"
-				title: "Find the &3Sentry Laboratory"
+				title: "&3보초 연구소 찾기"
 				type: "structure"
 			}]
 			x: -5.0d
@@ -331,17 +326,17 @@
 				"26D0406B1B0B2B20"
 			]
 			id: "4B00965B54105A28"
-			subtitle: "Umvuthi's journal mentions constructing a portal out of &eGlowstone&r and &bWater&r.\\n\\nA trial of the skies awaits."
+			subtitle: "Umvuthi의 일지에는 &e발광석&r과 &b물&r로 차원문을 건설하는 것에 대해 언급되어 있습니다. \\n\\n하늘의 시련이 기다립니다."
 			tasks: [{
 				dimension: "aether:the_aether"
 				icon: "aether:aether_portal_frame"
 				id: "0050D5621DD9B639"
-				title: "Enter &aThe Aether&r"
+				title: "&a천상계&r 입장"
 				type: "dimension"
 			}]
 			x: -7.5d
 			y: -0.5d
 		}
 	]
-	title: " &aWhispers on the Wind&r &f|&r (Lv. 6+)"
+	title: " &a바람 속삭임&r &f|&r (레벨 6+)"
 }
