@@ -12871,6 +12871,17 @@
           }
         },
         {
+          "id": "koreanpatch-forge-1.9.5+mc1.20.1.jar",
+          "name": "koreanpatch-forge-1.9.5+mc1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 316542,
+            "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld-1.20.1/files/mods/koreanpatch-forge-1.9.5+mc1.20.1.jar",
+            "MD5": "b7c99a33c48f6ae31de7f7f6038800c2",
+            "path": "mods/koreanpatch-forge-1.9.5+mc1.20.1.jar"
+          }
+        },
+        {
           "id": "kotlinforforge-4.12.0-all.jar",
           "name": "kotlinforforge-4.12.0-all.jar",
           "type": "File",
