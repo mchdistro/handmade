@@ -11166,6 +11166,17 @@
           }
         },
         {
+          "id": "Chunky-1.3.146.jar",
+          "name": "Chunky-1.3.146.jar",
+          "type": "File",
+          "artifact": {
+            "size": 341451,
+            "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld-1.20.1/files/mods/Chunky-1.3.146.jar",
+            "MD5": "ed46120ac4f30ec8e03f6416e295577c",
+            "path": "mods/Chunky-1.3.146.jar"
+          }
+        },
+        {
           "id": "citadel-2.6.3-1.20.1.jar",
           "name": "citadel-2.6.3-1.20.1.jar",
           "type": "File",
