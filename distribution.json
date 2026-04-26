@@ -24341,17 +24341,6 @@
           }
         },
         {
-          "id": "BHMenu-Forge-1.20.1-2.4.3.jar",
-          "name": "BHMenu-Forge-1.20.1-2.4.3.jar",
-          "type": "File",
-          "artifact": {
-            "size": 164317,
-            "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld-1.20.1/files/mods/BHMenu-Forge-1.20.1-2.4.3.jar",
-            "MD5": "0781856174c7f57a57e66b1bd9d4e656",
-            "path": "mods/BHMenu-Forge-1.20.1-2.4.3.jar"
-          }
-        },
-        {
           "id": "biomemusic-1.20.1-3.5.jar",
           "name": "biomemusic-1.20.1-3.5.jar",
           "type": "File",
@@ -28327,7 +28316,7 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 19180,
+            "size": 19215,
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld-1.20.1/files/options.txt",
             "path": "options.txt"
           }
