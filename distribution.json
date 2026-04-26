@@ -27412,17 +27412,6 @@
           }
         },
         {
-          "id": "ServerBrowser-1.20.1-FORGE-1.3.3.jar",
-          "name": "ServerBrowser-1.20.1-FORGE-1.3.3.jar",
-          "type": "File",
-          "artifact": {
-            "size": 61252,
-            "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld-1.20.1/files/mods/ServerBrowser-1.20.1-FORGE-1.3.3.jar",
-            "MD5": "a7601366a5f84ab938085c85509c620d",
-            "path": "mods/ServerBrowser-1.20.1-FORGE-1.3.3.jar"
-          }
-        },
-        {
           "id": "servercore-forge-1.5.2+1.20.1.jar",
           "name": "servercore-forge-1.5.2+1.20.1.jar",
           "type": "File",
@@ -28285,7 +28274,7 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 19161,
+            "size": 19107,
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld-1.20.1/files/options.txt",
             "path": "options.txt"
           }
@@ -34690,6 +34679,17 @@
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld-1.20.1/files/resourcepacks/[Moonsu]%20Better%20GUI%20Tom's%20S.S.%202.0.1.zip",
             "MD5": "97f8ec56dcc12cbfde5d3d02d98d6ab1",
             "path": "resourcepacks/[Moonsu] Better GUI Tom's S.S. 2.0.1.zip"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 90,
+            "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld-1.20.1/files/servers.dat",
+            "MD5": "36b8eea8ae5cdbead9f4d0cce80bb9d9",
+            "path": "servers.dat"
           }
         },
         {
