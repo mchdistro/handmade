@@ -13740,6 +13740,17 @@
           }
         },
         {
+          "id": "plasmovoice-forge-1.20.1-2.1.9.jar",
+          "name": "plasmovoice-forge-1.20.1-2.1.9.jar",
+          "type": "File",
+          "artifact": {
+            "size": 12235357,
+            "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld-1.20.1/files/mods/plasmovoice-forge-1.20.1-2.1.9.jar",
+            "MD5": "0af8bf7ee29047dd8f1a2cd150178de3",
+            "path": "mods/plasmovoice-forge-1.20.1-2.1.9.jar"
+          }
+        },
+        {
           "id": "player-animation-lib-forge-1.0.2-rc1+1.20.jar",
           "name": "player-animation-lib-forge-1.0.2-rc1+1.20.jar",
           "type": "File",
