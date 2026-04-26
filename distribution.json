@@ -3218,16 +3218,6 @@
           }
         },
         {
-          "id": "cumulus_menus-client.toml",
-          "name": "cumulus_menus-client.toml",
-          "type": "File",
-          "artifact": {
-            "size": 313,
-            "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld-1.20.1/files/config/cumulus_menus-client.toml",
-            "path": "config/cumulus_menus-client.toml"
-          }
-        },
-        {
           "id": "cupboard.json",
           "name": "cupboard.json",
           "type": "File",
@@ -25809,9 +25799,9 @@
           "name": "gtinventorysave-forge-1.20.1-1.0.0.jar",
           "type": "File",
           "artifact": {
-            "size": 39657,
+            "size": 39841,
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld-1.20.1/files/mods/gtinventorysave-forge-1.20.1-1.0.0.jar",
-            "MD5": "7b69211fd6f9cd8fc29ff2d933b22bc1",
+            "MD5": "bf945bf10f37d4f9bc5289cdffcff316",
             "path": "mods/gtinventorysave-forge-1.20.1-1.0.0.jar"
           }
         },
