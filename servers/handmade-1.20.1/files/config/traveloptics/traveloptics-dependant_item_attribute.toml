@@ -1,0 +1,11 @@
+
+#W.I.P
+#This file is for the magic attributes that T.O Tweaks provided to its dependency mods' equipments!
+#If you're already overriding same attributes with mods like KubeJS or CIA (Custom Item Attributes), things might not work as intended.
+#Make sure to disable one either KubeJS & CIA or T.O Tweaks default attribute provider
+[attribute_provider]
+
+	[attribute_provider.general]
+		#If Attribute Provider system should be enabled or not || Disabling this will entirely disable Attribute Provider to items below || Default: false
+		attribute_provider_active = false
+

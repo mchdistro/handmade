@@ -1,0 +1,31 @@
+
+[Mobs]
+	#Example: ["minecraft:zombie", "minecraft:skeleton"]
+	"List of mobs that shouldn't be able to level up" = ["dummmmmmy:target_dummy", "minecraft:sheep", "minecraft:cow", "minecraft:pig", "minecraft:chicken", "minecraft:goat", "minecraft:llama", "minecraft:donkey", "minecraft:mule", "minecraft:panda", "minecraft:llama", "minecraft:armadillo", "minecraft:axolotl", "minecraft:bat", "minecraft:bee", "minecraft:cat", "minecraft:parrot", "minecraft:rabbit", "minecraft:frog", "minecraft:salmon", "minecraft:cod", "minecraft:pufferfish", "minecraft:snow_golem", "minecraft:squid", "minecraft:glow_squid", "minecraft:turtle", "minecraft:tadpole", "minecraft:tropical_fish", "minecraft:dolphin", "minecraft:fox", "minecraft:trader_llama", "alexsmobs:banana_slug", "alexsmobs:blobfish", "alexsmobs:blue_jay", "alexsmobs:catfish", "alexsmobs:cockroach", "alexsmobs:comb_jelly", "alexsmobs:crow", "alexsmobs:devils_hole_pupfish", "alexsmobs:flutter", "alexsmobs:fly", "alexsmobs:flying_fish", "alexsmobs:gazelle", "alexsmobs:hummingbird", "alexsmobs:jerboa", "alexsmobs:crow", "alexsmobs:mimic_octopus", "alexsmobs:mudskipper", "alexsmobs:potoo", "alexsmobs:rain_frog", "alexsmobs:roadrunner", "alexsmobs:seagull", "alexsmobs:seal", "alexsmobs:shoebill", "alexsmobs:stradpole", "alexsmobs:suagr_glider", "alexsmobs:terrapin", "alexsmobs:toucan", "alexsmobs:triops", "alexsmobs:anteater", "alexsmobs:bison", "alexsmobs:capuchin_monkey", "alexsmobs:emu", "alexsmobs:leafcutter_ant", "alexsmobs:lobster", "alexsmobs:raccoon", "alexsmobs:tasmanian_devil", "alexsmobs:skunk", "mythicmobs:sporelings", "biomeswevegone:man_o_war", "biomeswevegone:pumpkin_warden", "biomeswevegone:oddion", "minecolonies:citizen"]
+	#If this list is not empty only these mobs will be able to level up
+	#Example: ["minecraft:zombie", "minecraft:skeleton"]
+	"List of mobs that should be able to level up" = []
+	"Always show mobs levels" = false
+	"Only show levels when you look at the mob" = false
+	"Bonus experience per level" = 0.1
+	"List of mobs that should have their levels always hidden" = []
+
+[Attributes]
+	#Contains a list of pairs of attributes and their bonuses per one level
+	"Attributes bonuses per one level" = [["minecraft:generic.attack_damage", 0.2], ["irons_spellbooks:spell_resist", 0.2], ["minecraft:generic.armor", 0.2], ["minecraft:generic.max_health", 0.2], ["autoleveling:monster.projectile_damage_bonus", 0.2], ["autoleveling:monster.explosion_damage_bonus", 0.1]]
+
+["Default levelling settings"]
+	"Starting level" = 1
+	#If this is equal to 0, there will be no maximum level
+	"Maximum level" = 20
+	"Level increase per one block distance from spawn" = 0.001
+	"Level increase per one block deepness below sea level" = 0.05
+	#If this is higher than 0, the level of monsters will be randomly increased by value between 0 and this value
+	"Random level bonus" = 0
+	#If this is higher than 0, mobs level will increase every day by specified amount
+	"Level bonus per day" = 0.0
+	#Exponential level increase with distance
+	level_power_per_distance = 0.0
+	#Exponential level increase with deepness
+	level_power_per_deepness = 0.0
+

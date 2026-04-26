@@ -1,0 +1,154 @@
+{
+	id: "1EDC513652A0E3B9"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "traveloptics:stellothorn"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "traveloptics:shear_of_the_stars"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 1b
+					}
+					affix_data: {
+						affixes: {
+							"apotheosis:durable": 0.69f
+							"apotheosis:heavy_weapon/attribute/annihilating": 0.0816471f
+							"apotheosis:heavy_weapon/attribute/giant_slaying": 0.17320347f
+							"apotheosis:heavy_weapon/attribute/nullifying": 0.39241046f
+							"otherworldapoth:elemental/school_eldritch/attribute": 0.15824503f
+							"otherworldapoth:elemental/school_eldritch/hasturian": 0.7407504f
+							"otherworldapoth:elemental/school_eldritch/mana_cost": 0.34808648f
+							"otherworldapoth:elemental/school_ender/attribute": 0.9578499f
+							"otherworldapoth:elemental/school_ender/void_seers": 0.64800996f
+							"otherworldapoth:socket_bonus": 0.3755198f
+						}
+						name: "{\"color\":\"rainbow\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.otherworldapoth:elemental/school_ender/attribute\"},\"\",{\"translate\":\"affix.otherworldapoth:elemental/school_ender/void_seers.suffix\"}]}"
+						rarity: "apotheosis:ancient"
+						sockets: 5
+						uuids: [[I;
+							-562966571
+							2146914278
+							-1813371824
+							881753301
+						]]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "traveloptics:wand_of_final_light"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "traveloptics:supernova"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 1b
+					}
+					affix_data: {
+						affixes: {
+							"otherworldapoth:elemental/school_ender/attribute": 0.9938589f
+							"otherworldapoth:elemental/school_ender/mana_cost": 0.2075476f
+							"otherworldapoth:elemental/school_ender/void_seers": 0.33774126f
+							"otherworldapoth:magic_weapons/attribute/intricate": 0.503294f
+							"otherworldapoth:magic_weapons/attribute/vampiric": 0.48290735f
+							"otherworldapoth:magic_weapons/attribute/vigorous": 0.98682153f
+							"otherworldapoth:magic_weapons/attribute/volatile": 0.6317257f
+							"otherworldapoth:telepathic": 0.9635965f
+						}
+						name: "{\"color\":\"rainbow\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.otherworldapoth:magic_weapons/spell/echoing\"},\"\",{\"translate\":\"affix.otherworldapoth:magic_weapons/attribute/vigorous.suffix\"}]}"
+						rarity: "apotheosis:ancient"
+						sockets: 5
+						uuids: [[I;
+							686911894
+							1417628534
+							-1391431266
+							-750510403
+						]]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "valoria:phantasm_chestplate"
+				tag: {
+					Damage: 0
+					HideFlags: 2
+					affix_data: {
+						affixes: {
+							"apotheosis:armor/attribute/ironforged": 0.9593486f
+							"apotheosis:armor/attribute/spiritual": 0.4391089f
+							"apotheosis:armor/attribute/stalwart": 0.53774f
+							"apotheosis:armor/attribute/steel_touched": 0.95680964f
+							"apotheosis:armor/dmg_reduction/blockading": 1.0f
+							"apotheosis:armor/mob_effect/bursting": 0.61957127f
+							"apotheosis:durable": 0.69f
+							"irons_spellbooks:armor/attribute/spell_resist": 0.01543355f
+							"otherworldapoth:armor/spell/oakskinned": 1.0f
+							"otherworldapoth:socket_bonus": 0.9390424f
+						}
+						name: "{\"color\":\"rainbow\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:armor/attribute/stalwart\"},\"\",{\"translate\":\"affix.apotheosis:armor/dmg_reduction/blockading.suffix\"}]}"
+						rarity: "apotheosis:ancient"
+						sockets: 5
+						uuids: [[I;
+							2031783843
+							973555080
+							-1935820995
+							-1078180577
+						]]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "valoria:bow_of_darkness"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:durable": 0.79f
+							"apotheosis:ranged/attribute/agile": 0.37210643f
+							"apotheosis:ranged/attribute/elven": 0.74740094f
+							"apotheosis:ranged/attribute/streamlined": 0.8586425f
+							"apotheosis:ranged/attribute/windswept": 0.7970836f
+							"apotheosis:ranged/special/spectral": 0.9180392f
+							"apotheosis:telepathic": 0.4111306f
+							"otherworldapoth:ranged/spell/sunbeam": 0.75485706f
+							"otherworldapoth:ranged/spell/volley": 0.65539986f
+						}
+						name: "{\"color\":\"rainbow\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.otherworldapoth:ranged/spell/sunbeam\"},\"\",{\"translate\":\"affix.apotheosis:ranged/attribute/windswept.suffix\"}]}"
+						rarity: "apotheosis:ancient"
+						sockets: 5
+						uuids: [[I;
+							-1640953692
+							535380345
+							-1854778225
+							-577575547
+						]]
+					}
+				}
+			}
+		}
+	]
+	title: "Chapter 6"
+}

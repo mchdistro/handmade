@@ -1,0 +1,565 @@
+{
+	autofocus_id: "25C4269D9783091B"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_1_ghosts_of_ages_past"
+	group: "47B0A784051454EE"
+	hide_quest_until_deps_complete: true
+	icon: "otherworld:death_stone"
+	id: "177821E51638C827"
+	images: [
+		{
+			height: 10.0d
+			image: "realmrpg_quests:textures/screens/quest_book_bg.png"
+			order: 1
+			rotation: 0.0d
+			width: 18.52112676056338d
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			height: 13.0d
+			image: "otherworld:textures/chapter_one.png"
+			rotation: 0.0d
+			width: 18.0d
+			x: -5.0d
+			y: 1.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["53FD6D212F70D484"]
+			description: [
+				"{image:otherworld:textures/posessed_paladin.png width:120 height:180 align:center}"
+				""
+				""
+				""
+				"&7&o\"The whispers offer power. I know a trap when I see one; but I must respect the power of those who have taken this vow. I disrupt their control. They need me gone, I can sense it.\"&r "
+				""
+			]
+			id: "0F5B65A4DC665C6C"
+			rewards: [{
+				id: "67C79BBDB3A2A505"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "Once Sir Kaelen the Steadfast; his outspoken virtue has made him a target for the Lich. \\n\\nLocated in an Abandoned Crypt. Follow the &3Eye of Ghost&r to find it."
+			tasks: [{
+				entity: "legendary_monsters:posessed_paladin"
+				icon: "legendary_monsters:eye_of_ghost"
+				id: "03F7C9DA5B9B2488"
+				title: "[LVL 4] Posessed Paladin"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3C64330FB307C23C"]
+			description: ["{image:otherworld:textures/captain_cornelia.png width:120 height:100 align:center}"]
+			id: "1AD7DB0F192E3A55"
+			rewards: [{
+				id: "16992260FCA81E31"
+				type: "xp"
+				xp: 350
+			}]
+			subtitle: "Call her forth by using the Shell Horn near her abandoned ship, in an &3Ice Maze&r.\\n\\nTo lower her defenses, afflict her with &8Weakness&r."
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: "aquamirae:rune_of_the_storm"
+				id: "572B311673B0B1BB"
+				title: "[LVL 5] Ghost of Captain Cornelia"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["04343D2A9C34BC47"]
+			description: ["{image:otherworld:textures/draugr_boss.png width:130 height:150 align:center}"]
+			id: "2F6F8CA5321EBECA"
+			subtitle: "A warrior who trained his whole life for a prophecy that never came true.\\n\\nLocated in the Old Champion's Grave - Find it using a &bMoonstone Compass&r"
+			tasks: [{
+				entity: "soulsweapons:draugr_boss"
+				icon: {
+					Count: 1
+					id: "soulsweapons:draugr"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4258F7B1AF3CBD56"
+				title: "[LVL 6] Old Champion"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6A1272499C491048"]
+			description: [
+				"{image:otherworld:textures/lich.png width:150 height:150 align:center}"
+				""
+				"\"The nature of mind is inscrutable. Fools believe it requires the continuity of life. There is more to the story.\""
+				"&7- Lich's Journal&r"
+			]
+			id: "4D302ED193B29EA1"
+			rewards: [{
+				id: "6BF65A76AFC396E8"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "pentagon"
+			size: 1.25d
+			subtitle: "A powerful mage obsessed with the secrets of life and death. \\n\\nSummon him by placing a &bSoul Star&r in each of the four Chiseled Stone Altars."
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "bosses_of_mass_destruction:soul_star"
+				id: "0B62EDD4F4F4204F"
+				title: "[LVL 7] Night Lich"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.75d
+			y: 10.0d
+		}
+		{
+			dependencies: ["583549022CAC7998"]
+			description: [
+				"{image:otherworld:textures/dead_king.png width:100 height:200 align:center}"
+				""
+				"\"But what's here, Ulfric? What's left?"
+			]
+			id: "5F2041DE2169DEF8"
+			rewards: [{
+				id: "7438CA4BBAC5317E"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "The Night Lich's most successful subject - and the most tragic. \\n\\nHe sought to preserve his kingdom forever, only to rule an empty throne for eternity."
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: "irons_spellbooks:blood_staff"
+				id: "3AC9070CD04E1CD3"
+				title: "[LVL 8] &4Dead King&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: -9.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5F2041DE2169DEF8"]
+			description: [
+				"The Lich's writings suggest that an &2Altar&r found in the &bSanctum below his tower&r will react to the &o\"distilled essence of pure despair\"&r. "
+				""
+				"The &8Necklace&r dropped by the &4Dead King&r must have been prepared for exactly this purpose. "
+			]
+			icon: "otherworld:death_stone"
+			id: "55745170634264F2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6497B8B08658EE25"
+					table_id: 402326275143769200L
+					type: "choice"
+				}
+				{
+					auto: "invisible"
+					command: "/gamestage add @s chapter_1 true"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:soul_speed"
+								lvl: 7s
+							}]
+						}
+					}
+					id: "7A67F9F0EDB91EDD"
+					silent: true
+					title: "Unlock Character Level 6+"
+					type: "command"
+				}
+				{
+					id: "7940D3AD6D184E4D"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "0C7BF40FF41147FC"
+					item: "legendarysurvivaloverhaul:heart_container"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "Infuse the &8Necklace of Sorrow&r at the &bLich's Sanctum underneath his Tower&r. "
+			tasks: [{
+				id: "26D0406B1B0B2B20"
+				item: "otherworld:death_stone"
+				title: "Obtain the &4Death Stone&r"
+				type: "item"
+			}]
+			title: "Essence of Despair"
+			x: -10.625d
+			y: 9.375d
+		}
+		{
+			dependencies: ["2F6F8CA5321EBECA"]
+			description: ["{image:otherworld:textures/night_shade.png width:130 height:150 align:center}"]
+			id: "0EF7950125EE70A4"
+			rewards: [{
+				id: "67ADF82C74B36E2C"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "pentagon"
+			size: 1.25d
+			subtitle: "The Old Champion's shadow, warped by the grief and denial of lost potential. It will possess nearby players. \\n\\nSpawns from the defeated Old Champion."
+			tasks: [{
+				entity: "soulsweapons:night_shade"
+				icon: {
+					Count: 1
+					id: "soulsweapons:forlorn_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7D4163271D25F874"
+				title: "[LVL 6] Frenzied Shade"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.125d
+			y: 11.25d
+		}
+		{
+			dependencies: ["04343D2A9C34BC47"]
+			id: "6A1272499C491048"
+			subtitle: "A fragment of the &bNight Lich's&r power, still linked to their source - Throw one and follow it to find the &bLich's Tower&r. \\n\\n&bSoul Stars&r drop from the &2Undead&r"
+			tasks: [{
+				id: "650F24199C5F826D"
+				item: "bosses_of_mass_destruction:soul_star"
+				title: "Obtain a &bSoul Star"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["28F686844D6920F8"]
+			id: "589B6BE23946BA47"
+			rewards: [{
+				id: "108CFF839BEC9C41"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "A horrifying apparition sent forth by the Lich to drain the life force from those who interfere. Its presence marks a deepening of the necromantic corruption.\\n\\nSpawns after the 10th night, hunting those who interfere."
+			tasks: [{
+				entity: "born_in_chaos_v1:lifestealer_true_form"
+				icon: "born_in_chaos_v1:lifestealer_skull"
+				id: "01F2DC61E8331E4A"
+				title: "(Optional) Defeat the &4Lifestealer"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["215B11F593D82984"]
+			icon: "born_in_chaos_v1:nightmare_stalker_skull"
+			id: "25C4269D9783091B"
+			rewards: [{
+				id: "30A95544CEAA7894"
+				type: "xp"
+				xp: 250
+			}]
+			subtitle: "A shadowy predator dispatched by the Lich to eliminate threats. Its chilling whispers echo the growing dread as the Lich's power extends.\\n\\nAppears from the third night onward, seeking obstacles to its master's plans."
+			tasks: [{
+				entity: "born_in_chaos_v1:nightmare_stalker"
+				id: "23EE8D75805C9FFD"
+				title: "(Optional) Slay a &1Nightmare Stalker&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["589B6BE23946BA47"]
+			id: "63216906038EA251"
+			rewards: [
+				{
+					id: "63923D0F58E8BE2D"
+					item: {
+						Count: 1
+						id: "valoria:ethereal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "376C8FF9A57EA398"
+					type: "xp"
+					xp: 5000
+				}
+			]
+			subtitle: "Clad in tattered robes, this undead missionary spreads the Lich's influence and hunts those who resist the 'gift' of undeath.\n\nAppears from the 10th night onward, carrying out the Lich's will."
+			tasks: [{
+				entity: "born_in_chaos_v1:missioner"
+				icon: {
+					Count: 1
+					id: "born_in_chaos_v1:missionary_hat_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3E07E8FF7725C6B3"
+				title: "(Optional) Defeat the &dMissionary&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["25C4269D9783091B"]
+			id: "28F686844D6920F8"
+			rewards: [{
+				id: "39EF198784314AD7"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "Once a valiant warrior, now twisted into the Lich's service. This fallen knight exemplifies the fate awaiting those who oppose the inevitable tide of undeath.\\n\\nA corrupted champion, sent to crush resistance."
+			tasks: [{
+				entity: "born_in_chaos_v1:fallen_chaos_knight"
+				icon: "born_in_chaos_v1:death_totem"
+				id: "0D229521F0963898"
+				title: "(Optional) Defeat the &3Fallen Chaos Knight&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			description: ["\"The undead don't simply shamble anymore. I've seen them organize, plan, whisper to each other in languages I didn't understand...\""]
+			id: "5C297931430CAF19"
+			subtitle: "An ancient rumbling grows beneath the Otherworld. The dead have begun to rise with a terrifying sense of purpose.\\n\\nWhat force is behind their resurgence? "
+			tasks: [{
+				icon: "scholar:black_writable_book"
+				id: "5E559F7B7E96E50F"
+				observe_type: 5
+				timer: 0L
+				title: "Find a &2Zombie"
+				to_observe: "minecraft:zombie"
+				type: "observation"
+			}]
+			title: "&4Chapter 1&r&0| &fGhosts of Ages Past"
+			x: -10.5d
+			y: 7.0d
+		}
+		{
+			id: "3E23E47D7B1AE506"
+			invisible: true
+			rewards: [{
+				id: "6431BC05418CF2DD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "A common corpse, now beginning its rotten decay into a skeleton. \n\nA basic, yet dangerous, member of the risen dead."
+			tasks: [{
+				entity: "born_in_chaos_v1:decaying_zombie"
+				icon: "minecraft:zombie_head"
+				id: "6E22B6200AC53647"
+				title: "(Optional) Slay a &2Decaying Zombie&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: -9.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3E23E47D7B1AE506"]
+			icon: "born_in_chaos_v1:shattered_skull"
+			id: "215B11F593D82984"
+			rewards: [{
+				id: "5ED903959C41A804"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Tougher, meaner, and surprisingly cunning. This undead horror seems to retain some shred of its former combat prowess.\n\nA stronger variant of the shambling dead."
+			tasks: [{
+				entity: "born_in_chaos_v1:zombie_bruiser"
+				id: "39D44629D9EB1222"
+				title: "(Optional) Slay a &2Zombie Bruiser&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"4D302ED193B29EA1"
+				"0EF7950125EE70A4"
+			]
+			description: ["{image:otherworld:textures/wayward_compass.png width:150 height:75 align:center}"]
+			hide_until_deps_visible: false
+			id: "1BBA56556DCE70EE"
+			invisible_until_tasks: 1
+			min_required_dependencies: 1
+			rewards: [{
+				count: 4
+				id: "0B5AE9B63D7D96FB"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			subtitle: "It mentions a magnum opus, a trapped king and an underground castle, kept alive for millennia\\n\\n&7The journal mentions a king, an altar, and using a \"&3Wayward Compass&r\". "
+			tasks: [{
+				id: "245A3B404CDFD906"
+				item: "otherworld:lich_journal"
+				match_nbt: false
+				title: "Obtain the &bLich's Journal&r"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5C297931430CAF19"]
+			description: ["{image:otherworld:textures/eye_of_ghost.png width:150 height:75 align:center}"]
+			icon: {
+				Count: 1
+				id: "minecraft:written_book"
+				tag: {
+					author: "???"
+					"otherworld:is_quest_item": 1b
+					pages: [
+						"{\"text\":\"Greetings my child; \n\nI hope you're enjoying your new capabilities. \n\nContinue to sow chaos however you can. Fear is growing, suffering abounds - All according to plan.\"}"
+						"{\"text\":\"The Paladin Kaelen is a threat to our cause.\n\nThe longer he lives, espousing his virtuous nonsense, the bolder the populace becomes.\n\nHe must be dealt with. The &3Eye of the Ghosts&r is now linked to him - use it to track him down.\"}"
+					]
+					resolved: 1b
+					title: "Torn Missive"
+				}
+			}
+			id: "53FD6D212F70D484"
+			rewards: [{
+				count: 4
+				id: "4AC9E88EDDA2A85D"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			subtitle: "It seems the undead have some sort of new master. \\n\\nThe note dropped by a zombie mentions a paladin, and finding him using an &3Eye of Ghost&r"
+			tasks: [{
+				id: "5A963A1DDF4375F2"
+				item: "otherworld:lich_missive"
+				match_nbt: false
+				type: "item"
+			}]
+			title: "Find and read the &2Missive&r found on a Zombie."
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["42B1BFC324919137"]
+			id: "3C64330FB307C23C"
+			subtitle: "The &6Captain&r is nowhere to be found, but the ship's entry mentions that she went &3diving underwater&r.\\n\\nThe &2Shell Horn&r should be able to call her up."
+			tasks: [{
+				id: "2A5AAF9ACD81BDE1"
+				item: "aquamirae:shell_horn"
+				title: "Obtain a &2Shell Horn&r"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0F5B65A4DC665C6C"]
+			id: "784706A77F7FC7E3"
+			rewards: [{
+				id: "24F1FBD3773006C7"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "The Paladin believed &6Pirates&r might have some insider information on the growing undead threat, and was planning to interrogate a &6Pirate Captain&r. \\n\\nHis next destination before his passing was to search for a &bShipwreck in icy waters&r."
+			tasks: [{
+				id: "0B6AB170C940492E"
+				item: "otherworld:kaelen_journal"
+				match_nbt: false
+				title: "Read the Paladin's &2Journal&r"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["784706A77F7FC7E3"]
+			description: [
+				"The &4Eye of Pirates&r may be useful in locating them. "
+				"{image:otherworld:textures/eye_of_pirates.png width:200 height:100 align:center}"
+			]
+			id: "42B1BFC324919137"
+			subtitle: "According to the Paladin's journal, a &6pirate crew&r should be lingering near their shipwreck \"in icy waters\" - most likely a &bDeep Frozen Ocean&r."
+			tasks: [{
+				icon: "aquamirae:pirate_pouch"
+				id: "0F309A7476CB4E02"
+				structure: "aquamirae:ship"
+				title: "Find the &6Stranded Pirate Ship&r"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1AD7DB0F192E3A55"]
+			id: "04343D2A9C34BC47"
+			subtitle: "Cornelia suspected that her client, a &bLich&r, was hiding something valuable.\\n\\nShe mentioned either seeking out the &8Old Champion&r the Lich frequently visited, or confronting the &bLich&r himself at his Tower.\\n\\n&oGameplay note: The &bLich&r&o is a flying fight, and is only recommended for ranged or magic users. \\nThe Old Champion and Frenzied Shade are more difficult, but can be fought by melee characters."
+			tasks: [{
+				id: "7B54423D988999B3"
+				item: "otherworld:cornelia_log"
+				match_nbt: false
+				title: "Read &6Cornelia's Logbook"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1BBA56556DCE70EE"]
+			id: "583549022CAC7998"
+			subtitle: "The &3Wayward Compass&r points to this underground resting place, where the &4Dead King&r rests."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:wayward_compass"
+					tag: { }
+				}
+				id: "4065D07AEA28788D"
+				structure: "irons_spellbooks:catacombs"
+				title: "Find the &2Catacombs&r."
+				type: "structure"
+			}]
+			x: -7.0d
+			y: 10.0d
+		}
+	]
+	title: " &3Ghosts of Ages Past&r &f|&r &7(Lv. 2+)&r"
+}

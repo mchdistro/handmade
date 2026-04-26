@@ -1,0 +1,104 @@
+{
+	id: "2276786D2D1E8955"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "lost_aether_content:shield_of_emile"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:armor/attribute/ironforged": 0.44653547f
+							"apotheosis:durable": 0.35000002f
+							"apotheosis:shield/attribute/ironforged": 0.6305907f
+							"apotheosis:shield/attribute/steel_touched": 0.11093247f
+							"apotheosis:shield/mob_effect/withering": 0.5179973f
+							"apotheosis:shield/special/psychic": 0.6102176f
+						}
+						name: "{\"color\":\"#BB00BB\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:armor/attribute/ironforged\"},\"\",{\"translate\":\"affix.apotheosis:shield/mob_effect/withering.suffix\"}]}"
+						rarity: "apotheosis:epic"
+						sockets: 2
+						uuids: [[I;
+							-569058641
+							287263062
+							-1780038912
+							-822617766
+						]]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "aether:phoenix_bow"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:durable": 0.32f
+							"apotheosis:ranged/attribute/agile": 0.91783994f
+							"apotheosis:ranged/attribute/elven": 0.7094667f
+							"apotheosis:ranged/attribute/windswept": 0.4490419f
+							"apotheosis:ranged/mob_effect/ivy_laced": 0.023755908f
+							"otherworldapoth:ranged/spell/sunbeam": 0.5883632f
+						}
+						name: "{\"color\":\"#BB00BB\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:ranged/attribute/elven\"},\"\",{\"translate\":\"affix.apotheosis:ranged/attribute/agile.suffix\"}]}"
+						rarity: "apotheosis:epic"
+						sockets: 3
+						uuids: [[I;
+							-282257569
+							396643559
+							-1097975488
+							-1786939905
+						]]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "soulsweapons:comet_spear"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:durable": 0.27f
+							"apotheosis:sword/attribute/glacial": 0.6427748f
+							"apotheosis:sword/attribute/infernal": 0.986414f
+							"apotheosis:sword/attribute/piercing": 0.7512545f
+							"irons_spellbooks:armor/attribute/cooldown": 0.7608336f
+							"otherworldapoth:melee/spell/blood_slash": 0.0068002343f
+						}
+						name: "{\"color\":\"#BB00BB\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.otherworldapoth:melee/spell/blood_slash\"},\"\",{\"translate\":\"affix.apotheosis:sword/attribute/glacial.suffix\"}]}"
+						rarity: "apotheosis:epic"
+						sockets: 2
+						uuids: [[I;
+							1381343624
+							-1592635737
+							-1817501507
+							-998543239
+						]]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "irons_spellbooks:intelligent"
+				}
+			}
+		}
+	]
+	title: "Chapter 2"
+}

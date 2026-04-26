@@ -1,0 +1,42 @@
+{
+	"type": "apotheosis:attribute",
+	"attribute": "attributeslib:draw_speed",
+	"operation": "ADDITION",
+	"values": {
+		"common": {
+			"min": 0.05,
+			"steps": 2,
+			"step": 0.03
+		},
+		"uncommon": {
+			"min": 0.05,
+			"steps": 2,
+			"step": 0.03
+		},
+		"rare": {
+			"min": 0.08,
+			"steps": 2,
+			"step": 0.04
+		},
+		"epic": {
+			"min": 0.13,
+			"steps": 2,
+			"step": 0.06
+		},
+		"mythic": {
+			"min": 0.13,
+			"steps": 2,
+			"step": 0.06
+		},
+		"ancient": {
+			"min": 0.2,
+			"steps": 2,
+			"step": 0.06
+		}
+	},
+	"types": [
+		"bow",
+		"crossbow",
+		"trident"
+	]
+}

@@ -1,0 +1,84 @@
+{
+  "weight": 5,
+  "quality": 2,
+  "dimensions": [],
+  "unique": false,
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "magic_weapons",
+        "types": [
+          "staff"
+        ]
+      },
+      "attribute": "irons_spellbooks:spell_power",
+      "operation": "MULTIPLY_BASE",
+      "values": {
+        "common": 0.006,
+        "uncommon": 0.012,
+        "rare": 0.025,
+        "epic": 0.036,
+        "mythic": 0.05,
+        "ancient": 0.06
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "melee_weapon",
+        "types": [
+          "sword",
+          "heavy_weapon"
+        ]
+      },
+      "attribute": "irons_spellbooks:spell_resist",
+      "operation": "MULTIPLY_BASE",
+      "values": {
+        "common": 0.006,
+        "uncommon": 0.012,
+        "rare": 0.018,
+        "epic": 0.027,
+        "mythic": 0.036,
+        "ancient": 0.05
+      }
+    },
+    {
+      "type": "apotheosis:enchantment",
+      "gem_class": {
+        "key": "breaker",
+        "types": [
+          "shovel",
+          "pickaxe"
+        ]
+      },
+      "enchantment": "unbreaking",
+      "values": {
+        "rare": 1,
+        "epic": 1,
+        "mythic": 2,
+        "ancient": 3
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "core_armor",
+        "types": [
+          "chestplate",
+          "leggings"
+        ]
+      },
+      "attribute": "minecraft:generic.knockback_resistance",
+      "operation": "ADDITION",
+      "values": {
+        "common": 0.03,
+        "uncommon": 0.06,
+        "rare": 0.09,
+        "epic": 0.12,
+        "mythic": 0.15,
+        "ancient": 0.18
+      }
+    }
+  ]
+}

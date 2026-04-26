@@ -1,0 +1,107 @@
+{
+	"content": {
+
+		"guild_objs_zombie": {
+			"type": "entity",
+			"content": "minecraft:zombie",
+			"rarity": "COMMON",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 25
+		},
+
+		"guild_objs_cave_spider": {
+			"type": "entity",
+			"content": "minecraft:cave_spider",
+			"rarity": "UNCOMMON",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 25
+		},
+
+		"guild_objs_drowned": {
+			"type": "entity",
+			"content": "minecraft:drowned",
+			"rarity": "COMMON",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 25
+		},
+
+		"guild_objs_evoker": {
+			"type": "entity",
+			"content": "minecraft:evoker",
+			"rarity": "RARE",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 100
+		},
+
+		"guild_objs_pillager": {
+			"type": "entity",
+			"content": "minecraft:pillager",
+			"rarity": "RARE",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 50
+		},
+
+		"guild_objs_skeleton": {
+			"type": "entity",
+			"content": "minecraft:skeleton",
+			"rarity": "COMMON",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 25
+		},
+
+		"guild_objs_spider": {
+			"type": "entity",
+			"content": "minecraft:spider",
+			"rarity": "COMMON",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 25
+		},
+
+		"guild_objs_vindicator": {
+			"type": "entity",
+			"content": "minecraft:vindicator",
+			"rarity": "RARE",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 75
+		},
+
+		"guild_objs_witch": {
+			"type": "entity",
+			"content": "minecraft:witch",
+			"rarity": "COMMON",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 25
+		}
+
+
+	}
+
+
+}

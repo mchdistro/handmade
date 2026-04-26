@@ -1,0 +1,663 @@
+{
+	autofocus_id: "4AEBF52B558D5D23"
+	default_hide_dependency_lines: true
+	default_quest_shape: "diamond"
+	filename: "forgotten_realms"
+	group: "25422B67437A4FD8"
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "fantasydice:20_sided_emerald_die"
+	id: "1A22AE1A68537AB2"
+	images: [
+		{
+			height: 6.0d
+			image: "otherworld:textures/otherworld.png"
+			order: 5
+			rotation: 0.0d
+			width: 12.0d
+			x: 12.0d
+			y: 16.5d
+		}
+		{
+			height: 19.0d
+			image: "otherworld:textures/ftbquestsmain.png"
+			rotation: 0.0d
+			width: 14.25d
+			x: 12.02d
+			y: 6.2d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4AEBF52B558D5D23"]
+			description: [
+				"Some time ago, a &dvoid&r sealed off from this world, forgotten in an ancient abandoned stronghold, was opened by a Player looking for conquest. This void was known as &dThe End&r."
+				""
+				"In that world a &5great beast&r was slain, and for a time the world was free, but this act unknowingly became a catalyst to unfathomable chaos. With the portal left open, so too were barriers between all other realms weakened. "
+				""
+				"Ancient powers long dormant, once restrained by dimensional rifts, felt this stirring and began to wake. "
+				""
+				"Such powers were so incomprehensibly mighty that their subtlest movement sent ripples of chaos throughout our reality. Like tectonic plates did these forces shift and rumble, terraforming our realm into an unprecedented state. "
+				""
+				"Creatures of myth and nightmare, beings of raw magic and elemental fury, found pathways opening into this world, and now wreak their havoc. "
+				""
+				"The Realm now awaits its hero or heroes, those with courage enough to venture into the unknown, and who wield the mettle to overcome whatever challenges lie within. "
+				""
+				"This is no longer the land you once knew. It is the &aOtherworld&r, shaped from the echoes of magical calamity. "
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:writable_book"
+			id: "196EFEB67FA2C502"
+			shape: "hexagon"
+			subtitle: "A tale of creation"
+			tasks: [{
+				id: "31061F07BAAD9C4C"
+				title: "Done!"
+				type: "checkmark"
+			}]
+			title: "Echoes of the Rift"
+			x: 12.0d
+			y: 11.08d
+		}
+		{
+			dependencies: ["196EFEB67FA2C502"]
+			description: [
+				"Open the &6Book&r tab in your inventory to access &6Aptitudes&r. "
+				""
+				"&6Aptitudes&r, like Strength, Magic, and Dexterity, can be acquired in exchange for &2Experience (XP)&r."
+				""
+				"To level up, click an &6Aptitude&r, then click the &2&l+&r to spend a point."
+				""
+				"All characters start at &aCharacter Level 2&r. Every 4 points spent on &6Aptitudes&r increases your &aCharacter Level&r by &a1&r. "
+				""
+				"______"
+				""
+				""
+				"Starting after &aLevel 5&r, you'll need to progress through the campaign to continue leveling. Chapter 1 will grant you up to &aLevel 8&r, Chapter 2 will grant you &aLevel 11&r, and so on."
+				""
+				"You can spend a &4maximum&r of &680 Aptitude points&r, resulting in a &aMax Character Level&r of &a20&r."
+				""
+				"If your Race or Class provides a bonus to an &6Aptitude&r, it can be raised past the max of &620&r, by the same amount. "
+				""
+				"Innate bonuses do not count toward your maximum of 80 total points."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:experience_bottle"
+			id: "5C5561D9E73DCFDB"
+			rewards: [{
+				id: "3081BEAA944D3E0B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			subtitle: "Improving your Character - Stats and Levels"
+			tasks: [{
+				id: "3CA107F9A8D4E85F"
+				title: "Understood!"
+				type: "checkmark"
+			}]
+			title: "Leveling"
+			x: 13.525d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4D3490E4D7C8CB8F"]
+			description: [
+				"Some gear found throughout your travels will have &drarities&r. Higher &drarity&r gear drops from &4higher level enemies&r. "
+				""
+				"The &acolor of the mob's level&r corresponds to the &dhighest rarity of gear&r it may drop."
+				""
+				"Mob Level &8|&r &dGear Rarity&r"
+				"Level 25+ &8|&r &6mythic&r-&dancient&r"
+				"Level 20+ &8|&r &5epic-&r&6mythic&r"
+				"Level 15+ &8|&r &9rare&r-&5epic&r"
+				"Level 10+ &8|&r &2uncommon&r-&9rare&r"
+				"Level 5+  &8|&r &7common&r-&2uncommon&r"
+				"Level 1+  &8|&r &7common"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "69D50E802B187571"
+			rewards: [{
+				id: "3021A97FEF241471"
+				item: "apotheosis:common_material"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Armaments worthy of a hero!"
+			tasks: [{
+				advancement: "apotheosis:affix/random"
+				criterion: ""
+				id: "5353D0B053FA95B6"
+				title: "Obtain your first &dAffixed Item&r"
+				type: "advancement"
+			}]
+			title: "OPTIONAL: Unique Gear"
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["196EFEB67FA2C502"]
+			description: [
+				"Races, subraces, classes, and subclasses subtly shift gameplay in different ways. "
+				""
+				"They all have different stat bonuses, and some have special &dCantrips&r, access to &8Dark Vision&r, or other unique abilities."
+				""
+				"You can find all information for your character, including hotkeys for your innate abilities, by pressing &bO&r."
+			]
+			hide_until_deps_complete: true
+			icon: "otherworldorigins:portrait/brass"
+			id: "0C3AD51EB1EC9140"
+			shape: "diamond"
+			subtitle: "Character backstories, and their impact."
+			tasks: [{
+				id: "15EE726ECDCD5644"
+				title: "Got it!"
+				type: "checkmark"
+			}]
+			title: "Races and Classes"
+			x: 10.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["611C362ED54CD0EA"]
+			description: [
+				""
+				""
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:map"
+			id: "3451E9AFF56CA956"
+			rewards: [
+				{
+					count: 2
+					id: "35789112B3ECA791"
+					item: "otherworld:town_portal_scroll"
+					type: "item"
+				}
+				{
+					id: "39D622A9F7FEF990"
+					item: "legendarysurvivaloverhaul:heart_container"
+					type: "item"
+				}
+				{
+					id: "502A06FAE5BB6AF9"
+					item: {
+						Count: 1
+						id: "valoria:codex"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Your journey begins.\\n\\nCharge up and use the Crystal Heart by holding Right Click.\\n\\nOpen the left tab of this quest journal to begin Chapter 1, 'Ghosts of Ages Past'."
+			tasks: [{
+				id: "49E025839A772B4C"
+				type: "checkmark"
+			}]
+			title: "End of Tutorial"
+			x: 12.0d
+			y: 0.98d
+		}
+		{
+			dependencies: ["196EFEB67FA2C502"]
+			description: [
+				"Every &a4 Character Levels&r gained from &6Aptitudes&r, you will have the opportunity to select a &7Feat.&r "
+				""
+				"&7Feats&r are special passive traits that can enhance your character's capabilities in unique ways. "
+				""
+				"You can have a maximum of &75 Feats&r. "
+				""
+				"Variant Humans start with an extra feat, and can have up to &76&r. "
+			]
+			hide_text_until_complete: false
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "valoria:leather_gloves"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "038D80C8CF43F75A"
+			rewards: [{
+				id: "4116D6E7867D3292"
+				item: "minecraft:cookie"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Further character abilities gained throughout your journey"
+			tasks: [{
+				id: "20647CF3777E90D3"
+				title: "Okay!"
+				type: "checkmark"
+			}]
+			title: "Feats"
+			x: 12.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"038D80C8CF43F75A"
+				"0C3AD51EB1EC9140"
+				"5C5561D9E73DCFDB"
+			]
+			description: [
+				"You can choose a different Race and Class only once, by using an &bOrb of Origin&r. "
+				""
+				"Changing Races won't affect your &aCharacter Level&r, and will allow you to select different &7Feats&r, if you were high enough level to have obtained any."
+				""
+				"-------"
+				""
+				"To reset your &6Aptitudes&r and &aCharacter Level&r, you can click the &l[Respec]&r button on the &6Aptitudes&r page. "
+				""
+				"Doing so costs &210 Experience Levels&r, but refunds half of the Experience spent toward Aptitudes. "
+			]
+			hide_until_deps_complete: true
+			icon: "origins:orb_of_origin"
+			id: "164E9D8AC896E238"
+			rewards: [{
+				id: "1D79C61520AA6488"
+				item: "origins:orb_of_origin"
+				type: "item"
+			}]
+			subtitle: "Pick a different race or class, or reset stats"
+			tasks: [{
+				id: "45AE380D91F75438"
+				title: "Good to know!"
+				type: "checkmark"
+			}]
+			title: "Changing Your Mind"
+			x: 12.0d
+			y: 7.8d
+		}
+		{
+			icon: "fantasydice:20_sided_emerald_die"
+			id: "4AEBF52B558D5D23"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "You can get back here any time.\\n\\nJust click the &6Quest Book&r in the top-left of your Inventory. \\n\\nOpen this quest and click the &8Checkmark&r to continue "
+			tasks: [{
+				id: "02E7581AA992E75B"
+				title: "Got it!"
+				type: "checkmark"
+			}]
+			title: "Welcome to &2Otherworld"
+			x: 12.0d
+			y: 12.85d
+		}
+		{
+			dependencies: ["164E9D8AC896E238"]
+			description: [
+				"Press &bO&r to read your race, class, feats, and cantrips. Here you can see other character-specific keybinds."
+				""
+				"Press &bM&r to open the World Map. "
+				""
+				"Press &bU&r to view and edit Waypoints, including recent deaths."
+				""
+				"&bRight Click&r an item to pick it up. Or sneak (&bLeft Shift&r) to pick up all nearby items."
+				""
+				"If you use Magic, press &bR&r to open the Spell Wheel. Otherwise, &bR&r is generally reserved for weapon abilities."
+			]
+			hide_until_deps_complete: true
+			icon: "chipped:square_light_gray_stained_glass_pane"
+			id: "4D3490E4D7C8CB8F"
+			rewards: [{
+				count: 2
+				id: "4C2F3ED19772D51A"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Read me!"
+			tasks: [{
+				id: "0FE4FBA3E25135BE"
+				title: "Got it!"
+				type: "checkmark"
+			}]
+			title: "Basic Keybinds"
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"088E3E16F3C9BA0E"
+				"36AD0537D6387B9E"
+				"79EA78D15B5DFDC0"
+			]
+			description: [
+				"When you first come across a dungeon, you can regenerate it &bonce automatically&r using the &6Wayfinder's Medallion&r"
+				""
+				"The &6Wayfinder's Medallion&r must be &aactive&r and held or equipped &ewhile entering the structure&r to work.  "
+				""
+				"Structures will &cnot&r regenerate automatically if players are currently inside or have recently interacted there. "
+				""
+				"___________________________"
+				""
+				"To regenerate a structure even if you've already regenerated it before, you can use a &bChallenge Orb&r. "
+				""
+				"&bChallenge Orbs&r &aare&r consumed on use. "
+				""
+				"No structure can be regenerated if any chunks inside of it have been claimed using the FTB Chunks map (top-left of your inventory!). "
+				""
+				"___________________________"
+				""
+				"&cNot all dungeons are able to be regenerated&r, but most important ones are! "
+			]
+			hide_until_deps_complete: true
+			icon: "otherworld:wayfinders_medallion"
+			id: "611C362ED54CD0EA"
+			rewards: [{
+				id: "5A995F2EDFB6714B"
+				item: "otherworld:challenge_orb"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Revisit Previously Conquered Challenges!"
+			tasks: [{
+				id: "35EF7ACB3D65C4CC"
+				item: "otherworld:wayfinders_medallion"
+				title: "Craft a &cWayfinder's Medallion"
+				type: "item"
+			}]
+			title: "Instanced Dungeons"
+			x: 12.0d
+			y: 2.47d
+		}
+		{
+			dependencies: ["643CDE5D0AA55C2A"]
+			description: [
+				"All weapons and armor can be &6reforged&r, using &9rarity materials&r and &dGem Dust&r."
+				""
+				"To obtain &9rarity materials&r, use a &5Salvaging Table&r to break down affixed gear. "
+				""
+				"To obtain &dGem Dust&r, drop an anvil block onto a dropped &dgem&r to crush it (or use the &5Salvaging Table&r!)"
+				""
+				"Anyone can use the &9Simple Reforging Table&r, which can reforge up to &9rare&r. "
+				""
+				""
+				"______________________________"
+				""
+				""
+				""
+				"&dGem Cutting&r requires the &dGem Cutting Table&r, and reforging to &5Epic&r or &6Mythic&r, requires the upgraded &6Reforging Table&r. "
+				""
+				"These can only be used by those who have &8Underdark Heritage&r, &a&lor&r have learned the &bLegendary Smith&r skill from the Building Aptitude. "
+				""
+				"&dAncient Reforging&r can only be performed by those who have both &8Underdark Heritage&r &a&land&r the &bLegendary Smith&r skill."
+			]
+			id: "685E5C005ECEF8F6"
+			rewards: [{
+				id: "716964FC9CA63F06"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			subtitle: "Improve your existing gear!"
+			tasks: [
+				{
+					id: "3981E78AF5CBC9B1"
+					item: "apotheosis:simple_reforging_table"
+					title: "Craft a &9Simple Reforging Table&r"
+					type: "item"
+				}
+				{
+					id: "2D9FD307C8FE7747"
+					item: "apotheosis:salvaging_table"
+					title: "Craft a &5Salvaging Table&r"
+					type: "item"
+				}
+			]
+			title: "OPTIONAL: &9Reforging&r Unique Gear"
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4D3490E4D7C8CB8F"]
+			description: ["Backpacks are a convenient way to move around everything you come across. Don't lose it!"]
+			hide_until_deps_complete: true
+			id: "4BFBBE1C7A6950A6"
+			rewards: [{
+				count: 2
+				id: "6FDA1693726F6F44"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Carry more!"
+			tasks: [{
+				id: "1DBB696BE352B965"
+				item: "sophisticatedbackpacks:backpack"
+				title: "Craft a &6Backpack&r"
+				type: "item"
+			}]
+			title: "OPTIONAL: &eBackpacks&r!"
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4D3490E4D7C8CB8F"]
+			description: [
+				"&aNatural Health Regeneration&r is disabled, however, &2Hunger&r runs out &osignificantly slower&r. Instead of being related to healing, hunger (like thirst) is a minor need to consider."
+				""
+				"To regenerate health, you can use &6bandages&r, &dpotions&r, &clifesteal&r, or &ehealing magics&r, or you can just &7sleep in a bed&r."
+				""
+				"You can also permanently increase your max health up to 20 extra hearts using &4Heart Containers&r. "
+				""
+				"&4Fragments&r use to craft Heart Containers can be found rarely. Heart Containers will also be given as quest rewards. "
+			]
+			hide_until_deps_complete: true
+			icon: "legendarysurvivaloverhaul:heart_container"
+			id: "088E3E16F3C9BA0E"
+			rewards: [
+				{
+					count: 16
+					id: "197D99C56A122352"
+					item: "legendarysurvivaloverhaul:bandage"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7098CC279158AE14"
+					item: "valoria:healing_vial"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "67F72CAA8840ABC5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+				title: "Craft a &fBed&r"
+				type: "item"
+			}]
+			title: "&4Health&r and &aRegeneration&r"
+			x: 12.0d
+			y: 3.98d
+		}
+		{
+			dependencies: ["4D3490E4D7C8CB8F"]
+			description: [
+				"&bThirst&r is a need you'll need to maintain occasionally; it drains slightly faster than hunger. "
+				""
+				"You can fill up a canteen with water from anywhere by right clicking the water while holding a canteen. "
+				""
+				"Some water sources might be &3Dirty&r. Drinking &3dirty&r water will restore less thirst, and might even make you &2sick&r. "
+				""
+				"To &bpurify&r water, you can &cheat up&r your Canteen in a Furnace."
+				""
+				"There are also various natural sources of purified water, like fruits, water plants, and various juices."
+			]
+			hide_until_deps_complete: true
+			icon: "legendarysurvivaloverhaul:canteen"
+			id: "36AD0537D6387B9E"
+			rewards: [{
+				id: "0399F8D6163E2621"
+				item: "farmersdelight:melon_juice"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63A1C67B23CD7531"
+				item: "legendarysurvivaloverhaul:canteen"
+				title: "Craft a &9Canteen&r"
+				type: "item"
+			}]
+			title: "&bThirst&r"
+			x: 10.51d
+			y: 4.52d
+		}
+		{
+			dependencies: ["5717B7A12AE12ABD"]
+			description: [
+				"Upgrades can be slotted into your backpack to provide unique and useful tools! "
+				""
+				"The &aPickup Upgrade&r automatically moves items you pick up into the backpack."
+				""
+				"To see all available upgrades, search \"&bbackpack upgrade&r\" in &lJEI&r (The item search on the right side of your inventory)"
+			]
+			id: "150FFB64FD9603BB"
+			subtitle: "Carry conveniently!"
+			tasks: [{
+				id: "2115BECD4AF1CDD5"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+				title: "Craft the &5Pickup Upgrade&r"
+				type: "item"
+			}]
+			title: "OPTIONAL: &aBackpack Upgrades&r"
+			x: 16.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["69D50E802B187571"]
+			description: [
+				"&dGems&r can be socketed into any gear that has &7Sockets&r, by using a &6Smithing Table&r"
+				""
+				"&7Sockets&r are always found on gear that is &5Epic&r or better, though they can sometimes be found on &9Rare&r or even &2Uncommon&r gear."
+			]
+			hide_until_deps_complete: true
+			id: "643CDE5D0AA55C2A"
+			rewards: [{
+				id: "5ADB4DF38CFC090C"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "Powerful crystals!"
+			tasks: [
+				{
+					id: "4A8808BB3558AD36"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: { }
+					}
+					match_nbt: false
+					title: "Obtain any &dGem&r"
+					type: "item"
+				}
+				{
+					id: "3EC12403137EEDEE"
+					item: "minecraft:smithing_table"
+					title: "Craft a &6Smithing Table&r"
+					type: "item"
+				}
+			]
+			title: "OPTIONAL: &dGems&r"
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4BFBBE1C7A6950A6"]
+			description: [
+				"Backpacks can be upgraded to get more inventory slots!"
+				""
+				"In addition to more inventory slots, some upgrades will also provide additional &aUpgrade Slots&r."
+			]
+			hide_until_deps_complete: true
+			id: "5717B7A12AE12ABD"
+			rewards: [{
+				id: "6323824224245F2E"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Carry even more!"
+			tasks: [{
+				id: "42A451FA58ECE348"
+				item: "sophisticatedbackpacks:copper_backpack"
+				title: "Upgrade a backpack to &6Copper&r tier"
+				type: "item"
+			}]
+			title: "OPTIONAL: &6Bigger Backpacks&r"
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4D3490E4D7C8CB8F"]
+			description: [
+				"Environmental factors for temperature:"
+				"- &7Weather&r"
+				"- &bAltitude&r"
+				"- &9Wetness&r"
+				"- &eSun&r and &8Shade&r"
+				"- &2Biome&r"
+				"- &dSeasons&r"
+				""
+				"You can negate temperature effects with gear:"
+				"&c+x Temperature&r to fight off cold."
+				"&b-x Temperature&r to fight off heat."
+				""
+				"Some &2Foods&r will also &cIncrease&r or &bDecrease&r your Body Temperature."
+				""
+				"Craft an &bIce Box&r or a &cHeater&r to adjust the temperature in an area. They work much better &6indoors&r."
+				""
+				"__________________________"
+				""
+				"You can also find &cSun Ferns&r or &bIce Ferns&r throughout the world."
+				""
+				"When fully grown, these can be harvested to drop their &2leaves&r, which have special properties. "
+				""
+				"&2Fern Leaves&r can be combined with &7String&r, then woven into armor at a &6Sewing Table&r."
+				""
+				"They can also be brewed into &dTemperature Resistant Potions&r."
+				""
+				"These ferns can also be cultivated - If you're lucky, this might yield you a &6Gold Fern&r variant, which can be used to craft potions of &dtotal temperature immunity&r. "
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:campfire"
+			id: "79EA78D15B5DFDC0"
+			rewards: [
+				{
+					id: "2CA08FFA6CF6CBAF"
+					item: "minecraft:soul_torch"
+					type: "item"
+				}
+				{
+					id: "69BEA26C29E4080A"
+					item: "legendarysurvivaloverhaul:sewing_table"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "370BC92ECBAB0EAA"
+				item: "minecraft:torch"
+				title: "Craft a &cTorch&r"
+				type: "item"
+			}]
+			title: "&cHeat&r and &bCold&r"
+			x: 13.525d
+			y: 4.52d
+		}
+	]
+	title: " &aIntroduction"
+}

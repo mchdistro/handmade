@@ -1,0 +1,37 @@
+{
+	id: "0595599D99C01C70"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "soulsweapons:lich_bane"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				id: "minecraft:tipped_arrow"
+				tag: {
+					Potion: "minecraft:strong_healing"
+				}
+			}
+		}
+		{ item: "irons_spellbooks:conjurers_talisman" }
+		{
+			item: {
+				Count: 1
+				id: "fantasy_armor:dead_gladiator_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Chapter 1"
+}

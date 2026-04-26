@@ -1,0 +1,144 @@
+{
+	id: "6D377C7234D99C22"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "traveloptics:flames_of_eldritch"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "traveloptics:burning_judgment"
+							index: 0
+							level: 6
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 1b
+					}
+					affix_data: {
+						affixes: {
+							"apotheosis:durable": 0.35999998f
+							"apotheosis:heavy_weapon/attribute/forceful": 0.83626556f
+							"apotheosis:heavy_weapon/attribute/giant_slaying": 0.3643126f
+							"apotheosis:heavy_weapon/attribute/murderous": 0.69766015f
+							"apotheosis:heavy_weapon/attribute/nullifying": 0.62631464f
+							"otherworldapoth:elemental/school_fire/pyromancers": 0.032466352f
+							"otherworldapoth:melee/spell/blood_slash": 0.2173801f
+						}
+						name: "{\"color\":\"#ED7014\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.otherworldapoth:elemental/school_fire/pyromancers\"},\"\",{\"translate\":\"affix.apotheosis:heavy_weapon/attribute/nullifying.suffix\"}]}"
+						rarity: "apotheosis:mythic"
+						sockets: 3
+						uuids: [[I;
+							357870274
+							512050132
+							-1296659733
+							-1879187866
+						]]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "valoria:infernal_bow"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:durable": 0.37f
+							"apotheosis:ranged/attribute/agile": 0.44544077f
+							"apotheosis:ranged/attribute/elven": 0.9499427f
+							"apotheosis:ranged/attribute/streamlined": 0.21776748f
+							"apotheosis:ranged/attribute/windswept": 0.8405715f
+							"apotheosis:ranged/mob_effect/acidic": 0.25757635f
+							"apotheosis:ranged/mob_effect/ensnaring": 0.44526845f
+							"otherworldapoth:ranged/spell/sunbeam": 0.5542073f
+						}
+						name: "{\"color\":\"#ED7014\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:ranged/mob_effect/acidic\"},\"\",{\"translate\":\"affix.apotheosis:ranged/attribute/streamlined.suffix\"}]}"
+						rarity: "apotheosis:mythic"
+						sockets: 3
+						uuids: [[I;
+							786829764
+							699090840
+							-1551114964
+							1304679428
+						]]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "traveloptics:titanlord_scepter_tectonic"
+				tag: {
+					affix_data: {
+						affixes: {
+							"apotheosis:durable": 0.35f
+							"otherworldapoth:elemental/school_fire/mana_cost": 0.2226842f
+							"otherworldapoth:elemental/school_fire/pyromancers": 0.2198782f
+							"otherworldapoth:magic_weapons/attribute/brutish": 0.3866691f
+							"otherworldapoth:magic_weapons/attribute/restorative": 0.16855842f
+							"otherworldapoth:magic_weapons/attribute/vampiric": 0.13334966f
+							"otherworldapoth:magic_weapons/attribute/volatile": 0.23813206f
+						}
+						name: "{\"color\":\"#ED7014\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.otherworldapoth:elemental/school_fire/pyromancers\"},\"\",{\"translate\":\"affix.otherworldapoth:magic_weapons/attribute/restorative.suffix\"}]}"
+						rarity: "apotheosis:mythic"
+						sockets: 3
+						uuids: [[I;
+							934266327
+							784813505
+							-2026268480
+							1297492734
+						]]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "traveloptics:gauntlet_of_extinction"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "traveloptics:extinction"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 1b
+					}
+					affix_data: {
+						affixes: {
+							"apotheosis:durable": 0.39999998f
+							"apotheosis:sword/attribute/vampiric": 0.7462196f
+							"apotheosis:sword/attribute/violent": 0.2471788f
+							"irons_spellbooks:armor/attribute/cooldown": 0.4649821f
+							"irons_spellbooks:sword/attribute/mana_regen": 0.4712587f
+							"otherworldapoth:melee/spell/divine_smite": 0.8487941f
+							"otherworldapoth:melee/spell/flaming_strike": 0.38109362f
+						}
+						name: "{\"color\":\"#ED7014\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.irons_spellbooks:sword/attribute/mana_regen\"},\"\",{\"translate\":\"affix.apotheosis:sword/attribute/vampiric.suffix\"}]}"
+						rarity: "apotheosis:mythic"
+						sockets: 3
+						uuids: [[I;
+							-1585519561
+							905593234
+							-2146063235
+							620082488
+						]]
+					}
+				}
+			}
+		}
+	]
+	title: "Chapter 3 Buffed"
+}

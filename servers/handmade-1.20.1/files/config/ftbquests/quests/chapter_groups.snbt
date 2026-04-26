@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "25422B67437A4FD8", title: "Tutorial" }
+		{ id: "47B0A784051454EE", title: "Campaign" }
+		{ id: "61159D317C3B9976", title: "Side Quests (NOT IMPLEMENTED)" }
+	]
+}

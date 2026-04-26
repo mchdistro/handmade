@@ -1,0 +1,13 @@
+{
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alshanex_familiars"
+    }
+  ],
+  "type": "otherworldapoth:transmutation",
+  "school": "alshanex_familiars:sound",
+  "types": [
+    "bow"
+  ]
+}

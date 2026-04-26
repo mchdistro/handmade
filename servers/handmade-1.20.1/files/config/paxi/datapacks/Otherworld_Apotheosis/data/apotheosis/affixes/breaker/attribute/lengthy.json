@@ -1,0 +1,41 @@
+{
+	"type": "apotheosis:attribute",
+	"attribute": "forge:block_reach",
+	"operation": "ADDITION",
+	"values": {
+		"common": {
+			"min": 0.125,
+			"steps": 2,
+			"step": 0.125
+		},
+		"uncommon": {
+			"min": 0.125,
+			"steps": 2,
+			"step": 0.125
+		},
+		"rare": {
+			"min": 0.125,
+			"steps": 2,
+			"step": 0.125
+		},
+		"epic": {
+			"min": 0.25,
+			"steps": 2,
+			"step": 0.125
+		},
+		"mythic": {
+			"min": 0.5,
+			"steps": 2,
+			"step": 0.125
+		},
+		"ancient": {
+			"min": 0.5,
+			"steps": 2,
+			"step": 0.125
+		}
+	},
+	"types": [
+		"pickaxe",
+		"shovel"
+	]
+}

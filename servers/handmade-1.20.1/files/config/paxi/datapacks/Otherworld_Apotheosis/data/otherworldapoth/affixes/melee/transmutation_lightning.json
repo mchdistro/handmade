@@ -1,0 +1,8 @@
+{
+  "type": "otherworldapoth:transmutation",
+  "school": "irons_spellbooks:lightning",
+  "types": [
+    "sword",
+    "heavy_weapon"
+  ]
+}

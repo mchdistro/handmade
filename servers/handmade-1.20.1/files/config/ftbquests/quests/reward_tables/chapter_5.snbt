@@ -1,0 +1,130 @@
+{
+	id: "0E0A1F67345E69AA"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:dragonsteel_fire_sword"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:durable": 0.72f
+							"apotheosis:heavy_weapon/attribute/annihilating": 0.3582961f
+							"apotheosis:heavy_weapon/attribute/berserking": 0.8986422f
+							"apotheosis:heavy_weapon/attribute/decimating": 0.27190274f
+							"apotheosis:heavy_weapon/attribute/giant_slaying": 0.5943358f
+							"apotheosis:heavy_weapon/attribute/murderous": 0.23185647f
+							"apotheosis:heavy_weapon/special/cleaving": 0.8950529f
+							"apotheosis:sword/mob_effect/elusive": 0.43612766f
+							"otherworldapoth:melee/spell/flaming_strike": 0.6866149f
+							"otherworldapoth:socket_bonus": 0.44056696f
+						}
+						name: "{\"color\":\"rainbow\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:heavy_weapon/attribute/murderous\"},\"\",{\"translate\":\"affix.apotheosis:heavy_weapon/special/cleaving.suffix\"}]}"
+						rarity: "apotheosis:ancient"
+						sockets: 5
+						uuids: [[I;
+							-278499594
+							1280790435
+							-1443822119
+							1457949276
+						]]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ice_and_fire_spellbooks:crimson_dragon_priest_staff"
+				tag: {
+					affix_data: {
+						affixes: {
+							"otherworldapoth:elemental/school_fire/attribute": 0.4495052f
+							"otherworldapoth:elemental/school_fire/mana_cost": 0.66899073f
+							"otherworldapoth:elemental/school_fire/pyromancers": 0.29234326f
+							"otherworldapoth:magic_weapons/attribute/intricate": 0.7102643f
+							"otherworldapoth:magic_weapons/attribute/vampiric": 0.6711347f
+							"otherworldapoth:magic_weapons/attribute/vigorous": 0.849822f
+							"otherworldapoth:magic_weapons/attribute/volatile": 0.1468904f
+							"otherworldapoth:socket_bonus": 0.39811808f
+						}
+						name: "{\"color\":\"rainbow\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.otherworldapoth:socket_bonus\"},\"\",{\"translate\":\"affix.otherworldapoth:elemental/school_fire/mana_cost.suffix\"}]}"
+						rarity: "apotheosis:ancient"
+						sockets: 5
+						uuids: [[I;
+							1104501353
+							1325879026
+							-1521464597
+							-1592824287
+						]]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:dragonsteel_fire_chestplate"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:armor/attribute/blessed": 0.81634146f
+							"apotheosis:armor/attribute/fortunate": 0.17797399f
+							"apotheosis:armor/attribute/ironforged": 0.674122f
+							"apotheosis:armor/attribute/steel_touched": 0.4984256f
+							"apotheosis:armor/dmg_reduction/blockading": 0.85066223f
+							"apotheosis:durable": 0.81f
+							"irons_spellbooks:armor/attribute/spell_resist": 0.6871115f
+							"otherworldapoth:armor/spell/oakskinned": 0.7807519f
+							"otherworldapoth:socket_bonus": 0.22239715f
+						}
+						name: "{\"color\":\"rainbow\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:armor/attribute/gravitational\"},\"\",{\"translate\":\"affix.apotheosis:armor/attribute/spiritual.suffix\"}]}"
+						rarity: "apotheosis:ancient"
+						sockets: 2
+						uuids: [[I;
+							-1743312229
+							1182089931
+							-1714575834
+							-1497670186
+						]]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "valoria:infernal_bow"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:durable": 0.75f
+							"apotheosis:ranged/attribute/agile": 0.6498667f
+							"apotheosis:ranged/attribute/elven": 1.0f
+							"apotheosis:ranged/attribute/streamlined": 0.9251385f
+							"apotheosis:ranged/attribute/windswept": 0.5415225f
+							"apotheosis:telepathic": 0.21575141f
+							"otherworldapoth:ranged/spell/sunbeam": 0.35404456f
+							"otherworldapoth:socket_bonus": 0.44828522f
+						}
+						name: "{\"color\":\"rainbow\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:ranged/attribute/elven\"},\"\",{\"translate\":\"affix.apotheosis:ranged/attribute/streamlined.suffix\"}]}"
+						rarity: "apotheosis:ancient"
+						sockets: 5
+						uuids: [[I;
+							-1879370995
+							1830243585
+							-1807048943
+							802763337
+						]]
+					}
+				}
+			}
+		}
+	]
+	title: "Chapter 5"
+}

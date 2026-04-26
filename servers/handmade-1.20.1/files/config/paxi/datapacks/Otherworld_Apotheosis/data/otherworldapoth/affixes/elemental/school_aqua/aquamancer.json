@@ -1,0 +1,30 @@
+{
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "traveloptics"
+    }
+  ],
+  "type": "otherworldapoth:spell_level",
+  "school": "traveloptics:aqua",
+  "values": {
+    "mythic": {
+      "level": {
+        "min": 1,
+        "steps": 1,
+        "step": 0
+      }
+    },
+    "ancient": {
+      "level": {
+        "min": 1,
+        "steps": 1,
+        "step": 1
+      }
+    }
+  },
+  "types": [
+    "sword", "heavy_weapon",
+    "staff" 
+]
+} 

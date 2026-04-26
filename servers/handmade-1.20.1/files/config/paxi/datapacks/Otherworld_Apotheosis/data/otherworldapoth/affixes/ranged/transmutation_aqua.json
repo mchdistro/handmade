@@ -1,0 +1,13 @@
+{
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "traveloptics"
+    }
+  ],
+  "type": "otherworldapoth:transmutation",
+  "school": "traveloptics:aqua",
+  "types": [
+    "bow"
+  ]
+}

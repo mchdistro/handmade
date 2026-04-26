@@ -1,0 +1,347 @@
+{
+	autofocus_id: "57D96A32A0B39E02"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_2_above_all_else"
+	group: "47B0A784051454EE"
+	hide_quest_until_deps_complete: true
+	icon: "otherworld:life_stone"
+	id: "12C1D8980134491D"
+	images: [
+		{
+			height: 13.0d
+			image: "otherworld:textures/chapter_two.png"
+			rotation: 0.0d
+			width: 24.0d
+			x: -4.0d
+			y: -8.5d
+		}
+		{
+			height: 10.0d
+			image: "realmrpg_quests:textures/screens/quest_book_bg.png"
+			order: 1
+			rotation: 0.0d
+			width: 18.52112676056338d
+			x: -3.5d
+			y: -1.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				""
+				"{image:otherworld:textures/eye_of_the_sunbird.png width:150 height:75 align:center}"
+			]
+			icon: "aether:skyroot_log"
+			id: "34114C30533B804F"
+			subtitle: "The radiant avian &6Umvuthi&r has sensed the presence of the &bDeath Stone&r and awaits your arrival. \\n\\nWaiting in Savanna biomes, Umvuthi can be found with the &6Eye of the Sunbird&r"
+			tasks: [
+				{
+					icon: "mowzies_cataclysm:sun_eye"
+					id: "2712FC4DFDE80863"
+					observe_type: 5
+					timer: 0L
+					title: "Find &6Umvuthi the Sunbird"
+					to_observe: "mowziesmobs:umvuthi"
+					type: "observation"
+				}
+				{
+					id: "076D0835C3719512"
+					item: "otherworld:death_stone"
+					title: "Finish &5Chapter 1&r"
+					type: "item"
+				}
+			]
+			title: "&4Chapter 2&r&0| &fWhispers on the Wind"
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["34114C30533B804F"]
+			description: [
+				"{image:otherworld:textures/umvuthi.png width:150 height:150 align:center}"
+				""
+				"&7&o\"I have seen signs sent from the heavens. A great adventurer comes, wielding a dangerous power. The sun tells me I must fight to the bitter end.\"&r&r"
+			]
+			id: "6B1A8AD318538660"
+			rewards: [
+				{
+					count: 14
+					id: "3F680A386448BEC4"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+				{
+					id: "776430A6FF2474C8"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "This radiant avian sees your arrival as a divine trial. Defeat it to prove your worthiness for the Aether."
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				icon: "mowzies_cataclysm:sun_eye"
+				id: "083F1CDB60EC521A"
+				title: "[LVL 8+] Umvuthi the Sunbird"
+				type: "kill"
+				value: 1L
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["31A6AF98E1D8D3DD"]
+			description: ["{image:otherworld:textures/valkyrie_queen.png width:150 height:150 align:center}"]
+			id: "57D96A32A0B39E02"
+			rewards: [{
+				id: "23757F6FC05C5734"
+				type: "xp"
+				xp: 350
+			}]
+			subtitle: "A neutral guardian, ready to test the strength of the willing."
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				icon: "otherworld:valkyrie_essence"
+				id: "7662BDF4DAAC543E"
+				title: "[LVL 11] Valkyrie Queen"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6DA0B4B50AB2B552"]
+			description: ["{image:otherworld:textures/sun_spirit.png width:150 height:150 align:center}"]
+			id: "5953B71CF3386C4E"
+			rewards: [{
+				id: "7A1412CBD9EE33E2"
+				type: "xp"
+				xp: 350
+			}]
+			subtitle: "A being of pure solar energy. Its fiery heart contains a vital essence."
+			tasks: [{
+				entity: "aether:sun_spirit"
+				icon: "otherworld:solar_essence"
+				id: "303FC14886685892"
+				title: "[LVL 10] Sun Spirit"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["269857995C4A740F"]
+			description: ["{image:otherworld:textures/aerwhale_king.png width:200 height:100 align:center}"]
+			id: "42BEF5BF97B2408E"
+			rewards: [{
+				id: "7EE58FC73B4B3B0E"
+				type: "xp"
+				xp: 350
+			}]
+			subtitle: "The majestic ruler of the sky-whales. A formidable guardian."
+			tasks: [{
+				entity: "lost_aether_content:aerwhale_king"
+				icon: "otherworld:celestial_essence"
+				id: "7029D37C4694751F"
+				title: "[LVL 11] Aerwhale King"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C3E4B207B640E39"]
+			description: ["{image:otherworld:textures/mutated_aechor_plant.png width:150 height:150 align:center}"]
+			id: "5C467DF1DBF3B6B8"
+			rewards: [{
+				id: "737DD783BC9735D3"
+				type: "xp"
+				xp: 350
+			}]
+			subtitle: "A grotesque mutation of an aechor plant, found in an Ancient Laboratory. Perhaps a failed experiment?"
+			tasks: [{
+				entity: "ancient_aether:mutated_aechor_plant"
+				icon: "otherworld:blighted_essence"
+				id: "38A107C347C16715"
+				title: "[LVL 10] Mutated Aechor Plant"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2E734E0FBDA736DE"]
+			description: [""]
+			icon: "quark:calcite_pillar"
+			id: "38382A131DFA89AC"
+			subtitle: "&7Umvuthi's prophecy describes an &dAltar&r hidden &6underneath the blade of a statue&r at the &6center of a massive floating city&r. \\n\\nFind it to present the &bAltar Offering&r."
+			tasks: [{
+				icon: "quark:calcite_pillar"
+				id: "646BD4D134A489DC"
+				structure: "aether_villages:olympic_citadel"
+				title: "Find the &bAncient floating city&r which holds the &dAltar of Life&r"
+				type: "structure"
+			}]
+			title: "Heart of the Heavens"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["38382A131DFA89AC"]
+			description: [""]
+			id: "56E2A2F9BC707683"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "43CD6C611CB1B92A"
+					table_id: 2483304654845151573L
+					type: "choice"
+				}
+				{
+					auto: "invisible"
+					command: "/gamestage add @s chapter_2 true"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:soul_speed"
+								lvl: 7s
+							}]
+						}
+					}
+					id: "76086FAC15617F9B"
+					silent: true
+					title: "Unlock Character Level 9+"
+					type: "command"
+				}
+				{
+					id: "57A8E19F6998DF88"
+					type: "xp"
+					xp: 1500
+				}
+				{
+					id: "13FE6BFA08A8A097"
+					item: "legendarysurvivaloverhaul:heart_container"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "Find the &6Altar&r within the city, and present your &bAltar Offering&r to it."
+			tasks: [{
+				id: "69009F4C35EC1215"
+				item: "otherworld:life_stone"
+				title: "Obtain the &aLife Stone&r"
+				type: "item"
+			}]
+			title: "Essence of Hope"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5953B71CF3386C4E"
+				"57D96A32A0B39E02"
+				"5C467DF1DBF3B6B8"
+				"42BEF5BF97B2408E"
+			]
+			id: "2E734E0FBDA736DE"
+			subtitle: "Combine the four essences from your trials: &eValkyrie&r, &6Solar&r, &3Blighted&r, and &bCelestial&r.\\n\\nCraft them together into an &bAltar Offering&r - symbolizing master over life."
+			tasks: [{
+				id: "4F7A0C3B6A05AF9E"
+				item: "otherworld:altar_offering"
+				title: "Create an &bAltar Offering&r"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4B00965B54105A28"]
+			description: ["{image:otherworld:textures/eye_of_silver.png width:200 height:100 align:center}"]
+			id: "31A6AF98E1D8D3DD"
+			subtitle: "A holy temple made of Angelic Stone, found floating in the clouds.\\n\\nFind it with the &7Eye of Silver&r."
+			tasks: [{
+				icon: "aether:silver_dungeon_key"
+				id: "0A290438448D4239"
+				structure: "aether:silver_dungeon"
+				title: "Find the &7Silver Dungeon&r"
+				type: "structure"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B00965B54105A28"]
+			description: ["{image:otherworld:textures/eye_of_platinum.png width:200 height:100 align:center}"]
+			id: "269857995C4A740F"
+			subtitle: "A lone tower made of Gale Stone, keeping watch over the floating hills.\\n\\nFind it with the &9Eye of Platinum&r."
+			tasks: [{
+				icon: "lost_aether_content:platinum_key"
+				id: "515E93DAEF79010E"
+				structure: "lost_aether_content:platinum_dungeon"
+				title: "Find the &9Platinum Dungeon&r"
+				type: "structure"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4B00965B54105A28"]
+			description: ["{image:otherworld:textures/eye_of_gold.png width:200 height:100 align:center}"]
+			icon: "aether:gold_dungeon_key"
+			id: "6DA0B4B50AB2B552"
+			subtitle: "A scorched prison made of Hellfire Stone, buried within an island to contain its energy. \\n\\nFind it with the &6Eye of Gold&r."
+			tasks: [{
+				icon: "aether:gold_dungeon_key"
+				id: "382F38F4AC7B79BB"
+				structure: "aether:gold_dungeon"
+				title: "Find the &6Golden Dungeon&r"
+				type: "structure"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B00965B54105A28"]
+			description: ["{image:otherworld:textures/eye_of_sentry.png width:200 height:100 align:center}"]
+			id: "6C3E4B207B640E39"
+			subtitle: "An ancient laboratory full of experiments forgotten to time. \\n\\nFind it with the &3Eye of Sentry&r."
+			tasks: [{
+				icon: "ancient_aether:laboratory_dungeon_key"
+				id: "261468A3CAF6AA0A"
+				structure: "ancient_aether:sentry_laboratory"
+				title: "Find the &3Sentry Laboratory"
+				type: "structure"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"6B1A8AD318538660"
+				"26D0406B1B0B2B20"
+			]
+			id: "4B00965B54105A28"
+			subtitle: "Umvuthi's journal mentions constructing a portal out of &eGlowstone&r and &bWater&r.\\n\\nA trial of the skies awaits."
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: "aether:aether_portal_frame"
+				id: "0050D5621DD9B639"
+				title: "Enter &aThe Aether&r"
+				type: "dimension"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+	]
+	title: " &aWhispers on the Wind&r &f|&r (Lv. 6+)"
+}

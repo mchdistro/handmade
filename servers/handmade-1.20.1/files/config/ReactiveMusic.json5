@@ -1,0 +1,23 @@
+{
+	musicDelayLength2: "SONGPACK_DEFAULT",
+	musicSwitchSpeed2: "SONGPACK_DEFAULT",
+	debugModeEnabled: false,
+	loadedUserSongpack: "Medieval Minecraft",
+	blacklistedDimensions: [
+		"otherworld:elemental_nexus"
+	],
+	savedHomePositions: {
+		saved: {
+			f_82479_: 0.0,
+			f_82480_: 0.0,
+			f_82481_: 0.0
+		}
+	},
+	soundsMuteMusic: [
+		"music.boss.common",
+		"music.boss.gatekeeper",
+		"music.boss.lunar_monstrosity",
+		"music.boss.starlight_golem"
+	],
+	hasForcedInitialVolume: true
+}

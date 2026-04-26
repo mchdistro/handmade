@@ -1,0 +1,336 @@
+{
+	autofocus_id: "07F4DB49C7636507"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_6_at_the_end_of_all_things"
+	group: "47B0A784051454EE"
+	hide_quest_until_deps_complete: true
+	icon: "traveloptics:withered_excrucis"
+	id: "5BF67CB2C303F0BD"
+	images: [
+		{
+			height: 2.0d
+			image: "traveloptics:item/eldritch_orb_swirl"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			height: 2.0d
+			image: "irons_spellbooks:item/upgrade_orb_holy"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			height: 2.0d
+			image: "soulsweapons:item/chaos_orb"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/crying_obsidian_emissive"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -5.5d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"78B754D54F250756"
+				"24C14685B7275B93"
+			]
+			description: [
+				"{image:otherworld:textures/blackstone_pedestal.png width:200 height:100 align:center}"
+				"{image:otherworld:textures/chaos_monarch.png width:100 height:150 align:center}"
+			]
+			id: "439852FC3418501C"
+			rewards: [{
+				id: "3AECEBB58BC93A38"
+				type: "xp"
+				xp: 1000
+			}]
+			size: 1.0d
+			subtitle: "An insane mage who craves to see the day the Ender Dragon wreaks havoc on the Otherworld.\\n\\nFirst, create a &8Blackstone Pedestal&r, using the &5Dragon's Soul&r.\\n\\nThen, activate the pedestal using a &0Shard of Uncertainty&r dropped by &0The Wither&r."
+			tasks: [{
+				entity: "soulsweapons:chaos_monarch"
+				icon: {
+					Count: 1
+					id: "soulsweapons:chaos_crown"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1BFEE369A933F74A"
+				title: "[LVL 20] Monarch of Chaos"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["07F4DB49C7636507"]
+			description: ["{image:otherworld:textures/ender_dragon.png width:200 height:200 align:center}"]
+			id: "24C14685B7275B93"
+			rewards: [{
+				id: "70E304AC34BFA641"
+				type: "xp"
+				xp: 1000
+			}]
+			size: 1.0d
+			subtitle: "The ancient matriarch of creation, residing in the heart of The End.\n\nHere she has been fed with hatred and dark magics, in preparation to wreak havoc on the world.\\n\\nHer power has &6grown significantly&r."
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "483727334A80A413"
+				title: "[LVL 20] Ender Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6BAE923C075E8062"]
+			description: ["{image:otherworld:textures/night_prowler.png width:200 height:150 align:center}"]
+			hide_until_deps_visible: false
+			id: "3932BD0638EBD9F3"
+			rewards: [{
+				id: "200981E71316462C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:counterspell"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "A twisted deity, born of the moon itself. \\n\\nIt hunts restlessly even in the dead of night, to consume the souls of the dead. "
+			tasks: [{
+				entity: "soulsweapons:night_prowler"
+				icon: {
+					Count: 1
+					id: "soulsweapons:soul_reaper"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "57F5C1DBFD535FDA"
+				title: "[LVL 20] Night Prowler"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6BAE923C075E8062"]
+			description: ["{image:otherworld:textures/day_stalker.png width:200 height:150 align:center}"]
+			id: "4DB8909CA050F2CF"
+			rewards: [{
+				id: "0FC1448CCF88D416"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:counterspell"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "A fallen god, a kin of the Sun who casts forth a blinding light. \\n\\nHe enacts judgment upon all the living; None may hide in shadow. "
+			tasks: [{
+				entity: "soulsweapons:day_stalker"
+				icon: {
+					Count: 1
+					id: "soulsweapons:empowered_dawnbreaker"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3BB32EA67D12861E"
+				title: "[LVL 20] Day Stalker"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"3932BD0638EBD9F3"
+				"4DB8909CA050F2CF"
+			]
+			description: [
+				""
+				"{image:otherworld:textures/obsidian_mirror.png width:200 height:100 align:center}"
+			]
+			id: "70672E97306B6636"
+			rewards: [{
+				id: "3D586EC1F20F40D4"
+				type: "xp"
+				xp: 2500
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Craft the &8Obsidian Mirror&r, then gaze into it in a &dplace where elements converge&r."
+			tasks: [{
+				consume_items: false
+				id: "0E5E1439FE5E7758"
+				item: "otherworld:obsidian_mirror"
+				type: "item"
+			}]
+			title: "[LVL 20] Obsidian Mirror"
+			x: -2.5d
+			y: -5.25d
+		}
+		{
+			icon: "betterend:eternal_crystal"
+			id: "07F4DB49C7636507"
+			rewards: [{
+				id: "084EC411CCD93017"
+				item: "legendarysurvivaloverhaul:cold_resistance_ring"
+				type: "item"
+			}]
+			subtitle: "Enter the &bNexus Exit Portal&r"
+			tasks: [
+				{
+					dimension: "minecraft:the_end"
+					icon: "betterend:eternal_crystal"
+					id: "6943FEA8A1308249"
+					title: "Re-Enter &dThe End&r"
+					type: "dimension"
+				}
+				{
+					advancement: "otherworld:story/dragons_and_deities"
+					criterion: ""
+					icon: "irons_spellbooks:fire_upgrade_orb"
+					id: "68847456D42E93ED"
+					title: "Finish &6Chapter 5&r"
+					type: "advancement"
+				}
+			]
+			title: "&dChapter 6&r&0| &fAt the End of All Things"
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["296CE81AF19470B2"]
+			hide_until_deps_complete: true
+			id: "1D745B19D307AC7B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "43731AD96AB7C98F"
+					table_id: 2223741609770542009L
+					type: "choice"
+				}
+				{
+					id: "418E9D6C956331E3"
+					type: "xp"
+					xp: 5000
+				}
+			]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "A battle brewing for thousands of years.\\n\\nWake him with the &dshard&r obtained from looking into the &8Obsidian Mirror&r."
+			tasks: [{
+				entity: "traveloptics:the_nightwarden"
+				icon: "traveloptics:excrucis"
+				id: "490B64044387A317"
+				title: "[LVL 25] &k&0X&dX&r&5&lThe Nightwarden&r&k&dX&0X&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["439852FC3418501C"]
+			description: ["{image:otherworld:textures/chaos_orb.png width:200 height:100 align:center}"]
+			id: "6BAE923C075E8062"
+			subtitle: "To shatter a corrupted order, chaos must be unleashed unto the world. \\n\\nForge the &dChaos Orb&r from the fragments of chaotic beings, and release it into the Sky of the Overworld. \\n\\nA duo awaits that portends the end of times. Defeating one shall empower the other."
+			tasks: [{
+				id: "216D2A0F43447C22"
+				item: "soulsweapons:chaos_orb"
+				title: "Forge the &dChaos Orb&r"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["70672E97306B6636"]
+			description: ["{image:otherworld:textures/eye_of_nothingness.png width:200 height:100 align:center}"]
+			id: "296CE81AF19470B2"
+			rewards: [{
+				id: "14D12CF552E8576A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:counterspell"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Find it by following the &dEye of Nothingness&r."
+			tasks: [{
+				icon: "traveloptics:eye_of_nothingness"
+				id: "0941FB571B691A91"
+				structure: "traveloptics:void_cathedral"
+				title: "Find the &dCathedral&r hidden deep within the End."
+				type: "structure"
+			}]
+			x: -2.5d
+			y: -7.5d
+		}
+	]
+	title: " &dAt The End Of All Things&r &f|&r (Lv. 20+)"
+}
