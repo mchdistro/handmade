@@ -1093,6 +1093,17 @@
           }
         },
         {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 123,
+            "url": "https://cdn.mc.gotiger.dev/handmade/servers/healing_260613-1.20.1/files/servers.dat",
+            "MD5": "0e80e74618f15e68996211af45814fc9",
+            "path": "servers.dat"
+          }
+        },
+        {
           "id": "AstraLex-V93.0.zip",
           "name": "AstraLex-V93.0.zip",
           "type": "File",
