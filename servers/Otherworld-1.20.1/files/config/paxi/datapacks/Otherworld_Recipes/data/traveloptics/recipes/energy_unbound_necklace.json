@@ -1,0 +1,114 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "valoria:netherite_chain"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "item": "traveloptics:energy_unbound_necklace"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "valoria:netherite_chain"
+        },
+        {
+          "item": "irons_spellbooks:arcane_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "valoria:netherite_chain"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "valoria:netherite_chain"
+        },
+        {
+          "amount": 500,
+          "fluid": "minecraft:lava",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "valoria:netherite_chain"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "valoria:netherite_chain"
+        },
+        {
+          "item": "iceandfire:dragonsteel_lightning_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "valoria:netherite_chain"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "valoria:netherite_chain"
+        }
+      ],
+      "results": [
+        {
+          "item": "valoria:netherite_chain"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "valoria:netherite_chain"
+        },
+        {
+          "amount": 1000,
+          "fluid": "create_wizardry:lightning",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "valoria:netherite_chain"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "valoria:netherite_chain"
+        },
+        {
+          "item": "cataclysm:witherite_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "valoria:netherite_chain"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "valoria:netherite_chain"
+  }
+}

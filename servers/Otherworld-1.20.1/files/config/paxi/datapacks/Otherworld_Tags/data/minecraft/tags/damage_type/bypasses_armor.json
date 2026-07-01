@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        {"id":"#irons_spellbooks:eldritch_magic","required":false},
+        {"id":"#irons_spellbooks:blood_magic","required":false},
+        {"id":"#irons_spellbooks:ender_magic","required":false},
+        {"id":"#irons_spellbooks:evocation_magic","required":false},
+        {"id":"#irons_spellbooks:fire_magic","required":false},
+        {"id":"#irons_spellbooks:holy_magic","required":false},
+        {"id":"#irons_spellbooks:ice_magic","required":false},
+        {"id":"#irons_spellbooks:lightning_magic","required":false},
+        {"id":"#irons_spellbooks:nature_magic","required":false},
+        {"id":"#traveloptics:aqua_magic","required":false},
+        {"id":"#cataclysm_spellbooks:abyssal_magic","required":false},
+        {"id":"#alshanex_familiars:sound_magic","required":false}
+    ]
+}

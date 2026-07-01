@@ -1,0 +1,326 @@
+{
+	autofocus_id: "3D9A8CEEDEDFC68C"
+	default_hide_dependency_lines: 0
+	default_quest_shape: ""
+	filename: "chapter_3_out_of_the_frying_pan"
+	group: "47B0A784051454EE"
+	hide_quest_until_deps_complete: 1
+	icon: "otherworld:earth_stone"
+	id: "48398A0A1B19AE6D"
+	images: [
+		{
+			height: 10.0d
+			image: "realmrpg_quests:textures/screens/quest_book_bg.png"
+			order: 1
+			rotation: 0.0d
+			width: 18.52112676056338d
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			height: 12.0d
+			image: "otherworld:textures/chapter_three.png"
+			rotation: 0.0d
+			width: 24.0d
+			x: -4.0d
+			y: -9.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6CFBF084832DC26D"]
+			description: [
+				""
+				""
+				"{image:otherworld:textures/gauntlet.png width:100 height:150 align:center}"
+			]
+			id: "7B1BED395C9CDC09"
+			rewards: [{
+				id: "6880754988174554"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "힘을 시험하는 퀘스트입니다. 눈을 공격하여 피해를 입히세요. 공격이 강력하니 조심하세요!"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: "bosses_of_mass_destruction:blazing_eye"
+				id: "44AFE18BF26AFB3A"
+				title: "[레벨 12] 네더 건틀렛"
+				type: "kill"
+				value: 1
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4A1FCD80912415A1"]
+			description: ["{image:otherworld:textures/corpse_warlock.png width:80 height:120 align:center}"]
+			id: "7780EFD7DEA28CE2"
+			rewards: [{
+				id: "5364DB473D0829A8"
+				type: "xp"
+				xp: 350
+			}]
+			subtitle: "네더 바닥에서 힘에 사로잡힌 강령술사가 기다리고 있습니다."
+			tasks: [{
+				entity: "eeeabsmobs:corpse_warlock"
+				icon: "eeeabsmobs:soul_summoning_necklace"
+				id: "3A71509D7AEEC690"
+				title: "[레벨 11] 시체 마법사"
+				type: "kill"
+				value: 1
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1970D14AC21EC2EA"]
+			description: ["{image:otherworld:textures/netherite_monstrosity.png width:150 height:150 align:center}"]
+			id: "07205CF41C5437A8"
+			rewards: [{
+				id: "441E6024DBF53ABD"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "고대의 네더라이트-마그마 골렘이 &4영혼 대장장이&r를 지키고 있습니다."
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: "cataclysm:monstrous_horn"
+				id: "7ABB27946686E1CF"
+				title: "[레벨 13] 네더라이트 괴물"
+				type: "kill"
+				value: 1
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4828AA0DBF2CF07F"]
+			description: ["{image:otherworld:textures/accursed_lord_boss.png width:200 height:200 align:center}"]
+			id: "3D9A8CEEDEDFC68C"
+			rewards: [{
+				id: "52D261969BF78986"
+				type: "xp"
+				xp: 1000
+			}]
+			size: 1.0d
+			subtitle: "네더에 있는 썩어가는 왕국의 잔재에 위치해 있습니다. \\n\\n&b달빛 석 나침반&r은 네더에서 사용하면 그의 왕국을 가리킵니다."
+			tasks: [{
+				entity: "soulsweapons:accursed_lord_boss"
+				icon: {
+					Count: 1
+					id: "soulsweapons:darkin_blade"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:heavy_weapon/attribute/shredding": 0.5468232d
+							}
+							name: "{\"color\":\"#808080\",\"translate\":\"misc.apotheosis.affix_name.two\",\"with\":[{\"translate\":\"affix.apotheosis:heavy_weapon/attribute/shredding\"},\"\",\"\"]}"
+							rarity: "apotheosis:common"
+							uuids: [[
+								-983064439
+								354700991
+								-1523368419
+								2090627022
+							]]
+						}
+					}
+				}
+				id: "4AFD09D57E9012F5"
+				title: "[레벨 12] 썩어가는 왕"
+				type: "kill"
+				value: 1
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["611ED6B3414C1900"]
+			description: ["{image:otherworld:textures/ignis.png width:200 height:150 align:center}"]
+			hide_until_deps_complete: 1
+			id: "7585F2250066DF23"
+			rewards: [{
+				id: "2E525457E4A0B138"
+				type: "xp"
+				xp: 1500
+			}]
+			shape: "pentagon"
+			size: 1.25d
+			subtitle: "불타는 반신은 진정으로 끔찍한 존재입니다. \\n\\n그는 월드 코어의 &d돌&r을 지키고 있습니다."
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:altar_of_fire"
+				id: "3CEE090D00648606"
+				title: "[레벨 15] 이그니스"
+				type: "kill"
+				value: 1
+			}]
+			x: -0.125d
+			y: -1.875d
+		}
+		{
+			dependencies: ["7585F2250066DF23"]
+			description: [""]
+			icon: "otherworld:earth_stone"
+			id: "1248A7A18679B505"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/gamestage add @s chapter_3 true"
+					elevate_perms: 1
+					icon: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:soul_speed"
+								lvl: 7
+							}]
+						}
+					}
+					id: "106CD10CA184EF47"
+					silent: 1
+					title: "캐릭터 레벨 12+ 해금"
+					type: "command"
+				}
+				{
+					id: "1DDF531B3DEAF05E"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					exclude_from_claim_all: 1
+					id: "16733C4F4E7EBF80"
+					table_id: 7869895703808023586L
+					type: "choice"
+				}
+				{
+					id: "7128722629F4A612"
+					item: "legendarysurvivaloverhaul:heart_container"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "불타는 투기장 중앙 아래에 숨겨진 &d제단&r에서 &6그을린 코어&r를 주입하세요."
+			tasks: [{
+				id: "03EC77BE0A047624"
+				item: "otherworld:earth_stone"
+				type: "item"
+			}]
+			title: "월드 코어"
+			x: 1.75d
+			y: -1.875d
+		}
+		{
+			id: "4A1FCD80912415A1"
+			subtitle: "&a생명의 돌&r을 받은 후, 이상한 시체들이 메시지와 &4피의 눈&r을 가지고 공격해 왔습니다. \\n\\n이 눈을 따라 &c네더&r를 통과하면 생명의 돌과 죽음의 돌에 대한 더 많은 정보를 얻을 수 있을 것입니다."
+			tasks: [
+				{
+					icon: "eeeabsmobs:bloody_altar_eye"
+					id: "31D89C66A020F93C"
+					structure: "eeeabsmobs:bloody_altar"
+					title: "네더에서 &4피의 제단&r을 찾으세요"
+					type: "structure"
+				}
+				{
+					id: "7216D969F97DE782"
+					item: "otherworld:life_stone"
+					title: "&a2장&r 완료"
+					type: "item"
+				}
+			]
+			title: "&43장&0 | &f월드 코어&r"
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7B1BED395C9CDC09"
+				"3D9A8CEEDEDFC68C"
+				"07205CF41C5437A8"
+			]
+			description: ["{image:otherworld:textures/eye_of_flame.png width:150 height:75 align:center}"]
+			id: "760BDAA5E3AFDE16"
+			subtitle: "&b낡은 인장&r, &b괴물 코어&r, 그리고 &b건틀렛의 낙인&r으로 엔더 눈을 주입하세요. \\n\\n던져서 따라가면 &4불타는 투기장&r을 찾을 수 있습니다."
+			tasks: [{
+				id: "4635B118BCE0BAB7"
+				item: "cataclysm:flame_eye"
+				title: "&b불꽃의 눈&r을 만드세요"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F1A16D11D2D6522"]
+			id: "1970D14AC21EC2EA"
+			tasks: [{
+				icon: "cataclysm:monstrous_eye"
+				id: "5D6FF9D784F3491B"
+				structure: "cataclysm:soul_black_smith"
+				title: "&4영혼 대장장이&r를 찾으세요"
+				type: "structure"
+			}]
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3F1A16D11D2D6522"]
+			id: "4828AA0DBF2CF07F"
+			tasks: [{
+				icon: "minecraft:black_glazed_terracotta"
+				id: "336E0BC588FFEAB0"
+				structure: "soulsweapons:decaying_kingdom"
+				title: "&7썩어가는 왕국&r을 찾으세요"
+				type: "structure"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F1A16D11D2D6522"]
+			id: "6CFBF084832DC26D"
+			subtitle: "네더 기저부에 위치한 검은 현무암으로 만들어진 거대한 투기장입니다."
+			tasks: [{
+				icon: "bosses_of_mass_destruction:gauntlet_blackstone"
+				id: "78FFEBBB8ADA2EF5"
+				structure: "bosses_of_mass_destruction:gauntlet_arena"
+				title: "&8건틀렛 투기장&r을 찾으세요"
+				type: "structure"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7780EFD7DEA28CE2"]
+			id: "3F1A16D11D2D6522"
+			tasks: [{
+				id: "4985CF1D2524F589"
+				item: "otherworld:apex_project_book"
+				match_nbt: 0
+				title: "&e에이펙스 프로젝트&r를 읽으세요"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["760BDAA5E3AFDE16"]
+			id: "611ED6B3414C1900"
+			subtitle: "투기장의 경비병인 &c불붙은 망령들&r이 떨어뜨립니다. \\n\\n투기장 상단의 불타는 제단에 놓아 &4이그니스&r에게 도전하세요."
+			tasks: [{
+				id: "4D906282428671CD"
+				item: "cataclysm:burning_ashes"
+				title: "&c불타는 재&r를 획득하세요"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+	]
+	title: "&4월드 코어&r &f|&r (레벨 9+)"
+}

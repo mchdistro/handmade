@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BFB",
+    "VGV",
+    "BQB"
+  ],
+  "key": {
+    "V": {
+      "item": "traveloptics:void_spellweave_ingot"
+    },
+    "B": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "Q": {
+      "tag": "otherworld:tomes"
+    },
+    "G": {
+      "item": "minecraft:ender_eye"
+    },
+    "F": {
+      "item": "irons_spellbooks:ancient_knowledge_fragment"
+    }
+  },
+  "result": {
+    "item": "traveloptics:eye_of_nothingness",
+    "count": 1
+  },
+  "show_notification": false
+}

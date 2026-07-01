@@ -1,0 +1,8 @@
+{
+  "type": "otherworldapoth:transmutation",
+  "school": "irons_spellbooks:ender",
+  "types": [
+    "sword",
+    "heavy_weapon"
+  ]
+}

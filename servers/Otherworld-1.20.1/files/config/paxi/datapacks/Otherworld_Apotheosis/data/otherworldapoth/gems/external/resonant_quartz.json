@@ -1,0 +1,116 @@
+{
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alshanex_familiars"
+    }
+  ],
+  "unique": false,
+  "weight": 5,
+  "quality": 2,
+  "dimensions": [],
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "magic_weapons",
+        "types": [
+          "staff"
+        ]
+      },
+      "attribute": "alshanex_familiars:sound_spell_power",
+      "operation": "MULTIPLY_BASE",
+      "values": {
+        "common": 0.025,
+        "uncommon": 0.05,
+        "rare": 0.07,
+        "epic": 0.10,
+        "mythic": 0.12,
+        "ancient": 0.15
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "melee_weapon",
+        "types": [
+          "sword",
+          "heavy_weapon"
+        ]
+      },
+      "attribute": "alshanex_familiars:sound_magic_resist",
+      "operation": "MULTIPLY_BASE",
+      "values": {
+        "common": 0.015,
+        "uncommon": 0.03,
+        "rare": 0.06,
+        "epic": 0.075,
+        "mythic": 0.09,
+        "ancient": 0.12
+      }
+    },
+    {
+      "type": "apotheosis:mob_effect",
+      "gem_class": {
+        "key": "helmet",
+        "types": [
+          "helmet"
+        ]
+      },
+      "mob_effect": "irons_spellbooks:rend",
+      "target": "hurt_attacker",
+      "operation": "ADDITION",
+      "values": {
+        "common": {
+          "duration": 36,
+          "amplifier": 0,
+          "cooldown": 100
+        },
+        "uncommon": {
+          "duration": 48,
+          "amplifier": 0,
+          "cooldown": 100
+        },
+        "rare": {
+          "duration": 60,
+          "amplifier": 1,
+          "cooldown": 100
+        },
+        "epic": {
+          "duration": 72,
+          "amplifier": 1,
+          "cooldown": 100
+        },
+        "mythic": {
+          "duration": 96,
+          "amplifier": 2,
+          "cooldown": 100
+        },
+        "ancient": {
+          "duration": 120,
+          "amplifier": 2,
+          "cooldown": 100
+        }
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "leggings",
+        "types": [
+          "leggings"
+        ]
+      },
+      "attribute": "attributeslib:armor_shred",
+      "operation": "MULTIPLY_BASE",
+      "values": {
+        "common": 0.006,
+        "uncommon": 0.012,
+        "rare": 0.018,
+        "epic": 0.025,
+        "mythic": 0.03,
+        "ancient": 0.036
+      }
+    }
+  ]
+}

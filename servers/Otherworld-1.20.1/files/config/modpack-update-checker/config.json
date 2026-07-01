@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 9,
+  "currentVersion": "1.0.0",
+  "modpackName": "Otherworld",
+  "modpackAuthor": "Luna Pixel Studios",
+  "modpackReleaseType": "stable",
+  "updateCheckerId": "https://raw.githubusercontent.com/LunaPixelStudios/Modpack-Update-Checker/new/otherworld/",
+  "forceModpackCompatible": true,
+  "advanced": {
+    "bccEnabled": true,
+    "expandButton": false,
+    "updateCheckerType": 2,
+    "retroWarning": false,
+    "modpackMods": []
+  }
+}

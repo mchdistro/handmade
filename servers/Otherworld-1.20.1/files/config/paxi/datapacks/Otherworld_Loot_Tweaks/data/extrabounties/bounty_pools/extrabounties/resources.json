@@ -1,0 +1,344 @@
+{
+  "content": {
+    "gold_ingot": {
+      "type": "item",
+      "content": "minecraft:gold_ingot",
+      "amount": {
+        "min": 8,
+        "max": 16
+      },
+      "unitWorth": 150
+    },
+    "emerald": {
+      "type": "item",
+      "content": "minecraft:emerald",
+      "amount": {
+        "min": 6,
+        "max": 12
+      },
+      "unitWorth": 200
+    },
+    "diamond": {
+      "type": "item",
+      "content": "minecraft:diamond",
+      "amount": {
+        "min": 4,
+        "max": 8
+      },
+      "unitWorth": 400
+    },
+    "zanite_gemstone": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "aether:zanite_gemstone",
+      "amount": {
+        "min": 4,
+        "max": 8
+      },
+      "unitWorth": 250
+    },
+    "enchanted_gravitite": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "aether:enchanted_gravitite",
+      "amount": {
+        "min": 4,
+        "max": 8
+      },
+      "unitWorth": 600
+    },
+    "netherite_ingot": {
+      "type": "item",
+      "rarity": "RARE",
+      "content": "minecraft:netherite_ingot",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1000,
+      "weightMult": 0.8
+    },
+    "valkyrum": {
+      "type": "item",
+      "rarity": "RARE",
+      "content": "ancient_aether:valkyrum",
+      "amount": {
+        "min": 4,
+        "max": 8
+      },
+      "unitWorth": 750
+    },
+    "ignitium_ingot": {
+      "type": "item",
+      "rarity": "EPIC",
+      "weightMult": 0.35,
+      "timeMult": 1.25,
+      "content": "cataclysm:ignitium_ingot",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 2000
+    },
+    "cursium_ingot": {
+      "type": "item",
+      "rarity": "EPIC",
+      "weightMult": 0.35,
+      "timeMult": 1.25,
+      "content": "cataclysm:cursium_ingot",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 2000
+    },
+    "witherite_ingot": {
+      "type": "item",
+      "rarity": "EPIC",
+      "weightMult": 0.35,
+      "timeMult": 1.5,
+      "content": "cataclysm:witherite_ingot",
+      "amount": {
+        "min": 2,
+        "max": 4
+      },
+      "unitWorth": 2000
+    },
+    "aeternium_ingot": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "betterend:aeternium_ingot",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 2000
+    },
+    "eternal_crystal": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "betterend:eternal_crystal",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 2500
+    },
+    "common_material": {
+      "type": "item",
+      "rarity": "COMMON",
+      "content": "apotheosis:common_material",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 200,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "apotheosis:common_material"
+        },
+        {
+          "type": "item",
+          "content": "apotheosis:uncommon_material"
+        },
+        {
+          "type": "item",
+          "content": "apotheosis:rare_material"
+        },
+        {
+          "type": "item",
+          "content": "apotheosis:epic_material"
+        },
+        {
+          "type": "item",
+          "content": "apotheosis:mythic_material"
+        },
+        {
+          "type": "item",
+          "content": "apotheosis:ancient_material"
+        }
+      ]
+    },
+    "uncommon_material": {
+      "type": "item",
+      "rarity": "COMMON",
+      "content": "apotheosis:uncommon_material",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 350,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "apotheosis:common_material"
+        },
+        {
+          "type": "item",
+          "content": "apotheosis:uncommon_material"
+        },
+        {
+          "type": "item",
+          "content": "apotheosis:rare_material"
+        },
+        {
+          "type": "item",
+          "content": "apotheosis:epic_material"
+        },
+        {
+          "type": "item",
+          "content": "apotheosis:mythic_material"
+        },
+        {
+          "type": "item",
+          "content": "apotheosis:ancient_material"
+        }
+      ]
+    },
+    "rare_material": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "apotheosis:rare_material",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 650,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "apotheosis:common_material"
+        },
+        {
+          "type": "item",
+          "content": "apotheosis:uncommon_material"
+        },
+        {
+          "type": "item",
+          "content": "apotheosis:rare_material"
+        },
+        {
+          "type": "item",
+          "content": "apotheosis:epic_material"
+        },
+        {
+          "type": "item",
+          "content": "apotheosis:mythic_material"
+        },
+        {
+          "type": "item",
+          "content": "apotheosis:ancient_material"
+        }
+      ]
+    },
+    "epic_material": {
+      "type": "item",
+      "rarity": "RARE",
+      "content": "apotheosis:epic_material",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 1000,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "apotheosis:common_material"
+        },
+        {
+          "type": "item",
+          "content": "apotheosis:uncommon_material"
+        },
+        {
+          "type": "item",
+          "content": "apotheosis:rare_material"
+        },
+        {
+          "type": "item",
+          "content": "apotheosis:epic_material"
+        },
+        {
+          "type": "item",
+          "content": "apotheosis:mythic_material"
+        },
+        {
+          "type": "item",
+          "content": "apotheosis:ancient_material"
+        }
+      ]
+    },
+    "mythic_material": {
+      "type": "item",
+      "rarity": "EPIC",
+      "content": "apotheosis:mythic_material",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 1500,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "apotheosis:common_material"
+        },
+        {
+          "type": "item",
+          "content": "apotheosis:uncommon_material"
+        },
+        {
+          "type": "item",
+          "content": "apotheosis:rare_material"
+        },
+        {
+          "type": "item",
+          "content": "apotheosis:epic_material"
+        },
+        {
+          "type": "item",
+          "content": "apotheosis:mythic_material"
+        },
+        {
+          "type": "item",
+          "content": "apotheosis:ancient_material"
+        }
+      ]
+    },
+    "ancient_material": {
+      "type": "item",
+      "rarity": "LEGENDARY",
+      "content": "apotheosis:ancient_material",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 2500,
+      "forbids": [
+        {
+          "type": "item",
+          "content": "apotheosis:common_material"
+        },
+        {
+          "type": "item",
+          "content": "apotheosis:uncommon_material"
+        },
+        {
+          "type": "item",
+          "content": "apotheosis:rare_material"
+        },
+        {
+          "type": "item",
+          "content": "apotheosis:epic_material"
+        },
+        {
+          "type": "item",
+          "content": "apotheosis:mythic_material"
+        },
+        {
+          "type": "item",
+          "content": "apotheosis:ancient_material"
+        }
+      ]
+    }
+  }
+}

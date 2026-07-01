@@ -1,0 +1,40 @@
+{
+  "attributes": {
+    "attack_range": 3.5,
+    "two_handed": true,
+    "category": "hammer",
+    "pose": "bettercombat:pose_two_handed_heavy",
+    "attacks": [
+      {
+        "hitbox": "VERTICAL_PLANE",
+        "damage_multiplier": 0.8,
+        "angle": 120,
+        "upswing": 0.7,
+        "animation": "bettercombat:two_handed_slam",
+        "swing_sound": {
+          "id": "bettercombat:anchor_slam"
+        }
+      },
+      {
+        "hitbox": "VERTICAL_PLANE",
+        "damage_multiplier": 0.9,
+        "angle": 120,
+        "upswing": 0.7,
+        "animation": "bettercombat:two_handed_slam",
+        "swing_sound": {
+          "id": "bettercombat:anchor_slam"
+        }
+      },
+      {
+        "hitbox": "VERTICAL_PLANE",
+        "damage_multiplier": 1.2,
+        "angle": 120,
+        "upswing": 0.7,
+        "animation": "bettercombat:two_handed_slam_heavy",
+        "swing_sound": {
+          "id": "bettercombat:anchor_slam"
+        }
+      }
+    ]
+  }
+}

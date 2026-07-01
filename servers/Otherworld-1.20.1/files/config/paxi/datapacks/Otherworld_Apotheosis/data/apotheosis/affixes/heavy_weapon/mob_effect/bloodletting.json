@@ -1,0 +1,51 @@
+{
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "attributeslib:bleeding",
+	"target": "ATTACK_TARGET",
+	"stack_on_reapply": true,
+	"values": {
+		"rare": {
+			"duration": 100,
+			"amplifier": 0,
+			"cooldown": 80
+		},
+		"epic": {
+			"duration": {
+				"min": 25.0,
+				"steps": 1,
+				"step": 5.0
+			},
+			"amplifier": 0,
+			"cooldown": 80
+		},
+		"mythic": {
+			"duration": {
+				"min": 25.0,
+				"steps": 1,
+				"step": 5.0
+			},
+			"amplifier": {
+				"min": 0.0,
+				"steps": 2,
+				"step": 0.0325
+			},
+			"cooldown": 80
+		},
+		"ancient": {
+			"duration": {
+				"min": 25.0,
+				"steps": 2,
+				"step": 5.0
+			},
+			"amplifier": {
+				"min": 0.0,
+				"steps": 4,
+				"step": 0.0325
+			},
+			"cooldown": 80
+		}
+	},
+	"types": [
+		"heavy_weapon"
+	]
+}

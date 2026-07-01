@@ -1,0 +1,6 @@
+{
+    "item.traveloptics.withered_excrucis.guide": "Obtained from defeating The Nightwarden",
+    "item.traveloptics.excrucis.guide": "Found by progressing through the Campaign.\n\nDropped by the thing inside the Obsidian Mirror.",
+    "entity.traveloptics.message.nightwarden.phase_three_warning.3": "§a Counterspell§f the§c Dying Star§f when it shifts color to suppress the entire§c Supernova",
+    "boss_screen.traveloptics.nightwarden.advanced_info.supernova_phase.desc": "When transitioning from Phase 2 to Phase 3, he begins charging Supernova. Watch for the color change in the Dying Star, counterspelling the star right after it changes will cancel the Supernova completely and deal an instance of unavoidable percent-based damage back to him."
+}

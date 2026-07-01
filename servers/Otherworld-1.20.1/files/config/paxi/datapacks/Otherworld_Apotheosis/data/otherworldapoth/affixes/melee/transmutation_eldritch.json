@@ -1,0 +1,8 @@
+{
+  "type": "otherworldapoth:transmutation",
+  "school": "irons_spellbooks:eldritch",
+  "types": [
+    "sword",
+    "heavy_weapon"
+  ]
+}

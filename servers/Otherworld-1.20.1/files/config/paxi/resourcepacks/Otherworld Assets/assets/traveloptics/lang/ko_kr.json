@@ -1,0 +1,6 @@
+{
+    "item.traveloptics.withered_excrucis.guide": "밤의 감시자를 처치하여 획득했습니다",
+    "item.traveloptics.excrucis.guide": "캠페인을 진행하면서 발견했습니다.",
+    "entity.traveloptics.message.nightwarden.phase_three_warning.3": "§a 대항 주문§f을 사용하여 색이 변하는 §c 소멸하는 별§f을(를) 막아 전체 §c 초신성(을)를 억제하세요",
+    "boss_screen.traveloptics.nightwarden.advanced_info.supernova_phase.desc": "2단계에서 3단계로 전환될 때 그는 초신성 충전을 시작합니다. 소멸하는 별의 색 변화를 주시하고, 별이 변한 직후에 카운터 스펠을 사용하면 초신성이 완전히 취소되고 피할 수 없는 백분율 기반 데미지가 그에게 되돌아갑니다."
+}

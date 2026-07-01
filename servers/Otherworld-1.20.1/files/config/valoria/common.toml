@@ -1,0 +1,75 @@
+
+#Gameplay
+[gameplay]
+
+	#Bosses
+	[gameplay.bosses]
+
+		#Necromancer
+		[gameplay.bosses.necromancer]
+			#Casting time
+			devourerCastingTime = 40
+			#Casting interval
+			devourerCastingInterval = 150
+			#Damage of summoned devourer
+			devourerDamage = 5
+			#Casting time
+			summonCastingTime = 40
+			#Casting interval
+			summonCastingInterval = 200
+			#Casting time
+			knockbackCastingTime = 20
+			#Casting interval
+			knockbackCastingInterval = 65
+			#Radius of knockback
+			knockbackRadius = 3
+			#Radius of strong knockback casted when Necromancer HP is lower than 100
+			knockbackRadiusStrong = 6
+			#Casting interval
+			targetHealCastingInterval = 200
+			#Amount of healed hp
+			targetHeal = 12.0
+			#Casting time
+			selfHealCastingTime = 60
+			#Casting interval
+			selfHealCastingInterval = 300
+			#Casting time
+			effectCastingTime = 20
+			#Casting interval
+			effectCastingInterval = 150
+			#Casting interval
+			wololoCastingInterval = 180
+			#Casting time
+			targetHealCastingTime = 60
+			#Amount of healed hp
+			selfHeal = 25.0
+			#Casting time
+			wololoCastingTime = 60
+
+		#Wicked Crystal
+		[gameplay.bosses.wickedCrystal]
+			#Casting time
+			shieldsCastingTime = 25
+			#Casting interval
+			shieldsCastingInterval = 1200
+			#Count of summoned shields
+			shieldsCountPhase1 = 2
+			#Count of summoned shields
+			shieldsCountPhase2 = 4
+			#Limit of shields
+			shieldsLimit = 8
+			#Casting time
+			crystalSummonCastingTime = 20
+			#Casting interval
+			crystalSummonCastingInterval = 425
+			#Casting time
+			radialCrystalsCastingTime = 20
+			#Casting interval
+			radialCrystalsCastingInterval = 160
+			#Damage of crystals
+			radialCrystalsDamage = 4
+			#Casting time
+			crystalStormCastingTime = 25
+			#Casting interval
+			crystalStormCastingInterval = 400
+

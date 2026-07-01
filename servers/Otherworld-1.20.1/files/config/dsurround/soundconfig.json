@@ -1,0 +1,93 @@
+[
+  {
+    "soundEventId": "alexscaves:boundroid_chain_loop",
+    "volumeScale": 0
+  },
+  {
+    "startup": true,
+    "soundEventId": "minecraft:ambient.underwater.exit"
+  },
+  {
+    "soundEventId": "minecraft:block.chain.break",
+    "volumeScale": 0
+  },
+  {
+    "soundEventId": "minecraft:block.chain.fall",
+    "volumeScale": 9
+  },
+  {
+    "soundEventId": "minecraft:block.chain.hit",
+    "volumeScale": 0
+  },
+  {
+    "soundEventId": "minecraft:block.chain.place",
+    "volumeScale": 0
+  },
+  {
+    "block": true,
+    "soundEventId": "minecraft:block.water.ambient"
+  },
+  {
+    "cull": true,
+    "soundEventId": "minecraft:entity.chicken.ambient"
+  },
+  {
+    "startup": true,
+    "soundEventId": "minecraft:entity.chicken.egg"
+  },
+  {
+    "cull": true,
+    "soundEventId": "minecraft:entity.cow.ambient"
+  },
+  {
+    "cull": true,
+    "soundEventId": "minecraft:entity.ender_dragon.death",
+    "volumeScale": 10
+  },
+  {
+    "soundEventId": "minecraft:entity.experience_bottle.throw",
+    "volumeScale": 99
+  },
+  {
+    "startup": true,
+    "soundEventId": "minecraft:entity.experience_orb.pickup"
+  },
+  {
+    "cull": true,
+    "soundEventId": "minecraft:entity.llama.ambient"
+  },
+  {
+    "cull": true,
+    "soundEventId": "minecraft:entity.pig.ambient"
+  },
+  {
+    "soundEventId": "minecraft:entity.player.splash.high_speed",
+    "volumeScale": 102
+  },
+  {
+    "cull": true,
+    "soundEventId": "minecraft:entity.sheep.ambient"
+  },
+  {
+    "soundEventId": "minecraft:entity.splash_potion.break",
+    "volumeScale": 99
+  },
+  {
+    "cull": true,
+    "soundEventId": "minecraft:entity.wither.death",
+    "volumeScale": 10
+  },
+  {
+    "cull": true,
+    "soundEventId": "minecraft:entity.wither.spawn",
+    "volumeScale": 10
+  },
+  {
+    "soundEventId": "minecraft:item.armor.equip_chain",
+    "volumeScale": 0
+  },
+  {
+    "soundEventId": "minecraft:item.bottle.fill_dragonbreath",
+    "volumeScale": 99
+  }
+]

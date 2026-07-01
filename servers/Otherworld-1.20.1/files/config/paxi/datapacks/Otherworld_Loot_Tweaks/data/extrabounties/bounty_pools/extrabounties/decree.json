@@ -1,0 +1,14 @@
+{
+  "content": {
+    "decree": {
+      "type": "item",
+      "content": "bountiful:decree",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "weightMult": 0.125
+    }
+  }
+}

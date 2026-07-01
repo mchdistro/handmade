@@ -1,0 +1,45 @@
+#Whether Pillager Caravans should be active at all.
+enabled = true
+#Whether to show a toast when a player encounters a caravan.
+showEncounterToast = true
+#Whether to use light mode for the toast.
+toastLightMode = false
+
+[SpawnOptions]
+	#Additional multiplier applied to the base cooldowns defined in the datapack.
+	#Larger caravans usually have longer cooldowns after spawning.
+	#This value scales all existing cooldowns globally (1.0 = 100%).
+	#Range: 0.0 ~ 1000.0
+	spawnCooldownMultiplier = 1.0
+	#Minimum world age in ticks required before caravans can start spawning.
+	#24'000 ticks = 1 Minecraft day.
+	#Range: > 0
+	spawnWorldAgeRequired = 24000
+	#Cooldown in ticks after a failed caravan spawn attempt before trying again.
+	#Range: > 0
+	spawnFailedCooldown = 1200
+	#Base distance from the player where caravans will spawn.
+	#Range: > 0
+	spawnDistance = 32
+	#Random variance added to the base spawn distance (0~value).
+	#Range: > 0
+	spawnDistanceVariance = 32
+	#Maximum block light level allowed for caravan spawning.
+	#Caravans will only spawn if block light level is less than or equal to this value.
+	#Default: 4 (same rule as hostile mob spawning).
+	#Range: 0 ~ 15
+	spawnMaxBlockLight = 4
+	#Safe zone radius around villages where caravans cannot spawn.
+	#Measured in SectionPos units (16x16x16 blocks).
+	#Default: 3 sections.
+	#Range: 0 ~ 64
+	villageSafeZoneRadius = 3
+
+[CaravanBehavior]
+	#Whether caravan animals are allowed to teleport to the entity holding their leash.
+	#Disabling this may cause caravans to stretch or break apart.
+	allowLeashedTeleport = true
+	#Whether caravan members are allowed to teleport to their leader
+	#when they fall too far behind.
+	allowFollowerTeleport = true
+

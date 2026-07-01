@@ -1,0 +1,11 @@
+
+#핵심 게임플레이에 관련된 설정들
+[gameplay]
+	#전리품 상자에 보급선과 보급 캠프 생성 여부 [기본값: true]
+	generatesupplyloot = true
+
+#요청 시스템에 관련된 설정들
+[requestsystem]
+	#요청 시스템의 디버그 정보 표시 여부. 오작동시 사용합니다. [기본값: false]
+	enabledebuglogging = false
+

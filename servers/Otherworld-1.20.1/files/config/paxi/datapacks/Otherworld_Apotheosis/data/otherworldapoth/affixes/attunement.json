@@ -1,0 +1,14 @@
+{
+  "type": "otherworldapoth:attunement",
+  "min_rarity": "epic",
+  "types": [
+    "bow",
+    "staff",
+    "helmet",
+    "chestplate",
+    "leggings",
+    "boots",
+    "sword",
+    "heavy_weapon"
+  ]
+}

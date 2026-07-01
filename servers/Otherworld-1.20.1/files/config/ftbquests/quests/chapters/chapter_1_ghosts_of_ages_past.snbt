@@ -1,0 +1,561 @@
+{
+	autofocus_id: "25C4269D9783091B"
+	default_hide_dependency_lines: 0
+	default_quest_shape: ""
+	filename: "chapter_1_ghosts_of_ages_past"
+	group: "47B0A784051454EE"
+	hide_quest_until_deps_complete: 1
+	icon: "otherworld:death_stone"
+	id: "177821E51638C827"
+	images: [
+		{
+			height: 10.0d
+			image: "realmrpg_quests:textures/screens/quest_book_bg.png"
+			order: 1
+			rotation: 0.0d
+			width: 18.52112676056338d
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			height: 13.0d
+			image: "otherworld:textures/chapter_one.png"
+			rotation: 0.0d
+			width: 18.0d
+			x: -5.0d
+			y: 1.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["53FD6D212F70D484"]
+			description: [
+				"{image:otherworld:textures/posessed_paladin.png width:120 height:180 align:center}"
+				""
+				""
+				""
+				"&7&o속삭임은 힘을 제공합니다. 함정인 것을 알지만, 이 맹세를 한 자들의 힘을 존중해야 합니다. 나는 그들의 통제를 방해합니다. 그들은 내가 사라지기를 바랍니다. 그것을 감지할 수 있습니다.&r"
+				""
+			]
+			id: "0F5B65A4DC665C6C"
+			rewards: [{
+				id: "67C79BBDB3A2A505"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "한때 견고한 기사 케일런 경이었으나, 그의 솔직한 미덕은 리치의 표적이 되었습니다. \\n\\n버려진 지하 묘지에 있습니다. &3유령의 눈&r을 따라가서 찾으세요."
+			tasks: [{
+				entity: "legendary_monsters:posessed_paladin"
+				icon: "legendary_monsters:eye_of_ghost"
+				id: "03F7C9DA5B9B2488"
+				title: "[LVL 4] 빙의된 팔라딘"
+				type: "kill"
+				value: 1
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3C64330FB307C23C"]
+			description: ["{image:otherworld:textures/captain_cornelia.png width:120 height:100 align:center}"]
+			id: "1AD7DB0F192E3A55"
+			rewards: [{
+				id: "16992260FCA81E31"
+				type: "xp"
+				xp: 350
+			}]
+			subtitle: "얼어붙은 &3얼음 미로&r에 있는 그녀의 버려진 배 근처에서 조가비 뿔피리를 사용하여 그녀를 불러내세요. \\n\\n그녀의 방어력을 낮추려면 &8나약함&r을 걸리게 하세요."
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: "aquamirae:rune_of_the_storm"
+				id: "572B311673B0B1BB"
+				title: "[LVL 5] 코넬리아 선장의 유령"
+				type: "kill"
+				value: 1
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["04343D2A9C34BC47"]
+			description: ["{image:otherworld:textures/draugr_boss.png width:130 height:150 align:center}"]
+			id: "2F6F8CA5321EBECA"
+			subtitle: "결코 실현되지 않은 예언을 위해 평생을 훈련한 전사. \\n\\n고대 챔피언의 무덤에 있습니다. &b달빛돌 나침반&r을 사용하여 찾으세요."
+			tasks: [{
+				entity: "soulsweapons:draugr_boss"
+				icon: {
+					Count: 1
+					id: "soulsweapons:draugr"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4258F7B1AF3CBD56"
+				title: "[LVL 6] 고대 챔피언"
+				type: "kill"
+				value: 1
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6A1272499C491048"]
+			description: [
+				"{image:otherworld:textures/lich.png width:150 height:150 align:center}"
+				""
+				"\"정신의 본질은 불가사의합니다. 바보들은 그것이 삶의 연속성을 필요로 한다고 믿습니다. 이야기에는 더 많은 것이 있습니다.\""
+				"&7- 리치의 일지&r"
+			]
+			id: "4D302ED193B29EA1"
+			rewards: [{
+				id: "6BF65A76AFC396E8"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "pentagon"
+			size: 1.25d
+			subtitle: "삶과 죽음의 비밀에 사로잡힌 강력한 마법사. \\n\\n4개의 조각된 돌 제단 각각에 &b영혼의 별&r을 놓아 소환하세요."
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "bosses_of_mass_destruction:soul_star"
+				id: "0B62EDD4F4F4204F"
+				title: "[LVL 7] 밤의 리치"
+				type: "kill"
+				value: 1
+			}]
+			x: -3.75d
+			y: 10.0d
+		}
+		{
+			dependencies: ["583549022CAC7998"]
+			description: [
+				"{image:otherworld:textures/dead_king.png width:100 height:200 align:center}"
+				""
+				"\"하지만 여기에는 무엇이 있습니까, 울프릭? 무엇이 남았습니까?\""
+			]
+			id: "5F2041DE2169DEF8"
+			rewards: [{
+				id: "7438CA4BBAC5317E"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "밤의 리치의 가장 성공적인 피험자이자 가장 비극적인 인물. \\n\\n그는 자신의 왕국을 영원히 보존하려고 했지만, 영원히 빈 왕좌를 통치하게 되었습니다."
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: "irons_spellbooks:blood_staff"
+				id: "3AC9070CD04E1CD3"
+				title: "[LVL 8] &4죽은 왕&r"
+				type: "kill"
+				value: 1
+			}]
+			x: -9.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5F2041DE2169DEF8"]
+			description: [
+				"리치의 기록에 따르면 그의 탑 아래 &b성소&r에서 발견된 &2제단&r은 &o\"순수한 절망의 증류된 정수\"&r에 반응할 것이라고 합니다."
+				""
+				"&4죽은 왕&r이 떨어뜨린 &8목걸이&r는 정확히 이 목적을 위해 준비되었을 것입니다."
+			]
+			icon: "otherworld:death_stone"
+			id: "55745170634264F2"
+			rewards: [
+				{
+					exclude_from_claim_all: 1
+					id: "6497B8B08658EE25"
+					table_id: 402326275143769200L
+					type: "choice"
+				}
+				{
+					auto: "invisible"
+					command: "/gamestage add @s chapter_1 true"
+					elevate_perms: 1
+					icon: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:soul_speed"
+								lvl: 7
+							}]
+						}
+					}
+					id: "7A67F9F0EDB91EDD"
+					silent: 1
+					title: "캐릭터 레벨 6+ 잠금 해제"
+					type: "command"
+				}
+				{
+					id: "7940D3AD6D184E4D"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "0C7BF40FF41147FC"
+					item: "legendarysurvivaloverhaul:heart_container"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "그의 탑 아래 &b리치의 성소&r에서 &8슬픔의 목걸이&r를 불어넣으세요."
+			tasks: [{
+				id: "26D0406B1B0B2B20"
+				item: "otherworld:death_stone"
+				title: "&4죽음의 돌&r 획득"
+				type: "item"
+			}]
+			title: "절망의 정수"
+			x: -10.625d
+			y: 9.375d
+		}
+		{
+			dependencies: ["2F6F8CA5321EBECA"]
+			description: ["{image:otherworld:textures/night_shade.png width:130 height:150 align:center}"]
+			id: "0EF7950125EE70A4"
+			rewards: [{
+				id: "67ADF82C74B36E2C"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "pentagon"
+			size: 1.25d
+			subtitle: "잃어버린 잠재력에 대한 슬픔과 부인으로 뒤틀린 고대 챔피언의 그림자. 근처의 플레이어에게 빙의됩니다. \\n\\n패배한 고대 챔피언으로부터 생성됩니다."
+			tasks: [{
+				entity: "soulsweapons:night_shade"
+				icon: {
+					Count: 1
+					id: "soulsweapons:forlorn_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7D4163271D25F874"
+				title: "[LVL 6] 광분한 그림자"
+				type: "kill"
+				value: 1
+			}]
+			x: -3.125d
+			y: 11.25d
+		}
+		{
+			dependencies: ["04343D2A9C34BC47"]
+			id: "6A1272499C491048"
+			subtitle: "&b밤의 리치&r 힘의 조각으로, 여전히 그 근원과 연결되어 있습니다. 하나를 던져서 &b리치의 탑&r을 찾으세요. \\n\\n&b영혼의 별&r은 &2언데드&r로부터 드랍됩니다."
+			tasks: [{
+				id: "650F24199C5F826D"
+				item: "bosses_of_mass_destruction:soul_star"
+				title: "&b영혼의 별&b 획득"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["28F686844D6920F8"]
+			id: "589B6BE23946BA47"
+			rewards: [{
+				id: "108CFF839BEC9C41"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "방해하는 자들의 생명력을 고갈시키기 위해 리치가 보낸 끔찍한 강령. 그 존재는 강령술의 부패가 심화되고 있음을 나타냅니다. \\n\\n10번째 밤 이후에 생성되어 방해하는 자들을 사냥합니다."
+			tasks: [{
+				entity: "born_in_chaos_v1:lifestealer_true_form"
+				icon: "born_in_chaos_v1:lifestealer_skull"
+				id: "01F2DC61E8331E4A"
+				title: "(선택 사항) &4생명 강탈자&4 처치"
+				type: "kill"
+				value: 1
+			}]
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["215B11F593D82984"]
+			icon: "born_in_chaos_v1:nightmare_stalker_skull"
+			id: "25C4269D9783091B"
+			rewards: [{
+				id: "30A95544CEAA7894"
+				type: "xp"
+				xp: 250
+			}]
+			subtitle: "위협을 제거하기 위해 리치가 파견한 그림자 포식자. 그것의 냉기 어린 속삭임은 리치의 힘이 확장됨에 따라 커지는 공포를 반영합니다. \\n\\n세 번째 밤부터 나타나 주인의 계획에 대한 장애물을 찾습니다."
+			tasks: [{
+				entity: "born_in_chaos_v1:nightmare_stalker"
+				id: "23EE8D75805C9FFD"
+				title: "(선택 사항) &1악몽 추종자&r 처치"
+				type: "kill"
+				value: 1
+			}]
+			x: -6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["589B6BE23946BA47"]
+			id: "63216906038EA251"
+			rewards: [
+				{
+					id: "63923D0F58E8BE2D"
+					item: {
+						Count: 1
+						id: "valoria:ethereal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "376C8FF9A57EA398"
+					type: "xp"
+					xp: 5000
+				}
+			]
+			subtitle: "낡은 로브를 입은 이 언데드 선교사는 리치의 영향력을 전파하고 언데드의 '선물'에 저항하는 자들을 사냥합니다. \\n\\n10번째 밤부터 나타나 리치의 뜻을 수행합니다."
+			tasks: [{
+				entity: "born_in_chaos_v1:missioner"
+				icon: {
+					Count: 1
+					id: "born_in_chaos_v1:missionary_hat_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3E07E8FF7725C6B3"
+				title: "(선택 사항) &d선교사&r 처치"
+				type: "kill"
+				value: 1
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["25C4269D9783091B"]
+			id: "28F686844D6920F8"
+			rewards: [{
+				id: "39EF198784314AD7"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "한때 용감한 전사였으나 이제 리치의 종으로 뒤틀렸습니다. 이 타락한 기사는 불가피한 언데드의 물결에 반대하는 자들을 기다리는 운명을 보여줍니다. \\n\\n저항을 분쇄하기 위해 보내진 타락한 챔피언입니다."
+			tasks: [{
+				entity: "born_in_chaos_v1:fallen_chaos_knight"
+				icon: "born_in_chaos_v1:death_totem"
+				id: "0D229521F0963898"
+				title: "(선택 사항) &3타락한 혼돈 기사&r 처치"
+				type: "kill"
+				value: 1
+			}]
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			description: ["\"언데드는 더 이상 단순히 비틀거리지 않습니다. 그들이 조직하고, 계획하고, 내가 이해하지 못하는 언어로 서로 속삭이는 것을 보았습니다...\""]
+			id: "5C297931430CAF19"
+			subtitle: "다른 세계 아래에서 고대의 우르릉거림이 커지고 있습니다. 죽은 자들이 끔찍한 목적 의식을 가지고 일어나기 시작했습니다. \\n\\n그들의 부활 뒤에 있는 힘은 무엇일까요?"
+			tasks: [{
+				icon: "scholar:black_writable_book"
+				id: "5E559F7B7E96E50F"
+				observe_type: 5
+				timer: 0
+				title: "&2좀비&2 찾기"
+				to_observe: "minecraft:zombie"
+				type: "observation"
+			}]
+			title: "&41장&r&0| &f과거 시대의 유령"
+			x: -10.5d
+			y: 7.0d
+		}
+		{
+			id: "3E23E47D7B1AE506"
+			invisible: 1
+			rewards: [{
+				id: "6431BC05418CF2DD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "흔한 시체가 이제 해골로 썩어가는 부패를 시작합니다. \\n\\n일어난 죽은 자의 기본적이지만 위험한 구성원입니다."
+			tasks: [{
+				entity: "born_in_chaos_v1:decaying_zombie"
+				icon: "minecraft:zombie_head"
+				id: "6E22B6200AC53647"
+				title: "(선택 사항) &2부패하는 좀비&r 처치"
+				type: "kill"
+				value: 1
+			}]
+			x: -9.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3E23E47D7B1AE506"]
+			icon: "born_in_chaos_v1:shattered_skull"
+			id: "215B11F593D82984"
+			rewards: [{
+				id: "5ED903959C41A804"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "더 강하고, 더 사악하고, 놀랍게도 교활합니다. 이 언데드 공포는 이전 전투 능력의 일부를 유지하는 것 같습니다. \\n\\n비틀거리는 죽은 자의 더 강력한 변종입니다."
+			tasks: [{
+				entity: "born_in_chaos_v1:zombie_bruiser"
+				id: "39D44629D9EB1222"
+				title: "(선택 사항) &2좀비 파괴자&r 처치"
+				type: "kill"
+				value: 1
+			}]
+			x: -8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"4D302ED193B29EA1"
+				"0EF7950125EE70A4"
+			]
+			description: ["{image:otherworld:textures/wayward_compass.png width:150 height:75 align:center}"]
+			hide_until_deps_visible: 0
+			id: "1BBA56556DCE70EE"
+			invisible_until_tasks: 1
+			min_required_dependencies: 1
+			rewards: [{
+				count: 4
+				id: "0B5AE9B63D7D96FB"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			subtitle: "그것은 수천 년 동안 살아있는 갇힌 왕과 지하 성채인 걸작에 대해 언급합니다. \\n\\n&7일지는 왕, 제단, 그리고 \"&3제멋대로인 나침반&r\" 사용에 대해 언급합니다."
+			tasks: [{
+				id: "245A3B404CDFD906"
+				item: "otherworld:lich_journal"
+				match_nbt: 0
+				title: "&b리치의 일지&r 획득"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5C297931430CAF19"]
+			description: ["{image:otherworld:textures/eye_of_ghost.png width:150 height:75 align:center}"]
+			icon: {
+				Count: 1
+				id: "minecraft:written_book"
+				tag: {
+					author: "???"
+					"otherworld:is_quest_item": 1
+					pages: [
+						"{\"text\":\"Greetings my child; \\n\\nI hope you're enjoying your new capabilities. \\n\\nContinue to sow chaos however you can. Fear is growing, suffering abounds - All according to plan.\"}"
+						"{\"text\":\"The Paladin Kaelen is a threat to our cause.\\n\\nThe longer he lives, espousing his virtuous nonsense, the bolder the populace becomes.\\n\\nHe must be dealt with. The &3Eye of the Ghosts&r is now linked to him - use it to track him down.\"}"
+					]
+					resolved: 1
+					title: "찢어진 편지"
+				}
+			}
+			id: "53FD6D212F70D484"
+			rewards: [{
+				count: 4
+				id: "4AC9E88EDDA2A85D"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			subtitle: "언데드에게 새로운 주인이 생긴 것 같습니다. \\n\\n좀비가 떨어뜨린 쪽지는 팔라딘에 대해 언급하고 &3유령의 눈&r을 사용하여 그를 찾는다고 합니다."
+			tasks: [{
+				id: "5A963A1DDF4375F2"
+				item: "otherworld:lich_missive"
+				match_nbt: 0
+				type: "item"
+			}]
+			title: "좀비에서 발견된 &2편지&r를 찾아 읽으세요."
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["42B1BFC324919137"]
+			id: "3C64330FB307C23C"
+			subtitle: "&6선장&r은 어디에도 없지만, 배의 기록에는 그녀가 &3수중 다이빙&r을 갔다고 언급되어 있습니다. \\n\\n&2조가비 뿔피리&r는 그녀를 불러올 수 있어야 합니다."
+			tasks: [{
+				id: "2A5AAF9ACD81BDE1"
+				item: "aquamirae:shell_horn"
+				title: "&2조가비 뿔피리&r 획득"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0F5B65A4DC665C6C"]
+			id: "784706A77F7FC7E3"
+			rewards: [{
+				id: "24F1FBD3773006C7"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "팔라딘은 &6해적&r이 증가하는 언데드 위협에 대한 내부 정보를 가지고 있을 수 있다고 믿고 &6해적 선장&r을 심문할 계획이었습니다. \\n\\n그의 사망 전 다음 목적지는 &b얼음물 속 난파선&r을 찾는 것이었습니다."
+			tasks: [{
+				id: "0B6AB170C940492E"
+				item: "otherworld:kaelen_journal"
+				match_nbt: 0
+				title: "팔라딘의 &2일지&r 읽기"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["784706A77F7FC7E3"]
+			id: "42B1BFC324919137"
+			subtitle: "팔라딘의 일지에 따르면 &6해적 선원&r이 그들의 난파선 근처 \"얼음물\"에 남아 있어야 합니다. 가장 가능성이 높은 곳은 &b깊은 얼어붙은 바다&r입니다."
+			tasks: [{
+				icon: "aquamirae:pirate_pouch"
+				id: "0F309A7476CB4E02"
+				structure: "aquamirae:ship"
+				title: "&6좌초된 해적선&r 찾기"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1AD7DB0F192E3A55"]
+			id: "04343D2A9C34BC47"
+			subtitle: "코넬리아는 그녀의 의뢰인인 &b리치&r가 귀중한 것을 숨기고 있다고 의심했습니다. \\n\\n그녀는 리치가 자주 방문했던 &8고대 챔피언&r을 찾거나, 그의 탑에서 &b리치&r 자신과 대결하는 것에 대해 언급했습니다. \\n\\n&o게임 플레이 참고 사항: &b리치&r&o는 비행 전투이며, 원거리 또는 마법 사용자에게만 권장됩니다. \\n고대 챔피언과 광분한 그림자는 더 어렵지만, 근접 캐릭터도 싸울 수 있습니다."
+			tasks: [{
+				id: "7B54423D988999B3"
+				item: "otherworld:cornelia_log"
+				match_nbt: 0
+				title: "&6코넬리아의 연구 일지 읽기"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1BBA56556DCE70EE"]
+			id: "583549022CAC7998"
+			subtitle: "&3제멋대로인 나침반&r은 &4죽은 왕&r이 잠들어 있는 이 지하 안식처를 가리킵니다."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:wayward_compass"
+					tag: { }
+				}
+				id: "4065D07AEA28788D"
+				structure: "irons_spellbooks:catacombs"
+				title: "&2지하 묘지&r 찾기."
+				type: "structure"
+			}]
+			x: -7.0d
+			y: 10.0d
+		}
+	]
+	title: " &3과거 시대의 유령&r &f|&r &7(Lv. 2+)&r"
+}

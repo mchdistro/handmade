@@ -1,0 +1,14 @@
+{
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cataclysm_spellbooks"
+    }
+  ],
+  "type": "otherworldapoth:transmutation",
+  "school": "cataclysm_spellbooks:abyssal",
+  "types": [
+    "sword",
+    "heavy_weapon"
+  ]
+}

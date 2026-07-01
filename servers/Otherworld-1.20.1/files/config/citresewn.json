@@ -1,0 +1,7 @@
+{
+    "enabled": true,
+    "mute_errors": true,
+    "mute_warns": true,
+    "citenchantment_scroll_multiplier": 8.0,
+    "cache_ms": 50
+}
