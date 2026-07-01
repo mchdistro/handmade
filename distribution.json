@@ -25826,6 +25826,17 @@
           }
         },
         {
+          "id": "gtmarketplace-forge-1.20.1-0.1.0-SNAPSHOT.jar",
+          "name": "gtmarketplace-forge-1.20.1-0.1.0-SNAPSHOT.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5617017,
+            "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld-1.20.1/files/mods/gtmarketplace-forge-1.20.1-0.1.0-SNAPSHOT.jar",
+            "MD5": "26d0a5377beb39acf8bf76592c6dd9d7",
+            "path": "mods/gtmarketplace-forge-1.20.1-0.1.0-SNAPSHOT.jar"
+          }
+        },
+        {
           "id": "gtnick-forge-both-1.20.1-2.0.4.jar",
           "name": "gtnick-forge-both-1.20.1-2.0.4.jar",
           "type": "File",
