@@ -448,6 +448,20 @@
           ]
         },
         {
+          "id": "com.gitter:gtmarketplace:0.1.0-SNAPSHOT@jar",
+          "name": "GTMarketplace",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5617017,
+            "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld-1.20.1/forgemods/optionaloff/gtmarketplace-forge-1.20.1-0.1.0-SNAPSHOT.jar",
+            "MD5": "26d0a5377beb39acf8bf76592c6dd9d7"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
           "id": "aaa_particles-client.toml",
           "name": "aaa_particles-client.toml",
           "type": "File",
@@ -25823,17 +25837,6 @@
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld-1.20.1/files/mods/gtinventorysave-forge-1.20.1-1.0.0.jar",
             "MD5": "bf945bf10f37d4f9bc5289cdffcff316",
             "path": "mods/gtinventorysave-forge-1.20.1-1.0.0.jar"
-          }
-        },
-        {
-          "id": "gtmarketplace-forge-1.20.1-0.1.0-SNAPSHOT.jar",
-          "name": "gtmarketplace-forge-1.20.1-0.1.0-SNAPSHOT.jar",
-          "type": "File",
-          "artifact": {
-            "size": 5617017,
-            "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld-1.20.1/files/mods/gtmarketplace-forge-1.20.1-0.1.0-SNAPSHOT.jar",
-            "MD5": "26d0a5377beb39acf8bf76592c6dd9d7",
-            "path": "mods/gtmarketplace-forge-1.20.1-0.1.0-SNAPSHOT.jar"
           }
         },
         {
