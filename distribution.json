@@ -448,13 +448,13 @@
           ]
         },
         {
-          "id": "com.gitter.gtcore.loader:gtcore:2.0.10@jar",
-          "name": "GTcore",
+          "id": "gg.chaldea.client.reset.packet:clientresetpacket:0.0.6@jar",
+          "name": "Client Reset Packet",
           "type": "ForgeMod",
           "artifact": {
-            "size": 9896479,
-            "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld-1.20.1/forgemods/optionalon/GTCore-Forge-1.20.1-2.0.10.jar",
-            "MD5": "1e1ffbb03b49795f97f43b7080c8f3bb"
+            "size": 12869,
+            "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld-1.20.1/forgemods/optionalon/ForgeClientResetPacket-0.3.1.jar",
+            "MD5": "a5957f3448beeae5a07a4924f7f30e95"
           },
           "required": {
             "value": false
@@ -465,9 +465,9 @@
           "name": "GTMarketplace",
           "type": "ForgeMod",
           "artifact": {
-            "size": 5617017,
+            "size": 5644436,
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld-1.20.1/forgemods/optionalon/gtmarketplace-forge-1.20.1-0.1.0-SNAPSHOT.jar",
-            "MD5": "26d0a5377beb39acf8bf76592c6dd9d7"
+            "MD5": "44e89081db853561f9222030544258cc"
           },
           "required": {
             "value": false
