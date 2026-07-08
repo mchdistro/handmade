@@ -448,32 +448,6 @@
           ]
         },
         {
-          "id": "gg.chaldea.client.reset.packet:clientresetpacket:0.0.6@jar",
-          "name": "Client Reset Packet",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 12869,
-            "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld-1.20.1/forgemods/optionalon/ForgeClientResetPacket-0.3.1.jar",
-            "MD5": "a5957f3448beeae5a07a4924f7f30e95"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.gitter:gtmarketplace:0.1.0-SNAPSHOT@jar",
-          "name": "GTMarketplace",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 5644436,
-            "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld-1.20.1/forgemods/optionalon/gtmarketplace-forge-1.20.1-0.1.0-SNAPSHOT.jar",
-            "MD5": "44e89081db853561f9222030544258cc"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
           "id": "aaa_particles-client.toml",
           "name": "aaa_particles-client.toml",
           "type": "File",
@@ -24202,6 +24176,17 @@
           }
         },
         {
+          "id": "autoreconnect-1.0.jar",
+          "name": "autoreconnect-1.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 8745,
+            "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld-1.20.1/files/mods/autoreconnect-1.0.jar",
+            "MD5": "46120ca005a81c0bf305d80f9500670b",
+            "path": "mods/autoreconnect-1.0.jar"
+          }
+        },
+        {
           "id": "azurelib-neo-1.20.1-3.0.27.jar",
           "name": "azurelib-neo-1.20.1-3.0.27.jar",
           "type": "File",
@@ -25071,6 +25056,17 @@
           }
         },
         {
+          "id": "DontClearChatHistory-1.jar",
+          "name": "DontClearChatHistory-1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3093,
+            "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld-1.20.1/files/mods/DontClearChatHistory-1.jar",
+            "MD5": "fb72ae2902fb690b2da7c6fc8063a2f5",
+            "path": "mods/DontClearChatHistory-1.jar"
+          }
+        },
+        {
           "id": "draconiccodex-0.6.jar",
           "name": "draconiccodex-0.6.jar",
           "type": "File",
@@ -25852,14 +25848,25 @@
           }
         },
         {
-          "id": "gtnick-forge-both-1.20.1-2.0.4.jar",
-          "name": "gtnick-forge-both-1.20.1-2.0.4.jar",
+          "id": "gtmarketplace-forge-1.20.1-0.1.0-SNAPSHOT.jar",
+          "name": "gtmarketplace-forge-1.20.1-0.1.0-SNAPSHOT.jar",
           "type": "File",
           "artifact": {
-            "size": 134322,
-            "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld-1.20.1/files/mods/gtnick-forge-both-1.20.1-2.0.4.jar",
-            "MD5": "0fb4d1b2792d2191410988715227941e",
-            "path": "mods/gtnick-forge-both-1.20.1-2.0.4.jar"
+            "size": 5644436,
+            "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld-1.20.1/files/mods/gtmarketplace-forge-1.20.1-0.1.0-SNAPSHOT.jar",
+            "MD5": "44e89081db853561f9222030544258cc",
+            "path": "mods/gtmarketplace-forge-1.20.1-0.1.0-SNAPSHOT.jar"
+          }
+        },
+        {
+          "id": "gtnick-forge-1.20.1-2.0.4.jar",
+          "name": "gtnick-forge-1.20.1-2.0.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 96456,
+            "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld-1.20.1/files/mods/gtnick-forge-1.20.1-2.0.4.jar",
+            "MD5": "b6dfaa9adf617e1721f719ddaf141070",
+            "path": "mods/gtnick-forge-1.20.1-2.0.4.jar"
           }
         },
         {
