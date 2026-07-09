@@ -28360,7 +28360,7 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 18824,
+            "size": 19504,
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld-1.20.1/files/options.txt",
             "path": "options.txt"
           }
@@ -34633,6 +34633,17 @@
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld-1.20.1/files/resourcepacks/Otherworld-Patches/pack.png",
             "MD5": "1fa60f17a46f80f87759595754cd1f4d",
             "path": "resourcepacks/Otherworld-Patches/pack.png"
+          }
+        },
+        {
+          "id": "pack.zip",
+          "name": "pack.zip",
+          "type": "File",
+          "artifact": {
+            "size": 707556,
+            "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld-1.20.1/files/resourcepacks/pack.zip",
+            "MD5": "b5cf2940d6ff24be56d94928fc87a069",
+            "path": "resourcepacks/pack.zip"
           }
         },
         {
