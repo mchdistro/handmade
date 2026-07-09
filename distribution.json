@@ -25881,6 +25881,17 @@
           }
         },
         {
+          "id": "guardstone-forge-1.0.3.jar",
+          "name": "guardstone-forge-1.0.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 306618,
+            "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld-1.20.1/files/mods/guardstone-forge-1.0.3.jar",
+            "MD5": "a73f776b3290473dbcb014fac862d240",
+            "path": "mods/guardstone-forge-1.0.3.jar"
+          }
+        },
+        {
           "id": "guild-fabric-0.4.7.jar",
           "name": "guild-fabric-0.4.7.jar",
           "type": "File",
