@@ -7852,7 +7852,7 @@
           "name": "oculus.properties",
           "type": "File",
           "artifact": {
-            "size": 296,
+            "size": 295,
             "url": "https://cdn.mc.gotiger.dev/handmade/servers/Otherworld2-1.20.1/files/config/oculus.properties",
             "path": "config/oculus.properties"
           }
